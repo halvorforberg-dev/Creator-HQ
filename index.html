@@ -125,6 +125,12 @@ scheduleRender();
  // Hide unused large widgets that duplicated the overview, retain all existing functionality.
  const bottom=main.querySelector('.bottom');if(bottom)statistics.appendChild(bottom);
  const otherSection=[...main.querySelectorAll('.section-heading')].filter(x=>!x.closest('#creator-publishing')&&!x.closest('#creator-statistics'));for(const el of otherSection){statistics.appendChild(el)}
+ // Keep the overview compact: place all remaining former dashboard sections under reporting.
+ for(const child of [...main.children]){
+   if(child===overview||child===publishing||child===statistics||child.classList?.contains('top'))continue;
+   if(child.classList?.contains('hero')){child.remove();continue;}
+   statistics.appendChild(child);
+ }
  window.showCreatorView=function(view){
    for(const v of ['overview','publishing','statistics'])document.getElementById('creator-'+v)?.classList.toggle('creator-hidden',v!==view);
    document.querySelectorAll('.aside .nav[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));
