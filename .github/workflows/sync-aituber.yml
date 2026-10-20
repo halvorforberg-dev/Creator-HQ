@@ -1,0 +1,33 @@
+name: Sync AI Tuber videos
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 7 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: aituber-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch AI Tuber videos (read only)
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: node scripts/sync-aituber.cjs
+      - name: Commit normalized dashboard data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/aituber.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh AI Tuber read-only video status"
+            git push
+          fi
