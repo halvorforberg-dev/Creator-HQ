@@ -1,0 +1,16 @@
+{
+  "source": "YouTube public artwork",
+  "channels": {
+    "whatif": {
+      "avatar": "assets/whatif-avatar.jpg",
+      "banner": "assets/whatif-banner.jpg"
+    },
+    "bizarre": {
+      "avatar": "assets/bizarre-avatar.jpg",
+      "banner": "assets/bizarre-banner.jpg"
+    },
+    "wild": {
+      "avatar": "assets/wild-avatar.jpg"
+    }
+  }
+}\n
