@@ -46,5 +46,5 @@ for key,page in CHANNELS.items():
       print(f'{key}: saved {dest}, {len(image)} bytes')
   except Exception as e:
     print(f'{key}: could not fetch assets: {type(e).__name__} {str(e)[:100]}')
-(DIR/'branding.json').write_text(json.dumps({'source':'YouTube public artwork','channels':manifest},indent=2)+'\\n')
+(DIR/'branding.json').write_text(json.dumps({'source':'YouTube public artwork','channels':manifest},indent=2)+'\n')
 print(f'Fetched {done} artwork files. If missing, design falls back gracefully.')
