@@ -25,6 +25,7 @@ def url_for(html,kind):
       return max(urls,key=len).replace('\\u0026','&')
   return None
 done=0
+manifest={}
 for key,page in CHANNELS.items():
   try:
     html=get(page).decode('utf8','ignore')
@@ -41,7 +42,9 @@ for key,page in CHANNELS.items():
       # Base64/encoding not necessary; preserve original image format
       ext='.webp' if image[:4]==b'RIFF' else '.png' if image[:8]==b'\x89PNG\r\n\x1a\n' else '.jpg'
       dest=DIR/(key+'-'+kind+ext); dest.write_bytes(image);done+=1
+      manifest.setdefault(key,{})[kind]=str(dest)
       print(f'{key}: saved {dest}, {len(image)} bytes')
   except Exception as e:
     print(f'{key}: could not fetch assets: {type(e).__name__} {str(e)[:100]}')
+(DIR/'branding.json').write_text(json.dumps({'source':'YouTube public artwork','channels':manifest},indent=2)+'\\n')
 print(f'Fetched {done} artwork files. If missing, design falls back gracefully.')
