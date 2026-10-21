@@ -6,7 +6,7 @@ const statePath='data/whatif-production-state.json';
 const mode=process.argv[2] || 'check';
 const token=process.env.AITUBER_API_KEY;
 const enabled=process.env.AITUBER_PRODUCTION_ENABLED==='true';
-const autopublish=process.env.AITUBER_AUTOPUBLISH_ENABLED==='true';
+const autopublish=process.env.AITUBER_AUTOPUBLISH_ENABLED==='true' && process.env.AITUBER_REVIEW_APPROVED==='true';
 const minCredits=300;
 const firstDay='2026-11-09';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
