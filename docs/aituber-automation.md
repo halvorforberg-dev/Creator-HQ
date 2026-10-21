@@ -9,15 +9,14 @@ Denne automatiseringen er laget for **What If in 40 Seconds**. Den produserer ku
 - Verifiser at riktig YouTube-konto er koblet på i AI Tuber. Koden godtar bare en unik, tilkoblet kanal med navnet **What If in 40 Seconds**, **What If in 35 Seconds** eller handle `@WhatIfin35seconds`/`@WhatIfin40seconds`.
 - GitHub → **Actions** → **AI Tuber — What If full-motion Shorts** → **Run workflow** → velg `check`. Dette tester API og kanal uten å bruke credits.
 
-## Slå på automatiseringen
+## Aktivering – én pilotvideo
 
-Åpne GitHub → Creator-HQ → **Settings → Secrets and variables → Actions → Variables**:
+1. Opprett to repository variables: `AITUBER_PRODUCTION_ENABLED=false` og `AITUBER_AUTOPUBLISH_ENABLED=false`. Dette er trygt utgangspunkt.
+2. Første test kan aktiveres ved å endre **kun** `AITUBER_PRODUCTION_ENABLED=true`. Den kjører tidligst **9. november 2026** og bare på mandag eller onsdag. Koden er begrenset til **én** kostnadsbærende videoproduksjon totalt inntil den blir revidert etter manuell kvalitetskontroll.
+3. La `AITUBER_AUTOPUBLISH_ENABLED=false` under piloten. Publiseringskoden krever i tillegg `AITUBER_REVIEW_APPROVED=true` før automatisk publisering tillates. Denne ekstra godkjenningen er ikke satt opp som variabel nå, og piloten publiserer derfor ikke.
+4. Etter at testvideoen er kontrollert for levende bevegelse, riktig fortellerstemme, undertekster og lengde, kan arbeidsflyten utvides med godkjent produksjonsplan og separate credit-budsjetter. Den hardkodede grensen på én video må da endres eksplisitt.
 
-1. Legg til `AITUBER_PRODUCTION_ENABLED` med verdien `true` når alle gamle planlagte sendinger er kontrollert. Ingen produksjon vil kjøre før denne variabelen er satt.
-2. La `AITUBER_AUTOPUBLISH_ENABLED` være avslått til en ny generert video har bestått en manuell kvalitetskontroll.
-3. Når filmkvaliteten og riktig YouTube-kanal er verifisert, kan `AITUBER_AUTOPUBLISH_ENABLED` også settes til `true`. Da planlegges nye videoer automatisk til **kl. 16:00 norsk tid**.
-
-Automatisk innhold kan først starte **9. november 2026**. Nye Shorts produseres bare **mandager og onsdager**. GitHub sjekker hver dag kl. 12:05 UTC, og skriptet vurderer norsk lokal dato/ukedag.
+GitHub sjekker hver dag kl. 12:05 UTC, men aktiv produksjon er låst til aktuelle publiseringsdager i norsk lokal tid. Når autopublisering en gang godkjennes, planlegges nye videoer til kl. 16:00 norsk tid.
 
 ## Kostnad, kvalitet og sikkerhet
 
