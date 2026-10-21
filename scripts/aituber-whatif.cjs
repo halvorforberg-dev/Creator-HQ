@@ -69,6 +69,8 @@ async function main(){
  const queue=JSON.parse(fs.readFileSync('data/whatif-production-queue.json','utf8'));
  const state=JSON.parse(fs.readFileSync(statePath,'utf8'));
  if(!Array.isArray(queue)||queue.length===0||!state.slots)error('Missing or invalid production queue/state');
+ const pilotAttempts=Object.values(state.slots).filter(x=>x.attemptedAt||x.videoId).length;
+ if(pilotAttempts>=1){console.log('One-video pilot limit reached; awaiting manual review.');return;}
  const key='whatif-'+day.date;
  let entry=state.slots[key];
  if(entry?.publicationId){console.log('This date is already scheduled by this pipeline.');return}
