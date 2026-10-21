@@ -86,11 +86,16 @@ async function main(){
  if(!item)error('Reserved topic removed from queue');
  if(!Array.isArray(item.hashtags)||item.hashtags.length<2||item.hashtags.length>3||item.hashtags.some(tag=>!/^#[A-Za-z0-9]+$/.test(tag)))error('Provide 2–3 relevant hashtags');
  if(typeof item.thumbnailPrompt!=='string'||item.thumbnailPrompt.length<60||item.thumbnailPrompt.length>550)error('Thumbnail prompt missing or too long');
+ if(typeof item.openingTitle!=='string'||item.openingTitle.length<8||item.openingTitle.length>60||item.openingTitleSeconds!==2.5)error('Opening title and 2.5-second target are required');
+ const openingDirection='Clear professionally typeset overlay reading '+JSON.stringify(item.openingTitle)+' for the first 2.5 seconds, continuously readable, over LIVE MOVING ACTION, not a title card or frozen image. Keep the camera moving naturally and continue the narration. '; 
+ const directedScript=item.script.replace(/^\[([^\]]+)\]/,(_,firstScene)=>'['+openingDirection+firstScene+']');
+ if(directedScript===item.script)error('Opening scene is missing');
+ console.log('Opening title target: '+item.openingTitle+' (2.5 sec); timing must be verified during manual video review');
  if(!entry.videoId){
   if(entry.attemptedAt)error('Generation request previously attempted; manual reconciliation required');
   entry.attemptedAt=new Date().toISOString();entry.phase='creating';
   save(state,'Prevent duplicate What If generation '+key);
-  const created=await api('/videos/generate','POST',{script:item.script,inputType:'script',mediaType:'video',videoQuality:'good',aspectRatio:'9:16',voiceSpeed:1.05,captionsEnabled:true,captionStyleId:'hormozi',thumbnail:{instructions:item.thumbnailPrompt}});
+  const created=await api('/videos/generate','POST',{script:directedScript,inputType:'script',mediaType:'video',videoQuality:'good',aspectRatio:'9:16',voiceSpeed:1.05,captionsEnabled:true,captionStyleId:'hormozi',thumbnail:{instructions:item.thumbnailPrompt}});
   const id=idFrom(created);
   if(!id||typeof id!=='string')error('No video ID in response. Do not automatically retry');
   entry.videoId=id;entry.phase='processing';
