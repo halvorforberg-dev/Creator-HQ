@@ -24,6 +24,16 @@ Kilder:
 - https://support.google.com/youtube/answer/6390658
 - https://support.google.com/youtube/answer/12220281
 
+## Fast regel fra 21. oktober: åpnings­tittel synlig i 2–3 sekunder
+
+- For **alle nye filmer på alle tre kanaler** må åpnings­tittelen være synlig, stabil og **lesbar i minst 2,0 og helst 2,5–3,0 sekunder**. **0,5 sekunder er ikke godt nok**.
+- Tittelen vises over en **levende åpningsscene** – ikke en stillestående intro eller svart skjerm. Narrasjon/musikk og handling kan starte umiddelbart, slik at vi beholder den sterke kroken fra første sekund.
+- Bruk en kort, men presis skjermtittel med gode kontraster og stor skrift. Ved lang YouTube-tittel: kort ned skjermtittelen, uten å endre budskapet.
+- Klipp ikke bort tittelen før den kan leses. Kontroller manuelt i ferdig video at faktisk skjermtid er mellom 2 og 3 sekunder (mål: **2,5 sekunder**), og at teksten ikke kolliderer med undertekster.
+- **Bizarre Past** (Higgsfield): legg tittel som redigerbart tekstlag 0:00–0:02,5 ved sammensetting. Historiefortellingen kan starte under teksten.
+- **What If** og **Little Wild Adventures** (AI Tuber): inkluder dette som redaksjonell instruks for kommende produksjoner. AI Tuber API-et vi har verifisert, har **ikke en dokumentert parameter for eksakt timing av titteltekst**. En prompt kan forsøke å styre introen, men eksakt 2,5 sekunder må verifiseres i eksporten, eventuelt korrigeres ved redigering før publisering. **Ikke påstå at et eksakt tidsstyrt tittellag er slått på via API-et.**
+- Endringen gjelder bare innhold som ennå **ikke** er planlagt/satt opp, og skal aldri endre, slette, flytte eller duplisere videoer som ligger klare.
+
 ## Bizarre Past (Higgsfield → Metricool, YouTube/TikTok)
 
 **Læringshypotese:** *Emu War* overpresterte på TikTok. Se spesielt etter temaer med en umiddelbart forståelig konflikt, en merkelig hendelse eller en utrolig konsekvens. En enkelt vellykket video beviser ikke at alle historier av denne typen vil virke.
