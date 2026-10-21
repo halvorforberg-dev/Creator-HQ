@@ -9,7 +9,9 @@
       "#Gravity",
       "#Science"
     ],
-    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. A red city bus and a shocked pedestrian floating high above a crowded street, intense wide-angle upward perspective, sunlit skyscrapers, striking sense of danger and wonder. Single central event, high contrast, instantly understandable at phone size. No words, logos or watermarks."
+    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. A red city bus and a shocked pedestrian floating high above a crowded street, intense wide-angle upward perspective, sunlit skyscrapers, striking sense of danger and wonder. Single central event, high contrast, instantly understandable at phone size. No words, logos or watermarks.",
+    "openingTitle": "WHAT IF GRAVITY VANISHED?",
+    "openingTitleSeconds": 2.5
   },
   {
     "id": "saturn-rings-earth",
@@ -21,7 +23,9 @@
       "#Space",
       "#Earth"
     ],
-    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Earthlike city skyline beneath huge luminous rings spanning the sky, a human silhouette looking upward, golden sunset against an enormous silver ring. One clear visual idea, high contrast, beautiful and mysterious. No words, logos or watermarks."
+    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Earthlike city skyline beneath huge luminous rings spanning the sky, a human silhouette looking upward, golden sunset against an enormous silver ring. One clear visual idea, high contrast, beautiful and mysterious. No words, logos or watermarks.",
+    "openingTitle": "WHAT IF EARTH HAD RINGS?",
+    "openingTitleSeconds": 2.5
   },
   {
     "id": "sun-dark-one-hour",
@@ -33,7 +37,9 @@
       "#Sun",
       "#Space"
     ],
-    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Half a modern city in sunshine, the other half under impossibly star-filled black daytime sky, startled people in foreground, bold light-dark split. Immediately understandable transformation, one dominant subject. No words, logos or watermarks."
+    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Half a modern city in sunshine, the other half under impossibly star-filled black daytime sky, startled people in foreground, bold light-dark split. Immediately understandable transformation, one dominant subject. No words, logos or watermarks.",
+    "openingTitle": "WHAT IF THE SUN WENT DARK?",
+    "openingTitleSeconds": 2.5
   },
   {
     "id": "moon-twice-as-close",
@@ -45,7 +51,9 @@
       "#Moon",
       "#Science"
     ],
-    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Gigantic glowing full Moon looming over oceanfront skyscrapers and a dramatic rising tide, small silhouette on pier for scale. Single dramatic celestial subject, high contrast, no text, logos or watermarks."
+    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Gigantic glowing full Moon looming over oceanfront skyscrapers and a dramatic rising tide, small silhouette on pier for scale. Single dramatic celestial subject, high contrast, no text, logos or watermarks.",
+    "openingTitle": "WHAT IF THE MOON MOVED CLOSER?",
+    "openingTitleSeconds": 2.5
   },
   {
     "id": "no-satellites-day",
@@ -57,7 +65,9 @@
       "#Technology",
       "#Satellites"
     ],
-    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Earth from orbit with hundreds of dark powerless satellites, one foreground satellite losing its lights, dramatic sunrise and blue planet below. One visually dramatic clear concept at phone size, no text, logos or watermarks."
+    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Earth from orbit with hundreds of dark powerless satellites, one foreground satellite losing its lights, dramatic sunrise and blue planet below. One visually dramatic clear concept at phone size, no text, logos or watermarks.",
+    "openingTitle": "WHAT IF SATELLITES FAILED?",
+    "openingTitleSeconds": 2.5
   },
   {
     "id": "ocean-freeze-overnight",
@@ -69,6 +79,8 @@
       "#Ocean",
       "#Climate"
     ],
-    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Giant ocean wave freezing into glasslike blue ice around a trapped cargo ship, sharp motion moment between liquid and ice, aerial cinematic angle, intense contrast. No text, logos or watermarks."
+    "thumbnailPrompt": "Photorealistic cinematic vertical thumbnail. Giant ocean wave freezing into glasslike blue ice around a trapped cargo ship, sharp motion moment between liquid and ice, aerial cinematic angle, intense contrast. No text, logos or watermarks.",
+    "openingTitle": "WHAT IF OCEANS FROZE?",
+    "openingTitleSeconds": 2.5
   }
 ]
