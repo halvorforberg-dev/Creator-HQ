@@ -84,11 +84,13 @@ async function main(){
  }
  const item=queue.find(x=>x.id===entry.topicId);
  if(!item)error('Reserved topic removed from queue');
+ if(!Array.isArray(item.hashtags)||item.hashtags.length<2||item.hashtags.length>3||item.hashtags.some(tag=>!/^#[A-Za-z0-9]+$/.test(tag)))error('Provide 2–3 relevant hashtags');
+ if(typeof item.thumbnailPrompt!=='string'||item.thumbnailPrompt.length<60||item.thumbnailPrompt.length>550)error('Thumbnail prompt missing or too long');
  if(!entry.videoId){
   if(entry.attemptedAt)error('Generation request previously attempted; manual reconciliation required');
   entry.attemptedAt=new Date().toISOString();entry.phase='creating';
   save(state,'Prevent duplicate What If generation '+key);
-  const created=await api('/videos/generate','POST',{script:item.script,inputType:'script',mediaType:'video',videoQuality:'good',aspectRatio:'9:16',voiceSpeed:1.05,captionsEnabled:true,captionStyleId:'hormozi'});
+  const created=await api('/videos/generate','POST',{script:item.script,inputType:'script',mediaType:'video',videoQuality:'good',aspectRatio:'9:16',voiceSpeed:1.05,captionsEnabled:true,captionStyleId:'hormozi',thumbnail:{instructions:item.thumbnailPrompt}});
   const id=idFrom(created);
   if(!id||typeof id!=='string')error('No video ID in response. Do not automatically retry');
   entry.videoId=id;entry.phase='processing';
@@ -110,7 +112,7 @@ async function main(){
  if(entry.publicationAttemptedAt)error('Publication attempted earlier; manual reconciliation required');
  entry.publicationAttemptedAt=new Date().toISOString();entry.phase='scheduling';
  save(state,'Prevent duplicate What If publication '+key);
- const posted=await api('/publications','POST',{videoId:entry.videoId,caption:item.caption+'\n\n#WhatIf #Science #Shorts',publishNow:false,scheduledAt:scheduled.toISOString(),addMadeWithCaption:false,channels:[{channelId:youtubeId,title:item.title,tags:['what if','science','shorts','curiosity'],categoryId:'28',madeForKids:false}]});
+ const posted=await api('/publications','POST',{videoId:entry.videoId,caption:item.caption+'\n\n'+item.hashtags.join(' '),publishNow:false,scheduledAt:scheduled.toISOString(),addMadeWithCaption:false,channels:[{channelId:youtubeId,title:item.title,tags:['what if','science','shorts',...item.hashtags.map(t=>t.slice(1).toLowerCase())],categoryId:'28',madeForKids:false}]});
  const pid=publicationId(posted);
  if(!pid||typeof pid!=='string')error('No publication ID in response. Do not retry automatically');
  entry.publicationId=pid;entry.phase='scheduled';entry.scheduledAt=scheduled.toISOString();
