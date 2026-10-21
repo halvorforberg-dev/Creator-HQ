@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-20T12:53:26.231Z",
+  "updatedAt": "2026-10-21T08:01:27.056Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "bab2d29e-12d6-4a54-a43c-f1e89ab36807",
+      "title": "What If Earth’s Gravity Became Half as Strong?",
+      "status": "completed",
+      "createdAt": "2026-10-20T16:00:51.805Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "9ab157e5-7e93-4a81-850b-b7d47a60bbb8",
       "title": "What If Earth Stopped Spinning for One Second?",
