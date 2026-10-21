@@ -1,7 +1,9 @@
 {
   "dashboard": "Creator HQ",
-  "lastConnectionTest": "2026-10-20",
+  "lastConnectionTest": "2026-10-21",
   "metricool": "connected in ChatGPT",
-  "aituber": "not connected",
-  "liveSync": false
+  "aituber": "connected via GitHub Actions (read-only API verified)",
+  "liveSync": false,
+  "aituberProduction": "configured; disabled pending activation",
+  "aituberAutopublish": false
 }
