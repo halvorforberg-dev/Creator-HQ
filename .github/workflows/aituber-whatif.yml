@@ -1,0 +1,41 @@
+name: AI Tuber — What If full-motion Shorts
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Read-only check or guarded production
+        type: choice
+        options: [check, produce]
+        default: check
+        required: true
+  push:
+    paths:
+      - '.github/workflows/aituber-whatif.yml'
+      - 'scripts/aituber-whatif.cjs'
+      - 'data/whatif-production-queue.json'
+  schedule:
+    # UTC run starts early; script schedules 16:00 local Oslo on Mon/Wed.
+    - cron: '5 12 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: aituber-whatif-production
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run AITuber verified channel pipeline
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+          AITUBER_PRODUCTION_ENABLED: ${{ vars.AITUBER_PRODUCTION_ENABLED }}
+          AITUBER_AUTOPUBLISH_ENABLED: ${{ vars.AITUBER_AUTOPUBLISH_ENABLED }}
+          RUN_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || github.event_name == 'push' && 'check' || 'produce' }}
+        run: node scripts/aituber-whatif.cjs "$RUN_MODE"
