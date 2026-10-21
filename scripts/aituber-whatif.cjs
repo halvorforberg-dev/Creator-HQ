@@ -45,7 +45,7 @@ function channel(list){
 function save(state,msg){
  fs.writeFileSync(statePath,JSON.stringify(state,null,2)+'\n');
  if(process.env.GITHUB_ACTIONS!=='true')return;
- const git=(...args)=>cp.execFileSync('git',args,{stdio:'pipe',timeout:30000});
+ const git=(args)=>cp.execFileSync('git',args,{stdio:'pipe',timeout:30000});
  git(['config','user.name','github-actions[bot]']);git(['config','user.email','41898282+github-actions[bot]@users.noreply.github.com']);
  git(['add',statePath]);
  try{git(['diff','--cached','--quiet']);return;}catch{}
