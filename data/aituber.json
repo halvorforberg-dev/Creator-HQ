@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-21T08:01:27.056Z",
+  "updatedAt": "2026-10-22T08:03:11.286Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "c274f728-001d-4c15-bdd4-77ff6b81802b",
+      "title": "The Upside-Down Backpack",
+      "status": "completed",
+      "createdAt": "2026-10-21T14:01:23.054Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "bab2d29e-12d6-4a54-a43c-f1e89ab36807",
       "title": "What If Earth’s Gravity Became Half as Strong?",
