@@ -1,9 +1,20 @@
 {
   "dashboard": "Creator HQ",
-  "lastConnectionTest": "2026-10-21",
+  "lastConnectionTest": "2026-10-22",
   "metricool": "connected in ChatGPT",
   "aituber": "connected via GitHub Actions (read-only API verified)",
   "liveSync": false,
   "aituberProduction": "configured; disabled pending activation",
-  "aituberAutopublish": false
+  "aituberAutopublish": false,
+  "channels": {
+    "highlights": {
+      "name": "Highlights Of Everything",
+      "url": "https://www.youtube.com/@HighlightsOfEverything67",
+      "youtubeChannelId": "UCOdgzz7nrlUmhdmMTKgVDlA",
+      "metricoolBrandId": "7571881",
+      "youtubeConnected": true,
+      "tiktokConnected": false,
+      "verifiedAt": "2026-10-22"
+    }
+  }
 }

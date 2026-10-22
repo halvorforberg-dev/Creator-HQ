@@ -5,6 +5,7 @@ CHANNELS={
   "whatif": "https://www.youtube.com/@WhatIfin35seconds",
   "bizarre": "https://www.youtube.com/@BizarrePast69",
   "wild": "https://www.youtube.com/@LittleWildAdventures67",
+  "highlights": "https://www.youtube.com/@HighlightsOfEverything67",
 }
 DIR=pathlib.Path('assets'); DIR.mkdir(exist_ok=True)
 HEADERS={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123 Safari/537.36','Accept-Language':'en-US,en;q=0.8'}
@@ -25,7 +26,10 @@ def url_for(html,kind):
       return max(urls,key=len).replace('\\u0026','&')
   return None
 done=0
-manifest={}
+try:
+  manifest=json.loads((DIR/'branding.json').read_text()).get('channels',{})
+except (OSError,ValueError):
+  manifest={}
 for key,page in CHANNELS.items():
   try:
     html=get(page).decode('utf8','ignore')

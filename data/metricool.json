@@ -1,161 +1,230 @@
 {
-  "updatedAt": "2026-10-20T14:26:00+02:00",
+  "updatedAt": "2026-10-22T07:04:14.634Z",
   "source": "Metricool connected account",
-  "note": "Snapshot; refreshed by ChatGPT scheduled task only if task runs successfully",
+  "timezone": "Europe/Oslo",
+  "note": "Verified snapshot. This page reads saved data; continuous Metricool sync is not enabled.",
+  "brands": [
+    {
+      "id": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "networks": [
+        "youtube",
+        "tiktok"
+      ],
+      "scheduledPosts": 20
+    },
+    {
+      "id": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "youtubeChannelId": "UCOdgzz7nrlUmhdmMTKgVDlA",
+      "networks": [
+        "youtube"
+      ],
+      "scheduledPosts": 0
+    }
+  ],
   "items": [
     {
       "id": "394451093",
-      "date": "2026-10-23T18:00:00",
+      "date": "2026-10-23T18:00:00+02:00",
       "network": "tiktok",
       "title": "The Vikings didn't just steal gold… they stole PEOPLE 😳 #Vikings #History #BizarreHistory",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394451334",
-      "date": "2026-10-26T16:00:00",
+      "date": "2026-10-26T16:00:00+01:00",
       "network": "youtube",
       "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394451352",
-      "date": "2026-10-26T18:00:00",
+      "date": "2026-10-26T18:00:00+01:00",
       "network": "tiktok",
       "title": "The Blood Eagle: real Viking horror or dark legend? 😳 #Vikings #BloodEagle #BizarreHistory",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394462885",
-      "date": "2026-10-28T16:00:00",
+      "date": "2026-10-28T16:00:00+01:00",
       "network": "youtube",
       "title": "The Day Vikings Attacked God's Island 😱 | 793",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394462911",
-      "date": "2026-10-28T18:00:00",
+      "date": "2026-10-28T18:00:00+01:00",
       "network": "tiktok",
       "title": "The Day Vikings Attacked God's Island 😱 #Vikings #Lindisfarne #BizarrePast",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394468619",
-      "date": "2026-10-30T16:00:00",
+      "date": "2026-10-30T16:00:00+01:00",
       "network": "youtube",
       "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394468644",
-      "date": "2026-10-30T18:00:00",
+      "date": "2026-10-30T18:00:00+01:00",
       "network": "tiktok",
       "title": "The Viking king who changed their gods 😳 #Vikings #HaraldBluetooth #BizarrePast",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394468668",
-      "date": "2026-11-02T16:00:00",
+      "date": "2026-11-02T16:00:00+01:00",
       "network": "youtube",
       "title": "The Treasure Hidden for 1,100 Years 💰 | Galloway Hoard",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "394468693",
-      "date": "2026-11-02T18:00:00",
+      "date": "2026-11-02T18:00:00+01:00",
       "network": "tiktok",
       "title": "Viking treasure hidden 1,100 years 😳 #GallowayHoard #VikingTreasure #BizarrePast",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "395284923",
-      "date": "2026-10-24T16:00:00",
+      "date": "2026-10-24T16:00:00+02:00",
       "network": "youtube",
       "title": "The Vikings Made the King Pay to Leave Paris 😱 | AD 845",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "395284942",
-      "date": "2026-10-24T18:00:00",
+      "date": "2026-10-24T18:00:00+02:00",
       "network": "tiktok",
       "title": "The Vikings made a KING pay to leave Paris 😳 #Vikings #BizarrePast",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "395308646",
-      "date": "2026-11-04T16:00:00",
+      "date": "2026-11-04T16:00:00+01:00",
       "network": "youtube",
       "title": "People Died Searching for a Treasure Nobody Found 😳 | Oak Island",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "395308671",
-      "date": "2026-11-04T18:00:00",
+      "date": "2026-11-04T18:00:00+01:00",
       "network": "tiktok",
       "title": "People Died Searching for This Treasure 😳 #OakIsland #BizarrePast",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "395308699",
-      "date": "2026-11-06T16:00:00",
+      "date": "2026-11-06T16:00:00+01:00",
       "network": "youtube",
       "title": "Did the Knights Templar Hide Their Treasure? 😱 | 1307",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "395308721",
-      "date": "2026-11-06T18:00:00",
+      "date": "2026-11-06T18:00:00+01:00",
       "network": "tiktok",
       "title": "Did the Knights Templar Hide Their Gold? 😳 #Templars #BizarrePast",
-      "status": "PENDING"
-    },
-    {
-      "id": "396861068",
-      "date": "2026-10-21T16:00:00",
-      "network": "youtube",
-      "title": "Vikings Left Prisoners for the Rising Tide? 😳 | Norse Saga",
-      "status": "PENDING"
-    },
-    {
-      "id": "396861089",
-      "date": "2026-10-21T18:00:00",
-      "network": "tiktok",
-      "title": "Did you know this terrifying Viking saga? 😳 #Vikings",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "396861141",
-      "date": "2026-10-23T16:00:00",
+      "date": "2026-10-23T16:00:00+02:00",
       "network": "youtube",
       "title": "The Vikings Didn't Just Steal Gold — They Stole People 😳",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "398346491",
-      "date": "2026-10-25T16:00:00",
+      "date": "2026-10-25T16:00:00+01:00",
       "network": "youtube",
       "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "398346596",
-      "date": "2026-10-25T10:00:00",
+      "date": "2026-10-25T10:00:00+01:00",
       "network": "tiktok",
       "title": "One pig nearly started a war between Britain and America. 😳 #PigWar #BizarreHistory",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "398968206",
-      "date": "2026-11-08T10:00:00",
+      "date": "2026-11-08T10:00:00+01:00",
       "network": "tiktok",
       "title": "Did a Pastry Shop Help Start a War? 😳 #HistoryTok #BizarrePast",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     },
     {
       "id": "398968292",
-      "date": "2026-11-08T16:00:00",
+      "date": "2026-11-08T16:00:00+01:00",
       "network": "youtube",
       "title": "Did a Pastry Shop Help Start a War? 😳 | 1838",
-      "status": "PENDING"
+      "status": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past"
     }
   ]
 }

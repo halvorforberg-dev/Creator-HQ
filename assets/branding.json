@@ -11,6 +11,10 @@
     },
     "wild": {
       "avatar": "assets/wild-avatar.jpg"
+    },
+    "highlights": {
+      "avatar": "https://static.metricool.com/brand-avatar/7571881/202610/c2b80ea1-f6af-4e6a-99b0-2076dac5e6c4.png",
+      "banner": "assets/highlights-cover.svg"
     }
   }
 }

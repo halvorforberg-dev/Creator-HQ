@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Highlights of Everything">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1d254d"/><stop offset=".5" stop-color="#66385c"/><stop offset="1" stop-color="#ed824c"/></linearGradient><radialGradient id="glow"><stop stop-color="#ffd695" stop-opacity=".8"/><stop offset="1" stop-color="#ffd695" stop-opacity="0"/></radialGradient></defs>
+<path fill="url(#bg)" d="M0 0h1200v600H0z"/><ellipse cx="900" cy="90" rx="460" ry="320" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".13" fill="none"><path d="M-180 490Q600-260 1380 490M-80 560Q600-120 1280 560M0 620Q600 20 1200 620" stroke-width="3"/><circle cx="880" cy="230" r="146"/><circle cx="880" cy="230" r="180"/></g>
+<g transform="translate(780 138)"><rect width="195" height="180" rx="50" fill="#ffffff14" stroke="#ffe5b980" stroke-width="2"/><path d="m79 48 64 42-64 42z" fill="#fff4df"/></g>
+<g fill="#ffedce" opacity=".7"><circle cx="120" cy="114" r="4"/><circle cx="1040" cy="109" r="5"/><circle cx="690" cy="329" r="4"/><path d="m1075 350 7 20 20 7-20 7-7 20-7-20-20-7 20-7z"/></g>
+<text x="74" y="180" fill="#ffe6c6" font-family="Arial,sans-serif" font-size="22" letter-spacing="8">THE MOMENTS THAT STAY</text>
+<text x="70" y="285" fill="white" font-family="Arial,sans-serif" font-size="92" font-weight="900" letter-spacing="-4">HIGHLIGHTS</text>
+<text x="76" y="345" fill="#ffdebd" font-family="Arial,sans-serif" font-size="39" font-weight="700" letter-spacing="5">OF EVERYTHING</text>
+</svg>
