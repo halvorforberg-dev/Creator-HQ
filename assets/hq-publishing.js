@@ -30,6 +30,8 @@
     await ready();
 
     const stamp = date(snapshot.updatedAt);
+    const readDate = document.getElementById('metricool-read-date');
+    if (readDate) readDate.textContent = 'Metricool-avlesning: ' + new Date(snapshot.updatedAt).toLocaleDateString('nb-NO', {timeZone:'Europe/Oslo'});
     const meta = document.getElementById('chq-feed-meta');
     if (meta) meta.textContent = `Sist kontrollert ${stamp} · norsk tid · ${future.length} kommende poster. Metricool viser siste lagrede avlesning.`;
     const history = items.filter(post => post.status !== 'PENDING').sort((a,b) => new Date(b.date) - new Date(a.date));
