@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-22T08:03:11.286Z",
+  "updatedAt": "2026-10-23T07:59:51.093Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "8cfb8ad4-0641-4e12-b668-9fba160e88b4",
+      "title": "What If Every Bee Disappeared?",
+      "status": "completed",
+      "createdAt": "2026-10-22T16:00:59.678Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "c274f728-001d-4c15-bdd4-77ff6b81802b",
       "title": "The Upside-Down Backpack",
