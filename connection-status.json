@@ -4,8 +4,8 @@
   "metricool": "connected in ChatGPT; queues verified 2026-10-23",
   "aituber": "connected via GitHub Actions (read-only API verified)",
   "liveSync": false,
-  "aituberProduction": "configured; disabled pending activation",
-  "aituberAutopublish": false,
+  "aituberProduction": "Native AI Tuber Autopilot active for Little Wild and What If; weekly Little Wild long story paused",
+  "aituberAutopublish": true,
   "channels": {
     "highlights": {
       "name": "Highlights Of Everything",
@@ -15,16 +15,36 @@
       "youtubeConnected": true,
       "tiktokConnected": false,
       "verifiedAt": "2026-10-23"
+    },
+    "wild": {
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "connected": true,
+      "youtubeConnected": true,
+      "verifiedAt": "2026-10-23T14:08:37.182Z"
+    },
+    "whatif": {
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "connected": true,
+      "youtubeConnected": true,
+      "verifiedAt": "2026-10-23T14:08:37.182Z"
     }
   },
-  "lastDashboardRefresh": "2026-10-23T13:19:10.474Z",
+  "lastDashboardRefresh": "2026-10-23T14:08:37.182Z",
   "metricoolScheduledPosts": {
-    "bizarre": 20,
+    "bizarre": 19,
     "highlights": 4
   },
   "metricoolReadWindow": {
     "from": "2026-10-23",
     "through": "2026-11-30"
   },
-  "aituberSnapshotUpdatedAt": "2026-10-23T07:59:51.093Z"
+  "aituberSnapshotUpdatedAt": "2026-10-23T07:59:51.093Z",
+  "githubProduction": "configured; disabled pending activation",
+  "aituberPublicationVerifiedAt": "2026-10-23T14:08:37.182Z",
+  "aituberPublishedVideos": 7,
+  "lastMetricoolRefresh": "2026-10-23T14:09:45.088939+00:00"
 }

@@ -1,0 +1,148 @@
+{
+  "updatedAt": "2026-10-23T14:08:37.182Z",
+  "source": "AI Tuber Publications and Autopilot, verified in signed-in UI",
+  "publicationQueueCount": 0,
+  "note": "Publiseringsstatus og Autopilot er kontrollert manuelt på tidspunktet over. Den separate produksjonslisten hentes daglig.",
+  "channels": [
+    {
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "connected": true
+    },
+    {
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "connected": true
+    }
+  ],
+  "items": [
+    {
+      "id": "19e34420-61fd-4fcf-8180-f5bb5603f75d",
+      "title": "A Snail’s Leaf Boat Finally Sails! 🐌",
+      "sourceTitle": "The Snail’s Sunny Sail",
+      "publishedDate": "2026-10-23",
+      "videoId": "u9TDDd1-zCw",
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "durationSeconds": 31,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=u9TDDd1-zCw"
+    },
+    {
+      "id": "8cfb8ad4-0641-4e12-b668-9fba160e88b4",
+      "title": "What If Every Bee Disappeared?",
+      "sourceTitle": "What If Every Bee Disappeared?",
+      "publishedDate": "2026-10-22",
+      "videoId": "IhwnM1ipVWE",
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "durationSeconds": 40,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=IhwnM1ipVWE"
+    },
+    {
+      "id": "c274f728-001d-4c15-bdd4-77ff6b81802b",
+      "title": "Backpack Mix-Up! Meerkat & Bird Swap Bags",
+      "sourceTitle": "The Upside-Down Backpack",
+      "publishedDate": "2026-10-21",
+      "videoId": "WNfLBhrrlpY",
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "durationSeconds": 30,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=WNfLBhrrlpY"
+    },
+    {
+      "id": "bab2d29e-12d6-4a54-a43c-f1e89ab36807",
+      "title": "What If Earth’s Gravity Were Half as Strong?",
+      "sourceTitle": "What If Earth’s Gravity Became Half as Strong?",
+      "publishedDate": "2026-10-20",
+      "videoId": "6QOKuZNYIJU",
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "durationSeconds": 35,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=6QOKuZNYIJU"
+    },
+    {
+      "id": "9ab157e5-7e93-4a81-850b-b7d47a60bbb8",
+      "title": "What If Earth Stopped Spinning for One Second?",
+      "sourceTitle": "What If Earth Stopped Spinning for One Second?",
+      "publishedDate": "2026-10-19",
+      "videoId": "GuXlFlUfX7A",
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "durationSeconds": 38,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=GuXlFlUfX7A"
+    },
+    {
+      "id": "57578ee7-f22f-4136-bd7a-29eb9245636f",
+      "title": "Wobbly Waterwheel? Teamwork Saves the Day!",
+      "sourceTitle": "The Wobbly Waterwheel",
+      "publishedDate": "2026-10-19",
+      "videoId": "hu0N7AVcRAw",
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "durationSeconds": 30,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=hu0N7AVcRAw"
+    },
+    {
+      "id": "f8fa1675-0a8d-4f92-a210-f8a65fc93293",
+      "title": "What If the Moon Disappeared Tonight?",
+      "sourceTitle": "What If the Moon Disappeared? — What if in 35 seconds",
+      "publishedDate": "2026-10-18",
+      "videoId": "s42iD-x3u1g",
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "durationSeconds": null,
+      "status": "published",
+      "publicUrl": "https://www.youtube.com/watch?v=s42iD-x3u1g"
+    }
+  ],
+  "autopilots": [
+    {
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "title": "Little Wild Adventures",
+      "status": "active",
+      "cadence": "Annenhver dag kl. 16:00 i AI Tuber",
+      "displayTimezone": "GMT+2 ved kontroll",
+      "url": "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489",
+      "lastRelease": "2026-10-23",
+      "nextRunAt": null
+    },
+    {
+      "channelKey": "whatif",
+      "channelName": "What If in 35 Seconds",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "title": "What If",
+      "status": "active",
+      "cadence": "Annenhver dag kl. 18:00 i AI Tuber",
+      "displayTimezone": "GMT+2 ved kontroll",
+      "url": "https://app.aituber.app/dashboard/autopilot/dc3364b4-9342-4e44-8ca8-76cac21fd0c5",
+      "nextRunAt": "2026-10-24T18:00:00+02:00"
+    },
+    {
+      "channelKey": "wild",
+      "channelName": "Little Wild Adventures",
+      "youtubeChannelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "title": "Little Wild Adventures – Weekly Long Story",
+      "status": "paused",
+      "cadence": "Ukentlig langfilm",
+      "url": "https://app.aituber.app/dashboard/autopilot/34353f27-6cd1-420f-94c0-4f75c5f81610",
+      "nextRunAt": null
+    }
+  ]
+}

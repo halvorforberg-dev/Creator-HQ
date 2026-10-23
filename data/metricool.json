@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T13:19:10.474Z",
+  "updatedAt": "2026-10-23T14:09:45.088939+00:00",
   "source": "Metricool",
   "timezone": "Europe/Oslo",
   "note": "Kontrollert øyeblikksbilde. HQ viser sist lagrede avlesning; Metricool synkroniseres ikke løpende.",
@@ -16,7 +16,7 @@
         "youtube",
         "tiktok"
       ],
-      "scheduledPosts": 20
+      "scheduledPosts": 19
     },
     {
       "id": "7571881",
@@ -93,8 +93,8 @@
       "date": "2026-10-23T16:00:00+02:00",
       "network": "youtube",
       "title": "The Vikings Didn't Just Steal Gold — They Stole People 😳",
-      "status": "PENDING",
-      "sourceStatus": "PENDING",
+      "status": "PUBLISHED",
+      "sourceStatus": "PUBLISHED",
       "brandId": "7296504",
       "channelKey": "bizarre",
       "channelName": "Bizarre Past",
@@ -107,7 +107,8 @@
         "#Thralls"
       ],
       "format": "short",
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=7976071193466652973"
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=7976071193466652973",
+      "publicUrl": "https://www.youtube.com/shorts/N-uee5LCnx0"
     },
     {
       "id": "394451093",
