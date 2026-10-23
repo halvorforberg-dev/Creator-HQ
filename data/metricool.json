@@ -1,8 +1,12 @@
 {
-  "updatedAt": "2026-10-22T07:04:14.634Z",
-  "source": "Metricool connected account",
+  "updatedAt": "2026-10-23T13:19:10.474Z",
+  "source": "Metricool",
   "timezone": "Europe/Oslo",
-  "note": "Verified snapshot. This page reads saved data; continuous Metricool sync is not enabled.",
+  "note": "Kontrollert øyeblikksbilde. HQ viser sist lagrede avlesning; Metricool synkroniseres ikke løpende.",
+  "window": {
+    "from": "2026-10-23",
+    "through": "2026-11-30"
+  },
   "brands": [
     {
       "id": "7296504",
@@ -22,209 +26,641 @@
       "networks": [
         "youtube"
       ],
-      "scheduledPosts": 0
+      "scheduledPosts": 4
     }
   ],
   "items": [
     {
-      "id": "394451093",
-      "date": "2026-10-23T18:00:00+02:00",
-      "network": "tiktok",
-      "title": "The Vikings didn't just steal gold… they stole PEOPLE 😳 #Vikings #History #BizarreHistory",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394451334",
-      "date": "2026-10-26T16:00:00+01:00",
+      "id": "404066449",
+      "uuid": "-4799179624237284338",
+      "date": "2026-10-23T13:25:00+02:00",
       "network": "youtube",
-      "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "title": "Wildest Bottle Flips | Dude Perfect Highlights",
+      "status": "BLOCKED",
+      "sourceStatus": "PUBLISHED",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "The wildest bottle flips from Dude Perfect's Water Bottle Flip 2, condensed into a 3:45 highlight edit. From everyday trick shots to the ramp finale!\n\nOriginal creator: Dude Perfect\nOriginal video: https://www.youtube.com/watch?v=VJwoSfTOhyM\nHighlight edit: Highlights Of Everything\n\n#DudePerfect #BottleFlip #TrickShots",
+      "hashtags": [
+        "#DudePerfect",
+        "#BottleFlip",
+        "#TrickShots"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=-4799179624237284338",
+      "publicUrl": "https://www.youtube.com/watch?v=mDua4PHEMf8",
+      "attentionNote": "Blokkert av YouTube. Metricool viser at opplastingen ble publisert, men filmen er ikke tilgjengelig globalt.",
+      "statusEvidence": "YouTube-melding og bekreftet status 23. oktober 2026"
     },
     {
-      "id": "394451352",
-      "date": "2026-10-26T18:00:00+01:00",
-      "network": "tiktok",
-      "title": "The Blood Eagle: real Viking horror or dark legend? 😳 #Vikings #BloodEagle #BizarreHistory",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394462885",
-      "date": "2026-10-28T16:00:00+01:00",
+      "id": "404140176",
+      "uuid": "8802545705942667242",
+      "date": "2026-10-23T14:51:00+02:00",
       "network": "youtube",
-      "title": "The Day Vikings Attacked God's Island 😱 | 793",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394462911",
-      "date": "2026-10-28T18:00:00+01:00",
-      "network": "tiktok",
-      "title": "The Day Vikings Attacked God's Island 😱 #Vikings #Lindisfarne #BizarrePast",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394468619",
-      "date": "2026-10-30T16:00:00+01:00",
-      "network": "youtube",
-      "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394468644",
-      "date": "2026-10-30T18:00:00+01:00",
-      "network": "tiktok",
-      "title": "The Viking king who changed their gods 😳 #Vikings #HaraldBluetooth #BizarrePast",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394468668",
-      "date": "2026-11-02T16:00:00+01:00",
-      "network": "youtube",
-      "title": "The Treasure Hidden for 1,100 Years 💰 | Galloway Hoard",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "394468693",
-      "date": "2026-11-02T18:00:00+01:00",
-      "network": "tiktok",
-      "title": "Viking treasure hidden 1,100 years 😳 #GallowayHoard #VikingTreasure #BizarrePast",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "395284923",
-      "date": "2026-10-24T16:00:00+02:00",
-      "network": "youtube",
-      "title": "The Vikings Made the King Pay to Leave Paris 😱 | AD 845",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "395284942",
-      "date": "2026-10-24T18:00:00+02:00",
-      "network": "tiktok",
-      "title": "The Vikings made a KING pay to leave Paris 😳 #Vikings #BizarrePast",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "395308646",
-      "date": "2026-11-04T16:00:00+01:00",
-      "network": "youtube",
-      "title": "People Died Searching for a Treasure Nobody Found 😳 | Oak Island",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "395308671",
-      "date": "2026-11-04T18:00:00+01:00",
-      "network": "tiktok",
-      "title": "People Died Searching for This Treasure 😳 #OakIsland #BizarrePast",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "395308699",
-      "date": "2026-11-06T16:00:00+01:00",
-      "network": "youtube",
-      "title": "Did the Knights Templar Hide Their Treasure? 😱 | 1307",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
-    },
-    {
-      "id": "395308721",
-      "date": "2026-11-06T18:00:00+01:00",
-      "network": "tiktok",
-      "title": "Did the Knights Templar Hide Their Gold? 😳 #Templars #BizarrePast",
-      "status": "PENDING",
-      "brandId": "7296504",
-      "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "title": "They Bullied the Wrong Bunny | Big Buck Bunny Highlights",
+      "status": "PUBLISHED",
+      "sourceStatus": "PUBLISHED",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "Three woodland bullies pick the wrong rabbit. Watch the revenge build from the first provocation to the final trap in this condensed Big Buck Bunny highlight edit.\n\nOriginal film: Big Buck Bunny\nOriginal creator: Blender Foundation\n(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org\nOriginal video: https://www.youtube.com/watch?v=aqz-KE-bpKQ\nLicense: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/\nLicensor information: https://peach.blender.org/about/\n\nChanges: selected excerpts shortened and assembled into a highlight edit; opening title, attribution card, audio level adjustment and 1080p presentation added. Original picture proportions preserved.\nHighlight edit: Highlights Of Everything.\n\n#BigBuckBunny #Animation #Highlights",
+      "hashtags": [
+        "#BigBuckBunny",
+        "#Animation",
+        "#Highlights"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=8802545705942667242",
+      "publicUrl": "https://www.youtube.com/watch?v=uvLbEza6Iy0",
+      "batchId": "highlights-2026-10-23-24",
+      "film": "BIG BUCK BUNNY",
+      "durationSeconds": 233.2,
+      "quality": {
+        "width": 1920,
+        "height": 1080,
+        "frameRate": 30,
+        "verifiedAt": "2026-10-23"
+      },
+      "useTerms": "CC BY 3.0",
+      "sourceUrl": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+      "termsUrl": "https://peach.blender.org/about/",
+      "thumbnail": "./assets/highlights-bunny.jpg"
     },
     {
       "id": "396861141",
+      "uuid": "7976071193466652973",
       "date": "2026-10-23T16:00:00+02:00",
       "network": "youtube",
       "title": "The Vikings Didn't Just Steal Gold — They Stole People 😳",
       "status": "PENDING",
+      "sourceStatus": "PENDING",
       "brandId": "7296504",
       "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "channelName": "Bizarre Past",
+      "description": "Did you know that Vikings captured people and sold them into slavery?\n\nThe Vikings didn't just steal treasure — they captured and traded human beings.\n\nCaptives taken during raids in the British Isles and Eastern Europe could be sold at trading centres including Hedeby and Bolghar, or forced to work as thralls. Viking-era slavery is documented in written sources and archaeology.\n\nCinematic AI-generated historical reconstruction; not archival footage.\n\nSource: National Museum of Denmark — Slaves and thralls: https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/power-and-aristocracy/slaves-and-thralls/\n\n#Vikings #VikingHistory #BizarreHistory #HistoryShorts #Thralls\n\nSubscribe to Bizarre Past for more unbelievable historical stories.",
+      "hashtags": [
+        "#Vikings",
+        "#VikingHistory",
+        "#BizarreHistory",
+        "#HistoryShorts",
+        "#Thralls"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=7976071193466652973"
     },
     {
-      "id": "398346491",
-      "date": "2026-10-25T16:00:00+01:00",
-      "network": "youtube",
-      "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
+      "id": "394451093",
+      "uuid": "2128104298532980428",
+      "date": "2026-10-23T18:00:00+02:00",
+      "network": "tiktok",
+      "title": "The Vikings didn't just steal gold… they stole PEOPLE 😳 #Vikings #History #BizarreHistory",
       "status": "PENDING",
+      "sourceStatus": "PENDING",
       "brandId": "7296504",
       "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "channelName": "Bizarre Past",
+      "description": "The Vikings didn't just steal gold. They stole PEOPLE. 😳 The Viking Age slave trade was real — captives were sold or forced to work as thralls. AI historical reconstruction. #Vikings #VikingHistory #BizarreHistory #History #Thralls",
+      "hashtags": [
+        "#Vikings",
+        "#VikingHistory",
+        "#BizarreHistory",
+        "#History",
+        "#Thralls"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=2128104298532980428"
+    },
+    {
+      "id": "404150114",
+      "uuid": "1630623755528783313",
+      "date": "2026-10-23T18:00:00+02:00",
+      "network": "youtube",
+      "title": "They Messed With the Wrong Forest | Sprite Fright Highlights",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "A careless camping trip turns into a woodland nightmare. Cute mushroom creatures fight back in this horror-comedy highlight edit of Sprite Fright. General-audience entertainment; contains cartoon violence.\n\nOriginal film: Sprite Fright\nOriginal creator: Blender Foundation / Blender Studio\n(c) Blender Foundation | studio.blender.org\nOriginal video: https://www.youtube.com/watch?v=_cMxraX_5RE\nLicense: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/\nLicensor information: https://studio.blender.org/projects/sprite-fright/pages/about/\n\nChanges: selected excerpts shortened and assembled into a highlight edit; opening title, attribution card, audio level adjustment and 1080p presentation added. Original picture proportions preserved.\nHighlight edit: Highlights Of Everything.\n\n#SpriteFright #HorrorComedy #Highlights",
+      "hashtags": [
+        "#SpriteFright",
+        "#HorrorComedy",
+        "#Highlights"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=1630623755528783313",
+      "batchId": "highlights-2026-10-23-24",
+      "film": "SPRITE FRIGHT",
+      "durationSeconds": 248.033,
+      "quality": {
+        "width": 1920,
+        "height": 1080,
+        "frameRate": 24,
+        "verifiedAt": "2026-10-23"
+      },
+      "useTerms": "CC BY 4.0",
+      "sourceUrl": "https://www.youtube.com/watch?v=_cMxraX_5RE",
+      "termsUrl": "https://studio.blender.org/projects/sprite-fright/pages/about/",
+      "thumbnail": "./assets/highlights-sprite.jpg"
+    },
+    {
+      "id": "404150136",
+      "uuid": "4583830155242391493",
+      "date": "2026-10-24T12:00:00+02:00",
+      "network": "youtube",
+      "title": "She Searched for Her Dragon... Then Came the Twist | Sintel Highlights",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "A lost dragon, a long search, and a heartbreaking revelation. Follow the friendship, the quest and the final discovery in this condensed Sintel highlight edit.\n\nOriginal film: Sintel\nOriginal creator: Blender Foundation\n(c) Blender Foundation | sintel.org\nOriginal video: https://www.youtube.com/watch?v=eRsGyueVLvQ\nLicense: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/\nLicensor information: https://durian.blender.org/sharing/\n\nChanges: selected excerpts shortened and assembled into a highlight edit; opening title, attribution card, audio level adjustment and 1080p presentation added. Original picture proportions preserved.\nHighlight edit: Highlights Of Everything.\n\n#Sintel #Dragons #Highlights",
+      "hashtags": [
+        "#Sintel",
+        "#Dragons",
+        "#Highlights"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=4583830155242391493",
+      "batchId": "highlights-2026-10-23-24",
+      "film": "SINTEL",
+      "durationSeconds": 289,
+      "quality": {
+        "width": 1920,
+        "height": 1080,
+        "frameRate": 24,
+        "verifiedAt": "2026-10-23"
+      },
+      "useTerms": "CC BY 3.0",
+      "sourceUrl": "https://www.youtube.com/watch?v=eRsGyueVLvQ",
+      "termsUrl": "https://durian.blender.org/sharing/",
+      "thumbnail": "./assets/highlights-sintel.jpg"
+    },
+    {
+      "id": "395284923",
+      "uuid": "-4233797965069598021",
+      "date": "2026-10-24T16:00:00+02:00",
+      "network": "youtube",
+      "title": "The Vikings Made the King Pay to Leave Paris 😱 | AD 845",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "In AD 845, Viking raiders sailed up the Seine toward Paris. King Charles the Bald paid 7,000 pounds of silver for their withdrawal. The Vikings sailed away — but the raids were far from over.\n\nAI-generated cinematic historical reconstruction. Visual scenes are dramatized; not archival footage.\nHistorical reference: Annals of St-Bertin (845).\nMusic: Epical Drums 02 — Grigoriy Nuzhny (Mixkit Stock Music Free License).\n\n#Vikings #VikingHistory #Paris845 #HistoryShorts #BizarrePast",
+      "hashtags": [
+        "#Vikings",
+        "#VikingHistory",
+        "#Paris845",
+        "#HistoryShorts",
+        "#BizarrePast"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-4233797965069598021"
+    },
+    {
+      "id": "395284942",
+      "uuid": "8748362374841450719",
+      "date": "2026-10-24T18:00:00+02:00",
+      "network": "tiktok",
+      "title": "The Vikings made a KING pay to leave Paris 😳 #Vikings #BizarrePast",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "The Vikings reached Paris. In AD 845, King Charles the Bald paid 7,000 pounds of silver to make them leave. 😳 AI-generated historical dramatization. Music: Epical Drums 02 / Mixkit. #Vikings #VikingHistory #Paris845 #BizarrePast",
+      "hashtags": [
+        "#Vikings",
+        "#VikingHistory",
+        "#Paris845",
+        "#BizarrePast"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=8748362374841450719"
+    },
+    {
+      "id": "404157624",
+      "uuid": "-5367960493372915464",
+      "date": "2026-10-24T18:00:00+02:00",
+      "network": "youtube",
+      "title": "Touchdown on Mars! | Real Perseverance Landing Highlights",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "Watch Perseverance's parachute open, the heat shield fall away, and the rover descend to the Martian surface. This factual highlight edit follows selected moments from the real landing in Jezero Crater on 18 February 2021, with the original mission-control callouts.\n\nFootage and mission-control audio: NASA/JPL-Caltech.\nOriginal video: https://www.youtube.com/watch?v=4czjS9h4Fpg\nOfficial source: https://science.nasa.gov/resource/perseverance-rovers-descent-and-touchdown-on-mars-onboard-camera-views/\nMedia usage guidelines: https://www.nasa.gov/nasa-brand-center/images-and-media/\n\nChanges: selected excerpts shortened and assembled, explanatory phase labels, opening title and attribution card added, audio levels adjusted, and the official 4K master exported in 1080p. The sequence is condensed and contains gaps between excerpts. The source's parachute slow-motion and real-time comparison is retained with its original labels.\nHighlight edit: Highlights Of Everything. Independent informational edit; no NASA endorsement is implied.\n\n#Mars #Perseverance #Highlights",
+      "hashtags": [
+        "#Mars",
+        "#Perseverance",
+        "#Highlights"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=-5367960493372915464",
+      "batchId": "highlights-2026-10-23-24",
+      "film": "LANDING ON MARS",
+      "durationSeconds": 154,
+      "quality": {
+        "width": 1920,
+        "height": 1080,
+        "frameRate": 30,
+        "verifiedAt": "2026-10-23"
+      },
+      "useTerms": "NASA media use guidelines",
+      "sourceUrl": "https://www.youtube.com/watch?v=4czjS9h4Fpg",
+      "termsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "thumbnail": "./assets/highlights-nasa.jpg"
     },
     {
       "id": "398346596",
+      "uuid": "7119965634068235381",
       "date": "2026-10-25T10:00:00+01:00",
       "network": "tiktok",
       "title": "One pig nearly started a war between Britain and America. 😳 #PigWar #BizarreHistory",
       "status": "PENDING",
+      "sourceStatus": "PENDING",
       "brandId": "7296504",
       "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "channelName": "Bizarre Past",
+      "description": "One pig nearly started a war between Britain and America. 😳 In 1859, a dead pig triggered an armed standoff on San Juan Island—but nobody fired. AI-generated historical reconstruction. #History #PigWar #BizarreHistory #HistoryTok",
+      "hashtags": [
+        "#History",
+        "#PigWar",
+        "#BizarreHistory",
+        "#HistoryTok"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=7119965634068235381"
+    },
+    {
+      "id": "404067353",
+      "uuid": "-5078529569377140298",
+      "date": "2026-10-25T13:25:00+01:00",
+      "network": "youtube",
+      "title": "Wait for the Last Bottle Flip! | Dude Perfect Highlights #Shorts",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "Wait for the final bottle flip! A 30-second selection from Dude Perfect's Water Bottle Flip 2.\n\nOriginal creator: Dude Perfect\nOriginal video: https://www.youtube.com/watch?v=VJwoSfTOhyM\nHighlight edit: Highlights Of Everything\n\n#Shorts #DudePerfect #BottleFlip #TrickShots",
+      "hashtags": [
+        "#Shorts",
+        "#DudePerfect",
+        "#BottleFlip",
+        "#TrickShots"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=-5078529569377140298",
+      "attentionNote": "Planlagt fra tidligere. Hovedfilmen fra samme kilde ble blokkert; gjenbruksrettighetene er ikke avklart.",
+      "needsAttention": true
+    },
+    {
+      "id": "398346491",
+      "uuid": "7326045747158011396",
+      "date": "2026-10-25T16:00:00+01:00",
+      "network": "youtube",
+      "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "One pig nearly started a war between Britain and America.\n\nIn 1859, American settler Lyman Cutlar shot a Hudson’s Bay Company pig rooting in his garden on disputed San Juan Island. British arrest threats triggered an armed standoff. U.S. troops and British warships faced each other—but officers refused to fire. The boundary dispute was later resolved peacefully.\n\nAI-generated historical reconstruction.\n\nSources: U.S. National Park Service, “The Pig War”; HistoryLink, “San Juan Island Pig War.”\n\n#History #PigWar #BizarreHistory #HistoryShorts #Shorts",
+      "hashtags": [
+        "#History",
+        "#PigWar",
+        "#BizarreHistory",
+        "#HistoryShorts",
+        "#Shorts"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=7326045747158011396"
+    },
+    {
+      "id": "394451334",
+      "uuid": "8240762406207180418",
+      "date": "2026-10-26T16:00:00+01:00",
+      "network": "youtube",
+      "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "Was the Blood Eagle a real Viking execution — or a terrifying story written down centuries later?\n\nMedieval Norse and Latin accounts describe a ritual supposedly inflicted on powerful enemies. Historians debate whether these texts record an actual Viking Age practice or literary elaboration. A 2022 peer-reviewed study found the described ritual physically possible, but did NOT establish that it actually occurred.\n\nThe footage is a non-graphic, AI-generated historical reconstruction, not evidence of the ritual.\n\nSource: Murphy, Fuller, Willan & Gates, “An Anatomy of the Blood Eagle: The Practicalities of Viking Torture,” Speculum (2022), https://doi.org/10.1086/717332\n\n#Vikings #BloodEagle #NorseHistory #BizarreHistory #HistoryShorts",
+      "hashtags": [
+        "#Vikings",
+        "#BloodEagle",
+        "#NorseHistory",
+        "#BizarreHistory",
+        "#HistoryShorts"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=8240762406207180418"
+    },
+    {
+      "id": "394451352",
+      "uuid": "-2659449709778022486",
+      "date": "2026-10-26T18:00:00+01:00",
+      "network": "tiktok",
+      "title": "The Blood Eagle: real Viking horror or dark legend? 😳 #Vikings #BloodEagle #BizarreHistory",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "Was the BLOOD EAGLE real — or a terrifying Viking legend? 😳 Medieval texts describe it, but historians still debate if it happened. AI-generated historical reconstruction; no graphic scenes. #Vikings #BloodEagle #NorseHistory #BizarreHistory #History",
+      "hashtags": [
+        "#Vikings",
+        "#BloodEagle",
+        "#NorseHistory",
+        "#BizarreHistory",
+        "#History"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-2659449709778022486"
+    },
+    {
+      "id": "394462885",
+      "uuid": "-4185111266572221264",
+      "date": "2026-10-28T16:00:00+01:00",
+      "network": "youtube",
+      "title": "The Day Vikings Attacked God's Island 😱 | 793",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "On 8 June 793, Viking raiders attacked the island monastery of Lindisfarne in Northumbria. The attack on the shrine of St Cuthbert horrified Christian Europe — and became one of the most infamous events of the early Viking Age. It wasn't England's first Viking raid, and the Christian community at Lindisfarne survived.\n\nSources: English Heritage, 'The Viking Raid on Lindisfarne' and 'History of Lindisfarne Priory': https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/history/viking-raid/\n\nAI-generated historical reconstruction. Individual scenes are dramatizations, not archival footage.\n\n#Vikings #Lindisfarne #VikingHistory #BizarrePast #HistoryShorts",
+      "hashtags": [
+        "#Vikings",
+        "#Lindisfarne",
+        "#VikingHistory",
+        "#BizarrePast",
+        "#HistoryShorts"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-4185111266572221264"
+    },
+    {
+      "id": "394462911",
+      "uuid": "-8594385513842390161",
+      "date": "2026-10-28T18:00:00+01:00",
+      "network": "tiktok",
+      "title": "The Day Vikings Attacked God's Island 😱 #Vikings #Lindisfarne #BizarrePast",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "In 793, Viking ships struck one of Christian Europe's holiest places. The raid on Lindisfarne shocked the continent — but the Christian community survived. 🎬 AI-generated historical reconstruction based on real accounts. #Vikings #Lindisfarne #BizarrePast #HistoryTok #VikingHistory",
+      "hashtags": [
+        "#Vikings",
+        "#Lindisfarne",
+        "#BizarrePast",
+        "#HistoryTok",
+        "#VikingHistory"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-8594385513842390161"
+    },
+    {
+      "id": "394468619",
+      "uuid": "-6820109748019770017",
+      "date": "2026-10-30T16:00:00+01:00",
+      "network": "youtube",
+      "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "Around AD 965, King Harald Bluetooth raised the great Jelling rune stone. Its inscription proclaimed that he had united Denmark and made the Danes Christian. The transition from Norse religion to Christianity was gradual — but Harald's declaration became a turning point.\n\nHistorically grounded AI reconstruction, not original footage. The film dramatizes historical events; particular conversations are not documented.\n\nSource: The National Museum of Denmark, The Jelling Stone: https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/the-monuments-at-jelling/the-jelling-stone/\n\n#HaraldBluetooth #VikingHistory #Jelling #Christianity #BizarrePast",
+      "hashtags": [
+        "#HaraldBluetooth",
+        "#VikingHistory",
+        "#Jelling",
+        "#Christianity",
+        "#BizarrePast"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-6820109748019770017"
+    },
+    {
+      "id": "394468644",
+      "uuid": "665507363800370177",
+      "date": "2026-10-30T18:00:00+01:00",
+      "network": "tiktok",
+      "title": "The Viking king who changed their gods 😳 #Vikings #HaraldBluetooth #BizarrePast",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "The Vikings worshipped Odin and Thor. Then King Harald Bluetooth declared a new faith for Denmark. Around AD 965, his Jelling stone proclaimed the Danes Christian — but the change took time. Real history, AI-generated cinematic reconstruction. #Vikings #HaraldBluetooth #Jelling #HistoryTok #BizarrePast",
+      "hashtags": [
+        "#Vikings",
+        "#HaraldBluetooth",
+        "#Jelling",
+        "#HistoryTok",
+        "#BizarrePast"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=665507363800370177"
+    },
+    {
+      "id": "394468668",
+      "uuid": "-6292868550588019673",
+      "date": "2026-11-02T16:00:00+01:00",
+      "network": "youtube",
+      "title": "The Treasure Hidden for 1,100 Years 💰 | Galloway Hoard",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "Somebody buried a treasure in Scotland around AD 900. In 2014, a metal detectorist discovered what became known as the Galloway Hoard: over 100 fascinating Viking-age objects, including silver, gold, and even preserved textiles. Who buried it — and why — remains a mystery.\n\nAI-generated historical reconstruction; the person who hid the hoard is unknown, so their depiction is illustrative, not verified history.\n\nSources: National Museums Scotland: https://www.nms.ac.uk/discover-catalogue/galloway-hoard and https://www.nms.ac.uk/discover-catalogue/what-is-the-galloway-hoard\n\n#GallowayHoard #VikingTreasure #VikingHistory #Archaeology #BizarrePast",
+      "hashtags": [
+        "#GallowayHoard",
+        "#VikingTreasure",
+        "#VikingHistory",
+        "#Archaeology",
+        "#BizarrePast"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-6292868550588019673"
+    },
+    {
+      "id": "394468693",
+      "uuid": "-3751477321474421379",
+      "date": "2026-11-02T18:00:00+01:00",
+      "network": "tiktok",
+      "title": "Viking treasure hidden 1,100 years 😳 #GallowayHoard #VikingTreasure #BizarrePast",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "A treasure buried around AD 900 stayed hidden for over 1,100 years. A metal detectorist found the Galloway Hoard in 2014: silver, gold, even ancient cloth. Who buried it? Nobody knows. AI-generated historical reconstruction. #GallowayHoard #Vikings #Treasure #HistoryTok #BizarrePast",
+      "hashtags": [
+        "#GallowayHoard",
+        "#Vikings",
+        "#Treasure",
+        "#HistoryTok",
+        "#BizarrePast"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-3751477321474421379"
+    },
+    {
+      "id": "395308646",
+      "uuid": "1907720729421826469",
+      "date": "2026-11-04T16:00:00+01:00",
+      "network": "youtube",
+      "title": "People Died Searching for a Treasure Nobody Found 😳 | Oak Island",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "For more than 200 years, people have searched Oak Island, Nova Scotia, for a legendary buried treasure. Water-filled shafts and tragic accidents became part of the mystery. But no hidden flood-trap network or legendary hoard has been conclusively proven.\n\nAI-generated cinematic reconstruction. The 1795 origin story is a later legend, not a verified first-hand account.\n\nBackground: Oak Island's 1893 treasure prospectus and critical histories of the early excavations.\nMusic: Epical Drums 03 by Grigoriy Nuzhny, Mixkit Stock Music Free License.\n\n#OakIsland #LostTreasure #BizarrePast #History #Mystery",
+      "hashtags": [
+        "#OakIsland",
+        "#LostTreasure",
+        "#BizarrePast",
+        "#History",
+        "#Mystery"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=1907720729421826469"
+    },
+    {
+      "id": "395308671",
+      "uuid": "602198118900974987",
+      "date": "2026-11-04T18:00:00+01:00",
+      "network": "tiktok",
+      "title": "People Died Searching for This Treasure 😳 #OakIsland #BizarrePast",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "Treasure hunters died searching Oak Island. More than 200 years later, nobody has proved a giant treasure exists. 😳 Cinematic AI reconstruction, some early details are legend. Music: Epical Drums 03 / Mixkit. #OakIsland #TreasureMystery #BizarrePast",
+      "hashtags": [
+        "#OakIsland",
+        "#TreasureMystery",
+        "#BizarrePast"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=602198118900974987"
+    },
+    {
+      "id": "395308699",
+      "uuid": "-6522068693621584776",
+      "date": "2026-11-06T16:00:00+01:00",
+      "network": "youtube",
+      "title": "Did the Knights Templar Hide Their Treasure? 😱 | 1307",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "On 13 October 1307, Philip IV ordered the arrest of the Knights Templar in France. Their properties were seized, and centuries of legends grew around a supposed hidden treasure. Was any fortune secretly moved before the arrests? There is no reliable evidence for the popular treasure-escape story.\n\nAI-generated cinematic historical reconstruction. The supposed secret transport of chests is shown as an unverified legend, not a historical event.\n\nBackground: National Geographic interviews with medieval historians about the Knights Templar, 1307 arrests, and treasure myths.\nMusic: Epical Drums 04 by Grigoriy Nuzhny, Mixkit Stock Music Free License.\n\n#KnightsTemplar #LostTreasure #MedievalHistory #BizarrePast #History",
+      "hashtags": [
+        "#KnightsTemplar",
+        "#LostTreasure",
+        "#MedievalHistory",
+        "#BizarrePast",
+        "#History"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-6522068693621584776"
+    },
+    {
+      "id": "395308721",
+      "uuid": "9050340863119609283",
+      "date": "2026-11-06T18:00:00+01:00",
+      "network": "tiktok",
+      "title": "Did the Knights Templar Hide Their Gold? 😳 #Templars #BizarrePast",
+      "status": "PENDING",
+      "sourceStatus": "PENDING",
+      "brandId": "7296504",
+      "channelKey": "bizarre",
+      "channelName": "Bizarre Past",
+      "description": "The king of France went after the Knights Templar in 1307. Did their treasure escape first? That's legend, not proven history. Cinematic AI reconstruction. Music: Epical Drums 04 / Mixkit. #KnightsTemplar #TemplarTreasure #BizarrePast",
+      "hashtags": [
+        "#KnightsTemplar",
+        "#TemplarTreasure",
+        "#BizarrePast"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=9050340863119609283"
     },
     {
       "id": "398968206",
+      "uuid": "4195639281377234906",
       "date": "2026-11-08T10:00:00+01:00",
       "network": "tiktok",
       "title": "Did a Pastry Shop Help Start a War? 😳 #HistoryTok #BizarrePast",
       "status": "PENDING",
+      "sourceStatus": "PENDING",
       "brandId": "7296504",
       "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "channelName": "Bizarre Past",
+      "description": "Did a pastry shop really help start a war? France’s 1838 blockade of Veracruz grew from many compensation claims—one damaged bakery gave the conflict its name. AI-generated reconstruction. #PastryWar #HistoryTok #MexicanHistory #BizarrePast",
+      "hashtags": [
+        "#PastryWar",
+        "#HistoryTok",
+        "#MexicanHistory",
+        "#BizarrePast"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=4195639281377234906"
     },
     {
       "id": "398968292",
+      "uuid": "-1182831858875808596",
       "date": "2026-11-08T16:00:00+01:00",
       "network": "youtube",
       "title": "Did a Pastry Shop Help Start a War? 😳 | 1838",
       "status": "PENDING",
+      "sourceStatus": "PENDING",
       "brandId": "7296504",
       "channelKey": "bizarre",
-      "channelName": "Bizarre Past"
+      "channelName": "Bizarre Past",
+      "description": "In 1838, France blockaded Veracruz after Mexico rejected a 600,000-peso compensation demand involving several French claims—including damage to a pastry shop. The bakery gave the conflict its unforgettable nickname, but cake was never the whole cause.\n\nAI-generated cinematic historical reconstruction.\n\nSources: Secretaría de la Defensa Nacional and Archivo General de la Nación (Mexico).\n\n#PastryWar #MexicanHistory #FrenchHistory #BizarrePast #HistoryShorts",
+      "hashtags": [
+        "#PastryWar",
+        "#MexicanHistory",
+        "#FrenchHistory",
+        "#BizarrePast",
+        "#HistoryShorts"
+      ],
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-1182831858875808596"
     }
-  ]
+  ],
+  "channelMetrics": {
+    "highlights": {
+      "youtubeChannelId": "UCOdgzz7nrlUmhdmMTKgVDlA",
+      "name": "Highlights Of Everything",
+      "subscribers": 3,
+      "views": 60,
+      "videos": 7,
+      "measuredAt": "2026-10-23T13:19:10.474Z",
+      "source": "YouTube, via vidIQ"
+    },
+    "bizarre": {
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "name": "Bizarre Past",
+      "subscribers": 21,
+      "views": 3234,
+      "videos": 11,
+      "measuredAt": "2026-10-23T13:19:10.474Z",
+      "source": "YouTube, via vidIQ"
+    }
+  }
 }
