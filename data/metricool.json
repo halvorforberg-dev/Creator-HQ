@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T14:09:45.088939+00:00",
+  "updatedAt": "2026-10-23T15:17:36.982Z",
   "source": "Metricool",
   "timezone": "Europe/Oslo",
   "note": "Kontrollert øyeblikksbilde. HQ viser sist lagrede avlesning; Metricool synkroniseres ikke løpende.",
@@ -642,6 +642,41 @@
       ],
       "format": "short",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-1182831858875808596"
+    },
+    {
+      "id": "404270646",
+      "uuid": "-3745762477907098748",
+      "date": "2026-10-23T15:15:19Z",
+      "scheduledFor": "2026-10-23T17:14:00+02:00",
+      "network": "youtube",
+      "title": "Hook, Story, Payoff: The Formula Behind Viral Shorts",
+      "status": "PUBLISHED",
+      "sourceStatus": "PUBLISHED",
+      "brandId": "7571881",
+      "channelKey": "highlights",
+      "channelName": "Highlights Of Everything",
+      "description": "An original animated guide to making Shorts people want to finish: a clear hook, a story that moves forward, and a payoff that delivers.\n\n00:00 The hook\n00:54 Story and payoff\n01:50 Test and improve\n\nWe use a paper-plane challenge to demonstrate stronger openings, purposeful editing, and satisfying endings. Plus practical checks before publishing and a simple way to learn from your own YouTube Analytics.\n\nOriginal script, narration, animated graphics and music produced for Highlights Of Everything. AI-generated narration and original AI-generated instrumental music. All examples and graphics are illustrative; no actual channel analytics are displayed. Results vary—no formula guarantees views.\n\nFurther reading:\nhttps://support.google.com/youtube/answer/16559650\nhttps://support.google.com/youtube/answer/12220281\nhttps://support.google.com/youtube/answer/9314415\n\n#YouTubeShorts #VideoEditing #Storytelling #ContentCreation #HighlightsOfEverything",
+      "hashtags": [
+        "#YouTubeShorts",
+        "#VideoEditing",
+        "#Storytelling",
+        "#ContentCreation",
+        "#HighlightsOfEverything"
+      ],
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7571881&openWithPostUuid=-3745762477907098748",
+      "publicUrl": "https://www.youtube.com/watch?v=XtR6_8WP0X8",
+      "film": "HOOK, STORY, PAYOFF",
+      "durationSeconds": 174.766,
+      "quality": {
+        "width": 1920,
+        "height": 1080,
+        "frameRate": 30,
+        "verifiedAt": "2026-10-23T15:17:36.982Z",
+        "youtube1080pAvailable": true
+      },
+      "useTerms": "Originalproduksjon",
+      "attentionNote": "Original film med eget manus, animert grafikk, AI-fortellerstemme og original instrumentalmusikk. 1080p HD er tilgjengelig på YouTube. Produksjonen brukte 67 vidIQ-credits og ingen AI Tuber-credits."
     }
   ],
   "channelMetrics": {
