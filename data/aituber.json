@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-23T07:59:51.093Z",
+  "updatedAt": "2026-10-24T07:52:09.361Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "19e34420-61fd-4fcf-8180-f5bb5603f75d",
+      "title": "The Snail’s Sunny Sail",
+      "status": "completed",
+      "createdAt": "2026-10-23T14:00:52.409Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "8cfb8ad4-0641-4e12-b668-9fba160e88b4",
       "title": "What If Every Bee Disappeared?",
