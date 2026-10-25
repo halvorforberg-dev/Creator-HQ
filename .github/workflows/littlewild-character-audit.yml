@@ -30,11 +30,11 @@ jobs:
               if(row.length)console.log('API_PATH',path,JSON.stringify(row).slice(0,550));
             }
             const h={Authorization:'Bearer '+process.env.AITUBER_API_KEY,Accept:'application/json'};
-            for(const route of ['/autopilots','/elements']){
+            for(const route of ['/elements']){
               const r=await fetch(origin+route,{headers:h,signal:AbortSignal.timeout(20000)});
               if(!r.ok){console.log('GET',route,'HTTP',r.status);continue}
               const b=await r.json(),data=Array.isArray(b)?b:(b.data??b.autopilots??b.elements??b.items??b);
-              if(Array.isArray(data))console.log('GET',route,JSON.stringify(data.slice(0,12).map(x=>({id:x.id,name:x.name??x.title??x.handle,status:x.status,prompt:x.prompt??x.contentPrompt??x.instructions,channelId:x.channelId,url:x.url}))).slice(0,7500));
+              if(Array.isArray(data))console.log('GET',route,JSON.stringify(data.filter(x=>String(x.name??x.title??'').toLowerCase().includes('wild')).map(x=>({id:x.id,name:x.name,handle:x.handle,type:x.type,description:x.description,imageUrl:x.imageUrl,referenceImageUrl:x.referenceImageUrl,images:x.images,mediaUrl:x.mediaUrl,keys:Object.keys(x)}))).slice(0,11000));
               else console.log('GET',route,'keys',Object.keys(data));
             }
           })().catch(e=>{console.error('AUDIT_ERROR',e.message);process.exitCode=1});
