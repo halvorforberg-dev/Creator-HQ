@@ -2,9 +2,10 @@
   "jobs": {
     "littlewild-2026-10-25-kite": {
       "title": "The Meerkat and the Runaway Kite",
-      "phase": "reserved",
+      "phase": "generating",
       "createdAt": "2026-10-25T11:46:11.958Z",
-      "channelYouTubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg"
+      "channelYouTubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "generationAttemptedAt": "2026-10-25T11:46:13.048Z"
     }
   }
 }
