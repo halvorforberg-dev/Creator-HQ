@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-24T07:52:09.361Z",
+  "updatedAt": "2026-10-25T07:53:38.987Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "081147bb-f8a3-43f8-95f1-940a19175296",
+      "title": "What If Cats Could See in Total Darkness?",
+      "status": "completed",
+      "createdAt": "2026-10-24T16:00:48.821Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "19e34420-61fd-4fcf-8180-f5bb5603f75d",
       "title": "The Snail’s Sunny Sail",
