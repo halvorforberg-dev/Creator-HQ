@@ -1,0 +1,28 @@
+name: What If Dogs Pro corrected render
+on:
+  push:
+    paths:
+      - '.github/workflows/whatif-dogs-pro-retry.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dogs-pro-one-off-20261025
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate job before any credits
+        run: node --check scripts/whatif-dogs-pro-retry.cjs
+      - name: Create corrected talking dogs in AI Tuber Pro (hold for quality check)
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: node scripts/whatif-dogs-pro-retry.cjs
