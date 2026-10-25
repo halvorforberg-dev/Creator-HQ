@@ -1,11 +1,12 @@
 {
   "tasks": {
     "2026-10-25-whatif-dogs-pro-40s": {
-      "phase": "attempted",
+      "phase": "processing",
       "createdAt": "2026-10-25T17:45:01.105Z",
       "channelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
       "title": "What If Dogs Could Talk? – 40 sec dialogue",
-      "generationAttemptedAt": "2026-10-25T17:45:02.850Z"
+      "generationAttemptedAt": "2026-10-25T17:45:02.850Z",
+      "videoId": "11a4850a-3e5f-4d94-ab43-942d13b5cb30"
     }
   }
 }
