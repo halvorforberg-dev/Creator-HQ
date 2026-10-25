@@ -2,6 +2,7 @@
 const fs=require('node:fs');
 const cp=require('node:child_process');
 const {validateOpeningHook}=require('./opening-hook-guard.cjs');
+const {validateChannelUpload}=require('./channel-upload-guard.cjs');
 const base='https://app.aituber.app/api/v1';
 const statePath='data/whatif-production-state.json';
 const mode=process.argv[2] || 'check';
@@ -119,6 +120,7 @@ async function main(){
  if(entry.publicationAttemptedAt)error('Publication attempted earlier; manual reconciliation required');
  entry.publicationAttemptedAt=new Date().toISOString();entry.phase='scheduling';
  save(state,'Prevent duplicate What If publication '+key);
+ validateChannelUpload({channelName:'whatIf',channelYouTubeId:'UCUZ1h_XukdY1IQvwwuEnW0Q',channelPayload:{madeForKids:false,categoryId:'28'}});
  const posted=await api('/publications','POST',{videoId:entry.videoId,caption:item.caption+'\n\n'+item.hashtags.join(' '),publishNow:false,scheduledAt:scheduled.toISOString(),addMadeWithCaption:false,channels:[{channelId:youtubeId,title:item.title,tags:['what if','science','shorts',...item.hashtags.map(t=>t.slice(1).toLowerCase())],categoryId:'28',madeForKids:false}]});
  const pid=publicationId(posted);
  if(!pid||typeof pid!=='string')error('No publication ID in response. Do not retry automatically');
