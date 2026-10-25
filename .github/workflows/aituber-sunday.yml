@@ -1,34 +1,31 @@
-name: Little Wild publication status inspection
+name: Validate AI Tuber finished dog and wild movies
 on:
   push:
     paths:
       - '.github/workflows/aituber-sunday.yml'
-  workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  inspect:
+  review:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 4
     steps:
-      - name: Inspect video publication status and API response schema (read-only)
+      - name: Read finished video scene and export metadata
         env:
           AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
         run: |
           node <<'NODE'
           (async()=>{
-          const base='https://app.aituber.app/api/v1';
-          const vId='0a955403-a28a-49d8-8066-b309ecb39907';
-          const h={Authorization:'Bearer '+process.env.AITUBER_API_KEY,Accept:'application/json'};
-          for(const path of ['/videos/'+vId,'/videos']){
-            const r=await fetch(base+path,{headers:h});if(!r.ok){console.log(path+' HTTP '+r.status);continue}
-            const x=await r.json(),v=path==='/videos'?((x.videos||x.items||x.data||[]).find(v=>v.id===vId)||{}):(x.video||x.data||x);
-            console.log('VIDEO_DETAIL '+path,JSON.stringify(v).slice(0,13000));
-          }
-          const r=await fetch(base+'/openapi.json');
-          const j=await r.json();
-          const op=j.paths?.['/publications']?.post;
-          const res=op?.responses;
-          console.log('PUBLICATION_RESPONSE_SCHEMAS',JSON.stringify(res).slice(0,16000));
-          })().catch(e=>{console.error('INSPECT_ERROR',e.message);process.exitCode=1})
+            for(const [label,id] of [['wild','0a955403-a28a-49d8-8066-b309ecb39907'],['dogs','9202429c-c831-4ca0-9f74-2b40e16930b7']]){
+              const r=await fetch('https://app.aituber.app/api/v1/videos/'+id,{headers:{Authorization:'Bearer '+process.env.AITUBER_API_KEY}});
+              if(!r.ok){console.log(label+' HTTP '+r.status);continue}
+              const data=await r.json(),v=data.video??data.data??data;
+              const scenes=(v.images??v.scenes??[]);
+              console.log(label.toUpperCase()+'_METADATA',JSON.stringify({
+                id,title:v.title,status:v.status,templateId:v.templateId,mediaType:v.mediaType,duration:v.durationSeconds??v.duration,exportStatus:v.exportStatus,thumbnail:v.thumbnail,
+                keys:Object.keys(v).filter(k=>/publi|export|youtube|channel|status|duration|template|mediaType/i.test(k)),
+                scenes:scenes.map(s=>({text:s.text,hasVideo:!!s.videoUrl,sceneDuration:s.clipDurationSeconds})).slice(0,18)
+              }).slice(0,14000));
+            }
+          })().catch(e=>{console.error('VIDEO_INSPECTION_ERROR',e.message);process.exitCode=1});
           NODE
