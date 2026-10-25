@@ -1,28 +1,34 @@
-name: Little Wild Sunday video (thumbnail recovery)
+name: Little Wild publication status inspection
 on:
   push:
     paths:
       - '.github/workflows/aituber-sunday.yml'
   workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: littlewild-sunday-one-off
-  cancel-in-progress: false
+  contents: read
 jobs:
-  recovery:
+  inspect:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Validate recovery source
-        run: node --check scripts/littlewild-sunday-recover.cjs
-      - name: Publish same video once thumbnail is ready (no new generation)
+      - name: Inspect video publication status and API response schema (read-only)
         env:
           AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
-        run: node scripts/littlewild-sunday-recover.cjs
+        run: |
+          node <<'NODE'
+          (async()=>{
+          const base='https://app.aituber.app/api/v1';
+          const vId='0a955403-a28a-49d8-8066-b309ecb39907';
+          const h={Authorization:'Bearer '+process.env.AITUBER_API_KEY,Accept:'application/json'};
+          for(const path of ['/videos/'+vId,'/videos']){
+            const r=await fetch(base+path,{headers:h});if(!r.ok){console.log(path+' HTTP '+r.status);continue}
+            const x=await r.json(),v=path==='/videos'?((x.videos||x.items||x.data||[]).find(v=>v.id===vId)||{}):(x.video||x.data||x);
+            console.log('VIDEO_DETAIL '+path,JSON.stringify(v).slice(0,13000));
+          }
+          const r=await fetch(base+'/openapi.json');
+          const j=await r.json();
+          const op=j.paths?.['/publications']?.post;
+          const res=op?.responses;
+          console.log('PUBLICATION_RESPONSE_SCHEMAS',JSON.stringify(res).slice(0,16000));
+          })().catch(e=>{console.error('INSPECT_ERROR',e.message);process.exitCode=1})
+          NODE
