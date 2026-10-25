@@ -1,19 +1,39 @@
 {
   "tasks": {
     "wild-original-duo-remake-20261025": {
-      "phase": "processing",
+      "phase": "visual-review-failed-hold-not-published",
       "title": "The Runaway Kite — Original Characters",
       "youtubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
       "createdAt": "2026-10-25T12:35:05.606Z",
       "generationAttemptedAt": "2026-10-25T12:35:06.723Z",
-      "videoId": "c764fbb9-53f2-4b9d-b290-c9cdc6c8211a"
+      "videoId": "c764fbb9-53f2-4b9d-b290-c9cdc6c8211a",
+      "completed": true,
+      "qualityNotes": [
+        "AI Tuber visual frame 0 showed bright blue bird with meerkat",
+        "Scene samples 1/2/3/4 focus on isolated meerkat on plain green background instead of full adventure and duo",
+        "Cannot approve/publish until original character continuity and full-motion scene quality corrected",
+        "Older yellow-bird video was already published to Little Wild on 2026-10-25T11:53:35Z"
+      ],
+      "blockedReason": "Do not duplicate already published wrong-colored same story; no direct authorized video replacement tool",
+      "previousPublicVideoId": "JwT4Q-izDr8"
     },
     "whatif-dogs-redo-20261025": {
-      "phase": "generation-requested",
+      "phase": "payment-required-not-created",
       "title": "What If Dogs Could Talk? — Full Dialogue Edition",
       "youtubeId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
       "createdAt": "2026-10-25T12:39:17.929Z",
-      "generationAttemptedAt": "2026-10-25T12:39:19.536Z"
+      "generationAttemptedAt": "2026-10-25T12:39:19.536Z",
+      "creditError": {
+        "required": 470,
+        "availableAtAttempt": 312,
+        "source": "AITuber API returned HTTP 402 on 2026-10-25"
+      },
+      "videoId": null,
+      "previousVideoId": "9202429c-c831-4ca0-9f74-2b40e16930b7",
+      "qualityNotes": [
+        "Existing prior cut ~25 seconds; desired version 35-40 seconds and real dialogue with mouth sync",
+        "Keep draft unreleased; corrective generation not created due insufficient AI Tuber credits"
+      ]
     }
   }
 }
