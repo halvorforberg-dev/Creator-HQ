@@ -1,0 +1,26 @@
+name: Publish validated What If talking dogs
+on:
+  push:
+    paths:
+      - '.github/workflows/whatif-dogs-publish-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: whatif-dogs-publish-42sec-once
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 11
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check exact one-time upload action
+        run: node --check scripts/whatif-dogs-publish-once.cjs
+      - name: Publish AI Tuber 3D talking dogs to connected What If YouTube
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: node scripts/whatif-dogs-publish-once.cjs
