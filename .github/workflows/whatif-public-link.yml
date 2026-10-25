@@ -1,0 +1,22 @@
+name: Retrieve published What If YouTube link
+on:
+  push:
+    paths: ['.github/workflows/whatif-public-link.yml']
+permissions: {contents: read}
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read confirmed publication identifiers
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: |
+          node <<'NODE'
+          (async()=>{
+           const id='b487cdfa-563d-4be6-a57b-961cbdd32fe9';
+           const res=await fetch('https://app.aituber.app/api/v1/publications/'+id,{headers:{Authorization:'Bearer '+process.env.AITUBER_API_KEY}});
+           if(!res.ok){console.log('GET_PUBLICATION_HTTP',res.status);return}
+           const data=await res.json();
+           console.log('PUBLISHED_PUBLICATION_DETAILS',JSON.stringify(data).slice(0,5500));
+          })().catch(e=>{console.error(e.message);process.exitCode=1})
+          NODE
