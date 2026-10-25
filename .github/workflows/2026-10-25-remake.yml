@@ -1,0 +1,30 @@
+name: Produce corrected Sunday AI Tuber videos
+on:
+  push:
+    paths:
+      - '.github/workflows/2026-10-25-remake.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: corrected-sunday-videos-2026-10-25
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 34
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate code and brief
+        run: |
+          node --check scripts/2026-10-25-remake.cjs
+          node -e "JSON.parse(require('fs').readFileSync('data/2026-10-25-remake-brief.json','utf8'))"
+      - name: Render original blue-bird and longer talking dogs corrections
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: node scripts/2026-10-25-remake.cjs
