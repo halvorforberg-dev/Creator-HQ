@@ -1,0 +1,41 @@
+name: Little Wild character integration audit
+on:
+  push:
+    paths:
+      - '.github/workflows/littlewild-character-audit.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Read AI Tuber character and autopilot API support
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: |
+          node <<'NODE'
+          (async()=>{
+            const origin='https://app.aituber.app/api/v1';
+            let response=await fetch(origin+'/openapi.json');
+            if(!response.ok)throw Error('OpenAPI '+response.status);
+            const docs=await response.json();
+            for(const [path,methods] of Object.entries(docs.paths||{})){
+              if(!/auto|element|character|asset|prompt|story|video/i.test(path))continue;
+              let row=[];
+              for(const [verb,data] of Object.entries(methods)){
+                if(!['get','post','patch','put'].includes(verb))continue;
+                row.push({verb,summary:data.summary??'',operationId:data.operationId??''});
+              }
+              if(row.length)console.log('API_PATH',path,JSON.stringify(row).slice(0,550));
+            }
+            const h={Authorization:'Bearer '+process.env.AITUBER_API_KEY,Accept:'application/json'};
+            for(const route of ['/autopilots','/elements']){
+              const r=await fetch(origin+route,{headers:h,signal:AbortSignal.timeout(20000)});
+              if(!r.ok){console.log('GET',route,'HTTP',r.status);continue}
+              const b=await r.json(),data=Array.isArray(b)?b:(b.data??b.autopilots??b.elements??b.items??b);
+              if(Array.isArray(data))console.log('GET',route,JSON.stringify(data.slice(0,12).map(x=>({id:x.id,name:x.name??x.title??x.handle,status:x.status,prompt:x.prompt??x.contentPrompt??x.instructions,channelId:x.channelId,url:x.url}))).slice(0,7500));
+              else console.log('GET',route,'keys',Object.keys(data));
+            }
+          })().catch(e=>{console.error('AUDIT_ERROR',e.message);process.exitCode=1});
+          NODE
