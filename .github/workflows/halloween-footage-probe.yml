@@ -1,0 +1,26 @@
+name: Halloween stock footage availability check
+on:
+  push:
+    paths: ['.github/workflows/halloween-footage-probe.yml']
+permissions: {contents: read}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Pexels licensed video download links (read only)
+        run: |
+          python3 - <<'PY'
+          import re,requests,html
+          ids=[
+            'https://www.pexels.com/video/a-black-dog-wearing-halloween-costume-7516660/',
+            'https://www.pexels.com/video/dogs-wearing-masks-5729484/',
+            'https://www.pexels.com/video/children-wearing-skeleton-halloween-costumes-9720871/'
+          ]
+          for url in ids:
+           try:
+            r=requests.get(url,headers={'User-Agent':'Mozilla/5.0'},timeout=15)
+            text=html.unescape(r.text)
+            clips=list(dict.fromkeys(re.findall(r'https?[^" ]+?(?:\.mp4|\.m3u8)',text)))
+            print('SOURCE_PROBE',url,r.status_code,len(r.content),'CLIP_URLS',len(clips), [c[:220] for c in clips[:2]])
+           except Exception as e:print('SOURCE_ERROR',url,str(e)[:200])
+          PY
