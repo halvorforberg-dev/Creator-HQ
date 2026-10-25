@@ -1,0 +1,38 @@
+name: Review Little Wild character frames
+on:
+  push:
+    paths: ['.github/workflows/littlewild-frame-review.yml']
+permissions: {contents: read}
+jobs:
+  frames:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Sample corrected and original Little Wild frames without editing videos
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: |
+          node <<'NODE'
+          const fs=require('fs'),cp=require('child_process');
+          (async()=>{
+            const plans=[{tag:'old',id:'0a955403-a28a-49d8-8066-b309ecb39907',indices:[0,3]},{tag:'corrected',id:'c764fbb9-53f2-4b9d-b290-c9cdc6c8211a',indices:[0,2,5]}];
+            for(const p of plans){
+              const r=await fetch('https://app.aituber.app/api/v1/videos/'+p.id,{headers:{Authorization:'Bearer '+process.env.AITUBER_API_KEY}});
+              if(!r.ok){console.log('VIDEO_STATUS',p.tag,r.status);continue}
+              const j=await r.json(),v=j.video??j.data??j;
+              console.log('VIDEO_INFO',p.tag,JSON.stringify({status:v.status??j.status,thumbnail:v.thumbnail?.url,thumbnailStatus:v.thumbnail?.status,clipCount:v.images?.length,scenes:v.images?.map(x=>({text:x.text,duration:x.clipDurationSeconds,hasVideo:!!x.videoUrl})).slice(0,12)}));
+              for(const idx of p.indices){
+                const clip=v.images?.[idx]?.videoUrl;
+                if(!clip){console.log('NO_CLIP',p.tag,idx);continue}
+                try{
+                  const rr=await fetch(clip,{signal:AbortSignal.timeout(35000)});
+                  if(!rr.ok)throw Error('download HTTP '+rr.status);
+                  fs.writeFileSync('/tmp/v.mp4',Buffer.from(await rr.arrayBuffer()));
+                  cp.execFileSync('ffmpeg',['-y','-loglevel','error','-ss','1.0','-i','/tmp/v.mp4','-frames:v','1','-vf','scale=320:-1','-q:v','10','/tmp/f.jpg']);
+                  const image=fs.readFileSync('/tmp/f.jpg').toString('base64');
+                  console.log('FRAME_BASE64',p.tag,idx,image);
+                }catch(e){console.log('FRAME_ERROR',p.tag,idx,e.message)}
+              }
+            }
+          })().catch(e=>{console.error('FAILED',e.message);process.exitCode=1});
+          NODE
