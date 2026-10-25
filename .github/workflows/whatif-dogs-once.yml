@@ -1,0 +1,28 @@
+name: What If talking dogs (one-off)
+on:
+  push:
+    paths:
+      - '.github/workflows/whatif-dogs-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: whatif-talking-dogs-once
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate dogs script
+        run: node --check scripts/whatif-dogs-once.cjs
+      - name: Produce original two-talking-dogs 3D video on What If
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: node scripts/whatif-dogs-once.cjs
