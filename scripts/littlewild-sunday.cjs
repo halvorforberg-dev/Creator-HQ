@@ -2,6 +2,7 @@
 // Runs only from manual/one-off workflow. Never edits existing videos or autopilots.
 const fs=require('fs');
 const cp=require('child_process');
+const {validateChannelUpload}=require('./channel-upload-guard.cjs');
 const path='data/littlewild-sunday-state.json';
 const root='https://app.aituber.app/api/v1';
 const token=process.env.AITUBER_API_KEY;
@@ -104,6 +105,7 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
    addMadeWithCaption:false,publishNow:true,
    channels:[{channelId,title:storyTitle+' | Little Wild Adventures',tags:['Little Wild Adventures','animated story','meerkat','cute bird','kids animation','friendship','kite'],categoryId:'1',madeForKids:true}]
  };
+ validateChannelUpload({channelName:'littleWild',channelYouTubeId:channelYouTubeId,channelPayload:request.channels[0]});
  const post=await api('/publications','POST',request);
  const pubId=pid(post);
  if(!pubId||typeof pubId!=='string')throw new Error('Publish outcome uncertain: do not submit again');
