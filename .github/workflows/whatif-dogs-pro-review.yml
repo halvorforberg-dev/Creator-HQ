@@ -1,0 +1,44 @@
+name: What If dogs Pro scene and speech preflight
+on:
+  push:
+    paths:
+      - '.github/workflows/whatif-dogs-pro-review.yml'
+permissions: {contents: read}
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Inspect animated scenes and audio streams without publishing
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs'),cp=require('node:child_process'),sleep=ms=>new Promise(r=>setTimeout(r,ms));
+          const id='11a4850a-3e5f-4d94-ab43-942d13b5cb30';
+          async function read(){
+           const r=await fetch('https://app.aituber.app/api/v1/videos/'+id,{headers:{Authorization:'Bearer '+process.env.AITUBER_API_KEY,Accept:'application/json'},signal:AbortSignal.timeout(25000)});
+           if(!r.ok)throw Error('HTTP '+r.status);
+           let j=await r.json();return j.video??j.data??j;
+          }
+          (async()=>{
+           let v=await read();
+           for(let i=0;i<36&&!(v.images?.some(x=>x.videoUrl));i++){await sleep(10000);v=await read()}
+           const scenes=(v.images??[]).filter(x=>!!x.videoUrl);
+           const duration=scenes.reduce((n,x)=>n+Number(x.clipDurationSeconds||0),0);
+           console.log('DOGS_META',JSON.stringify({videoId:id,templateId:v.templateId,sceneCount:scenes.length,estimatedSceneDuration:duration,thumbnailReady:v.thumbnail?.status,voiceId:v.voiceId??null,speechUrlExists:!!v.audioUrl,scenes:scenes.map(x=>({text:x.text,duration:x.clipDurationSeconds}))}).slice(0,12000));
+           for(let i=0;i<Math.min(3,scenes.length);i++){
+             const r=await fetch(scenes[i].videoUrl,{signal:AbortSignal.timeout(30000)});
+             if(!r.ok){console.log('CLIP_HTTP',i,r.status);continue}
+             fs.writeFileSync('/tmp/clip.mp4',Buffer.from(await r.arrayBuffer()));
+             try{
+               const streams=cp.execFileSync('ffprobe',['-v','error','-show_entries','stream=codec_type,codec_name','-of','json','/tmp/clip.mp4']).toString();
+               console.log('CLIP_STREAMS',i,streams);
+               cp.execFileSync('ffmpeg',['-y','-loglevel','error','-ss','1.2','-i','/tmp/clip.mp4','-frames:v','1','-vf','scale=320:-1','-q:v','11','/tmp/f.jpg']);
+               console.log('DOGS_FRAME_BASE64',i,fs.readFileSync('/tmp/f.jpg').toString('base64'));
+             }catch(e){console.log('CLIP_INSPECTION_FAILED',i,e.message)}
+           }
+          })().catch(e=>{console.error('REVIEW_ERROR',e.message);process.exitCode=1});
+          NODE
