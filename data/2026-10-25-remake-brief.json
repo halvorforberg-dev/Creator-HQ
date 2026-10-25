@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "canonicalElement": "@Little-Wild-Adventures-Meerkat-and-Bird",
+  "wild": {
+    "title": "The Runaway Kite — Original Characters",
+    "script": "[Use exactly the saved original duo @Little-Wild-Adventures-Meerkat-and-Bird, BOTH present. Same cyan turquoise BLUE bird with blue crest and orange beak, never a yellow bird; same golden brown meerkat. Fully moving 3D scene, bright meadow. Text THE RUNAWAY KITE readable over moving scene for 2.5 seconds.] Milo the meerkat had a brilliant idea. Today, his best friend Pip would help fly the biggest leaf-shaped kite in the meadow.\n[Same @Little-Wild-Adventures-Meerkat-and-Bird blue-bird duo, unmodified identity, smooth dynamic tracking camera and animated feet, wings, and grass.] The kite lifted into the breeze. Pip flew beside it, cheering, while Milo ran happily through the flowers.\n[Same @Little-Wild-Adventures-Meerkat-and-Bird. Small vivid BLUE bird, not yellow. A sudden gust steals the kite; both characters react with expressive animation.] But whoosh! A playful gust snatched the string from Milo's paws. The kite sailed over a duck pond!\n[Same @Little-Wild-Adventures-Meerkat-and-Bird. Original blue bird flies and golden brown meerkat runs across a bridge; dynamic 3D animation.] Follow me, Pip chirped. The two friends raced across a little bridge as curious ducks watched.\n[Same @Little-Wild-Adventures-Meerkat-and-Bird. Blue bird and golden brown meerkat at apple tree, smooth full-motion animation.] The kite snagged in an apple tree. Milo jumped twice, but he couldn't reach it. Pip had an idea.\n[Same @Little-Wild-Adventures-Meerkat-and-Bird. Original CYAN BLUE bird carefully grabs the string with orange beak, never change body color.] With one brave swoop, Pip lifted the string gently. Milo caught it and grinned.\n[Same @Little-Wild-Adventures-Meerkat-and-Bird. Preserve exact reference image identities; happy bright moving conclusion.] Together, they held the kite safely. It soared again. Milo hugged his little blue friend. The best adventures, he decided, are the ones you share!",
+    "wordCount": 132,
+    "idempotencyKey": "wild-original-duo-remake-20261025",
+    "desiredMediaType": "video",
+    "quality": "basic",
+    "aspectRatio": "16:9",
+    "channelYoutubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+    "releaseGuard": "Do not submit to YouTube without checking old yellow-bird version and final visual character consistency."
+  },
+  "dogs": {
+    "title": "What If Dogs Could Talk? — Full Dialogue Edition",
+    "script": "[Live fully animated 3D family comedy, 9:16. Two separate talking dogs with visually different and natural mouths: golden retriever Biscuit with warm deeper voice, black-white border collie Pixel with high playful voice. Lips move ONLY while own character speaks, not a still image. Title WHAT IF DOGS COULD TALK? readable 2.5 seconds over moving animation.] Biscuit the retriever barked, then spoke. Hey Pixel, have you noticed that humans fetch the ball for us?\n[Pixel border collie visibly talks with lips moving and Biscuit listens, sunny garden. Moving 3D animation, close-ups and gestures.] Pixel laughed. They throw it, we bring it back, and somehow they think WE are the ones being trained!\n[Golden retriever Biscuit talking with visible synced mouth movement, border collie listening. Both tails wag.] Biscuit grinned. Mine says we need exercise. Then he walks around carrying a bag full of my snacks!\n[Black-and-white Pixel speaks as Biscuit reacts, cinematic moving family 3D.] Pixel chuckled. I sit for two seconds, and they call me a genius. They give me a treat just for waiting!\n[Golden Biscuit visibly speaks, Pixel listens, bright fun motion.] Biscuit whispered. Should we tell them that we can talk? Imagine all the trouble we could get into.\n[Pixel talks, mouth moving, Biscuit reacts. They share a mischievous expression, happy ending with animated human.] Pixel winked. Not before dinner! Both dogs laughed while their human scratched their ears. Maybe humans were the clever ones after all.",
+    "wordCount": 116,
+    "idempotencyKey": "whatif-dogs-redo-20261025",
+    "desiredTemplate": "character",
+    "quality": "basic",
+    "aspectRatio": "9:16",
+    "channelYoutubeId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+    "releaseGuard": "Do not publish unless >=35 seconds, moving clips, lip sync and two voices are verified."
+  },
+  "maxTotalBudgetCredits": 790,
+  "minCreditReserve": 155,
+  "useExistingAutopilot": false,
+  "doNotDuplicatePreviouslyScheduledVideos": true
+}
