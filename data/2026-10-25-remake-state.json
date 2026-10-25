@@ -9,10 +9,11 @@
       "videoId": "c764fbb9-53f2-4b9d-b290-c9cdc6c8211a"
     },
     "whatif-dogs-redo-20261025": {
-      "phase": "reserved",
+      "phase": "generation-requested",
       "title": "What If Dogs Could Talk? — Full Dialogue Edition",
       "youtubeId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
-      "createdAt": "2026-10-25T12:39:17.929Z"
+      "createdAt": "2026-10-25T12:39:17.929Z",
+      "generationAttemptedAt": "2026-10-25T12:39:19.536Z"
     }
   }
 }
