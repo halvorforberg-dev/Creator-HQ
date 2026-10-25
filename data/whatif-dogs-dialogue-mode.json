@@ -1,6 +1,6 @@
 {
   "attemptedAt": "2026-10-25T17:53:12.473Z",
-  "status": "exporting",
+  "status": "published",
   "mode": "idea",
   "targetDurationSeconds": 40,
   "title": "What If Dogs Could Talk?",
@@ -9,5 +9,7 @@
   "clipDuration": 42.25000200000001,
   "thumbnailStatus": "generating",
   "publishAttemptedAt": "2026-10-25T18:00:07.969Z",
-  "publicationId": "b487cdfa-563d-4be6-a57b-961cbdd32fe9"
+  "publicationId": "b487cdfa-563d-4be6-a57b-961cbdd32fe9",
+  "youtubeUrl": null,
+  "publishedAt": "2026-10-25T18:01:42.745Z"
 }
