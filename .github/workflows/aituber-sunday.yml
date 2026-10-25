@@ -1,59 +1,28 @@
-name: AI Tuber Sunday inspection
+name: Little Wild Sunday video (one-off)
 on:
   push:
     paths:
       - '.github/workflows/aituber-sunday.yml'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: littlewild-sunday-one-off
+  cancel-in-progress: false
 jobs:
-  inspection:
+  sunday:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 28
     steps:
-      - name: Check connected channels, recent videos and credits (read-only)
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate Sunday production source
+        run: node --check scripts/littlewild-sunday.cjs
+      - name: Create full-motion Little Wild video and publish to verified YouTube
         env:
           AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
-        run: |
-          node <<'NODE'
-          const root='https://app.aituber.app/api/v1';
-          const key=process.env.AITUBER_API_KEY;
-          if(!key){console.error('No API secret');process.exit(1)}
-          async function read(path){
-            const r=await fetch(root+path,{headers:{Authorization:'Bearer '+key,Accept:'application/json'},signal:AbortSignal.timeout(25000)});
-            if(!r.ok){console.log(path+' HTTP '+r.status);return null}
-            return await r.json();
-          }
-          function arr(x,fields){if(Array.isArray(x))return x;for(const o of [x,x?.data,x?.result])for(const f of fields){if(Array.isArray(o?.[f]))return o[f]}return []}
-          (async()=>{
-            let [c,v,s,p]=await Promise.all([read('/channels'),read('/videos'),read('/subscription'),read('/publications')]);
-            console.log('CHANNELS',JSON.stringify(arr(c,['channels','items']).map(x=>({id:x.id??x.channelId,platform:x.platform??x.platformType,name:x.name??x.displayName??x.channelName??x.title??x.username??x.handle,status:x.status??x.connectionStatus,youtubeId:x.platformChannelId??x.youtubeChannelId}))));
-            console.log('VIDEOS',JSON.stringify(arr(v,['videos','items']).slice(0,25).map(x=>({id:x.id??x.videoId,title:x.title??x.name,status:x.status,createdAt:x.createdAt,published:x.published,exportStatus:x.exportStatus}))));
-            if(s){
-              const values=[s.creditsRemaining,s.remainingCredits,s.creditBalance,s.credits?.remaining,s.credits?.balance,s.credits?.available,s.data?.creditsRemaining,s.data?.remainingCredits,s.data?.credits?.remaining,s.data?.credits?.balance,s.data?.credits,s.credits];
-              const n=values.find(x=>typeof x==='number'&&Number.isFinite(x));
-              console.log('CREDITS',n===undefined?'UNKNOWN':n,'PLAN',s.plan?.name??s.plan??s.data?.plan?.name??s.subscription?.plan?.name??'UNKNOWN');
-            }
-            if(p)console.log('PUBLICATIONS',JSON.stringify(arr(p,['publications','items']).slice(0,12).map(x=>({id:x.id,videoId:x.videoId,status:x.status,scheduledAt:x.scheduledAt,platforms:x.platforms?.map(y=>y.platform)}))));
-          })().catch(e=>{console.error('INSPECTION ERROR',e.message);process.exit(1)})
-          NODE
-      - name: Inspect public API schema without account data
-        run: |
-          node <<'NODE'
-          (async()=>{
-          const r=await fetch('https://app.aituber.app/api/v1/openapi.json',{signal:AbortSignal.timeout(20000)});
-          if(!r.ok){console.log('OPENAPI HTTP',r.status);return}
-          let j=await r.json();
-          for(let [path,methods] of Object.entries(j.paths||{})){
-            if(!['/videos/generate','/publications','/channels','/subscription'].includes(path))continue;
-            for(let [method,op] of Object.entries(methods)){
-              if(!['post','get'].includes(method))continue;
-              const request=op.requestBody?.content?.['application/json']?.schema;
-              console.log('API_OPERATION',method.toUpperCase(),path,JSON.stringify({request,parameters:op.parameters}).slice(0,16000));
-            }
-          }
-          for(let [key,v] of Object.entries(j.components?.schemas||{})){
-            if(/GenerateVideo|Publication|VideoGeneration|CreateVideo|ChannelPost|PublishVideo/i.test(key))console.log('API_SCHEMA',key,JSON.stringify(v).slice(0,12000));
-          }
-          })().catch(e=>console.log('SCHEMA ERROR',e.message))
-          NODE
+        run: node scripts/littlewild-sunday.cjs
