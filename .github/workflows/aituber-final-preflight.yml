@@ -1,0 +1,35 @@
+name: AI Tuber Sunday final preflight
+on:
+  push:
+    paths: ['.github/workflows/aituber-final-preflight.yml']
+permissions: {contents: read}
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check video status, credits, publications and endpoint capabilities
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: |
+          node <<'NODE'
+          const key=process.env.AITUBER_API_KEY;
+          async function read(p){
+           let r=await fetch('https://app.aituber.app/api/v1'+p,{headers:{Authorization:'Bearer '+key,Accept:'application/json'},signal:AbortSignal.timeout(20000)});
+           if(!r.ok){console.log('HTTP',p,r.status);return null}
+           return r.json();
+          }
+          (async()=>{
+            const sub=await read('/subscription');if(sub){
+              const vals=[sub.creditsRemaining,sub.remainingCredits,sub.creditBalance,sub.credits?.remaining,sub.credits?.balance,sub.credits?.available,sub.data?.creditsRemaining,sub.data?.remainingCredits,sub.data?.credits?.remaining,sub.data?.credits?.balance,sub.data?.credits,sub.credits];
+              console.log('CREDITS', vals.find(x=>typeof x==='number'&&Number.isFinite(x))??'unknown');
+            }
+            for(const [label,id] of [['WILD','0a955403-a28a-49d8-8066-b309ecb39907'],['DOGS','9202429c-c831-4ca0-9f74-2b40e16930b7']]){
+              let r=await read('/videos/'+id);
+              if(!r)continue;
+              let v=r.video??r.data??r;
+              console.log(label+'-DETAIL',JSON.stringify({id,title:v.title,status:v.status??r.status,createdAt:v.createdAt,exportStatus:v.exportStatus,thumbnailStatus:v.thumbnail?.status,thumbnailUrl:v.thumbnail?.url,videoId:v.id,dimensions:v.aspectRatio,fields:Object.keys(v),sceneCount:v.images?.length,scenes:v.images?.map(x=>({videoUrl:x.videoUrl,clipDurationSeconds:x.clipDurationSeconds,text:x.text,hasAudioUrl:!!x.audioUrl}))}).slice(0,14000));
+            }
+            const o=await read('/openapi.json');
+            console.log('VIDEO_ROUTES',Object.keys(o?.paths||{}).filter(k=>/video|export|publi|scene/i.test(k)).slice(0,60).join(', '));
+          })().catch(e=>{console.error('CHECK_FAILED',e.message);process.exitCode=1});
+          NODE
