@@ -1,0 +1,26 @@
+name: What If 3D talking dogs correct dialogue mode
+on:
+  push:
+    paths:
+      - '.github/workflows/whatif-dogs-dialogue-mode.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: whatif-dogs-dialogue-mode-once
+  cancel-in-progress: false
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate no duplicate charge
+        run: node --check scripts/whatif-dogs-dialogue-mode.cjs
+      - name: Make distinct-voice character dialogue in documented idea mode
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: node scripts/whatif-dogs-dialogue-mode.cjs
