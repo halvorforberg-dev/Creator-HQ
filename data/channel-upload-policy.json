@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-25",
+  "description": "Creator HQ production upload policy; this is NOT YouTube Studio channel settings.",
+  "applyTo": "new_uploads_only",
+  "doNotAlterPreviouslyScheduled": true,
+  "channels": {
+    "bizarrePast": {
+      "youtubeId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "madeForKidsDefault": false,
+      "categoryId": "27",
+      "audienceRule": "General historical documentary; review individual child-targeted exceptions",
+      "defaultVisibility": "scheduled-as-approved",
+      "notifySubscribers": "normal"
+    },
+    "whatIf": {
+      "youtubeId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "madeForKidsDefault": false,
+      "categoryId": "28",
+      "audienceRule": "General-audience positive hypothetical stories, including talking dogs; family-friendly does not mean made for kids",
+      "defaultVisibility": "scheduled-as-approved",
+      "notifySubscribers": "normal",
+      "openingFirstSpoken": "What if",
+      "openingVisibleSeconds": 2.5
+    },
+    "littleWild": {
+      "youtubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "madeForKidsDefault": true,
+      "categoryId": "1",
+      "audienceRule": "Child-directed original animated series; keep made-for-kids true unless a genuinely different video warrants review",
+      "defaultVisibility": "scheduled-as-approved",
+      "notifySubscribers": "youtube-restrictions-apply",
+      "recurringCharacters": "Blue bird and tan meerkat"
+    },
+    "highlights": {
+      "youtubeId": "UCOdgzz7nrlUmhdmMTKgVDlA",
+      "madeForKidsDefault": false,
+      "categoryId": "24",
+      "audienceRule": "General-audience highlight commentary; review each upload for audience and copyright",
+      "defaultVisibility": "scheduled-as-approved",
+      "notifySubscribers": "normal"
+    }
+  },
+  "notes": [
+    "Audience must reflect actual individual video content; a family-friendly video is not automatically child-directed",
+    "This file cannot modify the existing YouTube Studio Upload defaults, Featured Places, channel home layout, trailer or moderation",
+    "Preserve automatic publishing set in AI Tuber and Metricool as explicitly scheduled",
+    "Do not turn off subscriber notifications globally because the referenced video oversimplifies YouTube recommendation behavior"
+  ]
+}
