@@ -1,0 +1,25 @@
+name: Validate channel publishing settings
+on:
+  push:
+    paths:
+      - '.github/workflows/validate-channel-publishing.yml'
+      - 'scripts/channel-upload-guard.cjs'
+      - 'data/channel-upload-policy.json'
+      - 'scripts/aituber-whatif.cjs'
+      - 'scripts/littlewild-sunday.cjs'
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Run release safety tests without credits or publishing
+        run: |
+          node --check scripts/channel-upload-guard.cjs
+          node --check scripts/aituber-whatif.cjs
+          node --check scripts/littlewild-sunday.cjs
+          node scripts/channel-upload-guard.cjs
+          node scripts/opening-hook-guard.cjs
