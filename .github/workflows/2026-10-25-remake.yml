@@ -28,3 +28,5 @@ jobs:
         env:
           AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
         run: node scripts/2026-10-25-remake.cjs
+
+# Resume safely from stored video IDs; no repeated charged generation.
