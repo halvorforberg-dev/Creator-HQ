@@ -26,8 +26,32 @@
 
 **Bizarre Past:** "OPEN AT 0:00 with the narrator clearly saying 'Did you know that ...?' followed by the episode's surprising, accurate historical hook. Simultaneously display a legible 'DID YOU KNOW ...?' text hook for 2.5 seconds over immediately moving cinematic footage. No greetings, no logo or still title card. Check both audio and text before scheduling/publishing."
 
+
+## Eksempel på feil som nå skal stoppes: What If Dogs Could Talk?
+
+Offentlig video: https://www.youtube.com/shorts/iOstByrBFdE
+
+Faktisk kontrollert åpning (25. oktober 2026):
+- Første uttalte ord: **"You know what I love about humans?"**.
+- Teksten **"WHAT IF DOGS COULD TALK?"** vises ikke i starten.
+- Dette er **ikke** godkjent som korrekt kanalhook. En YouTube-tittel er ikke nok.
+
+### Korrigert åpning (lyd og bilde)
+
+- **0:00–0:02,5:** Et levende nærbilde av hundene, tydelig skjermtekst **WHAT IF DOGS COULD TALK?**, samtidig som en stemme med god diktering sier **"What if dogs could talk?"** Ingen annet prat før dette.
+- **Fra 0:02,5:** Biscuit og Pixel fortsetter sin morsomme dialog. Begge munnene beveger seg når den riktige hunden snakker.
+- Behold variasjon i kameravinkler og full animasjon. Ikke legg intro foran med logo eller annet.
+
+### Obligatorisk sluttleveransekontroll
+
+1. Kontroller i ferdig eksport at de **faktisk første uttalte ordene** begynner med "What if".
+2. Kontroller det **faktisk første bildet** for synlig "WHAT IF" og at teksten kan leses i 2–3 sekunder.
+3. For karaktervideoer: `validateCharacterIdeaHook()` sjekker at første replikk, ikke bare beskrivelsen, begynner med "What if"; `validateProducedWhatIfOpening()` stopper utkast hvis AI Tuber har fjernet hooken fra første scene.
+4. Ved feil: IKKE publiser automatisk; legg inn riktig muntlig + skriftlig åpningssekvens og kontroller på nytt. Tekstprompten alene er ikke tilstrekkelig.
+5. Den allerede offentlige hundevideoen endrer seg ikke når vi endrer produksjonsregler. Å publisere en korrigert versjon vil lage en ny YouTube-video, som må håndteres bevisst for ikke å duplisere.
+
 ## Teknisk håndheving
 
-- `scripts/opening-hook-guard.cjs`: validerer ny tekst/manus og planlagt starttittel for de to kanalene.
+- `scripts/opening-hook-guard.cjs`: validerer ny tekst/manus og planlagt starttittel for de to kanalene, **og 3D Talking Characters sin første faktiske replikk** (ikke bare fritekstinstruksen). Kontrollerer også generert førstescenetekst før godkjenning.
 - `scripts/aituber-whatif.cjs` bruker validering for alle nye episoder som denne GitHub-pipelinen oppretter.
 - **Begrensning:** AI Tubers eksisterende native Autopilot og Higgsfield sine prosjekter blir **ikke automatisk endret** av en GitHub-fil. Bruk samme produksjonsinstruks i deres oppsett. Tekstlig validering garanterer ikke faktisk eksportert skrift eller tale; sluttvideoen må gjennomgås.
