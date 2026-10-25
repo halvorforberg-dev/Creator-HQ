@@ -11,7 +11,7 @@ function save(o,msg){
  for(const [k,v] of [['user.name','github-actions[bot]'],['user.email','41898282+github-actions[bot]@users.noreply.github.com']])cp.execFileSync('git',['config',k,v]);
  cp.execFileSync('git',['add',path]);
  let changed=false;try{cp.execFileSync('git',['diff','--cached','--quiet'])}catch{changed=true}
- if(changed){cp.execFileSync('git',['commit','-m',msg],{stdio:'pipe'});cp.execFileSync('git',['push','origin','HEAD:main'],{stdio:'pipe'})}
+ if(changed){cp.execFileSync('git',['commit','-m',msg],{stdio:'pipe'});cp.execFileSync('git',['pull','--rebase','origin','main'],{stdio:'pipe'});cp.execFileSync('git',['push','origin','HEAD:main'],{stdio:'pipe'})}
 }
 async function req(url,method='GET',body){
  const r=await fetch(base+url,{method,headers:{Authorization:'Bearer '+token,Accept:'application/json',...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(35000)});
