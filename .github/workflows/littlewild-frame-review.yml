@@ -17,7 +17,7 @@ jobs:
           node <<'NODE'
           const fs=require('fs'),cp=require('child_process');
           (async()=>{
-            const plans=[{tag:'old',id:'0a955403-a28a-49d8-8066-b309ecb39907',indices:[0,3]},{tag:'corrected',id:'c764fbb9-53f2-4b9d-b290-c9cdc6c8211a',indices:[0,2,5]}];
+            const plans=[{tag:'old',id:'0a955403-a28a-49d8-8066-b309ecb39907',indices:[0,3]},{tag:'corrected',id:'c764fbb9-53f2-4b9d-b290-c9cdc6c8211a',indices:[1,3,4]}];
             for(const p of plans){
               const r=await fetch('https://app.aituber.app/api/v1/videos/'+p.id,{headers:{Authorization:'Bearer '+process.env.AITUBER_API_KEY}});
               if(!r.ok){console.log('VIDEO_STATUS',p.tag,r.status);continue}
