@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "channel": "Little Wild Adventures",
+  "createdAt": "2026-10-25",
+  "status": "LOCKED",
+  "canonicalReference": {
+    "title": "The Flying Hat",
+    "youtubeShortsUrl": "https://www.youtube.com/shorts/MA4ahM3ZGu0",
+    "videoId": "MA4ahM3ZGu0"
+  },
+  "aiTuber": {
+    "savedElement": {
+      "id": "423a911c-12be-4d3f-8937-643faf452950",
+      "name": "Little-Wild-Adventures---Meerkat-and-Bird",
+      "handle": "Little-Wild-Adventures-Meerkat-and-Bird",
+      "type": "character"
+    },
+    "autopilotConfigVerifiedUpdated": false,
+    "note": "Saved element exists and describes original duo; this GitHub data lock does not automatically alter existing AI Tuber Autopilot UI configuration."
+  },
+  "characters": {
+    "bird": {
+      "identity": "Original recurring blue bird",
+      "mainPlumage": "bright cyan/turquoise blue",
+      "wingTips": "darker blue",
+      "crest": "blue spiky tuft",
+      "belly": "pale cream/light blue",
+      "beak": "short orange-yellow",
+      "feet": "orange",
+      "eyes": "large expressive",
+      "optionalProp": "brown shoulder satchel",
+      "hardProhibition": "NO yellow bird"
+    },
+    "meerkat": {
+      "identity": "Original recurring meerkat",
+      "fur": "golden sandy brown",
+      "belly": "cream",
+      "face": "dark eye patches and expressive amber eyes",
+      "paws": "dark",
+      "shape": "original slim meerkat form and long tail",
+      "optionalProps": [
+        "olive explorer backpack",
+        "rolled mat",
+        "beige safari hat"
+      ]
+    }
+  },
+  "rules": [
+    "Same saved reference duo in every new animated scene and episode",
+    "No redesign or color changes",
+    "Never use the 2026-10-25 yellow bird as a source reference",
+    "Original cheerful colorful 3D style; fully moving scenes",
+    "Title 2-3 seconds over live motion",
+    "Positive family stories with adaptive music",
+    "Before publishing visually verify against canonical reference",
+    "Never change previously scheduled videos"
+  ],
+  "negativePrompt": "Yellow bird, yellow feathers, new color palette, replaced mascot, redesigned meerkat, different beak shape, inconsistent faces, slideshow, static still images",
+  "promptReference": "@Little-Wild-Adventures-Meerkat-and-Bird",
+  "sourceOfTruth": "docs/littlewild-character-bible.md",
+  "previousKnownDrift": {
+    "date": "2026-10-25",
+    "title": "The Meerkat and the Runaway Kite",
+    "issue": "bird changed to yellow",
+    "useAsReference": false
+  }
+}
