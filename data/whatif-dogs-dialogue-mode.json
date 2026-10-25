@@ -1,8 +1,11 @@
 {
   "attemptedAt": "2026-10-25T17:53:12.473Z",
-  "status": "processing",
+  "status": "rendered-needs-speech-quality-review",
   "mode": "idea",
   "targetDurationSeconds": 40,
   "title": "What If Dogs Could Talk?",
-  "videoId": "359192ea-04ef-4eb9-ad92-53be956fac3e"
+  "videoId": "359192ea-04ef-4eb9-ad92-53be956fac3e",
+  "sceneCount": 6,
+  "clipDuration": 42.25000200000001,
+  "thumbnailStatus": "generating"
 }
