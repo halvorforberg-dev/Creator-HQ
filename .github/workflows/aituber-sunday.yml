@@ -1,4 +1,4 @@
-name: Little Wild Sunday video (one-off)
+name: Little Wild Sunday video (thumbnail recovery)
 on:
   push:
     paths:
@@ -10,9 +10,9 @@ concurrency:
   group: littlewild-sunday-one-off
   cancel-in-progress: false
 jobs:
-  sunday:
+  recovery:
     runs-on: ubuntu-latest
-    timeout-minutes: 28
+    timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,9 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate Sunday production source
-        run: node --check scripts/littlewild-sunday.cjs
-      - name: Create full-motion Little Wild video and publish to verified YouTube
+      - name: Validate recovery source
+        run: node --check scripts/littlewild-sunday-recover.cjs
+      - name: Publish same video once thumbnail is ready (no new generation)
         env:
           AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
-        run: node scripts/littlewild-sunday.cjs
+        run: node scripts/littlewild-sunday-recover.cjs
