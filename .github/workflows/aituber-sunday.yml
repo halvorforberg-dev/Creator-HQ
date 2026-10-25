@@ -37,3 +37,23 @@ jobs:
             if(p)console.log('PUBLICATIONS',JSON.stringify(arr(p,['publications','items']).slice(0,12).map(x=>({id:x.id,videoId:x.videoId,status:x.status,scheduledAt:x.scheduledAt,platforms:x.platforms?.map(y=>y.platform)}))));
           })().catch(e=>{console.error('INSPECTION ERROR',e.message);process.exit(1)})
           NODE
+      - name: Inspect public API schema without account data
+        run: |
+          node <<'NODE'
+          (async()=>{
+          const r=await fetch('https://app.aituber.app/api/v1/openapi.json',{signal:AbortSignal.timeout(20000)});
+          if(!r.ok){console.log('OPENAPI HTTP',r.status);return}
+          let j=await r.json();
+          for(let [path,methods] of Object.entries(j.paths||{})){
+            if(!['/videos/generate','/publications','/channels','/subscription'].includes(path))continue;
+            for(let [method,op] of Object.entries(methods)){
+              if(!['post','get'].includes(method))continue;
+              const request=op.requestBody?.content?.['application/json']?.schema;
+              console.log('API_OPERATION',method.toUpperCase(),path,JSON.stringify({request,parameters:op.parameters}).slice(0,16000));
+            }
+          }
+          for(let [key,v] of Object.entries(j.components?.schemas||{})){
+            if(/GenerateVideo|Publication|VideoGeneration|CreateVideo|ChannelPost|PublishVideo/i.test(key))console.log('API_SCHEMA',key,JSON.stringify(v).slice(0,12000));
+          }
+          })().catch(e=>console.log('SCHEMA ERROR',e.message))
+          NODE
