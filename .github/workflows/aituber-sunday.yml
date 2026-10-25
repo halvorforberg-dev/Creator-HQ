@@ -1,0 +1,39 @@
+name: AI Tuber Sunday inspection
+on:
+  push:
+    paths:
+      - '.github/workflows/aituber-sunday.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check connected channels, recent videos and credits (read-only)
+        env:
+          AITUBER_API_KEY: ${{ secrets.AITUBER_API_KEY }}
+        run: |
+          node <<'NODE'
+          const root='https://app.aituber.app/api/v1';
+          const key=process.env.AITUBER_API_KEY;
+          if(!key){console.error('No API secret');process.exit(1)}
+          async function read(path){
+            const r=await fetch(root+path,{headers:{Authorization:'Bearer '+key,Accept:'application/json'},signal:AbortSignal.timeout(25000)});
+            if(!r.ok){console.log(path+' HTTP '+r.status);return null}
+            return await r.json();
+          }
+          function arr(x,fields){if(Array.isArray(x))return x;for(const o of [x,x?.data,x?.result])for(const f of fields){if(Array.isArray(o?.[f]))return o[f]}return []}
+          (async()=>{
+            let [c,v,s,p]=await Promise.all([read('/channels'),read('/videos'),read('/subscription'),read('/publications')]);
+            console.log('CHANNELS',JSON.stringify(arr(c,['channels','items']).map(x=>({id:x.id??x.channelId,platform:x.platform??x.platformType,name:x.name??x.displayName??x.channelName??x.title??x.username??x.handle,status:x.status??x.connectionStatus,youtubeId:x.platformChannelId??x.youtubeChannelId}))));
+            console.log('VIDEOS',JSON.stringify(arr(v,['videos','items']).slice(0,25).map(x=>({id:x.id??x.videoId,title:x.title??x.name,status:x.status,createdAt:x.createdAt,published:x.published,exportStatus:x.exportStatus}))));
+            if(s){
+              const values=[s.creditsRemaining,s.remainingCredits,s.creditBalance,s.credits?.remaining,s.credits?.balance,s.credits?.available,s.data?.creditsRemaining,s.data?.remainingCredits,s.data?.credits?.remaining,s.data?.credits?.balance,s.data?.credits,s.credits];
+              const n=values.find(x=>typeof x==='number'&&Number.isFinite(x));
+              console.log('CREDITS',n===undefined?'UNKNOWN':n,'PLAN',s.plan?.name??s.plan??s.data?.plan?.name??s.subscription?.plan?.name??'UNKNOWN');
+            }
+            if(p)console.log('PUBLICATIONS',JSON.stringify(arr(p,['publications','items']).slice(0,12).map(x=>({id:x.id,videoId:x.videoId,status:x.status,scheduledAt:x.scheduledAt,platforms:x.platforms?.map(y=>y.platform)}))));
+          })().catch(e=>{console.error('INSPECTION ERROR',e.message);process.exit(1)})
+          NODE
