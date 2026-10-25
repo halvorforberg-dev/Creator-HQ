@@ -10,6 +10,18 @@
   "thumbnailStatus": "generating",
   "publishAttemptedAt": "2026-10-25T18:00:07.969Z",
   "publicationId": "b487cdfa-563d-4be6-a57b-961cbdd32fe9",
-  "youtubeUrl": null,
-  "publishedAt": "2026-10-25T18:01:42.745Z"
+  "youtubeUrl": "https://www.youtube.com/watch?v=iOstByrBFdE",
+  "publishedAt": "2026-10-25T18:01:42.745Z",
+  "youtubeVideoId": "iOstByrBFdE",
+  "publishedAtPlatform": "2026-10-25T18:01:39.997Z",
+  "qualityReview": {
+    "sceneCount": 6,
+    "clipDurationSeconds": 42.250002,
+    "sceneAudioTracksVerified": true,
+    "alternatingSpeakers": [
+      "Biscuit",
+      "Pixel"
+    ],
+    "nativeDialogueMode": true
+  }
 }
