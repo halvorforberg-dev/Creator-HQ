@@ -36,18 +36,18 @@ function validateOpeningHook({channel,script,openingTitle,openingTitleSeconds}){
  */
 function validateCharacterIdeaHook({prompt,openingTitle,openingTitleSeconds=2.5}){
   if(typeof prompt!=='string'||!prompt.trim())throw new Error('What If: character IDEA prompt is empty');
-  if(typeof openingTitle!=='string'||!/^what\\s+if\\b/i.test(openingTitle.trim()))throw new Error('What If: visible title must begin WHAT IF ...');
+  if(typeof openingTitle!=='string'||!/^what\s+if\b/i.test(openingTitle.trim()))throw new Error('What If: visible title must begin WHAT IF ...');
   if(!(openingTitleSeconds>=2&&openingTitleSeconds<=3))throw new Error('What If: title must remain on screen for 2–3 seconds');
-  const first=/\\b([A-Za-z][A-Za-z0-9_-]{1,30})\\s+saying\\s*:\\s*["“']?([^]+?)(?=\\b[A-Za-z][A-Za-z0-9_-]{1,30}\\s+saying\\s*:|$)/i.exec(prompt);
+  const first=/\b([A-Za-z][A-Za-z0-9_-]{1,30})\s+saying\s*:\s*["“']?([^]+?)(?=\b[A-Za-z][A-Za-z0-9_-]{1,30}\s+saying\s*:|$)/i.exec(prompt);
   if(!first)throw new Error('What If: no explicit speaking character / dialogue found');
-  const spoken=first[2].trim().replace(/^[\\s"'“”‘’]+/,'');
-  if(!/^what\\s+if\\b/i.test(spoken)){
+  const spoken=first[2].trim().replace(/^[\s"'“”‘’]+/,'');
+  if(!/^what\s+if\b/i.test(spoken)){
     throw new Error('What If: FIRST SPOKEN line by '+first[1]+' must begin "What if ...?"; got '+spoken.slice(0,110));
   }
   const intro=prompt.slice(0,first.index);
-  if(!/\\b(?:on[- ]?screen|overlay|visible\\s+text|show\\s+text)\\b/i.test(intro)||
-     !/what\\s+if\\b/i.test(intro)||
-     !/(?:0\\s*:\\s*00|first\\s+frame|first\\s+second|from\\s+start)/i.test(intro)){
+  if(!/\b(?:on[- ]?screen|overlay|visible\s+text|show\s+text)\b/i.test(intro)||
+     !/what\s+if\b/i.test(intro)||
+     !/(?:0\s*:\s*00|first\s+frame|first\s+second|from\s+start)/i.test(intro)){
     throw new Error('What If: before dialogue, prompt must REQUIRE visual WHAT IF text starting at 0:00');
   }
   // The AI Tuber IDEA field is often limited to 800 characters. Do not silently
@@ -56,7 +56,7 @@ function validateCharacterIdeaHook({prompt,openingTitle,openingTitleSeconds=2.5}
   return {ok:true,firstSpeaker:first[1],firstSpokenWords:spoken.slice(0,90),openingTitle};
 }
 function validateProducedWhatIfOpening({firstSceneText}){
-  if(typeof firstSceneText!=='string'||!/^what\\s+if\\b/i.test(firstSceneText.trim())){
+  if(typeof firstSceneText!=='string'||!/^what\s+if\b/i.test(firstSceneText.trim())){
     throw new Error('What If: produced FIRST SCENE does not start audibly with What if; BLOCK PUBLICATION');
   }
   return true;
