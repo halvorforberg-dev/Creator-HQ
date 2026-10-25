@@ -1,6 +1,7 @@
 // Produces only NEW What If Shorts; never modifies existing AITuber autopilot content.
 const fs=require('node:fs');
 const cp=require('node:child_process');
+const {validateOpeningHook}=require('./opening-hook-guard.cjs');
 const base='https://app.aituber.app/api/v1';
 const statePath='data/whatif-production-state.json';
 const mode=process.argv[2] || 'check';
@@ -87,7 +88,8 @@ async function main(){
  if(!Array.isArray(item.hashtags)||item.hashtags.length<2||item.hashtags.length>3||item.hashtags.some(tag=>!/^#[A-Za-z0-9]+$/.test(tag)))error('Provide 2–3 relevant hashtags');
  if(typeof item.thumbnailPrompt!=='string'||item.thumbnailPrompt.length<60||item.thumbnailPrompt.length>550)error('Thumbnail prompt missing or too long');
  if(typeof item.openingTitle!=='string'||item.openingTitle.length<8||item.openingTitle.length>60||item.openingTitleSeconds!==2.5)error('Opening title and 2.5-second target are required');
- const openingDirection='Clear professionally typeset overlay reading '+JSON.stringify(item.openingTitle)+' for the first 2.5 seconds, continuously readable, over LIVE MOVING ACTION, not a title card or frozen image. Keep the camera moving naturally and continue the narration. '; 
+ validateOpeningHook({channel:'whatif',script:item.script,openingTitle:item.openingTitle,openingTitleSeconds:item.openingTitleSeconds});
+ const openingDirection='At frame 0.0 show a clear professionally typeset overlay reading '+JSON.stringify(item.openingTitle)+' for the first 2.5 seconds, continuously readable, over LIVE MOVING ACTION, not a title card or frozen image. The FIRST AUDIBLE spoken words must be What if... exactly matching the question on screen. Start the voice at the opening (no greeting, channel logo, sound effect intro, or silence). Keep the camera moving naturally and continue the narration. '; 
  const directedScript=item.script.replace(/^\[([^\]]+)\]/,(_,firstScene)=>'['+openingDirection+firstScene+']');
  if(directedScript===item.script)error('Opening scene is missing');
  console.log('Opening title target: '+item.openingTitle+' (2.5 sec); timing must be verified during manual video review');
