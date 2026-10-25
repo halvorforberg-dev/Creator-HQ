@@ -1,11 +1,12 @@
 {
   "tasks": {
     "wild-original-duo-remake-20261025": {
-      "phase": "generation-requested",
+      "phase": "processing",
       "title": "The Runaway Kite — Original Characters",
       "youtubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
       "createdAt": "2026-10-25T12:35:05.606Z",
-      "generationAttemptedAt": "2026-10-25T12:35:06.723Z"
+      "generationAttemptedAt": "2026-10-25T12:35:06.723Z",
+      "videoId": "c764fbb9-53f2-4b9d-b290-c9cdc6c8211a"
     }
   }
 }
