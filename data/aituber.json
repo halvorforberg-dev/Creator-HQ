@@ -1,8 +1,62 @@
 {
-  "updatedAt": "2026-10-25T07:53:38.987Z",
+  "updatedAt": "2026-10-26T08:10:08.133Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "359192ea-04ef-4eb9-ad92-53be956fac3e",
+      "title": "40s 3D talking dogs, vertical 9:16. Biscuit=golden retriever, warm male",
+      "status": "completed",
+      "createdAt": "2026-10-25T17:53:14.706Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "11a4850a-3e5f-4d94-ab43-942d13b5cb30",
+      "title": "What if dogs could talk? Biscuit said, Hey, Pixel! Humans",
+      "status": "completed",
+      "createdAt": "2026-10-25T17:45:05.488Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "30e4c986-f096-4fa4-a33d-0fbd25337585",
+      "title": "The Runaway Water Gourd",
+      "status": "completed",
+      "createdAt": "2026-10-25T15:00:45.011Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "c764fbb9-53f2-4b9d-b290-c9cdc6c8211a",
+      "title": "Milo the meerkat had a brilliant idea. Today, his best",
+      "status": "completed",
+      "createdAt": "2026-10-25T12:35:08.611Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "9202429c-c831-4ca0-9f74-2b40e16930b7",
+      "title": "What if dogs could talk? Make a 38 to 40",
+      "status": "completed",
+      "createdAt": "2026-10-25T11:54:57.667Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "0a955403-a28a-49d8-8066-b309ecb39907",
+      "title": "It was the sunniest morning in the meadow, and Milo",
+      "status": "completed",
+      "createdAt": "2026-10-25T11:46:15.795Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "081147bb-f8a3-43f8-95f1-940a19175296",
       "title": "What If Cats Could See in Total Darkness?",
