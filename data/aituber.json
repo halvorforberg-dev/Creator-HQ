@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-28T08:14:43.943Z",
+  "updatedAt": "2026-10-29T08:16:45.566Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "a8be7f1f-c76e-4be3-83dc-8c384930cde2",
+      "title": "What If Earth’s Magnetic Field Flipped?",
+      "status": "completed",
+      "createdAt": "2026-10-28T17:00:47.552Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "96ec64d1-8153-4f64-8223-a2d8a9d7ed8b",
       "title": "The Acacia Pod Orchestra",
