@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-29T08:16:45.566Z",
+  "updatedAt": "2026-10-30T08:16:54.019Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "1dd275c3-09ed-4d54-85b2-684b3cfa6e85",
+      "title": "Milo’s Toothbrush Dance Party",
+      "status": "completed",
+      "createdAt": "2026-10-29T15:00:50.566Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "a8be7f1f-c76e-4be3-83dc-8c384930cde2",
       "title": "What If Earth’s Magnetic Field Flipped?",
