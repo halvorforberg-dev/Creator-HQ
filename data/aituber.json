@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-30T08:16:54.019Z",
+  "updatedAt": "2026-10-31T08:05:43.093Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "12616628-706a-475b-94a3-8bd0ddda0dc0",
+      "title": "What If Dinosaurs Had Survived?",
+      "status": "completed",
+      "createdAt": "2026-10-30T17:00:48.379Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "1dd275c3-09ed-4d54-85b2-684b3cfa6e85",
       "title": "Milo’s Toothbrush Dance Party",
