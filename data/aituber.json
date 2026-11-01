@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-10-31T08:05:43.093Z",
+  "updatedAt": "2026-11-01T08:12:23.226Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "8e169f09-537d-409e-89d0-77e52433e989",
+      "title": "The Great Toy-Sharing Turn",
+      "status": "completed",
+      "createdAt": "2026-10-31T15:00:35.624Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "12616628-706a-475b-94a3-8bd0ddda0dc0",
       "title": "What If Dinosaurs Had Survived?",
