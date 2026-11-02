@@ -184,14 +184,21 @@ def poll(data):
 
 def main():
     if not TOKEN:
-        print("Missing TELEGRAM_BOT_TOKEN in Actions secrets; setup incomplete")
-        return
+        raise RuntimeError("Missing TELEGRAM_BOT_TOKEN in Actions Secrets; setup incomplete")
     mode=os.getenv("RUN_MODE","").strip()
     if not mode:
         mode={"33 7 * * *":"daily","43 17 * * 1":"weekly"}.get(
             os.getenv("RUN_SCHEDULE",""),"poll")
     data=sources()
-    if mode=="poll": poll(data)
+    if mode=="check":
+        me=telegram("getMe",{})
+        wh=telegram("getWebhookInfo",{})
+        print("Valid token for Telegram bot:",str(me.get("username","unknown")))
+        print("Private chat configured:",bool(CHAT))
+        if wh.get("url"):
+            raise RuntimeError("A Telegram webhook is already configured; getUpdates polling will not work. Check the existing webhook service before deleting it.")
+        print("No webhook conflict. Polling mode is available.")
+    elif mode=="poll": poll(data)
     elif not CHAT: print("Missing TELEGRAM_CHAT_ID; run /start and pair first")
     elif mode=="daily":
         send(CHAT,"☀️ Daglig Creator HQ-rapport\n\n"+status(data))
