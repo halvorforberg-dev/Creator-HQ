@@ -34,6 +34,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           BOT_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OPENAI_CONFIGURED: ${{ secrets.OPENAI_API_KEY }}
         run: |
           if [ -z "$BOT_TOKEN" ]; then
             echo "❌ TELEGRAM_BOT_TOKEN missing. Add it under Settings → Secrets and variables → Actions." >> "$GITHUB_STEP_SUMMARY"
@@ -41,6 +42,11 @@ jobs:
             exit 1
           fi
           echo "✅ Bot token secret is configured (contents hidden)." >> "$GITHUB_STEP_SUMMARY"
+          if [ -z "$OPENAI_CONFIGURED" ]; then
+            echo "⚠️ OPENAI_API_KEY not set; AI-chat cannot work, but status commands can." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "✅ OPENAI_API_KEY secret is configured (contents hidden); testing API access in mode check." >> "$GITHUB_STEP_SUMMARY"
+          fi
           if [ -z "$BOT_CHAT" ]; then
             echo "ℹ️ TELEGRAM_CHAT_ID not set; first-time pairing mode. Send /start and run mode poll." >> "$GITHUB_STEP_SUMMARY"
           else
