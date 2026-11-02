@@ -30,6 +30,19 @@ class TestCreatorHQBot(unittest.TestCase):
             for cmd in ("/status","/today","/week","/channels","/help","/ideas","/improve"):
                 self.assertTrue(bot.reply(cmd,self.data).strip(),cmd)
             self.assertIn("OPENAI_API_KEY",bot.reply("Hva blir publisert?",self.data))
+    def test_live_metrics_snapshot_representation(self):
+        text = bot.metric_summary(self.data, include_top=True)
+        self.assertIn("Bizarre Past", text)
+        self.assertIn("What If in 40 Seconds", text)
+        self.assertIn("Little Wild Adventures", text)
+        self.assertIn("ikke sanntid", text)
+        self.assertIn("Analytics ikke tilkoblet", text)
+
+    def test_weekly_contains_verified_metrics(self):
+        text=bot.weekly(self.data)
+        self.assertIn("FAKTISKE MÅLINGER", text)
+        self.assertIn("Retention og CTR", text)
+
     def test_unknown_command(self):
         self.assertIn("Ukjent",bot.reply("/nonsense",self.data))
 
