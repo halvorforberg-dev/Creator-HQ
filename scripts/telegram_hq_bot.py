@@ -297,7 +297,19 @@ def main():
         send(CHAT,"☀️ Daglig Creator HQ-rapport\n\n"+status(data))
         print("Daily report sent")
     elif mode=="weekly":
-        send(CHAT,weekly(data))
+        message=weekly(data)
+        if OPENAI_KEY:
+            try:
+                advice=ai_answer(
+                    "Lag en kort ukentlig redaksjonell prioritering med ett konkret, "
+                    "testbart kvalitetstiltak for hver kanal. Ikke dikt opp "
+                    "visninger, retention, abonnenter eller nye publiseringer. "
+                    "Begrunn med faktisk datagrunnlag eller merk det som hypotese.",
+                    data)
+                message+="\n\n💡 REDAKSJONELLE ANBEFALINGER (AI)\n"+advice[:1300]
+            except RuntimeError:
+                message+="\n\nAI-analyse var ikke tilgjengelig ved denne kjøringen."
+        send(CHAT,message)
         print("Weekly report sent")
     else: raise RuntimeError("Unknown run mode")
 
