@@ -154,7 +154,7 @@ def channels(data):
             "Mål: mange gode videoer, seerretensjon, flere views/subscribers og inntekter.\n"
             "https://halvorforberg-dev.github.io/Creator-HQ/\n\n"+stamp(data))
 
-HELP=("🤖 CREATOR HQ BOT\n\n"
+HELP=("🤖 CREATOR HQ BOT · RAPPORTER\n\n"
       "/status – siste registrerte kanalstatus\n"
       "/today – dagens registrerte publiseringsplan\n"
       "/week – ukesrapport fra HQ-data\n"
