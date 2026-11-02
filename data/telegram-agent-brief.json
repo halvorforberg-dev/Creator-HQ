@@ -89,5 +89,25 @@
     "performance after 7 and 28 days"
   ],
   "source_policy": "Use real current platform/Analytics data if connected and timestamp it. Last saved snapshots may be stale. Do not infer live state or counts from older data. Report uncertainties openly.",
-  "actions_policy": "Telegram bot in this version can read HQ snapshots, chat, draft ideas and analyses. It cannot publish, delete, comment, like, change scheduling or run the original ChatGPT agent. Actions require a separate authenticated workflow and explicit permissions. Never ask user to send tokens in chats."
+  "actions_policy": "Telegram bot in this version can read HQ snapshots, chat, draft ideas and analyses. It cannot publish, delete, comment, like, change scheduling or run the original ChatGPT agent. Actions require a separate authenticated workflow and explicit permissions. Never ask user to send tokens in chats.",
+  "quality_incident": {
+    "date": "2026-11-02",
+    "channel": "Little Wild Adventures",
+    "videoId": "0f847b71-fa9b-48b3-974d-a08a44625e59",
+    "title": "The Breeze That Hid",
+    "status": "REJECTED_AS_QUALITY_REFERENCE",
+    "verifiedProduction": {
+      "mediaType": "images",
+      "imageQuality": "basic",
+      "durationSeconds": 275,
+      "aspectRatio": "16:9"
+    },
+    "deficiencies": [
+      "No animated video clips; image-based visuals",
+      "Milo not featured, different recurring stars",
+      "Not matching the approved Brush Along with Milo! series"
+    ],
+    "remedy": "Verify AI Tuber Weekly Long Story and main series settings separately before next new production. Only approve full-motion video with fixed Milo, brown meerkat and blue bird and clear pedagogical story.",
+    "noEnforcementClaim": "These instructions and HQ warning do not block AI Tuber Autopilot publishing. Verify or pause autopilot directly until reconfigured."
+  }
 }
