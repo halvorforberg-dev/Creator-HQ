@@ -1,0 +1,36 @@
+name: Creator HQ Telegram
+on:
+  schedule:
+    # Poll roughly every ten minutes. GitHub may delay scheduled runs.
+    - cron: '4,14,24,34,44,54 * * * *'
+    # Daily and weekly summaries use UTC; Oslo clock time changes with DST.
+    - cron: '33 7 * * *'
+    - cron: '43 17 * * 1'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'poll, daily or weekly'
+        required: true
+        default: poll
+        type: choice
+        options: [poll, daily, weekly]
+permissions:
+  contents: read
+concurrency:
+  group: creator-hq-telegram
+  cancel-in-progress: false
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Telegram bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RUN_MODE: ${{ inputs.mode }}
+          RUN_SCHEDULE: ${{ github.event.schedule }}
+        run: python3 scripts/telegram_hq_bot.py
