@@ -152,7 +152,7 @@ scheduleRender();
  // Keep existing widgets and state logic, only relocate existing sections to their tabs.
  const studio=document.getElementById('personal-studio');
  if(studio){main.insertBefore(overview,studio);overview.appendChild(studio)}
- const quick=document.getElementById('creator-quick-panel');if(quick)overview.appendChild(quick);const themes=document.getElementById('creator-themes');if(themes)overview.appendChild(themes);
+ const agents=document.getElementById('hq-agent-workflows');if(agents)overview.appendChild(agents);const quick=document.getElementById('creator-quick-panel');if(quick)overview.appendChild(quick);const themes=document.getElementById('creator-themes');if(themes)overview.appendChild(themes);
  const metrics=document.getElementById('metrics');
  if(metrics){statistics.appendChild(metrics)}
  const sectionH=[...main.querySelectorAll('.section-heading')];
