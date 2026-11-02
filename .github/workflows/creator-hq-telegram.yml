@@ -13,7 +13,7 @@ on:
         required: true
         default: poll
         type: choice
-        options: [poll, daily, weekly]
+        options: [check, poll, daily, weekly]
 permissions:
   contents: read
 concurrency:
@@ -26,6 +26,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check secret configuration
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          BOT_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$BOT_TOKEN" ]; then
+            echo "❌ TELEGRAM_BOT_TOKEN missing. Add it under Settings → Secrets and variables → Actions." >> "$GITHUB_STEP_SUMMARY"
+            echo "::error::TELEGRAM_BOT_TOKEN missing from GitHub Actions Secrets"
+            exit 1
+          fi
+          echo "✅ Bot token secret is configured (contents hidden)." >> "$GITHUB_STEP_SUMMARY"
+          if [ -z "$BOT_CHAT" ]; then
+            echo "ℹ️ TELEGRAM_CHAT_ID not set; first-time pairing mode. Send /start and run mode poll." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "✅ Private Telegram chat ID configured (contents hidden)." >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Telegram bot
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
