@@ -30,13 +30,78 @@ def fmt(value):
 def sources():
     return {"m":load("data/metricool.json"),"a":load("data/aituber.json"),
             "p":load("data/aituber-publications.json"),
-            "brief":load("data/telegram-agent-brief.json")}
+            "brief":load("data/telegram-agent-brief.json"),
+            "metrics":load("data/telegram-metrics.json")}
 
 def stamp(data):
     return ("Kildedatoer (lagrede snapshots, ikke sanntid):\n"
             +"Metricool: "+fmt(data["m"].get("updatedAt"))+"\n"
             +"AI Tuber produksjon: "+fmt(data["a"].get("updatedAt"))+"\n"
             +"AI Tuber publisering: "+fmt(data["p"].get("updatedAt")))
+
+def number(n):
+    if n is None: return "—"
+    try: return f"{int(n):,}".replace(","," ")
+    except (TypeError,ValueError): return "—"
+
+def metric_summary(data, include_top=False):
+    snap=data.get("metrics") or {}
+    channels=snap.get("channels") or {}
+    measured=when(snap.get("updatedAt"))
+    now=datetime.now(TZ)
+    if not measured:
+        return "📈 Kanaltall: Ingen oppdatert måling tilgjengelig."
+    age=(now-measured).total_seconds()
+    freshness=("⚠️ Målingen er over 48 timer gammel. " if age>172800 else "")
+    lines=["📈 YOUTUBE · FAKTISKE MÅLINGER",
+           "Metricool hentet "+fmt(snap.get("updatedAt"))+" (ikke sanntid)",
+           freshness+"Tallene nedenfor gjelder tilgjengelige dagsrader fra de siste 7 kalenderdagene, inkl. mulig påbegynt dag."]
+    start=now.date()-timedelta(days=6)
+    for key,name in (("bizarre","Bizarre Past"),("whatif","What If in 40 Seconds"),("wild","Little Wild Adventures")):
+        chan=channels.get(key) or {}
+        youtube=chan.get("youtube") or {}
+        rows=sorted(youtube.get("series") or [], key=lambda x:x.get("date",""))
+        subs=next((r.get("subscribers") for r in reversed(rows) if r.get("subscribers") is not None),None)
+        recent=[]
+        for row in rows:
+            try: date=datetime.fromisoformat(row["date"]).date()
+            except (KeyError,ValueError,TypeError): continue
+            if start<=date<=now.date(): recent.append(row)
+        vis=[x.get("views") for x in recent if x.get("views") is not None]
+        gained=[x.get("followersGained") for x in recent if x.get("followersGained") is not None]
+        lost=[x.get("followersLost") for x in recent if x.get("followersLost") is not None]
+        if not rows:
+            lines.append("• "+name+": YouTube Analytics ikke tilkoblet denne rapportkilden.")
+            continue
+        views=number(sum(vis)) if vis else "—"
+        net=number(sum(gained)-sum(lost)) if gained and lost else "—"
+        extra=" · +"+number(sum(gained))+"/−"+number(sum(lost))+" abonnenter (netto "+net+")" if gained and lost else ""
+        lines.append("• "+name+": "+number(subs)+" abonnenter · "+views+
+                     " visninger i målte dagsrader"+extra)
+        if include_top and youtube.get("videos"):
+            top=next((v for v in youtube["videos"] if v.get("views") is not None),None)
+            if top:
+                lines.append("  Mest sett blant nylig publiserte filmer: "+
+                             str(top.get("title","Uten tittel"))[:75]+
+                             " · "+number(top.get("views"))+" visninger totalt")
+                if top.get("url"): lines.append("  "+str(top["url"]))
+    tt=(channels.get("bizarre") or {}).get("tiktok") or {}
+    rows=tt.get("series") or []
+    if rows:
+        rows=sorted(rows,key=lambda x:x.get("date",""))
+        followers=next((x.get("followers") for x in reversed(rows) if x.get("followers") is not None),None)
+        views=[]
+        for item in rows:
+            try: d=datetime.fromisoformat(item["date"]).date()
+            except (TypeError,ValueError,KeyError): continue
+            if start<=d<=now.date() and item.get("videoViews") is not None:
+                views.append(item["videoViews"])
+        lines.extend(["","🎵 Bizarre Past TikTok: "+number(followers)+
+                      " følgere · "+(number(sum(views)) if views else "—")+
+                      " visninger av videoer registrert i perioden."])
+    lines.append("Merk: tomme dagsrader blir aldri regnet som null; "
+                 "ytelse og historiske videovisninger er forskjellige mål.")
+    return "\n".join(lines)
 
 def posts(data):
     return [x for x in data["m"].get("items",[]) if x.get("channelKey")!="highlights"]
@@ -58,7 +123,7 @@ def status(data):
     if last:
         txt.extend(["","Nyeste AI Tuber-produksjon (IKKE bekreftet publisert):",
                     str(last[0].get("title","Uten tittel"))+" · "+fmt(last[0].get("createdAt"))])
-    txt.extend(["",stamp(data),"","Verifiser faktiske publiseringer i YouTube/Metricool."])
+    txt.extend(["",metric_summary(data),"",stamp(data),"","Verifiser faktiske publiseringer i YouTube/Metricool."])
     return "\n".join(txt)
 
 def today(data):
@@ -76,7 +141,8 @@ def weekly(data):
     body=["📊 CREATOR HQ · SISTE 7 DAGER","",
           "Poster funnet i sist lagrede Metricool-oversikt: "+str(len(recent))]
     for p in recent[:8]: body.append(line(p)+" · "+str(p.get("status","ukjent")))
-    body.extend(["","Views, abonnentvekst og retention krever oppdaterte YouTube Analytics-tall.",
+    body.extend(["",metric_summary(data,include_top=True),"",
+                 "Retention og CTR krever separat tilgang til YouTube Studio eller egnede private analyser.",
                  "Denne boten viser bare data som faktisk finnes i HQ.", "", stamp(data)])
     return "\n".join(body)
 
@@ -194,7 +260,8 @@ def ai_answer(question,data):
       "aituber_publications_updated":data["p"].get("updatedAt"),
       "publications":[{k:p.get(k) for k in ("title","publishedDate","status","publicUrl","channelName")}
                       for p in data["p"].get("items",[])[:20]],
-      "channel_brief":brief}
+      "channel_brief":brief,
+      "metricool_growth_snapshot":data.get("metrics",{})}
     payload={
        "model":"gpt-4.1-mini",
        "instructions":(
