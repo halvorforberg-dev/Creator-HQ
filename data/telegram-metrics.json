@@ -1,0 +1,484 @@
+{
+  "updatedAt": "2026-11-02T14:29:24.856Z",
+  "requestedThrough": "2026-11-02",
+  "source": "Metricool authenticated analytics via connected app",
+  "periodStart": "2026-10-20",
+  "periodEnd": "2026-11-02",
+  "channels": {
+    "bizarre": {
+      "name": "Bizarre Past",
+      "platform": "youtube",
+      "source": "Metricool",
+      "brandId": "7296504",
+      "youtube": {
+        "series": [
+          {
+            "date": "2026-10-20",
+            "subscribers": 17,
+            "views": 32,
+            "videosPublished": null,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-21",
+            "subscribers": 18,
+            "views": 1040,
+            "videosPublished": 1,
+            "followersGained": 3,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-22",
+            "subscribers": 21,
+            "views": 58,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-23",
+            "subscribers": 21,
+            "views": 485,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-24",
+            "subscribers": 23,
+            "views": 618,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-25",
+            "subscribers": 24,
+            "views": 597,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-26",
+            "subscribers": 25,
+            "views": 315,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-27",
+            "subscribers": 26,
+            "views": 36,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-28",
+            "subscribers": null,
+            "views": 125,
+            "videosPublished": 2,
+            "followersGained": 2,
+            "followersLost": 1
+          },
+          {
+            "date": "2026-10-29",
+            "subscribers": 27,
+            "views": 24,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-30",
+            "subscribers": 29,
+            "views": 643,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-01",
+            "subscribers": 29,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-02",
+            "subscribers": 29,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          }
+        ],
+        "videos": [
+          {
+            "publishedAt": "20261021140419",
+            "title": "Vikings Left Prisoners for the Rising Tide? 😳 | Norse Saga",
+            "views": 1260,
+            "watchMinutes": 390.7822666666667,
+            "likes": 17,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=rknqX_6US-0"
+          },
+          {
+            "publishedAt": "20261023140334",
+            "title": "The Vikings Didn't Just Steal Gold — They Stole People 😳",
+            "views": 739,
+            "watchMinutes": 249.5279833333333,
+            "likes": 15,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=N-uee5LCnx0"
+          },
+          {
+            "publishedAt": "20261030150302",
+            "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
+            "views": 626,
+            "watchMinutes": 158.10028333333332,
+            "likes": 21,
+            "comments": 1,
+            "url": "https://www.youtube.com/watch?v=Fbxu3hOzwTQ"
+          },
+          {
+            "publishedAt": "20261024140302",
+            "title": "The Vikings Made the King Pay to Leave Paris 😱 | AD 845",
+            "views": 519,
+            "watchMinutes": 123.4454,
+            "likes": 6,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=zjZxCFBrzNs"
+          },
+          {
+            "publishedAt": "20261025150251",
+            "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
+            "views": 284,
+            "watchMinutes": 65.33176666666668,
+            "likes": 6,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=BNqH2RY58Zo"
+          },
+          {
+            "publishedAt": "20261026150317",
+            "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
+            "views": 281,
+            "watchMinutes": 102.79679999999998,
+            "likes": 8,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=fAZeSyTZnJM"
+          },
+          {
+            "publishedAt": "20261028150315",
+            "title": "The Day Vikings Attacked God's Island 😱 | 793",
+            "views": 106,
+            "watchMinutes": 28.605783333333335,
+            "likes": 5,
+            "comments": 1,
+            "url": "https://www.youtube.com/watch?v=XDG7otcaCVM"
+          },
+          {
+            "publishedAt": "20261028195535",
+            "title": "The Battle That Killed a Viking King ⚔️ | Stamford Bridge 1066",
+            "views": 30,
+            "watchMinutes": 3.9438166666666667,
+            "likes": 3,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=oegyI_rdkPw"
+          }
+        ]
+      },
+      "tiktok": {
+        "series": [
+          {
+            "date": "2026-10-20",
+            "videoViews": null,
+            "followers": 1,
+            "followerNetChange": null
+          },
+          {
+            "date": "2026-10-21",
+            "videoViews": 286,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-22",
+            "videoViews": null,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-23",
+            "videoViews": 278,
+            "followers": 3,
+            "followerNetChange": 2
+          },
+          {
+            "date": "2026-10-24",
+            "videoViews": 301,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-25",
+            "videoViews": 0,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-26",
+            "videoViews": 285,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-27",
+            "videoViews": null,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-28",
+            "videoViews": 569,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-29",
+            "videoViews": null,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-30",
+            "videoViews": 264,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-31",
+            "videoViews": null,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-01",
+            "videoViews": null,
+            "followers": 3,
+            "followerNetChange": 0
+          }
+        ],
+        "brandId": "7296504"
+      }
+    },
+    "whatif": {
+      "name": "What If in 40 Seconds",
+      "platform": "youtube",
+      "source": "Metricool",
+      "brandId": "7751348",
+      "youtube": {
+        "series": [
+          {
+            "date": "2026-10-20",
+            "subscribers": null,
+            "views": 4,
+            "videosPublished": 1,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-21",
+            "subscribers": null,
+            "views": 1,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-22",
+            "subscribers": null,
+            "views": 139,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-23",
+            "subscribers": null,
+            "views": 3,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-24",
+            "subscribers": null,
+            "views": 4,
+            "videosPublished": 1,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-25",
+            "subscribers": null,
+            "views": 6,
+            "videosPublished": 1,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-26",
+            "subscribers": null,
+            "views": 55,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-27",
+            "subscribers": null,
+            "views": 14,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-28",
+            "subscribers": null,
+            "views": 87,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-29",
+            "subscribers": null,
+            "views": 2,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-30",
+            "subscribers": 9,
+            "views": 17,
+            "videosPublished": 1,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-31",
+            "subscribers": 9,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-01",
+            "subscribers": 9,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-02",
+            "subscribers": 15,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          }
+        ],
+        "videos": [
+          {
+            "publishedAt": "20261022160436",
+            "title": "What If Every Bee Disappeared?",
+            "views": 137,
+            "watchMinutes": 19.335783333333335,
+            "likes": 7,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=IhwnM1ipVWE"
+          },
+          {
+            "publishedAt": "20261028170511",
+            "title": "What If Earth’s Magnetic Field Reversed?",
+            "views": 93,
+            "watchMinutes": 22.64275,
+            "likes": 5,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=wr4Mzn1b10k"
+          },
+          {
+            "publishedAt": "20261026170501",
+            "title": "What If Migratory Birds Lost Their Way?",
+            "views": 67,
+            "watchMinutes": 11.510199999999998,
+            "likes": 8,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
+          },
+          {
+            "publishedAt": "20261025180201",
+            "title": "What If Dogs Could Talk? 🐶😂 | Biscuit & Pixel",
+            "views": 12,
+            "watchMinutes": 27.888916666666667,
+            "likes": 1,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=iOstByrBFdE"
+          },
+          {
+            "publishedAt": "20261030170411",
+            "title": "What If Dinosaurs Survived the Asteroid?",
+            "views": 7,
+            "watchMinutes": 2.4787666666666666,
+            "likes": 2,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=mlzAbOhLYEI"
+          },
+          {
+            "publishedAt": "20261024160336",
+            "title": "What If Cats Could See in Total Darkness?",
+            "views": 5,
+            "watchMinutes": 1.5285166666666665,
+            "likes": 1,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=dqMwf4_psxc"
+          },
+          {
+            "publishedAt": "20261020160502",
+            "title": "What If Earth’s Gravity Were Half as Strong?",
+            "views": 3,
+            "watchMinutes": 0.6153333333333334,
+            "likes": 0,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=6QOKuZNYIJU"
+          }
+        ]
+      }
+    },
+    "wild": {
+      "name": "Little Wild Adventures",
+      "platform": "youtube",
+      "source": "not connected to Metricool analytics",
+      "youtube": {
+        "series": [],
+        "videos": []
+      },
+      "notes": "Connection required for automatic channel metrics."
+    }
+  },
+  "notes": [
+    "Metrics from Metricool can be delayed and sparse; source nulls are not zeros.",
+    "Youtube Evolution videoViews records activity in dated rows; YouTube Videos Published in Range views are cumulative totals of these videos, not weekly views.",
+    "No access to Little Wild Adventures channel analytics through current Metricool account.",
+    "Period includes partial current calendar day; compare full periods carefully.",
+    "Metrics do not prove videos are published without platform record."
+  ]
+}
