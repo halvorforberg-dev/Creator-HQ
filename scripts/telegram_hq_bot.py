@@ -107,9 +107,32 @@ def request(url, payload, extra=None, timeout=30):
     try:
         with urllib.request.urlopen(req,timeout=timeout) as response:
             return json.loads(response.read())
-    except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError,ValueError) as e:
-        # Never print exception URLs because Telegram bot token is embedded in the URL.
-        raise RuntimeError("Network/API error: "+type(e).__name__) from None
+    except urllib.error.HTTPError as e:
+        # Report only sanitized HTTP status and recognized error codes. Never log
+        # URLs, request bodies, user prompts, keys, or raw upstream messages.
+        code="unclassified"
+        kind="unclassified"
+        if url.startswith("https://api.openai.com/"):
+            try:
+                upstream=json.loads(e.read(4096).decode("utf-8"))
+                err=upstream.get("error",{}) if isinstance(upstream,dict) else {}
+                allowed={"invalid_api_key","insufficient_quota","rate_limit_exceeded",
+                         "billing_hard_limit_reached","model_not_found",
+                         "organization_not_found","invalid_request_error",
+                         "authentication_error","permission_error","rate_limit_error"}
+                candidate=str(err.get("code",""))
+                candidate_kind=str(err.get("type",""))
+                if candidate in allowed: code=candidate
+                if candidate_kind in allowed: kind=candidate_kind
+            except (ValueError,UnicodeDecodeError,AttributeError):
+                pass
+            raise RuntimeError("OpenAI API HTTP "+str(e.code)+
+                               " | error code: "+code+" | type: "+kind+
+                               ". Verify API key, project billing/credits, model permissions and limits.") from None
+        raise RuntimeError("Service returned HTTP "+str(e.code)+
+                           ". Request details hidden for security.") from None
+    except (urllib.error.URLError,TimeoutError,ValueError) as e:
+        raise RuntimeError("Connection/response error: "+type(e).__name__) from None
 
 def telegram(method, payload):
     if not TOKEN: raise RuntimeError("TELEGRAM_BOT_TOKEN missing")
@@ -287,8 +310,9 @@ def main():
                 if not answer:
                     raise RuntimeError("Empty AI response")
                 print("OpenAI test succeeded; key contents remain hidden.")
-            except RuntimeError:
-                raise RuntimeError("OpenAI test failed. Check API key/project billing or credits, model access and limits.") from None
+            except RuntimeError as err:
+                # This error has already been sanitized by the network wrapper.
+                raise RuntimeError("OpenAI verification failed: "+str(err)) from None
         else:
             print("OPENAI_API_KEY not configured; standard Telegram commands remain available.")
     elif mode=="poll": poll(data)
