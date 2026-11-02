@@ -1,0 +1,93 @@
+{
+  "updatedAt": "2026-11-02",
+  "language": "Norwegian for bot responses, English for video scripts and metadata",
+  "primary_goal": "High production volume plus uncompromising quality. Grow authentic views, subscribers, watch time and eventual YouTube income. No earnings guarantees.",
+  "focus_channels": [
+    {
+      "name": "Bizarre Past",
+      "handle": "@BizarrePast69",
+      "youtube": "https://www.youtube.com/@BizarrePast69",
+      "tiktok": "@bizzare.past",
+      "production": "Higgsfield full-motion scenes, published via Metricool",
+      "themes": [
+        "Vikings",
+        "historical mysteries",
+        "lost treasures and treasure hunts",
+        "archaeological discoveries",
+        "carefully sourced discoveries related to the Bible"
+      ],
+      "rules": [
+        "Strong spoken and written 'Did you know…' in first 1–2 seconds",
+        "Clear hook, story, resolution",
+        "History accuracy: separate legends and biblical faith from documentary evidence",
+        "6–8 minute long episodes emphasize treasures and mysteries",
+        "Use approved narrator voice, cinematic action, good audio and seamless scene transitions",
+        "Historical reenactments labeled as AI-generated, not actual archive footage"
+      ]
+    },
+    {
+      "name": "Little Wild Adventures",
+      "handle": "@LittleWildAdventures67",
+      "youtube": "https://www.youtube.com/@LittleWildAdventures67",
+      "production": "AI Tuber full-motion animation",
+      "template": "Brush Along with Milo! 🪥 – published 2026-10-29",
+      "templateUrl": "https://www.youtube.com/shorts/NjlWiWmNrRg",
+      "rules": [
+        "Maintain same recognizable characters: Milo, friendly brown meerkat and little blue (NOT yellow) bird",
+        "One small problem and a playful educational lesson in every episode",
+        "Warm, child-friendly story, lively animation, relevant spoken dialogue and facial motion, varied music",
+        "Entire series has consistent look and tone",
+        "Before claiming Weekly Long Story is scheduled, verify its current Autopilot status",
+        "Made-for-kids settings and limitations respected"
+      ]
+    },
+    {
+      "name": "What If in 40 Seconds",
+      "handle": "@WhatIfin35seconds",
+      "youtube": "https://www.youtube.com/@WhatIfin35seconds",
+      "production": "AI Tuber full-motion animation",
+      "rules": [
+        "Positive, fascinating, entertaining what-if questions, avoid gloomy and grim speculation",
+        "Start with clear spoken and written 'What if…'",
+        "Title visible for 2–3 seconds while action starts",
+        "Strong visual movement matching narration and an explicit satisfying takeaway",
+        "For talking animals use natural voices and synchronized speech/lip motion"
+      ]
+    }
+  ],
+  "publishing": {
+    "starts": "2026-11-09",
+    "monday": "Shorts 35–40 sek",
+    "wednesday": "Shorts 35–40 sek",
+    "friday": "Video 1–2 min",
+    "sunday": "Annenhver 6–8 min / 2–3 min, første lange søndag 15.11",
+    "weeklyGoal": "At least 12 excellent YouTube videos across the three channels, with extra excellent episodes where capacity permits.",
+    "existing": "All existing queued videos through 2026-11-08 stay unchanged; verify live queue before new scheduling. Editorial schedule is not proof a video is booked or published.",
+    "status": "Editorial goals only; current production and platform booking must be confirmed separately."
+  },
+  "mandatory_quality": [
+    "Strong relevant hook in first two seconds",
+    "Full-motion video with visual action aligned to narrative; no slideshow with zoom",
+    "Clear story, forward movement, audible natural narrator, appropriate music and professional sound mix",
+    "1080p when possible",
+    "Complete ending with payoff, no abrupt cut or gaps",
+    "Compelling original titles/thumbnail and appropriate descriptions/hashtags",
+    "Watch complete final file before scheduling; check captions, voice sync, timeline, scene quality and last line",
+    "Check whether episode is already uploaded to prevent duplicates",
+    "Do not publish weak episodes merely to meet quotas; build a buffer of quality-checked films",
+    "No rights-infringing clips or misleading claims; properly label synthetic/AI reconstructions"
+  ],
+  "learning_metrics": [
+    "views",
+    "engaged views",
+    "viewed vs swiped",
+    "average percentage viewed",
+    "retention drop-offs",
+    "watch time",
+    "new subscribers per 1000 views",
+    "CTR on long-form",
+    "performance after 7 and 28 days"
+  ],
+  "source_policy": "Use real current platform/Analytics data if connected and timestamp it. Last saved snapshots may be stale. Do not infer live state or counts from older data. Report uncertainties openly.",
+  "actions_policy": "Telegram bot in this version can read HQ snapshots, chat, draft ideas and analyses. It cannot publish, delete, comment, like, change scheduling or run the original ChatGPT agent. Actions require a separate authenticated workflow and explicit permissions. Never ask user to send tokens in chats."
+}
