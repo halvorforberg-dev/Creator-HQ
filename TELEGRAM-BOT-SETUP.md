@@ -2,7 +2,7 @@
 
 Bot: [@CreatorHQHalvorBot](https://t.me/CreatorHQHalvorBot).
 
-Dette er en første versjon basert på GitHub Actions, ikke en sanntids-chat. Status kommer fra eksisterende lagrede HQ JSON-snapshots, ikke direkte tilgang til YouTube Studio/AI Tuber. Telegram-meldinger sjekkes planlagt omtrent hvert 10. minutt (GitHub kan forsinke kjøringen). Ingen ekstra hosting trengs.
+Dette er en første versjon basert på GitHub Actions, ikke en sanntids-chat. Status kommer fra eksisterende lagrede HQ JSON-snapshots, ikke direkte tilgang til YouTube Studio/AI Tuber. Telegram-meldinger sjekkes planlagt omtrent hvert 30. minutt (GitHub kan forsinke kjøringen). Ingen ekstra hosting trengs.
 
 ## Koble til kontoen – sikre innstillinger
 1. Åpne https://github.com/halvorforberg-dev/Creator-HQ/settings/secrets/actions → **New repository secret**.
@@ -51,3 +51,11 @@ Dette er en første versjon basert på GitHub Actions, ikke en sanntids-chat. St
 - Eksempler: 'Hva er planlagt i dag?', 'Hva bør neste Little Wild-episode lære barna?', 'Gi fem nye positive What If-ideer', 'Hva skal vi forbedre i neste Bizarre Past-langfilm?'.
 - Alle status- og publikasjonspåstander må skilles fra ønskede planer. AI-analyse uten ferske Analytics-tall er hypoteser, ikke dokumentert ytelse.
 - Feilsøking: Dersom `check` blir rød etter at nøkkelen er lagt inn, les GitHub Action-loggen. Vanlige årsaker er feil nøkkel, manglende API-tilgang, tom kredittsaldo eller modellbegrensning. Du trenger ikke sende nøkkelen til oss.
+
+## Rapportoppsett fra 2. november 2026
+- **Hovedbruken av Telegram er rapporter.** Daily og weekly er automatiske GitHub Actions-sendinger. Chat-kommandosett beholdes, men det sjekkes nå normalt omtrent hver halve time.
+- Det nye datagrunnlaget ligger i `data/telegram-metrics.json`, med Metricool YouTube for Bizarre Past og What If og TikTok for Bizarre. Dette kan inkludere abonnenter, målte visninger i de siste sju kalenderdagene og nylig publiserte videoer med flest kumulative visninger. **Little Wild mangler tilkoblet Metricool-analytics; aldri fyll inn anslag som fakta.**
+- Daglig datainnhenting er lagt opp som en separat ChatGPT-automatisering **Creator HQ – daglige kanaltall**, som leser tilkoblet Metricool og oppdaterer GitHub-snapshot. Denne er avhengig av at den koblede appen og automatiseringen faktisk fullfører hver kjøring; GitHub-jobben kan ikke hente Metricool privat uten denne oppdateringen.
+- Rapportkoden merker målinger eldre enn 48 timer, skiller status fra ytelse og oppgir kildedato. Ukesrapport viser også toppliste og frivillige AI-anbefalinger. Brukerhandlinger og Telegram-fritekstspørsmål er ikke påkrevd for å få de faste rapportene.
+- For automatiske tall fra Little Wild kreves en ny autorisert YouTube Analytics-/Metricool-kobling. Ikke oppgrader abonnement eller kjøp credits automatisk.
+- Dette er en rapportkanal: Botens Telegram-meldinger kan IKKE starte AI Tuber, publisere, like eller kommentere. Rapporter er ikke bevis på publisering uten bekreftelse fra plattform.
