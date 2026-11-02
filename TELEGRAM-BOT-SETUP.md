@@ -10,15 +10,22 @@ Dette er en første versjon basert på GitHub Actions, ikke en sanntids-chat. St
 3. Du kan først teste tokenet: GitHub → Actions → Creator HQ Telegram → **Run workflow → check**. Grønn hake og 'Valid token' betyr at bot-tokenet virker. Send så **/start** til Telegram-boten. Under GitHub → Actions → Creator HQ Telegram → **Run workflow → poll** kan du få første kjøring uten å vente på tidsplanen.
 4. Kjør deretter **Run workflow → poll**. Boten gir deg din private chat-ID. Legg tallet inn som **TELEGRAM_CHAT_ID** i GitHub Actions Secrets.
 5. Skriv **/status** til boten, og kjør *poll* en gang til for å teste.
-6. Valgfritt: Legg inn **OPENAI_API_KEY** som GitHub Action Secret for fritekstspørsmål. ChatGPT-abonnementet dekker **ikke** OpenAI API-kostnader. Bruk av botens standardkommandoer krever ikke API-nøkkel.
+6. For vanlige AI-spørsmål: Opprett en egen prosjektbasert OpenAI API-nøkkel på https://platform.openai.com/api-keys. Bruk gjerne et eget prosjekt 'Creator HQ Bot' og sett et passende budsjett i prosjektinnstillingene.
+7. Legg nøkkelen direkte inn i GitHub → Settings → Secrets and variables → Actions → New repository secret med eksakt navn **OPENAI_API_KEY**. Nøkkelen skal IKKE deles i Telegram eller ChatGPT.
+8. Kjør **Actions → Creator HQ Telegram → Run workflow → check**. Når nøkkelen er tilgjengelig, testes et kort OpenAI-svar. En grønn kjøring betyr at API-testen lyktes.
+9. Still et vanlig spørsmål i Telegram (for eksempel 'Gi meg fem forslag til Bizarre Past') og kjør **poll** eller vent på neste kjøring.
+10. API-forbruk håndteres separat fra ChatGPT-abonnementet. Noen kvalifiserte abonnementer har en API-kredittfordel som må aktiveres separat og kan kreve minst syv dagers abonnement: https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions. Ikke aktiver automatisk påfyll uten å vurdere kostnadene.
 
 ## Kommandoer
 - **/status** – status fra sist lagrede data
 - **/today** – registrerte poster for dagen
 - **/week** – siste ukes poster, ikke påståtte live-analyser
 - **/channels** – de tre kanalene
+- **/plan** – redaksjonell plan, ikke bekreftet booking
+- **/ideas** – fem kanaltilpassede ideer (AI med nøkkel)
+- **/improve** – forslag til forbedringer (AI med nøkkel)
 - **/help** – kommandohjelp
-- Frie spørsmål – krever egen OpenAI API-nøkkel.
+- Vanlige norske spørsmål krever egen OpenAI API-nøkkel og regnes som API-bruk.
 
 ## Sikkerhet og begrensninger
 - Bare Telegram-chatten registrert i **TELEGRAM_CHAT_ID** får tilgang til rapportdata.
@@ -36,3 +43,11 @@ Dette er en første versjon basert på GitHub Actions, ikke en sanntids-chat. St
 - Hvis `poll` er grønn uten svar, send /start på nytt, og kjør `poll` på nytt. Kontroller at du bruker privat chat med riktig bot: @CreatorHQHalvorBot.
 - Hvis en eksisterende Telegram webhook er aktiv, viser `check` dette som feil. Ikke slett andres webhooks uten å vite hvilken integrasjon som eier den.
 - Sjekk at GitHub Actions er aktivert for repositoriet og at du kjører på standardgrenen.
+
+## AI-assistent – hva den kan og ikke kan
+
+- Botens kanalforståelse ligger i `data/telegram-agent-brief.json`, sammen med tidsstemplede HQ-datapakker. Kanalbriefen inneholder format, kvalitetskrav og produksjonsvalg for Bizarre Past, Little Wild Adventures og What If.
+- Boten har ikke tilgang til denne ChatGPT-samtalen, private minner eller live YouTube Studio. Den kan gi forslag, manusutkast, analyser og redegjøre for registrert status, men ikke handle på vegne av deg i YouTube eller publisere filmer.
+- Eksempler: 'Hva er planlagt i dag?', 'Hva bør neste Little Wild-episode lære barna?', 'Gi fem nye positive What If-ideer', 'Hva skal vi forbedre i neste Bizarre Past-langfilm?'.
+- Alle status- og publikasjonspåstander må skilles fra ønskede planer. AI-analyse uten ferske Analytics-tall er hypoteser, ikke dokumentert ytelse.
+- Feilsøking: Dersom `check` blir rød etter at nøkkelen er lagt inn, les GitHub Action-loggen. Vanlige årsaker er feil nøkkel, manglende API-tilgang, tom kredittsaldo eller modellbegrensning. Du trenger ikke sende nøkkelen til oss.
