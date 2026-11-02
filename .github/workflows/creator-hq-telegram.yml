@@ -1,5 +1,9 @@
 name: Creator HQ Telegram
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/creator-hq-telegram.yml'
   schedule:
     # Poll roughly every ten minutes. GitHub may delay scheduled runs.
     - cron: '4,14,24,34,44,54 * * * *'
@@ -57,6 +61,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          RUN_MODE: ${{ inputs.mode }}
+          RUN_MODE: ${{ github.event_name == 'push' && 'check' || inputs.mode }}
           RUN_SCHEDULE: ${{ github.event.schedule }}
         run: python3 scripts/telegram_hq_bot.py
