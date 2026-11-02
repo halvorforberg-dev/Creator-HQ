@@ -26,6 +26,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Validate Creator HQ Bot
+        run: |
+          python3 -m compileall -q scripts/telegram_hq_bot.py
+          python3 -m unittest discover -s tests -p 'test_telegram_hq.py'
       - name: Check secret configuration
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
