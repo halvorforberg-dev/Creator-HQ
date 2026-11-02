@@ -4,9 +4,11 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/creator-hq-telegram.yml'
+      - 'scripts/telegram_hq_bot.py'
+      - 'tests/test_telegram_hq.py'
   schedule:
-    # Poll roughly every ten minutes. GitHub may delay scheduled runs.
-    - cron: '4,14,24,34,44,54 * * * *'
+    # Report-first bot: check questions every 30 minutes to limit Actions usage.
+    - cron: '14,44 * * * *'
     # Daily and weekly summaries use UTC; Oslo clock time changes with DST.
     - cron: '33 7 * * *'
     - cron: '43 17 * * 1'
