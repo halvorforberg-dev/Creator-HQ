@@ -121,6 +121,13 @@
       "measure": "First 2-sec engagement, engaged views, replays, total watch time; compare 24h/7d/28d at matching age and format",
       "status": "Own-video qualitative review completed 2026-11-03; untested hypothesis due tiny sample",
       "nextTrial": "Milo's Wobbly Tower, script/visual reference prepared in data/little-wild-series-bible.json. Do not publish until actual video QC and 18:00 autopilot timing verified."
+    },
+    {
+      "channel": "whatif",
+      "hypothesis": "Invisible non-luminous floral electrical signals perceived by bumblebees can deliver a positive visual science reveal within 35–40s without using all generated full-motion scenes.",
+      "measure": "Age-matched 24h/7d engaged views + stayed-to-watch + avg percentage viewed once owner analytics available; no causal claims from tiny counts",
+      "status": "SOURCE-CHECKED RESEARCH ONLY, NOT BOOKED",
+      "nextTrial": "What If Flowers Sent Invisible Electric Messages? ⚡🌼"
     }
   ],
   "lastResearch": {
@@ -473,5 +480,52 @@
         "https://providencechildrensmuseum.org/shadows-and-sun-fun/"
       ]
     }
+  },
+  "whatifIdeas": [
+    {
+      "channel": "whatif",
+      "researchDate": "2026-11-03",
+      "workingTitle": "What If Flowers Sent Invisible Electric Messages? ⚡🌼",
+      "shortHook": "What if flowers sent electric messages you could never see?",
+      "length": "35–40 sec vertical Short, subject to quality/editing; not generated or booked",
+      "notDuplicateOf": [
+        "What If Every Bee Disappeared?",
+        "What If the Ocean Glowed Like Stars?",
+        "What If Octopuses Lived on Land?"
+      ],
+      "proof": [
+        "https://research-information.bris.ac.uk/en/publications/detection-and-learning-of-floral-electric-fields-by-bumblebees/",
+        "https://pubmed.ncbi.nlm.nih.gov/23429701/",
+        "https://www.sciencedaily.com/releases/2013/02/130221143900.htm"
+      ],
+      "scienceVerified": "Bumblebees (Bombus terrestris) can sense and distinguish weak floral electric fields. Charged bee visits briefly alter the flower's potential; electric information alongside color helps learning. The degree to which field changes signal depleted rewards in nature is suggested, not a guaranteed real-time 'closed' signal. Invisible 'glow' must be labelled conceptual animation, not actual light.",
+      "scriptDraft": "What if flowers sent electric messages you could never see? Bumblebees can pick up tiny electrical clues around flowers. As a bee flies, it carries an electric charge, while flowers have weak electric fields. When a bee lands, those fields can change. Scientists discovered bumblebees can learn different electrical patterns and use them together with flower colors to find rewards. So a garden isn't only filled with beautiful colors and sweet scents. For a bumblebee, there's a hidden electrical world too!",
+      "storyboard": "0–2s strong floral macro + animated translucent contour line (scientific visualization only). 2–10s ordinary flower vs overlay of field as a diagram; 10–19s bee flies, contact, subtle waveform shift; 19–29s illustration of experimental contrasting flower signals and honeybee choosing; 29–40s wide bright garden reveal + key conclusion. Distinguish animation from actual observation in caption; no supernatural glowing flowers.",
+      "alternatives": [
+        "What if flowers had a secret sense just for bees?",
+        "What if a garden was full of electrical clues?",
+        "What if bees could sense messages hidden in flowers?",
+        "What if every flower had an invisible electrical fingerprint?",
+        "What if flowers sent electric messages you could never see?"
+      ],
+      "creativeQC": "Current mixed visual What If style acceptable: documentary stock macro, tasteful simple schematic overlay, short original animated moment if cost-effective, real voice and music. Must start spoken and written 'What if' in first 0–2s and title on-screen ~2–3s; finish complete payoff; not all scenes full motion.",
+      "experiment": "Compare viewer stays-to-watch / engaged views and retention at 24 hours and 7 days with What If's other 35–40s science/nature Shorts of matched age. If credible, evaluate same theme for 3–4 min long form without reusing identical script.",
+      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "publicationBlock": "What If AutoPilot recurring timing and unique-slot queue still unverified. DO NOT publish or schedule agent video yet. Need explicit confirmation there is no concurrent AutoPilot publish."
+    }
+  ],
+  "lastWhatIfMicroResearch": {
+    "date": "2026-11-03",
+    "scope": "AI Tuber production list, single verified published Ocean publication, Metricool What If public video analytics, free competitor publisher library, peer-reviewed bumblebee electric-field research, active 10000 credit plan.",
+    "findings": [
+      "AI Tuber GET /publications/16685215-b45e-4254-9c54-83cb7c7166d7 confirms Ocean Glowed Like Stars published at 18:01 Oslo on Nov 3, https://www.youtube.com/watch?v=l_eoxyfvfRM; no rebooking.",
+      "AI Tuber latest completed What If Octopuses Lived on Land? generated 18:00:33 Oslo Nov 3, id 97fbc25c-2c26-47ea-86e1-6900322870fc. Publication status/link NOT confirmed because publication list endpoint unsupported; risk of autopilot overlap remains.",
+      "AI Tuber balance 9808 of 10000 monthly; vidIQ remaining 2 credits, so NO paid vidIQ usage.",
+      "Metricool What If public 'all videos' snapshot on Nov 3: Earth's Magnetic Field Reversed 95 views (Oct 28 publish), Migratory Birds Lost Their Way 68 (Oct 26), Dogs Could Talk 13 (Oct 25), Dinosaurs Survived Asteroid 9 (Oct 30), Humans Lived With Dinosaurs 5 (Oct 31). Raw figures are different-aged cumulative counts and do NOT prove ranking of hooks or retention. Older 'Every Bee Disappeared' counts previously 137 but current connector reported 3; reconcile connector before analyzing that video.",
+      "QuirkScience publisher catalogue read Nov 3 has a Nov 1 9:18 long film on Europa and 1 minute science Shorts such as a Oct 28 shark/submarine question. Exact first 2 secs, real view counts and retention NOT watched/verified. Distinctive question with a scientifically grounded payoff is a structural reference only.",
+      "University of Bristol 2013 Science research on electric fields of flowers provided new original and source-grounded concept, not copying competitors."
+    ],
+    "access": "Metricool exposes What If video snapshots; vidIQ linked channels include Bizarre Past and Highlights, NOT What If, so private YouTube retention, stayed-to-watch and 24h/7d comparison unavailable via authorized vidIQ right now. No Work session/browser, YouTube likes/comments/viewing were not performed.",
+    "nextStep": "Verify What If AutoPilot schedule in AI Tuber UI before any agent-controlled posting; then estimate costs and produce only a unique, approved-looking What If episode. No new video generated/published/scheduled in research run."
   }
 }
