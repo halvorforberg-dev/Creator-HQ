@@ -255,5 +255,46 @@
     "cadence": "Weekly overall, ongoing channel-agent scouting as needed before creating new videos",
     "finance": "Prefer public research; vidIQ credit balance is finite, no purchases without user permission.",
     "reporting": "One short practical summary per channel in Creator HQ and Telegram weekly reporting when feed connected"
+  },
+  "creditPlanning": {
+    "updatedAt": "2026-11-03",
+    "aituberPlanVerified": {
+      "plan": "Studio",
+      "status": "active",
+      "monthlyCredits": 10000,
+      "balanceAtCheck": 10000,
+      "provider": "AITuber get_subscription",
+      "channels": [
+        "Little Wild Adventures",
+        "What If in 40 Seconds"
+      ]
+    },
+    "separateService": "Bizarre Past is produced solely in Higgsfield and NOT included in AITuber credits.",
+    "productionGoalMonthly": {
+      "shorts": 26,
+      "regularVideos": 9,
+      "regularVideoDurationMinutes": "3–6",
+      "shortDurationSeconds": "35–40",
+      "status": "EDITORIAL_GOALS; NOT CONFIRMED ALL BOOKED"
+    },
+    "officialRates": {
+      "source": "https://help.aituber.app/en/article/quality-tiers-explained-basic-good-premium-max-oagajm/",
+      "aiVideoCreditsPerSecond": {
+        "basic": 5,
+        "good": 10,
+        "premium": 26,
+        "max": 30
+      },
+      "voiceCreditsPerMinute": 30,
+      "stockCreditsPerMinute": 50
+    },
+    "estimatedAllVideosAIgenerated": {
+      "basic": "about 14,000–24,000 credits/month",
+      "good": "about 27,000–45,000 credits/month",
+      "premium": "about 67,000–113,000 credits/month",
+      "max": "about 77,000–131,000 credits/month"
+    },
+    "feasibility": "10,000 monthly credits cannot produce all 26 Shorts plus 9 3–6-minute films as newly generated full-motion AI video, even at Basic. What If long films can use licensed stock moving video; Little Wild must retain original consistent animated Milo/Miko/Pip. Quality gate remains mandatory. Do not silently downgrade or generate expensive extra content.",
+    "userApproval": "Credit package purchases and costly production beyond budget require explicit approval; publication itself is no-credit-cost."
   }
 }
