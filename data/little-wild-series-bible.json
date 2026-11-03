@@ -202,7 +202,7 @@
   ],
   "pilot": {
     "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
-    "productionState": "READY_FOR_AI_TUBER_GENERATION; NOT GENERATED OR BOOKED",
+    "productionState": "SCRIPT READY, SAVED APPROVED CHARACTER REFERENCE, NOT GENERATED OR BOOKED",
     "voiceoverEnglish": "CRASH! Milo’s block tower fell! “Oh no!” cried Milo. Miko the meerkat looked at the tiny bottom block. “That’s a wobbly base!” Pip the little blue bird chirped, “Let’s count three BIG blocks!” One... two... three! Milo stacked them wide at the bottom. Then he carefully added little blocks on top. Uh-oh... wobble, wobble! Everybody froze. And... it stayed up! “We did it!” cheered Milo. Big blocks at the bottom make our tower steadier. Can you build one, too?",
     "visualBeats": [
       {
@@ -234,5 +234,23 @@
     "targetWords": "75–85 spoken words at relaxed preschool pace; never overfill 35–40 seconds",
     "targetVideo": "9:16, native full-motion, 1080p output, 35–40 sec, title 2–3 sec, appropriate Made for Kids flag",
     "note": "All dialogue/voices are creative directions. AI Tuber create_video standard narrated mode does not guarantee real voice casting or mouth synchronization; audit final file."
+  },
+  "visualReference": {
+    "service": "AI Tuber",
+    "id": "02b49901-30ed-4570-be58-64b0c9b4d801",
+    "handle": "@Little-Wild-Milo-and-Friends",
+    "name": "Little Wild Milo and Friends",
+    "previewImageUrl": "https://cdn.aituber.app/elements/org_3KohME0rcpuY4ShttDKq6LmM7mR/889ad671-ace7-4610-93fc-bba0b0483547.jpg",
+    "source": "Thumbnail of owned APPROVED 'Brush Along with Milo!' October 29 video. Contains some title text; reference is for CHARACTER DESIGN only, never copy overlay or background.",
+    "createdAt": "2026-11-03",
+    "creditCost": "0 for creating element; per-scene usage may cost generation credits, verify before use",
+    "implementation": "For AI Tuber script generation include this saved @handle in bracketed scene visual directions for continuity, alongside explicit movements. Confirm characters in the final actual MP4; a reference is not a guarantee."
+  },
+  "schedulingBlocker": {
+    "status": "NEEDS_PLATFORM_SETTINGS_CHECK",
+    "concern": "YouTube Cozy Bedtime Countdown published 2026-11-02 15:07:09Z (16:07 Oslo) even though all new videos should publish at 18:00 Oslo. Existing AI Tuber Autopilot may have an older time setting.",
+    "url": "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489",
+    "caveat": "Connected AI Tuber API does not offer direct Autopilot schedule read or update. The video upload time alone does not prove whether this specific upload came from Autopilot.",
+    "action": "Check next releases in AI Tuber dashboard, change recurring publication target to 18:00 Europe/Oslo and avoid duplicate concurrent scheduling. Do not claim technical fix before verifying."
   }
 }
