@@ -8,7 +8,7 @@
     "appliesTo": "All newly scheduled and remaining future posts for Bizarre Past YouTube and TikTok, Little Wild Adventures YouTube, and What If in 40 Seconds YouTube; Shorts and long-form.",
     "checkBeforeScheduling": "Read actual queue first. Check unique video ID and correct target channel, reject duplicates.",
     "mandatoryQC": [
-      "Full-motion scenes with no Ken Burns slideshow",
+      "Channel-specific visuals: Bizarre Past cinematic motion; Little Wild animated full-motion throughout; What If preserves its currently approved effective mixed-media approach, using animated video only where helpful plus well-chosen images/stock when storytelling improves. No dull static slideshow or unnecessary credit spend.",
       "Strong first two seconds",
       "1080p when possible",
       "Consistent characters/art",
@@ -29,7 +29,13 @@
       "wild": "AI Tuber for production and own YouTube publishing",
       "whatif": "AI Tuber for production and own YouTube publishing"
     },
-    "creditBudgetBoundary": "AI Tuber budgets and estimates cover ONLY Little Wild Adventures and What If in 40 Seconds. Bizarre Past uses Higgsfield credits/pricing separately. Never suggest Bizarre Past is made in AI Tuber."
+    "creditBudgetBoundary": "AI Tuber credit budgets cover ONLY Little Wild Adventures and What If; What If does NOT require full-motion generated footage for every scene. Maintain current What If creative style and use efficient mixed visuals when it genuinely makes the film better. Little Wild still requires fully animated full motion; Bizarre Past remains Higgsfield-only.",
+    "visualPolicyDecision": {
+      "date": "2026-11-03",
+      "whatif": "KEEP AS PRODUCED TODAY: current recognizable high-quality What If style; short engaging what-if hook, coherent science/story, clear surprising takeaway. Mix suitable stock footage, AI images, motion graphics and AI-generated moving video as relevant; full-motion in every scene is NOT mandatory. Never downgrade successful scenes just for savings; never create cheap slide decks.",
+      "wild": "Maintain full-motion animation in every episode and consistent Milo/Miko/Pip",
+      "bizarre": "Higgsfield cinematic moving scenes; publish via Metricool; separate credits."
+    }
   },
   "channels": {
     "bizarre": {
@@ -113,7 +119,9 @@
         "regularLongFormDurationMinutes": "3–6",
         "time": "18:00 Europe/Oslo",
         "formatOfLongForm": "ordinary public 16:9 upload"
-      }
+      },
+      "visualPolicy": "Keep current video look/style and energetic storytelling. Mixed visuals acceptable: well-chosen images, motion graphics, stock footage and moving AI clips. No requirement for 100% full-motion; strong hook and satisfying payoff remain non-negotiable.",
+      "productionCreditPolicy": "Prefer current AI Tuber setup and choose efficient visual type/clip mixes by topic. Do not force costly Max/Premium full-motion for all scenes. Confirm costs before generating and inspect finished MP4."
     }
   },
   "goalSchedule": {
@@ -294,7 +302,8 @@
       "premium": "about 67,000–113,000 credits/month",
       "max": "about 77,000–131,000 credits/month"
     },
-    "feasibility": "10,000 monthly credits cannot produce all 26 Shorts plus 9 3–6-minute films as newly generated full-motion AI video, even at Basic. What If long films can use licensed stock moving video; Little Wild must retain original consistent animated Milo/Miko/Pip. Quality gate remains mandatory. Do not silently downgrade or generate expensive extra content.",
-    "userApproval": "Credit package purchases and costly production beyond budget require explicit approval; publication itself is no-credit-cost."
+    "feasibility": "The ALL-FULL-MOTION table is only a costly counterfactual, NOT the What If production requirement. What If may use suitable AI images, motion graphics and/or moving stock clips in mixed-media storytelling like the current channel; Little Wild requires original animated full-motion with recurring Milo/Miko/Pip. Estimate each actual planned video's costs separately; do not spend credits beyond 10,000 without approval.",
+    "userApproval": "Credit package purchases and costly production beyond budget require explicit approval; publication itself is no-credit-cost.",
+    "visualBaseline": "Updated 2026-11-03: What If as today, not all footage full motion; prioritize storytelling/engagement and credit efficiency. Little Wild keeps full-motion animated character scenes. Previous all-full-motion cost examples must not be treated as the approved plan."
   }
 }
