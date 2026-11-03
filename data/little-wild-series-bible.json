@@ -269,5 +269,12 @@
     "url": "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489",
     "caveat": "Connected AI Tuber API does not offer direct Autopilot schedule read or update. The video upload time alone does not prove whether this specific upload came from Autopilot.",
     "action": "Check next releases in AI Tuber dashboard, change recurring publication target to 18:00 Europe/Oslo and avoid duplicate concurrent scheduling. Do not claim technical fix before verifying."
+  },
+  "productionPriority": {
+    "position": "SECOND after What If on the shared AI Tuber account",
+    "date": "2026-11-03",
+    "planningCreditsMonthly": 3000,
+    "otherChannelCreditsMonthly": 7000,
+    "qualityRule": "If credits cannot support the target cadence, publish fewer fully animated quality-approved Little Wild episodes. Do not silently substitute image slideshow. Do not re-generate without assessing balance and outcome."
   }
 }
