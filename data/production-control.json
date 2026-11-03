@@ -73,7 +73,10 @@
       "publisher": "AI Tuber",
       "reference": "Brush Along with Milo! (2026-10-29)",
       "characters": "Milo, brown meerkat, small BLUE bird",
-      "mandatory": "Playful educational full-motion scenes with one small problem and clear solution"
+      "mandatory": "Playful educational full-motion scenes with one small problem and clear solution",
+      "seriesBible": "data/little-wild-series-bible.json",
+      "visualReference": "@Little-Wild-Milo-and-Friends",
+      "requireBeforeGeneration": "Read series bible; use saved approved visual reference and QC; verify actual 18:00 platform schedule, not only editorial intent"
     },
     "whatif": {
       "name": "What If in 40 Seconds",
@@ -164,7 +167,8 @@
       "unverifiedSeries": [
         "Little Wild main Autopilot timing",
         "Little Wild Weekly Long Story timing",
-        "What If Autopilot timing"
+        "What If Autopilot timing",
+        "Little Wild Autopilot target currently unverified and last public upload 16:07 Oslo on 2026-11-02; must be fixed in platform settings"
       ]
     }
   },
@@ -182,6 +186,14 @@
       "video": "The Great Toy-Sharing Turn",
       "status": "POSSIBLE_DUPLICATE",
       "reason": "Two similar YouTube thumbnails, unverified identical files; do not delete without comparison"
+    },
+    {
+      "channel": "Little Wild Adventures",
+      "date": "2026-11-03",
+      "video": "Cozy Bedtime Countdown",
+      "status": "PUBLICATION_TIME_MISMATCH",
+      "reason": "Published 2026-11-02 around 16:07 local, while required time is 18:00 Europe/Oslo; video full-motion and complete",
+      "remedy": "Inspect and update main AI Tuber recurring scheduling; prevent duplicates"
     }
   ],
   "competitorResearch": {
