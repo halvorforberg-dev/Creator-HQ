@@ -72,7 +72,7 @@
     "timeRuleDecided": "2026-11-02",
     "priorityNote": "NYESTE VEDTAK 03.11.2026: 3 Shorts/uke/kanal + 1 ordinary 16:9 public video 3–6 min/uke/kanal, alt kl 18:00 Europe/Oslo. Målet er tellende offentlige seertimer. Langfilmer >=8 min tas senere. Overskriver ALLE gamle 8–10 min søndagsregler.",
     "watchHours": "Shorts-feed timer teller ikke mot vanlig YPP-krav om gyldige offentlige seertimer. Offentlige vanlige videoer i 16:9 kan telle uansett om de er kortere enn 8 min. Ikke påstå at kun 8+ minutter teller.",
-    "creditRule": "AI Tuber-credits gjelder kun Little Wild Adventures og What If. Bizarre Past genereres i Higgsfield med separat kredittbudsjett."
+    "creditRule": "AI Tuber 10,000/month: prioritize What If over Little Wild, provisional 7,000 vs 3,000 credits. What If retains the current engaging flexible/mixed visual approach, without full-motion requirement. Little Wild must remain full-motion even if it means fewer videos. Bizarre Past only Higgsfield -> Metricool, separate budget."
   },
   "mandatory_quality": [
     "Strong relevant hook in first two seconds",
@@ -124,5 +124,18 @@
     "littleWildAdventures": "AI Tuber → YouTube",
     "whatIfIn40Seconds": "AI Tuber → YouTube"
   },
-  "creditPlanningRule": "User decision 2026-11-03: do NOT force What If to 100% full motion or auto-upgrade Premium/Max; retain existing quality/look and use a thoughtful mix of footage, stock and still/animated elements. Little Wild requires full-motion. AI Tuber 10,000/month budget covers only What If and Little Wild; Bizarre Past is Higgsfield."
+  "creditPlanningRule": "User decision 2026-11-03: do NOT force What If to 100% full motion or auto-upgrade Premium/Max; retain existing quality/look and use a thoughtful mix of footage, stock and still/animated elements. Little Wild requires full-motion. AI Tuber 10,000/month budget covers only What If and Little Wild; Bizarre Past is Higgsfield.",
+  "priorityOrder": {
+    "withinAITuber": [
+      "What If in 40 Seconds",
+      "Little Wild Adventures"
+    ],
+    "reason": "User prioritizes What If over Little Wild as of 2026-11-03",
+    "monthlyCredits": 10000,
+    "planningBudget": {
+      "whatif": 7000,
+      "littleWild": 3000
+    },
+    "status": "Planning allocation, not hard platform caps"
+  }
 }
