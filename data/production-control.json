@@ -183,5 +183,28 @@
       "status": "POSSIBLE_DUPLICATE",
       "reason": "Two similar YouTube thumbnails, unverified identical files; do not delete without comparison"
     }
-  ]
+  ],
+  "competitorResearch": {
+    "mandatory": true,
+    "since": "2026-11-03",
+    "weeklyDeepDive": "Review similar and breakout channels for all 3 categories. Save dated source-linked observations and original test ideas to data/competitor-watch.json.",
+    "beforeEveryNewProduction": "Read competitor-watch and check whether the latest hook/story/visual insight is applicable. Never copy third-party scripts, footage, character designs, voices or music.",
+    "learningLoop": "Study examples -> formulate measurable original hypothesis -> apply to a new video -> compare 24h/7d/28d metrics by same format/video age -> retain or discard hypothesis.",
+    "targets": [
+      "Bizarre Past history mystery, archaeology and discovery creators",
+      "What If positive thought experiment and visual science shorts",
+      "Little Wild recurring-character preschool 3D animated education and small story arcs"
+    ],
+    "evidence": [
+      "exact links / captured dates",
+      "hook 0–2 seconds (only when actually watched)",
+      "title + thumbnail packaging",
+      "pace, story structure, payoff",
+      "outlier vs channel baseline where data available",
+      "follow-up with actual channel performance"
+    ],
+    "cadence": "Weekly overall, ongoing channel-agent scouting as needed before creating new videos",
+    "finance": "Prefer public research; vidIQ credit balance is finite, no purchases without user permission.",
+    "reporting": "One short practical summary per channel in Creator HQ and Telegram weekly reporting when feed connected"
+  }
 }
