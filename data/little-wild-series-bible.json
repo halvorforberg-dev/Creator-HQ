@@ -33,13 +33,15 @@
   "format": {
     "age": "preschool about 3-6; warm, safe, comprehensible, playful, useful to parents",
     "shorts": "35-40 sec target, 9:16, actual full motion, vivid soft-rounded consistent 3D, natural English spoken narration/dialogue; approx 75-85 spoken words if pace permits",
-    "friday": "35-40 sec Short",
-    "sunday": "16:9 original feature film, 8-10 min target only when organically enough distinct entertaining beats. Not images, no padding, separate plot and continuity check.",
+    "friday": "9:16 35–40 sec Short; three Shorts weekly on Monday, Wednesday and Friday",
+    "sunday": "One ordinary public 16:9 long-form YouTube video 3–6 minutes each week. Real full-motion story, same Milo/Miko/Pip, original learning goal and complete narrative, not slideshow. Longer 8+ minute videos deferred.",
     "releaseTime": "18:00 Europe/Oslo, ALL weekdays and video lengths; platform booking must be verified and duplicate checked",
     "title": "Title should be readable for 2-3 sec at the start without blocking the surprising animated first frame",
     "music": "Low-volume colorful soundscape appropriate to each episode; audible key Foley; no endless identical loop, no copyrighted music",
     "speech": "Use stable child-friendly narrator; concise lines, natural pauses after an interactive question; dialogue can be scripted, but source workflow's single TTS voice does NOT guarantee separate character voices or lip sync. Check actual MP4 before promising that feature.",
-    "safety": "Preschool-directed episodes must be correctly marked Made for Kids on YouTube; no request for child comments or inappropriate CTAs; no fake real-life dangerous demonstrations."
+    "safety": "Preschool-directed episodes must be correctly marked Made for Kids on YouTube; no request for child comments or inappropriate CTAs; no fake real-life dangerous demonstrations.",
+    "weeklyGoal": "Three 35–40 sec Shorts + one ordinary public 16:9 story 3–6 min every week, subject to QC and credits.",
+    "watchHourPriority": "Grow valid public long-form watch time and retention from ordinary 16:9 uploads, while Shorts grow discovery/subscriptions. Made for Kids classification still mandatory for child-directed uploads."
   },
   "storyEngine": [
     {
@@ -233,7 +235,7 @@
     ],
     "targetWords": "75–85 spoken words at relaxed preschool pace; never overfill 35–40 seconds",
     "targetVideo": "9:16, native full-motion, 1080p output, 35–40 sec, title 2–3 sec, appropriate Made for Kids flag",
-    "note": "All dialogue/voices are creative directions. AI Tuber create_video standard narrated mode does not guarantee real voice casting or mouth synchronization; audit final file.",
+    "note": "This 35–40 sec pilot is a Short, not a watch-hour qualifying long-form. 3–6-minute 16:9 stories remain a separate production goal, not automatically booked.",
     "videoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
     "generation": {
       "submitted": "2026-11-03",
