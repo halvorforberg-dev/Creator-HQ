@@ -108,13 +108,13 @@
   "lastResearch": {
     "date": "2026-11-03",
     "scope": [
-      "Six dated competitor video metadata case studies (two each) across long-form and Shorts; emerging and established creators.",
-      "One production-ready independently-sourced original idea per channel.",
-      "Comparison to Metricool owned-channel snapshot and explicit limits for 24h/7d/28d, CTR and retention."
+      "Six dated video metadata case studies, including three Shorts verified by direct vertical cover or publisher list, one long history film, one long preschool episode and one ambiguous-duration speculative film.",
+      "All six thumbnails/covers directly visually inspected with the free vidIQ image tool; QuirkScience full transcript analyzed for dramatic script sequence and payoff, no playback claims.",
+      "One new independently-sourced original test concept per channel; internal Metricool comparisons with clear missing age-matched metrics."
     ],
     "sourcesReviewed": 6,
-    "accessNotes": "Video playback and actual thumbnails not accessible; descriptions of hooks/motion/story rhythm are explicitly marked not inspected; direct performance attribution is unsupported.",
-    "limitations": "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves. No direct access to YouTube watch playback for these public competitor videos due throttling. Therefore first two seconds, soundtrack, shot pacing, exact motion, narrative ending and thumbnails were NOT inspected. Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations. No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length. Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty. No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched. No vidIQ paid credits were consumed in connector calls for this run."
+    "accessNotes": "All six thumbnails were directly inspected on 2026-11-03 via zero-credit vidIQ images. Public YouTube video playback and first 2s audio/video were not accessible; only QuirkScience full script text available and read. Third-party view snapshots as-of dates stated; age-matched 24h/7d/28d video analytics missing.",
+    "limitations": "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves. Actual video/audio playback of six public competitor videos was unavailable (YouTube fetch throttled); first 2 seconds, soundtrack, shot pacing and exact motion were NOT inspected. Thumbnails/covers of all six were directly inspected with free vidIQ images. QuirkScience full publisher transcript WAS inspected for story order and ending. Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations. No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length. Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty. No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched. No vidIQ paid credits were consumed in connector calls for this run."
   },
   "weeklyResearchOutput": {
     "requirements": [
@@ -132,7 +132,7 @@
       "researchedOn": "2026-11-03",
       "timezone": "Europe/Oslo",
       "status": "completed_with_metadata_limitations",
-      "approach": "Six concrete video/film metadata case studies. Public YouTube video links or creator-hosted film listings plus dated independent statistics. No video playback or thumbnail visual review was possible; no claims about actual first two seconds, editing pace, or precise reveal.",
+      "approach": "Six concrete dated film/video case studies. Publisher pages, public third-party video snapshots and directly visually inspected cover images for ALL SIX via zero-credit vidIQ image tool; actual video/audio playback and first 2 seconds not available. Only QuirkScience full transcript was available and inspected for dramatic structure and payoff.",
       "observations": [
         {
           "ourChannel": "bizarre",
@@ -157,7 +157,7 @@
           ],
           "verifiedTitlePackaging": "Tydelig hvorfor-spørsmål om konkret motsetning + løfte om forklaring; oppslag med historisk årstall/aktører.",
           "hookFirst2Seconds": "not visually or audibly inspected",
-          "thumbnail": "not visually inspected",
+          "thumbnail": "DIRECTLY INSPECTED 2026-11-03 (free vidIQ image): bold white uppercase 'THE UNHOLY ALLIANCE' on bright red; two cartoon leaders and dark political map. Clear opposition and high visual contrast, compact dramatic headline.",
           "tempoMotion": "Not watched; channel is described as short animated documentary, not proof of shot cadence.",
           "storyAndPayoff": "From title only, question -> historical explanation is likely structure; no verified scene-by-scene observation.",
           "application": "Bizarre 8–10-min Sunday: one crisp historical why-question and complete sourced answer; original cinematic reconstruction and Did you know... intro.",
@@ -170,7 +170,7 @@
           "video": "She Went to War Disguised as Her Brother",
           "link": "https://www.youtube.com/watch?v=XuOxszx1TU0",
           "published": "2026-10-18",
-          "format": "unverified (likely Short; exact runtime not confirmed)",
+          "format": "Short (vertical Short cover confirmed; exact runtime unknown)",
           "durationSeconds": null,
           "viewSnapshot": {
             "views": 3487472,
@@ -185,7 +185,7 @@
           ],
           "verifiedTitlePackaging": "Person + overraskende skjult identitet + mulig historisk risiko; tydelig én setnings mysterium.",
           "hookFirst2Seconds": "not inspected",
-          "thumbnail": "not visually inspected",
+          "thumbnail": "DIRECTLY INSPECTED 2026-11-03 (free vidIQ Short cover): vertical 360x640 warm tent scene with upset military officer at desk and nervous soldier, legible single caption 'PUNISH'. Strong interpersonal conflict but actual opening of video not watched.",
           "tempoMotion": "ChannelDB auto-classifies animated history but the particular video's motion/cuts not inspected.",
           "storyAndPayoff": "Historisk identitet/reveal implied by title only; actual resolution not verified.",
           "application": "Test et dokumentert menneskelig mysterium i et 35–40-sekunders originalt Did you know-spørsmål med tydelig overraskelse, ikke forveksle klikk med historisk bevis.",
@@ -196,7 +196,7 @@
           "competitor": "QuirkScience",
           "sizeTier": "small independent publisher (subscriber and views counts not verified)",
           "video": "Can a Cookiecutter Shark Bite a Submarine?",
-          "link": "https://quirkscience.com/films/",
+          "link": "https://www.youtube.com/watch?v=JHL0TKJavY0",
           "published": "2026-10-28",
           "publishedProvenance": "publisher's dated film listing, not independent YouTube video page",
           "format": "Short",
@@ -208,14 +208,15 @@
             "method": "not available"
           },
           "sourceLinks": [
-            "https://quirkscience.com/films/",
+            "https://quirkscience.com/films/can-a-cookiecutter-shark-bite-a-submarine/",
+            "https://www.youtube.com/watch?v=JHL0TKJavY0",
             "https://quirkscience.com/about/"
           ],
           "verifiedTitlePackaging": "Én merkelig, konkret naturvitenskapelig mulighet, intuitivt visuelt spørsmål, enkelt å svare kort.",
-          "hookFirst2Seconds": "not inspected",
-          "thumbnail": "not visually inspected",
+          "hookFirst2Seconds": "No audiovisual playback. Publisher's full-script opening shows a distressed anthropomorphic submarine immediately reacting to a bite and a short shark reply, followed by host's verified surprise; cannot assert timing of first 2 seconds.",
+          "thumbnail": "DIRECTLY INSPECTED 2026-11-03 (free vidIQ Short cover): friendly cartoon cookiecutter-shark character in an aqua-blue underwater background, large yellow outlined caption 'HOST DOLPHINS' as subtitle, clean high-contrast legibility in vertical 360x640 frame; the subtitle appears to capture one moment in the Short, not necessarily the first.",
           "tempoMotion": "Publisher describes frame-by-frame code-drawn animated character scenes and music, but this particular film has not been viewed.",
-          "storyAndPayoff": "Publisher says films use character action plus sourced single-question answer; individual exact payoff not independently reviewed.",
+          "storyAndPayoff": "Publisher's full transcript inspected (NOT video playback): submarine in trouble -> tiny cookiecutter shark's suction-cut-twist mechanism -> surprise that shark can bite US naval rubber sonar dome -> fiberglass-protection payoff; funny anthropomorphic exchanges and detailed citations. Structure verified in script; scene tempo and sound not verified.",
           "application": "Egen 35–40s positiv vitenskap-Short: forskningsbasert overraskelse som kan vises visuelt og avrundes tydelig.",
           "confidence": "publisher source; missing independent performance"
         },
@@ -240,7 +241,7 @@
           ],
           "verifiedTitlePackaging": "Uventet kombinasjon av hverdagslig visuelt fenomen (regnbue) og fantasiverden med et konkret fysisk spørsmål.",
           "hookFirst2Seconds": "not inspected",
-          "thumbnail": "not visually inspected",
+          "thumbnail": "DIRECTLY INSPECTED 2026-11-03 (free vidIQ 640x360 image): painterly desert skyline with two suns and multiple arcing rainbows. Small silhouette and discreet 'what if?' logo. Vivid speculative visual without text overload.",
           "tempoMotion": "Not inspected",
           "storyAndPayoff": "Question frames a testable imaginative scenario; exact answer not inspected.",
           "application": "Spør om noe visuelt slående og slutt med en reell naturvitenskapelig forklaring, ikke kopier franchise/karakterer.",
@@ -268,7 +269,7 @@
           ],
           "verifiedTitlePackaging": "Konkrete barnehverdags-mysterium i to lette ord; foreldre og barn forstår umiddelbart problemet.",
           "hookFirst2Seconds": "not inspected",
-          "thumbnail": "not visually inspected",
+          "thumbnail": "DIRECTLY INSPECTED 2026-11-03 (free vidIQ 640x360 image): 3 consistent brightly colored cartoon bird friends grouped around a circular bowl/dish, high contrast white+green background, large blue 'Full Episode' banner and series logo. The everyday object visually anchors the small problem.",
           "tempoMotion": "Not inspected. Official series is animated with fixed friends and accessible science as a general series attribute, not this video's confirmed cut pattern.",
           "storyAndPayoff": "The title promises the answer to a vanished drink; exact story and ending not verified.",
           "application": "Løs ett lite konkret problem med Milo og faste figurer; lær ett poeng gjennom bevegelse, ikke lysbildefremvisning.",
@@ -295,7 +296,7 @@
           ],
           "verifiedTitlePackaging": "Svært konkret læringsmål (10-gangen) + 'Quick Math', repeterbar serieidentitet.",
           "hookFirst2Seconds": "not inspected",
-          "thumbnail": "not visually inspected",
+          "thumbnail": "DIRECTLY INSPECTED 2026-11-03 (free vidIQ Short cover): huge easily readable '4 × 10 = 40' equation above four upright pinkish 10-block characters on pale green 360x640 background; one clear learning result and recognizable recurring branded figures.",
           "tempoMotion": "Not inspected",
           "storyAndPayoff": "A clearly named skill is promised; actual mechanism and outcome not viewed.",
           "application": "Test én tydelig læringsidé per episode, men bygg original Milo-fortelling; ikke kopier tallfigurene eller musikken.",
@@ -404,7 +405,7 @@
       },
       "evidenceLimits": [
         "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves.",
-        "No direct access to YouTube watch playback for these public competitor videos due throttling. Therefore first two seconds, soundtrack, shot pacing, exact motion, narrative ending and thumbnails were NOT inspected.",
+        "Actual video/audio playback of six public competitor videos was unavailable (YouTube fetch throttled); first 2 seconds, soundtrack, shot pacing and exact motion were NOT inspected. Thumbnails/covers of all six were directly inspected with free vidIQ images. QuirkScience full publisher transcript WAS inspected for story order and ending.",
         "Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations.",
         "No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length.",
         "Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty.",
