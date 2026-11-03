@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-03",
+  "channel": "Little Wild Adventures",
+  "status": "CREATIVE STANDARD AND PRODUCTION-READY STORYBOARDS; NOT CONFIRMED AUTOPILOT SETTINGS",
+  "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
+  "reference": {
+    "videoId": "1dd275c3-09ed-4d54-85b2-684b3cfa6e85",
+    "publishedYoutube": "https://www.youtube.com/shorts/NjlWiWmNrRg",
+    "date": "2026-10-29",
+    "durationSeconds": 34,
+    "actualMediaType": "video",
+    "exportResolution": "1080x1920",
+    "takeaways": [
+      "Clear immediate hands-on task",
+      "recognizable Milo and recurring sidekicks",
+      "expressive moving scenes",
+      "repeated brushing/copyable activity",
+      "encouraging finished payoff"
+    ],
+    "improvements": [
+      "Give supporting characters stable names and distinct recurring personalities",
+      "More genuine dialogue / reactions and less generic one-voice narration",
+      "A small visual problem should drive story, not educational checklist"
+    ]
+  },
+  "recurringCast": {
+    "Milo": "Main preschool child. Soft tousled short brown hair, warm-light skin, large friendly brown eyes, small youthful build; recognizable teal romper with cream sun chest emblem. Curious, sometimes makes a small mistake, actively learns and solves it.",
+    "Miko": "Same small rounded golden-brown meerkat as Brush Along with Milo!, cream muzzle/chest, amber eyes, forest-green compact explorer backpack with tan straps. Practical, caring, funny in small physical mistakes. Name Miko, never make him a second separate child.",
+    "Pip": "Same small vivid BLUE bird as Brush Along with Milo!, bright-blue rounded feathers, orange beak and feet, little brown crossbody satchel. Playful, rhythmic, quick to notice visual clues. Must NEVER change to yellow.",
+    "continuity": "Milo is present and leading in every episode; Miko and Pip are reliable same animal friends. Do not adopt the rejected 'The Breeze That Hid' costume, travel theme, long slide format, or child-free trio."
+  },
+  "format": {
+    "age": "preschool about 3-6; warm, safe, comprehensible, playful, useful to parents",
+    "shorts": "35-40 sec target, 9:16, actual full motion, vivid soft-rounded consistent 3D, natural English spoken narration/dialogue; approx 75-85 spoken words if pace permits",
+    "friday": "35-40 sec Short",
+    "sunday": "16:9 original feature film, 8-10 min target only when organically enough distinct entertaining beats. Not images, no padding, separate plot and continuity check.",
+    "releaseTime": "18:00 Europe/Oslo, ALL weekdays and video lengths; platform booking must be verified and duplicate checked",
+    "title": "Title should be readable for 2-3 sec at the start without blocking the surprising animated first frame",
+    "music": "Low-volume colorful soundscape appropriate to each episode; audible key Foley; no endless identical loop, no copyrighted music",
+    "speech": "Use stable child-friendly narrator; concise lines, natural pauses after an interactive question; dialogue can be scripted, but source workflow's single TTS voice does NOT guarantee separate character voices or lip sync. Check actual MP4 before promising that feature.",
+    "safety": "Preschool-directed episodes must be correctly marked Made for Kids on YouTube; no request for child comments or inappropriate CTAs; no fake real-life dangerous demonstrations."
+  },
+  "storyEngine": [
+    {
+      "seconds": "0-2",
+      "beat": "Surprising moving visual/soft funny problem plus Milo's name in speech; hook from first frame"
+    },
+    {
+      "seconds": "2-7",
+      "beat": "We see exactly what Milo wants and what goes wrong. One problem only."
+    },
+    {
+      "seconds": "7-19",
+      "beat": "Milo tries; Miko and Pip help; short amusing wrong attempt; show physical action and consequences."
+    },
+    {
+      "seconds": "19-27",
+      "beat": "One discovery about color, counting, sound, shadows, simple structure or healthy habit; show rather than lecture."
+    },
+    {
+      "seconds": "27-35",
+      "beat": "Characters apply idea; clear satisfying resolution with warm celebration and original musical/funny beat."
+    },
+    {
+      "seconds": "35-40",
+      "beat": "One short take-home lesson or invitation to try with a grown-up; end cleanly."
+    }
+  ],
+  "qualityGate": {
+    "hardStops": [
+      "mediaType must be video, NEVER images/stock slideshow",
+      "real actor motion and at least 4 visually distinct moving scenes in Shorts, no stills disguised as panning",
+      "all three consistent characters, especially Milo and blue Pip",
+      "full ending and every sentence spoken",
+      "verify original exported MP4 end-to-end with sound and inspect 0–2 sec",
+      "genuine child-friendly problem, attempt, learning, payoff",
+      "scientific and preschool-safe content, no mistakes portrayed as teaching facts",
+      "1080p final export; ideally native 1080p clips when credits allow",
+      "correct YouTube channel + Made for Kids + 18:00 Oslo + no duplicate release"
+    ],
+    "scorecard": {
+      "hookAndImmediateAction": 20,
+      "characterContinuity": 20,
+      "actualMotionAndVisualQuality": 20,
+      "storyAndLearningPayoff": 20,
+      "audioCaptionAndEnd": 10,
+      "metadataAndPublishingCompliance": 10,
+      "minimumToApprove": 90
+    },
+    "checks": [
+      "If QC <90/100 or any hard stop fails, mark rejected and do NOT schedule. Refine instead.",
+      "Agent instructions alone do not pause AI Tuber Autopilot; verify recurring schedules manually via dashboard.",
+      "Save video ID, QC verdict, publication ID, source link and timestamp to production-control.json."
+    ],
+    "optimization": "Compare 24h/7d/28d views, engaged views, watch time, repeated view patterns where available; don't infer from 2-24 view samples. Made-for-kids videos have no comments."
+  },
+  "reviewedVideos": [
+    {
+      "name": "Brush Along with Milo!",
+      "date": "2026-10-29",
+      "youtubeVideoId": "NjlWiWmNrRg",
+      "observedViews": 12,
+      "observationDate": "2026-11-03",
+      "durationSeconds": 34,
+      "quality": "PRIMARY APPROVED REFERENCE",
+      "audio": "First 'Whoa Milo!' at 0 seconds; clear task, complete ending at 33.8 sec.",
+      "visual": "Verified full motion 1080x1920."
+    },
+    {
+      "name": "Cozy Bedtime Countdown",
+      "date": "2026-11-02",
+      "youtubeVideoId": "JMbHLFWMvbk",
+      "observedViews": 9,
+      "observationDate": "2026-11-03",
+      "durationSeconds": 37,
+      "quality": "FULL MOTION, STORY NEEDS REVISION",
+      "audio": "First 4.9 seconds mainly describe a cozy blanket; repeats toothbrush idea from prior episode; not strong physical problem; calls Pip only 'Bird'.",
+      "visual": "Verified full motion 1080x1920.",
+      "publicationTiming": "YouTube published 2026-11-02T15:07:09Z ~16:07 Europe/Oslo, VIOLATES 18:00; update actual AITuber Autopilot UI."
+    },
+    {
+      "name": "Sharing Is More Fun! Milo Takes Turns",
+      "date": "2026-10-31",
+      "youtubeVideoId": "zW_dvntREmY",
+      "observedViews": 7,
+      "observationDate": "2026-11-03",
+      "durationSeconds": 34,
+      "quality": "FULL MOTION BUT WEAK HOOK/PERSONALITY",
+      "audio": "First 5 seconds tell the problem rather than show Milo's decisive immediate reaction; mostly narrator; labels supporting cast generically.",
+      "visual": "Verified full motion 1080x1920."
+    },
+    {
+      "name": "The Breeze That Hid",
+      "date": "2026-11-02",
+      "videoId": "0f847b71-fa9b-48b3-974d-a08a44625e59",
+      "durationSeconds": 275,
+      "quality": "REJECTED",
+      "mediaType": "images",
+      "reason": "Not Milo-led, images Basic, 4:35. NEVER use as template."
+    }
+  ],
+  "externalResearch": [
+    {
+      "name": "Peep and the Big Wide World",
+      "url": "https://www.peepandthebigwideworld.com/en/educators/preschool-science-peep-approach/",
+      "finding": "Learning through firsthand play, child predicts/experiments, observes response, reflects; scenes built around familiar water/sound/shadow/color/ramp experiments.",
+      "application": "Milo poses a kid-level question, tries a safe action and sees a clear effect; keep it warm and short."
+    },
+    {
+      "name": "Daniel Tiger's Neighborhood",
+      "url": "https://parents.prod.pbskids.org/parents/shows/daniel/about",
+      "finding": "Preschool life situations plus brief catchy, repeatable musical ideas and friendly directly addressed child perspective.",
+      "application": "One simple original rhythmic phrase for routine or emotion, plus an action child can copy; do not copy songs or characters."
+    }
+  ],
+  "upcomingOriginalIdeas": [
+    {
+      "rank": 1,
+      "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
+      "topic": "simple structure and counting",
+      "hook": "CRASH! Milo's tower just fell!",
+      "problem": "Milo wants to build tall blocks, but the skinny bottom tips over.",
+      "experiment": "Miko shows big blocks at the bottom; Pip helps count three wide base blocks.",
+      "payoff": "A steady tower stands tall. Wider base can help a tower stand.",
+      "complexity": "LOW, visually straightforward and production reliable",
+      "status": "SCRIPT READY, NOT BOOKED"
+    },
+    {
+      "rank": 2,
+      "title": "Where Did Milo's Shadow Go? ☀️",
+      "topic": "light and shadow",
+      "hook": "Wait! Milo's shadow disappeared!",
+      "problem": "A passing cloud dims Milo's shadow; the trio searches for clues.",
+      "experiment": "Observe clouds over the sun; compare shaded and sunny patch.",
+      "payoff": "Shadow returns when the sun comes back; light makes shadows.",
+      "complexity": "MEDIUM, AI-generated shadow geometry needs checking",
+      "status": "IDEA, NOT BOOKED"
+    },
+    {
+      "rank": 3,
+      "title": "Pip's Rainy-Day Drum! 🥁",
+      "topic": "sound and patterns",
+      "hook": "BOOM! Pip made a drum from a safe empty bucket!",
+      "problem": "Their parade has no rhythm.",
+      "experiment": "Milo and Miko try loud/soft and a simple tap-tap-pause rhythm.",
+      "payoff": "They play together to a pattern the child can clap back.",
+      "complexity": "LOW, strong audio potential",
+      "status": "IDEA, NOT BOOKED"
+    },
+    {
+      "rank": 4,
+      "title": "Milo's Magic Ice Cube Rescue! 🧊",
+      "topic": "melting and warmth",
+      "hook": "Milo's tiny ice castle is disappearing!",
+      "problem": "A toy ice cube melts on a sunny table.",
+      "experiment": "Look at shade versus sun; with a grown-up, observe melting safely.",
+      "payoff": "Ice becomes water when warm; fun splash.",
+      "complexity": "MEDIUM, visual consistency of melting",
+      "status": "IDEA, NOT BOOKED"
+    }
+  ],
+  "pilot": {
+    "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
+    "productionState": "READY_FOR_AI_TUBER_GENERATION; NOT GENERATED OR BOOKED",
+    "voiceoverEnglish": "CRASH! Milo’s block tower fell! “Oh no!” cried Milo. Miko the meerkat looked at the tiny bottom block. “That’s a wobbly base!” Pip the little blue bird chirped, “Let’s count three BIG blocks!” One... two... three! Milo stacked them wide at the bottom. Then he carefully added little blocks on top. Uh-oh... wobble, wobble! Everybody froze. And... it stayed up! “We did it!” cheered Milo. Big blocks at the bottom make our tower steadier. Can you build one, too?",
+    "visualBeats": [
+      {
+        "seconds": "0-5",
+        "scene": "A tower falls spectacularly into soft toy blocks; Milo reacts, Miko and BLUE Pip enter frame, full active animation",
+        "spokenCue": "CRASH! Milo’s block tower fell!"
+      },
+      {
+        "seconds": "5-12",
+        "scene": "Miko points at tiny narrow block base; play a small funny wobble as Pip observes, close and cinematic",
+        "spokenCue": "That’s a wobbly base!"
+      },
+      {
+        "seconds": "12-20",
+        "scene": "Pip flies above three chunky big toy blocks; Milo counts and places one, two, three side by side, real character action",
+        "spokenCue": "Let’s count three BIG blocks! One... two... three!"
+      },
+      {
+        "seconds": "20-28",
+        "scene": "Milo carefully stacks smaller blocks on wide base; tower wobbles as three friends hold their breath; Pip flutters",
+        "spokenCue": "Uh-oh... wobble, wobble! Everybody froze."
+      },
+      {
+        "seconds": "28-38",
+        "scene": "Tower steadies; Milo jumps with joy, Miko claps, Pip makes musical chirp; beautiful full-motion final line",
+        "spokenCue": "We did it! Big blocks at the bottom make our tower steadier."
+      }
+    ],
+    "targetWords": "75–85 spoken words at relaxed preschool pace; never overfill 35–40 seconds",
+    "targetVideo": "9:16, native full-motion, 1080p output, 35–40 sec, title 2–3 sec, appropriate Made for Kids flag",
+    "note": "All dialogue/voices are creative directions. AI Tuber create_video standard narrated mode does not guarantee real voice casting or mouth synchronization; audit final file."
+  }
+}
