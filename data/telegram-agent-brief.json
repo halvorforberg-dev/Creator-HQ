@@ -48,12 +48,12 @@
       "name": "What If in 40 Seconds",
       "handle": "@WhatIfin35seconds",
       "youtube": "https://www.youtube.com/@WhatIfin35seconds",
-      "production": "AI Tuber full-motion animation",
+      "production": "AI Tuber; preserve today's polished recognizable mixed-visual style. Full motion is NOT mandatory throughout; combine selected moving footage, stock, stills and simple animated graphics where effective, with strong pacing and payoff.",
       "rules": [
         "Positive, fascinating, entertaining what-if questions, avoid gloomy and grim speculation",
         "Start with clear spoken and written 'What if…'",
         "Title visible for 2–3 seconds while action starts",
-        "Strong visual movement matching narration and an explicit satisfying takeaway",
+        "Use attractive, purposeful moving scenes where they add value, but images/graphics/stock are valid when they improve the explanation; not every second needs full motion. Preserve current recognizable style and clear final payoff.",
         "For talking animals use natural voices and synchronized speech/lip motion"
       ]
     }
@@ -76,7 +76,7 @@
   },
   "mandatory_quality": [
     "Strong relevant hook in first two seconds",
-    "Full-motion video with visual action aligned to narrative; no slideshow with zoom",
+    "Channel-specific visual QA: Little Wild and Bizarre Past use original moving scenes; What If keeps its existing engaging mixed-visual format, not forced full-motion, and must never become a boring slideshow. Every visual must reinforce narration.",
     "Clear story, forward movement, audible natural narrator, appropriate music and professional sound mix",
     "1080p when possible",
     "Complete ending with payoff, no abrupt cut or gaps",
@@ -123,5 +123,6 @@
     "bizarrePast": "Higgsfield → Metricool (YouTube og TikTok)",
     "littleWildAdventures": "AI Tuber → YouTube",
     "whatIfIn40Seconds": "AI Tuber → YouTube"
-  }
+  },
+  "creditPlanningRule": "User decision 2026-11-03: do NOT force What If to 100% full motion or auto-upgrade Premium/Max; retain existing quality/look and use a thoughtful mix of footage, stock and still/animated elements. Little Wild requires full-motion. AI Tuber 10,000/month budget covers only What If and Little Wild; Bizarre Past is Higgsfield."
 }
