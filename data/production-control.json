@@ -58,6 +58,11 @@
       "channel": "Bizarre Past",
       "rule": "NYESTE BESLUTNING 03.11.2026 – BIZARRE PAST ONSDAG: For NYE, ikke allerede bookede filmer fra 09.11.2026: onsdag er ordinær offentlig 16:9-film på 2–4 minutter, IKKE Short. Bizarre Past har mandag/fredag Shorts 35–40 sekunder og søndag ordinær offentlig 16:9 langfilm 3–6 minutter (uendret). Alt kl. 18:00 Europe/Oslo som redaksjonelt mål. Allerede bookede filmer, inkl. 4/6/8. november, skal IKKE flyttes, slettes, dupliseres eller endres. Bruk fortsatt bare Higgsfield og Metricool, med 'Did you know…', faktasjekk og full QC. What If beholder mandag/fredag Shorts og onsdag/søndag 3–4 minutters langfilmer; Little Wild beholder mandag/onsdag/fredag Shorts og søndag 3–6 min langfilm. Seks promptprinsipper og kvalitet over volum gjelder alltid.",
       "precedence": "Overstyrer bare tidligere Bizarre Wednesday Shorts-regler; andre kanaler og eksisterende bookinger uendret."
+    },
+    "whatIfDuplicatePrevention": {
+      "since": "2026-11-03",
+      "status": "ACTIVE_GUARD_PENDING_AUTOPILOT_VERIFICATION",
+      "policy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus PUBLICATION is NOT VERIFIED. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise."
     }
   },
   "channels": {
@@ -295,8 +300,11 @@
           "channel": "What If in 40 Seconds",
           "date": "2026-11-03",
           "time": "18:00",
-          "status": "scheduled",
-          "title": "What If the Ocean Glowed Like Stars? 🌊✨"
+          "status": "published",
+          "title": "What If the Ocean Glowed Like Stars? 🌊✨",
+          "publishedAt": "2026-11-03T18:01:00+01:00",
+          "youtubeUrl": "https://www.youtube.com/watch?v=l_eoxyfvfRM",
+          "source": "AI Tuber GET /publications/{publicationId}"
         }
       ],
       "unverifiedSeries": [
@@ -329,6 +337,15 @@
       "status": "PUBLICATION_TIME_MISMATCH",
       "reason": "Published 2026-11-02 around 16:07 local, while required time is 18:00 Europe/Oslo; video full-motion and complete",
       "remedy": "Inspect and update main AI Tuber recurring scheduling; prevent duplicates"
+    },
+    {
+      "channel": "What If in 40 Seconds",
+      "date": "2026-11-03",
+      "status": "DUAL_PRODUCTION_CONFIRMED_PUBLICATION_OF_ONE",
+      "videoA": "20ccbd04-f4e2-4959-8ea8-0d4daef25c85",
+      "videoB": "97fbc25c-2c26-47ea-86e1-6900322870fc",
+      "reason": "Special manual/agent-produced video was scheduled for 18:00 while recurring AutoPilot generated another at 18:00. Exact origin of second generation and public publication unverified.",
+      "remedy": "HOLD extra manual/agent posting pending AI Tuber AutoPilot configuration check; keep queued/published uploads unchanged."
     }
   ],
   "competitorResearch": {
