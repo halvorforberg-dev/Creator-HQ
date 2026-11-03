@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-03",
+  "updatedTimezone": "Europe/Oslo",
+  "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
+  "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
+  "confidenceGuidelines": [
+    "Use dated primary channel videos where possible; label third-party counts as dated estimates.",
+    "Compare views at similar video ages and by format; don't confuse correlation with causation.",
+    "Separate what we observed from what we propose to test. Never guarantee virality.",
+    "Use public watch pages and sources without unnecessary paid vidIQ calls; never buy credits automatically.",
+    "Use YT Analytics / Metricool for our channel performance, where available.",
+    "Made-for-kids videos often disable comments; do not interact with children's content to game engagement."
+  ],
+  "referenceChannels": {
+    "bizarre": [
+      {
+        "name": "History Matters",
+        "youtube": "https://www.youtube.com/@historymatters",
+        "sources": [
+          "https://trari.com/en/c/historymatters/",
+          "https://prepublish.ai/youtube-channel/historymatters"
+        ],
+        "observed": "October 16 2026 historical question explainer runs 9:07 with more than 800k recorded views on a November 2 third-party snapshot. Repeated concise WHY-based historical titles and simplified animation.",
+        "test": "Open with spoken+on-screen Did you know; use a surprising, evidenced historical why-question and promise an answer; build to a concise revelation.",
+        "confidence": "High that packaging pattern exists; no direct causal proof for views."
+      },
+      {
+        "name": "Squire Explains",
+        "youtube": "https://www.youtube.com/@squireexplains",
+        "sources": [
+          "https://channeldb.com/c/%40heyhistorically/similar"
+        ],
+        "observed": "Third-party similarity listing (Nov 2026) describes short animated strange-historical-why answers and an emerging audience.",
+        "test": "Look for undercovered bizarre historical incidents and simple but high-energy storytelling; verify actual channel videos before drawing performance conclusions.",
+        "confidence": "Candidate to check; video-level claims not yet verified."
+      }
+    ],
+    "whatif": [
+      {
+        "name": "QuirkScience",
+        "website": "https://quirkscience.com/films/",
+        "sources": [
+          "https://quirkscience.com/",
+          "https://quirkscience.com/films/"
+        ],
+        "observed": "Public film list mixes short, one-question science videos with source-backed 8–11 minute explorations; ocean, deep sea and space curiosities recur.",
+        "test": "Test bright visually spectacular nature questions with one memorable scientific reveal; use original 35–40 sec Shorts and separate richer 8–10 min Sunday films.",
+        "confidence": "Direct publisher portfolio, not a view-performance comparison."
+      },
+      {
+        "name": "xkcd’s What If?",
+        "sources": [
+          "https://www.pluggedin.com/youtube-reviews/xkcds-what-if/"
+        ],
+        "observed": "Absurd hypothetical questions explored with science and animation; different tone and scale from our positive Shorts.",
+        "test": "Preserve the creative what-if question structure, but keep our optimistic tone and a payoff inside 40 seconds.",
+        "confidence": "Format reference only."
+      }
+    ],
+    "wild": [
+      {
+        "name": "Peep and the Big Wide World",
+        "youtube": "https://www.youtube.com/watch?v=pOgHqrYr5ec",
+        "website": "https://www.peepandthebigwideworld.com/",
+        "sources": [
+          "https://www.youtube.com/watch?v=pOgHqrYr5ec",
+          "https://www.peepandthebigwideworld.com/"
+        ],
+        "observed": "Official preschool animation has consistent animal friends, small adventures and accessible science; activity curriculum covers movement, sound, water, plants, colour and patterns.",
+        "test": "Make Milo, the brown meerkat and BLUE bird solve one playful daily-life problem through active full-motion scenes and reveal the learning point together.",
+        "confidence": "Series structure and curriculum documented, but no video-level retention or virality claims."
+      },
+      {
+        "name": "Numberblocks",
+        "sources": [
+          "https://socialdiscovery.app/en/youtube/themes/kids/kids-learning"
+        ],
+        "observed": "Recurring number-characters and short stories introduce concepts through music and clear visual repetition.",
+        "test": "Use short original child-friendly counting/colour/song beats only where story and character continuity remain strong.",
+        "confidence": "Broad format reference."
+      }
+    ]
+  },
+  "currentActionableHypotheses": [
+    {
+      "channel": "bizarre",
+      "hypothesis": "Did you know + surprising documented why-question + resolved historical mystery",
+      "measure": "2-second hook, engaged views, average percentage watched, subs per 1000 views",
+      "status": "Untested on new schedule",
+      "nextTrial": "First new Bizarre Past Short after 8 Nov"
+    },
+    {
+      "channel": "whatif",
+      "hypothesis": "Positive, visually breathtaking nature/science reveals may beat generic hypothetical animal scenarios",
+      "measure": "engaged views and retention at 24h/7d against channel's same-format baseline",
+      "status": "Early internal data suggest promise but samples too small",
+      "nextTrial": "What If the Ocean Glowed Like Stars? scheduled Nov 3 at 18:00"
+    },
+    {
+      "channel": "wild",
+      "hypothesis": "Consistent Milo-led active educational story with one problem and solution performs better for series identity than unrelated animal slide shows",
+      "measure": "Video-level watch time, child-friendly replays where data available, quality audit",
+      "status": "Strong creative standard; metrics still missing",
+      "nextTrial": "Next original Little Wild Short after quality gate"
+    }
+  ],
+  "lastResearch": {
+    "date": "2026-11-03",
+    "scope": [
+      "Public channel portfolios and recent individual historical upload examples",
+      "Cross-channel format and hook structure",
+      "New candidate shortlist"
+    ],
+    "limitations": "No verified matched-age competitor video-level retention data, CTR or subscriber conversion; do not present as proof of why their channels succeeded."
+  },
+  "weeklyResearchOutput": {
+    "requirements": [
+      "3 to 6 verified niche-matched channel or video examples total, rotating across our channels",
+      "Record source link, observation date, upload date, format/duration and views as available",
+      "Identify hook in first 2 seconds only if actually watched, not based on title",
+      "Summarize narrative pattern, visual pacing and concrete learning point",
+      "Provide 1-2 non-copying tests per owned channel, rank using evidence/effort/credit cost",
+      "After publishing compare own channel metrics at 24h/7d/28d",
+      "Update this JSON and production-control.json only with durable decisions; link to HQ and feed Telegram weekly summary"
+    ]
+  }
+}
