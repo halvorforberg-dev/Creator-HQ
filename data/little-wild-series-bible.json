@@ -202,7 +202,7 @@
   ],
   "pilot": {
     "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
-    "productionState": "GENERATING IN AI TUBER, NOT QUALITY-APPROVED, NOT SCHEDULED OR PUBLISHED",
+    "productionState": "AI TUBER GENERATION PROCESSING — NOT QUALITY APPROVED, NOT BOOKED",
     "voiceoverEnglish": "CRASH! Milo’s block tower fell! “Oh no!” cried Milo. Miko the meerkat looked at the tiny bottom block. “That’s a wobbly base!” Pip the little blue bird chirped, “Let’s count three BIG blocks!” One... two... three! Milo stacked them wide at the bottom. Then he carefully added little blocks on top. Uh-oh... wobble, wobble! Everybody froze. And... it stayed up! “We did it!” cheered Milo. Big blocks at the bottom make our tower steadier. Can you build one, too?",
     "visualBeats": [
       {
@@ -245,7 +245,7 @@
       "narratorVoiceName": "Jessica (Playful, Bright, Warm)",
       "voiceSpeed": 0.9,
       "targetDuration": "35–40 seconds",
-      "status": "pending",
+      "status": "processing",
       "publication": "NOT_BOOKED",
       "notes": "DO NOT PUBLISH without full MP4 and Made For Kids verification; old Autopilot may be conflicting at 16:00. Premium tier is not guaranteed native 1080p; export 1080p and inspect."
     }
