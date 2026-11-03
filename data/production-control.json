@@ -23,7 +23,13 @@
     "governingPlan": "MOST RECENT 03.11.2026: three 9:16 Shorts 35–40 seconds per week per channel (Monday/Wednesday/Friday) and one regular public 16:9 YouTube video 3–6 minutes per week per channel (Sunday); all at 18:00 Europe/Oslo. Focus now on qualifying regular-video watch hours, retention, and channel growth. 8-minute+ films later. Previous 8–10-minute Sunday rule obsolete.",
     "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00.",
     "watchHours": "Only valid public watch time from ordinary long-form uploads counts toward the standard public watch-hour route to YPP; Shorts-feed watch hours do not count toward that route. Do not treat 8 minutes as a minimum qualifying duration. Normal YPP eligibility rules and YouTube reporting still apply.",
-    "oldLongFilmRuleSuperseded": "8–10-minute Sunday goal paused 2026-11-03 until user revisits it. No auto-extension of current scheduled video durations, and preserve existing verified bookings without duplicate."
+    "oldLongFilmRuleSuperseded": "8–10-minute Sunday goal paused 2026-11-03 until user revisits it. No auto-extension of current scheduled video durations, and preserve existing verified bookings without duplicate.",
+    "productionPlatforms": {
+      "bizarre": "Higgsfield for production; Metricool for YouTube and TikTok publishing; no AI Tuber credits",
+      "wild": "AI Tuber for production and own YouTube publishing",
+      "whatif": "AI Tuber for production and own YouTube publishing"
+    },
+    "creditBudgetBoundary": "AI Tuber budgets and estimates cover ONLY Little Wild Adventures and What If in 40 Seconds. Bizarre Past uses Higgsfield credits/pricing separately. Never suggest Bizarre Past is made in AI Tuber."
   },
   "channels": {
     "bizarre": {
