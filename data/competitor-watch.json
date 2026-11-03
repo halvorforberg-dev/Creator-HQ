@@ -21,17 +21,17 @@
           "https://trari.com/en/c/historymatters/",
           "https://prepublish.ai/youtube-channel/historymatters"
         ],
-        "observed": "October 16 2026 historical question explainer runs 9:07 with more than 800k recorded views on a November 2 third-party snapshot. Repeated concise WHY-based historical titles and simplified animation.",
-        "test": "Open with spoken+on-screen Did you know; use a surprising, evidenced historical why-question and promise an answer; build to a concise revelation.",
+        "observed": "2026-11-03: 16 October 2026 long film about Molotov-Ribbentrop Pact 9:07, 815,111 third-party views after 18 calendar days. Questions (WHY) dominate titles; exact opening and pace not watched.",
+        "test": "Test original sourced WHY-mysteries with immediate Did you know hook; start with a fact-checked Roman scroll digitally read without opening it; do not imply views are caused by title.",
         "confidence": "High that packaging pattern exists; no direct causal proof for views."
       },
       {
         "name": "Squire Explains",
         "youtube": "https://www.youtube.com/@squireexplains",
         "sources": [
-          "https://channeldb.com/c/%40heyhistorically/similar"
+          "https://channeldb.com/c/@squireexplains/stats"
         ],
-        "observed": "Third-party similarity listing (Nov 2026) describes short animated strange-historical-why answers and an emerging audience.",
+        "observed": "Nov 2 public third-party snapshot: 15.3k subscribers; 2026-10-18 'She Went to War Disguised as Her Brother' 3.49M views (15 days old), ~14x site's typical comparator. Visual opening and runtime not inspected.",
         "test": "Look for undercovered bizarre historical incidents and simple but high-energy storytelling; verify actual channel videos before drawing performance conclusions.",
         "confidence": "Candidate to check; video-level claims not yet verified."
       }
@@ -44,16 +44,16 @@
           "https://quirkscience.com/",
           "https://quirkscience.com/films/"
         ],
-        "observed": "Public film list mixes short, one-question science videos with source-backed 8–11 minute explorations; ocean, deep sea and space curiosities recur.",
-        "test": "Test bright visually spectacular nature questions with one memorable scientific reveal; use original 35–40 sec Shorts and separate richer 8–10 min Sunday films.",
+        "observed": "2026-10-28 publisher-listed 1:05 Short 'Can a Cookiecutter Shark Bite a Submarine?'; source-led one-question format but no independently verified view count or exact opening inspection.",
+        "test": "Try original visual 35–40s flower-through-a-bee's-eyes question with authentic UV science, clear payoff, and full-motion, not another oceans-glow variant.",
         "confidence": "Direct publisher portfolio, not a view-performance comparison."
       },
       {
         "name": "xkcd’s What If?",
         "sources": [
-          "https://www.pluggedin.com/youtube-reviews/xkcds-what-if/"
+          "https://nichetally.com/creator/?nt_channel=UC6IxnFzHofFJ5X2PycSMsww"
         ],
-        "observed": "Absurd hypothetical questions explored with science and animation; different tone and scale from our positive Shorts.",
+        "observed": "2026-07-07 'What would a rainbow be like on Tatooine?', archived 523,057 views at unspecified capture date. Exact hook, visuals and duration not inspected.",
         "test": "Preserve the creative what-if question structure, but keep our optimistic tone and a payoff inside 40 seconds.",
         "confidence": "Format reference only."
       }
@@ -64,11 +64,11 @@
         "youtube": "https://www.youtube.com/watch?v=pOgHqrYr5ec",
         "website": "https://www.peepandthebigwideworld.com/",
         "sources": [
-          "https://www.youtube.com/watch?v=pOgHqrYr5ec",
+          "https://vidiq.com/youtube-stats/channel/@peepwgbh/videos/kSmS6TFhTVY/",
           "https://www.peepandthebigwideworld.com/"
         ],
-        "observed": "Official preschool animation has consistent animal friends, small adventures and accessible science; activity curriculum covers movement, sound, water, plants, colour and patterns.",
-        "test": "Make Milo, the brown meerkat and BLUE bird solve one playful daily-life problem through active full-motion scenes and reveal the learning point together.",
+        "observed": "2026-10-07 10:41 'Disappearing Drink'; 303,780 views as of 2026-11-03 (27 days old), a 2.89x outlier within public tracker. Opening and detailed storyline not inspected.",
+        "test": "One problem, constant Milo + brown meerkat and the same little BLUE bird, full-motion learning; pilot an original changing-shadow problem.",
         "confidence": "Series structure and curriculum documented, but no video-level retention or virality claims."
       },
       {
@@ -108,11 +108,13 @@
   "lastResearch": {
     "date": "2026-11-03",
     "scope": [
-      "Public channel portfolios and recent individual historical upload examples",
-      "Cross-channel format and hook structure",
-      "New candidate shortlist"
+      "Six dated competitor video metadata case studies (two each) across long-form and Shorts; emerging and established creators.",
+      "One production-ready independently-sourced original idea per channel.",
+      "Comparison to Metricool owned-channel snapshot and explicit limits for 24h/7d/28d, CTR and retention."
     ],
-    "limitations": "No verified matched-age competitor video-level retention data, CTR or subscriber conversion; do not present as proof of why their channels succeeded."
+    "sourcesReviewed": 6,
+    "accessNotes": "Video playback and actual thumbnails not accessible; descriptions of hooks/motion/story rhythm are explicitly marked not inspected; direct performance attribution is unsupported.",
+    "limitations": "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves. No direct access to YouTube watch playback for these public competitor videos due throttling. Therefore first two seconds, soundtrack, shot pacing, exact motion, narrative ending and thumbnails were NOT inspected. Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations. No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length. Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty. No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched. No vidIQ paid credits were consumed in connector calls for this run."
   },
   "weeklyResearchOutput": {
     "requirements": [
@@ -124,5 +126,320 @@
       "After publishing compare own channel metrics at 24h/7d/28d",
       "Update this JSON and production-control.json only with durable decisions; link to HQ and feed Telegram weekly summary"
     ]
+  },
+  "researchRuns": [
+    {
+      "researchedOn": "2026-11-03",
+      "timezone": "Europe/Oslo",
+      "status": "completed_with_metadata_limitations",
+      "approach": "Six concrete video/film metadata case studies. Public YouTube video links or creator-hosted film listings plus dated independent statistics. No video playback or thumbnail visual review was possible; no claims about actual first two seconds, editing pace, or precise reveal.",
+      "observations": [
+        {
+          "ourChannel": "bizarre",
+          "competitor": "History Matters",
+          "sizeTier": "large",
+          "video": "Why did Germany and the USSR sign the Molotov Ribbentrop Pact? (Short Animated Documentary)",
+          "link": "https://www.youtube.com/watch?v=b_H7jLFKJuU",
+          "published": "2026-10-16",
+          "format": "long",
+          "durationSeconds": 547,
+          "viewSnapshot": {
+            "views": 815111,
+            "asOf": "2026-11-03",
+            "ageDays": 18,
+            "method": "third_party_public_tracker",
+            "viewsAt24h": 453707,
+            "firstDaySourceQualifier": "Tracker-claimed first-day views; not audited"
+          },
+          "sourceLinks": [
+            "https://trari.com/en/c/historymatters/",
+            "https://prepublish.ai/youtube-channel/historymatters"
+          ],
+          "verifiedTitlePackaging": "Tydelig hvorfor-spørsmål om konkret motsetning + løfte om forklaring; oppslag med historisk årstall/aktører.",
+          "hookFirst2Seconds": "not visually or audibly inspected",
+          "thumbnail": "not visually inspected",
+          "tempoMotion": "Not watched; channel is described as short animated documentary, not proof of shot cadence.",
+          "storyAndPayoff": "From title only, question -> historical explanation is likely structure; no verified scene-by-scene observation.",
+          "application": "Bizarre 8–10-min Sunday: one crisp historical why-question and complete sourced answer; original cinematic reconstruction and Did you know... intro.",
+          "confidence": "strong metadata/third-party views; playback unknown"
+        },
+        {
+          "ourChannel": "bizarre",
+          "competitor": "Squire Explains",
+          "sizeTier": "small fast rising, 15.3k subscribers in 2026-11-02 snapshot",
+          "video": "She Went to War Disguised as Her Brother",
+          "link": "https://www.youtube.com/watch?v=XuOxszx1TU0",
+          "published": "2026-10-18",
+          "format": "unverified (likely Short; exact runtime not confirmed)",
+          "durationSeconds": null,
+          "viewSnapshot": {
+            "views": 3487472,
+            "asOf": "2026-11-02",
+            "ageDays": 15,
+            "method": "ChannelDB public tracker",
+            "reportedOutlierScore": "14x vs site's typical video baseline; not a like-for-like same-age benchmark"
+          },
+          "sourceLinks": [
+            "https://channeldb.com/c/@squireexplains/stats",
+            "https://channeldb.com/c/@squireexplains"
+          ],
+          "verifiedTitlePackaging": "Person + overraskende skjult identitet + mulig historisk risiko; tydelig én setnings mysterium.",
+          "hookFirst2Seconds": "not inspected",
+          "thumbnail": "not visually inspected",
+          "tempoMotion": "ChannelDB auto-classifies animated history but the particular video's motion/cuts not inspected.",
+          "storyAndPayoff": "Historisk identitet/reveal implied by title only; actual resolution not verified.",
+          "application": "Test et dokumentert menneskelig mysterium i et 35–40-sekunders originalt Did you know-spørsmål med tydelig overraskelse, ikke forveksle klikk med historisk bevis.",
+          "confidence": "metadata and public tracker only"
+        },
+        {
+          "ourChannel": "whatif",
+          "competitor": "QuirkScience",
+          "sizeTier": "small independent publisher (subscriber and views counts not verified)",
+          "video": "Can a Cookiecutter Shark Bite a Submarine?",
+          "link": "https://quirkscience.com/films/",
+          "published": "2026-10-28",
+          "publishedProvenance": "publisher's dated film listing, not independent YouTube video page",
+          "format": "Short",
+          "durationSeconds": 65,
+          "viewSnapshot": {
+            "views": null,
+            "asOf": null,
+            "ageDays": 6,
+            "method": "not available"
+          },
+          "sourceLinks": [
+            "https://quirkscience.com/films/",
+            "https://quirkscience.com/about/"
+          ],
+          "verifiedTitlePackaging": "Én merkelig, konkret naturvitenskapelig mulighet, intuitivt visuelt spørsmål, enkelt å svare kort.",
+          "hookFirst2Seconds": "not inspected",
+          "thumbnail": "not visually inspected",
+          "tempoMotion": "Publisher describes frame-by-frame code-drawn animated character scenes and music, but this particular film has not been viewed.",
+          "storyAndPayoff": "Publisher says films use character action plus sourced single-question answer; individual exact payoff not independently reviewed.",
+          "application": "Egen 35–40s positiv vitenskap-Short: forskningsbasert overraskelse som kan vises visuelt og avrundes tydelig.",
+          "confidence": "publisher source; missing independent performance"
+        },
+        {
+          "ourChannel": "whatif",
+          "competitor": "xkcd's What If?",
+          "sizeTier": "large established",
+          "video": "What would a rainbow be like on Tatooine?",
+          "link": "https://www.youtube.com/watch?v=BO8rOs05v48",
+          "published": "2026-07-07",
+          "format": "unverified exact duration; likely short adaptation",
+          "durationSeconds": null,
+          "viewSnapshot": {
+            "views": 523057,
+            "asOf": null,
+            "ageDays": 119,
+            "method": "NicheTally archived number without an explicit per-video capture date; not age-normalized"
+          },
+          "sourceLinks": [
+            "https://nichetally.com/creator/?nt_channel=UC6IxnFzHofFJ5X2PycSMsww",
+            "https://feeder.co/discover/201a46f69d/youtube-com-channel-uc6ixnfzhoffj5x2pycsmsww"
+          ],
+          "verifiedTitlePackaging": "Uventet kombinasjon av hverdagslig visuelt fenomen (regnbue) og fantasiverden med et konkret fysisk spørsmål.",
+          "hookFirst2Seconds": "not inspected",
+          "thumbnail": "not visually inspected",
+          "tempoMotion": "Not inspected",
+          "storyAndPayoff": "Question frames a testable imaginative scenario; exact answer not inspected.",
+          "application": "Spør om noe visuelt slående og slutt med en reell naturvitenskapelig forklaring, ikke kopier franchise/karakterer.",
+          "confidence": "published date+title; age-matched performance not available"
+        },
+        {
+          "ourChannel": "wild",
+          "competitor": "Peep and the Big Wide World",
+          "sizeTier": "large established",
+          "video": "Disappearing Drink",
+          "link": "https://www.youtube.com/watch?v=kSmS6TFhTVY",
+          "published": "2026-10-07",
+          "format": "long",
+          "durationSeconds": 641,
+          "viewSnapshot": {
+            "views": 303780,
+            "asOf": "2026-11-03",
+            "ageDays": 27,
+            "method": "public vidIQ page",
+            "reportedOutlierScore": "2.89x within channel, method proprietary and not age matched"
+          },
+          "sourceLinks": [
+            "https://vidiq.com/youtube-stats/channel/@peepwgbh/videos/kSmS6TFhTVY/",
+            "https://www.peepandthebigwideworld.com/"
+          ],
+          "verifiedTitlePackaging": "Konkrete barnehverdags-mysterium i to lette ord; foreldre og barn forstår umiddelbart problemet.",
+          "hookFirst2Seconds": "not inspected",
+          "thumbnail": "not visually inspected",
+          "tempoMotion": "Not inspected. Official series is animated with fixed friends and accessible science as a general series attribute, not this video's confirmed cut pattern.",
+          "storyAndPayoff": "The title promises the answer to a vanished drink; exact story and ending not verified.",
+          "application": "Løs ett lite konkret problem med Milo og faste figurer; lær ett poeng gjennom bevegelse, ikke lysbildefremvisning.",
+          "confidence": "view metadata+publisher educational context"
+        },
+        {
+          "ourChannel": "wild",
+          "competitor": "Numberblocks",
+          "sizeTier": "mega channel; compare formats and audience sizes separately",
+          "video": "Quick Math - The 10 Times Tables | Learn to Count for Kids | Number Cartoon | Numberblocks",
+          "link": "https://www.youtube.com/watch?v=gn62h1r243M",
+          "published": "2026-10-20",
+          "format": "Short",
+          "durationSeconds": 28,
+          "viewSnapshot": {
+            "views": 5145959,
+            "asOf": "2026-11-02",
+            "ageDays": 13,
+            "method": "third-party public channel video table"
+          },
+          "sourceLinks": [
+            "https://digitalcreators.jp/en/channel/en/UCPlwvN0w4qFSP1FllALB92w/videos/",
+            "https://www.blocksuniverse.tv/welcome"
+          ],
+          "verifiedTitlePackaging": "Svært konkret læringsmål (10-gangen) + 'Quick Math', repeterbar serieidentitet.",
+          "hookFirst2Seconds": "not inspected",
+          "thumbnail": "not visually inspected",
+          "tempoMotion": "Not inspected",
+          "storyAndPayoff": "A clearly named skill is promised; actual mechanism and outcome not viewed.",
+          "application": "Test én tydelig læringsidé per episode, men bygg original Milo-fortelling; ikke kopier tallfigurene eller musikken.",
+          "confidence": "dated public tabular views; not comparable to new channel"
+        }
+      ],
+      "learnings": [
+        {
+          "channel": "bizarre",
+          "finding": "Stor langform-kanal og liten raskt voksende historieforteller lykkes med én dramatisk WHY/WHO-friksjon i tittelen, men ytelsen kan ikke tilskrives tittelen alene.",
+          "recommendedTest": {
+            "title": "Did You Know a Volcano Hid a Library We Can Read Without Opening?",
+            "format": "35–40s Short after existing queue",
+            "first2Seconds": "DID YOU KNOW… a volcano sealed a library for nearly 2,000 years?",
+            "plot": "Vis Vesuvius 79 e.Kr. og forkullet papyrus, så moderne virtuelt utbrettet tekst; presiser at ett konkret manuskript ble lest helt i juni 2026.",
+            "payoff": "Vi kan lese den første hele forkullede rullen uten å fysisk åpne den; et historisk mysterium med faktabasert løsning.",
+            "factSources": [
+              "https://scrollprize.org/firstscroll",
+              "https://www.reuters.com/science/complete-text-carbonised-herculaneum-scroll-unlocked-first-time-2026-06-25/"
+            ],
+            "measurement": "engaged views, viewed/swiped and 24h/7d/28d video-age-equivalent retention; compare only with similar Shorts."
+          }
+        },
+        {
+          "channel": "whatif",
+          "finding": "Gode hypotetiske konsepter lar et konkret spørsmål utløse en umiddelbar visuell transformasjon og et forståelig naturvitenskapelig svar; publisher descriptions are not retention proof.",
+          "recommendedTest": {
+            "title": "What If You Could See Flowers Through a Bee's Eyes?",
+            "format": "35–40s full-motion Short after currently scheduled content",
+            "first2Seconds": "WHAT IF… you could see a flower the way a bee does?",
+            "plot": "Normal flowers -> stylized false-color UV perspective with 'nectar guides' -> a bee goes straight to nectar; state visual is an illustrative false-color mapping.",
+            "payoff": "Mange blomster viser UV-mønstre som mennesker ikke ser og som hjelper pollinatorer å orientere seg.",
+            "factSources": [
+              "https://onlinelibrary.wiley.com/doi/full/10.1111/plb.70050",
+              "https://www.ch.cam.ac.uk/news/petals-produce-blue-halo-helps-bees-find-flowers"
+            ],
+            "measurement": "hook in first 2 sec, engaged views, viewed vs swiped, average watch duration and subs per 1000 matched-age views."
+          }
+        },
+        {
+          "channel": "wild",
+          "finding": "Preskole-eksempler pakket rundt små gjenkjennelige problemer eller ett uttalt læringsmål. Det fremstår overførbart til serien; konkrete videoer er ikke faktisk avspilt.",
+          "recommendedTest": {
+            "title": "Milo and the Shadow That Wouldn't Stay Still!",
+            "format": "35–40s full-motion Short, then possible 8–10 min Sunday story only if enough plot",
+            "first2Seconds": "Milo og blå fugl lager en skyggetegning. Skyggen flytter seg – hvordan kan det skje?",
+            "plot": "Milo, brun surikat, og den samme lille blå fuglen prøver med et leketøy, sol og lommelykt; skyggen forandrer størrelse og sted når lyset flytter seg. Ha aktiv dialog og konsekvente figurer.",
+            "payoff": "Barn forstår at skygger lages når noe stopper lyset, og at de forandrer seg når lys eller gjenstand flyttes.",
+            "factSources": [
+              "https://www.peepandthebigwideworld.com/",
+              "https://providencechildrensmuseum.org/shadows-and-sun-fun/"
+            ],
+            "measurement": "enhetlig visuell identitet og full-motion QC, gjennomsnittlig seertid/retensjon når YouTube-analyse er tilgjengelig."
+          }
+        }
+      ],
+      "internalPerformance": {
+        "source": "Metricool connected analytics, fetched 2026-11-03 for youtube evolution and prior per-video cached snapshot",
+        "asOf": "2026-11-03",
+        "caveats": "Subscriber counts available in daily evolution, video counts cumulative as of one snapshot; per-video watch minutes and views cumulative, not measured at matched video ages. 24h/7d/28d snapshots by video are unavailable. New Nov 1-3 views/null cannot be treated as zero.",
+        "bizarre": {
+          "subscribers": 33,
+          "topVideo": {
+            "title": "Vikings Left Prisoners for the Rising Tide?",
+            "published": "2026-10-21",
+            "views": 1260,
+            "averageWatchSecondsPerView": 18.6
+          },
+          "secondVideo": {
+            "title": "The Vikings Didn't Just Steal Gold — They Stole People",
+            "published": "2026-10-23",
+            "views": 739,
+            "averageWatchSecondsPerView": 20.3
+          }
+        },
+        "whatif": {
+          "subscribers": 18,
+          "topVideo": {
+            "title": "What If Every Bee Disappeared?",
+            "published": "2026-10-22",
+            "views": 137,
+            "averageWatchSecondsPerView": 8.5
+          },
+          "secondVideo": {
+            "title": "What If Earth's Magnetic Field Reversed?",
+            "published": "2026-10-28",
+            "views": 93,
+            "averageWatchSecondsPerView": 14.6
+          }
+        },
+        "wild": {
+          "metricoolConnected": false,
+          "videoMetrics": null,
+          "notes": "Little Wild not connected in Metricool analytics data; no verified view/watch-time data."
+        },
+        "missingAcrossChannels": [
+          "24h per-video milestone history",
+          "7d per-video milestone history",
+          "28d per-video milestone history",
+          "engagedViews",
+          "Shorts viewed vs swiped",
+          "audience retention curve and average percentage viewed",
+          "video-attributed subscribers per 1000 views",
+          "long-form impressions click-through rate / CTR"
+        ]
+      },
+      "evidenceLimits": [
+        "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves.",
+        "No direct access to YouTube watch playback for these public competitor videos due throttling. Therefore first two seconds, soundtrack, shot pacing, exact motion, narrative ending and thumbnails were NOT inspected.",
+        "Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations.",
+        "No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length.",
+        "Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty.",
+        "No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched.",
+        "No vidIQ paid credits were consumed in connector calls for this run."
+      ]
+    }
+  ],
+  "latestRecommendations": {
+    "bizarre": {
+      "dated": "2026-11-03",
+      "insight": "Stor langform-kanal og liten raskt voksende historieforteller lykkes med én dramatisk WHY/WHO-friksjon i tittelen, men ytelsen kan ikke tilskrives tittelen alene.",
+      "action": "Did You Know a Volcano Hid a Library We Can Read Without Opening?",
+      "referenceSources": [
+        "https://scrollprize.org/firstscroll",
+        "https://www.reuters.com/science/complete-text-carbonised-herculaneum-scroll-unlocked-first-time-2026-06-25/"
+      ]
+    },
+    "whatif": {
+      "dated": "2026-11-03",
+      "insight": "Gode hypotetiske konsepter lar et konkret spørsmål utløse en umiddelbar visuell transformasjon og et forståelig naturvitenskapelig svar; publisher descriptions are not retention proof.",
+      "action": "What If You Could See Flowers Through a Bee's Eyes?",
+      "referenceSources": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/plb.70050",
+        "https://www.ch.cam.ac.uk/news/petals-produce-blue-halo-helps-bees-find-flowers"
+      ]
+    },
+    "wild": {
+      "dated": "2026-11-03",
+      "insight": "Preskole-eksempler pakket rundt små gjenkjennelige problemer eller ett uttalt læringsmål. Det fremstår overførbart til serien; konkrete videoer er ikke faktisk avspilt.",
+      "action": "Milo and the Shadow That Wouldn't Stay Still!",
+      "referenceSources": [
+        "https://www.peepandthebigwideworld.com/",
+        "https://providencechildrensmuseum.org/shadows-and-sun-fun/"
+      ]
+    }
   }
 }
