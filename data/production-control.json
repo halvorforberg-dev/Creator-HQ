@@ -19,8 +19,8 @@
     ],
     "truth": "Status produced, scheduled, published or failed must originate from a verified platform response.",
     "apiLimit": "AI Tuber Autopilot recurring settings cannot currently be read/changed with connected public API; manual confirmation required.",
-    "qualityVsVolume": "EDITORIAL GOALS across the 3 channels: What If has 2 Shorts (Mon/Fri) + 2 ordinary 16:9 long-form films 3–4 minutes (Wed/Sun) each week; Bizarre Past and Little Wild each retain 3 Shorts (Mon/Wed/Fri) + 1 ordinary 16:9 long-form film 3–6 minutes (Sun) each week. Total 8 Shorts + 4 long-form weekly, 12 videos across the three channels. Quality first; do not pad lengths or schedule without completed QC; keep existing bookings unchanged.",
-    "governingPlan": "WHAT IF ONLY (new editorial plan 2026-11-03; applies to new, not-yet-booked uploads from 2026-11-09): Monday + Friday = 9:16 Shorts 35–40 seconds; Wednesday + Sunday = regular public 16:9 long-form videos 3–4 minutes each. Target 18:00 Europe/Oslo. Maintain the opening 'What if…', upbeat curiosity and clear payoff. Do NOT reschedule, delete, replace or duplicate any existing scheduled/published content. Quality and 10,000 shared AI Tuber monthly credits constrain production; no credit purchase without approval. Little Wild and Bizarre Past schedules remain unchanged (Mon/Wed/Fri Shorts and Sun 3–6 min long-form). This is the newest channel-specific schedule decision and supersedes the previously shared 3-Shorts-per-channel universal template for What If. All other rules remain valid.",
+    "qualityVsVolume": "REVISED EDITORIAL GOALS effective 2026-11-09: Bizarre Past 2 Shorts (Mon/Fri), Wednesday ordinary public 16:9 2–4 min, Sunday ordinary public 16:9 3–6 min; What If 2 Shorts (Mon/Fri) and 2 ordinary public 16:9 films 3–4 min (Wed/Sun); Little Wild 3 Shorts (Mon/Wed/Fri) and 1 ordinary public 16:9 film 3–6 min (Sun). TOTAL 7 Shorts + 5 regular long-form films per week across 3 channels, 12 uploads overall. All 18:00 Europe/Oslo editorial targets, and no existing booking changes. Strong hook, satisfying payoff, full QC before scheduling, do not inflate runtime.",
+    "governingPlan": "NYESTE BESLUTNING 03.11.2026 – BIZARRE PAST ONSDAG: For NYE, ikke allerede bookede filmer fra 09.11.2026: onsdag er ordinær offentlig 16:9-film på 2–4 minutter, IKKE Short. Bizarre Past har mandag/fredag Shorts 35–40 sekunder og søndag ordinær offentlig 16:9 langfilm 3–6 minutter (uendret). Alt kl. 18:00 Europe/Oslo som redaksjonelt mål. Allerede bookede filmer, inkl. 4/6/8. november, skal IKKE flyttes, slettes, dupliseres eller endres. Bruk fortsatt bare Higgsfield og Metricool, med 'Did you know…', faktasjekk og full QC. What If beholder mandag/fredag Shorts og onsdag/søndag 3–4 minutters langfilmer; Little Wild beholder mandag/onsdag/fredag Shorts og søndag 3–6 min langfilm. Seks promptprinsipper og kvalitet over volum gjelder alltid. WHAT IF ONLY (new editorial plan 2026-11-03; applies to new, not-yet-booked uploads from 2026-11-09): Monday + Friday = 9:16 Shorts 35–40 seconds; Wednesday + Sunday = regular public 16:9 long-form videos 3–4 minutes each. Target 18:00 Europe/Oslo. Maintain the opening 'What if…', upbeat curiosity and clear payoff. Do NOT reschedule, delete, replace or duplicate any existing scheduled/published content. Quality and 10,000 shared AI Tuber monthly credits constrain production; no credit purchase without approval. Little Wild and Bizarre Past schedules remain unchanged (Mon/Wed/Fri Shorts and Sun 3–6 min long-form). This is the newest channel-specific schedule decision and supersedes the previously shared 3-Shorts-per-channel universal template for What If. All other rules remain valid.",
     "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00.",
     "watchHours": "Only valid public watch time from ordinary long-form uploads counts toward the standard public watch-hour route to YPP; Shorts-feed watch hours do not count toward that route. Do not treat 8 minutes as a minimum qualifying duration. Normal YPP eligibility rules and YouTube reporting still apply.",
     "oldLongFilmRuleSuperseded": "8–10-minute Sunday goal paused 2026-11-03 until user revisits it. No auto-extension of current scheduled video durations, and preserve existing verified bookings without duplicate.",
@@ -51,6 +51,13 @@
       "channel": "What If in 40 Seconds",
       "rule": "WHAT IF ONLY (new editorial plan 2026-11-03; applies to new, not-yet-booked uploads from 2026-11-09): Monday + Friday = 9:16 Shorts 35–40 seconds; Wednesday + Sunday = regular public 16:9 long-form videos 3–4 minutes each. Target 18:00 Europe/Oslo. Maintain the opening 'What if…', upbeat curiosity and clear payoff. Do NOT reschedule, delete, replace or duplicate any existing scheduled/published content. Quality and 10,000 shared AI Tuber monthly credits constrain production; no credit purchase without approval. Little Wild and Bizarre Past schedules remain unchanged (Mon/Wed/Fri Shorts and Sun 3–6 min long-form).",
       "precedence": "OVERRIDES any older 3 Shorts + 1 long film universal schedule ONLY for What If; does not modify booked uploads or the other channels."
+    },
+    "latestBizarreWednesdayDecision": {
+      "decidedOn": "2026-11-03",
+      "effectiveFrom": "2026-11-09",
+      "channel": "Bizarre Past",
+      "rule": "NYESTE BESLUTNING 03.11.2026 – BIZARRE PAST ONSDAG: For NYE, ikke allerede bookede filmer fra 09.11.2026: onsdag er ordinær offentlig 16:9-film på 2–4 minutter, IKKE Short. Bizarre Past har mandag/fredag Shorts 35–40 sekunder og søndag ordinær offentlig 16:9 langfilm 3–6 minutter (uendret). Alt kl. 18:00 Europe/Oslo som redaksjonelt mål. Allerede bookede filmer, inkl. 4/6/8. november, skal IKKE flyttes, slettes, dupliseres eller endres. Bruk fortsatt bare Higgsfield og Metricool, med 'Did you know…', faktasjekk og full QC. What If beholder mandag/fredag Shorts og onsdag/søndag 3–4 minutters langfilmer; Little Wild beholder mandag/onsdag/fredag Shorts og søndag 3–6 min langfilm. Seks promptprinsipper og kvalitet over volum gjelder alltid.",
+      "precedence": "Overstyrer bare tidligere Bizarre Wednesday Shorts-regler; andre kanaler og eksisterende bookinger uendret."
     }
   },
   "channels": {
@@ -96,11 +103,19 @@
         "dontPromiseRevenue": "Monetization depends on eligibility, originality, audience response and platform review; no guaranteed earnings."
       },
       "weeklyTarget": {
-        "shorts": 3,
-        "regularLongForm": 1,
-        "regularLongFormDurationMinutes": "3–6",
+        "shorts": 2,
+        "regularLongForm": 2,
+        "regularLongFormDurationMinutes": "Wednesday 2–4; Sunday 3–6",
         "time": "18:00 Europe/Oslo",
-        "formatOfLongForm": "ordinary public 16:9 upload"
+        "formatOfLongForm": "ordinary public 16:9 upload",
+        "days": {
+          "monday": "Short 35–40 sec",
+          "wednesday": "Regular 16:9 film 2–4 min",
+          "friday": "Short 35–40 sec",
+          "sunday": "Regular 16:9 film 3–6 min"
+        },
+        "effectiveFrom": "2026-11-09",
+        "existingBookings": "Preserve all prior bookings unchanged"
       }
     },
     "wild": {
@@ -177,27 +192,27 @@
   "goalSchedule": {
     "effectiveFrom": "2026-11-09",
     "monday": "All 3 channels: 9:16 Shorts 35–40 sec",
-    "wednesday": "Bizarre Past + Little Wild: 9:16 Shorts 35–40 sec; What If: public regular 16:9 long-form 3–4 minutes",
+    "wednesday": "Bizarre Past: regular 16:9 public film 2–4 min; What If: regular 16:9 public film 3–4 min; Little Wild: 9:16 Short 35–40 sec",
     "friday": "All 3 channels: 9:16 Shorts 35–40 sec",
-    "sunday": "Bizarre Past + Little Wild: public regular 16:9 long-form 3–6 min; What If: public regular 16:9 long-form 3–4 min",
+    "sunday": "Bizarre Past + Little Wild: regular 16:9 public film 3–6 min; What If: regular 16:9 public film 3–4 min",
     "time": "18:00",
     "status": "EDITORIAL_GOAL_NOT_BOOKED",
-    "authority": "Newest channel-specific user decision 2026-11-03: What If changes to Mon/Fri Shorts and Wed/Sun 3–4-minute 16:9 long-form; Bizarre Past and Little Wild keep existing Mon/Wed/Fri Shorts and Sunday 3–6-min 16:9. Preserve all previously booked posts. 8+ minute long films deferred.",
+    "authority": "Newest 2026-11-03 user decisions: Bizarre Past changes Wednesday Short to public 16:9 film 2–4 min; What If keeps Mon/Fri Shorts and Wed/Sun public 16:9 films 3–4 min; Little Wild unchanged Mon/Wed/Fri Shorts + Sunday public 16:9 film 3–6 min. Bizarre Sunday remains 3–6 min. Only new not-yet-booked videos from 09.11. Existing bookings protected.",
     "weeklyPerChannel": {
       "note": "Legacy universal schedule replaced by explicit weeklyByChannel; retain counts per channel below."
     },
     "weeklyAllThreeChannels": {
-      "shorts": 8,
-      "regularVideos": 4
+      "shorts": 7,
+      "regularVideos": 5
     },
     "weeklyByChannel": {
       "bizarre": {
         "monday": "Short 35–40 sec, 9:16",
-        "wednesday": "Short 35–40 sec, 9:16",
+        "wednesday": "Regular public 16:9 film 2–4 minutes",
         "friday": "Short 35–40 sec, 9:16",
-        "sunday": "Regular 16:9 public film 3–6 minutes",
-        "shorts": 3,
-        "regularVideos": 1
+        "sunday": "Regular public 16:9 film 3–6 minutes",
+        "shorts": 2,
+        "regularVideos": 2
       },
       "whatif": {
         "monday": "Short 35–40 sec, 9:16",
