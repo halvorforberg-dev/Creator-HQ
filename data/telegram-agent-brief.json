@@ -71,7 +71,8 @@
     "timezone": "Europe/Oslo",
     "timeRuleDecided": "2026-11-02",
     "priorityNote": "NYESTE VEDTAK 03.11.2026: 3 Shorts/uke/kanal + 1 ordinary 16:9 public video 3–6 min/uke/kanal, alt kl 18:00 Europe/Oslo. Målet er tellende offentlige seertimer. Langfilmer >=8 min tas senere. Overskriver ALLE gamle 8–10 min søndagsregler.",
-    "watchHours": "Shorts-feed timer teller ikke mot vanlig YPP-krav om gyldige offentlige seertimer. Offentlige vanlige videoer i 16:9 kan telle uansett om de er kortere enn 8 min. Ikke påstå at kun 8+ minutter teller."
+    "watchHours": "Shorts-feed timer teller ikke mot vanlig YPP-krav om gyldige offentlige seertimer. Offentlige vanlige videoer i 16:9 kan telle uansett om de er kortere enn 8 min. Ikke påstå at kun 8+ minutter teller.",
+    "creditRule": "AI Tuber-credits gjelder kun Little Wild Adventures og What If. Bizarre Past genereres i Higgsfield med separat kredittbudsjett."
   },
   "mandatory_quality": [
     "Strong relevant hook in first two seconds",
@@ -117,5 +118,10 @@
     ],
     "remedy": "Verify AI Tuber Weekly Long Story and main series settings separately before next new production. Only approve full-motion video with fixed Milo, brown meerkat and blue bird and clear pedagogical story.",
     "noEnforcementClaim": "These instructions and HQ warning do not block AI Tuber Autopilot publishing. Verify or pause autopilot directly until reconfigured."
+  },
+  "productionPlatforms": {
+    "bizarrePast": "Higgsfield → Metricool (YouTube og TikTok)",
+    "littleWildAdventures": "AI Tuber → YouTube",
+    "whatIfIn40Seconds": "AI Tuber → YouTube"
   }
 }
