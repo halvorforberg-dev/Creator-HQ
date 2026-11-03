@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-02T14:29:24.856Z",
-  "requestedThrough": "2026-11-02",
+  "updatedAt": "2026-11-03T06:35:03.150Z",
+  "requestedThrough": "2026-11-03",
   "source": "Metricool authenticated analytics via connected app",
-  "periodStart": "2026-10-20",
-  "periodEnd": "2026-11-02",
+  "periodStart": "2026-10-03",
+  "periodEnd": "2026-11-03",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -12,6 +12,110 @@
       "brandId": "7296504",
       "youtube": {
         "series": [
+          {
+            "date": "2026-10-07",
+            "subscribers": 0,
+            "views": 2,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-08",
+            "subscribers": 0,
+            "views": 631,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-09",
+            "subscribers": 2,
+            "views": 90,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-10",
+            "subscribers": 4,
+            "views": 68,
+            "videosPublished": 1,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-11",
+            "subscribers": 4,
+            "views": 54,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-12",
+            "subscribers": 5,
+            "views": 532,
+            "videosPublished": 1,
+            "followersGained": 6,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-13",
+            "subscribers": 11,
+            "views": 33,
+            "videosPublished": null,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-14",
+            "subscribers": 12,
+            "views": 253,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-15",
+            "subscribers": 13,
+            "views": 73,
+            "videosPublished": null,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-16",
+            "subscribers": 14,
+            "views": 189,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-17",
+            "subscribers": 15,
+            "views": 45,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-18",
+            "subscribers": 15,
+            "views": 107,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-19",
+            "subscribers": 16,
+            "views": 62,
+            "videosPublished": 2,
+            "followersGained": 1,
+            "followersLost": 0
+          },
           {
             "date": "2026-10-20",
             "subscribers": 17,
@@ -101,6 +205,14 @@
             "followersLost": 0
           },
           {
+            "date": "2026-10-31",
+            "subscribers": null,
+            "views": 61,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
             "date": "2026-11-01",
             "subscribers": 29,
             "views": null,
@@ -111,6 +223,14 @@
           {
             "date": "2026-11-02",
             "subscribers": 29,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-03",
+            "subscribers": 33,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -126,6 +246,15 @@
             "likes": 17,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=rknqX_6US-0"
+          },
+          {
+            "publishedAt": "20261008140639",
+            "title": "Ancient Romans Washed Clothes With Urine 🤯",
+            "views": 795,
+            "watchMinutes": 171.61388333333332,
+            "likes": 17,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=8YlWw0_fgS0"
           },
           {
             "publishedAt": "20261023140334",
@@ -155,6 +284,24 @@
             "url": "https://www.youtube.com/watch?v=zjZxCFBrzNs"
           },
           {
+            "publishedAt": "20261012140426",
+            "title": "Australia Sent Soldiers to Fight Birds 😳 | The Great Emu War",
+            "views": 512,
+            "watchMinutes": 47.76881666666668,
+            "likes": 11,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=H0rD8-GHVis"
+          },
+          {
+            "publishedAt": "20261014140441",
+            "title": "The Year Summer Never Came 😳 | 1816",
+            "views": 328,
+            "watchMinutes": 71.20633333333332,
+            "likes": 14,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=0ANw6q39maY"
+          },
+          {
             "publishedAt": "20261025150251",
             "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
             "views": 284,
@@ -173,6 +320,15 @@
             "url": "https://www.youtube.com/watch?v=fAZeSyTZnJM"
           },
           {
+            "publishedAt": "20261016140649",
+            "title": "The War That Ended in Just 38 Minutes 😳 | Zanzibar 1896",
+            "views": 222,
+            "watchMinutes": 67.17098333333334,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=3FNroEfMjrg"
+          },
+          {
             "publishedAt": "20261028150315",
             "title": "The Day Vikings Attacked God's Island 😱 | 793",
             "views": 106,
@@ -180,6 +336,60 @@
             "likes": 5,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=XDG7otcaCVM"
+          },
+          {
+            "publishedAt": "20261018140435",
+            "title": "People Danced Until They Collapsed 😳 | The Dancing Plague of 1518",
+            "views": 96,
+            "watchMinutes": 10.697383333333333,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=t0XKACsvyiI"
+          },
+          {
+            "publishedAt": "20261019201403",
+            "title": "How 3 Soldiers Failed to Stop 20,000 Emus",
+            "views": 80,
+            "watchMinutes": 30.974883333333327,
+            "likes": 1,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=GkHl2WoiRuE"
+          },
+          {
+            "publishedAt": "20261009163222",
+            "title": "Boston Was Hit by a Wave of Molasses 😳",
+            "views": 74,
+            "watchMinutes": 15.436416666666668,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=GOFWe0GLoaU"
+          },
+          {
+            "publishedAt": "20261019160456",
+            "title": "Did You Know a Dead Pope Was Put on Trial? 😳 | 897",
+            "views": 48,
+            "watchMinutes": 8.07531666666667,
+            "likes": 2,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=xtJbJk9T2nE"
+          },
+          {
+            "publishedAt": "20261010140423",
+            "title": "People Danced Until They Collapsed 😳 | The Dancing Plague of 1518",
+            "views": 44,
+            "watchMinutes": 8.33145,
+            "likes": 3,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=ar3cC9y1gNY"
+          },
+          {
+            "publishedAt": "20261011140348",
+            "title": "They Put a Dead Pope on Trial 🤯 | The Corpse Synod",
+            "views": 35,
+            "watchMinutes": 5.496250000000001,
+            "likes": 3,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=bvjEJxqIYO4"
           },
           {
             "publishedAt": "20261028195535",
@@ -193,12 +403,91 @@
         ]
       },
       "tiktok": {
+        "brandId": "7296504",
         "series": [
+          {
+            "date": "2026-10-06",
+            "videoViews": null,
+            "followers": 0,
+            "followerNetChange": null
+          },
+          {
+            "date": "2026-10-08",
+            "videoViews": 1944,
+            "followers": 1,
+            "followerNetChange": 1
+          },
+          {
+            "date": "2026-10-09",
+            "videoViews": 987,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-10",
+            "videoViews": 968,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-11",
+            "videoViews": 261,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-12",
+            "videoViews": 1604,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-13",
+            "videoViews": null,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-14",
+            "videoViews": 277,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-15",
+            "videoViews": null,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-16",
+            "videoViews": 287,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-17",
+            "videoViews": null,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-18",
+            "videoViews": 270,
+            "followers": 1,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-10-19",
+            "videoViews": 252,
+            "followers": 1,
+            "followerNetChange": 0
+          },
           {
             "date": "2026-10-20",
             "videoViews": null,
             "followers": 1,
-            "followerNetChange": null
+            "followerNetChange": 0
           },
           {
             "date": "2026-10-21",
@@ -232,7 +521,7 @@
           },
           {
             "date": "2026-10-26",
-            "videoViews": 285,
+            "videoViews": 286,
             "followers": 3,
             "followerNetChange": 0
           },
@@ -244,7 +533,7 @@
           },
           {
             "date": "2026-10-28",
-            "videoViews": 569,
+            "videoViews": 570,
             "followers": 3,
             "followerNetChange": 0
           },
@@ -256,7 +545,7 @@
           },
           {
             "date": "2026-10-30",
-            "videoViews": 264,
+            "videoViews": 265,
             "followers": 3,
             "followerNetChange": 0
           },
@@ -271,9 +560,14 @@
             "videoViews": null,
             "followers": 3,
             "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-02",
+            "videoViews": 260,
+            "followers": 3,
+            "followerNetChange": 0
           }
-        ],
-        "brandId": "7296504"
+        ]
       }
     },
     "whatif": {
@@ -283,6 +577,22 @@
       "brandId": "7751348",
       "youtube": {
         "series": [
+          {
+            "date": "2026-10-18",
+            "subscribers": null,
+            "views": 10,
+            "videosPublished": 1,
+            "followersGained": 2,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-10-19",
+            "subscribers": null,
+            "views": 10,
+            "videosPublished": 1,
+            "followersGained": 1,
+            "followersLost": 0
+          },
           {
             "date": "2026-10-20",
             "subscribers": null,
@@ -374,10 +684,10 @@
           {
             "date": "2026-10-31",
             "subscribers": 9,
-            "views": null,
+            "views": 11,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 0,
+            "followersLost": 0
           },
           {
             "date": "2026-11-01",
@@ -390,6 +700,14 @@
           {
             "date": "2026-11-02",
             "subscribers": 15,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-03",
+            "subscribers": 18,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -425,6 +743,15 @@
             "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
           },
           {
+            "publishedAt": "20261018170925",
+            "title": "What If the Moon Disappeared Tonight?",
+            "views": 19,
+            "watchMinutes": 5.0941833333333335,
+            "likes": 2,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=s42iD-x3u1g"
+          },
+          {
             "publishedAt": "20261025180201",
             "title": "What If Dogs Could Talk? 🐶😂 | Biscuit & Pixel",
             "views": 12,
@@ -432,6 +759,15 @@
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=iOstByrBFdE"
+          },
+          {
+            "publishedAt": "20261019160507",
+            "title": "What If Earth Stopped Spinning for One Second?",
+            "views": 9,
+            "watchMinutes": 1.0711499999999998,
+            "likes": 2,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=GuXlFlUfX7A"
           },
           {
             "publishedAt": "20261030170411",
@@ -471,14 +807,16 @@
         "series": [],
         "videos": []
       },
-      "notes": "Connection required for automatic channel metrics."
+      "notes": "Connection required for automatic channel metrics. No invented stats."
     }
   },
   "notes": [
-    "Metrics from Metricool can be delayed and sparse; source nulls are not zeros.",
-    "Youtube Evolution videoViews records activity in dated rows; YouTube Videos Published in Range views are cumulative totals of these videos, not weekly views.",
-    "No access to Little Wild Adventures channel analytics through current Metricool account.",
-    "Period includes partial current calendar day; compare full periods carefully.",
-    "Metrics do not prove videos are published without platform record."
+    "Metricool measurements may be delayed; latest period includes partial Nov 3 in Europe/Oslo.",
+    "Only verified fetched metric rows and video metrics are included. Missing/null numbers are unavailable, not zero.",
+    "YouTube Evolution videoViews (YTEV02) describe activity in dated rows, while individual Youtube Videos Published in Range counts are cumulative views for videos published during the period and must not be summed as 7-day channel views.",
+    "TikTok TKEV02 is views for videos published in range, not necessarily all video views that occurred during the range.",
+    "YouTube per-video watchMinutes and views are cumulative for published-in-range videos; do not treat them as same-day activity.",
+    "Little Wild Adventures is not connected to Metricool analytics for this report; no estimated stats used.",
+    "This snapshot does not confirm publication status of unpublished/scheduled videos."
   ]
 }
