@@ -431,6 +431,18 @@
         "No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched.",
         "No vidIQ paid credits were consumed in connector calls for this run."
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "channel": "Little Wild Adventures",
+      "sources": [
+        "https://www.blocksuniverse.tv/numberblocks/how-it-works",
+        "https://www.peepandthebigwideworld.com/en/educators/preschool-science-peep-approach/"
+      ],
+      "observation": "Numberblocks' own educational guide says early lessons 1–5 teach counting, comparing/sorting and recognizing quantities using explicit visual progression. Peep's curriculum emphasizes safe hands-on observation, questions, cause and effect rather than lecturing.",
+      "note": "Numberblocks official + Peep official curriculum. Sources confirm educational design philosophies, NOT current view counts, first two seconds, nor retained audiences.",
+      "originalTest": "Little Wild: Milo visibly makes a mistake in first frame; Miko and bright-blue Pip demonstrate 1 action the child can copy (tap-tap-stop or stack 3 broad blocks), with a funny failed try and satisfied payoff. Check 24h/7d/28d analytics when available.",
+      "status": "Hypothesis only; no Little Wild video published or analytics read in this run"
     }
   ],
   "latestRecommendations": {
