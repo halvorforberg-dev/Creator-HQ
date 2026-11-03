@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "language": "Norwegian for bot responses, English for video scripts and metadata",
   "primary_goal": "Build income-eligible original channels using MANY strong, engaging videos: genuine curiosity, strong first 2 seconds, complete storytelling and growing organic views/subscribers. No income guarantees.",
   "focus_channels": [
@@ -20,7 +20,7 @@
         "Strong spoken and written 'Did you know…' in first 1–2 seconds",
         "Clear hook, story, resolution",
         "History accuracy: separate legends and biblical faith from documentary evidence",
-        "Sunday 16:9 8–10 minute original full-motion cinematic features; do not pad weak stories",
+        "Weekly 16:9 ordinary public YouTube story 3–6 min to build valid watch hours; do not pad. All new Bizarre Past videos start 'Did you know…' in speech/text.",
         "Use approved narrator voice, cinematic action, good audio and seamless scene transitions",
         "Historical reenactments labeled as AI-generated, not actual archive footage"
       ],
@@ -60,17 +60,18 @@
   ],
   "publishing": {
     "starts": "2026-11-09",
-    "monday": "Shorts 35–40 sek",
-    "wednesday": "Shorts 35–40 sek",
-    "friday": "Shorts 35–40 sek",
-    "sunday": "Hver søndag: ekte 16:9 langfilm, mål 8–10 min (ikke kunstig strekk av historien)",
-    "weeklyGoal": "At least 12 excellent YouTube videos across the three channels, with extra excellent episodes where capacity permits.",
+    "monday": "9:16 Short 35–40 sek",
+    "wednesday": "9:16 Short 35–40 sek",
+    "friday": "9:16 Short 35–40 sek",
+    "sunday": "Vanlig offentlig 16:9 YouTube-film på 3–6 minutter for HVER kanal (ikke Shorts), én i uken per kanal",
+    "weeklyGoal": "3 Shorts + 1 vanlig offentlig 16:9-film (3–6 min) per kanal per uke, 9 Shorts + 3 vanlige filmer totalt på de tre kanalene; bare kvalitetssikret innhold",
     "existing": "Six remaining scheduled Bizarre Past platform posts: YouTube + TikTok, 4/6/8 Nov at 18:00 Europe/Oslo. Preserve topics, assets and metadata. From 9 Nov use new mandatory hook/QC rules.",
     "status": "Editorial goals only; current production and platform booking must be confirmed separately.",
     "publishTime": "18:00",
     "timezone": "Europe/Oslo",
     "timeRuleDecided": "2026-11-02",
-    "priorityNote": "Latest decision from 2 Nov 2026 supersedes prior Friday 1–2 minute and alternating Sunday 2–3/6–8 minutes. All 3 channels: Mon/Wed/Fri Shorts 35–40 sec, Sunday 16:9 long-form 8–10 min. Quality gate always applies."
+    "priorityNote": "NYESTE VEDTAK 03.11.2026: 3 Shorts/uke/kanal + 1 ordinary 16:9 public video 3–6 min/uke/kanal, alt kl 18:00 Europe/Oslo. Målet er tellende offentlige seertimer. Langfilmer >=8 min tas senere. Overskriver ALLE gamle 8–10 min søndagsregler.",
+    "watchHours": "Shorts-feed timer teller ikke mot vanlig YPP-krav om gyldige offentlige seertimer. Offentlige vanlige videoer i 16:9 kan telle uansett om de er kortere enn 8 min. Ikke påstå at kun 8+ minutter teller."
   },
   "mandatory_quality": [
     "Strong relevant hook in first two seconds",
