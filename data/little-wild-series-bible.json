@@ -257,7 +257,7 @@
       "exportResolution": "1080p"
     },
     "qc": {
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-03 ~18:24 Europe/Oslo",
       "verdict": "HOLD_NOT_APPROVED",
       "scoreOutOf100": null,
       "scoreReason": "No honest 90/100 score possible because full exported MP4 could not be downloaded and viewed/heard end-to-end with the current connected/sandbox tooling. Critical hard stops remain unverified.",
@@ -317,22 +317,25 @@
           "item": "Made for Kids flag, 18:00 Europe/Oslo AutoPilot time, exact YouTube target channel and no duplicate must be verified before booking."
         }
       ],
-      "toolingLimitation": "AI Tuber delivered a completed MP4 export and temporary CDN download URL, but current sandbox could not fetch CDN MP4 (external host DNS unavailable) and web viewer could not inspect video. No false claim of watching the film.",
+      "toolingLimitation": "Attempted CDN direct download again 2026-11-03: https://cdn.aituber.app export could not be resolved by sandbox DNS, and web open of MP4 was not supported. No image/voice QC completed. Keep HOLD.",
       "credits": {
         "activePlan": "Studio",
-        "currentBalanceObserved": 10000,
+        "currentBalanceObserved": 9808,
         "monthlyIncluded": 10000,
         "additionalGenerationCreditsSpentByThisReview": 0,
         "exportCostCredits": 0,
         "originalGenerationCost": "NOT VERIFIED; provider returns no reliable spent-credits figure for this video",
-        "creditPurchase": false
+        "creditPurchase": false,
+        "balanceCheckAt": "2026-11-03 ~18:24 Europe/Oslo",
+        "balanceComment": "This is SHARED AITuber balance at new check; 7k What If / 3k Little Wild is a planning allocation. Balance reset or recent account changes not investigated; no credits spent this run."
       },
       "publication": {
         "performedByThisReview": false,
         "bookingByThisReview": false,
         "verifiedPlatformBooking": "UNKNOWN: API does not expose recurring AutoPilot schedule/list; do not infer absence of booking",
         "autopilotTime": "UNVERIFIED (last observed Little Wild upload 16:07 Oslo vs required 18:00)",
-        "duplicateSafety": "NOT VERIFIED; do not publish until dashboard queue checked"
+        "duplicateSafety": "NOT VERIFIED; do not publish until dashboard queue checked",
+        "checkedAt": "2026-11-03 ~18:24 Europe/Oslo"
       },
       "nextAction": "Review complete exported MP4 inside AI Tuber dashboard with picture and sound, especially 0–2s, Milo/Miko/BLUE Pip consistency, cause/effect, voiced ending and music. Resolve 42s length/poor auto-title; confirm madeForKids, correct channel, no duplicate and AutoPilot 18:00 before ANY booking."
     }
@@ -361,5 +364,22 @@
     "planningCreditsMonthly": 3000,
     "otherChannelCreditsMonthly": 7000,
     "qualityRule": "If credits cannot support the target cadence, publish fewer fully animated quality-approved Little Wild episodes. Do not silently substitute image slideshow. Do not re-generate without assessing balance and outcome."
+  },
+  "nextProductionTest": {
+    "title": "Milo's Rainy-Day Rhythm! Can Pip Fix the Beat? 🥁",
+    "format": "35–40s Short 9:16; ORIGINAL IDEA ONLY, NOT GENERATED OR BOOKED",
+    "concept": "In a bright playroom, Milo wants to play a rain parade, but tapping randomly makes the trio lose their beat. Pip starts tap-tap-stop; Miko amusingly taps too early. Milo watches, counts two beats, then leads everyone in a clean matching rhythm.",
+    "hook": "0:00: BOOM! Milo taps a toy drum and Miko jumps, dropping his tiny shaker. Character action must visually carry the story before narration.",
+    "oneLearningPoint": "Two beats then a pause is a repeatable rhythm; children can imitate tap, tap, stop.",
+    "exampleClosing": "Tap, tap… STOP! Now we all play together!",
+    "productionCost": "NOT ESTIMATED - wait for pilot QC and priority What If 7000-credit forecast",
+    "rationale": "Based on existing original idea 'Pip's Rainy-Day Drum' and dated Peep hands-on learning; use rhythm because visual movement/sound can be verified. No third-party IP reused.",
+    "reviewSteps": [
+      "Check existing Little Wild schedule/Autopilot for duplicate first",
+      "Confirm full-motion and reference handle in every scene",
+      "Apply mandatory hook/story/retention script review before creation",
+      "Check final MP4 end-to-end before public Made for Kids 18:00 release",
+      "Measure new 24h/7d/28d engaged views and watch time versus similar-age Little Wild Shorts"
+    ]
   }
 }
