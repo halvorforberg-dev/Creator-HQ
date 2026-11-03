@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-02T08:22:00Z",
+  "updatedAt": "2026-11-03T07:28:00Z",
   "source": "Metricool",
   "timezone": "Europe/Oslo",
-  "note": "Live Bizarre Past scheduled posts checked 2026-11-02; historical Highlights entries removed from HQ export only.",
+  "note": "Live Metricool check 2026-11-03: six remaining future Bizarre Past YouTube/TikTok entries were confirmed at 18:00 Europe/Oslo; four rescheduled and two were already 18:00. Historical PENDING entries dated 2026-11-02 are stale snapshots, not evidence of current pending status.",
   "window": {
     "from": "2026-10-23",
     "through": "2026-11-30"
@@ -88,9 +88,9 @@
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-3751477321474421379"
     },
     {
-      "id": "395308646",
+      "id": "414921238",
       "uuid": "1907720729421826469",
-      "date": "2026-11-04T16:00:00+01:00",
+      "date": "2026-11-04T18:00:00+01:00",
       "network": "youtube",
       "title": "People Died Searching for a Treasure Nobody Found 😳 | Oak Island",
       "status": "PENDING",
@@ -130,9 +130,9 @@
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=602198118900974987"
     },
     {
-      "id": "395308699",
+      "id": "414921278",
       "uuid": "-6522068693621584776",
-      "date": "2026-11-06T16:00:00+01:00",
+      "date": "2026-11-06T18:00:00+01:00",
       "network": "youtube",
       "title": "Did the Knights Templar Hide Their Treasure? 😱 | 1307",
       "status": "PENDING",
@@ -172,9 +172,9 @@
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=9050340863119609283"
     },
     {
-      "id": "398968206",
+      "id": "414921374",
       "uuid": "4195639281377234906",
-      "date": "2026-11-08T10:00:00+01:00",
+      "date": "2026-11-08T18:00:00+01:00",
       "network": "tiktok",
       "title": "Did a Pastry Shop Help Start a War? 😳 #HistoryTok #BizarrePast",
       "status": "PENDING",
@@ -193,9 +193,9 @@
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=4195639281377234906"
     },
     {
-      "id": "398968292",
+      "id": "414921393",
       "uuid": "-1182831858875808596",
-      "date": "2026-11-08T16:00:00+01:00",
+      "date": "2026-11-08T18:00:00+01:00",
       "network": "youtube",
       "title": "Did a Pastry Shop Help Start a War? 😳 | 1838",
       "status": "PENDING",
