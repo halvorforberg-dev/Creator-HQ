@@ -31,7 +31,8 @@ def sources():
     return {"m":load("data/metricool.json"),"a":load("data/aituber.json"),
             "p":load("data/aituber-publications.json"),
             "brief":load("data/telegram-agent-brief.json"),
-            "metrics":load("data/telegram-metrics.json")}
+            "metrics":load("data/telegram-metrics.json"),
+            "competition":load("data/competitor-watch.json")}
 
 def stamp(data):
     return ("Kildedatoer (lagrede snapshots, ikke sanntid):\n"
@@ -135,6 +136,22 @@ def today(data):
     if not ps: body.append("Ingen poster for i dag i sist lagrede Metricool-oversikt.")
     return "\n".join(body+["",stamp(data)])
 
+def competitor_summary(data):
+    research=data.get("competition") or {}
+    if not research.get("updatedAt"):
+        return "🔎 Konkurrentanalyse: Ingen dokumenterte funn i HQ ennå."
+    dated=str(research.get("updatedAt","ukjent"))
+    lines=["🔎 KONKURRENTLÆRING · kilder fra "+dated]
+    for key,name in (("bizarre","Bizarre Past"),("whatif","What If"),("wild","Little Wild")):
+        items=(research.get("referenceChannels") or {}).get(key) or []
+        if not items: continue
+        reference=items[0]
+        trial=str(reference.get("test","")).strip()
+        if trial:
+            lines.append("• "+name+" ("+str(reference.get("name","referanse"))+"): "+trial[:200])
+    lines.append("Observasjoner, ikke bevis på hva som gir visninger. Full oversikt i Creator HQ.")
+    return "\n".join(lines)
+
 def weekly(data):
     now=datetime.now(TZ); start=now-timedelta(days=7)
     recent=[p for p in posts(data) if when(p.get("date")) and start<=when(p["date"])<=now]
@@ -142,6 +159,7 @@ def weekly(data):
           "Poster funnet i sist lagrede Metricool-oversikt: "+str(len(recent))]
     for p in recent[:8]: body.append(line(p)+" · "+str(p.get("status","ukjent")))
     body.extend(["",metric_summary(data,include_top=True),"",
+                 competitor_summary(data),"",
                  "Retention og CTR krever separat tilgang til YouTube Studio eller egnede private analyser.",
                  "Denne boten viser bare data som faktisk finnes i HQ.", "", stamp(data)])
     return "\n".join(body)
@@ -261,7 +279,8 @@ def ai_answer(question,data):
       "publications":[{k:p.get(k) for k in ("title","publishedDate","status","publicUrl","channelName")}
                       for p in data["p"].get("items",[])[:20]],
       "channel_brief":brief,
-      "metricool_growth_snapshot":data.get("metrics",{})}
+      "metricool_growth_snapshot":data.get("metrics",{}),
+      "competitor_research_snapshot":data.get("competition",{})}
     payload={
        "model":"gpt-4.1-mini",
        "instructions":(
