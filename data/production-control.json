@@ -20,7 +20,8 @@
     "truth": "Status produced, scheduled, published or failed must originate from a verified platform response.",
     "apiLimit": "AI Tuber Autopilot recurring settings cannot currently be read/changed with connected public API; manual confirmation required.",
     "qualityVsVolume": "Many strong videos with production buffer; no weak releases to meet a quota.",
-    "governingPlan": "YouTube-kanalplan.md; later specific user decisions override old conflicts."
+    "governingPlan": "YouTube-kanalplan.md; later specific user decisions override old conflicts.",
+    "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00."
   },
   "channels": {
     "bizarre": {
@@ -28,7 +29,42 @@
       "platform": "YouTube and TikTok",
       "producer": "Higgsfield",
       "publisher": "Metricool",
-      "firstWords": "Did you know…"
+      "firstWords": "Did you know…",
+      "afterExistingQueue": {
+        "effectiveAfter": "2026-11-08",
+        "userConfirmed": "2026-11-03",
+        "priority": "Quality and engagement are mandatory while keeping a strong publishing volume; the goal is organic views, subscribers and eventual monetization.",
+        "opening": "Start EVERY new Bizarre Past film with a clear spoken and visually legible 'Did you know…' within the first two seconds; get straight to the surprising claim/question.",
+        "storytelling": "One intriguing historically grounded premise, immediate visual action, escalation, reveals and a compelling, complete payoff, no meandering or abrupt end.",
+        "requiredBeforeScheduling": [
+          "Independent fact checking with reputable historical/archaeological sources; clearly distinguish documented evidence, legend and religious interpretation",
+          "Real full-motion cinematic Higgsfield sequences; scenes must match the exact narrator lines",
+          "Previously approved engaging narration (avoid rejected deeper voice), balanced suspenseful music, crisp captions, smooth cuts and 1080p",
+          "Review full MP4 including spoken and visual first two seconds, mid-video pacing, all historical claims and final sentence; rework weak film",
+          "Strong accurate searchable title and thumbnail (especially for long-form), description, useful hashtags and proper AI/synthetic disclosure",
+          "Confirm correct channel(s), single publication per destination, no duplicate upload and 18:00 Europe/Oslo booked time"
+        ],
+        "monitorAfterRelease": {
+          "periods": [
+            "24 hours",
+            "7 days",
+            "28 days"
+          ],
+          "prioritize": [
+            "engagedViews",
+            "retention and early drop-off",
+            "viewed-vs-swiped for Shorts",
+            "watch time",
+            "subscribers per 1000 views",
+            "CTR for long-form",
+            "shares and meaningful engagement"
+          ],
+          "rule": "Compare equivalent formats and publication age, isolate what works, improve the next script based on evidence rather than copying trends blindly."
+        },
+        "productionFlow": "Research → hook/script → storyboard/Higgsfield scenes → sound/edit → full playback QC → verify queue → book for 18:00 Metricool → check platform status → learn from performance.",
+        "unchangedQueue": "Do not replace or overwrite the 3 existing unique topics (Oak Island, Knights Templar, Pastry War), each with YouTube + TikTok planned releases 4/6/8 Nov at 18:00.",
+        "dontPromiseRevenue": "Monetization depends on eligibility, originality, audience response and platform review; no guaranteed earnings."
+      }
     },
     "wild": {
       "name": "Little Wild Adventures",
