@@ -35,6 +35,15 @@
       "whatif": "KEEP AS PRODUCED TODAY: current recognizable high-quality What If style; short engaging what-if hook, coherent science/story, clear surprising takeaway. Mix suitable stock footage, AI images, motion graphics and AI-generated moving video as relevant; full-motion in every scene is NOT mandatory. Never downgrade successful scenes just for savings; never create cheap slide decks.",
       "wild": "Maintain full-motion animation in every episode and consistent Milo/Miko/Pip",
       "bizarre": "Higgsfield cinematic moving scenes; publish via Metricool; separate credits."
+    },
+    "channelPriorityDecision": {
+      "decidedOn": "2026-11-03",
+      "priorityRanking": [
+        "What If in 40 Seconds",
+        "Little Wild Adventures"
+      ],
+      "scope": "ONLY the shared AI Tuber monthly 10,000 credit budget and editorial production effort; Bizarre Past is independent on Higgsfield.",
+      "guidance": "What If takes priority for ideas, production, scheduling and quality/engagement improvements. Little Wild receives a smaller protected budget, with no downgrade below acceptable fully animated recurring-character quality."
     }
   },
   "channels": {
@@ -104,7 +113,8 @@
         "regularLongFormDurationMinutes": "3–6",
         "time": "18:00 Europe/Oslo",
         "formatOfLongForm": "ordinary public 16:9 upload"
-      }
+      },
+      "priority": "SECONDARY under shared AITuber budget; maintain strict quality, reduce volume rather than downgrade to low quality"
     },
     "whatif": {
       "name": "What If in 40 Seconds",
@@ -121,7 +131,8 @@
         "formatOfLongForm": "ordinary public 16:9 upload"
       },
       "visualPolicy": "Keep current video look/style and energetic storytelling. Mixed visuals acceptable: well-chosen images, motion graphics, stock footage and moving AI clips. No requirement for 100% full-motion; strong hook and satisfying payoff remain non-negotiable.",
-      "productionCreditPolicy": "Prefer current AI Tuber setup and choose efficient visual type/clip mixes by topic. Do not force costly Max/Premium full-motion for all scenes. Confirm costs before generating and inspect finished MP4."
+      "productionCreditPolicy": "Prefer current AI Tuber setup and choose efficient visual type/clip mixes by topic. Do not force costly Max/Premium full-motion for all scenes. Confirm costs before generating and inspect finished MP4.",
+      "priority": "PRIMARY channel for shared AITuber production budget and agent focus"
     }
   },
   "goalSchedule": {
@@ -304,6 +315,21 @@
     },
     "feasibility": "The ALL-FULL-MOTION table is only a costly counterfactual, NOT the What If production requirement. What If may use suitable AI images, motion graphics and/or moving stock clips in mixed-media storytelling like the current channel; Little Wild requires original animated full-motion with recurring Milo/Miko/Pip. Estimate each actual planned video's costs separately; do not spend credits beyond 10,000 without approval.",
     "userApproval": "Credit package purchases and costly production beyond budget require explicit approval; publication itself is no-credit-cost.",
-    "visualBaseline": "Updated 2026-11-03: What If as today, not all footage full motion; prioritize storytelling/engagement and credit efficiency. Little Wild keeps full-motion animated character scenes. Previous all-full-motion cost examples must not be treated as the approved plan."
+    "visualBaseline": "Updated 2026-11-03: What If as today, not all footage full motion; prioritize storytelling/engagement and credit efficiency. Little Wild keeps full-motion animated character scenes. Previous all-full-motion cost examples must not be treated as the approved plan.",
+    "allocation": {
+      "totalMonthlyCredits": 10000,
+      "provisionalPrioritization": {
+        "whatif": 7000,
+        "littleWild": 3000
+      },
+      "shares": {
+        "whatif": 0.7,
+        "littleWild": 0.3
+      },
+      "rule": "Working allocation for planning, NOT a purchase or guaranteed exact spend. Within these limits favor quality and verified retention. Move unused credits only after quality/release checks; never force production or duplicate titles to exhaust a quota. Actual monthly targets may be unaffordable; label shortfall and revise production schedule deliberately rather than using slideshows for Little Wild.",
+      "priority": "What If gets first call on AI Tuber credits. Keep the visually engaging mixed format that works today; full-motion is not mandatory. Little Wild uses original full-motion video and approved Milo/Miko/Pip character reference, but fewer productions if budget requires.",
+      "productionMethod": "Run a cost estimate before each paid generation, record estimated and actual credits, and reserve for revisions before scheduling.",
+      "separateBudget": "Bizarre Past remains entirely in Higgsfield -> Metricool, outside this calculation."
+    }
   }
 }
