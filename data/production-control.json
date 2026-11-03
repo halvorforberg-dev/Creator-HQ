@@ -19,8 +19,8 @@
     ],
     "truth": "Status produced, scheduled, published or failed must originate from a verified platform response.",
     "apiLimit": "AI Tuber Autopilot recurring settings cannot currently be read/changed with connected public API; manual confirmation required.",
-    "qualityVsVolume": "Deliver 3 engaging Shorts and 1 excellent 3–6 minute ordinary 16:9 public film per channel per week (12 videos total across three channels) as EDITORIAL goals. Do not schedule without completed QC; do not stretch content to hit duration.",
-    "governingPlan": "MOST RECENT 03.11.2026: three 9:16 Shorts 35–40 seconds per week per channel (Monday/Wednesday/Friday) and one regular public 16:9 YouTube video 3–6 minutes per week per channel (Sunday); all at 18:00 Europe/Oslo. Focus now on qualifying regular-video watch hours, retention, and channel growth. 8-minute+ films later. Previous 8–10-minute Sunday rule obsolete.",
+    "qualityVsVolume": "EDITORIAL GOALS across the 3 channels: What If has 2 Shorts (Mon/Fri) + 2 ordinary 16:9 long-form films 3–4 minutes (Wed/Sun) each week; Bizarre Past and Little Wild each retain 3 Shorts (Mon/Wed/Fri) + 1 ordinary 16:9 long-form film 3–6 minutes (Sun) each week. Total 8 Shorts + 4 long-form weekly, 12 videos across the three channels. Quality first; do not pad lengths or schedule without completed QC; keep existing bookings unchanged.",
+    "governingPlan": "WHAT IF ONLY (new editorial plan 2026-11-03; applies to new, not-yet-booked uploads from 2026-11-09): Monday + Friday = 9:16 Shorts 35–40 seconds; Wednesday + Sunday = regular public 16:9 long-form videos 3–4 minutes each. Target 18:00 Europe/Oslo. Maintain the opening 'What if…', upbeat curiosity and clear payoff. Do NOT reschedule, delete, replace or duplicate any existing scheduled/published content. Quality and 10,000 shared AI Tuber monthly credits constrain production; no credit purchase without approval. Little Wild and Bizarre Past schedules remain unchanged (Mon/Wed/Fri Shorts and Sun 3–6 min long-form). This is the newest channel-specific schedule decision and supersedes the previously shared 3-Shorts-per-channel universal template for What If. All other rules remain valid.",
     "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00.",
     "watchHours": "Only valid public watch time from ordinary long-form uploads counts toward the standard public watch-hour route to YPP; Shorts-feed watch hours do not count toward that route. Do not treat 8 minutes as a minimum qualifying duration. Normal YPP eligibility rules and YouTube reporting still apply.",
     "oldLongFilmRuleSuperseded": "8–10-minute Sunday goal paused 2026-11-03 until user revisits it. No auto-extension of current scheduled video durations, and preserve existing verified bookings without duplicate.",
@@ -44,6 +44,13 @@
       ],
       "scope": "ONLY the shared AI Tuber monthly 10,000 credit budget and editorial production effort; Bizarre Past is independent on Higgsfield.",
       "guidance": "What If takes priority for ideas, production, scheduling and quality/engagement improvements. Little Wild receives a smaller protected budget, with no downgrade below acceptable fully animated recurring-character quality."
+    },
+    "latestChannelSpecificSchedulingDecision": {
+      "decidedOn": "2026-11-03",
+      "effectiveFrom": "2026-11-09",
+      "channel": "What If in 40 Seconds",
+      "rule": "WHAT IF ONLY (new editorial plan 2026-11-03; applies to new, not-yet-booked uploads from 2026-11-09): Monday + Friday = 9:16 Shorts 35–40 seconds; Wednesday + Sunday = regular public 16:9 long-form videos 3–4 minutes each. Target 18:00 Europe/Oslo. Maintain the opening 'What if…', upbeat curiosity and clear payoff. Do NOT reschedule, delete, replace or duplicate any existing scheduled/published content. Quality and 10,000 shared AI Tuber monthly credits constrain production; no credit purchase without approval. Little Wild and Bizarre Past schedules remain unchanged (Mon/Wed/Fri Shorts and Sun 3–6 min long-form).",
+      "precedence": "OVERRIDES any older 3 Shorts + 1 long film universal schedule ONLY for What If; does not modify booked uploads or the other channels."
     }
   },
   "channels": {
@@ -148,11 +155,19 @@
       "firstWords": "What if…",
       "mandatory": "Positive science/nature curiosity, clear payoff, title 2–3 sec",
       "weeklyTarget": {
-        "shorts": 3,
-        "regularLongForm": 1,
-        "regularLongFormDurationMinutes": "3–6",
+        "shorts": 2,
+        "regularLongForm": 2,
+        "regularLongFormDurationMinutes": "3–4",
         "time": "18:00 Europe/Oslo",
-        "formatOfLongForm": "ordinary public 16:9 upload"
+        "formatOfLongForm": "ordinary public 16:9 upload",
+        "days": {
+          "monday": "Short 35–40 sec",
+          "wednesday": "Long-form 3–4 min",
+          "friday": "Short 35–40 sec",
+          "sunday": "Long-form 3–4 min"
+        },
+        "effectiveFrom": "2026-11-09",
+        "existingBookings": "Keep unchanged; only apply to new not-yet-booked uploads"
       },
       "visualPolicy": "Keep current video look/style and energetic storytelling. Mixed visuals acceptable: well-chosen images, motion graphics, stock footage and moving AI clips. No requirement for 100% full-motion; strong hook and satisfying payoff remain non-negotiable.",
       "productionCreditPolicy": "Prefer current AI Tuber setup and choose efficient visual type/clip mixes by topic. Do not force costly Max/Premium full-motion for all scenes. Confirm costs before generating and inspect finished MP4.",
@@ -161,20 +176,45 @@
   },
   "goalSchedule": {
     "effectiveFrom": "2026-11-09",
-    "monday": "Short 35–40 sec, 9:16",
-    "wednesday": "Short 35–40 sec, 9:16",
-    "friday": "Short 35–40 sec, 9:16",
-    "sunday": "Public ordinary YouTube 16:9 long-form 3–6 minutes, one per week per channel",
+    "monday": "All 3 channels: 9:16 Shorts 35–40 sec",
+    "wednesday": "Bizarre Past + Little Wild: 9:16 Shorts 35–40 sec; What If: public regular 16:9 long-form 3–4 minutes",
+    "friday": "All 3 channels: 9:16 Shorts 35–40 sec",
+    "sunday": "Bizarre Past + Little Wild: public regular 16:9 long-form 3–6 min; What If: public regular 16:9 long-form 3–4 min",
     "time": "18:00",
     "status": "EDITORIAL_GOAL_NOT_BOOKED",
-    "authority": "Newest user decision 2026-11-03 replaces previous 8–10-minute Sunday plans. Target valid long-form public watch hours. 8+ minute film ambition deferred until later.",
+    "authority": "Newest channel-specific user decision 2026-11-03: What If changes to Mon/Fri Shorts and Wed/Sun 3–4-minute 16:9 long-form; Bizarre Past and Little Wild keep existing Mon/Wed/Fri Shorts and Sunday 3–6-min 16:9. Preserve all previously booked posts. 8+ minute long films deferred.",
     "weeklyPerChannel": {
-      "shorts": 3,
-      "regularVideos": 1
+      "note": "Legacy universal schedule replaced by explicit weeklyByChannel; retain counts per channel below."
     },
     "weeklyAllThreeChannels": {
-      "shorts": 9,
-      "regularVideos": 3
+      "shorts": 8,
+      "regularVideos": 4
+    },
+    "weeklyByChannel": {
+      "bizarre": {
+        "monday": "Short 35–40 sec, 9:16",
+        "wednesday": "Short 35–40 sec, 9:16",
+        "friday": "Short 35–40 sec, 9:16",
+        "sunday": "Regular 16:9 public film 3–6 minutes",
+        "shorts": 3,
+        "regularVideos": 1
+      },
+      "whatif": {
+        "monday": "Short 35–40 sec, 9:16",
+        "wednesday": "Regular 16:9 public film 3–4 minutes",
+        "friday": "Short 35–40 sec, 9:16",
+        "sunday": "Regular 16:9 public film 3–4 minutes",
+        "shorts": 2,
+        "regularVideos": 2
+      },
+      "wild": {
+        "monday": "Short 35–40 sec, 9:16",
+        "wednesday": "Short 35–40 sec, 9:16",
+        "friday": "Short 35–40 sec, 9:16",
+        "sunday": "Regular 16:9 public film 3–6 minutes",
+        "shorts": 3,
+        "regularVideos": 1
+      }
     }
   },
   "verifiedQueue": {
