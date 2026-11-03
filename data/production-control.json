@@ -114,7 +114,31 @@
         "time": "18:00 Europe/Oslo",
         "formatOfLongForm": "ordinary public 16:9 upload"
       },
-      "priority": "SECONDARY under shared AITuber budget; maintain strict quality, reduce volume rather than downgrade to low quality"
+      "priority": "SECONDARY under shared AITuber budget; maintain strict quality, reduce volume rather than downgrade to low quality",
+      "latestPilotQA": {
+        "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
+        "videoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
+        "checkedAt": "2026-11-03",
+        "providerStatus": "completed",
+        "mediaType": "video",
+        "actualDurationSeconds": 42,
+        "scenes": 7,
+        "exported1080p": true,
+        "exportId": "4cef9765-26f1-45b3-88ea-a4c291a14b7a",
+        "fullVideoAndAudioInspected": false,
+        "approved": false,
+        "qcScore": null,
+        "qcVerdict": "HOLD_NOT_APPROVED; fails 35–40 sec target; cannot pass hard playback verification",
+        "keyRemaining": "Inspect full MP4 visually/audibly and verify character motion/blue Pip, actual first 2sec, narration, final payoff, metadata, Made for Kids, duplicate control and 18:00 Oslo AutoPilot before any booking.",
+        "publicationId": null,
+        "providerBookingStatus": "UNVERIFIED",
+        "publicationByThisReview": false,
+        "spendInThisReview": {
+          "newGenerationCredits": 0,
+          "exportCredits": 0,
+          "currentBalanceObserved": 10000
+        }
+      }
     },
     "whatif": {
       "name": "What If in 40 Seconds",
