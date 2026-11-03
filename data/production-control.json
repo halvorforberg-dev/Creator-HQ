@@ -20,7 +20,7 @@
     "truth": "Status produced, scheduled, published or failed must originate from a verified platform response.",
     "apiLimit": "AI Tuber Autopilot recurring settings cannot currently be read/changed with connected public API; manual confirmation required.",
     "qualityVsVolume": "Many strong videos with production buffer; no weak releases to meet a quota.",
-    "governingPlan": "YouTube-kanalplan.md; later specific user decisions override old conflicts.",
+    "governingPlan": "Latest explicit 02.11.2026 agreement: Mon/Wed/Fri Shorts 35–40 sec; Sun 16:9 feature 8–10 min; publish all 18:00 Europe/Oslo; quality and actual verified bookings take priority. Older conflicting schedules obsolete.",
     "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00."
   },
   "channels": {
@@ -88,10 +88,11 @@
     "effectiveFrom": "2026-11-09",
     "monday": "Short 35–40 sec",
     "wednesday": "Short 35–40 sec",
-    "friday": "1–2 min",
-    "sunday": "Long form as latest approved plan",
+    "friday": "Shorts 35–40 sec",
+    "sunday": "16:9 long-form 8–10 min every Sunday (story fit and QC matter more than exact time)",
     "time": "18:00",
-    "status": "EDITORIAL_GOAL_NOT_BOOKED"
+    "status": "EDITORIAL_GOAL_NOT_BOOKED",
+    "authority": "Latest shared decision from 2026-11-02 overrides old Friday 1–2 minute and alternating Sunday rules."
   },
   "verifiedQueue": {
     "metricool": {
