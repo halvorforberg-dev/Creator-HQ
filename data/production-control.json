@@ -19,9 +19,11 @@
     ],
     "truth": "Status produced, scheduled, published or failed must originate from a verified platform response.",
     "apiLimit": "AI Tuber Autopilot recurring settings cannot currently be read/changed with connected public API; manual confirmation required.",
-    "qualityVsVolume": "Many strong videos with production buffer; no weak releases to meet a quota.",
-    "governingPlan": "Latest explicit 02.11.2026 agreement: Mon/Wed/Fri Shorts 35–40 sec; Sun 16:9 feature 8–10 min; publish all 18:00 Europe/Oslo; quality and actual verified bookings take priority. Older conflicting schedules obsolete.",
-    "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00."
+    "qualityVsVolume": "Deliver 3 engaging Shorts and 1 excellent 3–6 minute ordinary 16:9 public film per channel per week (12 videos total across three channels) as EDITORIAL goals. Do not schedule without completed QC; do not stretch content to hit duration.",
+    "governingPlan": "MOST RECENT 03.11.2026: three 9:16 Shorts 35–40 seconds per week per channel (Monday/Wednesday/Friday) and one regular public 16:9 YouTube video 3–6 minutes per week per channel (Sunday); all at 18:00 Europe/Oslo. Focus now on qualifying regular-video watch hours, retention, and channel growth. 8-minute+ films later. Previous 8–10-minute Sunday rule obsolete.",
+    "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00.",
+    "watchHours": "Only valid public watch time from ordinary long-form uploads counts toward the standard public watch-hour route to YPP; Shorts-feed watch hours do not count toward that route. Do not treat 8 minutes as a minimum qualifying duration. Normal YPP eligibility rules and YouTube reporting still apply.",
+    "oldLongFilmRuleSuperseded": "8–10-minute Sunday goal paused 2026-11-03 until user revisits it. No auto-extension of current scheduled video durations, and preserve existing verified bookings without duplicate."
   },
   "channels": {
     "bizarre": {
@@ -64,6 +66,13 @@
         "productionFlow": "Research → hook/script → storyboard/Higgsfield scenes → sound/edit → full playback QC → verify queue → book for 18:00 Metricool → check platform status → learn from performance.",
         "unchangedQueue": "Do not replace or overwrite the 3 existing unique topics (Oak Island, Knights Templar, Pastry War), each with YouTube + TikTok planned releases 4/6/8 Nov at 18:00.",
         "dontPromiseRevenue": "Monetization depends on eligibility, originality, audience response and platform review; no guaranteed earnings."
+      },
+      "weeklyTarget": {
+        "shorts": 3,
+        "regularLongForm": 1,
+        "regularLongFormDurationMinutes": "3–6",
+        "time": "18:00 Europe/Oslo",
+        "formatOfLongForm": "ordinary public 16:9 upload"
       }
     },
     "wild": {
@@ -76,7 +85,14 @@
       "mandatory": "Playful educational full-motion scenes with one small problem and clear solution",
       "seriesBible": "data/little-wild-series-bible.json",
       "visualReference": "@Little-Wild-Milo-and-Friends",
-      "requireBeforeGeneration": "Read series bible; use saved approved visual reference and QC; verify actual 18:00 platform schedule, not only editorial intent"
+      "requireBeforeGeneration": "Read series bible; use saved approved visual reference and QC; verify actual 18:00 platform schedule, not only editorial intent",
+      "weeklyTarget": {
+        "shorts": 3,
+        "regularLongForm": 1,
+        "regularLongFormDurationMinutes": "3–6",
+        "time": "18:00 Europe/Oslo",
+        "formatOfLongForm": "ordinary public 16:9 upload"
+      }
     },
     "whatif": {
       "name": "What If in 40 Seconds",
@@ -84,18 +100,33 @@
       "producer": "AI Tuber",
       "publisher": "AI Tuber",
       "firstWords": "What if…",
-      "mandatory": "Positive science/nature curiosity, clear payoff, title 2–3 sec"
+      "mandatory": "Positive science/nature curiosity, clear payoff, title 2–3 sec",
+      "weeklyTarget": {
+        "shorts": 3,
+        "regularLongForm": 1,
+        "regularLongFormDurationMinutes": "3–6",
+        "time": "18:00 Europe/Oslo",
+        "formatOfLongForm": "ordinary public 16:9 upload"
+      }
     }
   },
   "goalSchedule": {
     "effectiveFrom": "2026-11-09",
-    "monday": "Short 35–40 sec",
-    "wednesday": "Short 35–40 sec",
-    "friday": "Shorts 35–40 sec",
-    "sunday": "16:9 long-form 8–10 min every Sunday (story fit and QC matter more than exact time)",
+    "monday": "Short 35–40 sec, 9:16",
+    "wednesday": "Short 35–40 sec, 9:16",
+    "friday": "Short 35–40 sec, 9:16",
+    "sunday": "Public ordinary YouTube 16:9 long-form 3–6 minutes, one per week per channel",
     "time": "18:00",
     "status": "EDITORIAL_GOAL_NOT_BOOKED",
-    "authority": "Latest shared decision from 2026-11-02 overrides old Friday 1–2 minute and alternating Sunday rules."
+    "authority": "Newest user decision 2026-11-03 replaces previous 8–10-minute Sunday plans. Target valid long-form public watch hours. 8+ minute film ambition deferred until later.",
+    "weeklyPerChannel": {
+      "shorts": 3,
+      "regularVideos": 1
+    },
+    "weeklyAllThreeChannels": {
+      "shorts": 9,
+      "regularVideos": 3
+    }
   },
   "verifiedQueue": {
     "metricool": {
