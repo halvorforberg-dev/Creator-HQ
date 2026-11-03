@@ -79,6 +79,17 @@
         "observed": "Recurring number-characters and short stories introduce concepts through music and clear visual repetition.",
         "test": "Use short original child-friendly counting/colour/song beats only where story and character continuity remain strong.",
         "confidence": "Broad format reference."
+      },
+      {
+        "name": "Daniel Tiger's Neighborhood",
+        "website": "https://parents.prod.pbskids.org/parents/shows/daniel/about",
+        "sources": [
+          "https://parents.prod.pbskids.org/parents/shows/daniel/about",
+          "https://pbskids.org/videos/playlist/daniel-tigers-neighborhood-clips/1385865"
+        ],
+        "observed": "Original preschool narratives use recognizable child-perspective characters, everyday social routines, catchy short musical strategies and personal participation. No private retention figures verified.",
+        "test": "Use original short rhythmic cues for one simple episode learning point after an on-screen dilemma; never copy existing music or character design.",
+        "confidence": "Official PBS description of show's creative/learning approach; not proof that music alone drives views."
       }
     ]
   },
@@ -103,6 +114,13 @@
       "measure": "Video-level watch time, child-friendly replays where data available, quality audit",
       "status": "Strong creative standard; metrics still missing",
       "nextTrial": "Next original Little Wild Short after quality gate"
+    },
+    {
+      "channel": "wild",
+      "hypothesis": "One immediately visible little problem plus child-led experiment, recurring Milo/Miko/Pip and a playful 1-line learning payoff may improve comprehension and engagement versus generic narrated routine.",
+      "measure": "First 2-sec engagement, engaged views, replays, total watch time; compare 24h/7d/28d at matching age and format",
+      "status": "Own-video qualitative review completed 2026-11-03; untested hypothesis due tiny sample",
+      "nextTrial": "Milo's Wobbly Tower, script/visual reference prepared in data/little-wild-series-bible.json. Do not publish until actual video QC and 18:00 autopilot timing verified."
     }
   ],
   "lastResearch": {
@@ -114,7 +132,8 @@
     ],
     "sourcesReviewed": 6,
     "accessNotes": "All six thumbnails were directly inspected on 2026-11-03 via zero-credit vidIQ images. Public YouTube video playback and first 2s audio/video were not accessible; only QuirkScience full script text available and read. Third-party view snapshots as-of dates stated; age-matched 24h/7d/28d video analytics missing.",
-    "limitations": "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves. Actual video/audio playback of six public competitor videos was unavailable (YouTube fetch throttled); first 2 seconds, soundtrack, shot pacing and exact motion were NOT inspected. Thumbnails/covers of all six were directly inspected with free vidIQ images. QuirkScience full publisher transcript WAS inspected for story order and ending. Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations. No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length. Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty. No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched. No vidIQ paid credits were consumed in connector calls for this run."
+    "limitations": "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves. Actual video/audio playback of six public competitor videos was unavailable (YouTube fetch throttled); first 2 seconds, soundtrack, shot pacing and exact motion were NOT inspected. Thumbnails/covers of all six were directly inspected with free vidIQ images. QuirkScience full publisher transcript WAS inspected for story order and ending. Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations. No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length. Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty. No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched. No vidIQ paid credits were consumed in connector calls for this run.",
+    "littleWildInternalReview": "Watched actual owned exported 1080x1920 MP4s with audio: Brush Along with Milo (34s), Cozy Bedtime Countdown (37s), Sharing Is More Fun (34s). Strongest approved production reference Brush; recent narration often describes rather than dramatizes, and refers to supporting cast as generic Bird/Meerkat."
   },
   "weeklyResearchOutput": {
     "requirements": [
