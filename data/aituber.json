@@ -1,8 +1,35 @@
 {
-  "updatedAt": "2026-11-02T08:35:16.976Z",
+  "updatedAt": "2026-11-03T08:28:19.711Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "20ccbd04-f4e2-4959-8ea8-0d4daef25c85",
+      "title": "What if the ocean glowed like a galaxy every night?",
+      "status": "completed",
+      "createdAt": "2026-11-03T07:15:49.615Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "0f847b71-fa9b-48b3-974d-a08a44625e59",
+      "title": "The Breeze That Hid",
+      "status": "completed",
+      "createdAt": "2026-11-02T15:01:04.377Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "8c585913-2892-4a19-8fe6-aeeecf1ac934",
+      "title": "The Cozy Blanket Countdown",
+      "status": "completed",
+      "createdAt": "2026-11-02T15:00:47.104Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "df81fa82-a61e-4297-a1b9-3b5c8020b338",
       "title": "What If Saturn’s Rings Vanished?",
