@@ -196,9 +196,11 @@ try{
   const o=await r.json(),a=o.referenceChannels||{};
   const order=[['bizarre','Bizarre Past'],['whatif','What If'],['wild','Little Wild']];
   e.innerHTML=order.map(([key,name])=>{
-    const v=(a[key]||[])[0];if(!v)return '<div class="planner-card"><span>'+esc(name)+'</span><p>Ingen kilder lagret ennå.</p></div>';
+    const v=(a[key]||[])[0], rec=(o.latestRecommendations||{})[key];if(!v)return '<div class="planner-card"><span>'+esc(name)+'</span><p>Ingen kilder lagret ennå.</p></div>';
     const href=(v.sources||[])[0]||'';
-    return '<div class="planner-card"><span>'+esc(name)+' · '+esc(o.updatedAt)+'</span><b>'+esc(v.name)+'</b><p>'+esc(v.test||'')+'</p><p><a target="_blank" rel="noopener noreferrer" href="'+esc(href)+'">Kilde ↗</a></p></div>';
+    const insight=rec?rec.insight:(v.test||'');
+    const action=rec?('<p><strong>Neste originale test:</strong> '+esc(rec.action||'')+'</p>'):'';
+    return '<div class="planner-card"><span>'+esc(name)+' · '+esc(o.updatedAt)+'</span><b>'+esc(v.name)+'</b><p>'+esc(insight)+'</p>'+action+'<p><a target="_blank" rel="noopener noreferrer" href="'+esc(href)+'">Kilde ↗</a></p></div>';
   }).join('');
  }catch{e.innerHTML='<div class="planner-card">Konkurrentdata kunne ikke lastes. Se Github-kilden.</div>'}
 })();
