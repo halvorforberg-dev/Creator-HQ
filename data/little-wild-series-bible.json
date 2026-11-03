@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-11-03",
   "channel": "Little Wild Adventures",
-  "status": "CREATIVE STANDARD AND PRODUCTION-READY STORYBOARDS; NOT CONFIRMED AUTOPILOT SETTINGS",
+  "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
   "reference": {
     "videoId": "1dd275c3-09ed-4d54-85b2-684b3cfa6e85",
@@ -166,7 +166,7 @@
       "experiment": "Miko shows big blocks at the bottom; Pip helps count three wide base blocks.",
       "payoff": "A steady tower stands tall. Wider base can help a tower stand.",
       "complexity": "LOW, visually straightforward and production reliable",
-      "status": "SCRIPT READY, NOT BOOKED"
+      "status": "PILOT COMPLETED AND EXPORTED; QC HOLD, UNBOOKED BY THIS REVIEW"
     },
     {
       "rank": 2,
@@ -204,7 +204,7 @@
   ],
   "pilot": {
     "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
-    "productionState": "AI TUBER GENERATION PROCESSING — NOT QUALITY APPROVED, NOT BOOKED",
+    "productionState": "COMPLETED AND EXPORTED 1080P; QUALITY HOLD, NO NEW PUBLICATION CREATED",
     "voiceoverEnglish": "CRASH! Milo’s block tower fell! “Oh no!” cried Milo. Miko the meerkat looked at the tiny bottom block. “That’s a wobbly base!” Pip the little blue bird chirped, “Let’s count three BIG blocks!” One... two... three! Milo stacked them wide at the bottom. Then he carefully added little blocks on top. Uh-oh... wobble, wobble! Everybody froze. And... it stayed up! “We did it!” cheered Milo. Big blocks at the bottom make our tower steadier. Can you build one, too?",
     "visualBeats": [
       {
@@ -247,9 +247,94 @@
       "narratorVoiceName": "Jessica (Playful, Bright, Warm)",
       "voiceSpeed": 0.9,
       "targetDuration": "35–40 seconds",
-      "status": "processing",
-      "publication": "NOT_BOOKED",
-      "notes": "DO NOT PUBLISH without full MP4 and Made For Kids verification; old Autopilot may be conflicting at 16:00. Premium tier is not guaranteed native 1080p; export 1080p and inspect."
+      "status": "completed",
+      "publication": "NOT SCHEDULED BY THIS QA; EXISTING AUTOPILOT BOOKING UNVERIFIED",
+      "notes": "DO NOT PUBLISH without full MP4 and Made For Kids verification; old Autopilot may be conflicting at 16:00. Premium tier is not guaranteed native 1080p; export 1080p and inspect.",
+      "actualDurationSeconds": 42,
+      "sceneCount": 7,
+      "exportStatus": "completed",
+      "exportId": "4cef9765-26f1-45b3-88ea-a4c291a14b7a",
+      "exportResolution": "1080p"
+    },
+    "qc": {
+      "checkedAt": "2026-11-03",
+      "verdict": "HOLD_NOT_APPROVED",
+      "scoreOutOf100": null,
+      "scoreReason": "No honest 90/100 score possible because full exported MP4 could not be downloaded and viewed/heard end-to-end with the current connected/sandbox tooling. Critical hard stops remain unverified.",
+      "verifiedFromProvider": {
+        "generation": "completed, AI Tuber API updated 2026-11-03T14:21:18.928Z",
+        "videoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
+        "mediaType": "video (NOT images or stock)",
+        "scenes": 7,
+        "eachSceneHasVideoUrl": true,
+        "referenceImageUsedEveryScene": "https://cdn.aituber.app/elements/org_3KohME0rcpuY4ShttDKq6LmM7mR/889ad671-ace7-4610-93fc-bba0b0483547.jpg",
+        "referenceHandleInInput": "@Little-Wild-Milo-and-Friends",
+        "videoQuality": "premium",
+        "aspectRatio": "9:16",
+        "durationSeconds": 42,
+        "exported1080p": "completed",
+        "exportId": "4cef9765-26f1-45b3-88ea-a4c291a14b7a",
+        "exportResolution": "1080p (1080x1920 timeline, 30fps, H.264)",
+        "soundtrack": "AI Tuber auto-generated music 'Moonlit Trail', volume setting 85; audio balance NOT listened to",
+        "captions": "enabled, per-word timing metadata available; final display NOT viewed",
+        "narrationTiming": "word alignments start 0.000s ('CRASH!') and end 41.379s ('too?'); API timeline includes narration asset, but actual playback not heard"
+      },
+      "findings": [
+        {
+          "result": "PASS_METADATA",
+          "item": "True AI video generation used (mediaType=video); 7 independent moving-clip assets in timeline, not slideshow."
+        },
+        {
+          "result": "PASS_METADATA",
+          "item": "Saved visual reference is included in generation metadata for all seven scenes."
+        },
+        {
+          "result": "PENDING_VISUAL",
+          "item": "Cannot verify actual likeness/continuity of Milo/Miko and fully BLUE Pip in rendered MP4 without video playback."
+        },
+        {
+          "result": "PENDING_VISUAL",
+          "item": "Cannot verify fluid continuous character animation, physically correct blocks, genuine cause/effect, first 0–2s action, or absence of AI artifacts."
+        },
+        {
+          "result": "PASS_SCRIPT_ONLY",
+          "item": "Preschool-safe storyline: fallen tower -> identify narrow base -> count three bigger blocks -> stabilize -> celebratory takeaway. Actual visuals and voice remain unverified."
+        },
+        {
+          "result": "PENDING_AUDIO",
+          "item": "Audio intelligibility, voice quality, background music balance, timing, and complete spoken ending not verified by playback; alignment metadata suggests a planned final phrase through 41.379s."
+        },
+        {
+          "result": "FAIL_FORMAT_TARGET",
+          "item": "Actual 42s exceeds the channel's target 35–40s; either approve explicit length exception after watching or edit the original without paid regeneration."
+        },
+        {
+          "result": "NEEDS_METADATA_EDIT",
+          "item": "AI Tuber generated title is script fragment 'CRASH! Milo’s block tower fell! “Oh no!” cried Milo. Miko', not intended polished title 'Milo’s Wobbly Tower! Can He Save It? 🧱'."
+        },
+        {
+          "result": "PENDING_PUBLISH_SETTINGS",
+          "item": "Made for Kids flag, 18:00 Europe/Oslo AutoPilot time, exact YouTube target channel and no duplicate must be verified before booking."
+        }
+      ],
+      "toolingLimitation": "AI Tuber delivered a completed MP4 export and temporary CDN download URL, but current sandbox could not fetch CDN MP4 (external host DNS unavailable) and web viewer could not inspect video. No false claim of watching the film.",
+      "credits": {
+        "activePlan": "Studio",
+        "currentBalanceObserved": 10000,
+        "monthlyIncluded": 10000,
+        "additionalGenerationCreditsSpentByThisReview": 0,
+        "exportCostCredits": 0,
+        "originalGenerationCost": "NOT VERIFIED; provider returns no reliable spent-credits figure for this video",
+        "creditPurchase": false
+      },
+      "publication": {
+        "performedByThisReview": false,
+        "bookingByThisReview": false,
+        "verifiedPlatformBooking": "UNKNOWN: API does not expose recurring AutoPilot schedule/list; do not infer absence of booking",
+        "autopilotTime": "UNVERIFIED (last observed Little Wild upload 16:07 Oslo vs required 18:00)",
+        "duplicateSafety": "NOT VERIFIED; do not publish until dashboard queue checked"
+      },
+      "nextAction": "Review complete exported MP4 inside AI Tuber dashboard with picture and sound, especially 0–2s, Milo/Miko/BLUE Pip consistency, cause/effect, voiced ending and music. Resolve 42s length/poor auto-title; confirm madeForKids, correct channel, no duplicate and AutoPilot 18:00 before ANY booking."
     }
   },
   "visualReference": {
