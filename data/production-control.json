@@ -496,5 +496,39 @@
         "No alleged one-hour Work session"
       ]
     }
+  },
+  "promotions": {
+    "littleWildVeeFly": {
+      "campaignId": "251425",
+      "service": "VeeFly with Google Ads",
+      "channelName": "Little Wild Adventures",
+      "channelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "campaignSubmitted": "2026-11-03",
+      "currentStatus": "PENDING REVIEW as of email 2026-11-03 19:01 UTC; live status not independently verified",
+      "payment": "VeeFly invoice email confirms paid",
+      "budgetFromVeeFlyEmail": {
+        "total": 50,
+        "perVideo": 10,
+        "currency": "unspecified in email"
+      },
+      "actionStatus": "REPLACEMENT REQUEST SENT TO VEEFLY SUPPORT; NOT YET CONFIRMED",
+      "remove": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids (The Breeze That Hid)",
+      "replaceWith": "Brush Along with Milo! https://www.youtube.com/shorts/NjlWiWmNrRg (already selected in campaign), allocate removed slot's original budget to this approved video",
+      "constraint": "Keep total budget unchanged; do not promote rejected video. If VeeFly requires distinct new videos, request pause/holding the single slot until appropriate approved public video is selected; do not spend it or create new paid campaign.",
+      "communication": {
+        "sentTo": "support@veefly.com",
+        "subject": "Campaign #251425 – please remove rejected video before launch (Little Wild Adventures)",
+        "sent": "2026-11-03",
+        "emailId": "1a1a2e2dcb8d2d76"
+      },
+      "kidSafeguards": "This is made-for-kids content. Ads must not use personalized child targeting. Do not change YouTube Made for Kids designation.",
+      "yppCaution": "Paid ad views and watch hours do not count toward YPP eligibility thresholds; use paid promotion for awareness only.",
+      "followUpRequired": [
+        "Confirm VeeFly approved/declined replacement",
+        "Check Google Ads linking only through user-authorized Google/YouTube account when safe and available",
+        "Verify no rejected video is running or spending",
+        "Report verified status, spend and earned organic results"
+      ]
+    }
   }
 }
