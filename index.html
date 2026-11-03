@@ -89,7 +89,14 @@ body[data-current-view="overview"] #chq-feed,body[data-current-view="overview"] 
 <div style="font-size:12px;color:#ffd3a1;letter-spacing:1px;font-weight:800">LITTLE WILD · KVALITETSAVVIK 02.11.2026</div>
 <strong>«The Breeze That Hid» er underkjent som kvalitetsreferanse.</strong>
 <p style="font-size:13px;color:#ead6c3;margin:7px 0">AI Tuber-prosjektet ble laget som 4:35 med stillbilder (mediaType=images / Basic), og serien mangler Milo. Den oppfyller ikke vår godkjente mal «Brush Along with Milo!». Før ny langfilm må Weekly Long Story-serien kontrolleres i AI Tuber: full motion, Milo + brun surikat + blå fugl, pedagogisk historie, 1080p og sluttkontroll. Denne varslingen er IKKE en teknisk sperre mot automatisk publisering.</p>
-<a href="https://app.aituber.app/dashboard/autopilot/34353f27-6cd1-420f-94c0-4f75c5f81610" target="_blank" rel="noopener noreferrer">Kontroller Weekly Long Story i AI Tuber ↗</a></section><section id="hq-production-control" class="panel" style="margin:17px 0;border:1px solid #527782;background:linear-gradient(135deg,#102d39,#13243b)">
+<a href="https://app.aituber.app/dashboard/autopilot/34353f27-6cd1-420f-94c0-4f75c5f81610" target="_blank" rel="noopener noreferrer">Kontroller Weekly Long Story i AI Tuber ↗</a></section><section id="hq-little-wild-studio" class="panel" style="margin:16px 0;border:1px solid #496b72;background:linear-gradient(125deg,#143637,#13293e)">
+ <div class="eyebrow">LITTLE WILD · SERIESTUDIO OG KVALITETSKONTROLL</div>
+ <h2 style="margin:6px 0;font-size:23px">Milo + Miko + Pip · lærerike historier som beveger seg</h2>
+ <p class="schedule-note">Visuell kvalitetsreferanse: <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/shorts/NjlWiWmNrRg">Brush Along with Milo! 🪥</a>. Ny AI Tuber-karakterreferanse er lagret fra den godkjente filmen. Produksjoner skal ha et synlig problem, morsomt samarbeid, aktiv læring og komplett payoff – aldri bildeshow.</p>
+ <div id="hq-littlewild-episodes" class="planner-grid"><div class="planner-card">Laster Little Wild sin neste episodeplan …</div></div>
+ <div style="margin-top:10px;padding:11px 14px;border:1px solid #aa7045;border-radius:10px;color:#f4cf9e;font-size:12px"><strong>Viktig før automatisk publisering:</strong> siste bekreftede Little Wild-opplasting var kl. 16:07 norsk tid, ikke 18:00. AI Tuber Autopilot-tiden må kontrolleres og korrigeres i selve tjenesten – HQ kan ikke endre den.</div>
+ <div class="actions" style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" target="_blank" rel="noopener noreferrer" href="https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489">Kontroller Little Wild Autopilot ↗</a><a class="btn" target="_blank" rel="noopener noreferrer" href="https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/little-wild-series-bible.json">Åpne seriehåndbok ↗</a></div>
+ </section><section id="hq-production-control" class="panel" style="margin:17px 0;border:1px solid #527782;background:linear-gradient(135deg,#102d39,#13243b)">
 <div class="eyebrow">CREATOR HQ · FELLES STYRING</div>
 <h2 style="margin:5px 0 10px;font-size:23px">Én plan. Én publiseringskø. Én kvalitetsstandard.</h2>
 <p class="schedule-note" style="margin:0 0 12px">Fast vedtak fra 2. november: <strong>Alle nye filmer skal publiseres kl. 18:00 Europe/Oslo</strong>. Gjelder alle tre YouTube-kanaler, Bizarre Past på TikTok, Shorts og langfilmer. En redaksjonell plan er ikke det samme som en bekreftet booking.</p>
@@ -204,6 +211,16 @@ try{
   }).join('');
  }catch{e.innerHTML='<div class="planner-card">Konkurrentdata kunne ikke lastes. Se Github-kilden.</div>'}
 })();
+</script><script id="hq-littlewild-reader">
+(async()=>{
+ const el=document.getElementById('hq-littlewild-episodes');if(!el)return;
+ const esc=t=>String(t??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
+ try{
+  const res=await fetch('./data/little-wild-series-bible.json?ts='+Date.now(),{cache:'no-store'});if(!res.ok)throw Error('not found');
+  const d=await res.json();
+  el.innerHTML=(d.upcomingOriginalIdeas||[]).map((p,i)=>'<div class="planner-card"><span>IDE '+(i+1)+' · '+esc(p.topic)+'</span><b>'+esc(p.title)+'</b><p>'+esc(p.hook)+'</p><p>'+esc(p.payoff)+'</p><small>'+esc(p.status)+' · ikke booket</small></div>').join('');
+ }catch{el.innerHTML='<div class="planner-card">Kunne ikke hente Little Wild-ideer fra GitHub. Se seriehåndboken.</div>'}
+})();
 </script><script id="creator-view-navigation">
 (function(){
  const main=document.querySelector('.main');
@@ -223,6 +240,7 @@ try{
    // Heading moved first; locate its original panel separately using scheduleItems.
    const schedule=document.getElementById('scheduleItems');if(schedule){const panel=schedule.closest('.panel');if(panel)publishing.appendChild(panel)}
  }
+ const wildStudio=document.getElementById('hq-little-wild-studio');if(wildStudio)publishing.appendChild(wildStudio);
  const control=document.getElementById('hq-production-control');if(control)publishing.appendChild(control);
  const editorial=document.getElementById('hq-production-plan');if(editorial)publishing.appendChild(editorial);
  const ai=document.getElementById('chq-ai-feed');if(ai)publishing.appendChild(ai);
