@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-11-02",
   "language": "Norwegian for bot responses, English for video scripts and metadata",
-  "primary_goal": "High production volume plus uncompromising quality. Grow authentic views, subscribers, watch time and eventual YouTube income. No earnings guarantees.",
+  "primary_goal": "Build income-eligible original channels using MANY strong, engaging videos: genuine curiosity, strong first 2 seconds, complete storytelling and growing organic views/subscribers. No income guarantees.",
   "focus_channels": [
     {
       "name": "Bizarre Past",
@@ -23,7 +23,10 @@
         "6–8 minute long episodes emphasize treasures and mysteries",
         "Use approved narrator voice, cinematic action, good audio and seamless scene transitions",
         "Historical reenactments labeled as AI-generated, not actual archive footage"
-      ]
+      ],
+      "priorityAfterCurrentQueue": "From 2026-11-09, after the 6 existing platform posts (3 distinct subjects on YouTube and TikTok) scheduled 4/6/8 November at 18:00 Europe/Oslo: focus strongly on quality, viewer engagement and monetization readiness. EVERY new film must open clearly spoken and written 'Did you know…' within the first 2 seconds.",
+      "reviewCycle": "After release, review 24h/7d/28d engaged views, early retention, average watched %, shares, subscribers per 1000 views; for long form CTR and watch time. Compare same age and format.",
+      "publishRule": "New films and existing future scheduled entries target 18:00 Europe/Oslo. Do not change the contents of the six existing posts."
     },
     {
       "name": "Little Wild Adventures",
@@ -62,8 +65,11 @@
     "friday": "Video 1–2 min",
     "sunday": "Annenhver 6–8 min / 2–3 min, første lange søndag 15.11",
     "weeklyGoal": "At least 12 excellent YouTube videos across the three channels, with extra excellent episodes where capacity permits.",
-    "existing": "All existing queued videos through 2026-11-08 stay unchanged; verify live queue before new scheduling. Editorial schedule is not proof a video is booked or published.",
-    "status": "Editorial goals only; current production and platform booking must be confirmed separately."
+    "existing": "Six remaining scheduled Bizarre Past platform posts: YouTube + TikTok, 4/6/8 Nov at 18:00 Europe/Oslo. Preserve topics, assets and metadata. From 9 Nov use new mandatory hook/QC rules.",
+    "status": "Editorial goals only; current production and platform booking must be confirmed separately.",
+    "publishTime": "18:00",
+    "timezone": "Europe/Oslo",
+    "timeRuleDecided": "2026-11-02"
   },
   "mandatory_quality": [
     "Strong relevant hook in first two seconds",
