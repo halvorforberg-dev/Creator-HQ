@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-03",
+  "timezone": "Europe/Oslo",
+  "governingRules": {
+    "publishTime": "18:00",
+    "decidedOn": "2026-11-02",
+    "appliesTo": "All newly scheduled and remaining future posts for Bizarre Past YouTube and TikTok, Little Wild Adventures YouTube, and What If in 40 Seconds YouTube; Shorts and long-form.",
+    "checkBeforeScheduling": "Read actual queue first. Check unique video ID and correct target channel, reject duplicates.",
+    "mandatoryQC": [
+      "Full-motion scenes with no Ken Burns slideshow",
+      "Strong first two seconds",
+      "1080p when possible",
+      "Consistent characters/art",
+      "Narration matches scenes",
+      "Natural music/voice and complete ending",
+      "Actual playback with sound",
+      "Title, metadata, hashtags and thumbnail appropriate"
+    ],
+    "truth": "Status produced, scheduled, published or failed must originate from a verified platform response.",
+    "apiLimit": "AI Tuber Autopilot recurring settings cannot currently be read/changed with connected public API; manual confirmation required.",
+    "qualityVsVolume": "Many strong videos with production buffer; no weak releases to meet a quota.",
+    "governingPlan": "YouTube-kanalplan.md; later specific user decisions override old conflicts."
+  },
+  "channels": {
+    "bizarre": {
+      "name": "Bizarre Past",
+      "platform": "YouTube and TikTok",
+      "producer": "Higgsfield",
+      "publisher": "Metricool",
+      "firstWords": "Did you know…"
+    },
+    "wild": {
+      "name": "Little Wild Adventures",
+      "platform": "YouTube",
+      "producer": "AI Tuber",
+      "publisher": "AI Tuber",
+      "reference": "Brush Along with Milo! (2026-10-29)",
+      "characters": "Milo, brown meerkat, small BLUE bird",
+      "mandatory": "Playful educational full-motion scenes with one small problem and clear solution"
+    },
+    "whatif": {
+      "name": "What If in 40 Seconds",
+      "platform": "YouTube",
+      "producer": "AI Tuber",
+      "publisher": "AI Tuber",
+      "firstWords": "What if…",
+      "mandatory": "Positive science/nature curiosity, clear payoff, title 2–3 sec"
+    }
+  },
+  "goalSchedule": {
+    "effectiveFrom": "2026-11-09",
+    "monday": "Short 35–40 sec",
+    "wednesday": "Short 35–40 sec",
+    "friday": "1–2 min",
+    "sunday": "Long form as latest approved plan",
+    "time": "18:00",
+    "status": "EDITORIAL_GOAL_NOT_BOOKED"
+  },
+  "verifiedQueue": {
+    "metricool": {
+      "verifiedDate": "2026-11-03",
+      "bizarrePast": [
+        {
+          "id": 414921238,
+          "uuid": "1907720729421826469",
+          "date": "2026-11-04",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "Oak Island"
+        },
+        {
+          "id": 395308671,
+          "uuid": "602198118900974987",
+          "date": "2026-11-04",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "Oak Island"
+        },
+        {
+          "id": 414921278,
+          "uuid": "-6522068693621584776",
+          "date": "2026-11-06",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "Knights Templar"
+        },
+        {
+          "id": 395308721,
+          "uuid": "9050340863119609283",
+          "date": "2026-11-06",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "Knights Templar"
+        },
+        {
+          "id": 414921393,
+          "uuid": "-1182831858875808596",
+          "date": "2026-11-08",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "Pastry War"
+        },
+        {
+          "id": 414921374,
+          "uuid": "4195639281377234906",
+          "date": "2026-11-08",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "Pastry War"
+        }
+      ]
+    },
+    "aituber": {
+      "verifiedDate": "2026-11-03",
+      "posts": [
+        {
+          "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
+          "videoId": "20ccbd04-f4e2-4959-8ea8-0d4daef25c85",
+          "channel": "What If in 40 Seconds",
+          "date": "2026-11-03",
+          "time": "18:00",
+          "status": "scheduled",
+          "title": "What If the Ocean Glowed Like Stars? 🌊✨"
+        }
+      ],
+      "unverifiedSeries": [
+        "Little Wild main Autopilot timing",
+        "Little Wild Weekly Long Story timing",
+        "What If Autopilot timing"
+      ]
+    }
+  },
+  "incidents": [
+    {
+      "channel": "Little Wild Adventures",
+      "date": "2026-11-02",
+      "video": "The Breeze That Hid",
+      "videoId": "0f847b71-fa9b-48b3-974d-a08a44625e59",
+      "status": "REJECTED",
+      "reason": "4:35 images/basic slideshow and no Milo"
+    },
+    {
+      "channel": "Little Wild Adventures",
+      "video": "The Great Toy-Sharing Turn",
+      "status": "POSSIBLE_DUPLICATE",
+      "reason": "Two similar YouTube thumbnails, unverified identical files; do not delete without comparison"
+    }
+  ]
+}
