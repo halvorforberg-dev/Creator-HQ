@@ -312,6 +312,9 @@
         "Little Wild Weekly Long Story timing",
         "What If Autopilot timing",
         "Little Wild Autopilot target currently unverified and last public upload 16:07 Oslo on 2026-11-02; must be fixed in platform settings"
+      ],
+      "notes": [
+        "2026-11-03 18:24 Oslo: Milo's Wobbly Tower PILOT completed/exported but HOLD for 42s duration, bad generated title, no MP4 AV-QC or AutoPilot duplicate/time verification. Not scheduled by channel agent."
       ]
     }
   },
@@ -426,6 +429,22 @@
       "priority": "What If gets first call on AI Tuber credits. Keep the visually engaging mixed format that works today; full-motion is not mandatory. Little Wild uses original full-motion video and approved Milo/Miko/Pip character reference, but fewer productions if budget requires.",
       "productionMethod": "Run a cost estimate before each paid generation, record estimated and actual credits, and reserve for revisions before scheduling.",
       "separateBudget": "Bizarre Past remains entirely in Higgsfield -> Metricool, outside this calculation."
+    }
+  },
+  "operationalChecks": {
+    "littleWildLatest": {
+      "verifiedAt": "2026-11-03 ~18:24 Europe/Oslo",
+      "producer": "AI Tuber connected API",
+      "pilotVideoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
+      "pilotState": "completed, export completed 1080p; 42s; original title is raw script fragment",
+      "pilotQC": "HOLD_NOT_APPROVED. MP4 could not be viewed/listened to because CDN host resolution failed in container and web viewer could not open MP4. Exact character looks, motion quality, intelligible audio, and ending unverified.",
+      "confirmedActualBooking": "none independently confirmed for pilot; no publication performed this run",
+      "mainAndWeeklyAutopilot": "UNVERIFIED, API lacks a series schedule/list; last observed 2026-11-02 Little Wild 16:07 local, NOT target 18:00",
+      "aituberStudioAvailableCredits": 9808,
+      "creditsNote": "Point-in-time shared What If + Little Wild balance, NOT Little Wild reserved funds. The 70/30 split is provisional; generation cost of pilot unknown; no paid action this run.",
+      "platformChannels": "Little Wild and What If connected in AI Tuber; vidIQ user-channels list currently contains Bizarre Past and Highlights, not Little Wild, so Little Wild private Studio analytics unavailable via that vidIQ connection.",
+      "nextAction": "Do NOT queue/generate new Little Wild movie until exported MP4 QC with sound and UI AutoPilot timing/duplicate check. Verify actual duration 42s and correct script-derived title. Keep What If priority.",
+      "newActions": "Read-only provider & official educational research; no generation, export, upload, edit, purchase, comment, or like."
     }
   }
 }
