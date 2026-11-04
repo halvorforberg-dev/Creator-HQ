@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-03T08:28:19.711Z",
+  "updatedAt": "2026-11-04T08:27:55.655Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "97fbc25c-2c26-47ea-86e1-6900322870fc",
+      "title": "What If Octopuses Lived on Land?",
+      "status": "completed",
+      "createdAt": "2026-11-03T17:00:33.341Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "466835c0-27bd-4172-a846-4d9f3d187f32",
+      "title": "CRASH! Milo’s block tower fell! “Oh no!” cried Milo. Miko",
+      "status": "completed",
+      "createdAt": "2026-11-03T14:16:15.518Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "20ccbd04-f4e2-4959-8ea8-0d4daef25c85",
       "title": "What if the ocean glowed like a galaxy every night?",
