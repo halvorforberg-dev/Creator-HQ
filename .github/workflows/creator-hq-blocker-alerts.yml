@@ -1,0 +1,41 @@
+name: Creator HQ blocker push alerts
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/production-alerts.json'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only validate alert file and bot credentials (do not send)'
+        type: boolean
+        default: true
+permissions:
+  contents: read
+concurrency:
+  group: creator-hq-blocker-alerts
+  cancel-in-progress: false
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Validate Python and alert logic
+        run: |
+          python3 -m compileall -q scripts/telegram_hq_bot.py scripts/telegram_blocker_alerts.py
+          python3 -m unittest discover -s tests -p 'test_telegram_blocker_alerts.py'
+          python3 -m json.tool data/production-alerts.json > /dev/null
+      - name: Send only newly verified blocked events
+        if: github.event_name == 'push'
+        env:
+          GITHUB_ACTIONS: 'true'
+          ALERT_PREVIOUS_COMMIT: ${{ github.event.before }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/telegram_blocker_alerts.py
+      - name: Dry run status
+        if: github.event_name == 'workflow_dispatch'
+        run: echo 'Alert workflow verified; no message sent on manual dry run.'
