@@ -949,5 +949,36 @@
         "transferToBrushAlongWithMilo": "No transfer confirmed; do not automatically start new ads or spend wallet"
       }
     }
+  },
+  "operationalAlerts": {
+    "enabled": true,
+    "decisionDate": "2026-11-04",
+    "telegramBot": "@CreatorHQHalvorBot",
+    "alertFeed": "data/production-alerts.json",
+    "senderScript": "scripts/telegram_blocker_alerts.py",
+    "githubWorkflow": ".github/workflows/creator-hq-blocker-alerts.yml",
+    "conditionWatchAutomationId": "6aeba316aa608191b4e21420dadaf407",
+    "checkSchedule": "HOURLY starting 2026-11-04 at 23:00 Europe/Oslo, subject to task execution",
+    "toUser": "Private Telegram push when NEW verified blocker stops content production, quality clearance or a confirmed platform booking.",
+    "alsoCheckViaBot": "/alerts shows last committed blocker statuses, not live.",
+    "include": [
+      "failed production/export",
+      "failed or missed CONFIRMED publishing",
+      "loss of required service authorization that blocks release",
+      "credit shortage that directly prevents approved release",
+      "confirmed child-directed ad violations or VeeFly rejected video actually promoted"
+    ],
+    "suppress": [
+      "old incidents",
+      "unconfirmed automation status",
+      "stale snapshots",
+      "editorial goals not booked",
+      "slow but normal platform processing",
+      "mere view underperformance"
+    ],
+    "deduplication": "GitHub push diff; stable alert ID and only notify when opened or explicitly escalation revision increases",
+    "currentDeliveryVerification": "Unverified end-to-end: workflow and Telegram bot configured in GitHub, but no actual new blocker alert has been sent/tested in this turn.",
+    "privacy": "GitHub repo can be publicly visible; never add secrets, personal contacts, private account identifiers or private message bodies to alert feed.",
+    "restrictions": "No autonomous ad/credit purchases, scheduling edits or low-quality publishing in response to alerts."
   }
 }
