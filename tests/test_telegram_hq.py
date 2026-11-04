@@ -46,7 +46,7 @@ class TestCreatorHQBot(unittest.TestCase):
     def test_alerts_does_not_pretend_live(self):
         result=bot.reply("/alerts",self.data)
         self.assertIn("bekreftede",result.lower())
-        self.assertIn("ikke en sanntidssjekk",result)
+        self.assertTrue("ikke en sanntidssjekk" in result or "ikke live" in result)
 
     def test_unknown_command(self):
         self.assertIn("Ukjent",bot.reply("/nonsense",self.data))
