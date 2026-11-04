@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-04T22:25:00+01:00",
+  "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
+  "policy": {
+    "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
+    "neverNotifyFor": [
+      "Editorial goals that are not booked",
+      "An unverified platform state or old saved snapshot",
+      "Normal review/processing less than the provider's normal processing window",
+      "Mere low view count",
+      "Known old issues listed in incidents until confirmed as a NEW operational blocker"
+    ],
+    "allowCategories": [
+      "generation_failed",
+      "export_failed",
+      "publishing_failed",
+      "missed_verified_release",
+      "provider_auth_lost",
+      "insufficient_credits_blocking_approved_release",
+      "quality_gate_blocker",
+      "child_safety_ad_problem",
+      "campaign_paused_or_disapproved_with_confirmed_evidence"
+    ],
+    "severity": "blocker or critical",
+    "required": [
+      "id",
+      "channel",
+      "state=open",
+      "severity=blocker|critical",
+      "confirmed=true",
+      "confirmedAt=recent ISO-8601",
+      "source",
+      "summary",
+      "action"
+    ],
+    "repeat": "Only if a resolved issue reopens or notificationRevision explicitly increases. Editing unrelated files or commentary must not send duplicates.",
+    "sendMode": "GitHub Actions push of THIS file through existing Creator HQ private Telegram bot. Push notifications also depend on user's Telegram notification settings.",
+    "dashboard": "https://halvorforberg-dev.github.io/Creator-HQ/",
+    "noGuarantee": "Monitoring depends on scheduled checks and provider access; a stale snapshot never proves a live failure."
+  },
+  "alerts": []
+}
