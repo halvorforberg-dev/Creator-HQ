@@ -576,7 +576,15 @@
         "https://bsky.app/profile/xkcd.com/post/3mgb5poz7kc2w"
       ],
       "productionBrief": "data/whatif-moonbow-brief-2026-11-04.md",
-      "snapshot": "2026-11-04 19:54 Europe/Oslo"
+      "snapshot": "2026-11-04 19:54 Europe/Oslo",
+      "nextRetentionTest": {
+        "updatedAt": "2026-11-04",
+        "oneVariable": "Earlier tangible answer: show eye-versus-long-exposure moonbow reveal no later than second 7; keep rest of current What If mixed-media quality style",
+        "evidencedBy": "Nov1 Saturn's 15s mean watch of actual 38s Short in Metricool, NOT first-frame retention and NOT causal proof",
+        "fullBrief": "data/whatif-moonbow-brief-2026-11-04.md",
+        "release": "Hold. What If AutoPilot clash unresolved; no agent booking, regeneration or publication",
+        "afterRelease": "Use age-matched 24h/7d/28d engaged views and early-retention, if owner analytics becomes available."
+      }
     },
     "wild": {
       "dated": "2026-11-03",
