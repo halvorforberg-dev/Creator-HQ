@@ -504,14 +504,14 @@
       "channelName": "Little Wild Adventures",
       "channelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
       "campaignSubmitted": "2026-11-03",
-      "currentStatus": "PENDING REVIEW as of email 2026-11-03 19:01 UTC; live status not independently verified",
-      "payment": "VeeFly invoice email confirms paid",
+      "currentStatus": "LIVE confirmed by VeeFly official channel email 2026-11-03T20:33:52Z (21:33:52 Europe/Oslo), and VeeFly support 2026-11-03T23:17:41Z confirming all five video campaigns In Progress",
+      "payment": "Confirmed via VeeFly payment receipt 2026-11-03",
       "budgetFromVeeFlyEmail": {
         "total": 50,
         "perVideo": 10,
-        "currency": "unspecified in email"
+        "currency": "USD confirmed by support email"
       },
-      "actionStatus": "REPLACEMENT REQUEST SENT TO VEEFLY SUPPORT; NOT YET CONFIRMED",
+      "actionStatus": "URGENT: REJECTED VIDEO IS LIVE, CONTRARY TO USER REQUEST; SUPPORT SAYS CANNOT MODIFY AFTER LAUNCH, BUT WILL CHECK WITH TEAM. FOLLOW-UP REQUEST TO STOP ONLY VIDEO CAMPAIGN #1410783 HAS BEEN SENT. NO REMOVAL OR PAUSE CONFIRMATION.",
       "remove": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids (The Breeze That Hid)",
       "replaceWith": "Brush Along with Milo! https://www.youtube.com/shorts/NjlWiWmNrRg (already selected in campaign), allocate removed slot's original budget to this approved video",
       "constraint": "Keep total budget unchanged; do not promote rejected video. If VeeFly requires distinct new videos, request pause/holding the single slot until appropriate approved public video is selected; do not spend it or create new paid campaign.",
@@ -522,13 +522,78 @@
         "emailId": "1a1a2e2dcb8d2d76"
       },
       "kidSafeguards": "This is made-for-kids content. Ads must not use personalized child targeting. Do not change YouTube Made for Kids designation.",
-      "yppCaution": "Paid ad views and watch hours do not count toward YPP eligibility thresholds; use paid promotion for awareness only.",
+      "yppCaution": "Ad-campaign watches/views are excluded from YPP qualification; do not treat paid views as qualifying public watch hours or shorts views.",
       "followUpRequired": [
         "Confirm VeeFly approved/declined replacement",
         "Check Google Ads linking only through user-authorized Google/YouTube account when safe and available",
         "Verify no rejected video is running or spending",
         "Report verified status, spend and earned organic results"
-      ]
+      ],
+      "checkedAt": "2026-11-04T09:07:28+01:00",
+      "campaignStartEvidence": {
+        "channelLiveNotificationReceivedAt": "2026-11-03T20:33:52Z",
+        "channelLiveNotificationNorway": "2026-11-03 21:33:52 CET",
+        "earliestIndividualVideoLiveEmailAt": "2026-11-03T20:22:06Z",
+        "earliestIndividualVideoLiveEmailNorway": "2026-11-03 21:22:06 CET",
+        "exactServingStart": "NOT VERIFIED; these are VeeFly email timestamps, not first ad impression timestamps",
+        "channelMessageId": "1a1a31e4688a1ffc"
+      },
+      "replacementConfirmed": false,
+      "videoCampaigns": [
+        {
+          "title": "A Meerkat's Acacia Pod Orchestra!",
+          "campaignId": "1410787",
+          "status": "Live per VeeFly email",
+          "emailTimestampUTC": "2026-11-03T20:22:06Z"
+        },
+        {
+          "title": "Sharing Is More Fun! Milo Takes Turns 🥁",
+          "campaignId": "1410785",
+          "status": "Live per VeeFly email",
+          "emailTimestampUTC": "2026-11-03T20:28:14Z"
+        },
+        {
+          "title": "Brush Along with Milo! 🪥",
+          "campaignId": "1410786",
+          "status": "Live per VeeFly email",
+          "emailTimestampUTC": "2026-11-03T20:40:56Z"
+        },
+        {
+          "title": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids",
+          "campaignId": "1410783",
+          "status": "LIVE — REJECTED — URGENT STOP REQUESTED",
+          "emailTimestampUTC": "2026-11-03T20:52:16Z"
+        },
+        {
+          "title": "Cozy Bedtime Countdown for Kids 🌙",
+          "campaignId": "1410784",
+          "status": "Live per VeeFly email",
+          "emailTimestampUTC": "2026-11-03T21:01:36Z"
+        }
+      ],
+      "costSpentToDate": "NOT AVAILABLE from Gmail; $50 is the allocated prepaid total, not actual spent amount",
+      "verifiedViews": "NOT AVAILABLE from Gmail; live notification says gaining views but no counts",
+      "organicReach": "NOT VERIFIED; keep distinct from paid traffic and YPP eligibility",
+      "supportCase": "41675",
+      "supportResponse": {
+        "receivedAt": "2026-11-03T23:17:41Z",
+        "messageId": "1a1a3b44f7b7499f",
+        "summary": "All five video promotions are In Progress; campaign changes not possible at this stage. Agent Stacy will ask team whether exception/action possible."
+      },
+      "followUp": {
+        "date": "2026-11-04",
+        "messageId": "1a1a59a52ff67201",
+        "subject": "Urgent follow-up: pause rejected video #1410783 in campaign #251425",
+        "request": "Stop or remove ONLY #1410783 and preserve four approved video campaigns, return unspent funds or allocate to approved Brush Along with Milo without further payments, confirm actual spent and resulting status",
+        "status": "SENT, NO ANSWER YET"
+      },
+      "nextActions": [
+        "Check VeeFly reply about pausing/removing video #1410783 (do NOT delete full channel campaign)",
+        "Verify the status of four approved campaigns remains active",
+        "Measure spend and paid views versus organic views after reporting becomes available",
+        "Continue monitoring: do not disable until wrong video actually stopped/removed or resolved with explicit confirmation"
+      ],
+      "reviewedAndEscalatedAt": "2026-11-04T09:07:28+01:00"
     }
   }
 }
