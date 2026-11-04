@@ -7,18 +7,28 @@ Research: 4. november 2026, etter kontroll av Creator HQ, AI Tuber og Metricool.
 **Tittel:** What If Rainbows Appeared at Midnight? 🌙🌈
 **Format:** 35–40 sekunder, 9:16 Short; «What if…» høres og leses første 0–2 sek. Vis tittel 2–3 sek uten å dekke hovedmotivet. Gjenkjennelig What If-produksjonsstil med profesjonell stock, grafikk, enkelte bevegelsessekvenser og stillfoto der de virkelig hjelper forklaringen. Full motion i hver scene er IKKE et krav.
 
-### Manus (engelsk, 82 ord; ca. 35–40 sek etter faktisk TTS/QC)
+### Forbedret manus – versjon 2 (engelsk, 78 ord; REDAKSJONELT UTKAST)
 
-> What if rainbows appeared at midnight? They already do! They're called moonbows. When a bright, nearly full Moon shines through rain or waterfall mist, its light bends into a rainbow, just like sunlight. But there's a catch: moonlight is so faint that our eyes often see a silvery white arc, even when the colors are really there. A long-exposure camera can reveal them. So next time you see mist under moonlight, look away from the Moon. A hidden rainbow might be waiting!
+> What if rainbows appeared at midnight? They already do. They're called moonbows. Here's the surprise: your eyes may see a pale white arc, while a long-exposure camera reveals its hidden colours. Moonlight bends and reflects inside raindrops, making a real rainbow. Want to find one? Look for a bright, low Moon behind you, darkness, and rain or mist ahead. The colours were there all along. The moonlight was simply too faint for your eyes to see them clearly.
 
-### Scener/lyd
+**Hvorfor endret:** Avslører det virkelige fenomenet allerede i første setninger og den overraskende forskjellen mellom øye og kamera innen ca. 8 sek. Dette er en **testbar hypotese**, ikke dokumentert høyere retention. AI-stemmens faktiske lengde skal måles før godkjenning; målet er 35–40 sek uten å presse unaturlig tempo.
 
-- **0–2 sek:** Mørk foss i måneskinn, blek bue tennes akkurat idet stemmen sier «What if rainbows appeared at midnight?» Stor tydelig tittel. Dette er en planlagt scene, IKKE et faktisk inspisert filmklipp.
-- **2–8 sek:** Vakkert ekte fotografi av moonbow med gradvis diskret kamerabevegelse; superkort navn MOONBOW, ikke overdrevne effekter. Spoken «They already do!» fungerer som overraskelse tidlig.
-- **8–18 sek:** Fullmåne bak observatør, tåke/regndråper foran; enkel tydelig animert diagram som viser refraksjon/refleksjon og geometrien på motsatt side av Månen. Ikke antyd at månen selv lyser.
-- **18–29 sek:** Split screen «WHAT YOUR EYES SEE» (svak/nesten hvit bue) mot «LONG-EXPOSURE CAMERA» (fargesterk regnbue). Forklar at fotoet viser farger som svakt lys ikke gir samme opplevelse av for øyet.
-- **29–40 sek:** Poetisk, men nøkternt reelt månenattlandskap med vanndråper og buemotiv. Avslutt på «A hidden rainbow might be waiting!» og la siste setning få full tid før slutt.
-- **Lyd:** Varm, naturlig forteller, liten luftig magisk tone, svakt vann/foss i starten, ikke filmtrailerbrøl, stemme tydelig over musikk. Undertekster konsekvente.
+### Forbedret scene- og lydplan – test én hovedendring: tidlig payoff
+
+- **0–2 s:** Umiddelbar vakker nattlig regnbuebue, tydelig tittel «WHAT IF RAINBOWS APPEARED AT MIDNIGHT?» og naturlig stemme med eksakte første ord «What if…». Bruk tittel i totalt 2–3 sek, ikke en egen statisk intro.
+- **2–7 s:** «They already do. They're called moonbows.» Avslør en ekte moonbow med diskret kamerabevegelse; innen **7. sekund** vis kort **pale eye-view vs. vivid long-exposure view**. Unngå å vise det fargesterke bildet som det mennesker normalt ser med øynene.
+- **7–15 s:** Et raskt og lettforståelig visuelt bevis: split-screen, diskret merking «EYES» og «LONG EXPOSURE». Dette er én tydelig overraskelse, ikke flere konkurrerende effekter.
+- **15–24 s:** Enkel animert geometri: lav, lys Måne **bak seeren**, regn/tåke **foran seeren**; lyset brytes/reflekteres i vanndråper. Ikke plasser Månen inne i regnbuebuen eller antyd at Månen avgir eget lys.
+- **24–34 s:** Kort instruks for å kunne se den: mørk himmel, nesten full og lav Måne bak observatøren og vanndråper foran; atmosfærisk filmsekvens med relevant bevegelse.
+- **34–40 s:** La siste setning «The moonlight was simply too faint for your eyes to see them clearly» fullføres over en rolig regnbue. Ikke brå klipp/CTA som stjeler sluttpoenget.
+- **Lyd/QC:** Varm, nøytral engelsk fortellerstemme, balansert lav musikk, ekte vannlyd svært diskret; 1080×1920 der tilgjengelig. Subtitles synkronisert. Se hele eksportert MP4 med lyd og kontroller faktiske 0–2 s, 7 s-reveal, 35–40 s lengde og siste ord. Hvis stemmen blir for rask, forkort manus fremfor å tvinge varigheten.
+
+### Før/etter-måling, ikke et løfte om vekst
+
+- **Én hovedvariabel:** Avslør fenomennavn + visuell øye/kamera-kontrast i løpet av de første 7 sekundene, i stedet for å vente med forklarende visualisering.
+- **Hypotese:** Rask visuell belønning gir flere som fortsetter å se etter 10–15 sekunder, den delen hvor Saturn-videoens gjennomsnitt seertid ligger. Vi har ikke første-2-sek-retensjonsdata eller et kontrollert eksperiment i dag.
+- **Målinger:** Fra reelle YouTube Studio-tall, sammenlign Shorts med samme lengde og publiseringsalder på 24t / 7d / 28d: engaged views, stayed-to-watch, retention i de første 15s, average view duration og abonnenter per 1000 visninger. Metricool kumulativt visningstall alene er ikke nok.
+- **Sperre:** Dette er bare redaksjonell forbedring. Ingen AI Tuber-generering, booking, publisering eller kredittforbruk før AutoPilot er verifisert og ledig unik slot dokumentert. Tidligere Ocean/Octopus-videoer må ikke dupliseres.
 
 ### Faktasjekk og rettigheter
 
