@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-03T06:35:03.150Z",
-  "requestedThrough": "2026-11-03",
+  "updatedAt": "2026-11-04T07:18:24+01:00",
+  "requestedThrough": "2026-11-04",
   "source": "Metricool authenticated analytics via connected app",
-  "periodStart": "2026-10-03",
-  "periodEnd": "2026-11-03",
+  "periodStart": "2026-10-04",
+  "periodEnd": "2026-11-04",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -215,10 +215,10 @@
           {
             "date": "2026-11-01",
             "subscribers": 29,
-            "views": null,
+            "views": 41,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 0,
+            "followersLost": 0
           },
           {
             "date": "2026-11-02",
@@ -235,14 +235,22 @@
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
+          },
+          {
+            "date": "2026-11-04",
+            "subscribers": 33,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
           }
         ],
         "videos": [
           {
             "publishedAt": "20261021140419",
             "title": "Vikings Left Prisoners for the Rising Tide? 😳 | Norse Saga",
-            "views": 1260,
-            "watchMinutes": 390.7822666666667,
+            "views": 1262,
+            "watchMinutes": 391.24893333333335,
             "likes": 17,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=rknqX_6US-0"
@@ -250,8 +258,8 @@
           {
             "publishedAt": "20261008140639",
             "title": "Ancient Romans Washed Clothes With Urine 🤯",
-            "views": 795,
-            "watchMinutes": 171.61388333333332,
+            "views": 796,
+            "watchMinutes": 171.66388333333333,
             "likes": 17,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=8YlWw0_fgS0"
@@ -259,7 +267,7 @@
           {
             "publishedAt": "20261023140334",
             "title": "The Vikings Didn't Just Steal Gold — They Stole People 😳",
-            "views": 739,
+            "views": 740,
             "watchMinutes": 249.5279833333333,
             "likes": 15,
             "comments": 0,
@@ -268,8 +276,8 @@
           {
             "publishedAt": "20261030150302",
             "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
-            "views": 626,
-            "watchMinutes": 158.10028333333332,
+            "views": 715,
+            "watchMinutes": 187.41476666666665,
             "likes": 21,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=Fbxu3hOzwTQ"
@@ -313,8 +321,8 @@
           {
             "publishedAt": "20261026150317",
             "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
-            "views": 281,
-            "watchMinutes": 102.79679999999998,
+            "views": 283,
+            "watchMinutes": 103.46208333333331,
             "likes": 8,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=fAZeSyTZnJM"
@@ -331,8 +339,8 @@
           {
             "publishedAt": "20261028150315",
             "title": "The Day Vikings Attacked God's Island 😱 | 793",
-            "views": 106,
-            "watchMinutes": 28.605783333333335,
+            "views": 107,
+            "watchMinutes": 28.579116666666664,
             "likes": 5,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=XDG7otcaCVM"
@@ -349,8 +357,8 @@
           {
             "publishedAt": "20261019201403",
             "title": "How 3 Soldiers Failed to Stop 20,000 Emus",
-            "views": 80,
-            "watchMinutes": 30.974883333333327,
+            "views": 81,
+            "watchMinutes": 31.029883333333327,
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=GkHl2WoiRuE"
@@ -358,8 +366,8 @@
           {
             "publishedAt": "20261009163222",
             "title": "Boston Was Hit by a Wave of Molasses 😳",
-            "views": 74,
-            "watchMinutes": 15.436416666666668,
+            "views": 75,
+            "watchMinutes": 15.451416666666669,
             "likes": 4,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=GOFWe0GLoaU"
@@ -394,9 +402,9 @@
           {
             "publishedAt": "20261028195535",
             "title": "The Battle That Killed a Viking King ⚔️ | Stamford Bridge 1066",
-            "views": 30,
-            "watchMinutes": 3.9438166666666667,
-            "likes": 3,
+            "views": 33,
+            "watchMinutes": 4.041983333333333,
+            "likes": 4,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=oegyI_rdkPw"
           }
@@ -533,7 +541,7 @@
           },
           {
             "date": "2026-10-28",
-            "videoViews": 570,
+            "videoViews": 571,
             "followers": 3,
             "followerNetChange": 0
           },
@@ -563,7 +571,13 @@
           },
           {
             "date": "2026-11-02",
-            "videoViews": 260,
+            "videoViews": 265,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-03",
+            "videoViews": null,
             "followers": 3,
             "followerNetChange": 0
           }
@@ -685,17 +699,17 @@
             "date": "2026-10-31",
             "subscribers": 9,
             "views": 11,
-            "videosPublished": null,
+            "videosPublished": 1,
             "followersGained": 0,
             "followersLost": 0
           },
           {
             "date": "2026-11-01",
             "subscribers": 9,
-            "views": null,
+            "views": 1666,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 6,
+            "followersLost": 0
           },
           {
             "date": "2026-11-02",
@@ -708,6 +722,14 @@
           {
             "date": "2026-11-03",
             "subscribers": 18,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-04",
+            "subscribers": 27,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -727,8 +749,8 @@
           {
             "publishedAt": "20261028170511",
             "title": "What If Earth’s Magnetic Field Reversed?",
-            "views": 93,
-            "watchMinutes": 22.64275,
+            "views": 95,
+            "watchMinutes": 23.22665,
             "likes": 5,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=wr4Mzn1b10k"
@@ -736,9 +758,9 @@
           {
             "publishedAt": "20261026170501",
             "title": "What If Migratory Birds Lost Their Way?",
-            "views": 67,
-            "watchMinutes": 11.510199999999998,
-            "likes": 8,
+            "views": 68,
+            "watchMinutes": 11.595199999999998,
+            "likes": 9,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
           },
@@ -754,8 +776,8 @@
           {
             "publishedAt": "20261025180201",
             "title": "What If Dogs Could Talk? 🐶😂 | Biscuit & Pixel",
-            "views": 12,
-            "watchMinutes": 27.888916666666667,
+            "views": 13,
+            "watchMinutes": 27.99225,
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=iOstByrBFdE"
@@ -772,8 +794,8 @@
           {
             "publishedAt": "20261030170411",
             "title": "What If Dinosaurs Survived the Asteroid?",
-            "views": 7,
-            "watchMinutes": 2.4787666666666666,
+            "views": 9,
+            "watchMinutes": 3.535433333333333,
             "likes": 2,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=mlzAbOhLYEI"
@@ -786,6 +808,15 @@
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=dqMwf4_psxc"
+          },
+          {
+            "publishedAt": "20261031170905",
+            "title": "What If Humans Lived With Dinosaurs? A Day in Our New World",
+            "views": 5,
+            "watchMinutes": 5.055,
+            "likes": 3,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=OT6P32a60Rg"
           },
           {
             "publishedAt": "20261020160502",
@@ -807,16 +838,17 @@
         "series": [],
         "videos": []
       },
-      "notes": "Connection required for automatic channel metrics. No invented stats."
+      "notes": "Little Wild Adventures not connected to Metricool analytics; no channel statistics available in this dataset."
     }
   },
   "notes": [
-    "Metricool measurements may be delayed; latest period includes partial Nov 3 in Europe/Oslo.",
-    "Only verified fetched metric rows and video metrics are included. Missing/null numbers are unavailable, not zero.",
-    "YouTube Evolution videoViews (YTEV02) describe activity in dated rows, while individual Youtube Videos Published in Range counts are cumulative views for videos published during the period and must not be summed as 7-day channel views.",
-    "TikTok TKEV02 is views for videos published in range, not necessarily all video views that occurred during the range.",
-    "YouTube per-video watchMinutes and views are cumulative for published-in-range videos; do not treat them as same-day activity.",
-    "Little Wild Adventures is not connected to Metricool analytics for this report; no estimated stats used.",
-    "This snapshot does not confirm publication status of unpublished/scheduled videos."
+    "Verified Metricool authenticated getAnalyticsDataByMetrics source queries for the listed field IDs and dates 2026-10-04 through 2026-11-04, Europe/Oslo (both end dates inclusive); rows sorted by date ascending, videos by cumulative views descending.",
+    "Missing Metricool daily rows are not interpolated or filled, and missing numeric values remain null, not zero. The latest daily views and follower-change metrics may lag and current day may be incomplete.",
+    "YouTube Evolution YTEV02 is views recorded in a dated row. YTEV04 is the provider's total videos metric: it counts long videos and Shorts and may be null if data is missing. YTEV01 counts subscribers.",
+    "Per-video published-in-range YTVP06 views and YTVP07 watchMinutes are cumulative stats for videos published during the selected period, NOT 7-day channel views or validated YPP watch hours.",
+    "TikTok Evolution TKEV02 (views) covers videos published in the selected range according to Metricool's field definition, NOT necessarily all account video views occurring during each date.",
+    "What If and Bizarre Past analytics were sourced from connected Metricool. Little Wild Adventures lacks a connected analytics source; statistics unavailable, not estimated.",
+    "Paid advertising views and watch time, if any, are not separated by this snapshot; do not infer organic or eligible YPP watch hours from total watchMinutes or video views.",
+    "Historical rows provided by Metricool start only once data is available for each channel, despite the requested 32 calendar days. No fake rows were added. No publication claims about queued/unpublished content."
   ]
 }
