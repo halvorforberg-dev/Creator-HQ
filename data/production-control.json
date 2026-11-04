@@ -608,14 +608,14 @@
       "channelName": "Little Wild Adventures",
       "channelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
       "campaignSubmitted": "2026-11-03",
-      "currentStatus": "LIVE confirmed by VeeFly official channel email 2026-11-03T20:33:52Z (21:33:52 Europe/Oslo), and VeeFly support 2026-11-03T23:17:41Z confirming all five video campaigns In Progress",
+      "currentStatus": "LIVE — per VeeFly support 2026-11-04 11:55:29 UTC, FOUR approved video campaigns remain ACTIVE and unaffected. Individual rejected video campaign #1410783 urgently PAUSED by VeeFly support; deletion requested by the customer and is AWAITING final confirmation.",
       "payment": "Confirmed via VeeFly payment receipt 2026-11-03",
       "budgetFromVeeFlyEmail": {
         "total": 50,
         "perVideo": 10,
         "currency": "USD confirmed by support email"
       },
-      "actionStatus": "URGENT: REJECTED VIDEO IS LIVE, CONTRARY TO USER REQUEST; SUPPORT SAYS CANNOT MODIFY AFTER LAUNCH, BUT WILL CHECK WITH TEAM. FOLLOW-UP REQUEST TO STOP ONLY VIDEO CAMPAIGN #1410783 HAS BEEN SENT. NO REMOVAL OR PAUSE CONFIRMATION.",
+      "actionStatus": "IMPORTANT RESOLVED IN PART: rejected video #1410783 confirmed PAUSED, no further ad delivery or spend per VeeFly support 2026-11-04 11:55:29 UTC. $7.15 already spent from its $10 allocation; $2.85 unspent. User-authorized REPLY SENT to delete ONLY individual #1410783 and credit $2.85 to VeeFly wallet; deletion/refund NOT YET CONFIRMED. Four approved sibling video campaigns remain live per support.",
       "remove": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids (The Breeze That Hid)",
       "replaceWith": "Brush Along with Milo! https://www.youtube.com/shorts/NjlWiWmNrRg (already selected in campaign), allocate removed slot's original budget to this approved video",
       "constraint": "Keep total budget unchanged; do not promote rejected video. If VeeFly requires distinct new videos, request pause/holding the single slot until appropriate approved public video is selected; do not spend it or create new paid campaign.",
@@ -633,7 +633,7 @@
         "Verify no rejected video is running or spending",
         "Report verified status, spend and earned organic results"
       ],
-      "checkedAt": "2026-11-04T09:07:28+01:00",
+      "checkedAt": "2026-11-04T17:44:05+01:00",
       "campaignStartEvidence": {
         "channelLiveNotificationReceivedAt": "2026-11-03T20:33:52Z",
         "channelLiveNotificationNorway": "2026-11-03 21:33:52 CET",
@@ -665,7 +665,7 @@
         {
           "title": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids",
           "campaignId": "1410783",
-          "status": "LIVE — REJECTED — URGENT STOP REQUESTED",
+          "status": "PAUSED by VeeFly support as confirmed 2026-11-04 11:55:29 UTC, $7.15 spent, $2.85 unspent; pending individual deletion",
           "emailTimestampUTC": "2026-11-03T20:52:16Z"
         },
         {
@@ -675,29 +675,71 @@
           "emailTimestampUTC": "2026-11-03T21:01:36Z"
         }
       ],
-      "costSpentToDate": "NOT AVAILABLE from Gmail; $50 is the allocated prepaid total, not actual spent amount",
-      "verifiedViews": "NOT AVAILABLE from Gmail; live notification says gaining views but no counts",
-      "organicReach": "NOT VERIFIED; keep distinct from paid traffic and YPP eligibility",
-      "supportCase": "41675",
+      "costSpentToDate": {
+        "rejectedVideoUSD": 7.15,
+        "otherFourVideos": "NOT VERIFIED",
+        "totalActualSpend": "NOT VERIFIED",
+        "prepaidTotalUSD": 50,
+        "remainingRejectedVideoUSD": 2.85
+      },
+      "verifiedViews": "NOT PROVIDED in provider support message of Nov 4; avoid inventing paid views or CTR",
+      "organicReach": "NOT VERIFIED; no qualified YPP hours inferred from ads",
+      "supportCase": "41714 (latest); 41675 (original)",
       "supportResponse": {
-        "receivedAt": "2026-11-03T23:17:41Z",
-        "messageId": "1a1a3b44f7b7499f",
-        "summary": "All five video promotions are In Progress; campaign changes not possible at this stage. Agent Stacy will ask team whether exception/action possible."
+        "receivedAt": "2026-11-04T11:55:29Z",
+        "messageId": "1a1a66a2c6ae100b",
+        "summary": "Michael Jones at VeeFly Support confirmed rejected video #1410783 has been urgently PAUSED, four approved videos and parent #251425 remain LIVE; $10 video budget, $7.15 spent, $2.85 unspent; VeeFly asks permission to delete rejected video and says $2.85 will credit to VeeFly wallet once deleted.",
+        "originalCase41675": {
+          "receivedAt": "2026-11-03T23:17:41Z",
+          "messageId": "1a1a3b44f7b7499f"
+        }
       },
       "followUp": {
         "date": "2026-11-04",
         "messageId": "1a1a59a52ff67201",
         "subject": "Urgent follow-up: pause rejected video #1410783 in campaign #251425",
         "request": "Stop or remove ONLY #1410783 and preserve four approved video campaigns, return unspent funds or allocate to approved Brush Along with Milo without further payments, confirm actual spent and resulting status",
-        "status": "SENT, NO ANSWER YET"
+        "status": "VIDEO PAUSE VERIFIED, INDIVIDUAL VIDEO DELETION REQUESTED AND WAITING TO BE CONFIRMED",
+        "latestReplyAt": "2026-11-04T11:55:29Z",
+        "supportReplyId": "1a1a66a2c6ae100b",
+        "replyConfirmingIndividualDeletionSentId": "1a1a77408f972eaa",
+        "confirmedSpendOnRejectedVideoUSD": 7.15,
+        "heldUnspentValueUSD": 2.85,
+        "note": "Wallet credit is only promised on successful individual video deletion; no wallet credit confirmed."
       },
       "nextActions": [
-        "Check VeeFly reply about pausing/removing video #1410783 (do NOT delete full channel campaign)",
-        "Verify the status of four approved campaigns remains active",
-        "Measure spend and paid views versus organic views after reporting becomes available",
-        "Continue monitoring: do not disable until wrong video actually stopped/removed or resolved with explicit confirmation"
+        "Await VeeFly confirmation that ONLY individual campaign #1410783 was permanently deleted, and $2.85 credited to VeeFly wallet",
+        "Verify other four sibling video campaigns remain live and parent #251425 intact",
+        "Do not treat $2.85 as refunded or transferred until VeeFly confirms; do not spend or create new campaigns",
+        "Report paid reach and actual costs separately from organic/valid YouTube Partner Program watch hours",
+        "After confirmed deletion and wallet credit, monitoring task may be disabled"
       ],
-      "reviewedAndEscalatedAt": "2026-11-04T09:07:28+01:00"
+      "reviewedAndEscalatedAt": "2026-11-04T09:07:28+01:00",
+      "rejectedVideoPause": {
+        "campaignId": "1410783",
+        "status": "PAUSED — confirmed by VeeFly Support (not yet deleted)",
+        "confirmedInEmailAt": "2026-11-04T11:55:29Z",
+        "confirmedInEmailNorway": "2026-11-04 12:55:29 CET",
+        "emailId": "1a1a66a2c6ae100b",
+        "supportTicket": "41714",
+        "exactPauseTimestamp": "NOT PROVIDED — email timestamps are not precise action timestamps",
+        "spendUSD": 7.15,
+        "unspentUSD": 2.85,
+        "originalBudgetUSD": 10,
+        "delivery": "VeeFly states paused to prevent any further ad delivery or spend",
+        "parentCampaign": "251425 REMAINS ACTIVE",
+        "otherVideoCampaigns": "four approved sibling video campaigns remain active and unaffected per VeeFly support"
+      },
+      "rejectedVideoDeletion": {
+        "status": "EXPLICIT PERMISSION SENT; awaiting VeeFly confirmation of deletion and $2.85 wallet credit",
+        "requestedAt": "2026-11-04",
+        "requestEmailId": "1a1a77408f972eaa",
+        "parentMustRemainActive": true,
+        "onlyDeleteVideoCampaign": "1410783",
+        "expectedWalletCreditUSD": 2.85,
+        "walletCreditVerified": false,
+        "transferToBrushAlongWithMilo": "No transfer confirmed; do not automatically start new ads or spend wallet"
+      }
     }
   }
 }
