@@ -128,6 +128,13 @@
       "measure": "Age-matched 24h/7d engaged views + stayed-to-watch + avg percentage viewed once owner analytics available; no causal claims from tiny counts",
       "status": "SOURCE-CHECKED RESEARCH ONLY, NOT BOOKED",
       "nextTrial": "What If Flowers Sent Invisible Electric Messages? ⚡🌼"
+    },
+    {
+      "channel": "whatif",
+      "hypothesis": "A true-but-surprising 'What if rainbows appeared at midnight?' reveal and eye-versus-camera graphic could make positive science visibly rewarding sooner than another generic catastrophic question.",
+      "measure": "At similar post age, engaged views, stayed-to-watch, 24h/7d/28d retention and subs/1000 views; test one new hook/payoff concept at a time",
+      "status": "SRC_VERIFIED_RESEARCH_ONLY_NO_VIDEO_OR_BOOKING",
+      "nextTrial": "What If Rainbows Appeared at Midnight? – detailed brief 2026-11-04, blocked by AutoPilot confirmation"
     }
   ],
   "lastResearch": {
@@ -521,6 +528,31 @@
         "status": "Current balance appears below cinematic full-motion short budget; no purchases, no downgrade to slideshow"
       },
       "noWorkClaims": true
+    },
+    {
+      "researchedOn": "2026-11-04",
+      "channel": "whatif",
+      "sources": [
+        {
+          "name": "UK Met Office",
+          "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+        },
+        {
+          "name": "QuirkScience catalogue",
+          "url": "https://quirkscience.com/films/"
+        },
+        {
+          "name": "xkcd post",
+          "url": "https://bsky.app/profile/xkcd.com/post/3mgb5poz7kc2w"
+        }
+      ],
+      "ownSource": "Metricool YouTube all videos (Nov4 19:54), AI Tuber videos + publication status",
+      "ownFinding": "Saturn 1635 total views, 430.05 watch minutes, 15s average on 38s completed video, 58 likes (Nov1 release). Smaller previously published bee 139, magnetic field 98, bird migration 69. Video ages differ; not comparable as 24h retention test. Traffic sources include 12 channel-level advertising views in Nov1–4, so do not claim all 1635 views organic.",
+      "externalObservation": "QuirkScience 2 Nov Short titled a single question (1:04), xkcd 4 Mar What if upward 1ft/sec; first seconds and actual footage NOT inspected, public counts not asserted.",
+      "originalTest": "Moonbow 82-word English script/scene audio brief at data/whatif-moonbow-brief-2026-11-04.md, verified by Met Office; not generated or booked.",
+      "noWorkClaims": true,
+      "blocker": "No AutoPilot schedule read endpoint and What If missing from vidIQ owner authorization; no valid 24h/7d owner analytics.",
+      "creditsSpentNow": 0
     }
   ],
   "latestRecommendations": {
@@ -535,13 +567,16 @@
       "productionBrief": "data/bizarre-past-herculaneum-brief-2026-11-04.md"
     },
     "whatif": {
-      "dated": "2026-11-03",
-      "insight": "Gode hypotetiske konsepter lar et konkret spørsmål utløse en umiddelbar visuell transformasjon og et forståelig naturvitenskapelig svar; publisher descriptions are not retention proof.",
-      "action": "What If You Could See Flowers Through a Bee's Eyes?",
+      "dated": "2026-11-04",
+      "insight": "Largest currently visible own Short snapshot is Saturn's 1635 views after Nov1 upload, but its mean 15-sec watch on 38s suggests potential mid-Short retention improvement. Neither topic success nor 0–2s hook is proven without age-matched Studio retention. Positive photogenic nature phenomena with real optical science merit a controlled test.",
+      "action": "Prepare but DO NOT schedule the 35–40s moonbow concept. Show nearly-white eye view versus long-exposure camera colors and finish the real physics payoff. Confirm AutoPilot unique slot before generation.",
       "referenceSources": [
-        "https://onlinelibrary.wiley.com/doi/full/10.1111/plb.70050",
-        "https://www.ch.cam.ac.uk/news/petals-produce-blue-halo-helps-bees-find-flowers"
-      ]
+        "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
+        "https://quirkscience.com/films/",
+        "https://bsky.app/profile/xkcd.com/post/3mgb5poz7kc2w"
+      ],
+      "productionBrief": "data/whatif-moonbow-brief-2026-11-04.md",
+      "snapshot": "2026-11-04 19:54 Europe/Oslo"
     },
     "wild": {
       "dated": "2026-11-03",
@@ -584,20 +619,55 @@
       "experiment": "Compare viewer stays-to-watch / engaged views and retention at 24 hours and 7 days with What If's other 35–40s science/nature Shorts of matched age. If credible, evaluate same theme for 3–4 min long form without reusing identical script.",
       "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
       "publicationBlock": "What If AutoPilot recurring timing and unique-slot queue still unverified. DO NOT publish or schedule agent video yet. Need explicit confirmation there is no concurrent AutoPilot publish."
+    },
+    {
+      "channel": "whatif",
+      "researchDate": "2026-11-04",
+      "workingTitle": "What If Rainbows Appeared at Midnight? 🌙🌈",
+      "shortHook": "What if rainbows appeared at midnight?",
+      "length": "35–40 sec 9:16 Short; 82-word script before exact voice timing",
+      "proof": [
+        "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
+        "https://www.timeanddate.com/astronomy/moonbows.html"
+      ],
+      "scienceVerified": "Moonbows really exist: bright nearly full Moon low on horizon plus water droplets opposite Moon in dark sky. Usually appear pale or white to human eyes, while long-exposure photos show more color. Not every night, not glowing neon to naked eye.",
+      "scriptLocation": "data/whatif-moonbow-brief-2026-11-04.md",
+      "notDuplicateOf": [
+        "What If the Ocean Glowed Like Stars?",
+        "What If Saturn’s Rings Vanished Overnight?",
+        "What If Flowers Sent Invisible Electric Messages?"
+      ],
+      "experiment": "At matched 24h/7d/28d after any confirmed release, compare stayed-to-watch/engaged views, retention, subs/1k vs existing nature/science Shorts and observed Saturn. First 2sec and payoff must be tested by actual MP4 playback.",
+      "visualRule": "Preserve What If mixed-media visuals, no full-motion-in-every-shot mandate. Depict naked-eye mostly white moonbow vs long-exposure colorful photo honestly.",
+      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "blocker": "AI Tuber What If recurring AutoPilot unverified after Nov 3 dual production: no agent scheduling/publication."
     }
   ],
   "lastWhatIfMicroResearch": {
-    "date": "2026-11-03",
-    "scope": "AI Tuber production list, single verified published Ocean publication, Metricool What If public video analytics, free competitor publisher library, peer-reviewed bumblebee electric-field research, active 10000 credit plan.",
-    "findings": [
-      "AI Tuber GET /publications/16685215-b45e-4254-9c54-83cb7c7166d7 confirms Ocean Glowed Like Stars published at 18:01 Oslo on Nov 3, https://www.youtube.com/watch?v=l_eoxyfvfRM; no rebooking.",
-      "AI Tuber latest completed What If Octopuses Lived on Land? generated 18:00:33 Oslo Nov 3, id 97fbc25c-2c26-47ea-86e1-6900322870fc. Publication status/link NOT confirmed because publication list endpoint unsupported; risk of autopilot overlap remains.",
-      "AI Tuber balance 9808 of 10000 monthly; vidIQ remaining 2 credits, so NO paid vidIQ usage.",
-      "Metricool What If public 'all videos' snapshot on Nov 3: Earth's Magnetic Field Reversed 95 views (Oct 28 publish), Migratory Birds Lost Their Way 68 (Oct 26), Dogs Could Talk 13 (Oct 25), Dinosaurs Survived Asteroid 9 (Oct 30), Humans Lived With Dinosaurs 5 (Oct 31). Raw figures are different-aged cumulative counts and do NOT prove ranking of hooks or retention. Older 'Every Bee Disappeared' counts previously 137 but current connector reported 3; reconcile connector before analyzing that video.",
-      "QuirkScience publisher catalogue read Nov 3 has a Nov 1 9:18 long film on Europa and 1 minute science Shorts such as a Oct 28 shark/submarine question. Exact first 2 secs, real view counts and retention NOT watched/verified. Distinctive question with a scientifically grounded payoff is a structural reference only.",
-      "University of Bristol 2013 Science research on electric fields of flowers provided new original and source-grounded concept, not copying competitors."
+    "date": "2026-11-04",
+    "scope": "Dated 4 Nov What If Metricool video performance, AI Tuber production/publication status and shared credits, verified QuirkScience online film catalog and xkcd example, Met Office optical science.",
+    "finding": "Saturn Rings Vanished Overnight? (Nov 1 Short) shows 1635 cumulative views, 430 watch minutes, 15-sec avg duration out of actual AI Tuber 38 sec, 58 likes as of Nov 4 19:54 Oslo. Previously published bee (Oct 22) 139 views. Not age-matched, no causal topic conclusions. What If channel source mix Nov 1–4 dominated by 1796 Shorts views but includes 12 ADVERTISING; cannot assign exact source to Saturn.",
+    "competitorSources": [
+      {
+        "name": "QuirkScience",
+        "url": "https://quirkscience.com/films/",
+        "datedExample": "2026-11-02 What Happens to Your Body in Space? 1:04; one science question per Short, video not directly watched"
+      },
+      {
+        "name": "xkcd What If?",
+        "url": "https://bsky.app/profile/xkcd.com/post/3mgb5poz7kc2w",
+        "datedExample": "2026-03-04 What if you floated upwards 1 ft every second? Question structure only; actual first 2 secs not inspected"
+      }
     ],
-    "access": "Metricool exposes What If video snapshots; vidIQ linked channels include Bizarre Past and Highlights, NOT What If, so private YouTube retention, stayed-to-watch and 24h/7d comparison unavailable via authorized vidIQ right now. No Work session/browser, YouTube likes/comments/viewing were not performed.",
-    "nextStep": "Verify What If AutoPilot schedule in AI Tuber UI before any agent-controlled posting; then estimate costs and produce only a unique, approved-looking What If episode. No new video generated/published/scheduled in research run."
+    "scienceSource": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
+    "originalTest": "What If Rainbows Appeared at Midnight? (moonbow) – original script 82 words and visual scene outline in data/whatif-moonbow-brief-2026-11-04.md",
+    "guard": "No new generation or scheduling because Octopus AutoPilot generated at 18:00 Nov3 and only Ocean publication verified. Exactly what Octopus posted remains UNKNOWN.",
+    "statuses": {
+      "ocean": "Published Nov 3 18:01 Oslo confirmed again",
+      "octopus": "Generation completed Nov3, 33s and current script known, no public confirmation",
+      "vidiq": "2 credits; owner What If not connected",
+      "aituber": "9583/10000 remaining",
+      "newIdea": "RESEARCH_ONLY"
+    }
   }
 }
