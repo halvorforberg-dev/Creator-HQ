@@ -468,10 +468,12 @@
       "stockCreditsPerMinute": 50
     },
     "estimatedAllVideosAIgenerated": {
-      "basic": "about 14,000–24,000 credits/month",
-      "good": "about 27,000–45,000 credits/month",
-      "premium": "about 67,000–113,000 credits/month",
-      "max": "about 77,000–131,000 credits/month"
+      "basis": "Recomputed 2026-11-04 for AI Tuber channels only (What If and Little Wild), illustrative four-week schedule, 37.5s each Short, 3.5min each What If regular video, 4.5min each Little Wild regular video; 3510 generated video seconds if every second newly AI-generated.",
+      "basic": "~17,550 credits video only at 5 credits/s",
+      "good": "~35,100 credits video only at 10 credits/s",
+      "premium": "~91,260 credits video only at 26 credits/s",
+      "max": "~105,300 credits video only at 30 credits/s",
+      "note": "Not a quote or actual expected spend. What If uses mixed media and may consume far less generated AI video time. Voice, image/stock, revisions and retries may add cost; Bizarre Past is Higgsfield-only. These full-generation scenarios exceed the shared 10,000-credit limit, so verify actual costs first and never downgrade Little Wild to slideshows."
     },
     "feasibility": "The ALL-FULL-MOTION table is only a costly counterfactual, NOT the What If production requirement. What If may use suitable AI images, motion graphics and/or moving stock clips in mixed-media storytelling like the current channel; Little Wild requires original animated full-motion with recurring Milo/Miko/Pip. Estimate each actual planned video's costs separately; do not spend credits beyond 10,000 without approval.",
     "userApproval": "Credit package purchases and costly production beyond budget require explicit approval; publication itself is no-credit-cost.",
