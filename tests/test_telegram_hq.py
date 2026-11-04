@@ -27,7 +27,7 @@ class TestCreatorHQBot(unittest.TestCase):
         self.assertIn("9.11.2026",text)
     def test_existing_commands_without_api_key(self):
         with patch.object(bot,"OPENAI_KEY",""):
-            for cmd in ("/status","/today","/week","/channels","/help","/ideas","/improve"):
+            for cmd in ("/status","/alerts","/today","/week","/channels","/help","/ideas","/improve"):
                 self.assertTrue(bot.reply(cmd,self.data).strip(),cmd)
             self.assertIn("OPENAI_API_KEY",bot.reply("Hva blir publisert?",self.data))
     def test_live_metrics_snapshot_representation(self):
@@ -42,6 +42,11 @@ class TestCreatorHQBot(unittest.TestCase):
         text=bot.weekly(self.data)
         self.assertIn("FAKTISKE MÅLINGER", text)
         self.assertIn("Retention og CTR", text)
+
+    def test_alerts_does_not_pretend_live(self):
+        result=bot.reply("/alerts",self.data)
+        self.assertIn("bekreftede",result.lower())
+        self.assertIn("ikke en sanntidssjekk",result)
 
     def test_unknown_command(self):
         self.assertIn("Ukjent",bot.reply("/nonsense",self.data))
