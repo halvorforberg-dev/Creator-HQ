@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -165,6 +165,35 @@
           "exportCredits": 0,
           "currentBalanceObserved": 10000
         }
+      },
+      "latestAutopilotRiskObservation": {
+        "checkedAt": "2026-11-04T18:35:56+01:00",
+        "videoId": "bbd79dbc-f6a5-414e-9376-0381eec173f4",
+        "videoTitle": "The Splashy Tub-Team Rinse",
+        "createdAt": "2026-11-04T15:00:45.807Z",
+        "createdAtOslo": "2026-11-04 16:00:45 Europe/Oslo",
+        "status": "completed",
+        "actualDurationSeconds": 37,
+        "aspectRatio": "9:16",
+        "mediaType": "video",
+        "videoSegmentsObserved": 5,
+        "exportStatus": "completed",
+        "observedSource": "AI Tuber GET /videos and GET /videos/{id}",
+        "scriptIssue": "Actual script and prompts name Milo but call the other recurring characters 'Meerkat' and 'Bird' throughout, not Miko and Pip. Saved @Little-Wild-Milo-and-Friends reference not visible in API-returned input/preview. This conflicts with series identity requirements.",
+        "qc": "HOLD_NOT_APPROVED_FOR_FUTURE_REUSE: actual finished MP4 playback/character consistency, exact audio and final scene not inspected.",
+        "publication": "NOT VERIFIED. 16:00 generation is NOT proof of a YouTube upload. Could be AutoPilot; origin and AutoPilot scheduling settings are NOT accessible through connected API.",
+        "releaseRisk": "Existing main AI Tuber AutoPilot appears to keep generating Little Wild shorts around 16:00 Europe/Oslo, before desired 18:00, and without corrected names. Dashboard review required. Do not create any duplicate manual 18:00 post until schedule verified.",
+        "credits": {
+          "sharedBalanceAtCheck": 9583,
+          "monthlyCredits": 10000,
+          "previousCheckBalance": 9808,
+          "deltaFromPreviousCheck": -225,
+          "attribution": "UNKNOWN; credit decrease cannot be assigned reliably to this video or another channel",
+          "newCreditsSpentByAgent": 0,
+          "additionalPurchase": false
+        },
+        "ownerAnalytics": "vidIQ connected owner channels do not include Little Wild; public vidIQ channel-videos request failed with insufficient credits (2 remaining, 5 required) and no credits were charged. Metricool brands do not include Little Wild.",
+        "nextStep": "User should inspect/pause or correct main and Weekly Long Story AutoPilot schedules in AITuber dashboard; enforce names Milo/Miko/Pip, approved visual reference, full-motion and pre-publication MP4+audio review and release time 18:00; avoid publishing rejected scripts."
       }
     },
     "whatif": {
@@ -292,7 +321,7 @@
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-03",
+      "verifiedDate": "2026-11-04",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -314,7 +343,8 @@
         "Little Wild Autopilot target currently unverified and last public upload 16:07 Oslo on 2026-11-02; must be fixed in platform settings"
       ],
       "notes": [
-        "2026-11-03 18:24 Oslo: Milo's Wobbly Tower PILOT completed/exported but HOLD for 42s duration, bad generated title, no MP4 AV-QC or AutoPilot duplicate/time verification. Not scheduled by channel agent."
+        "2026-11-03 18:24 Oslo: Milo's Wobbly Tower PILOT completed/exported but HOLD for 42s duration, bad generated title, no MP4 AV-QC or AutoPilot duplicate/time verification. Not scheduled by channel agent.",
+        "2026-11-04 18:36 Oslo: AI Tuber generated 'The Splashy Tub-Team Rinse' ID bbd79dbc-f6a5-414e-9376-0381eec173f4 at 16:00 local today (37s, 9:16, 5 video scenes, exported). Script names sidekicks generically Meerkat/Bird; not QC approved. Public YouTube publication and recurrence/booking are UNVERIFIED. Do not duplicate an upload or assume the 18:00 schedule is set."
       ]
     }
   },
@@ -349,6 +379,15 @@
       "videoB": "97fbc25c-2c26-47ea-86e1-6900322870fc",
       "reason": "Special manual/agent-produced video was scheduled for 18:00 while recurring AutoPilot generated another at 18:00. Exact origin of second generation and public publication unverified.",
       "remedy": "HOLD extra manual/agent posting pending AI Tuber AutoPilot configuration check; keep queued/published uploads unchanged."
+    },
+    {
+      "channel": "Little Wild Adventures",
+      "date": "2026-11-04",
+      "video": "The Splashy Tub-Team Rinse",
+      "videoId": "bbd79dbc-f6a5-414e-9376-0381eec173f4",
+      "status": "GENERATED_AUTOMATION_ORIGIN_UNVERIFIED; PUBLICATION_UNVERIFIED; QC_HOLD",
+      "reason": "16:00 Oslo production despite 18:00 editorial target, old 'Meerkat'/'Bird' names vs Miko/Pip and missing saved reference mention in returned generation data.",
+      "remedy": "Verify main/Weekly Long Story AutoPilot in UI and schedule; force script/character compliance; check full 1080p MP4 + audio before manually posting, avoid duplicate."
     }
   ],
   "competitorResearch": {
@@ -380,13 +419,13 @@
       "plan": "Studio",
       "status": "active",
       "monthlyCredits": 10000,
-      "balanceAtCheck": 9808,
+      "balanceAtCheck": 9583,
       "provider": "AITuber get_subscription",
       "channels": [
         "Little Wild Adventures",
         "What If in 40 Seconds"
       ],
-      "checkedAt": "2026-11-03T19:12+01:00",
+      "checkedAt": "2026-11-04T18:35:56+01:00",
       "balanceSource": "AITuber get_subscription"
     },
     "separateService": "Bizarre Past is produced solely in Higgsfield and NOT included in AITuber credits.",
@@ -435,18 +474,47 @@
   },
   "operationalChecks": {
     "littleWildLatest": {
-      "verifiedAt": "2026-11-03 ~18:24 Europe/Oslo",
+      "verifiedAt": "2026-11-04T18:35:56+01:00",
       "producer": "AI Tuber connected API",
       "pilotVideoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
-      "pilotState": "completed, export completed 1080p; 42s; original title is raw script fragment",
+      "pilotState": "Prior 42s pilot ID 466835c0-27bd-4172-a846-4d9f3d187f32 still completed and exported; still HOLD_NOT_APPROVED with no confirmed new booking.",
       "pilotQC": "HOLD_NOT_APPROVED. MP4 could not be viewed/listened to because CDN host resolution failed in container and web viewer could not open MP4. Exact character looks, motion quality, intelligible audio, and ending unverified.",
       "confirmedActualBooking": "none independently confirmed for pilot; no publication performed this run",
-      "mainAndWeeklyAutopilot": "UNVERIFIED, API lacks a series schedule/list; last observed 2026-11-02 Little Wild 16:07 local, NOT target 18:00",
-      "aituberStudioAvailableCredits": 9808,
-      "creditsNote": "Point-in-time shared What If + Little Wild balance, NOT Little Wild reserved funds. The 70/30 split is provisional; generation cost of pilot unknown; no paid action this run.",
+      "mainAndWeeklyAutopilot": "NOT VERIFIED; newly generated Nov 4 video at 16:00 Oslo with generic character names. Do not claim actual AutoPilot setting, public upload, or fix. Dashboard check still required.",
+      "aituberStudioAvailableCredits": 9583,
+      "creditsNote": "Observed shared balance 9583/10000 on 2026-11-04, 225 lower than prior 9808 snapshot; cannot attribute. 70/30 allocation remains editorial only.",
       "platformChannels": "Little Wild and What If connected in AI Tuber; vidIQ user-channels list currently contains Bizarre Past and Highlights, not Little Wild, so Little Wild private Studio analytics unavailable via that vidIQ connection.",
       "nextAction": "Do NOT queue/generate new Little Wild movie until exported MP4 QC with sound and UI AutoPilot timing/duplicate check. Verify actual duration 42s and correct script-derived title. Keep What If priority.",
-      "newActions": "Read-only provider & official educational research; no generation, export, upload, edit, purchase, comment, or like."
+      "newActions": "Read-only audit of AITuber subscription, video metadata, connected channels, candidate pilot and title; public vidIQ query failed for insufficient vidIQ credits. No video generation, publish, paid credits, user engagement or manual edits.",
+      "autopilotNewVideoObservation": {
+        "checkedAt": "2026-11-04T18:35:56+01:00",
+        "videoId": "bbd79dbc-f6a5-414e-9376-0381eec173f4",
+        "videoTitle": "The Splashy Tub-Team Rinse",
+        "createdAt": "2026-11-04T15:00:45.807Z",
+        "createdAtOslo": "2026-11-04 16:00:45 Europe/Oslo",
+        "status": "completed",
+        "actualDurationSeconds": 37,
+        "aspectRatio": "9:16",
+        "mediaType": "video",
+        "videoSegmentsObserved": 5,
+        "exportStatus": "completed",
+        "observedSource": "AI Tuber GET /videos and GET /videos/{id}",
+        "scriptIssue": "Actual script and prompts name Milo but call the other recurring characters 'Meerkat' and 'Bird' throughout, not Miko and Pip. Saved @Little-Wild-Milo-and-Friends reference not visible in API-returned input/preview. This conflicts with series identity requirements.",
+        "qc": "HOLD_NOT_APPROVED_FOR_FUTURE_REUSE: actual finished MP4 playback/character consistency, exact audio and final scene not inspected.",
+        "publication": "NOT VERIFIED. 16:00 generation is NOT proof of a YouTube upload. Could be AutoPilot; origin and AutoPilot scheduling settings are NOT accessible through connected API.",
+        "releaseRisk": "Existing main AI Tuber AutoPilot appears to keep generating Little Wild shorts around 16:00 Europe/Oslo, before desired 18:00, and without corrected names. Dashboard review required. Do not create any duplicate manual 18:00 post until schedule verified.",
+        "credits": {
+          "sharedBalanceAtCheck": 9583,
+          "monthlyCredits": 10000,
+          "previousCheckBalance": 9808,
+          "deltaFromPreviousCheck": -225,
+          "attribution": "UNKNOWN; credit decrease cannot be assigned reliably to this video or another channel",
+          "newCreditsSpentByAgent": 0,
+          "additionalPurchase": false
+        },
+        "ownerAnalytics": "vidIQ connected owner channels do not include Little Wild; public vidIQ channel-videos request failed with insufficient credits (2 remaining, 5 required) and no credits were charged. Metricool brands do not include Little Wild.",
+        "nextStep": "User should inspect/pause or correct main and Weekly Long Story AutoPilot schedules in AITuber dashboard; enforce names Milo/Miko/Pip, approved visual reference, full-motion and pre-publication MP4+audio review and release time 18:00; avoid publishing rejected scripts."
+      }
     },
     "bizarreNextProduction": {
       "date": "2026-11-04",
