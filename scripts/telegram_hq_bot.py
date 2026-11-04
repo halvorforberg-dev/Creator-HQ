@@ -32,7 +32,8 @@ def sources():
             "p":load("data/aituber-publications.json"),
             "brief":load("data/telegram-agent-brief.json"),
             "metrics":load("data/telegram-metrics.json"),
-            "competition":load("data/competitor-watch.json")}
+            "competition":load("data/competitor-watch.json"),
+            "alerts":load("data/production-alerts.json")}
 
 def stamp(data):
     return ("Kildedatoer (lagrede snapshots, ikke sanntid):\n"
@@ -152,6 +153,23 @@ def competitor_summary(data):
     lines.append("Observasjoner, ikke bevis på hva som gir visninger. Full oversikt i Creator HQ.")
     return "\n".join(lines)
 
+def alert_status(data):
+    stored=data.get("alerts") or {}
+    all_items=stored.get("alerts") or []
+    blockers=[a for a in all_items if isinstance(a,dict)
+              and a.get("state")=="open" and a.get("severity") in ("blocker","critical")
+              and a.get("confirmed") is True]
+    if not blockers:
+        return ("✅ INGEN BEKREFTEDE ÅPNE BLOKKERINGER REGISTRERT I HQ.\n"
+                "Merk: Dette er sist lagrede status, ikke en sanntidssjekk av eksterne systemer.")
+    lines=["🚨 CREATOR HQ · REGISTRERTE BLOKKERINGER"]
+    for a in blockers[:8]:
+        lines.extend(["", "• "+str(a.get("channel","Creator HQ"))+": "+str(a.get("summary","Ukjent"))[:220],
+                      "  Tiltak: "+str(a.get("action","Må undersøkes"))[:280],
+                      "  Bekreftet: "+str(a.get("confirmedAt","ukjent"))[:40]])
+    lines.append("\nKilde: siste oppdatering av data/production-alerts.json – ikke live.")
+    return "\n".join(lines)
+
 def weekly(data):
     now=datetime.now(TZ); start=now-timedelta(days=7)
     recent=[p for p in posts(data) if when(p.get("date")) and start<=when(p["date"])<=now]
@@ -174,6 +192,7 @@ def channels(data):
 
 HELP=("🤖 CREATOR HQ BOT · RAPPORTER\n\n"
       "/status – siste registrerte kanalstatus\n"
+      "/alerts – bekreftede problemer som stopper produksjon\n"
       "/today – dagens registrerte publiseringsplan\n"
       "/week – ukesrapport fra HQ-data\n"
       "/channels – de tre kanalene\n"
@@ -319,6 +338,7 @@ def reply(message,data):
     cmd=message.split(maxsplit=1)[0].split("@",1)[0].lower()
     if cmd in ("/start","/help"): return HELP
     if cmd=="/status": return status(data)
+    if cmd=="/alerts": return alert_status(data)
     if cmd=="/today": return today(data)
     if cmd=="/week": return weekly(data)
     if cmd=="/channels": return channels(data)
@@ -381,6 +401,7 @@ def main():
         print("No webhook conflict. Polling mode is available.")
         telegram("setMyCommands",{"commands":[
             {"command":"status","description":"Siste kjente status"},
+            {"command":"alerts","description":"Bekreftede produksjonsstopp"},
             {"command":"today","description":"Dagens publiseringsplan"},
             {"command":"week","description":"Ukesoversikt"},
             {"command":"channels","description":"De tre kanalene"},
