@@ -430,11 +430,31 @@
     },
     "separateService": "Bizarre Past is produced solely in Higgsfield and NOT included in AITuber credits.",
     "productionGoalMonthly": {
-      "shorts": 26,
-      "regularVideos": 9,
-      "regularVideoDurationMinutes": "3–6",
-      "shortDurationSeconds": "35–40",
-      "status": "EDITORIAL_GOALS; NOT CONFIRMED ALL BOOKED"
+      "shorts": 28,
+      "regularVideos": 20,
+      "basis": "4-week editorial planning period starting 2026-11-09; not calendar month, not confirmed platform bookings",
+      "breakdownFourWeeks": {
+        "bizarre": {
+          "shorts": 8,
+          "regularVideos": 8,
+          "platform": "Higgsfield → Metricool; excluded from AI Tuber credits"
+        },
+        "whatif": {
+          "shorts": 8,
+          "regularVideos": 8,
+          "platform": "AI Tuber; Mon/Fri Shorts, Wed/Sun 3–4-min 16:9"
+        },
+        "littleWild": {
+          "shorts": 12,
+          "regularVideos": 4,
+          "platform": "AI Tuber; Mon/Wed/Fri Shorts, Sun 3–6-min 16:9"
+        }
+      },
+      "aiTuberOnly": {
+        "shorts": 20,
+        "regularVideos": 12
+      },
+      "status": "EDITORIAL TARGETS ONLY; not actual bookings or a production guarantee. Cannot use this combined total as an AI Tuber purchase order."
     },
     "officialRates": {
       "source": "https://help.aituber.app/en/article/quality-tiers-explained-basic-good-premium-max-oagajm/",
@@ -470,6 +490,18 @@
       "priority": "What If gets first call on AI Tuber credits. Keep the visually engaging mixed format that works today; full-motion is not mandatory. Little Wild uses original full-motion video and approved Milo/Miko/Pip character reference, but fewer productions if budget requires.",
       "productionMethod": "Run a cost estimate before each paid generation, record estimated and actual credits, and reserve for revisions before scheduling.",
       "separateBudget": "Bizarre Past remains entirely in Higgsfield -> Metricool, outside this calculation."
+    },
+    "fourWeekFeasibilityCheck": {
+      "checkedAt": "2026-11-04",
+      "status": "ILLUSTRATIVE NOT PROVIDER QUOTE",
+      "provisionalCreditAllocation": {
+        "whatif": 7000,
+        "littleWild": 3000,
+        "total": 10000
+      },
+      "illustration": "For 4 weeks at 37.5 s per Short, What If eight 3.5-min long films, Little Wild four 4.5-min long films: What If 1980s; Little Wild 1530s of footage. At 5 credits per AI-generated video second, full AI-video for What If would use ~9900 and Little Wild ~7650 credits BEFORE voice, edits or retries. Their combined ~17550 exceeds 10000. What If's approved mixed-media visuals can lower its generated-video seconds; Little Wild needs real animated scenes, not a static workaround.",
+      "caution": "Timing, recurring AutoPilot, concrete per-video media costs, credit budget, visual/audio quality, public long-form 16:9 export and actual queue must be checked individually. Do not silently promise 20 Shorts+12 long videos in AI Tuber over four weeks. Report infeasibility before generating, without buying credits.",
+      "source": "Existing Creator HQ AI Tuber quality-tier rate snapshot: basic AI video 5 credits/second; estimate not a quote for specific actual project."
     }
   },
   "operationalChecks": {
@@ -524,6 +556,15 @@
       "status": "RESEARCH_READY_NOT_GENERATED",
       "brief": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
       "risk": "Live Higgsfield balance 32.8; cinematic example 40s 5×8 sec costs 60 credits without narration/edit and no 1080p guarantee. Do not spend now or claim production."
+    },
+    "whatifRetentionImprovement": {
+      "updatedAt": "2026-11-04",
+      "status": "EDITED_RESEARCH_BRIEF_ONLY_NO_NEW_PRODUCTION_OR_PUBLICATION",
+      "basis": "Metricool latest accessible historical video table through 2026-11-01: Saturn Nov 1 1635 cumulative views, 15 seconds average viewing of 38-second Short. Other videos are not age matched; no owner-level first-two-seconds retention or engaged views available.",
+      "test": "Moonbow 78-word script v2: 'What if' at frame zero, real moonbow named by 4s, eyes-versus-long-exposure contrast within 7s, single clear physics payoff, complete ending.",
+      "briefPath": "data/whatif-moonbow-brief-2026-11-04.md",
+      "measurement": "Use owner Studio engaged views, stayed-to-watch and 15s retention at 24h/7d/28d after confirmed posting; don't infer from Metricool all-time views.",
+      "guard": "What If vidIQ owner channel not connected (user's linked vidIQ lists Bizarre, Little Wild and Highlights only), AI Tuber AutoPilot recurring schedule inaccessible through API; do not schedule manually or assume queued video safe. Keep all existing bookings."
     }
   },
   "channelAudit": {
@@ -660,7 +701,15 @@
         "allAI3to4MinPerVideoBasicApprox": "900–1200 credits for footage before voice; 8 such videos/month = 7200–9600 before shorts, revisions and Little Wild. Thus two full-AI long films/week cannot be assumed affordable in 7000; prefer source-verified stock, images, graphics and selected AI clips; get itemized current quote before generation.",
         "quality": "Mixed-media What If okay, still requires strong hook, natural voice, payoff and final MP4 playback."
       },
-      "nextAction": "Verify recurring What If AutoPilot target and collision-free actual queue directly in AI Tuber dashboard before agent posts. After explicit available unique slot, estimate credits, produce/review Moonbow or electric flowers, full MP4+audio QC, then schedule. Track Saturn 1635 vs retention at matching age rather than blindly repeating space topics."
+      "nextAction": "Verify recurring What If AutoPilot target and collision-free actual queue directly in AI Tuber dashboard before agent posts. After explicit available unique slot, estimate credits, produce/review Moonbow or electric flowers, full MP4+audio QC, then schedule. Track Saturn 1635 vs retention at matching age rather than blindly repeating space topics.",
+      "latestEditorialImprovement": {
+        "date": "2026-11-04",
+        "brief": "data/whatif-moonbow-brief-2026-11-04.md",
+        "scriptVersion": 2,
+        "revealBySecond": 7,
+        "publicationState": "NOT_GENERATED_NOT_BOOKED",
+        "creditsSpentOnThisImprovement": 0
+      }
     },
     "bizarre": {
       "checkedAt": "2026-11-04T17:35+01:00",
