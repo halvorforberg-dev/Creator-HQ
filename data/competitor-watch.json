@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -450,17 +450,89 @@
       "note": "Numberblocks official + Peep official curriculum. Sources confirm educational design philosophies, NOT current view counts, first two seconds, nor retained audiences.",
       "originalTest": "Little Wild: Milo visibly makes a mistake in first frame; Miko and bright-blue Pip demonstrate 1 action the child can copy (tap-tap-stop or stack 3 broad blocks), with a funny failed try and satisfied payoff. Check 24h/7d/28d analytics when available.",
       "status": "Hypothesis only; no Little Wild video published or analytics read in this run"
+    },
+    {
+      "researchedOn": "2026-11-04",
+      "channel": "bizarre",
+      "status": "original_fact_check_and_qc_budget_gate_completed",
+      "sources": [
+        {
+          "source": "Vesuvius Challenge official research announcement",
+          "url": "https://scrollprize.org/firstscroll",
+          "published": "2026-06-25",
+          "checked": "2026-11-04"
+        },
+        {
+          "source": "Reuters research coverage",
+          "url": "https://www.reuters.com/science/complete-text-carbonised-herculaneum-scroll-unlocked-first-time-2026-06-25/",
+          "published": "2026-06-25",
+          "checked": "2026-11-04"
+        },
+        {
+          "source": "History Matters video snapshot as prior competitor context",
+          "url": "https://trari.com/en/c/historymatters/",
+          "asOf": "2026-11-03"
+        }
+      ],
+      "datedOwnSnapshots": {
+        "snapshotAt": "2026-11-04",
+        "nonAgeMatchedCumulativeExamples": [
+          {
+            "title": "Vikings Left Prisoners for the Rising Tide?",
+            "published": "2026-10-21",
+            "views": 1262,
+            "avgDurationSeconds": 18
+          },
+          {
+            "title": "The Vikings Didn't Just Steal Gold — They Stole People",
+            "published": "2026-10-23",
+            "views": 740,
+            "avgDurationSeconds": 20
+          },
+          {
+            "title": "The Viking King Who Changed Denmark's Gods",
+            "published": "2026-10-30",
+            "views": 715,
+            "avgDurationSeconds": 15
+          },
+          {
+            "title": "The Battle That Killed a Viking King",
+            "published": "2026-10-28",
+            "views": 33,
+            "avgDurationSeconds": 7
+          }
+        ],
+        "limits": "Cumulative counts at different ages, NOT an age-matched growth test. No 0–2s retention curve or CTR available. Causal success attributed to titles would be speculation."
+      },
+      "observation": "Prior History Matters WHY-title pattern remains a packaging hypothesis. For Bizarre's own differently-aged October Shorts, the concrete consequence and paradox appear useful as editorial principles, but published cumulative counts cannot establish causation. Research directly checked 2026 scroll claim: first end-to-end reading of the SURVIVING CORE, not lost original outer layers. 22 columns Stoic Greek text—not a Bible manuscript, hidden treasure map or an intact complete original book. Actual first-two-seconds of competitor videos were NOT inspected.",
+      "originalExperiment": {
+        "workingTitle": "Did You Know a Volcano Saved a Book Nobody Could Open?",
+        "target": "2026-11-09 18:00 Europe/Oslo editorial Short, not scheduled",
+        "first2Seconds": "Did you know… this burned lump was a BOOK?",
+        "payoff": "2026 X-ray/ML reconstruction revealed the surviving Stoic Greek text, not a mythical treasure map.",
+        "scriptLocation": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
+        "comparison": "First2s retention, engaged views, stayed-to-watch, avg percentage watched and subscribers at 24h/7d/28d vs previous Bizarre Shorts of matching age and format once YouTube Analytics authorized.",
+        "status": "RESEARCH_ONLY_NOT_GENERATED_OR_BOOKED"
+      },
+      "generationBudget": {
+        "balance": 32.8,
+        "quoteFor8Sec": 12,
+        "illustrative40Sec5Clips": 60,
+        "status": "Current balance appears below cinematic full-motion short budget; no purchases, no downgrade to slideshow"
+      },
+      "noWorkClaims": true
     }
   ],
   "latestRecommendations": {
     "bizarre": {
-      "dated": "2026-11-03",
-      "insight": "Stor langform-kanal og liten raskt voksende historieforteller lykkes med én dramatisk WHY/WHO-friksjon i tittelen, men ytelsen kan ikke tilskrives tittelen alene.",
-      "action": "Did You Know a Volcano Hid a Library We Can Read Without Opening?",
+      "dated": "2026-11-04",
+      "insight": "A striking primary-source historical paradox may package well when the payoff explicitly corrects popular assumptions. Own video views are not age-matched and cannot prove a title formula.",
+      "action": "Did You Know a Volcano Saved a Book Nobody Could Open? (editorial short idea only)",
       "referenceSources": [
         "https://scrollprize.org/firstscroll",
         "https://www.reuters.com/science/complete-text-carbonised-herculaneum-scroll-unlocked-first-time-2026-06-25/"
-      ]
+      ],
+      "productionBrief": "data/bizarre-past-herculaneum-brief-2026-11-04.md"
     },
     "whatif": {
       "dated": "2026-11-03",
