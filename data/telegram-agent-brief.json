@@ -137,5 +137,13 @@
       "littleWild": 3000
     },
     "status": "Planning allocation, not hard platform caps"
+  },
+  "telegramBlockerPush": {
+    "enabled": true,
+    "rule": "When verified real stop appears, write sanitized entry to data/production-alerts.json. Existing GitHub workflow sends private Telegram. Do not invent blockers or spam on stale status.",
+    "botCommand": "/alerts",
+    "state": "Configured, delivery of first real push not yet tested",
+    "monitorAutomation": "6aeba316aa608191b4e21420dadaf407",
+    "safety": "No account tokens or private campaign identifiers in public GitHub alert feed."
   }
 }
