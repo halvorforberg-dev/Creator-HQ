@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -135,6 +135,21 @@
       "measure": "At similar post age, engaged views, stayed-to-watch, 24h/7d/28d retention and subs/1000 views; test one new hook/payoff concept at a time",
       "status": "SRC_VERIFIED_RESEARCH_ONLY_NO_VIDEO_OR_BOOKING",
       "nextTrial": "What If Rainbows Appeared at Midnight? – detailed brief 2026-11-04, blocked by AutoPilot confirmation"
+    },
+    {
+      "channel": "bizarre",
+      "hypothesis": "A documented physical-object paradox (a corroded bronze lump that encoded eclipse cycles) with visibly moving mechanism in seconds 0–2, then concrete 223-month Saros reveal and truthful caveat about reconstructed missing parts, might build stronger retention than a generic ancient-history question. Existing title-frame competitor patterns are inspiration only; no competitor video opening was viewed.",
+      "measure": "For ordinary 16:9 films, same-age 24h/7d/28d YouTube CTR, viewer retention, qualified public watch minutes and subscriber conversion; compare other Bizarre long-form videos only after confirmed release, not against Shorts cumulative counts.",
+      "status": "EVIDENCE_CHECKED_UNTESTED_RESEARCH_DRAFT_NO_GENERATION_OR_BOOKING_2026-11-05",
+      "nextTrial": "The Rusted Lump That Predicted Eclipses 2,000 Years Ago, editorial Wed Nov11 16:9 2–4 min; brief data/bizarre-past-antikythera-long-brief-2026-11-05.md",
+      "sourceLinks": [
+        "https://www.nature.com/articles/nature07130",
+        "https://www.ucl.ac.uk/news/2021/mar/experts-recreate-mechanical-cosmos-worlds-first-computer",
+        "https://antikythera.mpiwg-berlin.mpg.de/node/3.html"
+      ],
+      "observedOwnData": "Authenticated Metricool 2026-11-05 cumulative Oct21 tidal 1262, Oct23 Viking slave trade 740, Oct30 Harald Bluetooth 715, Oct28 Stamford Bridge short 33; different ages, no first-2s retention or causal conclusion.",
+      "verifiedNuance": "Saros 223 lunar-month dial is evidence-supported, but full front cosmos gear arrangement is proposed reconstruction; maker unknown.",
+      "qCAndBudget": "Higgsfield only, live balance 32.8 credits, no generation; quality cannot be approved until actual MP4 playback."
     }
   ],
   "lastResearch": {
@@ -553,6 +568,35 @@
       "noWorkClaims": true,
       "blocker": "No AutoPilot schedule read endpoint and What If missing from vidIQ owner authorization; no valid 24h/7d owner analytics.",
       "creditsSpentNow": 0
+    },
+    {
+      "researchedOn": "2026-11-05",
+      "channel": "bizarre",
+      "sources": [
+        {
+          "name": "Nature — Freeth et al 2008 peer-reviewed Antikythera Saros back dial",
+          "url": "https://www.nature.com/articles/nature07130"
+        },
+        {
+          "name": "UCL — 2021 proposed model of missing Antikythera front",
+          "url": "https://www.ucl.ac.uk/news/2021/mar/experts-recreate-mechanical-cosmos-worlds-first-computer"
+        },
+        {
+          "name": "Max Planck Institute — historical Antikythera Mechanism object research",
+          "url": "https://antikythera.mpiwg-berlin.mpg.de/node/3.html"
+        },
+        {
+          "name": "Vesuvius Challenge — confirmed 2026 surviving core scroll breakthrough for Monday Short",
+          "url": "https://scrollprize.org/firstscroll"
+        }
+      ],
+      "ownSource": "Authenticated Metricool 7296504 scheduled provider records and YouTube/TikTok video tables Nov5; Higgsfield authenticated balance 32.8, read-only model catalog and project placements",
+      "ownFinding": "Both Nov4 Oak Island posts are PUBLISHED on YouTube and TikTok (verified authenticated Metricool Nov5). Nov6 Knights Templar and Nov8 Pastry War YouTube+TikTok remain PENDING 18:00, no changes. Nov4 Oak Island 262 cumulative TikTok views and 0 likes in latest Metricool row; YouTube all-videos result lags to Oct30, not zero views. Older titles with specific human consequences had 1262/740/715 cumulative YT views at different ages; no retention/causal inference.",
+      "externalObservation": "Saros dial and 19-year calendar independently source-verified via Nature. Proposed front cosmos model must be labelled reconstruction. Previous competitor-watch reference examples read; their actual 0–2s video motion was not inspected in this run. Do not claim current competitor performance.",
+      "originalTest": "Antikythera 16:9 Wednesday original ~364-word draft with movement/storyboard; fully fact-sourced research-only at data/bizarre-past-antikythera-long-brief-2026-11-05.md. Monday Herculaneum Short remains research-only.",
+      "noWorkClaims": true,
+      "creditsSpentNow": 0,
+      "blockers": "None newly confirmed. 32.8 Higgsfield credits constrain future editorial-only (not booked) work; no paid or production action taken."
     }
   ],
   "latestRecommendations": {
