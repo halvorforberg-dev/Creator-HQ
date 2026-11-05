@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T18:26:13+01:00",
+  "updatedAt": "2026-11-05T20:19:57.047Z",
   "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -44,7 +44,7 @@
       "id": "little-wild-autopilot-unreviewed-publishing-2026-11-05",
       "channel": "Little Wild Adventures",
       "category": "quality_gate_blocker",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-05T18:26:13+01:00",
@@ -57,11 +57,17 @@
         "url": "https://mail.google.com/mail/u/?authuser=halvorforberg%40gmail.com#all/1a1a9f95b28c7856"
       },
       "summary": "AI Tuber bekrefter at Little Wilds to aktive AutoPilot-serier fremdeles publiserer automatisk uten MP4-/lyd-QC: Shorts neste fredag 06.11 kl. 16:00 Oslo, Weekly Long Story neste mandag 09.11 kl. 16:00 Oslo som 5 min stillbilder (feil modus). Dette blokkerer kravet om kvalitetsgodkjenning før ny publikasjon og 18:00-tid.",
-      "action": "Åpne AI Tuber AutoPilot nå; koble fra YouTube-publisering i BEGGE seriene slik at bare utkast genereres. PAUSE Weekly Long Story inntil ekte full-motion og kredittbudsjett er avklart (~1650 credits per 5 min AI-video). Kontroller Shorts/figurer og gjennomse MP4 med lyd før eventuell manuell publisering kl. 18:00. Support er bedt om hjelp, men har IKKE endret innstillingene. Ikke dupliser eksisterende innlegg.",
+      "action": "Ingen innlogging eller pausehandling nødvendig. Kvalitetssjekk neste Shorts-utkast med lyd før eventuell separat booking kl. 18:00. Langfilm-serien skal forbli pauset inntil oppsettet er rettet.",
       "relatedLinks": [
         "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489"
       ],
-      "ownerActionRequired": true
+      "ownerActionRequired": false,
+      "resolvedAt": "2026-11-05T20:19:57.047Z",
+      "resolution": {
+        "source": "Authenticated AI Tuber dashboard; changes saved and visibly verified",
+        "shorts": "YouTube channel deselected; saved. Provider displays 'Videos are saved to My Videos' and 'Nothing posts'. Active generation every 2 days at 16:00 Europe/Oslo retained.",
+        "weeklyLongStory": "Paused; provider displays 'Paused' and Resume button. Must not resume until full-motion settings and QA are ready."
+      }
     }
   ]
 }
