@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-11-04T08:27:55.655Z",
+  "updatedAt": "2026-11-05T08:30:06.406Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "bbd79dbc-f6a5-414e-9376-0381eec173f4",
+      "title": "The Splashy Tub-Team Rinse",
+      "status": "completed",
+      "createdAt": "2026-11-04T15:00:45.807Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "97fbc25c-2c26-47ea-86e1-6900322870fc",
       "title": "What If Octopuses Lived on Land?",
