@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-04T07:18:24+01:00",
-  "requestedThrough": "2026-11-04",
+  "updatedAt": "2026-11-05T07:59:12+01:00",
+  "requestedThrough": "2026-11-05",
   "source": "Metricool authenticated analytics via connected app",
-  "periodStart": "2026-10-04",
-  "periodEnd": "2026-11-04",
+  "periodStart": "2026-10-05",
+  "periodEnd": "2026-11-05",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
-      "platform": "youtube",
+      "platform": "youtube+tiktok",
       "source": "Metricool",
       "brandId": "7296504",
       "youtube": {
@@ -223,10 +223,10 @@
           {
             "date": "2026-11-02",
             "subscribers": 29,
-            "views": null,
+            "views": 877,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 4,
+            "followersLost": 0
           },
           {
             "date": "2026-11-03",
@@ -239,6 +239,14 @@
           {
             "date": "2026-11-04",
             "subscribers": 33,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-05",
+            "subscribers": 34,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -445,7 +453,7 @@
           },
           {
             "date": "2026-10-12",
-            "videoViews": 1604,
+            "videoViews": 1606,
             "followers": 1,
             "followerNetChange": 0
           },
@@ -580,6 +588,12 @@
             "videoViews": null,
             "followers": 3,
             "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-04",
+            "videoViews": 262,
+            "followers": 3,
+            "followerNetChange": 0
           }
         ]
       }
@@ -707,17 +721,17 @@
             "date": "2026-11-01",
             "subscribers": 9,
             "views": 1666,
-            "videosPublished": null,
+            "videosPublished": 1,
             "followersGained": 6,
             "followersLost": 0
           },
           {
             "date": "2026-11-02",
             "subscribers": 15,
-            "views": null,
+            "views": 251,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 5,
+            "followersLost": 1
           },
           {
             "date": "2026-11-03",
@@ -729,7 +743,7 @@
           },
           {
             "date": "2026-11-04",
-            "subscribers": 27,
+            "subscribers": 30,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -738,10 +752,19 @@
         ],
         "videos": [
           {
+            "publishedAt": "20261101170654",
+            "title": "What If Saturn’s Rings Vanished Overnight?",
+            "views": 1635,
+            "watchMinutes": 430.04799999999966,
+            "likes": 58,
+            "comments": 2,
+            "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0"
+          },
+          {
             "publishedAt": "20261022160436",
             "title": "What If Every Bee Disappeared?",
-            "views": 137,
-            "watchMinutes": 19.335783333333335,
+            "views": 139,
+            "watchMinutes": 20.011783333333334,
             "likes": 7,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=IhwnM1ipVWE"
@@ -749,8 +772,8 @@
           {
             "publishedAt": "20261028170511",
             "title": "What If Earth’s Magnetic Field Reversed?",
-            "views": 95,
-            "watchMinutes": 23.22665,
+            "views": 98,
+            "watchMinutes": 24.427816666666665,
             "likes": 5,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=wr4Mzn1b10k"
@@ -758,8 +781,8 @@
           {
             "publishedAt": "20261026170501",
             "title": "What If Migratory Birds Lost Their Way?",
-            "views": 68,
-            "watchMinutes": 11.595199999999998,
+            "views": 69,
+            "watchMinutes": 11.949866666666665,
             "likes": 9,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
@@ -767,62 +790,62 @@
           {
             "publishedAt": "20261018170925",
             "title": "What If the Moon Disappeared Tonight?",
-            "views": 19,
-            "watchMinutes": 5.0941833333333335,
-            "likes": 2,
+            "views": 20,
+            "watchMinutes": 5.4725166666666665,
+            "likes": 3,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=s42iD-x3u1g"
           },
           {
+            "publishedAt": "20261031170905",
+            "title": "What If Humans Lived With Dinosaurs? A Day in Our New World",
+            "views": 18,
+            "watchMinutes": 7.3687,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=OT6P32a60Rg"
+          },
+          {
             "publishedAt": "20261025180201",
             "title": "What If Dogs Could Talk? 🐶😂 | Biscuit & Pixel",
-            "views": 13,
-            "watchMinutes": 27.99225,
+            "views": 14,
+            "watchMinutes": 28.15625,
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=iOstByrBFdE"
           },
           {
+            "publishedAt": "20261030170411",
+            "title": "What If Dinosaurs Survived the Asteroid?",
+            "views": 13,
+            "watchMinutes": 4.5216666666666665,
+            "likes": 3,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=mlzAbOhLYEI"
+          },
+          {
             "publishedAt": "20261019160507",
             "title": "What If Earth Stopped Spinning for One Second?",
-            "views": 9,
-            "watchMinutes": 1.0711499999999998,
+            "views": 11,
+            "watchMinutes": 1.6313166666666665,
             "likes": 2,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=GuXlFlUfX7A"
           },
           {
-            "publishedAt": "20261030170411",
-            "title": "What If Dinosaurs Survived the Asteroid?",
-            "views": 9,
-            "watchMinutes": 3.535433333333333,
-            "likes": 2,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=mlzAbOhLYEI"
-          },
-          {
             "publishedAt": "20261024160336",
             "title": "What If Cats Could See in Total Darkness?",
-            "views": 5,
-            "watchMinutes": 1.5285166666666665,
+            "views": 6,
+            "watchMinutes": 1.5726833333333332,
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=dqMwf4_psxc"
           },
           {
-            "publishedAt": "20261031170905",
-            "title": "What If Humans Lived With Dinosaurs? A Day in Our New World",
-            "views": 5,
-            "watchMinutes": 5.055,
-            "likes": 3,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=OT6P32a60Rg"
-          },
-          {
             "publishedAt": "20261020160502",
             "title": "What If Earth’s Gravity Were Half as Strong?",
-            "views": 3,
-            "watchMinutes": 0.6153333333333334,
+            "views": 6,
+            "watchMinutes": 1.843,
             "likes": 0,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=6QOKuZNYIJU"
@@ -838,17 +861,17 @@
         "series": [],
         "videos": []
       },
-      "notes": "Little Wild Adventures not connected to Metricool analytics; no channel statistics available in this dataset."
+      "notes": "No authorized and reliable connected channel analytics source available in this task; no numbers."
     }
   },
   "notes": [
-    "Verified Metricool authenticated getAnalyticsDataByMetrics source queries for the listed field IDs and dates 2026-10-04 through 2026-11-04, Europe/Oslo (both end dates inclusive); rows sorted by date ascending, videos by cumulative views descending.",
-    "Missing Metricool daily rows are not interpolated or filled, and missing numeric values remain null, not zero. The latest daily views and follower-change metrics may lag and current day may be incomplete.",
-    "YouTube Evolution YTEV02 is views recorded in a dated row. YTEV04 is the provider's total videos metric: it counts long videos and Shorts and may be null if data is missing. YTEV01 counts subscribers.",
-    "Per-video published-in-range YTVP06 views and YTVP07 watchMinutes are cumulative stats for videos published during the selected period, NOT 7-day channel views or validated YPP watch hours.",
-    "TikTok Evolution TKEV02 (views) covers videos published in the selected range according to Metricool's field definition, NOT necessarily all account video views occurring during each date.",
-    "What If and Bizarre Past analytics were sourced from connected Metricool. Little Wild Adventures lacks a connected analytics source; statistics unavailable, not estimated.",
-    "Paid advertising views and watch time, if any, are not separated by this snapshot; do not infer organic or eligible YPP watch hours from total watchMinutes or video views.",
-    "Historical rows provided by Metricool start only once data is available for each channel, despite the requested 32 calendar days. No fake rows were added. No publication claims about queued/unpublished content."
+    "Authentic source: five successful connected Metricool getAnalyticsDataByMetrics calls for brandIds 7296504 and 7751348, covering 2026-10-05 through 2026-11-05 (inclusive) with Europe/Oslo boundaries; this is not live YouTube Studio data.",
+    "YouTube evolution fields YTEV01 subscriber total, YTEV02 daily views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost; data has date YYYYMMDD as final field. Null values remain null; missing dates are not fabricated.",
+    "Bizarre Past TikTok evolution fields TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange; TKEV02 measures views related to videos published in the chosen period under Metricool's definition, not necessarily all account video views on that day.",
+    "Per-video fields YTVP02 publishedAt, YTVP17 title, YTVP06 cumulative views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Video statistics cover videos published within the query period and are cumulative per video, NOT rolling 7-day channel views.",
+    "Metricool can lag and recent daily metrics may be incomplete/null even if subscriber totals are present. Missing numeric fields are null, never zero-filled or extrapolated.",
+    "Little Wild Adventures: no connected Metricool analytics source; do not infer views/subscribers/watch time. Highlights Of Everything is excluded.",
+    "Ads views/watch time and Shorts feed viewing cannot be distinguished into eligible YouTube Partner Program watch hours using these Metricool data alone.",
+    "All date ranges shown were requested, but earliest returned rows may be later if the platform has no earlier history. Daily 7-day totals should sum only non-null dated rows, and report incomplete periods as such."
   ]
 }
