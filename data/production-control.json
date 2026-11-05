@@ -436,14 +436,16 @@
       "plan": "Studio",
       "status": "active",
       "monthlyCredits": 10000,
-      "balanceAtCheck": 9583,
+      "balanceAtCheck": 9364,
       "provider": "AITuber get_subscription",
       "channels": [
         "Little Wild Adventures",
         "What If in 40 Seconds"
       ],
-      "checkedAt": "2026-11-04T18:35:56+01:00",
-      "balanceSource": "AITuber get_subscription"
+      "checkedAt": "2026-11-05 evening Europe/Oslo",
+      "balanceSource": "AITuber get_subscription",
+      "creditDeltaVsPreviousSnapshot": -219,
+      "creditDeltaInterpretation": "Actual balance is 219 lower than the 2026-11-04 9583 snapshot; do not attribute all use to Solar Storm or What If. Two channels share the balance."
     },
     "separateService": "Bizarre Past is produced solely in Higgsfield and NOT included in AITuber credits.",
     "productionGoalMonthly": {
@@ -663,11 +665,11 @@
         "octopusScriptObservation": "The 33s 'What If Octopuses Lived on Land?' generated script ends with generic 'Like this thought experiment? Follow for more!' rather than a strong answer; metadata ONLY, exported MP4 audio/visual not inspected. Cannot claim YouTube publication without publicationId/public link. Hold extra agent publication due overlap with 3 Nov Ocean 18:01 release."
       },
       "creditStatus": {
-        "aituberRemaining": 9583,
+        "aituberRemaining": 9364,
         "monthly": 10000,
         "vidiqRemaining": 2,
         "vidiqWhatifAnalyticsAuthorized": false,
-        "lastChecked": "2026-11-04"
+        "lastChecked": "2026-11-05"
       },
       "metricsLimit": "Important: 4 Nov Metricool video numbers are cumulative and do not provide comparable 24-hour engaged-view or retention data. Nov 3 Ocean not yet in response, do not infer zero views. vidIQ owner channels 4 Nov exclude What If, so private performance report is unavailable.",
       "editorialTest": {
@@ -772,7 +774,7 @@
         "allAI3to4MinPerVideoBasicApprox": "900–1200 credits for footage before voice; 8 such videos/month = 7200–9600 before shorts, revisions and Little Wild. Thus two full-AI long films/week cannot be assumed affordable in 7000; prefer source-verified stock, images, graphics and selected AI clips; get itemized current quote before generation.",
         "quality": "Mixed-media What If okay, still requires strong hook, natural voice, payoff and final MP4 playback."
       },
-      "nextAction": "Verify recurring What If AutoPilot target and collision-free actual queue directly in AI Tuber dashboard before agent posts. After explicit available unique slot, estimate credits, produce/review Moonbow or electric flowers, full MP4+audio QC, then schedule. Track Saturn 1635 vs retention at matching age rather than blindly repeating space topics.",
+      "nextAction": "New Nov5 18:00 Solar Storm generation confirmed completed/exported, but public posting and AutoPilot recurrence remain unverified. Keep agent publishing on hold, verify actual UI AutoPilot and YouTube queue before scheduling any What If posts. Preserve previous bookings and films. Generic 'Follow for more' ending is suboptimal vs satisfying science payoff; emphasize factual last line in future scripts.",
       "latestEditorialImprovement": {
         "date": "2026-11-04",
         "brief": "data/whatif-moonbow-brief-2026-11-04.md",
@@ -780,6 +782,68 @@
         "revealBySecond": 7,
         "publicationState": "NOT_GENERATED_NOT_BOOKED",
         "creditsSpentOnThisImprovement": 0
+      },
+      "checkpoint20261105": {
+        "date": "2026-11-05",
+        "checkedAt": "2026-11-05 evening Europe/Oslo",
+        "source": [
+          "AI Tuber GET /videos list",
+          "AI Tuber GET /videos/{id} metadata and segments",
+          "AI Tuber GET /subscription",
+          "Metricool brand 7751348, YouTube all videos and videos published in range through 2026-11-05",
+          "AITuber GET /publications/16685215-b45e-4254-9c54-83cb7c7166d7",
+          "vidIQ user channels and credit balance",
+          "NOAA official science sources https://www.spaceweather.gov/impacts and https://www.spaceweather.gov/impacts/satellite-drag",
+          "QuirkScience https://quirkscience.com/films/ (publisher catalog checked Nov 5)"
+        ],
+        "freshGenerated": {
+          "videoId": "9b4ddf41-4999-4069-8c46-bcb5d43c8ba6",
+          "title": "What If a Solar Storm Hit Earth?",
+          "createdAtUtc": "2026-11-05T17:00:51.269Z",
+          "createdAtOslo": "2026-11-05T18:00:51.269+01:00",
+          "status": "completed",
+          "exportStatus": "completed",
+          "durationSeconds": 38,
+          "aspectRatio": "9:16",
+          "mediaType": "video",
+          "videoClips": 5,
+          "source": "AI Tuber authenticated /videos and /videos/{id}",
+          "publicationStatus": "NOT_VERIFIED (no known publication ID or platform URL; AI Tuber API cannot list AutoPilot queue; Metricool YouTube all-videos current response is indexed only through 2026-11-01, its published-in-range Nov2–5 response has zero rows; this is NOT proof of no publication)",
+          "autopilotInterpretation": "Fresh 18:00 generation on Nov5 following Nov3 18:00 Octopus generation suggests recurring generation, but recurrence configuration, independent cause, booking and posting are NOT confirmed; do not claim that actual public upload happened or AutoPilot was changed.",
+          "scriptQC": "Metadata script starts 'What if' correctly and scientific claims about geomagnetic disruption, navigation, upper-atmosphere satellite drag and auroras are broadly consistent with NOAA. However the final spoken sentence in script is generic CTA 'Follow for more science what-ifs' after the factual conclusion; future scripts should end on a substantive takeaway. 38s meets short duration editorial target. Actual exported MP4 visuals, audio, captions and ending NOT inspected.",
+          "mp4Attempt": "AI Tuber delivered export URL, but host cdn.aituber.app could not be resolved from current container; web cannot open MP4. NO audiovisual QC approval given. Export status completed alone does not prove good QC.",
+          "editorialAction": "Do not regenerate or publish this candidate from the agent. Preserve any actual provider-made post. Inspect YouTube/publication status and AutoPilot recurring settings in UI before considering intervention; wait for proof before writing a production-alert blocker."
+        },
+        "snapshot": {
+          "latestMetricoolIndexedVideoDate": "2026-11-01",
+          "latestAvailableIndexedShort": "What If Saturn’s Rings Vanished Overnight?",
+          "views": 1635,
+          "watchMinutes": 430.048,
+          "avgViewDurationSeconds": 15,
+          "likes": 58,
+          "observedBefore": "2026-11-04 19:54 Europe/Oslo",
+          "nov5MetricoolSameValues": true,
+          "source": "Metricool YouTube all-videos, latest returned row 2026-11-01",
+          "interpretation": "Metricool returned the same old indexed set Nov5; no fresh per-video retention or audience growth evidence for Nov3/5. Do not assume zero new performance; needs owner YouTube Studio."
+        },
+        "constraints": {
+          "whatIfAutopilot": "Agent publication lock remains active until UI recurring settings and collision-free queue confirmed",
+          "metricoolQueue": "No scheduled posts in What If Metricool brand; DOES NOT cover AI Tuber AutoPilot",
+          "vidiqOwnerAnalytics": "What If absent from authorized owner channel list; 2 vidIQ credits remaining, zero spent",
+          "creditStatus": "9364 of 10000 shared monthly; no purchases",
+          "actions": "Read-only metadata/analytics/research audit; no generation, no agent scheduling, no publication, no YouTube viewing/likes/comments"
+        },
+        "nextEditorialTest": {
+          "short": "What If Rainbows Appeared at Midnight? (moonbow) 78-word v2, reveal eye vs camera by second 7",
+          "shortBrief": "data/whatif-moonbow-brief-2026-11-04.md",
+          "state": "RESEARCH_ONLY - NOT GENERATED OR BOOKED",
+          "hypothesis": "test earlier visible surprise vs historic short baseline when true age-matched Studio data becomes available",
+          "sources": [
+            "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+          ],
+          "preflight": "Resolve AutoPilot overlap, verify available unique slot, calculate itemized credits and test full actual MP4 w/audio. Do NOT duplicate Solar Storm/Octopus/Ocean."
+        },
+        "alertsDecision": "No NEW What If alert added: fresh generation is verified, but a new failed or missed publication and an actual new blocked delivery are NOT established. The existing Nov3 duplicate guard is old and remains open operationally; do not pretend the old incident is a new push trigger."
       }
     },
     "bizarre": {
