@@ -628,6 +628,13 @@
         "fullBrief": "data/whatif-moonbow-brief-2026-11-04.md",
         "release": "Hold. What If AutoPilot clash unresolved; no agent booking, regeneration or publication",
         "afterRelease": "Use age-matched 24h/7d/28d engaged views and early-retention, if owner analytics becomes available."
+      },
+      "updatedNov5": {
+        "finding": "Solar Storm's script ends on generic follow CTA although NOAA-valid core science and 38s/9:16 production metadata are verified. Actual MP4 AV-QC and public upload unverified.",
+        "oneNextTest": "For the original Moonbow candidate, show real phenomenon/eye-vs-camera reveal by second 7; finish on a clear science answer instead of generic subscribe CTA.",
+        "source": "https://www.spaceweather.gov/impacts",
+        "release": "HOLD: verified unique AI Tuber AutoPilot-free slot and actual MP4 playback required; credit check before generation.",
+        "budget": "Shared balance 9364/10000 observed Nov5, What If planning 7000 and Little Wild 3000 monthly, no purchases"
       }
     },
     "wild": {
@@ -696,30 +703,38 @@
     }
   ],
   "lastWhatIfMicroResearch": {
-    "date": "2026-11-04",
-    "scope": "Dated 4 Nov What If Metricool video performance, AI Tuber production/publication status and shared credits, verified QuirkScience online film catalog and xkcd example, Met Office optical science.",
-    "finding": "Saturn Rings Vanished Overnight? (Nov 1 Short) shows 1635 cumulative views, 430 watch minutes, 15-sec avg duration out of actual AI Tuber 38 sec, 58 likes as of Nov 4 19:54 Oslo. Previously published bee (Oct 22) 139 views. Not age-matched, no causal topic conclusions. What If channel source mix Nov 1–4 dominated by 1796 Shorts views but includes 12 ADVERTISING; cannot assign exact source to Saturn.",
+    "date": "2026-11-05",
+    "scope": "Fresh read-only AI Tuber Solar Storm 38s metadata and publication guard, Metricool stale video index, vidIQ auth/credit check, NOAA science factcheck, QuirkScience publisher catalog recheck. No direct competitor video/audio playback; no new clip generated.",
+    "finding": "AI Tuber automatically or otherwise produced Solar Storm at 2026-11-05T18:00:51+01:00. Script has a concrete factual answer followed by generic CTA; improvement hypothesis is to end on factual/visual payoff, not an additional follow request. Satellite drag, GPS/radio disruption, aurora and forecasting are supported by NOAA. This is NOT a verified public upload or confirmed new platform publishing failure.",
     "competitorSources": [
       {
         "name": "QuirkScience",
         "url": "https://quirkscience.com/films/",
-        "datedExample": "2026-11-02 What Happens to Your Body in Space? 1:04; one science question per Short, video not directly watched"
+        "checked": "2026-11-05",
+        "latestDatedShort": "2026-11-02 What Happens to Your Body in Space? 1:04",
+        "observation": "Publisher presents one clearly stated science question per Short. No verified first two seconds, views or retention, no new Nov5 release found in catalog."
       },
       {
         "name": "xkcd What If?",
-        "url": "https://bsky.app/profile/xkcd.com/post/3mgb5poz7kc2w",
-        "datedExample": "2026-03-04 What if you floated upwards 1 ft every second? Question structure only; actual first 2 secs not inspected"
+        "url": "https://bsky.app/profile/xkcd.com/post/3mmrwvbjxys2b",
+        "checked": "2026-11-05",
+        "datedExample": "2026-05-26 What if you dropped a bowling ball in the Mariana Trench? collaboration; publisher post verified, no opening or video performance inspected."
       }
     ],
-    "scienceSource": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
-    "originalTest": "What If Rainbows Appeared at Midnight? (moonbow) – original script 82 words and visual scene outline in data/whatif-moonbow-brief-2026-11-04.md",
-    "guard": "No new generation or scheduling because Octopus AutoPilot generated at 18:00 Nov3 and only Ocean publication verified. Exactly what Octopus posted remains UNKNOWN.",
+    "scienceSources": [
+      "https://www.spaceweather.gov/impacts",
+      "https://www.spaceweather.gov/impacts/satellite-drag",
+      "https://www.noaa.gov/explainers/space-weather-storms-from-sun"
+    ],
+    "originalTest": "Existing fact-checked original Moonbow idea retains priority, because solar storm is already generated and no duplicate or new negative-theme repeat is justified. Change just one narrative variable: show the real moonbow eye-vs-camera reveal by second 7. Editorial brief updated Nov4.",
+    "guard": "No new agent generation, booking, publishing or paid vidIQ. No alert from stale/unconfirmed public-publication state. Hold pending What If AutoPilot UI verification.",
     "statuses": {
-      "ocean": "Published Nov 3 18:01 Oslo confirmed again",
-      "octopus": "Generation completed Nov3, 33s and current script known, no public confirmation",
-      "vidiq": "2 credits; owner What If not connected",
-      "aituber": "9583/10000 remaining",
-      "newIdea": "RESEARCH_ONLY"
+      "ocean": "Published Nov3 18:01 Oslo confirmed by provider",
+      "octopus": "Completed generation Nov3; publication UNKNOWN",
+      "solarStorm": "Completed and exported generation Nov5 18:00 Oslo, platform publication UNKNOWN",
+      "aituber": "9364/10000 Studio credits remaining",
+      "vidiq": "2 remaining; What If not owner-authorized",
+      "moonbow": "research_only"
     }
   }
 }
