@@ -331,7 +331,7 @@
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-04",
+      "verifiedDate": "2026-11-05",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -354,7 +354,8 @@
       ],
       "notes": [
         "2026-11-03 18:24 Oslo: Milo's Wobbly Tower PILOT completed/exported but HOLD for 42s duration, bad generated title, no MP4 AV-QC or AutoPilot duplicate/time verification. Not scheduled by channel agent.",
-        "2026-11-04 18:36 Oslo: AI Tuber generated 'The Splashy Tub-Team Rinse' ID bbd79dbc-f6a5-414e-9376-0381eec173f4 at 16:00 local today (37s, 9:16, 5 video scenes, exported). Script names sidekicks generically Meerkat/Bird; not QC approved. Public YouTube publication and recurrence/booking are UNVERIFIED. Do not duplicate an upload or assume the 18:00 schedule is set."
+        "2026-11-04 18:36 Oslo: AI Tuber generated 'The Splashy Tub-Team Rinse' ID bbd79dbc-f6a5-414e-9376-0381eec173f4 at 16:00 local today (37s, 9:16, 5 video scenes, exported). Script names sidekicks generically Meerkat/Bird; not QC approved. Public YouTube publication and recurrence/booking are UNVERIFIED. Do not duplicate an upload or assume the 18:00 schedule is set.",
+        "2026-11-05 provider response: Little Wild Shorts ON, every 2 days next 06.11 16:00 Oslo, direct auto-publication; Weekly Long Story ON, next 09.11 16:00 Oslo, 5-minute images-only auto-publication. Splashy Rinse confirmed YouTube live 04.11 16:09 and rejected Breeze live 02.11 16:13. Provider has NOT changed settings. QC/publish risk confirmed; no duplicate manual post. Support follow-up sent to request pause/draft-only."
       ]
     }
   },
@@ -365,7 +366,10 @@
       "video": "The Breeze That Hid",
       "videoId": "0f847b71-fa9b-48b3-974d-a08a44625e59",
       "status": "REJECTED",
-      "reason": "4:35 images/basic slideshow and no Milo"
+      "reason": "4:35 images/basic slideshow and no Milo",
+      "providerVerifiedPublished": "2026-11-02 16:13 Europe/Oslo, already live despite rejected video",
+      "source": "AITuber support reply 2026-11-05",
+      "action": "Review user removal in YouTube Studio if desired; no deletion performed"
     },
     {
       "channel": "Little Wild Adventures",
@@ -395,9 +399,12 @@
       "date": "2026-11-04",
       "video": "The Splashy Tub-Team Rinse",
       "videoId": "bbd79dbc-f6a5-414e-9376-0381eec173f4",
-      "status": "GENERATED_AUTOMATION_ORIGIN_UNVERIFIED; PUBLICATION_UNVERIFIED; QC_HOLD",
+      "status": "PROVIDER_CONFIRMED_PUBLISHED_NONCOMPLIANT_TIME_AND_NAMES",
       "reason": "16:00 Oslo production despite 18:00 editorial target, old 'Meerkat'/'Bird' names vs Miko/Pip and missing saved reference mention in returned generation data.",
-      "remedy": "Verify main/Weekly Long Story AutoPilot in UI and schedule; force script/character compliance; check full 1080p MP4 + audio before manually posting, avoid duplicate."
+      "remedy": "Verify main/Weekly Long Story AutoPilot in UI and schedule; force script/character compliance; check full 1080p MP4 + audio before manually posting, avoid duplicate.",
+      "verifiedPublished": "2026-11-04 16:09 Europe/Oslo",
+      "source": "AITuber support reply 2026-11-05",
+      "publishedTitle": "Splashy Tub Teamwork! A Cozy Bath-Time Rinse"
     }
   ],
   "competitorResearch": {
@@ -581,6 +588,54 @@
       "briefPath": "data/whatif-moonbow-brief-2026-11-04.md",
       "measurement": "Use owner Studio engaged views, stayed-to-watch and 15s retention at 24h/7d/28d after confirmed posting; don't infer from Metricool all-time views.",
       "guard": "What If vidIQ owner channel not connected (user's linked vidIQ lists Bizarre, Little Wild and Highlights only), AI Tuber AutoPilot recurring schedule inaccessible through API; do not schedule manually or assume queued video safe. Keep all existing bookings."
+    },
+    "littleWildSupportConfirmed": {
+      "verifiedAt": "2026-11-05T18:26:13+01:00",
+      "source": "AI Tuber support Dhiva, email received 2026-11-05T04:30:51Z, message Gmail ID 1a1a9f95b28c7856",
+      "supportEmailUrl": "https://mail.google.com/mail/u/?authuser=halvorforberg%40gmail.com#all/1a1a9f95b28c7856",
+      "mainShortAutoPilot": {
+        "status": "ON_CONFIRMED_BY_PROVIDER",
+        "cadence": "every 2 days",
+        "nextRun": "2026-11-06T16:00:00+01:00",
+        "publication": "auto-publishes direct to Little Wild YouTube",
+        "format": "9:16 ~35s AI video clips",
+        "qcPrePublish": "NO, direct AutoPilot publication"
+      },
+      "weeklyLongStory": {
+        "status": "ON_CONFIRMED_BY_PROVIDER",
+        "cadence": "weekly",
+        "nextRun": "2026-11-09T16:00:00+01:00",
+        "publication": "auto-publishes direct to Little Wild YouTube",
+        "format": "16:9 5 minute AI IMAGES",
+        "videoModeCompliant": false,
+        "estimatedPerRunCreditsWithBasicAiVideo": 1650
+      },
+      "confirmedPublishes": [
+        {
+          "video": "The Splashy Tub-Team Rinse",
+          "publishedName": "Splashy Tub Teamwork! A Cozy Bath-Time Rinse",
+          "date": "2026-11-04",
+          "time": "16:09 Europe/Oslo",
+          "provider": "AITuber support"
+        },
+        {
+          "video": "The Breeze That Hid",
+          "publishedName": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids",
+          "date": "2026-11-02",
+          "time": "16:13 Europe/Oslo",
+          "provider": "AITuber support",
+          "quality": "REJECTED by user; no deletion performed"
+        }
+      ],
+      "pilot": "Milo's Wobbly Tower NOT published and NOT booked, confirmed by support",
+      "platformOptions": "Disconnect channel within each AutoPilot to create drafts without publishing; pause Weekly Long Story to avoid high credit spend; edit settings for video mode, characters and schedule, where 18:00 Europe/Oslo is timezone-aware; cannot select Mon/Wed/Fri (every 2 days closest but not equivalent)",
+      "platformMutation": "NONE VERIFIED. Support explicitly states no settings were changed. Follow-up email sent 2026-11-05 from connected Gmail requesting draft-only, pause expensive Weekly Long Story, and confirmation.",
+      "followupMessageId": "1a1acc1329a18b15",
+      "currentSharedCredits": 9364,
+      "vidIQ": "Connected channel @littlewildadventures67 now visible to vidIQ but owner analytics/video list failed for insufficient vidIQ credits. No credits purchased or owner analytics invented.",
+      "block": "Confirmed active AutoPilot workflows auto-publish without required QC; next scheduled Friday Short at 16:00 and next Monday long-story images. Requires user/provider to turn OFF AutoPilot publishing, edit/pause series and QC final MP4 before any new release.",
+      "actionURL": "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489",
+      "checkedWithoutGeneratingOrPosting": true
     }
   },
   "channelAudit": {
