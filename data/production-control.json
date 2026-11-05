@@ -841,7 +841,7 @@
         "Verify no rejected video is running or spending",
         "Report verified status, spend and earned organic results"
       ],
-      "checkedAt": "2026-11-04T17:44:05+01:00",
+      "checkedAt": "2026-11-05T09:22:42+01:00",
       "campaignStartEvidence": {
         "channelLiveNotificationReceivedAt": "2026-11-03T20:33:52Z",
         "channelLiveNotificationNorway": "2026-11-03 21:33:52 CET",
@@ -890,8 +890,8 @@
         "prepaidTotalUSD": 50,
         "remainingRejectedVideoUSD": 2.85
       },
-      "verifiedViews": "NOT PROVIDED in provider support message of Nov 4; avoid inventing paid views or CTR",
-      "organicReach": "NOT VERIFIED; no qualified YPP hours inferred from ads",
+      "verifiedViews": "NOT VERIFIED as of 2026-11-05 09:22 CET; no paid views or CTR in VeeFly's support response",
+      "organicReach": "NOT VERIFIED; paid Google Ads views and watch time excluded from YPP eligibility",
       "supportCase": "41714 (latest); 41675 (original)",
       "supportResponse": {
         "receivedAt": "2026-11-04T11:55:29Z",
@@ -913,14 +913,27 @@
         "replyConfirmingIndividualDeletionSentId": "1a1a77408f972eaa",
         "confirmedSpendOnRejectedVideoUSD": 7.15,
         "heldUnspentValueUSD": 2.85,
-        "note": "Wallet credit is only promised on successful individual video deletion; no wallet credit confirmed."
+        "note": "Wallet credit is only promised on successful individual video deletion; no wallet credit confirmed.",
+        "lastReminder": {
+          "sentAt": "2026-11-05T09:22:42+01:00",
+          "gmailMessageId": "1a1aace7d1825bb9",
+          "threadId": "1a1a59a52ff67201",
+          "supportCase": "41714",
+          "requested": [
+            "Confirm permanent deletion of only #1410783 and exact action time",
+            "Confirm $2.85 VeeFly wallet credit and no auto spending",
+            "Confirm four other video ads remain live and unchanged",
+            "Provide actual campaign spend, paid views/impressions, rejected video's final ad reach if available"
+          ],
+          "response": "AWAITING; no provider reply after authorization email of 2026-11-04T16:46:02Z was found in Gmail as of 2026-11-05 09:22 CET"
+        }
       },
       "nextActions": [
-        "Await VeeFly confirmation that ONLY individual campaign #1410783 was permanently deleted, and $2.85 credited to VeeFly wallet",
-        "Verify other four sibling video campaigns remain live and parent #251425 intact",
-        "Do not treat $2.85 as refunded or transferred until VeeFly confirms; do not spend or create new campaigns",
-        "Report paid reach and actual costs separately from organic/valid YouTube Partner Program watch hours",
-        "After confirmed deletion and wallet credit, monitoring task may be disabled"
+        "Wait for VeeFly case 41714 response to 2026-11-05 reminder: confirm permanent deletion of ONLY #1410783.",
+        "Verify $2.85 was actually credited to VeeFly wallet, not merely promised; keep funds unspent.",
+        "Confirm parent campaign #251425 and four approved campaigns remain active and unaffected; only confirmed via Nov 4 provider email so far.",
+        "Verify cumulative ACTUAL spend and paid impressions/views from platform if/when provided; do not count paid ads as organic/YPP watch time.",
+        "Once permanent deletion, wallet credit and sibling ads live are provider-confirmed, disable only VeeFly status-watch task."
       ],
       "reviewedAndEscalatedAt": "2026-11-04T09:07:28+01:00",
       "rejectedVideoPause": {
@@ -939,15 +952,20 @@
         "otherVideoCampaigns": "four approved sibling video campaigns remain active and unaffected per VeeFly support"
       },
       "rejectedVideoDeletion": {
-        "status": "EXPLICIT PERMISSION SENT; awaiting VeeFly confirmation of deletion and $2.85 wallet credit",
+        "status": "Authorized on 2026-11-04; VeeFly confirmation still OUTSTANDING as of 2026-11-05 09:22 CET. Campaign remains paused per 2026-11-04 provider email, NOT confirmed deleted.",
         "requestedAt": "2026-11-04",
         "requestEmailId": "1a1a77408f972eaa",
         "parentMustRemainActive": true,
         "onlyDeleteVideoCampaign": "1410783",
         "expectedWalletCreditUSD": 2.85,
         "walletCreditVerified": false,
-        "transferToBrushAlongWithMilo": "No transfer confirmed; do not automatically start new ads or spend wallet"
-      }
+        "transferToBrushAlongWithMilo": "No transfer confirmed; do not automatically start new ads or spend wallet",
+        "lastEmailScanAt": "2026-11-05T09:22:42+01:00"
+      },
+      "lastProviderEmailCheckedThrough": "2026-11-05T09:22:42+01:00",
+      "lastProviderEvidenceAt": "2026-11-04T11:55:29Z",
+      "lastProviderEvidenceMessageId": "1a1a66a2c6ae100b",
+      "lastProviderEvidenceSummary": "VeeFly support confirmed #1410783 PAUSED (not deleted), $7.15 spent, $2.85 unspent. Four approved sibling campaigns active as of provider email. No subsequent provider confirmation of deletion, wallet credit, or paid reach by the 2026-11-05 09:22 CET mailbox scan."
     }
   },
   "operationalAlerts": {
