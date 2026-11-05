@@ -816,14 +816,14 @@
       "channelName": "Little Wild Adventures",
       "channelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
       "campaignSubmitted": "2026-11-03",
-      "currentStatus": "LIVE — per VeeFly support 2026-11-04 11:55:29 UTC, FOUR approved video campaigns remain ACTIVE and unaffected. Individual rejected video campaign #1410783 urgently PAUSED by VeeFly support; deletion requested by the customer and is AWAITING final confirmation.",
+      "currentStatus": "VeeFly support confirmed individual rejected video campaign #1410783 PERMANENTLY DELETED and $2.85 wallet credit APPLIED in email 2026-11-05 09:22:25 UTC. Parent #251425 and four approved siblings reported running by support at that time; note separate auto-completion email 09:18:32 UTC states parent campaign finished, so consolidated parent status is inconsistent and should not be assumed live without dashboard verification.",
       "payment": "Confirmed via VeeFly payment receipt 2026-11-03",
       "budgetFromVeeFlyEmail": {
         "total": 50,
         "perVideo": 10,
         "currency": "USD confirmed by support email"
       },
-      "actionStatus": "IMPORTANT RESOLVED IN PART: rejected video #1410783 confirmed PAUSED, no further ad delivery or spend per VeeFly support 2026-11-04 11:55:29 UTC. $7.15 already spent from its $10 allocation; $2.85 unspent. User-authorized REPLY SENT to delete ONLY individual #1410783 and credit $2.85 to VeeFly wallet; deletion/refund NOT YET CONFIRMED. Four approved sibling video campaigns remain live per support.",
+      "actionStatus": "REJECTED VIDEO REMOVED, $2.85 UNSPENT CREDIT VERIFIED FROM SUPPORT CONFIRMATION. No new ad budget spent or authorized.",
       "remove": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids (The Breeze That Hid)",
       "replaceWith": "Brush Along with Milo! https://www.youtube.com/shorts/NjlWiWmNrRg (already selected in campaign), allocate removed slot's original budget to this approved video",
       "constraint": "Keep total budget unchanged; do not promote rejected video. If VeeFly requires distinct new videos, request pause/holding the single slot until appropriate approved public video is selected; do not spend it or create new paid campaign.",
@@ -836,12 +836,11 @@
       "kidSafeguards": "This is made-for-kids content. Ads must not use personalized child targeting. Do not change YouTube Made for Kids designation.",
       "yppCaution": "Ad-campaign watches/views are excluded from YPP qualification; do not treat paid views as qualifying public watch hours or shorts views.",
       "followUpRequired": [
-        "Confirm VeeFly approved/declined replacement",
-        "Check Google Ads linking only through user-authorized Google/YouTube account when safe and available",
-        "Verify no rejected video is running or spending",
-        "Report verified status, spend and earned organic results"
+        "If feasible, verify actual current state of four approved ads in VeeFly dashboard; automated campaign-complete email conflicts with newer support reply.",
+        "Verify VeeFly wallet $2.85 balance directly if/when dashboard available (support has confirmed credited).",
+        "Retrieve true paid ad impressions/views/spend; do not conflate public stats with ad-sourced traffic."
       ],
-      "checkedAt": "2026-11-05T09:22:42+01:00",
+      "checkedAt": "2026-11-05T10:47:44+01:00",
       "campaignStartEvidence": {
         "channelLiveNotificationReceivedAt": "2026-11-03T20:33:52Z",
         "channelLiveNotificationNorway": "2026-11-03 21:33:52 CET",
@@ -873,7 +872,7 @@
         {
           "title": "Where Did the Breeze Go? | A Gentle Savanna Adventure for Kids",
           "campaignId": "1410783",
-          "status": "PAUSED by VeeFly support as confirmed 2026-11-04 11:55:29 UTC, $7.15 spent, $2.85 unspent; pending individual deletion",
+          "status": "DELETED per VeeFly support 2026-11-05 09:22:25 UTC, $7.15 spent, $2.85 credited to wallet",
           "emailTimestampUTC": "2026-11-03T20:52:16Z"
         },
         {
@@ -888,7 +887,8 @@
         "otherFourVideos": "NOT VERIFIED",
         "totalActualSpend": "NOT VERIFIED",
         "prepaidTotalUSD": 50,
-        "remainingRejectedVideoUSD": 2.85
+        "remainingRejectedVideoUSD": 0,
+        "walletCreditUSD": 2.85
       },
       "verifiedViews": "NOT VERIFIED as of 2026-11-05 09:22 CET; no paid views or CTR in VeeFly's support response",
       "organicReach": "NOT VERIFIED; paid Google Ads views and watch time excluded from YPP eligibility",
@@ -900,6 +900,12 @@
         "originalCase41675": {
           "receivedAt": "2026-11-03T23:17:41Z",
           "messageId": "1a1a3b44f7b7499f"
+        },
+        "latest": {
+          "receivedAt": "2026-11-05T09:22:25Z",
+          "messageId": "1a1ab044e4b5194e",
+          "source": "VeeFly Support case 41714",
+          "summary": "Video #1410783 marked Deleted. $2.85 credited to VeeFly wallet, unspent, no new campaigns. $7.15 final spend on rejected video. Four other campaigns reported active and unchanged."
         }
       },
       "followUp": {
@@ -929,16 +935,14 @@
         }
       },
       "nextActions": [
-        "Wait for VeeFly case 41714 response to 2026-11-05 reminder: confirm permanent deletion of ONLY #1410783.",
-        "Verify $2.85 was actually credited to VeeFly wallet, not merely promised; keep funds unspent.",
-        "Confirm parent campaign #251425 and four approved campaigns remain active and unaffected; only confirmed via Nov 4 provider email so far.",
-        "Verify cumulative ACTUAL spend and paid impressions/views from platform if/when provided; do not count paid ads as organic/YPP watch time.",
-        "Once permanent deletion, wallet credit and sibling ads live are provider-confirmed, disable only VeeFly status-watch task."
+        "If feasible, verify actual current state of four approved ads in VeeFly dashboard; automated campaign-complete email conflicts with newer support reply.",
+        "Verify VeeFly wallet $2.85 balance directly if/when dashboard available (support has confirmed credited).",
+        "Retrieve true paid ad impressions/views/spend; do not conflate public stats with ad-sourced traffic."
       ],
       "reviewedAndEscalatedAt": "2026-11-04T09:07:28+01:00",
       "rejectedVideoPause": {
         "campaignId": "1410783",
-        "status": "PAUSED — confirmed by VeeFly Support (not yet deleted)",
+        "status": "PAUSED Nov 4, THEN PERMANENTLY DELETED Nov 5 per VeeFly support",
         "confirmedInEmailAt": "2026-11-04T11:55:29Z",
         "confirmedInEmailNorway": "2026-11-04 12:55:29 CET",
         "emailId": "1a1a66a2c6ae100b",
@@ -952,20 +956,28 @@
         "otherVideoCampaigns": "four approved sibling video campaigns remain active and unaffected per VeeFly support"
       },
       "rejectedVideoDeletion": {
-        "status": "Authorized on 2026-11-04; VeeFly confirmation still OUTSTANDING as of 2026-11-05 09:22 CET. Campaign remains paused per 2026-11-04 provider email, NOT confirmed deleted.",
+        "status": "DELETED — VeeFly Support written confirmation 2026-11-05T09:22:25Z",
         "requestedAt": "2026-11-04",
         "requestEmailId": "1a1a77408f972eaa",
         "parentMustRemainActive": true,
         "onlyDeleteVideoCampaign": "1410783",
         "expectedWalletCreditUSD": 2.85,
-        "walletCreditVerified": false,
+        "walletCreditVerified": true,
         "transferToBrushAlongWithMilo": "No transfer confirmed; do not automatically start new ads or spend wallet",
-        "lastEmailScanAt": "2026-11-05T09:22:42+01:00"
+        "lastEmailScanAt": "2026-11-05T09:22:42+01:00",
+        "confirmedAt": "2026-11-05T09:22:25Z",
+        "confirmationEmailId": "1a1ab044e4b5194e",
+        "walletCreditSource": "VeeFly Support explicit confirmation; dashboard balance not independently read"
       },
-      "lastProviderEmailCheckedThrough": "2026-11-05T09:22:42+01:00",
-      "lastProviderEvidenceAt": "2026-11-04T11:55:29Z",
-      "lastProviderEvidenceMessageId": "1a1a66a2c6ae100b",
-      "lastProviderEvidenceSummary": "VeeFly support confirmed #1410783 PAUSED (not deleted), $7.15 spent, $2.85 unspent. Four approved sibling campaigns active as of provider email. No subsequent provider confirmation of deletion, wallet credit, or paid reach by the 2026-11-05 09:22 CET mailbox scan."
+      "lastProviderEmailCheckedThrough": "2026-11-05T10:47:44+01:00",
+      "lastProviderEvidenceAt": "2026-11-05T09:22:25Z",
+      "lastProviderEvidenceMessageId": "1a1ab044e4b5194e",
+      "lastProviderEvidenceSummary": "Deletion and $2.85 wallet credit confirmed by VeeFly case 41714. Parent complete email 09:18:32Z conflicts with support active status at 09:22:25Z, not proven blocker.",
+      "campaignCompletionEmail": {
+        "receivedAt": "2026-11-05T09:18:32Z",
+        "messageId": "1a1ab00b52299171",
+        "summary": "Automated email says channel promotion #251425 successfully completed; metrics in email are public YouTube stats and not attributable solely to ads. Later support note 09:22:25Z says other ads running; treat status as CONFLICTING pending dashboard confirmation."
+      }
     }
   },
   "operationalAlerts": {
