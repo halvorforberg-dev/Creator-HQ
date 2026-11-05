@@ -162,7 +162,7 @@ def alert_status(data):
     if not blockers:
         return ("✅ INGEN BEKREFTEDE ÅPNE BLOKKERINGER REGISTRERT I HQ.\n"
                 "Merk: Dette er sist lagrede status, ikke en sanntidssjekk av eksterne systemer.")
-    lines=["🚨 CREATOR HQ · REGISTRERTE BLOKKERINGER"]
+    lines=["🚨 CREATOR HQ · BEKREFTEDE BLOKKERINGER REGISTRERT I HQ"]
     for a in blockers[:8]:
         lines.extend(["", "• "+str(a.get("channel","Creator HQ"))+": "+str(a.get("summary","Ukjent"))[:220],
                       "  Tiltak: "+str(a.get("action","Må undersøkes"))[:280],
