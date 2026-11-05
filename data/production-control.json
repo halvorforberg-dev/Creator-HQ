@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -268,7 +268,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-03",
+      "verifiedDate": "2026-11-05",
       "bizarrePast": [
         {
           "id": 414921238,
@@ -276,7 +276,12 @@
           "date": "2026-11-04",
           "network": "youtube",
           "time": "18:00",
-          "title": "Oak Island"
+          "title": "Oak Island",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-05",
+          "publicUrl": "https://www.youtube.com/shorts/zUpY51tbRks",
+          "providerPostId": "zUpY51tbRks",
+          "statusSource": "Metricool authenticated getScheduledPosts included published provider entry Nov 5; publicationDate 2026-11-04 18:00 Europe/Oslo"
         },
         {
           "id": 395308671,
@@ -284,7 +289,12 @@
           "date": "2026-11-04",
           "network": "tiktok",
           "time": "18:00",
-          "title": "Oak Island"
+          "title": "Oak Island",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-05",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7704362867960679702",
+          "providerPostId": "7704362867960679702",
+          "statusSource": "Metricool authenticated getScheduledPosts included published provider entry Nov 5; publicationDate 2026-11-04 18:00 Europe/Oslo"
         },
         {
           "id": 414921278,
@@ -551,13 +561,17 @@
       }
     },
     "bizarreNextProduction": {
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "firstTarget": "2026-11-09 18:00 Europe/Oslo Short 35–40 s (editorial only)",
-      "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo ordinary public 16:9 video 2–4 minutes (editorial only)",
-      "sundayTarget": "2026-11-15 18:00 Europe/Oslo ordinary public 16:9 video 3–6 minutes (editorial only)",
-      "status": "RESEARCH_READY_NOT_GENERATED",
-      "brief": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
-      "risk": "Live Higgsfield balance 32.8; cinematic example 40s 5×8 sec costs 60 credits without narration/edit and no 1080p guarantee. Do not spend now or claim production."
+      "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo ordinary public 16:9 2–4 min (editorial only)",
+      "sundayTarget": "2026-11-15 18:00 Europe/Oslo ordinary public 16:9 3–6 min (editorial only)",
+      "status": "TWO_RESEARCH_BRIEFS_READY_NOT_GENERATED_NO_NEW_BOOKINGS",
+      "briefs": [
+        "data/bizarre-past-herculaneum-brief-2026-11-04.md",
+        "data/bizarre-past-antikythera-long-brief-2026-11-05.md"
+      ],
+      "productionBudget": "Higgsfield live 32.8 credits, no free video gens. Alternative catalog models not price-confirmed and no complete high-quality film generated. Not yet a verified provider failure because no approved job was started or confirmed booked.",
+      "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked."
     },
     "whatifRetentionImprovement": {
       "updatedAt": "2026-11-04",
@@ -714,27 +728,13 @@
       }
     },
     "bizarre": {
-      "checkedAt": "2026-11-04T17:35+01:00",
-      "source": "Metricool scheduled queue + YouTube public metadata via vidIQ free calls + Metricool all-video metrics + Higgsfield live balance and cost quote + Vesuvius Challenge primary announcement",
+      "checkedAt": "2026-11-05",
+      "source": "Authenticated Metricool getScheduledPosts 2026-11-04 to Nov13 + YT videos published in range and TT posts analytics Oct20-Nov5; Higgsfield balance/models/project-assets; primary Vesuvius Challenge and peer-reviewed Antikythera sources.",
       "confirmedBookings": {
-        "nov4": [
-          {
-            "platform": "YouTube",
-            "title": "Oak Island",
-            "scheduled": "2026-11-04T18:00:00+01:00",
-            "metricoolId": 414921238,
-            "statusAtCheck": "PENDING"
-          },
-          {
-            "platform": "TikTok",
-            "title": "Oak Island",
-            "scheduled": "2026-11-04T18:00:00+01:00",
-            "metricoolId": 395308671,
-            "statusAtCheck": "PENDING"
-          }
-        ],
-        "nov6": "Knights Templar – YouTube and TikTok 18:00 PENDING",
-        "nov8": "Pastry War – YouTube and TikTok 18:00 PENDING"
+        "nov4": "Oak Island on both platforms now PUBLISHED, verified Nov 5; see confirmedPublications.",
+        "nov6": "Knights Templar – YouTube (Metricool id 414921278) and TikTok (395308721) PENDING 18:00 Europe/Oslo on Nov 6, checked Nov 5",
+        "nov8": "Pastry War – YouTube (414921393) and TikTok (414921374) PENDING 18:00 Europe/Oslo on Nov 8, checked Nov 5",
+        "future": "No additional Metricool queue items returned through Nov 13; user plans for Nov 9 onward are editorial targets, not booked."
       },
       "bookingsAfterNov8": "None in Metricool pending-list checked 2026-11-04; editorial plan does NOT prove a post is booked.",
       "vidiqPublicSnapshot": {
@@ -745,46 +745,61 @@
         "notes": "vidIQ channel public metadata, NOT per-video retention."
       },
       "metricoolSnapshot": {
-        "snapshotAt": "2026-11-04",
-        "nonAgeMatchedCumulativeExamples": [
-          {
-            "title": "Vikings Left Prisoners for the Rising Tide?",
-            "published": "2026-10-21",
-            "views": 1262,
-            "avgDurationSeconds": 18
+        "snapshotAt": "2026-11-05",
+        "youtube": {
+          "scope": "Authenticated Metricool 'videos published in range' Oct20-Nov5, last dated result Oct30. Source lag means Oak Island is absent, NOT zero views.",
+          "examples": [
+            {
+              "videoId": "rknqX_6US-0",
+              "title": "Vikings Left Prisoners for the Rising Tide?",
+              "published": "2026-10-21",
+              "views": 1262,
+              "avgDurationSeconds": 18
+            },
+            {
+              "videoId": "N-uee5LCnx0",
+              "title": "The Vikings Didn't Just Steal Gold — They Stole People",
+              "published": "2026-10-23",
+              "views": 740,
+              "avgDurationSeconds": 20
+            },
+            {
+              "videoId": "Fbxu3hOzwTQ",
+              "title": "The Viking King Who Changed Denmark's Gods",
+              "published": "2026-10-30",
+              "views": 715,
+              "avgDurationSeconds": 15
+            },
+            {
+              "videoId": "oegyI_rdkPw",
+              "title": "The Battle That Killed a Viking King",
+              "published": "2026-10-28",
+              "views": 33,
+              "avgDurationSeconds": 7
+            }
+          ],
+          "caveat": "Cumulative values, different video ages, not 24h retention, cannot attribute performance causally to packaging."
+        },
+        "tiktok": {
+          "scope": "Authenticated Metricool TikTok posts Oct20-Nov5, Nov4 Oak Island entry exists",
+          "oakIsland": {
+            "published": "2026-11-04",
+            "views": 262,
+            "likes": 0,
+            "shares": 0
           },
-          {
-            "title": "The Vikings Didn't Just Steal Gold — They Stole People",
-            "published": "2026-10-23",
-            "views": 740,
-            "avgDurationSeconds": 20
-          },
-          {
-            "title": "The Viking King Who Changed Denmark's Gods",
-            "published": "2026-10-30",
-            "views": 715,
-            "avgDurationSeconds": 15
-          },
-          {
-            "title": "The Battle That Killed a Viking King",
-            "published": "2026-10-28",
-            "views": 33,
-            "avgDurationSeconds": 7
-          }
-        ],
-        "limits": "Cumulative counts at different ages, NOT an age-matched growth test. No 0–2s retention curve or CTR available. Causal success attributed to titles would be speculation."
+          "caveat": "Timing snapshot Nov5, counts may change; no actual 24h video-age cohort yet."
+        }
       },
       "higgsfield": {
         "balanceCredits": 32.8,
-        "freeVideoGenerationsRemaining": 0,
-        "modelQuote": {
-          "model": "cinematic_studio_video_v2",
-          "one8SecClipCredits": 12,
-          "sampleFiveClips40SecCredits": 60,
-          "source": "Higgsfield estimate_video_cost, 2026-11-04",
-          "resolutionCaveat": "the model omits resolution parameter; quoted cost does NOT guarantee 1080p"
-        },
-        "decision": "No paid generation today; available credits below illustrative five-clip 40-second cinematic production, before voice/music/edit. Do not purchase or cut quality without user direction."
+        "checkedAt": "2026-11-05",
+        "plan": "plus",
+        "videoFreeGensRemaining": 0,
+        "existingProject": "All generations project asset placements list was empty (not proof no global/account media)",
+        "priorQuote": "Nov4 cinematic_studio_video_v2 8-second 12 credits, so 5 clips illustrative 60 credits before sound/edit; verified quote not a binding all-model price.",
+        "alternatives": "Read-only model catalog revealed 720p/1080p parameters for Grok Video 1.5 Lite and 720p for Seedance 2 Mini; no binding prices shown, therefore no affordable completed video assumption.",
+        "decision": "No generation started, no new credits purchased, no QC or booking claimed. Budget constraint alone on editorial-only target is NOT a new confirmed operational blocker."
       },
       "newResearch": {
         "source": "https://scrollprize.org/firstscroll",
@@ -794,19 +809,55 @@
         "test": "35–40sec original Did you know historical revelation, script in data/bizarre-past-herculaneum-brief-2026-11-04.md; status RESEARCH DRAFT ONLY, NOT GENERATED/BOOKED"
       },
       "actionsDone": [
-        "Checked and preserved 6 Metricool bookings Nov 4/6/8, no duplicates",
-        "Recorded current public channel snapshot and historical video examples",
-        "Fact checked 2026 Herculaneum breakthrough with original Vesuvius Challenge source",
-        "Quoted Higgsfield 8-sec cinematic scene without generation or credit spending",
-        "Drafted next original short with factual correction and quality gates"
+        "Verified 2026-11-04 Oak Island PUBLISHED at 18:00 Europe/Oslo on both YouTube and TikTok by Metricool provider records; preserved Nov 6 and Nov 8 queue unchanged",
+        "Retrieved fresh Metricool cumulative Bizarre YouTube and TikTok stats; flagged source-indexing lag, no invented YT Oak Island result",
+        "Read Higgsfield actual 32.8 credit balance, catalog options and empty 'All generations' project asset placements; no spending",
+        "Verified June 25 Herculaneum announcement against Vesuvius Challenge and verified Antikythera 223-month eclipse cycle in Nature 2008 and UCL 2021 reconstruction cautions",
+        "Saved original 2–4 minute Antikythera video research draft with English narration, moving shot plan, source links and actual QC/budget constraints"
       ],
       "actionsNotDone": [
-        "No Higgsfield generation: 32.8 credits vs illustrative 60 for five 8s scenes",
-        "No MP4 inspected/QC approved",
-        "No new video scheduled/published/liked/commented",
-        "No paid vidIQ credits used",
-        "No browser Work session or verified one-hour activity"
-      ]
+        "No video generated/exported/edited, MP4 fully inspected or newly scheduled by this run",
+        "No paid credit purchase, no vidIQ charge (only 2 vidIQ credits remain), no authenticated YouTube comments/likes or one-hour interactive session",
+        "No new Telegram blocker recorded: upcoming confirmed posts are PENDING for future, and low Higgsfield balance affects only UNBOOKED editorial targets"
+      ],
+      "confirmedPublications": {
+        "oakIslandYouTube": {
+          "title": "People Died Searching for a Treasure Nobody Found 😳 | Oak Island",
+          "scheduledAt": "2026-11-04T18:00:00+01:00",
+          "status": "PUBLISHED",
+          "verifiedDate": "2026-11-05",
+          "source": "Metricool Youtube provider record id 414921238",
+          "youtubeUrl": "https://www.youtube.com/shorts/zUpY51tbRks"
+        },
+        "oakIslandTikTok": {
+          "title": "People Died Searching for This Treasure 😳 #OakIsland #BizarrePast",
+          "scheduledAt": "2026-11-04T18:00:00+01:00",
+          "status": "PUBLISHED",
+          "verifiedDate": "2026-11-05",
+          "source": "Metricool TikTok provider record id 395308671",
+          "tiktokUrl": "https://www.tiktok.com/@bizzare.past/video/7704362867960679702"
+        }
+      },
+      "editorialTests": [
+        {
+          "date": "2026-11-04",
+          "path": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
+          "target": "Mon Nov9 35-40s Short",
+          "state": "RESEARCH_ONLY"
+        },
+        {
+          "date": "2026-11-05",
+          "path": "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
+          "target": "Wed Nov11 public 16:9 2-4 min",
+          "state": "FACT_CHECKED_RESEARCH_ONLY"
+        }
+      ],
+      "learning": {
+        "hypothesis": "Try a physical artifact paradox plus fast gear visual reveal ('rusted lump predicts eclipses') to earn early attention, followed by a documented 223-month Saros cycle and an honest reconstructed-vs-surviving distinction.",
+        "basis": "The Nov 3 existing competitor-watch (History Matters/Squire) plus own Oct21/23/30 cumulative examples and Nature 2008/UCL 2021 primary evidence; did not inspect competitor videos' opening seconds or infer causality from non-age-matched views.",
+        "test": "After final MP4 QC and confirmed publish, compare 24h/7d/28d ordinary-video audience retention, CTR, qualified public watch hours and subscriber gain at comparable video age. No first-two-second retention available in Metricool now."
+      },
+      "nextAction": "Monitor Nov6 Knights Templar after 18:00 provider check; keep Nov8 Pastry War unchanged. For Nov9/11 drafts, secure genuinely affordable full-motion quality and verify complete MP4 with audio plus queue before attempting bookings; user must authorize credit purchases, and none were made."
     }
   },
   "promotions": {
