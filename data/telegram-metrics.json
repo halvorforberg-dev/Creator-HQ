@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T07:17:32++01:00",
+  "updatedAt": "2026-11-06T07:17:32+01:00",
   "requestedThrough": "2026-11-06",
   "source": "Metricool authenticated analytics via connected app",
   "periodStart": "2026-10-06",
@@ -905,7 +905,7 @@
     }
   },
   "notes": [
-    "Data refreshed from FIVE successful authenticated Metricool getAnalyticsDataByMetrics calls on 2026-11-06T07:17:32++01:00 for exact brandIds 7296504 (YouTube and TikTok) and 7751348 (YouTube). Europe/Oslo requested boundaries from 2026-10-06 through 2026-11-06 inclusive. These are provider-reported snapshots, not live YouTube Studio readings.",
+    "Data refreshed from FIVE successful authenticated Metricool getAnalyticsDataByMetrics calls on 2026-11-06T07:17:32+01:00 for exact brandIds 7296504 (YouTube and TikTok) and 7751348 (YouTube). Europe/Oslo requested boundaries from 2026-10-06 through 2026-11-06 inclusive. These are provider-reported snapshots, not live YouTube Studio readings.",
     "YouTube evolution requested YTEV01 subscriber total, YTEV02 daily views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Last field in Metricool rows is YYYYMMDD; results sorted ascending by date. Missing metrics and absent days are never treated as zero.",
     "TikTok Bizarre requested TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. TKEV02 may reflect videos in the requested publication range rather than all TikTok viewing on that day.",
     "YouTube video list requested YTVP02 publishedAt, YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Listed video views/watch time are cumulative totals for videos *published* in this date window and NOT rolling daily channel metrics.",
