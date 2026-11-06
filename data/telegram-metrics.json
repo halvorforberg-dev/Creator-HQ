@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-05T07:59:12+01:00",
-  "requestedThrough": "2026-11-05",
+  "updatedAt": "2026-11-06T07:17:32++01:00",
+  "requestedThrough": "2026-11-06",
   "source": "Metricool authenticated analytics via connected app",
-  "periodStart": "2026-10-05",
-  "periodEnd": "2026-11-05",
+  "periodStart": "2026-10-06",
+  "periodEnd": "2026-11-06",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
       "platform": "youtube+tiktok",
-      "source": "Metricool",
+      "source": "Metricool authenticated analytics via connected app",
       "brandId": "7296504",
       "youtube": {
         "series": [
@@ -231,10 +231,10 @@
           {
             "date": "2026-11-03",
             "subscribers": 33,
-            "views": null,
+            "views": 42,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 0,
+            "followersLost": 0
           },
           {
             "date": "2026-11-04",
@@ -246,6 +246,14 @@
           },
           {
             "date": "2026-11-05",
+            "subscribers": 34,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-06",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -453,7 +461,7 @@
           },
           {
             "date": "2026-10-12",
-            "videoViews": 1606,
+            "videoViews": 1607,
             "followers": 1,
             "followerNetChange": 0
           },
@@ -594,6 +602,12 @@
             "videoViews": 262,
             "followers": 3,
             "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-05",
+            "videoViews": null,
+            "followers": 3,
+            "followerNetChange": 0
           }
         ]
       }
@@ -601,7 +615,7 @@
     "whatif": {
       "name": "What If in 40 Seconds",
       "platform": "youtube",
-      "source": "Metricool",
+      "source": "Metricool authenticated analytics via connected app",
       "brandId": "7751348",
       "youtube": {
         "series": [
@@ -736,14 +750,22 @@
           {
             "date": "2026-11-03",
             "subscribers": 18,
+            "views": 1357,
+            "videosPublished": 2,
+            "followersGained": 9,
+            "followersLost": 2
+          },
+          {
+            "date": "2026-11-04",
+            "subscribers": 30,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-04",
-            "subscribers": 30,
+            "date": "2026-11-06",
+            "subscribers": 35,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -754,11 +776,29 @@
           {
             "publishedAt": "20261101170654",
             "title": "What If Saturn’s Rings Vanished Overnight?",
-            "views": 1635,
-            "watchMinutes": 430.04799999999966,
-            "likes": 58,
+            "views": 2081,
+            "watchMinutes": 527.2601166666662,
+            "likes": 71,
             "comments": 2,
             "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0"
+          },
+          {
+            "publishedAt": "20261103170418",
+            "title": "What If Octopuses Lived on Land?",
+            "views": 1011,
+            "watchMinutes": 179.87536666666665,
+            "likes": 35,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=u51oWL8ACTQ"
+          },
+          {
+            "publishedAt": "20261103170121",
+            "title": "What If the Ocean Glowed Like Stars? 🌊✨",
+            "views": 144,
+            "watchMinutes": 23.90896666666666,
+            "likes": 10,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=l_eoxyfvfRM"
           },
           {
             "publishedAt": "20261022160436",
@@ -772,8 +812,8 @@
           {
             "publishedAt": "20261028170511",
             "title": "What If Earth’s Magnetic Field Reversed?",
-            "views": 98,
-            "watchMinutes": 24.427816666666665,
+            "views": 99,
+            "watchMinutes": 24.505916666666668,
             "likes": 5,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=wr4Mzn1b10k"
@@ -781,11 +821,20 @@
           {
             "publishedAt": "20261026170501",
             "title": "What If Migratory Birds Lost Their Way?",
-            "views": 69,
-            "watchMinutes": 11.949866666666665,
+            "views": 70,
+            "watchMinutes": 12.036266666666664,
             "likes": 9,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
+          },
+          {
+            "publishedAt": "20261031170905",
+            "title": "What If Humans Lived With Dinosaurs? A Day in Our New World",
+            "views": 21,
+            "watchMinutes": 12.8364,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=OT6P32a60Rg"
           },
           {
             "publishedAt": "20261018170925",
@@ -797,19 +846,10 @@
             "url": "https://www.youtube.com/watch?v=s42iD-x3u1g"
           },
           {
-            "publishedAt": "20261031170905",
-            "title": "What If Humans Lived With Dinosaurs? A Day in Our New World",
-            "views": 18,
-            "watchMinutes": 7.3687,
-            "likes": 4,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=OT6P32a60Rg"
-          },
-          {
             "publishedAt": "20261025180201",
             "title": "What If Dogs Could Talk? 🐶😂 | Biscuit & Pixel",
-            "views": 14,
-            "watchMinutes": 28.15625,
+            "views": 15,
+            "watchMinutes": 28.406416666666665,
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=iOstByrBFdE"
@@ -817,8 +857,8 @@
           {
             "publishedAt": "20261030170411",
             "title": "What If Dinosaurs Survived the Asteroid?",
-            "views": 13,
-            "watchMinutes": 4.5216666666666665,
+            "views": 14,
+            "watchMinutes": 4.5258666666666665,
             "likes": 3,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=mlzAbOhLYEI"
@@ -861,17 +901,17 @@
         "series": [],
         "videos": []
       },
-      "notes": "No authorized and reliable connected channel analytics source available in this task; no numbers."
+      "notes": "No verified authorized analytics source for this channel in this sync. Do not infer or invent metrics."
     }
   },
   "notes": [
-    "Authentic source: five successful connected Metricool getAnalyticsDataByMetrics calls for brandIds 7296504 and 7751348, covering 2026-10-05 through 2026-11-05 (inclusive) with Europe/Oslo boundaries; this is not live YouTube Studio data.",
-    "YouTube evolution fields YTEV01 subscriber total, YTEV02 daily views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost; data has date YYYYMMDD as final field. Null values remain null; missing dates are not fabricated.",
-    "Bizarre Past TikTok evolution fields TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange; TKEV02 measures views related to videos published in the chosen period under Metricool's definition, not necessarily all account video views on that day.",
-    "Per-video fields YTVP02 publishedAt, YTVP17 title, YTVP06 cumulative views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Video statistics cover videos published within the query period and are cumulative per video, NOT rolling 7-day channel views.",
-    "Metricool can lag and recent daily metrics may be incomplete/null even if subscriber totals are present. Missing numeric fields are null, never zero-filled or extrapolated.",
-    "Little Wild Adventures: no connected Metricool analytics source; do not infer views/subscribers/watch time. Highlights Of Everything is excluded.",
-    "Ads views/watch time and Shorts feed viewing cannot be distinguished into eligible YouTube Partner Program watch hours using these Metricool data alone.",
-    "All date ranges shown were requested, but earliest returned rows may be later if the platform has no earlier history. Daily 7-day totals should sum only non-null dated rows, and report incomplete periods as such."
+    "Data refreshed from FIVE successful authenticated Metricool getAnalyticsDataByMetrics calls on 2026-11-06T07:17:32++01:00 for exact brandIds 7296504 (YouTube and TikTok) and 7751348 (YouTube). Europe/Oslo requested boundaries from 2026-10-06 through 2026-11-06 inclusive. These are provider-reported snapshots, not live YouTube Studio readings.",
+    "YouTube evolution requested YTEV01 subscriber total, YTEV02 daily views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Last field in Metricool rows is YYYYMMDD; results sorted ascending by date. Missing metrics and absent days are never treated as zero.",
+    "TikTok Bizarre requested TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. TKEV02 may reflect videos in the requested publication range rather than all TikTok viewing on that day.",
+    "YouTube video list requested YTVP02 publishedAt, YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Listed video views/watch time are cumulative totals for videos *published* in this date window and NOT rolling daily channel metrics.",
+    "Metricool data may lag, with current/recent days returning null, including when other fields report totals. Null is preserved as null (not zero). Date range requested is not a guarantee of complete coverage; missing days are not fabricated.",
+    "Little Wild Adventures is not connected to Metricool analytics; no counts are populated for this channel. Highlights Of Everything is excluded.",
+    "Ads attribution, eligible YPP public long-form watch hours, and Shorts-feed excluded watch time cannot be resolved from these metrics alone. Keep paid-vs-organic reporting distinct.",
+    "Rolling 7-day estimates should sum only dated non-null daily observations and be marked incomplete when any daily value or day is missing."
   ]
 }
