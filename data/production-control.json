@@ -268,7 +268,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-05",
+      "verifiedDate": "2026-11-06 after 18:00 Europe/Oslo",
       "bizarrePast": [
         {
           "id": 414921238,
@@ -303,9 +303,11 @@
           "network": "youtube",
           "time": "18:00",
           "title": "Knights Templar",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-06 before 18:00 Europe/Oslo",
-          "statusSource": "Metricool authenticated getScheduledPosts on Nov 6, providers status=PENDING, autoPublish=true; NOT proof of publication after scheduled time"
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-06 after 18:00 Europe/Oslo",
+          "statusSource": "Metricool authenticated getScheduledPosts; provider status PUBLISHED, direct publicUrl returned 2026-11-06",
+          "publicUrl": "https://www.youtube.com/shorts/TKTHIHIKPPI",
+          "providerPostId": "TKTHIHIKPPI"
         },
         {
           "id": 395308721,
@@ -314,9 +316,11 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "Knights Templar",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-06 before 18:00 Europe/Oslo",
-          "statusSource": "Metricool authenticated getScheduledPosts on Nov 6, providers status=PENDING, autoPublish=true; NOT proof of publication after scheduled time"
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-06 after 18:00 Europe/Oslo",
+          "statusSource": "Metricool authenticated getScheduledPosts; provider status PUBLISHED, direct publicUrl returned 2026-11-06",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7705106186160327958",
+          "providerPostId": "7705106186160327958"
         },
         {
           "id": 414921393,
@@ -628,10 +632,10 @@
         "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
         "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md"
       ],
-      "productionBudget": "Higgsfield live read-only balance 32.8 credits on 2026-11-06, Plus; no currently usable free video generations. No job initiated. Full-motion several-minute video likely exceeds credit allowance, but NO confirmed blocked paid job or actual booking; no new blocker alert.",
+      "productionBudget": "Higgsfield read-only balance 2026-11-06: 32.8 credits, Plus. No usable free video generations; remaining free image influencer sheets cannot fund a long motion film. New 2–4 / 3–6 min videos not generated, MP4 QC not complete, cost not validated, no booking; do not claim sufficient funds or purchase credits without explicit approval.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
       "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin (museum primary research published Oct 2026; unknown owner; avoid implying personally handled by king), original ~437-word English 16:9 script, editorial only.",
-      "platformControl": "Metricool on Nov 6 before 18:00 confirms Knights Templar YouTube+TikTok PENDING autoPublish=true for 6 Nov 18:00 and Pastry War YouTube+TikTok PENDING for 8 Nov 18:00. No booking changes. Check outcome after scheduled time before claiming published.",
+      "platformControl": "Metricool live check 2026-11-06 after 18:00: Knights Templar successfully published to YouTube and TikTok; Pastry War 2026-11-08 18:00 remains PENDING autoPublish=true for both. No ordinary public long-form posts for 11 or 15 Nov booked. Preserve queues.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
       "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases."
     },
