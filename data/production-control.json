@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -302,7 +302,10 @@
           "date": "2026-11-06",
           "network": "youtube",
           "time": "18:00",
-          "title": "Knights Templar"
+          "title": "Knights Templar",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-06 before 18:00 Europe/Oslo",
+          "statusSource": "Metricool authenticated getScheduledPosts on Nov 6, providers status=PENDING, autoPublish=true; NOT proof of publication after scheduled time"
         },
         {
           "id": 395308721,
@@ -310,7 +313,10 @@
           "date": "2026-11-06",
           "network": "tiktok",
           "time": "18:00",
-          "title": "Knights Templar"
+          "title": "Knights Templar",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-06 before 18:00 Europe/Oslo",
+          "statusSource": "Metricool authenticated getScheduledPosts on Nov 6, providers status=PENDING, autoPublish=true; NOT proof of publication after scheduled time"
         },
         {
           "id": 414921393,
@@ -318,7 +324,10 @@
           "date": "2026-11-08",
           "network": "youtube",
           "time": "18:00",
-          "title": "Pastry War"
+          "title": "Pastry War",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-06",
+          "statusSource": "Metricool authenticated getScheduledPosts Nov 6, due Nov 8 18:00 Europe/Oslo; autoPublish=true"
         },
         {
           "id": 414921374,
@@ -326,7 +335,10 @@
           "date": "2026-11-08",
           "network": "tiktok",
           "time": "18:00",
-          "title": "Pastry War"
+          "title": "Pastry War",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-06",
+          "statusSource": "Metricool authenticated getScheduledPosts Nov 6, due Nov 8 18:00 Europe/Oslo; autoPublish=true"
         }
       ]
     },
@@ -570,17 +582,22 @@
       }
     },
     "bizarreNextProduction": {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "firstTarget": "2026-11-09 18:00 Europe/Oslo Short 35–40 s (editorial only)",
       "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo ordinary public 16:9 2–4 min (editorial only)",
       "sundayTarget": "2026-11-15 18:00 Europe/Oslo ordinary public 16:9 3–6 min (editorial only)",
-      "status": "TWO_RESEARCH_BRIEFS_READY_NOT_GENERATED_NO_NEW_BOOKINGS",
+      "status": "THREE_FACTCHECKED_RESEARCH_BRIEFS_ONLY_NO_GENERATION_NO_MP4_QC_NO_NEW_BOOKINGS",
       "briefs": [
         "data/bizarre-past-herculaneum-brief-2026-11-04.md",
-        "data/bizarre-past-antikythera-long-brief-2026-11-05.md"
+        "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
+        "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md"
       ],
-      "productionBudget": "Higgsfield live 32.8 credits, no free video gens. Alternative catalog models not price-confirmed and no complete high-quality film generated. Not yet a verified provider failure because no approved job was started or confirmed booked.",
-      "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked."
+      "productionBudget": "Higgsfield live read-only balance 32.8 credits on 2026-11-06, Plus; no currently usable free video generations. No job initiated. Full-motion several-minute video likely exceeds credit allowance, but NO confirmed blocked paid job or actual booking; no new blocker alert.",
+      "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
+      "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin (museum primary research published Oct 2026; unknown owner; avoid implying personally handled by king), original ~437-word English 16:9 script, editorial only.",
+      "platformControl": "Metricool on Nov 6 before 18:00 confirms Knights Templar YouTube+TikTok PENDING autoPublish=true for 6 Nov 18:00 and Pastry War YouTube+TikTok PENDING for 8 Nov 18:00. No booking changes. Check outcome after scheduled time before claiming published.",
+      "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
+      "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases."
     },
     "whatifRetentionImprovement": {
       "updatedAt": "2026-11-04",
@@ -976,7 +993,20 @@
         "basis": "The Nov 3 existing competitor-watch (History Matters/Squire) plus own Oct21/23/30 cumulative examples and Nature 2008/UCL 2021 primary evidence; did not inspect competitor videos' opening seconds or infer causality from non-age-matched views.",
         "test": "After final MP4 QC and confirmed publish, compare 24h/7d/28d ordinary-video audience retention, CTR, qualified public watch hours and subscriber gain at comparable video age. No first-two-second retention available in Metricool now."
       },
-      "nextAction": "Monitor Nov6 Knights Templar after 18:00 provider check; keep Nov8 Pastry War unchanged. For Nov9/11 drafts, secure genuinely affordable full-motion quality and verify complete MP4 with audio plus queue before attempting bookings; user must authorize credit purchases, and none were made."
+      "nextAction": "Monitor Nov6 Knights Templar after 18:00 provider check; keep Nov8 Pastry War unchanged. For Nov9/11 drafts, secure genuinely affordable full-motion quality and verify complete MP4 with audio plus queue before attempting bookings; user must authorize credit purchases, and none were made.",
+      "nov06": {
+        "checked": "2026-11-06 pre-18:00 Europe/Oslo",
+        "source": "Metricool authenticated getScheduledPosts 7296504; Higgsfield balance; vidIQ public own channel basics; University of Oslo museum primary release Oct9.",
+        "currentScheduledTonight": "Knights Templar YT+TikTok 18:00 Oslo both PENDING (not published yet)",
+        "sunday08": "Pastry War YT+TikTok 18:00 Oslo both PENDING",
+        "ownedYT": "vidIQ 0-credit channel listing shows 34 subscribers / 7254 lifetime views / 20 public videos as of the Nov6 read; historical totals, not retention or age-matched progress.",
+        "higgsfieldCredits": 32.8,
+        "vidiqCredits": 2,
+        "analyticsCaveat": "Metricool all-video query Oct22–Nov6 did not return Nov4 Oak Island; incomplete/delayed result, not evidence of zero viewership. Period-filtered data may not equal cumulative per-video totals.",
+        "reportToTelegram": "No new verified incident. Do not create fake push; hourly watcher remains responsible for future confirmed blockers.",
+        "newBrief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
+        "operations": "Only read-only provider checks, sourced script/research in GitHub; no comments, likes, generator jobs, credit purchases, deletions, video QC claims or Metricool booking."
+      }
     }
   },
   "promotions": {
