@@ -64,24 +64,24 @@ A single coin from a field in Norway has brought us face to face with the final 
 
 **Five thousand five hundred coins. One tiny signature of a changing world.**”
 
-**Post-recording caution:** The core date 1046/1047 and total 5,500 are archaeological estimates/as-of counts; voiceover must not convert them into exact certainties. Do not claim found object was physically photographed by our production.
+**Post-recording caution:** At approximately 437 words, narration may land around 3:00–3:30 depending on delivery; recorded duration overrides provisional 195-second scene plan. The core date 1046/1047 and total 5,500 are archaeological estimates/as-of counts; voiceover must not convert them into exact certainties. Do not claim found object was physically photographed by our production.
 
 ## Scene plan: full original Higgsfield motion, soundtrack and fact checks
 
 1. **0–2s:** Powerful *moving* macro fly-in over mixed Viking-Age silver, immediate voice and written "Did you know…", one coin turns slightly under real light. Keep inscription detail non-literal until museum identification.
-2. **2–18s:** 2026 modern Norwegian field and two detectorists in a **labelled re-enactment**, no acting as original site footage; detector sweep and first coin emerging.
-3. **18–37s:** Coins appear one by one as counted data; use original animated number counter ending at **~5,500 AS OF OCT 2026**, no fabricated archaeological footage.
-4. **37–60s:** Moving medieval market and Viking ship route, physically plausible silver exchange (not implying every coin's individual path known).
-5. **60–82s:** Animated map with routes from England/central Europe to Norway. Diagram is a scholarly reconstruction, not exact coin provenances.
-6. **82–107s:** Nighttime landscape where a chest is hidden, unmistakable **SPECULATIVE RE-ENACTMENT**; do not assert actual burial behavior, person or container.
-7. **107–135s:** Modern numismatics lab sorting trays, close-up moves across blurred coins. Avoid reproducing museum staff likenesses.
-8. **135–159s:** Macro reveal of a silver coin with *stylized* Olaf legend, overlay: **ONLAF R+ NORMANORV** plus a clean subtitle **KING OF THE NORWEGIANS**. Clearly mark illustration as **RECREATION**.
-9. **159–179s:** Metalworker engraving king/cross designs in the 1020s; caption **MINTED c. 1024–1028**.
-10. **179–205s:** Knife test marks rendered in moving 3D macro, distinct from damage; caption **SILVER TEST MARKS**; no assumption about who cut them.
-11. **205–234s:** Olaf's coin facing an abstract map of a changing kingdom, Christian symbolism represented respectfully, not presented as proof of universal religious belief.
-12. **234–255s:** Return to coins, museum storage and mysterious undiscovered owner's shadow, slow moving reveal with complete spoken payoff and intentional ending.
+2. **2–15s:** 2026 modern Norwegian field and two detectorists in a **labelled re-enactment**, no acting as original site footage; detector sweep and first coin emerging.
+3. **15–30s:** Coins appear one by one as counted data; use original animated number counter ending at **~5,500 AS OF OCT 2026**, no fabricated archaeological footage.
+4. **30–47s:** Moving medieval market and Viking ship route, physically plausible silver exchange (not implying every coin's individual path known).
+5. **47–63s:** Animated map with routes from England/central Europe to Norway. Diagram is a scholarly reconstruction, not exact coin provenances.
+6. **63–80s:** Nighttime landscape where a chest is hidden, unmistakable **SPECULATIVE RE-ENACTMENT**; do not assert actual burial behavior, person or container.
+7. **80–97s:** Modern numismatics lab sorting trays, close-up moves across blurred coins. Avoid reproducing museum staff likenesses.
+8. **97–113s:** Macro reveal of a silver coin with *stylized* Olaf legend, overlay: **ONLAF R+ NORMANORV** plus a clean subtitle **KING OF THE NORWEGIANS**. Clearly mark illustration as **RECREATION**.
+9. **113–130s:** Metalworker engraving king/cross designs in the 1020s; caption **MINTED c. 1024–1028**.
+10. **130–146s:** Knife test marks rendered in moving 3D macro, distinct from damage; caption **SILVER TEST MARKS**; no assumption about who cut them.
+11. **146–170s:** Olaf's coin facing an abstract map of a changing kingdom, Christian symbolism represented respectfully, not presented as proof of universal religious belief.
+12. **170–195s:** Return to coins, museum storage and mysterious undiscovered owner's shadow, slow moving reveal with complete spoken payoff and intentional ending.
 
-All timings provisional: **actual voice track determines total length**. Every 4–9 seconds new camera movement and motivated visual change; no slideshow, no copyrighted image reuse, no recreated fake primary artifacts.
+All timings provisional: **actual voice track determines total length**. Use frequent purposeful shot changes and active movement within scenes; no slideshow, no copyrighted image reuse, no recreated fake primary artifacts.
 
 ## Mandatory before any release
 
