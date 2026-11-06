@@ -1232,5 +1232,54 @@
     "currentDeliveryVerification": "Unverified end-to-end: workflow and Telegram bot configured in GitHub, but no actual new blocker alert has been sent/tested in this turn.",
     "privacy": "GitHub repo can be publicly visible; never add secrets, personal contacts, private account identifiers or private message bodies to alert feed.",
     "restrictions": "No autonomous ad/credit purchases, scheduling edits or low-quality publishing in response to alerts."
+  },
+  "nextLongFormEditorial": {
+    "updatedAt": "2026-11-06",
+    "timezone": "Europe/Oslo",
+    "releaseTime": "18:00",
+    "state": "EDITORIAL_TARGETS_ONLY; NO NEW CONFIRMED PLATFORM BOOKINGS OR PUBLICATIONS",
+    "entries": [
+      {
+        "channel": "Bizarre Past",
+        "date": "2026-11-11",
+        "length": "2–4 min",
+        "aspect": "16:9 ordinary public",
+        "title": "The Rusted Lump That Predicted Eclipses 2,000 Years Ago",
+        "subject": "Ancient Antikythera gear mechanism predicts eclipse cycles",
+        "brief": "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
+        "producer": "Higgsfield",
+        "publisher": "Metricool",
+        "stage": "FACT_CHECKED_EDITORIAL_DRAFT_ONLY_NOT_GENERATED_NOT_BOOKED",
+        "caution": "Higgsfield ~32.8 credits last check Nov5, full film cost unknown; existing 8 Nov Pastry War is a booked Short, not this long."
+      },
+      {
+        "channel": "What If in 40 Seconds",
+        "date": "2026-11-11",
+        "length": "3–4 min",
+        "aspect": "16:9 ordinary public",
+        "title": "What If You Could See the World Like a Bee? 🐝🌸",
+        "subject": "UV flower patterns + separately sensed floral electric fields",
+        "brief": "data/whatif-bee-vision-long-brief-2026-11-06.md",
+        "producer": "AI Tuber",
+        "publisher": "AI Tuber",
+        "stage": "NEW_EDITORIAL_OUTLINE_NOT_GENERATED_NOT_BOOKED",
+        "caution": "Keep extra agent publication lock until recurring What If AutoPilot and a non-overlapping actual queue are verifiable."
+      },
+      {
+        "channel": "Little Wild Adventures",
+        "date": "2026-11-15",
+        "length": "3–6 min",
+        "aspect": "16:9 ordinary public",
+        "title": "Milo and the Shadow That Wouldn't Stay Still! ☀️",
+        "subject": "Milo, Miko and Pip discover how sunlight and shadow positions change through play and teamwork",
+        "brief": "data/little-wild-moving-shadow-long-brief-2026-11-06.md",
+        "producer": "AI Tuber",
+        "publisher": "AI Tuber",
+        "stage": "NEW_EDITORIAL_OUTLINE_NOT_GENERATED_NOT_BOOKED",
+        "caution": "Old images-only Weekly Long Story AutoPilot paused; real full-motion 16:9 cost and MP4 QC must be checked before restarting/generation."
+      }
+    ],
+    "existingBookings": "Do not modify Nov6 Templars or Nov8 Pastry War Shorts in Metricool. The current planned long-films are not existing platform bookings. No AITuber MP4 passed end-to-end AV QC for a new long film.",
+    "approvalPolicy": "User authorizes release only of a finished high-quality verified unique video; no bypass of QC, provider conflict guard, budget, 18:00 or channel identification."
   }
 }
