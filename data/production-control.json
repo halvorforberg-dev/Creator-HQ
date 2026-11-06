@@ -343,7 +343,7 @@
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-05",
+      "verifiedDate": "2026-11-06",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -367,7 +367,8 @@
       "notes": [
         "2026-11-03 18:24 Oslo: Milo's Wobbly Tower PILOT completed/exported but HOLD for 42s duration, bad generated title, no MP4 AV-QC or AutoPilot duplicate/time verification. Not scheduled by channel agent.",
         "2026-11-04 18:36 Oslo: AI Tuber generated 'The Splashy Tub-Team Rinse' ID bbd79dbc-f6a5-414e-9376-0381eec173f4 at 16:00 local today (37s, 9:16, 5 video scenes, exported). Script names sidekicks generically Meerkat/Bird; not QC approved. Public YouTube publication and recurrence/booking are UNVERIFIED. Do not duplicate an upload or assume the 18:00 schedule is set.",
-        "2026-11-05 provider response: Little Wild Shorts ON, every 2 days next 06.11 16:00 Oslo, direct auto-publication; Weekly Long Story ON, next 09.11 16:00 Oslo, 5-minute images-only auto-publication. Splashy Rinse confirmed YouTube live 04.11 16:09 and rejected Breeze live 02.11 16:13. Provider has NOT changed settings. QC/publish risk confirmed; no duplicate manual post. Support follow-up sent to request pause/draft-only."
+        "2026-11-05 provider response: Little Wild Shorts ON, every 2 days next 06.11 16:00 Oslo, direct auto-publication; Weekly Long Story ON, next 09.11 16:00 Oslo, 5-minute images-only auto-publication. Splashy Rinse confirmed YouTube live 04.11 16:09 and rejected Breeze live 02.11 16:13. Provider has NOT changed settings. QC/publish risk confirmed; no duplicate manual post. Support follow-up sent to request pause/draft-only.",
+        "2026-11-06 ~18:44 Oslo: AI Tuber AutoPilot created Block Basket Rescue ID 02253a90-1aaa-4766-8e50-54dd419b0981 at 16:00, 34s full-video clips, export NOT completed. AITuber email explicitly confirms NOT PUBLISHED because no channel connected to this AutoPilot. Missing names Miko/Pip; no rendered MP4 QC; HOLD. Shared credits 9166, no agent spend. Old alert remains RESOLVED; no new verified publishing blocker."
       ]
     }
   },
@@ -539,17 +540,17 @@
   },
   "operationalChecks": {
     "littleWildLatest": {
-      "verifiedAt": "2026-11-04T18:35:56+01:00",
+      "verifiedAt": "2026-11-06T18:43:57+01:00",
       "producer": "AI Tuber connected API",
       "pilotVideoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
       "pilotState": "Prior 42s pilot ID 466835c0-27bd-4172-a846-4d9f3d187f32 still completed and exported; still HOLD_NOT_APPROVED with no confirmed new booking.",
       "pilotQC": "HOLD_NOT_APPROVED. MP4 could not be viewed/listened to because CDN host resolution failed in container and web viewer could not open MP4. Exact character looks, motion quality, intelligible audio, and ending unverified.",
       "confirmedActualBooking": "none independently confirmed for pilot; no publication performed this run",
-      "mainAndWeeklyAutopilot": "NOT VERIFIED; newly generated Nov 4 video at 16:00 Oslo with generic character names. Do not claim actual AutoPilot setting, public upload, or fix. Dashboard check still required.",
-      "aituberStudioAvailableCredits": 9583,
-      "creditsNote": "Observed shared balance 9583/10000 on 2026-11-04, 225 lower than prior 9808 snapshot; cannot attribute. 70/30 allocation remains editorial only.",
+      "mainAndWeeklyAutopilot": "2026-11-06: Shorts workflow generated an UNPUBLISHED draft at 16:00; AITuber notification confirms channel not connected to AutoPilot for publishing. Main generation continues. Separate Weekly Long Story paused per authenticated dashboard verified 2026-11-05; no new live dashboard confirmation today.",
+      "aituberStudioAvailableCredits": 9166,
+      "creditsNote": "Shared Studio balance 9166/10000 as of 2026-11-06. No generation, export, publish, buy action taken by agent; no reliable attribution for differences vs earlier balances.",
       "platformChannels": "Little Wild and What If connected in AI Tuber; vidIQ user-channels list currently contains Bizarre Past and Highlights, not Little Wild, so Little Wild private Studio analytics unavailable via that vidIQ connection.",
-      "nextAction": "Do NOT queue/generate new Little Wild movie until exported MP4 QC with sound and UI AutoPilot timing/duplicate check. Verify actual duration 42s and correct script-derived title. Keep What If priority.",
+      "nextAction": "Review new unpublished Block Basket Rescue; names Miko/Pip missing, only 34s, full MP4 QC missing. Main AutoPilot generates drafts but no posts. Preserve paused weekly long story. Check YouTube/queue before any separate 18:00 booking.",
       "newActions": "Read-only audit of AITuber subscription, video metadata, connected channels, candidate pilot and title; public vidIQ query failed for insufficient vidIQ credits. No video generation, publish, paid credits, user engagement or manual edits.",
       "autopilotNewVideoObservation": {
         "checkedAt": "2026-11-04T18:35:56+01:00",
@@ -579,6 +580,30 @@
         },
         "ownerAnalytics": "vidIQ connected owner channels do not include Little Wild; public vidIQ channel-videos request failed with insufficient credits (2 remaining, 5 required) and no credits were charged. Metricool brands do not include Little Wild.",
         "nextStep": "User should inspect/pause or correct main and Weekly Long Story AutoPilot schedules in AITuber dashboard; enforce names Milo/Miko/Pip, approved visual reference, full-motion and pre-publication MP4+audio review and release time 18:00; avoid publishing rejected scripts."
+      },
+      "latestAutopilotDraft": {
+        "checkedAt": "2026-11-06T18:43:57+01:00",
+        "videoId": "02253a90-1aaa-4766-8e50-54dd419b0981",
+        "title": "The Block Basket Rescue",
+        "generatedAt": "2026-11-06T15:00:44.376Z",
+        "generatedAtOslo": "2026-11-06 16:00:44",
+        "status": "completed",
+        "mediaType": "video",
+        "durationSeconds": 34,
+        "aspectRatio": "9:16",
+        "exportStatus": null,
+        "source": "AI Tuber GET /videos/{id}; AITuber Notifications email 2026-11-06T15:02:43Z (Gmail id 1a1b1622f85d91a9)",
+        "publication": "NOT_PUBLISHED; provider notification explicitly says 'This video was not posted' and 'No channel is connected to this autopilot'.",
+        "quality": "HOLD_NOT_APPROVED: 34s falls below 35–40s target, script calls Miko/Pip 'meerkat' and 'blue bird' rather than named characters, saved @Little-Wild-Milo-and-Friends handle not present in returned content; full MP4 audio/visual QC impossible because no export; video segment URLs exist but final motion/continuity not watched.",
+        "editorialTest": "Next Short should open with a visible, surprising physical problem in 0–2 seconds; name Milo, Miko and Pip in voice/script and show each solving one part, verify 35–40 seconds; child understands action without relying on narration.",
+        "budget": {
+          "sharedCredits": 9166,
+          "monthlyCredits": 10000,
+          "balanceVerifiedAt": "2026-11-06T18:43:57+01:00",
+          "creditSpendThisCheck": 0,
+          "newPurchase": false
+        },
+        "nextStep": "Keep this video as unpublished draft. No new standalone generations or bookings before full MP4 playback and QC, duplicate check, budget check. Main Short AutoPilot continues producing drafts at 16:00, NOT publishing. Weekly Long Story paused (last dashboard verification 2026-11-05)."
       }
     },
     "bizarreNextProduction": {
