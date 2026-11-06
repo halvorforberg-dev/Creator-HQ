@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "channel": "Little Wild Adventures",
   "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
@@ -412,5 +412,29 @@
       "verifiedAt": "2026-11-05",
       "source": "AI Tuber Support Dhiva"
     }
+  },
+  "latestAutopilotDraft": {
+    "checkedAt": "2026-11-06T18:43:57+01:00",
+    "videoId": "02253a90-1aaa-4766-8e50-54dd419b0981",
+    "title": "The Block Basket Rescue",
+    "generatedAt": "2026-11-06T15:00:44.376Z",
+    "generatedAtOslo": "2026-11-06 16:00:44",
+    "status": "completed",
+    "mediaType": "video",
+    "durationSeconds": 34,
+    "aspectRatio": "9:16",
+    "exportStatus": null,
+    "source": "AI Tuber GET /videos/{id}; AITuber Notifications email 2026-11-06T15:02:43Z (Gmail id 1a1b1622f85d91a9)",
+    "publication": "NOT_PUBLISHED; provider notification explicitly says 'This video was not posted' and 'No channel is connected to this autopilot'.",
+    "quality": "HOLD_NOT_APPROVED: 34s falls below 35–40s target, script calls Miko/Pip 'meerkat' and 'blue bird' rather than named characters, saved @Little-Wild-Milo-and-Friends handle not present in returned content; full MP4 audio/visual QC impossible because no export; video segment URLs exist but final motion/continuity not watched.",
+    "editorialTest": "Next Short should open with a visible, surprising physical problem in 0–2 seconds; name Milo, Miko and Pip in voice/script and show each solving one part, verify 35–40 seconds; child understands action without relying on narration.",
+    "budget": {
+      "sharedCredits": 9166,
+      "monthlyCredits": 10000,
+      "balanceVerifiedAt": "2026-11-06T18:43:57+01:00",
+      "creditSpendThisCheck": 0,
+      "newPurchase": false
+    },
+    "nextStep": "Keep this video as unpublished draft. No new standalone generations or bookings before full MP4 playback and QC, duplicate check, budget check. Main Short AutoPilot continues producing drafts at 16:00, NOT publishing. Weekly Long Story paused (last dashboard verification 2026-11-05)."
   }
 }
