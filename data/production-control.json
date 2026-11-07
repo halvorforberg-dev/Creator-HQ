@@ -61,10 +61,17 @@
     },
     "whatIfDuplicatePrevention": {
       "since": "2026-11-03",
-      "status": "ACTIVE_GUARD_PENDING_AUTOPILOT_DRAFT_ONLY_AND_QC_VERIFICATION",
-      "policy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
-      "latestConfirmed": "2026-11-07: AI Tuber AutoPilot DIRECTLY PUBLISHED 34s What If Sun Got 10% Brighter? to correct YouTube channel; provider email 18:07 Oslo. This confirms recurring autopublication continues. No agent parallel publication/bookings or assumption of pre-publish QC until draft-only is visibly verified.",
-      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07"
+      "status": "AUTOPILOT_DRAFT_ONLY_VERIFIED_AGENT_PUBLISHING_REQUIRES_QC_AND_QUEUE_CHECK",
+      "policy": "2026-11-07 authenticated AI Tuber UI: What If AutoPilot YouTube channel deselected and changes saved. Provider status explicitly says 'Videos are saved to My Videos' / 'Nothing posts'. Generation every two days at 18:00 remains active but drafts only. Agent scheduling/publication may resume ONLY after full finished MP4+audio/factual QC, exact unique ID and current queue check. No existing public videos were changed.",
+      "latestConfirmed": "2026-11-07 evening: authenticated settings save, subsequent What If AutoPilot detail shows Nothing posts. AI Tuber Publications tab: 0 up next, queue empty. API confirmed correct What If YouTube channel connected for separate approved publication.",
+      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
+      "previousPolicy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
+      "resolvedOn": "2026-11-07"
+    },
+    "paidPromotionDecision": {
+      "decidedOn": "2026-11-07",
+      "policy": "Do not start, renew, rerun, resume or spend held wallet credit on YouTube Promote, Google Ads or VeeFly without NEW explicit user authorization. Prioritize ordinary public 16:9 long-form and organic qualifying watch time. Production subscriptions are not canceled by this decision.",
+      "verifiedAction": "What If Saturn promotion paused and saved in authenticated YouTube Studio 2026-11-07; automatic Google Ads billing settings remain unchanged, existing accrued charges are separate."
     }
   },
   "channels": {
@@ -837,6 +844,19 @@
       "nextLongForm": "What If You Could See the World Like a Bee? 419-word editorial draft only, Wed Nov11 target 18:00; NOT generated, QA-approved or platform booked.",
       "newSourceBasedResearch": "What If Soap Bubbles Became Snow Globes? Nature Communications 2019 science source in data/whatif-frozen-bubble-short-brief-2026-11-07.md. Not generated.",
       "actions": "Logged source-verified blocker, added original research brief, updated control/competitor; no upload, deletion, spending, or social engagement action by agent."
+    },
+    "whatIfDraftOnly": {
+      "verifiedOn": "2026-11-07",
+      "source": "Authenticated AI Tuber dashboard settings and saved What If AutoPilot detail",
+      "state": "VERIFIED_DRAFT_ONLY",
+      "autopilotId": "dc3364b4-9342-4e44-8ca8-76cac21fd0c5",
+      "visibleStatus": [
+        "Videos are saved to My Videos",
+        "Nothing posts"
+      ],
+      "generationCadence": "Every two days at 18:00 Europe/Oslo retained",
+      "queue": "Publications tab verified 0 up next, no scheduled upcoming posts",
+      "existingPostsChanged": false
     }
   },
   "channelAudit": {
@@ -1497,6 +1517,19 @@
         "notifyUser": true,
         "stopDedicatedWatch": true
       }
+    },
+    "policy": {
+      "decidedOn": "2026-11-07",
+      "policy": "Do not start, renew, rerun, resume or spend held wallet credit on YouTube Promote, Google Ads or VeeFly without NEW explicit user authorization. Prioritize ordinary public 16:9 long-form and organic qualifying watch time. Production subscriptions are not canceled by this decision.",
+      "verifiedAction": "What If Saturn promotion paused and saved in authenticated YouTube Studio 2026-11-07; automatic Google Ads billing settings remain unchanged, existing accrued charges are separate."
+    },
+    "whatIfYouTubePromote": {
+      "title": "What If Saturn’s Rings Vanished Overnight?",
+      "verifiedOn": "2026-11-07",
+      "source": "Authenticated YouTube Studio Promotions saved status and list readback",
+      "status": "PAUSED",
+      "renewalOrRestartAuthorized": false,
+      "billingSetting": "Automatic postpay remains; no payment or billing-method change executed."
     }
   },
   "operationalAlerts": {
@@ -1531,10 +1564,10 @@
     "restrictions": "No autonomous ad/credit purchases, scheduling edits or low-quality publishing in response to alerts."
   },
   "nextLongFormEditorial": {
-    "updatedAt": "2026-11-06",
+    "updatedAt": "2026-11-07",
     "timezone": "Europe/Oslo",
     "releaseTime": "18:00",
-    "state": "EDITORIAL_TARGETS_ONLY; NO NEW CONFIRMED PLATFORM BOOKINGS OR PUBLICATIONS",
+    "state": "WHAT_IF_NOV8_GENERATION_PENDING_QC_NOT_BOOKED; other entries remain editorial only",
     "entries": [
       {
         "channel": "Bizarre Past",
@@ -1551,7 +1584,7 @@
       },
       {
         "channel": "What If in 40 Seconds",
-        "date": "2026-11-11",
+        "date": "2026-11-08",
         "length": "3–4 min",
         "aspect": "16:9 ordinary public",
         "title": "What If You Could See the World Like a Bee? 🐝🌸",
@@ -1559,8 +1592,24 @@
         "brief": "data/whatif-bee-vision-long-brief-2026-11-06.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "COMPLETE_EDITORIAL_SCRIPT_V1_419_WORDS_FACT_CHECKED_NOT_GENERATED_NOT_QC_NOT_BOOKED",
-        "caution": "What If AutoPilot published unreviewed 34s Short Nov7, active quality-gate BLOCKER. No new agent scheduling/publication until provider UI switches to draft-only and pre-publish MP4/audio QC/queue check. Confirm any 3–4 min film cost and 16:9 delivery inside shared 10k budget; 11 Nov remains editorial target ONLY."
+        "stage": "GENERATION_PENDING_MP4_AUDIO_QC_NOT_BOOKED",
+        "caution": "What If AutoPilot draft-only is now VERIFIED and upcoming publication queue empty. Finished MP4 with audio, actual 3–4 min duration, 16:9 1080p, UV diagrams, anatomy and complete payoff still require QC before any booking. Not yet scheduled or approved.",
+        "previousEditorialTarget": "2026-11-11",
+        "time": "18:00 Europe/Oslo",
+        "request": "User explicitly requested one long film tomorrow after stopping paid promotion; authorized one-off exception before the Nov9 editorial schedule starts.",
+        "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+        "generationConfirmed": "AI Tuber create_video returned pending for this exact ID 2026-11-07T19:48:10.898Z; no duplicate request after accepted job.",
+        "scriptVersion": "v2, 411 narration words and 12 original bracketed visual directions, exact script saved in source brief",
+        "cost": {
+          "providerUiEstimateCredits": 754,
+          "estimateNarration": 69,
+          "estimateVideo": 685,
+          "estimateFootageSeconds": 137,
+          "quality": "basic 5 credits/second, same tier as current What If videos",
+          "actualCredits": "pending provider completion; not equal to estimate necessarily",
+          "preGenerationBalance": 8969,
+          "creditPurchase": false
+        }
       },
       {
         "channel": "Little Wild Adventures",
