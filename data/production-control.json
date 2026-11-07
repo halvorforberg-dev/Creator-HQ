@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -268,7 +268,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-06 after 18:00 Europe/Oslo",
+      "verifiedDate": "2026-11-07 17:23 Europe/Oslo; Nov6 Knights Templar PUBLISHED both platforms, Nov8 Pastry War PENDING both platforms",
       "bizarrePast": [
         {
           "id": 414921238,
@@ -330,8 +330,8 @@
           "time": "18:00",
           "title": "Pastry War",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-06",
-          "statusSource": "Metricool authenticated getScheduledPosts Nov 6, due Nov 8 18:00 Europe/Oslo; autoPublish=true"
+          "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
         },
         {
           "id": 414921374,
@@ -341,8 +341,8 @@
           "time": "18:00",
           "title": "Pastry War",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-06",
-          "statusSource": "Metricool authenticated getScheduledPosts Nov 6, due Nov 8 18:00 Europe/Oslo; autoPublish=true"
+          "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
         }
       ]
     },
@@ -635,9 +635,53 @@
       "productionBudget": "Higgsfield read-only balance 2026-11-06: 32.8 credits, Plus. No usable free video generations; remaining free image influencer sheets cannot fund a long motion film. New 2–4 / 3–6 min videos not generated, MP4 QC not complete, cost not validated, no booking; do not claim sufficient funds or purchase credits without explicit approval.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
       "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin (museum primary research published Oct 2026; unknown owner; avoid implying personally handled by king), original ~437-word English 16:9 script, editorial only.",
-      "platformControl": "Metricool live check 2026-11-06 after 18:00: Knights Templar successfully published to YouTube and TikTok; Pastry War 2026-11-08 18:00 remains PENDING autoPublish=true for both. No ordinary public long-form posts for 11 or 15 Nov booked. Preserve queues.",
+      "platformControl": "2026-11-07 17:23 Europe/Oslo authenticated Metricool: Nov6 Knights Templar PUBLISHED both YouTube/TikTok; Nov8 Pastry War PENDING at exactly 18:00 both platforms with autoPublish=true. No Nov9/11/15 Bizarre posts in inspected 6–17 Nov Metricool queue. Existing posts unchanged.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
-      "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases."
+      "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases.",
+      "dailyAudit20261107": {
+        "checkedAt": "2026-11-07T17:23:11+01:00",
+        "sources": [
+          "Authenticated Metricool brand and getScheduledPosts for 6–17 Nov, brand 7296504",
+          "Higgsfield balance",
+          "vidIQ balance",
+          "Metricool YouTube evolution, published in range and TikTok posts through 7 Nov",
+          "University of Oslo museum primary source on Mørstad hoard"
+        ],
+        "verifiedTomorrow": "Pastry War: YouTube post 414921393 PENDING, TikTok post 414921374 PENDING, each 2026-11-08T18:00:00 Europe/Oslo, autoPublish=true.",
+        "earlierRelease": "Knights Templar published to YouTube and TikTok Nov6 verified again Nov7.",
+        "upcomingAfterNov8": "No confirmed new Metricool bookings Nov9 through Nov17. Herculaneum Nov9, Antikythera Nov11 and Mørstad Nov15 are EDITORIAL RESEARCH ONLY; no generated MP4 or completed QC.",
+        "higgsfield": {
+          "credits": 32.8,
+          "plan": "plus",
+          "verified": "2026-11-07",
+          "usableFreeVideoGenerations": 0,
+          "freeTrialUnlimited": false,
+          "agentGeneration": false,
+          "spentByAgent": 0
+        },
+        "vidiq": {
+          "remaining": 2,
+          "renewableRemaining": 0,
+          "renewableRefill": "2026-11-21T20:09:10Z",
+          "paidCalls": 0
+        },
+        "analytics": {
+          "youtubeEvolutionSubscriberSnapshot": 34,
+          "asOf": "2026-11-07 (provider rows; view totals missing/null for Nov5–7, not zero)",
+          "youtubeRecentVideoMetric": "Metricool videos published in range Nov4–7 returned no rows despite confirmed public posts; do not infer zero views",
+          "tiktokViews": {
+            "oakIsland": 262,
+            "knightsTemplar": 278
+          },
+          "tiktokLikes": {
+            "oakIsland": 0,
+            "knightsTemplar": 2
+          },
+          "tiktokQuery": "Cumulative provider rows checked 7 Nov. These clips were published Nov4 and Nov6 respectively; age mismatch and tiny samples prevent causal claims."
+        },
+        "alert": "No NEW confirmed operational blocker. Current 32.8 credits restrict unbooked editorial production but DO NOT satisfy alert rule absent a verified booked production failure. Do not touch data/production-alerts.json.",
+        "actions": "Read-only check. No new render, booking, MP4 QC, uploads, paid credits, comments or likes."
+      }
     },
     "whatifRetentionImprovement": {
       "updatedAt": "2026-11-04",
