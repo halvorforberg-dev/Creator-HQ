@@ -739,6 +739,59 @@
       "block": "Confirmed active AutoPilot workflows auto-publish without required QC; next scheduled Friday Short at 16:00 and next Monday long-story images. Requires user/provider to turn OFF AutoPilot publishing, edit/pause series and QC final MP4 before any new release.",
       "actionURL": "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489",
       "checkedWithoutGeneratingOrPosting": true
+    },
+    "littleWildDailyAudit20261107": {
+      "checkedAt": "2026-11-07T18:52:57+01:00",
+      "sources": [
+        "AITuber GET /videos (newest 15, 2026-11-07)",
+        "AITuber GET /subscription (2026-11-07)",
+        "AI Tuber notifications email Nov6 15:02:43Z message 1a1b1622f85d91a9",
+        "vidIQ vidiq_user_channels (no credits, 2026-11-07)",
+        "Gmail search for provider responses after Nov5",
+        "Creator HQ production-alerts.json and Little Wild series-bible.json"
+      ],
+      "production": {
+        "mostRecentLittleWild": "The Block Basket Rescue",
+        "videoId": "02253a90-1aaa-4766-8e50-54dd419b0981",
+        "generatedAtOslo": "2026-11-06 16:00:44",
+        "status": "completed",
+        "durationSeconds": 34,
+        "format": "9:16 video",
+        "exportStatus": null,
+        "publication": "NOT_POSTED (provider notification explicitly confirms no YouTube channel attached to Short AutoPilot)",
+        "qc": "HOLD_NOT_APPROVED: too short, generic Miko/Pip naming, no end-to-end MP4/audio playback or export verified",
+        "newLittleWildVideoOnNov7": false,
+        "latestAccountVideo": "What If the Sun Grew 10% Brighter? (ID 00fd5574-adc8-4c43-a1ad-2045cb29082a, generated Nov7 18:00 Oslo, account list only; no attribution of credits, booking or publication)",
+        "pilot": "Milo's Wobbly Tower remains completed 42s exported but QC-held and without verified publication",
+        "autopilot": "Main Short AutoPilot no YouTube destination verified by provider notification Nov6; Weekly Long Story last dashboard verification PAUSED Nov5, no current UI confirmation via API. Do not imply paused state rechecked today."
+      },
+      "budget": {
+        "sharedStudioCredits": 8969,
+        "monthlyCredits": 10000,
+        "previousObservedCredits": 9166,
+        "delta": -197,
+        "deltaAttribution": "UNKNOWN, do not ascribe to a particular production",
+        "creditsSpentByAgent": 0,
+        "creditPurchasesByAgent": 0
+      },
+      "publicChannel": {
+        "source": "vidIQ connected channel summary",
+        "subscriberCount": 251,
+        "viewCount": 7234,
+        "videoCount": 17,
+        "observedOn": "2026-11-07",
+        "priorReportedSnapshot": {
+          "subscribers": 233,
+          "views": 7106
+        },
+        "interpretation": "Aggregate public counts, no attribution to organic vs paid campaign, no proof of new video publication today."
+      },
+      "blockers": {
+        "newVerifiedBlocker": false,
+        "reason": "No new confirmed Little Wild generation/export failure or accidental public publication since Nov6. Old AutoPilot quality_gate blocker already resolved per GitHub alert; no new alert revision.",
+        "alertFileUnchanged": true
+      },
+      "workPerformed": "Read-only provider/GitHub/Gmail/vidIQ audit; updated HQ operational record. No AITuber credits spent, render, export, publish, booking, comment, like, credit purchase, automation change or Telegram test."
     }
   },
   "channelAudit": {
