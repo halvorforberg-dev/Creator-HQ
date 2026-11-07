@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -643,6 +643,49 @@
       "warning": "No new operational block confirmed. Upcoming editorial Nov9/11/15 aims are not actual booked slots. 32.8 Higgsfield credits do not justify false 'generation failed' blocker alert; do not purchase credits.",
       "workPerformed": "Read and evaluated authenticated schedule, credits, public primary archaeology sources, wrote original draft, updated HQ.",
       "outputs": "0 new Higgsfield generations, no MP4 inspection or video release, no purchased credits, no comments or likes."
+    },
+    {
+      "researchedOn": "2026-11-07",
+      "channel": "bizarre",
+      "scope": "Incremental release-readiness and low-cost data review; relied on Nov6 History Matters/Squire research already in competitor file instead of rerunning paid vidIQ competitor calls. Refreshed live brand/scheduling and own public TikTok rows; cross-checked Mørstad museum source.",
+      "ownVerified": {
+        "metricoolSchedule": "Nov8 Pastry War YouTube and TikTok PENDING autoPublish=true 18:00 Europe/Oslo; Knights Templar PUBLISHED Nov6 both platforms; no Nov9–17 Bizarre posts found in queried queue",
+        "tiktokVideos": [
+          {
+            "title": "Oak Island",
+            "published": "2026-11-04",
+            "cumulativeViews": 262,
+            "likes": 0,
+            "durationSeconds": 38
+          },
+          {
+            "title": "Knights Templar",
+            "published": "2026-11-06",
+            "cumulativeViews": 278,
+            "likes": 2,
+            "durationSeconds": 38
+          }
+        ],
+        "youtube": "34 subscriber snapshot in Metricool evolution on Nov7; Nov5–7 YouTube views and published-in-range rows incomplete or null, not zero",
+        "higgfield": "32.8 Plus credits, no usable free video generations or trial; not enough evidence of a failed booked job",
+        "vidiq": "2 add-on credits remaining, 0 renewable; no paid competitor research call this run"
+      },
+      "competitorInsight": "Existing History Matters 16-Oct long-form WHY framing and Squire examples observed Nov6, neither first two seconds nor retention ever watched. No new verified comparator performance collected on Nov7. Avoid implying title style caused a view count.",
+      "primarySources": [
+        {
+          "url": "https://www.khm.uio.no/english/news/sensational-discovery-first-in-norway-since-1924.html",
+          "published": "2026-10-09",
+          "finding": "Olaf 1024–1028 coin in 2026 Mørstad hoard, inscription and rarity museum-confirmed. Physical handling by the king is speculation."
+        },
+        {
+          "url": "https://www.historiskmuseum.no/english/exhibitions/morstad-hoard/",
+          "published": "2026-10",
+          "finding": "Exhibition first opens 2026-11-20, so a 15-Nov planned release would precede exhibit; do not describe it as already open."
+        }
+      ],
+      "oneTestableNextChange": "Keep Herculaneum's original 0–2sec 'Did you know…' + recognizable artifact reveal, and test whether a specific visually verifiable object outperform abstract mystery packaging once age-matched 24h/7d/28d Studio retention is actually available. This is a hypothesis, not a measured improvement.",
+      "noWorkClaims": "No competitor video playback, comments, likes, Work hour, purchased credits, generated Higgsfield motion, final MP4 QC or new bookings.",
+      "verifiedStopAlert": "No fresh confirmed blocker, do not create duplicate Telegram alert for 32.8 credits on unbooked ideas."
     }
   ],
   "latestRecommendations": {
