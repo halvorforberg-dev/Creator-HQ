@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T07:17:32+01:00",
-  "requestedThrough": "2026-11-06",
+  "updatedAt": "2026-11-07T07:50:43++01:00",
+  "requestedThrough": "2026-11-07",
   "source": "Metricool authenticated analytics via connected app",
   "periodStart": "2026-10-06",
-  "periodEnd": "2026-11-06",
+  "periodEnd": "2026-11-07",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -224,7 +224,7 @@
             "date": "2026-11-02",
             "subscribers": 29,
             "views": 877,
-            "videosPublished": null,
+            "videosPublished": 1,
             "followersGained": 4,
             "followersLost": 0
           },
@@ -239,10 +239,10 @@
           {
             "date": "2026-11-04",
             "subscribers": 33,
-            "views": null,
+            "views": 129,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 1,
+            "followersLost": 0
           },
           {
             "date": "2026-11-05",
@@ -254,6 +254,14 @@
           },
           {
             "date": "2026-11-06",
+            "subscribers": 34,
+            "views": null,
+            "videosPublished": null,
+            "followersGained": null,
+            "followersLost": null
+          },
+          {
+            "date": "2026-11-07",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -272,10 +280,19 @@
             "url": "https://www.youtube.com/watch?v=rknqX_6US-0"
           },
           {
+            "publishedAt": "20261102150323",
+            "title": "The Treasure Hidden for 1,100 Years 💰 | Galloway Hoard",
+            "views": 897,
+            "watchMinutes": 233.98624999999996,
+            "likes": 14,
+            "comments": 1,
+            "url": "https://www.youtube.com/watch?v=qyc-mi3hbGA"
+          },
+          {
             "publishedAt": "20261008140639",
             "title": "Ancient Romans Washed Clothes With Urine 🤯",
-            "views": 796,
-            "watchMinutes": 171.66388333333333,
+            "views": 797,
+            "watchMinutes": 171.87554999999998,
             "likes": 17,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=8YlWw0_fgS0"
@@ -283,8 +300,8 @@
           {
             "publishedAt": "20261023140334",
             "title": "The Vikings Didn't Just Steal Gold — They Stole People 😳",
-            "views": 740,
-            "watchMinutes": 249.5279833333333,
+            "views": 741,
+            "watchMinutes": 249.53498333333332,
             "likes": 15,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=N-uee5LCnx0"
@@ -292,8 +309,8 @@
           {
             "publishedAt": "20261030150302",
             "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
-            "views": 715,
-            "watchMinutes": 187.41476666666665,
+            "views": 721,
+            "watchMinutes": 188.34193333333332,
             "likes": 21,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=Fbxu3hOzwTQ"
@@ -301,8 +318,8 @@
           {
             "publishedAt": "20261024140302",
             "title": "The Vikings Made the King Pay to Leave Paris 😱 | AD 845",
-            "views": 519,
-            "watchMinutes": 123.4454,
+            "views": 520,
+            "watchMinutes": 123.48706666666668,
             "likes": 6,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=zjZxCFBrzNs"
@@ -326,28 +343,28 @@
             "url": "https://www.youtube.com/watch?v=0ANw6q39maY"
           },
           {
-            "publishedAt": "20261025150251",
-            "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
-            "views": 284,
-            "watchMinutes": 65.33176666666668,
-            "likes": 6,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=BNqH2RY58Zo"
-          },
-          {
             "publishedAt": "20261026150317",
             "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
-            "views": 283,
-            "watchMinutes": 103.46208333333331,
+            "views": 286,
+            "watchMinutes": 103.65416666666664,
             "likes": 8,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=fAZeSyTZnJM"
           },
           {
+            "publishedAt": "20261025150251",
+            "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
+            "views": 285,
+            "watchMinutes": 65.70010000000002,
+            "likes": 6,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=BNqH2RY58Zo"
+          },
+          {
             "publishedAt": "20261016140649",
             "title": "The War That Ended in Just 38 Minutes 😳 | Zanzibar 1896",
-            "views": 222,
-            "watchMinutes": 67.17098333333334,
+            "views": 224,
+            "watchMinutes": 67.18135000000001,
             "likes": 4,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=3FNroEfMjrg"
@@ -355,9 +372,9 @@
           {
             "publishedAt": "20261028150315",
             "title": "The Day Vikings Attacked God's Island 😱 | 793",
-            "views": 107,
-            "watchMinutes": 28.579116666666664,
-            "likes": 5,
+            "views": 109,
+            "watchMinutes": 28.707449999999998,
+            "likes": 6,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=XDG7otcaCVM"
           },
@@ -407,6 +424,15 @@
             "url": "https://www.youtube.com/watch?v=ar3cC9y1gNY"
           },
           {
+            "publishedAt": "20261028195535",
+            "title": "The Battle That Killed a Viking King ⚔️ | Stamford Bridge 1066",
+            "views": 38,
+            "watchMinutes": 4.7569833333333325,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=oegyI_rdkPw"
+          },
+          {
             "publishedAt": "20261011140348",
             "title": "They Put a Dead Pope on Trial 🤯 | The Corpse Synod",
             "views": 35,
@@ -414,15 +440,6 @@
             "likes": 3,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=bvjEJxqIYO4"
-          },
-          {
-            "publishedAt": "20261028195535",
-            "title": "The Battle That Killed a Viking King ⚔️ | Stamford Bridge 1066",
-            "views": 33,
-            "watchMinutes": 4.041983333333333,
-            "likes": 4,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=oegyI_rdkPw"
           }
         ]
       },
@@ -587,7 +604,7 @@
           },
           {
             "date": "2026-11-02",
-            "videoViews": 265,
+            "videoViews": 266,
             "followers": 3,
             "followerNetChange": 0
           },
@@ -606,6 +623,12 @@
           {
             "date": "2026-11-05",
             "videoViews": null,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-06",
+            "videoViews": 278,
             "followers": 3,
             "followerNetChange": 0
           }
@@ -758,14 +781,22 @@
           {
             "date": "2026-11-04",
             "subscribers": 30,
+            "views": 211,
+            "videosPublished": null,
+            "followersGained": 4,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-06",
+            "subscribers": 35,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-06",
-            "subscribers": 35,
+            "date": "2026-11-07",
+            "subscribers": 38,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -901,17 +932,17 @@
         "series": [],
         "videos": []
       },
-      "notes": "No verified authorized analytics source for this channel in this sync. Do not infer or invent metrics."
+      "notes": "Analytics unavailable from connected Metricool brands; no numeric data inserted."
     }
   },
   "notes": [
-    "Data refreshed from FIVE successful authenticated Metricool getAnalyticsDataByMetrics calls on 2026-11-06T07:17:32+01:00 for exact brandIds 7296504 (YouTube and TikTok) and 7751348 (YouTube). Europe/Oslo requested boundaries from 2026-10-06 through 2026-11-06 inclusive. These are provider-reported snapshots, not live YouTube Studio readings.",
-    "YouTube evolution requested YTEV01 subscriber total, YTEV02 daily views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Last field in Metricool rows is YYYYMMDD; results sorted ascending by date. Missing metrics and absent days are never treated as zero.",
-    "TikTok Bizarre requested TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. TKEV02 may reflect videos in the requested publication range rather than all TikTok viewing on that day.",
-    "YouTube video list requested YTVP02 publishedAt, YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Listed video views/watch time are cumulative totals for videos *published* in this date window and NOT rolling daily channel metrics.",
-    "Metricool data may lag, with current/recent days returning null, including when other fields report totals. Null is preserved as null (not zero). Date range requested is not a guarantee of complete coverage; missing days are not fabricated.",
-    "Little Wild Adventures is not connected to Metricool analytics; no counts are populated for this channel. Highlights Of Everything is excluded.",
-    "Ads attribution, eligible YPP public long-form watch hours, and Shorts-feed excluded watch time cannot be resolved from these metrics alone. Keep paid-vs-organic reporting distinct.",
-    "Rolling 7-day estimates should sum only dated non-null daily observations and be marked incomplete when any daily value or day is missing."
+    "Verified five successful authenticated Metricool getAnalyticsDataByMetrics calls at 2026-11-07T07:50:43++01:00, brandId 7296504 Bizarre Past YouTube/TikTok and 7751348 What If YouTube; requested Europe/Oslo window 2026-10-06 through 2026-11-07 inclusive.",
+    "YouTube evolution fieldIds YTEV01 (subscribers), YTEV02 (daily views), YTEV04 (videosPublished), YTEV05 (followersGained), YTEV06 (followersLost). Provider rows end with YYYYMMDD; series sorted ascending by date. Missing fields and absent dates are null/not present, never synthesized as zero.",
+    "Bizarre Past TikTok fieldIds TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Video views returned by this TikTok connector may refer to posts published in the period rather than daily channel-wide view counts.",
+    "YouTube videos sourced using YTVP02 publishedAt, YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 url. Videos sorted by their cumulative views, which are totals on videos published in requested window and are NOT 7-day channel views.",
+    "Metricool analytics may lag; latest and current days may contain null values despite subscribers or other measures being reported. Retain null; incomplete days and missing dates must not be interpreted as zero or complete 7-day measurements.",
+    "Little Wild Adventures is not connected to Metricool analytics: no invented counts, series, or video metrics. Highlights Of Everything omitted entirely.",
+    "Paid ad attribution, eligible YPP public long-form watch hours, Shorts-feed exclusions, and organic-only views are NOT distinguishable from these fields. No paid/organic claim should be inferred.",
+    "Seven-day aggregates must use only valid dated non-null observations; report incompleteness when days or values are absent."
   ]
 }
