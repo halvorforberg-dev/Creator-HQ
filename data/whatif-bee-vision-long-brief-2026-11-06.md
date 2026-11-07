@@ -1,8 +1,8 @@
 # What If — What If You Could See the World Like a Bee? (16:9)
 
 **Created:** 2026-11-06 Europe/Oslo
-**STATE: EDITORIAL OUTLINE / RESEARCH — NOT GENERATED, NOT MP4-QC APPROVED, NOT BOOKED, NOT PUBLISHED.**
-**Target:** Wednesday 2026-11-11 18:00 Europe/Oslo, ordinary public 16:9 3–4 minutes. Next Sunday long-form target 2026-11-15 only after separate editorial work. Confirm actual AI Tuber queue and recurring AutoPilot settings first, as prior duplicate guard remains active. No credits spent.
+**STATE 2026-11-07: GENERATION STARTED (exact video ID below); NOT MP4/AUDIO-QC APPROVED, NOT BOOKED, NOT PUBLISHED.**
+**Target UPDATED BY USER 2026-11-07:** Sunday 2026-11-08 18:00 Europe/Oslo, ordinary public 16:9 3–4 minutes. Next Sunday long-form target 2026-11-15 only after separate editorial work. Confirm actual AI Tuber queue and recurring AutoPilot settings first, as prior duplicate guard remains active. No credits spent.
 
 ## Original concept
 **Title:** What If You Could See the World Like a Bee? 🐝🌸
@@ -80,3 +80,52 @@ And that's the answer: the garden hasn't changed. Only the eyes—and the senses
 **Facts crosschecked 2026-11-06:** Lunau et al. *Bees, flowers and UV* (2025), https://pmc.ncbi.nlm.nih.gov/articles/PMC12477309/ (UV/blue/green sensitivities, reflectance guides vary, visual simulations are not literal bee colours). Clarke et al. *Science* (2013) https://pubmed.ncbi.nlm.nih.gov/23429701/ (bumblebees learn floral electric fields, visitation influences fields). Keep these as sources in English description.
 
 **Measured hypothesis after future release, not an actual result:** earlier specific UV “bull's-eye” reveal (by 7s) and clear repeated distinction between sight and electroreception may help 30s retention versus current low average-view-duration Shorts; evaluate 24h/7d/28d with age-matched owner Studio data if available. Revisit script if TTS says the reveal later than 7s.
+
+
+## Production update — 2026-11-07
+
+User explicitly requested a long film tomorrow (Nov8) while stopping paid promotion renewals. This supersedes the earlier Nov11 editorial target for this same bee film; do not generate a second copy for Nov11.
+
+What If AutoPilot was changed in the authenticated dashboard to drafts-only: YouTube channel deselected, settings saved, provider detail confirms “Videos are saved to My Videos / Nothing posts”. AI Tuber Publications currently shows 0 up next and empty upcoming queue. Existing published content unchanged.
+
+Generation accepted at 2026-11-07T19:48:10.898Z. **Video ID: f3dc9b3c-1001-41ec-9d80-e96246c67bd6.** 16:9 AI moving video, basic tier, Brian narration, wrap-1 bottom captions. UI estimated 754 credits (69 narration + 685 video, estimated 137s footage); actual runtime/spend must be checked. Prior balance 8969/10000 shared credits. No credits bought. Actual MP4/audio inspection, export 1080p, metadata/thumbnail, final queue check and confirmed platform booking still pending. User request is authorization for this production/release only after QC; no false scheduled claim.
+
+### Submitted original script v2 (411 narrated words; bracketed text is visual direction)
+
+[Macro shot of a bee flying toward a flower; immediately reveal an illustrative UV-absorbing dark central bull's-eye. Landscape science illustration, not literal bee colours.]
+What if you could see a flower's hidden ultraviolet bull's-eye? To a bee, an ordinary garden can reveal patterns our eyes simply cannot detect.
+
+[Bright moving garden; compare human red-green-blue sensitivity with bee ultraviolet-blue-green sensitivity using three simple colour bands, no invented anatomy.]
+The secret is ultraviolet light. Human eyes usually use receptors most sensitive to blue, green, and red ranges. Many bees use ultraviolet, blue, and green. They don't see an upgraded version of our colours. They see a different combination of signals.
+
+[One flower, then a clearly stylized false-colour UV-reflectance comparison; dark centre and reflective outer petals. Do not make the real garden glow.]
+Look at this flower. To us, the petals might seem one colour. Under ultraviolet imaging, the edges can reflect more light while the centre absorbs it, creating a dark bull's-eye.
+
+[The same bee lands; transition across several different flower shapes and patterns.]
+For certain flowers, that contrast can help guide a visiting bee towards its landing area. But not every blossom has a UV target, and not every bee sees flowers in exactly the same way.
+
+[Show a garden image being translated into an explicitly illustrative false-colour diagram; retain natural-looking flowers around it.]
+There is another twist. Every picture called bee vision on your screen is an illustration. We have to translate ultraviolet patterns into colours humans can see. A bright purple diagram is not proof that a real bee sees glowing purple petals.
+
+[Fluid bee-height flight across a flower bed, then a detailed close landing; lively scene progression.]
+Now imagine flying towards a patch of flowers. From a distance, colour contrast helps you notice what stands out against green leaves. Up close, patterns can provide more clues. And with experience, bees can learn which visual signals are worth following.
+
+[Introduce one realistic fuzzy bumblebee approaching a natural flower; separate scientific overlay from the real scene.]
+You may think that's already a remarkable superpower. But a bumblebee can detect something else that isn't a colour at all.
+
+[Simple animated electric-field diagram around a flower, followed by a charged bumblebee touching it. No visible lightning, sparks or interior glow.]
+Flowers carry tiny electric fields. Flying bees can pick up an electrical charge. And when a charged bee visits a flower, the flower's field can change.
+
+[Clearly schematic laboratory experiment with artificial flowers and a bumblebee making learned choices; no claim of literal natural flower speech.]
+In experiments, researchers showed that bumblebees could learn to tell different floral electric-field patterns apart. Those cues can work together with visual information while the bees learn where rewards are.
+
+[Return to the natural flower; contrast ultraviolet pattern illustration with a separate electrical-field diagram, keeping the two senses distinct.]
+But here's a crucial difference: a bee doesn't see electricity sparkling around the petals. Electrical sensing is separate from colour vision. Any glowing field we show here is a diagram, not a video of what a bee literally sees.
+
+[Warm afternoon garden; gently alternate natural human view, illustrative UV-reflectance patterns and a separate subtle field schematic.]
+So, what would happen if you borrowed a bee's senses for one afternoon? The garden wouldn't suddenly become a neon fantasy. It would become a place full of information you usually miss: patterns in ultraviolet, changes in contrast, and perhaps even weak electric clues around blossoms.
+
+[The bee lands peacefully; pull back to the unchanged sunny garden. Let the complete final sentence finish and hold the last image briefly.]
+The flowers were never hiding on purpose. Your human senses simply weren't built to pick up the same signals. And that's the answer: the garden hasn't changed. Only the eyes, and the senses, you're using to explore it.
+
+Fresh fact-check: https://onlinelibrary.wiley.com/doi/full/10.1111/plb.70050 and https://research-information.bris.ac.uk/en/publications/detection-and-learning-of-floral-electric-fields-by-bumblebees/ . UV pattern simulations are not literal bee subjective colours; electric fields are sensed separately from visual UV.
