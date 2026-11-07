@@ -163,6 +163,18 @@
       ],
       "briefPath": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
       "caveat": "The coin was struck under Olaf Haraldsson, not proven personally held by him; burial ~1046–1047 is estimate and '5,500' a provisional Oct 2026 count. Exhibition opens 20 Nov, not already open."
+    },
+    {
+      "channel": "whatif",
+      "hypothesis": "A truth-grounded, beautiful close-up physics reveal (soap bubble film freezing like a snow globe) may be a more positively engaging 35–40s Short than generic catastrophe prompts.",
+      "measure": "24h/7d/28d age-matched engaged views, stayed-to-watch, mean percentage watched, subs/1000; do not infer hooks from public titles.",
+      "status": "SOURCE_CHECKED_NOV7_UNTESTED_NOT_GENERATED_OR_BOOKED",
+      "nextTrial": "What If Soap Bubbles Became Snow Globes? ❄️🫧",
+      "sourceLinks": [
+        "https://www.nature.com/articles/s41467-019-10021-6",
+        "https://quirkscience.com/films/"
+      ],
+      "brief": "data/whatif-frozen-bubble-short-brief-2026-11-07.md"
     }
   ],
   "lastResearch": {
@@ -789,42 +801,99 @@
       "visualRule": "Preserve What If mixed-media visuals, no full-motion-in-every-shot mandate. Depict naked-eye mostly white moonbow vs long-exposure colorful photo honestly.",
       "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
       "blocker": "AI Tuber What If recurring AutoPilot unverified after Nov 3 dual production: no agent scheduling/publication."
+    },
+    {
+      "channel": "whatif",
+      "researchDate": "2026-11-07",
+      "workingTitle": "What If Soap Bubbles Became Snow Globes? ❄️🫧",
+      "shortHook": "What if a soap bubble could become a snow globe?",
+      "length": "Editorial 35–40 s, 9:16, mixed natural/scientific footage and simple animation — NOT GENERATED, BOOKED OR QC-APPROVED",
+      "proof": [
+        "https://www.nature.com/articles/s41467-019-10021-6",
+        "https://www.sciencenews.org/article/how-freezing-soap-bubble-turns-it-snow-globe"
+      ],
+      "scienceVerified": "Under sufficiently cold near-isothermal conditions, thermally driven Marangoni currents in a thin soap bubble film can carry small ice crystals in a snow-globe effect. Ice is on/in the film, not snow falling through the bubble's hollow center. Warm ambient/cold base produces a different partial freezing mode. The effect is conditional.",
+      "creativeIdea": "Start t=0 with spoken/written What if and visibly growing ice crystals. Explain why they swirl by ~second 25, end on true surface-not-interior reveal. Neither call it magic nor show inner snow.",
+      "fullBrief": "data/whatif-frozen-bubble-short-brief-2026-11-07.md",
+      "competitorSignals": [
+        {
+          "publisher": "QuirkScience",
+          "url": "https://quirkscience.com/films/",
+          "checked": "2026-11-07",
+          "datedExample": "Could Humans Live on Titan? Nov 3 2026, 1:03",
+          "limit": "Publisher metadata only, first 2 seconds and views/retention NOT watched or verified"
+        },
+        {
+          "publisher": "xkcd What If? official Bluesky",
+          "url": "https://bsky.app/profile/xkcd.com/post/3mmrwvbjxys2b",
+          "checked": "2026-11-07",
+          "datedExample": "If you put a toaster in a freezer, which wins? Sep 15 2026",
+          "limit": "Title/question format observation, no playback/retention measurements"
+        }
+      ],
+      "experiment": "Only after actual first QC-approved release, compare at same 24h/7d/28d post age with other 35–40s positive science Shorts: engaged views, stayed-to-watch, average percentage viewed, subs/1000 views. One variable is a visual everyday-physics demonstration rather than astronomy catastrophe. No performance claim.",
+      "status": "ORIGINAL_RESEARCH_ONLY_NO_PRODUCTION_NO_QC_NO_BOOKING",
+      "guard": "Fresh 2026-11-07 What If AutoPilot direct-post quality-gate blocker. DO NOT publish/book while What If AutoPilot YouTube publishing remains connected. Must switch to draft-only and confirm."
     }
   ],
   "lastWhatIfMicroResearch": {
-    "date": "2026-11-05",
-    "scope": "Fresh read-only AI Tuber Solar Storm 38s metadata and publication guard, Metricool stale video index, vidIQ auth/credit check, NOAA science factcheck, QuirkScience publisher catalog recheck. No direct competitor video/audio playback; no new clip generated.",
-    "finding": "AI Tuber automatically or otherwise produced Solar Storm at 2026-11-05T18:00:51+01:00. Script has a concrete factual answer followed by generic CTA; improvement hypothesis is to end on factual/visual payoff, not an additional follow request. Satellite drag, GPS/radio disruption, aurora and forecasting are supported by NOAA. This is NOT a verified public upload or confirmed new platform publishing failure.",
+    "date": "2026-11-07",
+    "scope": "Connected AITuber API + publisher publication email + authenticated Metricool cumulative YouTube table + original evidence-based physics micro-research; no competitor video playback and no Work engagement session.",
+    "finding": "AITuber AutoPilot generated What If the Sun Grew 10% Brighter? at 2026-11-07T18:00:44+01:00 and emailed confirmed direct YouTube publishing 18:07 local; https://www.youtube.com/watch?v=AmoxUPMdCwI. 34s; script starts 'What if' (word alignment at 0), but ends with generic 'Follow for more what-ifs!' instead of crisp payoff, uses catastrophic climate risks and was published without a complete MP4/audio QC. This is a NEW independently confirmed active quality-gate blocker, unlike earlier unconfirmed solar Nov5 upload. Alert now OPEN in data/production-alerts.json.",
+    "latestRelease": {
+      "date": "2026-11-07",
+      "source": "Provider Gmail 1a1b6faae2f4f19d + AITuber GET /videos/{id}",
+      "videoId": "00fd5574-adc8-4c43-a1ad-2045cb29082a",
+      "youtube": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+      "title": "What If the Sun Got 10% Brighter?",
+      "durationSeconds": 34,
+      "producedAt": "2026-11-07T18:00:44+01:00",
+      "publishedByProviderEmailAt": "2026-11-07T18:07:24+01:00",
+      "avQC": "NOT_PERFORMED_BEFORE_PUBLICATION",
+      "quality": "34s below 35–40s target, generic CTA instead of coherent closing payoff, dark risk framing"
+    },
+    "ownAnalytics": {
+      "source": "Metricool authenticated YouTube all videos Nov7 read, cumulative values, no first-two-second retention, newer Nov5/Nov7 video not yet indexed",
+      "saturn": {
+        "date": "2026-11-01",
+        "views": 2081,
+        "avgViewSeconds": 15,
+        "sourceUrl": "https://www.youtube.com/watch?v=92Vn8iNgVN0"
+      },
+      "octopus": {
+        "date": "2026-11-03",
+        "views": 1011,
+        "avgViewSeconds": 10,
+        "sourceUrl": "https://www.youtube.com/watch?v=u51oWL8ACTQ"
+      },
+      "ocean": {
+        "date": "2026-11-03",
+        "views": 144,
+        "avgViewSeconds": 9,
+        "sourceUrl": "https://www.youtube.com/watch?v=l_eoxyfvfRM"
+      },
+      "caveat": "Different release ages and 34/33/32/38s durations prevent causal comparisons; no owner retention/organic-vs-paid breakdown."
+    },
     "competitorSources": [
       {
         "name": "QuirkScience",
         "url": "https://quirkscience.com/films/",
-        "checked": "2026-11-05",
-        "latestDatedShort": "2026-11-02 What Happens to Your Body in Space? 1:04",
-        "observation": "Publisher presents one clearly stated science question per Short. No verified first two seconds, views or retention, no new Nov5 release found in catalog."
+        "checked": "2026-11-07",
+        "listed": "Could Humans Live on Titan? Nov3 2026 1:03, source-led one-question format",
+        "caveat": "Publisher page only; no footage, 0–2s, or dated video view counts assessed."
       },
       {
         "name": "xkcd What If?",
         "url": "https://bsky.app/profile/xkcd.com/post/3mmrwvbjxys2b",
-        "checked": "2026-11-05",
-        "datedExample": "2026-05-26 What if you dropped a bowling ball in the Mariana Trench? collaboration; publisher post verified, no opening or video performance inspected."
+        "checked": "2026-11-07",
+        "listed": "Sep15 2026 teaser: If you put a toaster in a freezer, which wins?",
+        "caveat": "Official post only, no video/audio watched or direct performance stats"
       }
     ],
-    "scienceSources": [
-      "https://www.spaceweather.gov/impacts",
-      "https://www.spaceweather.gov/impacts/satellite-drag",
-      "https://www.noaa.gov/explainers/space-weather-storms-from-sun"
-    ],
-    "originalTest": "Existing fact-checked original Moonbow idea retains priority, because solar storm is already generated and no duplicate or new negative-theme repeat is justified. Change just one narrative variable: show the real moonbow eye-vs-camera reveal by second 7. Editorial brief updated Nov4.",
-    "guard": "No new agent generation, booking, publishing or paid vidIQ. No alert from stale/unconfirmed public-publication state. Hold pending What If AutoPilot UI verification.",
-    "statuses": {
-      "ocean": "Published Nov3 18:01 Oslo confirmed by provider",
-      "octopus": "CONFIRMED YouTube published Nov3 18:04 Europe/Oslo; https://www.youtube.com/watch?v=u51oWL8ACTQ (Metricool verified Nov6)",
-      "solarStorm": "Completed/exported Nov5; publication still unverified Nov6",
-      "aituber": "9166/10000 Studio credits remaining Nov6",
-      "vidiq": "2 remaining and What If not owner-authorized",
-      "moonbow": "research_only"
-    }
+    "originalTest": "Source-backed 35–40s frozen-bubble snow globe physics candidate. Primary Nature Communications 2019: https://www.nature.com/articles/s41467-019-10021-6 . Draft at data/whatif-frozen-bubble-short-brief-2026-11-07.md; preserve existing moonbow/bee research; no generation/bookings while quality blocker open.",
+    "credits": "AI Tuber Studio 8969/10000 shared credits observed Nov7, previous Nov6 9166; 197 decrease not confidently attributable despite new AutoPilot video; no agent spend, new purchase or vidIQ credit spend.",
+    "vidIQ": "2 credits remaining, renewable portion 0; renew 2026-11-21T20:09:10Z; no paid data called.",
+    "action": "Hold all agent publishing and protect preexisting posts. To prevent another unreviewed direct upload, What If AutoPilot YouTube must be disabled/draft-only in provider UI and actual queue/18:00 verified. No claim of completed one-hour browsing, likes or comments."
   },
   "whatIfResearchRun20261106": {
     "checkedAt": "2026-11-06T19:50:20+01:00",
