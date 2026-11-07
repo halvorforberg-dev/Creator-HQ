@@ -63,7 +63,7 @@
       "since": "2026-11-03",
       "status": "AUTOPILOT_DRAFT_ONLY_VERIFIED_AGENT_PUBLISHING_REQUIRES_QC_AND_QUEUE_CHECK",
       "policy": "2026-11-07 authenticated AI Tuber UI: What If AutoPilot YouTube channel deselected and changes saved. Provider status explicitly says 'Videos are saved to My Videos' / 'Nothing posts'. Generation every two days at 18:00 remains active but drafts only. Agent scheduling/publication may resume ONLY after full finished MP4+audio/factual QC, exact unique ID and current queue check. No existing public videos were changed.",
-      "latestConfirmed": "2026-11-07 evening: authenticated settings save, subsequent What If AutoPilot detail shows Nothing posts. AI Tuber Publications tab: 0 up next, queue empty. API confirmed correct What If YouTube channel connected for separate approved publication.",
+      "latestConfirmed": "2026-11-07 evening: authenticated settings save, subsequent What If AutoPilot detail shows Nothing posts. AI Tuber Publications tab: 0 up next, queue empty. API confirmed correct What If YouTube channel connected for separate approved publication. New unique bee long-form draft f3dc9b3c-1001-41ec-9d80-e96246c67bd6 generated 159s and 25 scenes; not yet booked.",
       "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
       "previousPolicy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
       "resolvedOn": "2026-11-07"
@@ -1567,7 +1567,7 @@
     "updatedAt": "2026-11-07",
     "timezone": "Europe/Oslo",
     "releaseTime": "18:00",
-    "state": "WHAT_IF_NOV8_GENERATION_PENDING_QC_NOT_BOOKED; other entries remain editorial only",
+    "state": "WHAT_IF_NOV8_GENERATED_EXPORT_PROCESSING_QC_PENDING_NOT_BOOKED; morning completion task created",
     "entries": [
       {
         "channel": "Bizarre Past",
@@ -1592,8 +1592,8 @@
         "brief": "data/whatif-bee-vision-long-brief-2026-11-06.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "GENERATION_PENDING_MP4_AUDIO_QC_NOT_BOOKED",
-        "caution": "What If AutoPilot draft-only is now VERIFIED and upcoming publication queue empty. Finished MP4 with audio, actual 3–4 min duration, 16:9 1080p, UV diagrams, anatomy and complete payoff still require QC before any booking. Not yet scheduled or approved.",
+        "stage": "GENERATED_1080P_EXPORT_PROCESSING_FULL_AV_QC_PENDING_NOT_BOOKED",
+        "caution": "Target Nov8 18:00 remains NOT BOOKED. Generation finished; normal HD export still processing. Autopilot drafts-only verified, no overlapping queue. Final complete AV/technical/factual review remains required.",
         "previousEditorialTarget": "2026-11-11",
         "time": "18:00 Europe/Oslo",
         "request": "User explicitly requested one long film tomorrow after stopping paid promotion; authorized one-off exception before the Nov9 editorial schedule starts.",
@@ -1606,9 +1606,31 @@
           "estimateVideo": 685,
           "estimateFootageSeconds": 137,
           "quality": "basic 5 credits/second, same tier as current What If videos",
-          "actualCredits": "pending provider completion; not equal to estimate necessarily",
+          "actualCredits": "875-credit shared balance decrease in this production window; not a separate provider itemized invoice",
           "preGenerationBalance": 8969,
-          "creditPurchase": false
+          "creditPurchase": false,
+          "postGenerationBalance": 8094,
+          "observedBalanceDecrease": 875
+        },
+        "actualDurationSeconds": 159,
+        "sceneCount": 25,
+        "export": {
+          "id": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+          "requestedResolution": "1080p",
+          "lastObservedStatus": "processing",
+          "statusSource": "AI Tuber exports/download confirmed not-ready; dashboard shows Exporting",
+          "verifiedAt": "2026-11-07T19:55:24.857Z"
+        },
+        "qc": {
+          "fullAudioVisualReviewPassed": false,
+          "partialPreviewObserved": "Player progressed through about 1:01 of 2:38 preview, moving flower/bee visuals and illustrative split UV diagram seen; NOT full AV approval",
+          "note": "No final MP4 downloaded/listened end-to-end, so no scheduling/release claim. Actual 159s is below old 3–4min editorial target; do not add filler merely to meet duration."
+        },
+        "followUp": {
+          "automationId": "Automation_7118d8cefe548191b0c455d8f29612f0",
+          "date": "2026-11-08",
+          "time": "Morning, approximately 09:00 Europe/Oslo",
+          "purpose": "Finish export and actual MP4/audio QC; if passed and not already booked/published, schedule this same video exactly for Nov8 18:00 Oslo. Never duplicate or bypass quality."
         }
       },
       {
