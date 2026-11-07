@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:53:00Z",
+  "updatedAt": "2026-11-07T19:55:26.701Z",
   "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -94,12 +94,13 @@
         "https://app.aituber.app/dashboard/autopilot"
       ],
       "ownerActionRequired": false,
-      "resolvedAt": "2026-11-07T19:43:00Z",
+      "resolvedAt": "2026-11-07T19:55:26.701Z",
       "resolution": {
         "source": "Authenticated AI Tuber UI, saved settings and subsequent detail status verification",
         "action": "What If AutoPilot YouTube channel deselected and saved; status says Videos are saved to My Videos / Nothing posts.",
         "cadence": "Generation every two days 18:00 Europe/Oslo unchanged, drafts only",
-        "queue": "AI Tuber Publications verified 0 up next; no existing bookable posts changed"
+        "queue": "AI Tuber Publications verified 0 up next; no existing bookable posts changed",
+        "timestampMeaning": "Resolution record updated at this time; exact UI-save second was not captured. Saved drafts-only was visibly verified during this session."
       }
     }
   ]
