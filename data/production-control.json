@@ -61,8 +61,10 @@
     },
     "whatIfDuplicatePrevention": {
       "since": "2026-11-03",
-      "status": "ACTIVE_GUARD_PENDING_AUTOPILOT_VERIFICATION",
-      "policy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus PUBLICATION is NOT VERIFIED. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise."
+      "status": "ACTIVE_GUARD_PENDING_AUTOPILOT_DRAFT_ONLY_AND_QC_VERIFICATION",
+      "policy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
+      "latestConfirmed": "2026-11-07: AI Tuber AutoPilot DIRECTLY PUBLISHED 34s What If Sun Got 10% Brighter? to correct YouTube channel; provider email 18:07 Oslo. This confirms recurring autopublication continues. No agent parallel publication/bookings or assumption of pre-publish QC until draft-only is visibly verified.",
+      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07"
     }
   },
   "channels": {
@@ -347,7 +349,7 @@
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-06",
+      "verifiedDate": "2026-11-07",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -371,6 +373,18 @@
           "publishedAt": "2026-11-03T18:04:18+01:00",
           "youtubeUrl": "https://www.youtube.com/watch?v=u51oWL8ACTQ",
           "source": "Metricool authenticated YouTube published in range query 2026-11-02 to 2026-11-06, seen Nov6 19:50 Oslo; distinguish from earlier 18:01 Ocean video"
+        },
+        {
+          "videoId": "00fd5574-adc8-4c43-a1ad-2045cb29082a",
+          "channel": "What If in 40 Seconds",
+          "date": "2026-11-07",
+          "time": "AutoPilot generated 18:00 Oslo; provider confirmed live by 18:07 Oslo, exact public upload second not independently verified",
+          "status": "published",
+          "title": "What If the Sun Got 10% Brighter?",
+          "providerEmailAt": "2026-11-07T18:07:24+01:00",
+          "youtubeUrl": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+          "source": "AI Tuber autopilot publication email Gmail id 1a1b6faae2f4f19d + authenticated GET /videos/00fd5574-adc8-4c43-a1ad-2045cb29082a",
+          "qc": "NOT_PASS: AutoPilot directly published prior to review; 34s vs 35–40 target, generic CTA without full scientific payoff and downbeat catastrophe-risk focus"
         }
       ],
       "unverifiedSeries": [
@@ -383,7 +397,8 @@
         "2026-11-03 18:24 Oslo: Milo's Wobbly Tower PILOT completed/exported but HOLD for 42s duration, bad generated title, no MP4 AV-QC or AutoPilot duplicate/time verification. Not scheduled by channel agent.",
         "2026-11-04 18:36 Oslo: AI Tuber generated 'The Splashy Tub-Team Rinse' ID bbd79dbc-f6a5-414e-9376-0381eec173f4 at 16:00 local today (37s, 9:16, 5 video scenes, exported). Script names sidekicks generically Meerkat/Bird; not QC approved. Public YouTube publication and recurrence/booking are UNVERIFIED. Do not duplicate an upload or assume the 18:00 schedule is set.",
         "2026-11-05 provider response: Little Wild Shorts ON, every 2 days next 06.11 16:00 Oslo, direct auto-publication; Weekly Long Story ON, next 09.11 16:00 Oslo, 5-minute images-only auto-publication. Splashy Rinse confirmed YouTube live 04.11 16:09 and rejected Breeze live 02.11 16:13. Provider has NOT changed settings. QC/publish risk confirmed; no duplicate manual post. Support follow-up sent to request pause/draft-only.",
-        "2026-11-06 ~18:44 Oslo: AI Tuber AutoPilot created Block Basket Rescue ID 02253a90-1aaa-4766-8e50-54dd419b0981 at 16:00, 34s full-video clips, export NOT completed. AITuber email explicitly confirms NOT PUBLISHED because no channel connected to this AutoPilot. Missing names Miko/Pip; no rendered MP4 QC; HOLD. Shared credits 9166, no agent spend. Old alert remains RESOLVED; no new verified publishing blocker."
+        "2026-11-06 ~18:44 Oslo: AI Tuber AutoPilot created Block Basket Rescue ID 02253a90-1aaa-4766-8e50-54dd419b0981 at 16:00, 34s full-video clips, export NOT completed. AITuber email explicitly confirms NOT PUBLISHED because no channel connected to this AutoPilot. Missing names Miko/Pip; no rendered MP4 QC; HOLD. Shared credits 9166, no agent spend. Old alert remains RESOLVED; no new verified publishing blocker.",
+        "2026-11-07 19:11 Europe/Oslo: What If AutoPilot automatically generated 34s Sun Grew 10% Brighter? at 18:00, provider email 18:07 confirms PUBLIC YouTube https://www.youtube.com/watch?v=AmoxUPMdCwI. This is a fresh verified quality-gate BLOCKER for future posting: unreviewed AutoPilot direct publishing bypasses mandatory MP4/audio QA and 35–40s/positive-payoff targets. Alert whatif-autopilot-unreviewed-publishing-2026-11-07 OPEN. No agent extra publishing; must set AutoPilot to draft-only via UI."
       ]
     }
   },
@@ -792,6 +807,36 @@
         "alertFileUnchanged": true
       },
       "workPerformed": "Read-only provider/GitHub/Gmail/vidIQ audit; updated HQ operational record. No AITuber credits spent, render, export, publish, booking, comment, like, credit purchase, automation change or Telegram test."
+    },
+    "whatifLatest20261107": {
+      "verifiedAt": "2026-11-07T19:11:14+01:00",
+      "source": "AI Tuber GET /videos and GET /videos/{id}, provider mail 1a1b6faae2f4f19d, Metricool YouTube all videos",
+      "videoId": "00fd5574-adc8-4c43-a1ad-2045cb29082a",
+      "title": "What If the Sun Got 10% Brighter?",
+      "generatedAtOslo": "2026-11-07T18:00:44+01:00",
+      "youtubeUrl": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+      "publication": "PUBLISHED_CONFIRMED_BY_PROVIDER_EMAIL_NOV7_18_07_OSLO",
+      "exactPublishSecond": "UNKNOWN",
+      "status": "completed",
+      "exportStatus": "completed",
+      "durationSeconds": 34,
+      "mediaType": "video",
+      "videoQuality": "basic",
+      "aspectRatio": "9:16",
+      "scriptEvidence": "Spoken 'What if' starts at time 0 per word alignments; generic end 'Follow for more what-ifs!' rather than satisfying factual conclusion; climate hazards rather than preferred positive experiment",
+      "AVReview": "Full exported MP4 was NOT played/listened to prior to autonomous publication. Do not claim QA passed.",
+      "qcGate": "ACTIVE_BLOCKER_FOR_FUTURE_AGENT_PUBLICATION; confirm switch of What If AutoPilot to draft-only; no ability to read/edit AutoPilot UI via connected API.",
+      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
+      "currentSharedCredits": 8969,
+      "creditCheckedDate": "2026-11-07",
+      "previousCredits": 9166,
+      "unattributedCreditDelta": -197,
+      "agentCreditSpend": 0,
+      "creditPurchase": false,
+      "metricoolLatest": "Authenticated all-video data Nov7 contains Saturn Nov1 2081 views 15sec avg; Octopus Nov3 1011/10s; Ocean Nov3 144/9s. New Nov7 published video not indexed yet in Metricool; do not infer missing public publication.",
+      "nextLongForm": "What If You Could See the World Like a Bee? 419-word editorial draft only, Wed Nov11 target 18:00; NOT generated, QA-approved or platform booked.",
+      "newSourceBasedResearch": "What If Soap Bubbles Became Snow Globes? Nature Communications 2019 science source in data/whatif-frozen-bubble-short-brief-2026-11-07.md. Not generated.",
+      "actions": "Logged source-verified blocker, added original research brief, updated control/competitor; no upload, deletion, spending, or social engagement action by agent."
     }
   },
   "channelAudit": {
@@ -1515,7 +1560,7 @@
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
         "stage": "COMPLETE_EDITORIAL_SCRIPT_V1_419_WORDS_FACT_CHECKED_NOT_GENERATED_NOT_QC_NOT_BOOKED",
-        "caution": "Keep extra agent publication lock until recurring What If AutoPilot and a non-overlapping actual queue are verifiable."
+        "caution": "What If AutoPilot published unreviewed 34s Short Nov7, active quality-gate BLOCKER. No new agent scheduling/publication until provider UI switches to draft-only and pre-publish MP4/audio QC/queue check. Confirm any 3–4 min film cost and 16:9 delivery inside shared 10k budget; 11 Nov remains editorial target ONLY."
       },
       {
         "channel": "Little Wild Adventures",
