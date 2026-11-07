@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T07:50:43++01:00",
+  "updatedAt": "2026-11-07T07:50:43+01:00",
   "requestedThrough": "2026-11-07",
   "source": "Metricool authenticated analytics via connected app",
   "periodStart": "2026-10-06",
@@ -936,7 +936,7 @@
     }
   },
   "notes": [
-    "Verified five successful authenticated Metricool getAnalyticsDataByMetrics calls at 2026-11-07T07:50:43++01:00, brandId 7296504 Bizarre Past YouTube/TikTok and 7751348 What If YouTube; requested Europe/Oslo window 2026-10-06 through 2026-11-07 inclusive.",
+    "Verified five successful authenticated Metricool getAnalyticsDataByMetrics calls at 2026-11-07T07:50:43+01:00, brandId 7296504 Bizarre Past YouTube/TikTok and 7751348 What If YouTube; requested Europe/Oslo window 2026-10-06 through 2026-11-07 inclusive.",
     "YouTube evolution fieldIds YTEV01 (subscribers), YTEV02 (daily views), YTEV04 (videosPublished), YTEV05 (followersGained), YTEV06 (followersLost). Provider rows end with YYYYMMDD; series sorted ascending by date. Missing fields and absent dates are null/not present, never synthesized as zero.",
     "Bizarre Past TikTok fieldIds TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Video views returned by this TikTok connector may refer to posts published in the period rather than daily channel-wide view counts.",
     "YouTube videos sourced using YTVP02 publishedAt, YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 url. Videos sorted by their cumulative views, which are totals on videos published in requested window and are NOT 7-day channel views.",
