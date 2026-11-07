@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:11:14Z",
+  "updatedAt": "2026-11-07T19:53:00Z",
   "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -73,7 +73,7 @@
       "id": "whatif-autopilot-unreviewed-publishing-2026-11-07",
       "channel": "What If in 40 Seconds",
       "category": "quality_gate_blocker",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-07T18:07:24+01:00",
@@ -88,12 +88,19 @@
         "publishedUrl": "https://www.youtube.com/watch?v=AmoxUPMdCwI"
       },
       "summary": "NY 07.11: AI Tuber AutoPilot publiserte What If «What If the Sun Got 10% Brighter?» direkte på korrekt YouTube-kanal ca. 18:07, uten obligatorisk ferdig MP4-/lyd-QC. Tilkoblet video-API bekrefter 34 sek (mål 35–40), avslutning «Follow for more what-ifs!» i stedet for tydelig faglig payoff, og katastrofevinkel fremfor godkjent positive tone. Uverifisert AutoPilot-innstilling kan sende flere filmer automatisk og omgå kvalitetsporten; agenten må derfor ikke booke en parallell ny film.",
-      "action": "Stopp automatisk PUBLISERING i What If AutoPilot via AI Tuber Dashboard: fjern YouTube-kanalen fra AutoPilot og lagre slik at nye videoer bare blir utkast. Kontroller synlig «Nothing posts»/draft-only. Gjennomfør full MP4-/lyd-/fakta-/hook-/payoff-QC for hvert utkast før separat unik booking kl. 18:00 Europe/Oslo. Sjekk faktisk AutoPilot-kø og unngå duplikater. Ikke slett eksisterende publisert video eller kjøp kreditter.",
+      "action": "Ingen brukerhandling kreves for AutoPilot nå. Behold utkastmodus. Full MP4-/lyd-/fakta-QC og unik køkontroll kreves før separat booking/publisering. Ny bie-langfilm for 8. november er under produksjon og ikke booket.",
       "relatedLinks": [
         "https://www.youtube.com/watch?v=AmoxUPMdCwI",
         "https://app.aituber.app/dashboard/autopilot"
       ],
-      "ownerActionRequired": true
+      "ownerActionRequired": false,
+      "resolvedAt": "2026-11-07T19:43:00Z",
+      "resolution": {
+        "source": "Authenticated AI Tuber UI, saved settings and subsequent detail status verification",
+        "action": "What If AutoPilot YouTube channel deselected and saved; status says Videos are saved to My Videos / Nothing posts.",
+        "cadence": "Generation every two days 18:00 Europe/Oslo unchanged, drafts only",
+        "queue": "AI Tuber Publications verified 0 up next; no existing bookable posts changed"
+      }
     }
   ]
 }
