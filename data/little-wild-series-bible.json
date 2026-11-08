@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-08",
   "channel": "Little Wild Adventures",
   "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
@@ -436,5 +436,16 @@
       "newPurchase": false
     },
     "nextStep": "Keep this video as unpublished draft. No new standalone generations or bookings before full MP4 playback and QC, duplicate check, budget check. Main Short AutoPilot continues producing drafts at 16:00, NOT publishing. Weekly Long Story paused (last dashboard verification 2026-11-05)."
+  },
+  "latestReview20261108": {
+    "date": "2026-11-08",
+    "provider": "AITuber authenticated video API + autopilot notification",
+    "mainDraft": "The Pajama Button Parade / 317c909a-d982-44ea-a60e-488446694d65; 37sec; 5 actual AI video segments; no export or full MP4 audio QC; NOT PUBLISHED (confirmed by provider email 2026-11-08). Names Miko and Pip missing; story attempts too many bedtime tasks instead of one conflict. HOLD.",
+    "separateAttempts": "7eb3a514-ac25-48f1-bf61-3bbd76a6d1d8 (12sec) and 1227f0c5-83f0-4d21-b1ee-e22710b2b09c (32sec) exported but not quality approved and posting unverified. Provider prompts describe Milo with medium-brown skin and altered hair/outfits, unlike approved reference; the original user observed clothing/skin-tone drift. HOLD and do not use as new visual canon.",
+    "lookLock": "Milo must remain same recognizable child as approved Brush Along: soft short brown hair, warm-light skin, teal one-piece with cream sun. NO changing sweater, skin tone, face, or hairstyle between scenes or variants. Miko same golden-brown meerkat with green backpack; Pip small bright-blue bird with orange beak and brown crossbody satchel. Canonical saved element @Little-Wild-Milo-and-Friends in EVERY scene; absence is a preproduction QC fail, presence is not proof of final continuity.",
+    "styleTest": "Open with one visible button mismatch and Milo surprised; one comic failed fix; Miko steadies Teddy; Pip points to top button; Milo buttons top to bottom with child counting; one warm payoff, no toothbrush/book detours. Animation must be visually understandable without narrator.",
+    "qc": "All three Nov8 videos are HOLD_NOT_APPROVED; no new publishing, exporting, generation, credits purchase, or user-engagement interaction in this audit. Use completed MP4 with audible review, full character continuity and 18:00 Oslo after queue check.",
+    "sharedAvailableCredits": 7615,
+    "noNewOperationalBlocker": "The main AutoPilot confirmed draft-only for Nov8 video. Weekly Long Story pause not reverified today; previously confirmed 2026-11-05."
   }
 }
