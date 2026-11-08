@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-08T08:28:30Z",
+  "channel": "What If in 40 Seconds",
+  "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+  "exportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+  "requestedRelease": "2026-11-08T17:00:00Z",
+  "decision": "HOLD_NOT_APPROVED_NOT_BOOKED",
+  "inputs": {
+    "productionControlBlobSha": "d6bb6e0b6d2208dba3022f714a55f24af9cdd53b",
+    "briefPath": "data/whatif-bee-vision-long-brief-2026-11-06.md",
+    "briefBlobSha": "dfe41abafaefcb749f3ebb475c17ab97be473156"
+  },
+  "technical": {
+    "source": "AI Tuber get_video exact ID + completed export download + local ffprobe/ffmpeg",
+    "exportStatus": "completed",
+    "sha256": "7564aa1469765a0681e29f81c709dbbea1c2f0b2ec474fc5d98f3028549f580b",
+    "bytes": 136078228,
+    "durationSeconds": 158.933,
+    "providerDurationSeconds": 159,
+    "width": 1920,
+    "height": 1080,
+    "aspect": "16:9",
+    "fps": 30,
+    "codec": "h264",
+    "audio": "AAC stereo 48000 Hz",
+    "decodedFrames": 4767,
+    "fullDecodeExitCode": 0,
+    "audioMeanDb": -23.5,
+    "audioPeakDb": -4.4,
+    "silenceTest": "No >=1 second interval below -45 dB logged. These measurements do not establish natural voice, music quality or sync."
+  },
+  "contentEvidence": {
+    "method": "Local faster-whisper tiny.en transcription of decoded MP4 audio; sampled rendered frames across full duration every 2 seconds, additional native-resolution frames at 16s and 158.5s. Automated transcript may contain recognition errors.",
+    "opener": "Transcript begins What if at 0.00; authenticated player initially visibly displayed What / if at 0:00.",
+    "science": "Transcript states many bees use ultraviolet, blue and green; some flowers have UV contrast, not all; false colours are illustrations; bumblebee floral electrical sensing explicitly separate from colour vision at ~113–126s.",
+    "ending": "Transcript contains complete final sentence ending using to explore it at 158.64s. Rendered frame at 158.5s visibly says explore it. No duration padding.",
+    "visuals": "Sampled frames show bee approaches/landings, moving viewpoints, illustrative UV comparisons and separate field diagrams/lab sequences. All 25 media assets visible in authenticated UI. Sampling is not exhaustive motion/artifact review.",
+    "captions": "Sampled visible words broadly match intended script. Complete word-by-word rendered-caption accuracy and AV sync NOT passed.",
+    "originality": "Original 411-word v2 narration and bespoke visual directions match source brief. AI production documented; no claim of exhaustive plagiarism or third-party rights verification.",
+    "sourcesRechecked": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/plb.70050",
+        "checkedOn": "2026-11-08",
+        "supports": "Floral UV reflectance/absorption, bullseye variety and limitations of false-colour representation."
+      },
+      {
+        "url": "https://research-information.bris.ac.uk/en/publications/detection-and-learning-of-floral-electric-fields-by-bumblebees/",
+        "checkedOn": "2026-11-08",
+        "supports": "Bumblebee electrical sensing, changing floral fields and learned pattern discrimination distinct from visual cues."
+      }
+    ],
+    "browserPlayback": "Authenticated exact video detail player started at 0:00; later observations 1:06, 1:52 and 2:38 / 2:38 with final explore / it. captions and Mute sound control. The browser completed playback, but audio was not directly auditioned by this agent; this is NOT a full AV QC pass."
+  },
+  "gates": {
+    "fullAudioVisualReviewPassed": false,
+    "technicalPass": true,
+    "actualAudioAuditionPassed": false,
+    "fullCaptionAccuracyPassed": false,
+    "naturalVoiceMusicPassed": false,
+    "thumbnailApproved": false,
+    "remaining": "Direct end-to-end listening/natural voice/music/AV sync, exhaustive captions and motion/artifact review, original thumbnail preparation/verification. No confirmed content defect is asserted from ASR substitutions."
+  },
+  "blocker": {
+    "type": "quality_gate_blocker",
+    "reason": "The available browser observations expose player visuals/state but no directly auditable audio listening. Local signal checks and ASR cannot certify the required natural voice/music experience. Automatic approval review rejected transfer of the full MP4 to Higgsfield for external analysis because sharing with that third party was not specifically authorized and local alternatives exist. Local technical, visual-sampling and ASR alternatives were completed but do not fulfill every required gate.",
+    "externalAnalysisRun": false,
+    "rejectedTransferRetried": false,
+    "action": "Complete the remaining perceptual AV/caption review using an authorized review path, correct only concrete faults within included credits, prepare/verify original thumbnail; then recheck exact video/queue and book same export only if all gates pass. Do not re-generate or duplicate."
+  },
+  "queue": {
+    "source": "Authenticated AI Tuber Publications UI 2026-11-08 morning",
+    "upNext": 0,
+    "status": "Your queue is empty",
+    "publicationId": null,
+    "scheduledAt": null,
+    "bookingAttempted": false,
+    "youtubeStudioIndependentlyInspected": false
+  },
+  "autopilot": {
+    "verifiedOn": "2026-11-08",
+    "id": "dc3364b4-9342-4e44-8ca8-76cac21fd0c5",
+    "status": "Videos are saved to My Videos / Nothing posts",
+    "settingsChanged": false
+  },
+  "budget": {
+    "visibleStudioCredits": 8094,
+    "newGeneration": false,
+    "newPurchases": false,
+    "newPaidPromotion": false
+  },
+  "metadataDraftOnly": {
+    "title": "What If You Could See the World Like a Bee?",
+    "caption": "What if you could explore a garden with a bee’s senses? Many bees detect ultraviolet, blue and green light. Some flowers reveal ultraviolet patterns invisible to us, while bumblebees can also learn from floral electric-field cues—a separate sense from vision.\n\nThis original science explainer uses AI-generated illustrations and animated diagrams. False colours and electric-field overlays are explanatory illustrations, not recordings of what a bee literally sees. Flower patterns and visual sensitivity vary by species.\n\nSources:\n• Lunau et al., “Bees, flowers and UV,” Plant Biology (2025): https://onlinelibrary.wiley.com/doi/full/10.1111/plb.70050\n• Clarke et al., “Detection and learning of floral electric fields by bumblebees,” Science (2013): https://research-information.bris.ac.uk/en/publications/detection-and-learning-of-floral-electric-fields-by-bumblebees/\n\nWhat would surprise you most: hidden ultraviolet patterns or a flower’s electric field?",
+    "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+    "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+    "categoryId": "27",
+    "madeForKids": false,
+    "privacy": "public",
+    "format": "ordinary 16:9 video",
+    "thumbnail": "Provider get_video thumbnail=null; original thumbnail still to prepare/verify after content clearance. Metadata not applied."
+  },
+  "automatedTranscript": [
+    {
+      "start": 0,
+      "end": 3.92,
+      "text": " What if you could see a flower's hidden ultraviolet bullseye?"
+    },
+    {
+      "start": 3.92,
+      "end": 7.2,
+      "text": " To a bee, an ordinary garden can reveal patterns"
+    },
+    {
+      "start": 7.2,
+      "end": 9.76,
+      "text": " our eyes simply cannot detect."
+    },
+    {
+      "start": 9.76,
+      "end": 12.32,
+      "text": " The secret is ultraviolet light."
+    },
+    {
+      "start": 12.32,
+      "end": 15.92,
+      "text": " Human eyes usually use receptors most sensitive to blue,"
+    },
+    {
+      "start": 15.92,
+      "end": 17.84,
+      "text": " green, and red ranges."
+    },
+    {
+      "start": 17.84,
+      "end": 21.36,
+      "text": " Many bees use ultraviolet, blue, and green."
+    },
+    {
+      "start": 21.36,
+      "end": 24.080000000000002,
+      "text": " They don't see an upgraded version of our colors."
+    },
+    {
+      "start": 24.080000000000002,
+      "end": 26.96,
+      "text": " They see a different combination of signals."
+    },
+    {
+      "start": 26.96,
+      "end": 28.32,
+      "text": " Look at this flower."
+    },
+    {
+      "start": 28.4,
+      "end": 31.28,
+      "text": " To us, the petals might seem one color."
+    },
+    {
+      "start": 31.28,
+      "end": 35.12,
+      "text": " Under ultraviolet imaging, the edges can reflect more light"
+    },
+    {
+      "start": 35.12,
+      "end": 38.8,
+      "text": " while the center absorbs it, creating a dark bullseye."
+    },
+    {
+      "start": 38.8,
+      "end": 42.4,
+      "text": " For certain flowers, that contrast can help guide a visiting bee"
+    },
+    {
+      "start": 42.4,
+      "end": 44.08,
+      "text": " towards its landing area."
+    },
+    {
+      "start": 44.08,
+      "end": 46.8,
+      "text": " But not every blossom has a UV target,"
+    },
+    {
+      "start": 46.8,
+      "end": 50.400000000000006,
+      "text": " and not every bee sees flowers in exactly the same way."
+    },
+    {
+      "start": 50.400000000000006,
+      "end": 52,
+      "text": " There is another twist."
+    },
+    {
+      "start": 52,
+      "end": 55.92,
+      "text": " Every picture called bee vision on your screen is in illustration."
+    },
+    {
+      "start": 55.92,
+      "end": 60.56,
+      "text": " We have to translate ultraviolet patterns into colors humans can see."
+    },
+    {
+      "start": 60.56,
+      "end": 65.92,
+      "text": " A bright purple diagram is not proof that a real bee sees glowing purple petals."
+    },
+    {
+      "start": 65.92,
+      "end": 68.8,
+      "text": " Now imagine flying towards a patch of flowers."
+    },
+    {
+      "start": 68.8,
+      "end": 73.84,
+      "text": " From a distance, color contrast helps you notice what stands out against green leaves."
+    },
+    {
+      "start": 73.84,
+      "end": 76.88,
+      "text": " Up close, patterns can provide more clues."
+    },
+    {
+      "start": 76.88,
+      "end": 81.2,
+      "text": " And with experience, bees can learn which visual signals are worth following."
+    },
+    {
+      "start": 81.2,
+      "end": 84.64,
+      "text": " You may think that's already a remarkable superpower."
+    },
+    {
+      "start": 84.64,
+      "end": 88.8,
+      "text": " But a bumble bee can detect something else that isn't a color at all."
+    },
+    {
+      "start": 88.8,
+      "end": 91.68,
+      "text": " Flowers carry tiny electric fields."
+    },
+    {
+      "start": 91.68,
+      "end": 94.48,
+      "text": " Flying bees can pick up an electric recharge."
+    },
+    {
+      "start": 94.48,
+      "end": 99.2,
+      "text": " And when a charge bee visits a flower, the flowers feel can change."
+    },
+    {
+      "start": 99.2,
+      "end": 102.48,
+      "text": " In experiments, researchers show that bumble bees could learn"
+    },
+    {
+      "start": 102.48,
+      "end": 106,
+      "text": " to tell different floral electric field patterns apart."
+    },
+    {
+      "start": 106,
+      "end": 109.04,
+      "text": " Those cues can work together with visual information"
+    },
+    {
+      "start": 109.04,
+      "end": 111.52,
+      "text": " while the bees learn where rewards are."
+    },
+    {
+      "start": 111.52,
+      "end": 113.52,
+      "text": " But here's a crucial difference."
+    },
+    {
+      "start": 113.52,
+      "end": 117.11999999999999,
+      "text": " A bee doesn't see electricity sparkling around the petals."
+    },
+    {
+      "start": 117.11999999999999,
+      "end": 120.47999999999999,
+      "text": " Electrical sensing is separate from color vision."
+    },
+    {
+      "start": 120.47999999999999,
+      "end": 123.44,
+      "text": " Any glowing field we show here is a diagram."
+    },
+    {
+      "start": 123.44,
+      "end": 126.64,
+      "text": " Not a video of what a bee literally sees."
+    },
+    {
+      "start": 126.64,
+      "end": 131.04,
+      "text": " So what would happen if you borrowed a bee's senses for one afternoon?"
+    },
+    {
+      "start": 131.04,
+      "end": 134.16,
+      "text": " The garden wouldn't suddenly become a neon fantasy."
+    },
+    {
+      "start": 134.16,
+      "end": 137.92,
+      "text": " It would become a place full of information you usually miss."
+    },
+    {
+      "start": 137.92,
+      "end": 141.35999999999999,
+      "text": " Patterns in ultraviolet changes in contrast"
+    },
+    {
+      "start": 141.36,
+      "end": 144.96,
+      "text": " and perhaps even weak electric clues around blossoms."
+    },
+    {
+      "start": 144.96,
+      "end": 147.52,
+      "text": " The flowers were never hiding on purpose."
+    },
+    {
+      "start": 147.52,
+      "end": 151.52,
+      "text": " Your human senses simply weren't built to pick up the same signal."
+    },
+    {
+      "start": 151.52,
+      "end": 152.88000000000002,
+      "text": " And that's the answer."
+    },
+    {
+      "start": 152.88000000000002,
+      "end": 154.96,
+      "text": " The garden hasn't changed."
+    },
+    {
+      "start": 154.96,
+      "end": 158.64000000000001,
+      "text": " Only the eyes and the senses you're using to explore it."
+    }
+  ],
+  "protected": "No provider publish/schedule/edit/delete, advertising changes, AutoPilot changes or existing Bizarre Past/other publication changes performed."
+}
