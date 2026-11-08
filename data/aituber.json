@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-07T08:16:30.571Z",
+  "updatedAt": "2026-11-08T08:16:32.154Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+      "title": "What if you could see a flower's hidden ultraviolet bull's-eye?",
+      "status": "completed",
+      "createdAt": "2026-11-07T19:48:10.898Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "00fd5574-adc8-4c43-a1ad-2045cb29082a",
+      "title": "What If the Sun Grew 10% Brighter?",
+      "status": "completed",
+      "createdAt": "2026-11-07T17:00:44.493Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "02253a90-1aaa-4766-8e50-54dd419b0981",
       "title": "The Block Basket Rescue",
