@@ -277,7 +277,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-07 17:23 Europe/Oslo; Nov6 Knights Templar PUBLISHED both platforms, Nov8 Pastry War PENDING both platforms",
+      "verifiedDate": "2026-11-08 10:18 Europe/Oslo; Nov15 Mørstad PENDING on YouTube and TikTok at 18:00, Nov8 Pastry War protected",
       "bizarrePast": [
         {
           "id": 414921238,
@@ -352,6 +352,28 @@
           "lastVerifiedStatus": "PENDING",
           "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
           "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
+        },
+        {
+          "id": 420588270,
+          "uuid": "-599217763043752269",
+          "date": "2026-11-15",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, public ordinary 16:9 video, AI disclosure true"
+        },
+        {
+          "id": 420588470,
+          "uuid": "9091728307992414316",
+          "date": "2026-11-15",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, PUBLIC_TO_EVERYONE, AIGC true"
         }
       ]
     },
@@ -655,20 +677,20 @@
       }
     },
     "bizarreNextProduction": {
-      "date": "2026-11-06",
+      "date": "2026-11-08",
       "firstTarget": "2026-11-09 18:00 Europe/Oslo Short 35–40 s (editorial only)",
       "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo ordinary public 16:9 2–4 min (editorial only)",
       "sundayTarget": "2026-11-15 18:00 Europe/Oslo ordinary public 16:9 3–6 min (editorial only)",
-      "status": "THREE_FACTCHECKED_RESEARCH_BRIEFS_ONLY_NO_GENERATION_NO_MP4_QC_NO_NEW_BOOKINGS",
+      "status": "MORSTAD_LONGFORM_QC_COMPLETE_AND_METRICOOL_BOOKED_YOUTUBE_TIKTOK",
       "briefs": [
         "data/bizarre-past-herculaneum-brief-2026-11-04.md",
         "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
         "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md"
       ],
-      "productionBudget": "Higgsfield read-only balance 2026-11-06: 32.8 credits, Plus. No usable free video generations; remaining free image influencer sheets cannot fund a long motion film. New 2–4 / 3–6 min videos not generated, MP4 QC not complete, cost not validated, no booking; do not claim sufficient funds or purchase credits without explicit approval.",
+      "productionBudget": "Higgsfield Plus verified 2026-11-08: 1032.8 credits before this authorized production, 493.46 after. 539.34 included credits used (narration, music, 20 initial video scenes and six scene-quality replacements); no purchase or upgrade. vidIQ paid credits not used.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
-      "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin (museum primary research published Oct 2026; unknown owner; avoid implying personally handled by king), original ~437-word English 16:9 script, editorial only.",
-      "platformControl": "2026-11-07 17:23 Europe/Oslo authenticated Metricool: Nov6 Knights Templar PUBLISHED both YouTube/TikTok; Nov8 Pastry War PENDING at exactly 18:00 both platforms with autoPublish=true. No Nov9/11/15 Bizarre posts in inspected 6–17 Nov Metricool queue. Existing posts unchanged.",
+      "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin. Finished 178.25 s 16:9 1080p film, fact-checked and booked to YouTube + TikTok for 2026-11-15 18:00 Europe/Oslo.",
+      "platformControl": "2026-11-08 10:18 Europe/Oslo authenticated Metricool: Nov15 Mørstad long-form is PENDING at exactly 18:00 on YouTube post 420588270 uuid -599217763043752269 and TikTok post 420588470 uuid 9091728307992414316, autoPublish=true. Nov8 Pastry War protected and unchanged.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
       "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases.",
       "dailyAudit20261107": {
@@ -714,6 +736,90 @@
         },
         "alert": "No NEW confirmed operational blocker. Current 32.8 credits restrict unbooked editorial production but DO NOT satisfy alert rule absent a verified booked production failure. Do not touch data/production-alerts.json.",
         "actions": "Read-only check. No new render, booking, MP4 QC, uploads, paid credits, comments or likes."
+      },
+      "latestProduction20261108": {
+        "checkedAt": "2026-11-08T10:18:00+01:00",
+        "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+        "sourceBrief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
+        "sources": [
+          "https://www.khm.uio.no/english/news/sensational-discovery-first-in-norway-since-1924.html",
+          "https://www.historiskmuseum.no/english/exhibitions/morstad-hoard/index.html"
+        ],
+        "scriptWords": 439,
+        "firstWords": "Did you know…",
+        "narration": {
+          "platform": "Higgsfield",
+          "model": "elevenlabs_v4_turbo",
+          "voice": "Callum",
+          "durationSeconds": 178.23
+        },
+        "production": {
+          "platform": "Higgsfield",
+          "initialScenes": 20,
+          "qualityReplacementJobs": 6,
+          "usedUniqueFullMotionScenes": 19,
+          "rejectedWeakOutputs": [
+            "map with invented labels",
+            "specific invented coin portraits/inscriptions",
+            "heart-shaped coin comparison",
+            "implausible monumental assembly"
+          ],
+          "aiDisclosureBurnedIn": true
+        },
+        "qc": {
+          "finalDurationSeconds": 178.25,
+          "resolution": "1920x1080",
+          "frameRate": 24,
+          "videoCodec": "H.264",
+          "audioCodec": "AAC",
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "integratedLoudnessLUFS": -16.1,
+          "truePeakDbTP": -0.8,
+          "fullDecodePassed": true,
+          "visualContactSheetInspected": true,
+          "blackOrFreezeOverTwoSeconds": false,
+          "captionsBurnedIn": true,
+          "spokenAndWrittenHookWithinFirstTwoSeconds": true,
+          "finalSentencePresent": true,
+          "sha256": "4ac4626d45b4d49d736ef53fe606b4fc3ccfaf79ccc73432285d01a6e8dae4d4"
+        },
+        "spend": {
+          "openingCredits": 1032.8,
+          "closingCredits": 493.46,
+          "usedCredits": 539.34,
+          "purchase": false,
+          "upgrade": false
+        },
+        "bookings": [
+          {
+            "network": "youtube",
+            "id": 420588270,
+            "uuid": "-599217763043752269",
+            "status": "PENDING",
+            "date": "2026-11-15",
+            "time": "18:00",
+            "timezone": "Europe/Oslo",
+            "autoPublish": true,
+            "type": "video",
+            "privacy": "public",
+            "aiDisclosure": true
+          },
+          {
+            "network": "tiktok",
+            "id": 420588470,
+            "uuid": "9091728307992414316",
+            "status": "PENDING",
+            "date": "2026-11-15",
+            "time": "18:00",
+            "timezone": "Europe/Oslo",
+            "autoPublish": true,
+            "privacy": "PUBLIC_TO_EVERYONE",
+            "aiDisclosure": true
+          }
+        ],
+        "duplicateCheck": "Metricool range Nov14–16 was empty immediately before creation; both new destination posts were verified in the authenticated queue immediately after creation.",
+        "alert": "No fresh production blocker; production-alerts.json unchanged."
       }
     },
     "whatifRetentionImprovement": {
@@ -1729,9 +1835,35 @@
         "publisher": "AI Tuber",
         "stage": "NEW_EDITORIAL_OUTLINE_NOT_GENERATED_NOT_BOOKED",
         "caution": "Old images-only Weekly Long Story AutoPilot paused; real full-motion 16:9 cost and MP4 QC must be checked before restarting/generation."
+      },
+      {
+        "channel": "Bizarre Past",
+        "date": "2026-11-15",
+        "time": "18:00 Europe/Oslo",
+        "length": "178.25 seconds",
+        "aspect": "16:9 ordinary public",
+        "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+        "subject": "Mørstad Viking silver hoard and rare Olaf Haraldsson penny",
+        "brief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
+        "producer": "Higgsfield",
+        "publisher": "Metricool",
+        "stage": "QC_COMPLETE_METRICOOL_BOOKED_YOUTUBE_TIKTOK",
+        "publication": {
+          "youtube": {
+            "id": 420588270,
+            "uuid": "-599217763043752269",
+            "status": "PENDING"
+          },
+          "tiktok": {
+            "id": 420588470,
+            "uuid": "9091728307992414316",
+            "status": "PENDING"
+          }
+        },
+        "caution": "Booking verified, not yet published. Protect both posts; confirm provider publication after 2026-11-15 18:00."
       }
     ],
-    "existingBookings": "Existing Bizarre Past and all other platform posts untouched. Bee film final MP4 is available but full AV/caption review remains unpassed; no new long-film booking.",
+    "existingBookings": "Existing posts preserved. Bizarre Past Mørstad long-form is now verified booked on both YouTube and TikTok for 2026-11-15 18:00 Europe/Oslo; booking is not proof of publication.",
     "approvalPolicy": "User authorizes release only of a finished high-quality verified unique video; no bypass of QC, provider conflict guard, budget, 18:00 or channel identification."
   }
 }
