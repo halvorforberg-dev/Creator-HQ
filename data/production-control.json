@@ -465,6 +465,17 @@
         "beeStatus": "NOT_BOOKED_QC_HOLD",
         "youtubeStudioIndependentlyChecked": false,
         "existingPostsChanged": false
+      },
+      "littleWildCheck20261108": {
+        "videoId": "317c909a-d982-44ea-a60e-488446694d65",
+        "status": "NOT_PUBLISHED_PROVIDER_EMAIL_CONFIRMED",
+        "publicationId": null,
+        "source": "AITuber notification 2026-11-08T15:02:40Z",
+        "newStandaloneExports": [
+          "7eb3a514-ac25-48f1-bf61-3bbd76a6d1d8",
+          "1227f0c5-83f0-4d21-b1ee-e22710b2b09c"
+        ],
+        "standalonePublication": "UNVERIFIED; no publishing initiated by this audit"
       }
     }
   },
@@ -636,17 +647,17 @@
   },
   "operationalChecks": {
     "littleWildLatest": {
-      "verifiedAt": "2026-11-06T18:43:57+01:00",
+      "verifiedAt": "2026-11-08T18:49:57+01:00",
       "producer": "AI Tuber connected API",
       "pilotVideoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
       "pilotState": "Prior 42s pilot ID 466835c0-27bd-4172-a846-4d9f3d187f32 still completed and exported; still HOLD_NOT_APPROVED with no confirmed new booking.",
       "pilotQC": "HOLD_NOT_APPROVED. MP4 could not be viewed/listened to because CDN host resolution failed in container and web viewer could not open MP4. Exact character looks, motion quality, intelligible audio, and ending unverified.",
       "confirmedActualBooking": "none independently confirmed for pilot; no publication performed this run",
       "mainAndWeeklyAutopilot": "2026-11-06: Shorts workflow generated an UNPUBLISHED draft at 16:00; AITuber notification confirms channel not connected to AutoPilot for publishing. Main generation continues. Separate Weekly Long Story paused per authenticated dashboard verified 2026-11-05; no new live dashboard confirmation today.",
-      "aituberStudioAvailableCredits": 9166,
+      "aituberStudioAvailableCredits": 7615,
       "creditsNote": "Shared Studio balance 9166/10000 as of 2026-11-06. No generation, export, publish, buy action taken by agent; no reliable attribution for differences vs earlier balances.",
       "platformChannels": "Little Wild and What If connected in AI Tuber; vidIQ user-channels list currently contains Bizarre Past and Highlights, not Little Wild, so Little Wild private Studio analytics unavailable via that vidIQ connection.",
-      "nextAction": "Review new unpublished Block Basket Rescue; names Miko/Pip missing, only 34s, full MP4 QC missing. Main AutoPilot generates drafts but no posts. Preserve paused weekly long story. Check YouTube/queue before any separate 18:00 booking.",
+      "nextAction": "Use same reference @Little-Wild-Milo-and-Friends in every scene, keep exact canonical Milo face/skin/hair/outfit throughout; Miko (brown meerkat with green backpack) and Pip (fully blue bird with orange beak and satchel) named and visually consistent; one teddy button problem, original physical first-two-seconds hook, one failed attempt and clear teamwork payoff. No new generation without budget/WhatIf need and QC readiness.",
       "newActions": "Read-only audit of AITuber subscription, video metadata, connected channels, candidate pilot and title; public vidIQ query failed for insufficient vidIQ credits. No video generation, publish, paid credits, user engagement or manual edits.",
       "autopilotNewVideoObservation": {
         "checkedAt": "2026-11-04T18:35:56+01:00",
@@ -700,6 +711,72 @@
           "newPurchase": false
         },
         "nextStep": "Keep this video as unpublished draft. No new standalone generations or bookings before full MP4 playback and QC, duplicate check, budget check. Main Short AutoPilot continues producing drafts at 16:00, NOT publishing. Weekly Long Story paused (last dashboard verification 2026-11-05)."
+      },
+      "dailyAudit20261108": {
+        "checkedAt": "2026-11-08T18:49:57+01:00",
+        "sources": [
+          "AITuber connected GET /videos + GET /videos/{id} for 3 new videos",
+          "AITuber Nov8 15:02:40Z notification email id 1a1bbaed8bfec63e",
+          "AITuber GET /subscription",
+          "vidIQ connected user_channels zero-credit query",
+          "GitHub series bible and production alerts"
+        ],
+        "primaryAutopilotDraft": {
+          "id": "317c909a-d982-44ea-a60e-488446694d65",
+          "title": "The Pajama Button Parade",
+          "createdAt": "2026-11-08T15:00:39.454Z",
+          "createdAtOslo": "2026-11-08 16:00:39",
+          "status": "completed",
+          "mediaType": "video",
+          "durationSeconds": 37,
+          "aspectRatio": "9:16",
+          "visualVideoSegments": 5,
+          "exportStatus": null,
+          "publication": "CONFIRMED_NOT_PUBLISHED: provider notification states 'This video was not posted' and 'No channel is connected to this autopilot'.",
+          "scriptIssues": "Script says 'the meerkat' and 'the blue bird', without names Miko/Pip. Combines buttons, brushing, reading and sleep instead of one visible problem-to-payoff. Returned input/visual prompts do not contain the saved @Little-Wild-Milo-and-Friends handle.",
+          "qc": "HOLD_NOT_APPROVED: 37s target met, video segments reported, but final MP4/audio unexported/unwatched; character continuity and public YouTube metadata not verified."
+        },
+        "additionalSameDayVideos": [
+          {
+            "id": "7eb3a514-ac25-48f1-bf61-3bbd76a6d1d8",
+            "createdAt": "2026-11-08T15:25:57.702Z",
+            "durationSeconds": 12,
+            "status": "completed",
+            "mediaType": "video",
+            "exportStatus": "completed",
+            "qc": "HOLD_REJECTED: 12 sec far below 35–40 target; prompt explicitly changes Milo to warm medium-brown skin, black curly hair and star-patterned teal pajamas; no saved canonical reference visible. User complained of changed Milo appearance. Public posting not verified."
+          },
+          {
+            "id": "1227f0c5-83f0-4d21-b1ee-e22710b2b09c",
+            "createdAt": "2026-11-08T15:28:31.627Z",
+            "durationSeconds": 32,
+            "status": "completed",
+            "mediaType": "video",
+            "exportStatus": "completed",
+            "qc": "HOLD_REJECTED: 32 sec too short; prompt describes warm medium-brown skin and teal knit sweater rather than canonical warm-light-skin Milo in teal romper, and no saved reference handle visible. Generated title is a truncated script. Public posting not verified."
+          }
+        ],
+        "credits": {
+          "sharedAvailable": 7615,
+          "monthlyIncluded": 10000,
+          "previouslyReportedNov07": 8969,
+          "deltaSinceReport": -1354,
+          "deltaAttribution": "UNKNOWN: mix of What If and Little Wild and multiple generations; do not claim this audit spent credits.",
+          "purchasedInAudit": false,
+          "newGenerationByAudit": false
+        },
+        "channelCounts": {
+          "source": "vidIQ user_channels free connected",
+          "littleWildSubscribers": 250,
+          "totalPublicViews": 7391,
+          "publicVideos": 17,
+          "organicVsPaid": "NOT_AVAILABLE",
+          "note": "Public count alone does not confirm any specific video status."
+        },
+        "weeklyLongStory": "Last authenticated UI check 2026-11-05: PAUSED. No live AutoPilot UI verification this run. No new weekly video observed in current AITuber recent-video API as of Nov8 18:49 Oslo.",
+        "nextTest": "Use same reference @Little-Wild-Milo-and-Friends in every scene, keep exact canonical Milo face/skin/hair/outfit throughout; Miko (brown meerkat with green backpack) and Pip (fully blue bird with orange beak and satchel) named and visually consistent; one teddy button problem, original physical first-two-seconds hook, one failed attempt and clear teamwork payoff. No new generation without budget/WhatIf need and QC readiness.",
+        "publishLock": "All three Nov8 Little Wild videos remain not approved for any new booking; preserve confirmed previous posts; no agent-generated posts, buys, likes or comments today.",
+        "alerts": "No fresh provider-confirmed production/publishing blocker for Little Wild. Existing drafts-only direct-publish guard works for primary AutoPilot. Do not edit production-alerts.json for old/rejected drafts."
       }
     },
     "bizarreNextProduction": {
