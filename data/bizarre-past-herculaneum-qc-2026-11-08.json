@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "channel": "Bizarre Past",
+  "createdOn": "2026-11-08",
+  "targetRelease": "2026-11-09T18:00:00+01:00",
+  "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
+  "provider": "Higgsfield",
+  "sourceBrief": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
+  "sourceResearch": [
+    {
+      "source": "Vesuvius Challenge",
+      "url": "https://scrollprize.org/firstscroll",
+      "published": "2026-06-25",
+      "proof": "Researchers read the surviving inner core, approximately 22 columns, of a carbonized Herculaneum papyrus scroll; outer layers previously lost are not recovered"
+    }
+  ],
+  "sceneJobs": [
+    {
+      "id": "9e02f2a1-322c-4ad9-8ad0-04d8637d4865",
+      "content": "Charred scroll macro closeup",
+      "type": "original_full_motion",
+      "durationSeconds": 8.042
+    },
+    {
+      "id": "2cc2fdd6-f9e8-4887-8ad8-6f90eed74628",
+      "content": "Roman Herculaneum library / Vesuvius AD79 eruption",
+      "type": "original_full_motion",
+      "durationSeconds": 8.042
+    },
+    {
+      "id": "efb62aec-ca88-4460-9c59-40a7b5980fa0",
+      "content": "Fragile charred papyrus fragments",
+      "type": "original_full_motion",
+      "durationSeconds": 8.042
+    },
+    {
+      "id": "2bd7a97c-4338-4a84-822b-f4dd970b44a2",
+      "content": "Modern X-ray / CT lab",
+      "type": "original_full_motion",
+      "durationSeconds": 8.042
+    },
+    {
+      "id": "8d189c60-7b69-4635-8216-6b0e094b6b16",
+      "content": "Digital imaging/unwrapping concept",
+      "type": "original_full_motion",
+      "durationSeconds": 8.042
+    },
+    {
+      "id": "3771450e-25f5-4dbc-87be-f15c92fd80c9",
+      "content": "Closing intact scroll concept and scientific visualization",
+      "type": "original_full_motion",
+      "durationSeconds": 8.042
+    }
+  ],
+  "voice": {
+    "model": "elevenlabs_v4_turbo",
+    "name": "Callum",
+    "id": "8121b809-6be2-4ae9-8bfc-6a2d1596cd22",
+    "durationSeconds": 37.721,
+    "costCredits": 1.65,
+    "finalASRStart": "Did you know...",
+    "finalASREnd": "preserved by the same volcano that buried it",
+    "firstSpokenAt": 0
+  },
+  "music": {
+    "model": "elevenlabs_music_v2_5",
+    "id": "32f7e2cf-d01c-4b65-b862-5ee535f7af26",
+    "instrumental": true,
+    "generatedSeconds": 40,
+    "mix": "0.14 under narration, fades out",
+    "costCredits": 5.82
+  },
+  "final": {
+    "fileName": "bizarre_past_herculaneum_20261109_QC_REV2.mp4",
+    "mediaId": "e79bc89d-0d51-4b1f-80bb-97dfedc47df7",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/e79bc89d-0d51-4b1f-80bb-97dfedc47df7.mp4",
+    "sha256": "9644e4c9a9092ad7d510bc4dd433fe7c8f13ea3d1dbf9d2bf94a5173eae7e06e",
+    "durationSeconds": 37.834,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "codec": "H264",
+    "audio": "AAC stereo",
+    "frames": "Full-motion originals, no slideshow",
+    "syntheticDisclosure": "AI GENERATED VISUALIZATION / NOT AN ACTUAL TRANSCRIPT overlay on conceptual manuscript scenes 21.80–37.80s"
+  },
+  "review": {
+    "sourceAndScriptFactCheck": true,
+    "hookSpokenAndWrittenAtT0": true,
+    "fullFinalRevisionDecoded": true,
+    "fullVideoAudioASRCheck": true,
+    "musicMixMeasured": {
+      "initialCutIntegratedLUFS": -17.8,
+      "initialCutTruePeakDBFS": -4.4
+    },
+    "initialCutBlackFreezeOverThreshold": false,
+    "revisedCutBlackFreezeOverThreshold": false,
+    "animatedSceneAndCaptionContactSheetActuallyInspected": true,
+    "revisedVisualizationDisclosureFrameActuallyInspected": true,
+    "externalAVAnalysis": {
+      "analysisId": "9cd75402-a4e4-4d46-831c-32346a7de141",
+      "status": "completed",
+      "scenes": 7,
+      "reviewedCut": "initial cut with same 6 video and identical narration/music as revision",
+      "voiceAndStoryAligned": "yes by automated scene analysis",
+      "caution": "External scene description confirms narrator and picture topics but does not prove that human ears perceived final voice/music quality"
+    },
+    "actualHumanAestheticListening": false,
+    "titleAndMetadataOriginal": true,
+    "duplicateQueueCheck": "Authenticated Metricool Nov 8 prebooking: four old protected entries only, no 9 Nov Herculaneum post; postbooking exact IDs reread",
+    "qcDecision": "APPROVED_FROM_TECHNICAL_ASR_EXTERNAL_AV_ANALYSIS_AND_MANUAL_FRAME_REVIEW; human aesthetic listening not performed or claimed.",
+    "caveats": [
+      "AI-generated illustrated Greek text is explicitly labeled not an exact transcript; no actual museum manuscript images reproduced",
+      "Final full-length direct human listening not available via this runtime; scene analysis plus technical signal QC and ASR performed"
+    ]
+  },
+  "spend": {
+    "startingCredits": 493.46,
+    "clipsCredits": 72,
+    "voiceCredits": 1.65,
+    "musicCredits": 5.82,
+    "totalCredits": 79.47,
+    "remainingCreditsVerified": 413.99,
+    "purchases": 0,
+    "upgrades": 0,
+    "paidPromotions": 0
+  },
+  "metricoolBookings": [
+    {
+      "network": "youtube",
+      "id": 420886327,
+      "uuid": "-7291786532113264737",
+      "status": "PENDING",
+      "autoPublish": true,
+      "scheduledAt": "2026-11-09T18:00:00+01:00",
+      "privacy": "public",
+      "isAiGenerated": true,
+      "format": "short",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-7291786532113264737"
+    },
+    {
+      "network": "tiktok",
+      "id": 420886502,
+      "uuid": "-6858831798982523644",
+      "status": "PENDING",
+      "autoPublish": true,
+      "scheduledAt": "2026-11-09T18:00:00+01:00",
+      "privacy": "PUBLIC_TO_EVERYONE",
+      "isAiGenerated": true,
+      "format": "video",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-6858831798982523644"
+    }
+  ],
+  "publicationStatus": "BOOKED_NOT_YET_PUBLISHED",
+  "note": "Nov8 Pastry War and Nov15 Mørstad existing posts left unchanged; this is a new distinct subject. No Telegram alert triggered because no new Bizarre Past verified blocker."
+}
