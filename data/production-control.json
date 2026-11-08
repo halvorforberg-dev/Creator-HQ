@@ -871,8 +871,8 @@
     },
     "whatIfBeeCompletion20261108": {
       "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
-      "exportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
-      "state": "EXPORTED_1080P_TECHNICAL_CHECK_PASSED_FULL_AV_QC_BLOCKED_NOT_BOOKED",
+      "exportId": "fa06a399-e309-4924-8148-900da10de266",
+      "state": "THUMBNAIL_CORRECTED_EXPORT_PROCESSING_PERCEPTUAL_AUDIO_QC_REQUIRED_NOT_BOOKED",
       "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
       "actualMP4DurationSeconds": 158.933,
       "publication": {
@@ -884,10 +884,12 @@
         "queueCheckedOn": "2026-11-08",
         "queueSource": "Authenticated AI Tuber Publications: 0 up next / Your queue is empty; YouTube Studio not independently inspected"
       },
-      "creditsVisible": 8094,
+      "creditsVisible": 8072,
       "creditsPurchased": false,
       "generationAttempted": false,
-      "paidPromotionStarted": false
+      "paidPromotionStarted": false,
+      "sourceCaptionWordsReviewed": 411,
+      "thumbnailIncludedCredits": 22
     }
   },
   "channelAudit": {
@@ -1598,7 +1600,7 @@
     "updatedAt": "2026-11-08",
     "timezone": "Europe/Oslo",
     "releaseTime": "18:00",
-    "state": "WHAT_IF_NOV8_EXPORT_COMPLETED_FULL_AV_QC_BLOCKED_NOT_BOOKED",
+    "state": "WHAT_IF_NOV8_THUMBNAIL_CORRECTED_EXPORT_PROCESSING_AUDIO_REVIEW_PENDING_NOT_BOOKED",
     "entries": [
       {
         "channel": "Bizarre Past",
@@ -1623,8 +1625,8 @@
         "brief": "data/whatif-bee-vision-long-brief-2026-11-06.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "EXPORTED_1080P_TECHNICAL_CHECK_PASSED_FULL_AV_QC_BLOCKED_NOT_BOOKED",
-        "caution": "Export finished. No publication attempt: full natural voice/music/AV sync and exhaustive subtitle review not passed. Local decode, audio signal checks, ASR and visual sampling are documented in data/whatif-bee-vision-qc-2026-11-08.json. Same ID only; no artificial duration extension.",
+        "stage": "THUMBNAIL_CORRECTED_EXPORT_PROCESSING_PERCEPTUAL_AUDIO_QC_REQUIRED_NOT_BOOKED",
+        "caution": "All 411 source-caption words/times now reviewed; corrected original thumbnail verified. New same-ID export fa06a399-e309-4924-8148-900da10de266 processing normally. Full direct perceived voice/music/AV sync not approved; no booking or external-analysis transfer. Previous MP4 technical evidence applies to original d698 export only.",
         "previousEditorialTarget": "2026-11-11",
         "time": "18:00 Europe/Oslo",
         "request": "User explicitly requested one long film tomorrow after stopping paid promotion; authorized one-off exception before the Nov9 editorial schedule starts.",
@@ -1641,19 +1643,21 @@
           "preGenerationBalance": 8969,
           "creditPurchase": false,
           "postGenerationBalance": 8094,
-          "observedBalanceDecrease": 875
+          "observedBalanceDecrease": 875,
+          "thumbnailIncludedCredits": 22,
+          "postThumbnailBalance": 8072
         },
         "actualDurationSeconds": 159,
         "sceneCount": 25,
         "export": {
-          "id": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+          "id": "fa06a399-e309-4924-8148-900da10de266",
           "requestedResolution": "1080p",
-          "lastObservedStatus": "completed",
-          "statusSource": "AI Tuber get_video exact ID + exported MP4 downloaded and ffprobe/ffmpeg inspected",
-          "verifiedAt": "2026-11-08T08:24:51Z",
-          "actualResolution": "1920x1080",
-          "actualDurationSeconds": 158.933,
-          "sha256": "7564aa1469765a0681e29f81c709dbbea1c2f0b2ec474fc5d98f3028549f580b"
+          "lastObservedStatus": "processing",
+          "statusSource": "AI Tuber exports/download exact exportId returned processing Nov8",
+          "requestedAt": "2026-11-08T08:38:54.286Z",
+          "verifiedAt": "2026-11-08T08:41:16Z",
+          "reason": "Same video re-export after original thumbnail correction; not a duplicate film.",
+          "technicalPass": false
         },
         "qc": {
           "fullAudioVisualReviewPassed": false,
@@ -1661,18 +1665,21 @@
           "actualAudioAuditionPassed": false,
           "fullCaptionAccuracyPassed": false,
           "naturalVoiceMusicPassed": false,
-          "thumbnailApproved": false,
-          "remaining": "Direct end-to-end listening/natural voice/music/AV sync, exhaustive captions and motion/artifact review, original thumbnail preparation/verification. No confirmed content defect is asserted from ASR substitutions.",
+          "thumbnailApproved": true,
+          "remaining": "Direct natural voice/music and perceived AV sync review; fresh final MP4 technical check after corrected thumbnail. All source caption words/times now reviewed.",
           "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
-          "note": "Full local decode and ASR cover end-to-end file; sampled rendered frames and browser playback do not certify natural voice/music or exact captions. No content defect inferred from ASR errors.",
-          "alertId": "whatif-bee-final-av-review-blocked-2026-11-08"
+          "note": "Caption source text passed; direct sound perception/AV sync still unpassed. Current revised-thumbnail export needs final technical verification.",
+          "alertId": "whatif-bee-final-av-review-blocked-2026-11-08",
+          "captionSourceTextPassed": true,
+          "evidenceCommitSha": "2f0e4bd5fc6f01dfb2c1fe674da07f27aa4b3fd6"
         },
         "followUp": {
           "automationId": "Automation_7118d8cefe548191b0c455d8f29612f0",
           "date": "2026-11-08",
           "time": "Morning, approximately 09:00 Europe/Oslo",
           "purpose": "Finish export and actual MP4/audio QC; if passed and not already booked/published, schedule this same video exactly for Nov8 18:00 Oslo. Never duplicate or bypass quality.",
-          "outcome": "Existing completion task ran Nov8: export downloaded; technical and ASR evidence obtained; release remains held for unpassed perceptual AV/caption QC. No additional automation created."
+          "outcome": "Existing completion task ran Nov8: export downloaded; technical and ASR evidence obtained; release remains held for unpassed perceptual AV/caption QC. No additional automation created.",
+          "latestUserInstruction": "User Nov8 reconfirms agent is to approve and fix the film; does not explicitly authorize sharing MP4 with Higgsfield. No further creative approval needed."
         },
         "publication": {
           "attempted": false,
@@ -1682,6 +1689,29 @@
           "requestedScheduledAt": "2026-11-08T17:00:00Z",
           "queueCheckedOn": "2026-11-08",
           "queueSource": "Authenticated AI Tuber Publications: 0 up next / Your queue is empty; YouTube Studio not independently inspected"
+        },
+        "priorExportChecks": [
+          {
+            "id": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+            "requestedResolution": "1080p",
+            "lastObservedStatus": "completed",
+            "statusSource": "AI Tuber get_video exact ID + exported MP4 downloaded and ffprobe/ffmpeg inspected",
+            "verifiedAt": "2026-11-08T08:24:51Z",
+            "actualResolution": "1920x1080",
+            "actualDurationSeconds": 158.933,
+            "sha256": "7564aa1469765a0681e29f81c709dbbea1c2f0b2ec474fc5d98f3028549f580b"
+          }
+        ],
+        "thumbnail": {
+          "approved": true,
+          "url": "https://cdn.aituber.app/6b08419f-6b49-4af6-905a-4e4414077598/image-fal-1794127098071-0.jpg",
+          "titleText": "WHAT IF... BEE VISION",
+          "illustrationLabel": "UV PATTERN",
+          "source": "Generated for this exact video through its AI Tuber Publish thumbnail control",
+          "attempts": 2,
+          "includedCreditsTotal": 22,
+          "correction": "First image had electric-looking blue glow; replaced with matte black/white UV inset. Corrected native image visually inspected.",
+          "newPurchases": false
         }
       },
       {
