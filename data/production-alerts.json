@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:55:26.701Z",
+  "updatedAt": "2026-11-08T08:28:30Z",
   "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -102,6 +102,33 @@
         "queue": "AI Tuber Publications verified 0 up next; no existing bookable posts changed",
         "timestampMeaning": "Resolution record updated at this time; exact UI-save second was not captured. Saved drafts-only was visibly verified during this session."
       }
+    },
+    {
+      "id": "whatif-bee-final-av-review-blocked-2026-11-08",
+      "channel": "What If in 40 Seconds",
+      "category": "quality_gate_blocker",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-08T08:28:30Z",
+      "notificationRevision": 1,
+      "source": {
+        "type": "completed_provider_export_local_qc_and_approval_review",
+        "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+        "exportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+        "url": "https://app.aituber.app/dashboard/videos/f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+        "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
+        "evidenceCommitSha": "e1fbe21adb5a66ad3e1f29417869fea61f485843",
+        "productionControlCommitSha": "73a0888d328aa106edf7104231f229131360cccc",
+        "productionControlBlobSha": "6e5ef472be3c3263d62ccbebdd0bb6772a68bbe9",
+        "alertBaseBlobSha": "89ac005ccc26d0307613ca7f92bdeca048f0e0c8"
+      },
+      "summary": "Bie-langfilmens eksisterende 1080p-eksport er ferdig (158,933 s), og hele filen dekoder med lyd. Avspilling nådde 2:38/2:38; lokale signalmålinger, ASR og bildeutvalg er dokumentert. Full direkte vurdering av naturlig stemme/musikk, AV-synk og alle undertekster er fortsatt ikke bestått. Automatisk godkjenningskontroll avviste overføring av MP4 til Higgsfield for analyse fordi deling dit ikke var særskilt autorisert. Lokal alternativkontroll erstatter ikke disse kvalitetskravene. Derfor ingen booking for 08.11 kl.18; dette er en konkret QC-begrensning, ikke eksportfeil eller normal prosessering.",
+      "action": "Fullfør direkte lyd-/bilde-/undertekstgjennomgang via en autorisert kontrollmulighet, og klargjør/verifiser original thumbnail. Rett bare konkrete feil innen inkluderte kreditter. Før eventuell booking: sjekk fersk kø og samme video-ID, riktig kanal og 2026-11-08T17:00:00Z. Behold AutoPilot draft-only; ingen ny kopi, ingen kredittkjøp, ingen promotering. Hvis planlagt tid passeres, ikke automatisk publiser med et utløpt tidspunkt.",
+      "relatedLinks": [
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-bee-vision-qc-2026-11-08.json"
+      ],
+      "ownerActionRequired": false
     }
   ]
 }
