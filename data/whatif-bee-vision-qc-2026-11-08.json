@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-08T08:28:30Z",
+  "checkedAt": "2026-11-08T08:41:16Z",
   "channel": "What If in 40 Seconds",
   "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
   "exportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
@@ -36,7 +36,7 @@
     "science": "Transcript states many bees use ultraviolet, blue and green; some flowers have UV contrast, not all; false colours are illustrations; bumblebee floral electrical sensing explicitly separate from colour vision at ~113–126s.",
     "ending": "Transcript contains complete final sentence ending using to explore it at 158.64s. Rendered frame at 158.5s visibly says explore it. No duration padding.",
     "visuals": "Sampled frames show bee approaches/landings, moving viewpoints, illustrative UV comparisons and separate field diagrams/lab sequences. All 25 media assets visible in authenticated UI. Sampling is not exhaustive motion/artifact review.",
-    "captions": "Sampled visible words broadly match intended script. Complete word-by-word rendered-caption accuracy and AV sync NOT passed.",
+    "captions": "Nov8 follow-up: all 411 caption word texts and timings exposed and read in authenticated editor; original script matches. Rendered samples also match. Direct perceived AV synchronisation remains unpassed.",
     "originality": "Original 411-word v2 narration and bespoke visual directions match source brief. AI production documented; no claim of exhaustive plagiarism or third-party rights verification.",
     "sourcesRechecked": [
       {
@@ -50,7 +50,30 @@
         "supports": "Bumblebee electrical sensing, changing floral fields and learned pattern discrimination distinct from visual cues."
       }
     ],
-    "browserPlayback": "Authenticated exact video detail player started at 0:00; later observations 1:06, 1:52 and 2:38 / 2:38 with final explore / it. captions and Mute sound control. The browser completed playback, but audio was not directly auditioned by this agent; this is NOT a full AV QC pass."
+    "browserPlayback": "Authenticated exact video detail player started at 0:00; later observations 1:06, 1:52 and 2:38 / 2:38 with final explore / it. captions and Mute sound control. The browser completed playback, but audio was not directly auditioned by this agent; this is NOT a full AV QC pass.",
+    "captionSourceReview": {
+      "source": "Authenticated AI Tuber Studio Words 411 inspector, project 09633bdd-7635-4a25-8e7f-6cc639c7dd46",
+      "words": 411,
+      "allWordTextReviewed": true,
+      "textMatchesOriginalBrief": true,
+      "firstWord": {
+        "text": "What",
+        "start": 0,
+        "end": 0.24
+      },
+      "secondWord": {
+        "text": "if",
+        "start": 0.28,
+        "end": 0.32
+      },
+      "lastWord": {
+        "text": "it.",
+        "start": 158.56,
+        "end": 158.88
+      },
+      "changesNeeded": 0,
+      "limitation": "Source word text/times checked in full; direct perceived AV synchronisation still not passed."
+    }
   },
   "gates": {
     "fullAudioVisualReviewPassed": false,
@@ -58,15 +81,16 @@
     "actualAudioAuditionPassed": false,
     "fullCaptionAccuracyPassed": false,
     "naturalVoiceMusicPassed": false,
-    "thumbnailApproved": false,
-    "remaining": "Direct end-to-end listening/natural voice/music/AV sync, exhaustive captions and motion/artifact review, original thumbnail preparation/verification. No confirmed content defect is asserted from ASR substitutions."
+    "thumbnailApproved": true,
+    "remaining": "Direct natural voice/music and perceived AV sync review; fresh final MP4 technical check after corrected thumbnail. All source caption words/times now reviewed.",
+    "captionSourceTextPassed": true
   },
   "blocker": {
     "type": "quality_gate_blocker",
-    "reason": "The available browser observations expose player visuals/state but no directly auditable audio listening. Local signal checks and ASR cannot certify the required natural voice/music experience. Automatic approval review rejected transfer of the full MP4 to Higgsfield for external analysis because sharing with that third party was not specifically authorized and local alternatives exist. Local technical, visual-sampling and ASR alternatives were completed but do not fulfill every required gate.",
+    "reason": "Remaining review limitation: browser playback audio is not directly available to agent for perceptual voice/music/AV-sync assessment. Source captions and corrected original thumbnail have now been reviewed. Earlier automatic approval rejection of sharing MP4 with Higgsfield remains in force; no transfer retried and no external analysis run. Await specific data-sharing authorization if that review path is used. Normal rendering of revised thumbnail export is NOT an operational blocker.",
     "externalAnalysisRun": false,
     "rejectedTransferRetried": false,
-    "action": "Complete the remaining perceptual AV/caption review using an authorized review path, correct only concrete faults within included credits, prepare/verify original thumbnail; then recheck exact video/queue and book same export only if all gates pass. Do not re-generate or duplicate."
+    "action": "Obtain explicit permission to share existing MP4 with a named review service if using external analysis; otherwise complete sound review through an authorized available path. Do not claim full AV pass from source captions/ASR/volume checks. Finish/check revised export then recheck queue before exact same-ID booking."
   },
   "queue": {
     "source": "Authenticated AI Tuber Publications UI 2026-11-08 morning",
@@ -84,10 +108,12 @@
     "settingsChanged": false
   },
   "budget": {
-    "visibleStudioCredits": 8094,
+    "visibleStudioCredits": 8072,
     "newGeneration": false,
     "newPurchases": false,
-    "newPaidPromotion": false
+    "newPaidPromotion": false,
+    "thumbnailCreditsSpent": 22,
+    "newFilmGeneration": false
   },
   "metadataDraftOnly": {
     "title": "What If You Could See the World Like a Bee?",
@@ -98,7 +124,7 @@
     "madeForKids": false,
     "privacy": "public",
     "format": "ordinary 16:9 video",
-    "thumbnail": "Provider get_video thumbnail=null; original thumbnail still to prepare/verify after content clearance. Metadata not applied."
+    "thumbnail": "Corrected original thumbnail saved in AI Tuber. UI metadata/date fields were prepared but not submitted; dialog reopening resets those fields. Reapply report metadata at actual approved booking."
   },
   "automatedTranscript": [
     {
@@ -347,5 +373,25 @@
       "text": " Only the eyes and the senses you're using to explore it."
     }
   ],
-  "protected": "No provider publish/schedule/edit/delete, advertising changes, AutoPilot changes or existing Bizarre Past/other publication changes performed."
+  "protected": "No publish/schedule/delete, paid purchase/promotion, AutoPilot change or existing Bizarre Past/other post change. Editor opened read-only; no word/timeline changes. Original thumbnail generated then corrected; two free re-exports requested for same video after each thumbnail.",
+  "reviewedExportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+  "currentExport": {
+    "id": "fa06a399-e309-4924-8148-900da10de266",
+    "status": "processing",
+    "resolution": "1080p",
+    "requestedAt": "2026-11-08T08:38:54.286Z",
+    "reason": "Same video ID re-exported after corrected original thumbnail; no new film generated.",
+    "technicalReviewPending": true
+  },
+  "thumbnail": {
+    "approved": true,
+    "url": "https://cdn.aituber.app/6b08419f-6b49-4af6-905a-4e4414077598/image-fal-1794127098071-0.jpg",
+    "titleText": "WHAT IF... BEE VISION",
+    "illustrationLabel": "UV PATTERN",
+    "source": "Generated for this exact video through its AI Tuber Publish thumbnail control",
+    "attempts": 2,
+    "includedCreditsTotal": 22,
+    "correction": "First image had electric-looking blue glow; replaced with matte black/white UV inset. Corrected native image visually inspected.",
+    "newPurchases": false
+  }
 }
