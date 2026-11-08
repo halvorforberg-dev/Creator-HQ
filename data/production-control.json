@@ -700,9 +700,9 @@
     },
     "bizarreNextProduction": {
       "date": "2026-11-08",
-      "firstTarget": "2026-11-09 18:00 Europe/Oslo Short 35–40 s (editorial only)",
-      "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo ordinary public 16:9 2–4 min (editorial only)",
-      "sundayTarget": "2026-11-15 18:00 Europe/Oslo ordinary public 16:9 3–6 min (editorial only)",
+      "firstTarget": "2026-11-09 18:00 Europe/Oslo: Herculaneum 37.834s 9:16 original Short, QC reviewed and BOOKED YouTube+TikTok (Metricool IDs 420886327 and 420886502), both still PENDING 2026-11-08 17:54 Oslo. Not published.",
+      "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo: Antikythera ordinary public 16:9 2–4 min, fact-checked DRAFT ONLY; not generated, QC approved or booked.",
+      "sundayTarget": "2026-11-15 18:00 Europe/Oslo: Mørstad 178.25s 16:9, QC reviewed and BOOKED YouTube+TikTok (IDs 420588270 and 420588470), still PENDING on 8 Nov; not yet published.",
       "status": "MORSTAD_LONGFORM_QC_COMPLETE_AND_METRICOOL_BOOKED_YOUTUBE_TIKTOK",
       "briefs": [
         "data/bizarre-past-herculaneum-brief-2026-11-04.md",
@@ -842,6 +842,19 @@
         ],
         "duplicateCheck": "Metricool range Nov14–16 was empty immediately before creation; both new destination posts were verified in the authenticated queue immediately after creation.",
         "alert": "No fresh production blocker; production-alerts.json unchanged."
+      },
+      "productionBudgetLatest": {
+        "asOf": "2026-11-08T17:54:00+01:00",
+        "provider": "Authenticated Higgsfield read-only balance; estimate_video_cost live quote",
+        "credits": 413.99,
+        "cinematicModel": "cinematic_studio_video_v2",
+        "eightSecond16x9QuoteCredits": 12,
+        "antikytheraIllustrativeClips": 21,
+        "antikytheraIllustrativeVisualSeconds": 168,
+        "antikytheraIllustrativeClipCredits": 252,
+        "illustrativeBalanceBeforeVoiceMusicRetakes": 161.99,
+        "status": "PLANNING_QUOTE_ONLY_NO_GENERATION_NO_PURCHASE",
+        "nextAction": "Obtain timed narrator, full audio/music quotes, exact scene count, retake reserve before committing to a finished 2–4min video. Do not buy credits. Book after entire MP4/audio QC and fresh queue duplicate check."
       }
     },
     "whatifRetentionImprovement": {
@@ -1538,7 +1551,18 @@
           "Do not launch paid campaigns or use Google Ads/VeeFly wallet"
         ],
         "nextPriority": "Produce/QA original 2–4min Antikythera ordinary 16:9 for Wed Nov11 ONLY after checking queue, full cost and final MP4; 413.99 Higgsfield credits remaining as of this audit. No proof long video booked today.",
-        "performanceCaution": "Metricool current YouTube history newly indexed Nov2 Galloway Hoard 897 cumulative views / 15s avg; no robust recent first-2s retention for competitors or own Nov4–6 releases. No invented hour of YouTube comments."
+        "performanceCaution": "Metricool current YouTube history newly indexed Nov2 Galloway Hoard 897 cumulative views / 15s avg; no robust recent first-2s retention for competitors or own Nov4–6 releases. No invented hour of YouTube comments.",
+        "nextWednesdayPreflight": {
+          "verifiedAt": "2026-11-08T17:54:00+01:00",
+          "source": "Higgsfield balance + exact 8s cost estimate + Metricool 7–17 Nov actual queue",
+          "credits": 413.99,
+          "visualsIndicativeCost": 252,
+          "visualsIndicativeLengthSeconds": 168,
+          "videoShots": 21,
+          "finalAudioBudgetUnknown": true,
+          "stage": "preflight only; no generation, MP4 QC or booking",
+          "researchBrief": "data/bizarre-past-antikythera-long-brief-2026-11-05.md"
+        }
       }
     }
   },
@@ -1826,7 +1850,17 @@
         "producer": "Higgsfield",
         "publisher": "Metricool",
         "stage": "FACT_CHECKED_EDITORIAL_DRAFT_ONLY_NOT_GENERATED_NOT_BOOKED",
-        "caution": "Higgsfield ~32.8 credits last check Nov5, full film cost unknown; existing 8 Nov Pastry War is a booked Short, not this long."
+        "caution": "Fresh Nov8 17:54: authenticated Higgsfield 413.99 existing credits; one 8s 16:9 cinematic shot priced at 12 credits, so 21 shots/168 seconds = indicative 252 credits before voice/music/retakes. No generation or 11 Nov Metricool booking. Prior 32.8 credit warning is obsolete. Full-film budget & full final AV/QC required.",
+        "productionBudgetEstimate": {
+          "creditsAvailable": 413.99,
+          "quoteType": "read-only price estimate, not committed",
+          "videoClipsApprox": 21,
+          "approxGeneratedSeconds": 168,
+          "baseVideoCreditEstimate": 252,
+          "additionalVoiceMusicRetakes": "not yet quoted",
+          "servicePurchaseAllowed": false,
+          "verifiedAt": "2026-11-08T17:54:00+01:00"
+        }
       },
       {
         "channel": "What If in 40 Seconds",
