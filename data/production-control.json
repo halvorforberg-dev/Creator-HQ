@@ -277,7 +277,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-08 17:45 Europe/Oslo: pending Nov8 Pastry War / Nov9 Herculaneum / Nov15 Mørstad all verified via Metricool with autoPublish=true; publication not yet confirmed",
+      "verifiedDate": "2026-11-08 after 18:04 Europe/Oslo: both Pastry War YT+TikTok PUBLISHED; Herculaneum Nov9 YT+TikTok and Mørstad Nov15 YT+TikTok PENDING at 18:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -338,9 +338,11 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "Pastry War",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-08 after 18:04 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts Nov8–Nov9 after 18:00; status=PUBLISHED and provider publicUrl returned",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7705847548526873878",
+          "providerPostId": "7705847548526873878"
         },
         {
           "id": 414921393,
@@ -349,9 +351,11 @@
           "network": "youtube",
           "time": "18:00",
           "title": "Pastry War",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-08 after 18:04 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts Nov8–Nov9 after 18:00; status=PUBLISHED and provider publicUrl returned",
+          "publicUrl": "https://www.youtube.com/shorts/69Xdr_3JXME",
+          "providerPostId": "69Xdr_3JXME"
         },
         {
           "id": 420886502,
@@ -712,7 +716,7 @@
       "productionBudget": "Higgsfield Plus verified 2026-11-08: 1032.8 credits before this authorized production, 493.46 after. 539.34 included credits used (narration, music, 20 initial video scenes and six scene-quality replacements); no purchase or upgrade. vidIQ paid credits not used.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
       "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin. Finished 178.25 s 16:9 1080p film, fact-checked and booked to YouTube + TikTok for 2026-11-15 18:00 Europe/Oslo.",
-      "platformControl": "2026-11-08 10:18 Europe/Oslo authenticated Metricool: Nov15 Mørstad long-form is PENDING at exactly 18:00 on YouTube post 420588270 uuid -599217763043752269 and TikTok post 420588470 uuid 9091728307992414316, autoPublish=true. Nov8 Pastry War protected and unchanged.",
+      "platformControl": "2026-11-08 after 18:04 Europe/Oslo authenticated Metricool: Pastry War PUBLISHED both YouTube/TikTok at booked Nov8 18:00; Herculaneum PENDING Nov9 18:00 (YT ID 420886327, TikTok 420886502); Mørstad PENDING Nov15 18:00 (YT ID 420588270, TikTok 420588470). No post edits or duplicate jobs.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
       "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases.",
       "dailyAudit20261107": {
@@ -1545,7 +1549,7 @@
           "existing Creator-HQ competitor-watch Nov7"
         ],
         "result": "Produced 37.834s original full-motion Herculaneum Short; revised to label concept Greek text; booked YouTube/TikTok for 2026-11-09 18:00; Nov8 Pastry and Nov15 Mørstad preserved; 413.99 existing credits remain, no purchases; no fresh Bizarre blocker.",
-        "metricoolToday": "Nov8 Pastry War YT and TikTok PENDING at 17:45; do not claim published yet",
+        "metricoolToday": "Nov8 Pastry War YT and TikTok VERIFIED PUBLISHED shortly after 18:00, direct URLs in pastryWarPostRelease.",
         "outOfScope": [
           "What If bee film actual QC blocker remains separate already logged",
           "Do not launch paid campaigns or use Google Ads/VeeFly wallet"
@@ -1562,6 +1566,21 @@
           "finalAudioBudgetUnknown": true,
           "stage": "preflight only; no generation, MP4 QC or booking",
           "researchBrief": "data/bizarre-past-antikythera-long-brief-2026-11-05.md"
+        },
+        "pastryWarPostRelease": {
+          "verifiedAt": "2026-11-08 after 18:04 Europe/Oslo",
+          "source": "Authenticated Metricool getScheduledPosts with direct URLs, statuses PUBLISHED",
+          "youtube": {
+            "id": 414921393,
+            "url": "https://www.youtube.com/shorts/69Xdr_3JXME",
+            "status": "PUBLISHED"
+          },
+          "tiktok": {
+            "id": 414921374,
+            "url": "https://www.tiktok.com/@bizzare.past/video/7705847548526873878",
+            "status": "PUBLISHED"
+          },
+          "note": "No duplicate, no rebooking, and no operational blocker. Brief pending statuses refer to earlier pre-publication snapshots only."
         }
       }
     }
