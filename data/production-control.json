@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -63,7 +63,7 @@
       "since": "2026-11-03",
       "status": "AUTOPILOT_DRAFT_ONLY_VERIFIED_AGENT_PUBLISHING_REQUIRES_QC_AND_QUEUE_CHECK",
       "policy": "2026-11-07 authenticated AI Tuber UI: What If AutoPilot YouTube channel deselected and changes saved. Provider status explicitly says 'Videos are saved to My Videos' / 'Nothing posts'. Generation every two days at 18:00 remains active but drafts only. Agent scheduling/publication may resume ONLY after full finished MP4+audio/factual QC, exact unique ID and current queue check. No existing public videos were changed.",
-      "latestConfirmed": "2026-11-07 evening: authenticated settings save, subsequent What If AutoPilot detail shows Nothing posts. AI Tuber Publications tab: 0 up next, queue empty. API confirmed correct What If YouTube channel connected for separate approved publication. New unique bee long-form draft f3dc9b3c-1001-41ec-9d80-e96246c67bd6 generated 159s and 25 scenes; not yet booked.",
+      "latestConfirmed": "2026-11-08 morning authenticated AutoPilot: Videos are saved to My Videos / Nothing posts. Publications: 0 up next, queue empty. Bee exact video/export completed and downloaded in 1080p; full AV QC not approved, no publish attempt. Draft-only retained.",
       "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
       "previousPolicy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
       "resolvedOn": "2026-11-07"
@@ -356,7 +356,7 @@
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-07",
+      "verifiedDate": "2026-11-08",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -406,7 +406,18 @@
         "2026-11-05 provider response: Little Wild Shorts ON, every 2 days next 06.11 16:00 Oslo, direct auto-publication; Weekly Long Story ON, next 09.11 16:00 Oslo, 5-minute images-only auto-publication. Splashy Rinse confirmed YouTube live 04.11 16:09 and rejected Breeze live 02.11 16:13. Provider has NOT changed settings. QC/publish risk confirmed; no duplicate manual post. Support follow-up sent to request pause/draft-only.",
         "2026-11-06 ~18:44 Oslo: AI Tuber AutoPilot created Block Basket Rescue ID 02253a90-1aaa-4766-8e50-54dd419b0981 at 16:00, 34s full-video clips, export NOT completed. AITuber email explicitly confirms NOT PUBLISHED because no channel connected to this AutoPilot. Missing names Miko/Pip; no rendered MP4 QC; HOLD. Shared credits 9166, no agent spend. Old alert remains RESOLVED; no new verified publishing blocker.",
         "2026-11-07 19:11 Europe/Oslo: What If AutoPilot automatically generated 34s Sun Grew 10% Brighter? at 18:00, provider email 18:07 confirms PUBLIC YouTube https://www.youtube.com/watch?v=AmoxUPMdCwI. This is a fresh verified quality-gate BLOCKER for future posting: unreviewed AutoPilot direct publishing bypasses mandatory MP4/audio QA and 35–40s/positive-payoff targets. Alert whatif-autopilot-unreviewed-publishing-2026-11-07 OPEN. No agent extra publishing; must set AutoPilot to draft-only via UI."
-      ]
+      ],
+      "currentCheck": {
+        "checkedOn": "2026-11-08",
+        "source": "Authenticated Publications UI",
+        "upNext": 0,
+        "message": "Your queue is empty",
+        "beeVideoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+        "beePublicationId": null,
+        "beeStatus": "NOT_BOOKED_QC_HOLD",
+        "youtubeStudioIndependentlyChecked": false,
+        "existingPostsChanged": false
+      }
     }
   },
   "incidents": [
@@ -846,8 +857,8 @@
       "actions": "Logged source-verified blocker, added original research brief, updated control/competitor; no upload, deletion, spending, or social engagement action by agent."
     },
     "whatIfDraftOnly": {
-      "verifiedOn": "2026-11-07",
-      "source": "Authenticated AI Tuber dashboard settings and saved What If AutoPilot detail",
+      "verifiedOn": "2026-11-08",
+      "source": "Authenticated AI Tuber AutoPilot detail; saved state read without mutation",
       "state": "VERIFIED_DRAFT_ONLY",
       "autopilotId": "dc3364b4-9342-4e44-8ca8-76cac21fd0c5",
       "visibleStatus": [
@@ -855,8 +866,28 @@
         "Nothing posts"
       ],
       "generationCadence": "Every two days at 18:00 Europe/Oslo retained",
-      "queue": "Publications tab verified 0 up next, no scheduled upcoming posts",
+      "queue": "Authenticated Publications checked Nov8: 0 up next / Your queue is empty",
       "existingPostsChanged": false
+    },
+    "whatIfBeeCompletion20261108": {
+      "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+      "exportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
+      "state": "EXPORTED_1080P_TECHNICAL_CHECK_PASSED_FULL_AV_QC_BLOCKED_NOT_BOOKED",
+      "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
+      "actualMP4DurationSeconds": 158.933,
+      "publication": {
+        "attempted": false,
+        "publicationId": null,
+        "scheduledAt": null,
+        "status": "NOT_BOOKED_QC_HOLD",
+        "requestedScheduledAt": "2026-11-08T17:00:00Z",
+        "queueCheckedOn": "2026-11-08",
+        "queueSource": "Authenticated AI Tuber Publications: 0 up next / Your queue is empty; YouTube Studio not independently inspected"
+      },
+      "creditsVisible": 8094,
+      "creditsPurchased": false,
+      "generationAttempted": false,
+      "paidPromotionStarted": false
     }
   },
   "channelAudit": {
@@ -1564,10 +1595,10 @@
     "restrictions": "No autonomous ad/credit purchases, scheduling edits or low-quality publishing in response to alerts."
   },
   "nextLongFormEditorial": {
-    "updatedAt": "2026-11-07",
+    "updatedAt": "2026-11-08",
     "timezone": "Europe/Oslo",
     "releaseTime": "18:00",
-    "state": "WHAT_IF_NOV8_GENERATED_EXPORT_PROCESSING_QC_PENDING_NOT_BOOKED; morning completion task created",
+    "state": "WHAT_IF_NOV8_EXPORT_COMPLETED_FULL_AV_QC_BLOCKED_NOT_BOOKED",
     "entries": [
       {
         "channel": "Bizarre Past",
@@ -1585,15 +1616,15 @@
       {
         "channel": "What If in 40 Seconds",
         "date": "2026-11-08",
-        "length": "3–4 min",
+        "length": "159 seconds actual first version; final MP4 158.933s",
         "aspect": "16:9 ordinary public",
         "title": "What If You Could See the World Like a Bee? 🐝🌸",
         "subject": "UV flower patterns + separately sensed floral electric fields",
         "brief": "data/whatif-bee-vision-long-brief-2026-11-06.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "GENERATED_1080P_EXPORT_PROCESSING_FULL_AV_QC_PENDING_NOT_BOOKED",
-        "caution": "Target Nov8 18:00 remains NOT BOOKED. Generation finished; normal HD export still processing. Autopilot drafts-only verified, no overlapping queue. Final complete AV/technical/factual review remains required.",
+        "stage": "EXPORTED_1080P_TECHNICAL_CHECK_PASSED_FULL_AV_QC_BLOCKED_NOT_BOOKED",
+        "caution": "Export finished. No publication attempt: full natural voice/music/AV sync and exhaustive subtitle review not passed. Local decode, audio signal checks, ASR and visual sampling are documented in data/whatif-bee-vision-qc-2026-11-08.json. Same ID only; no artificial duration extension.",
         "previousEditorialTarget": "2026-11-11",
         "time": "18:00 Europe/Oslo",
         "request": "User explicitly requested one long film tomorrow after stopping paid promotion; authorized one-off exception before the Nov9 editorial schedule starts.",
@@ -1617,20 +1648,40 @@
         "export": {
           "id": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
           "requestedResolution": "1080p",
-          "lastObservedStatus": "processing",
-          "statusSource": "AI Tuber exports/download confirmed not-ready; dashboard shows Exporting",
-          "verifiedAt": "2026-11-07T19:55:24.857Z"
+          "lastObservedStatus": "completed",
+          "statusSource": "AI Tuber get_video exact ID + exported MP4 downloaded and ffprobe/ffmpeg inspected",
+          "verifiedAt": "2026-11-08T08:24:51Z",
+          "actualResolution": "1920x1080",
+          "actualDurationSeconds": 158.933,
+          "sha256": "7564aa1469765a0681e29f81c709dbbea1c2f0b2ec474fc5d98f3028549f580b"
         },
         "qc": {
           "fullAudioVisualReviewPassed": false,
-          "partialPreviewObserved": "Player progressed through about 1:01 of 2:38 preview, moving flower/bee visuals and illustrative split UV diagram seen; NOT full AV approval",
-          "note": "No final MP4 downloaded/listened end-to-end, so no scheduling/release claim. Actual 159s is below old 3–4min editorial target; do not add filler merely to meet duration."
+          "technicalPass": true,
+          "actualAudioAuditionPassed": false,
+          "fullCaptionAccuracyPassed": false,
+          "naturalVoiceMusicPassed": false,
+          "thumbnailApproved": false,
+          "remaining": "Direct end-to-end listening/natural voice/music/AV sync, exhaustive captions and motion/artifact review, original thumbnail preparation/verification. No confirmed content defect is asserted from ASR substitutions.",
+          "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
+          "note": "Full local decode and ASR cover end-to-end file; sampled rendered frames and browser playback do not certify natural voice/music or exact captions. No content defect inferred from ASR errors.",
+          "alertId": "whatif-bee-final-av-review-blocked-2026-11-08"
         },
         "followUp": {
           "automationId": "Automation_7118d8cefe548191b0c455d8f29612f0",
           "date": "2026-11-08",
           "time": "Morning, approximately 09:00 Europe/Oslo",
-          "purpose": "Finish export and actual MP4/audio QC; if passed and not already booked/published, schedule this same video exactly for Nov8 18:00 Oslo. Never duplicate or bypass quality."
+          "purpose": "Finish export and actual MP4/audio QC; if passed and not already booked/published, schedule this same video exactly for Nov8 18:00 Oslo. Never duplicate or bypass quality.",
+          "outcome": "Existing completion task ran Nov8: export downloaded; technical and ASR evidence obtained; release remains held for unpassed perceptual AV/caption QC. No additional automation created."
+        },
+        "publication": {
+          "attempted": false,
+          "publicationId": null,
+          "scheduledAt": null,
+          "status": "NOT_BOOKED_QC_HOLD",
+          "requestedScheduledAt": "2026-11-08T17:00:00Z",
+          "queueCheckedOn": "2026-11-08",
+          "queueSource": "Authenticated AI Tuber Publications: 0 up next / Your queue is empty; YouTube Studio not independently inspected"
         }
       },
       {
@@ -1647,7 +1698,7 @@
         "caution": "Old images-only Weekly Long Story AutoPilot paused; real full-motion 16:9 cost and MP4 QC must be checked before restarting/generation."
       }
     ],
-    "existingBookings": "Do not modify Nov6 Templars or Nov8 Pastry War Shorts in Metricool. The current planned long-films are not existing platform bookings. No AITuber MP4 passed end-to-end AV QC for a new long film.",
+    "existingBookings": "Existing Bizarre Past and all other platform posts untouched. Bee film final MP4 is available but full AV/caption review remains unpassed; no new long-film booking.",
     "approvalPolicy": "User authorizes release only of a finished high-quality verified unique video; no bypass of QC, provider conflict guard, budget, 18:00 or channel identification."
   }
 }
