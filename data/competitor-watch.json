@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -698,6 +698,44 @@
       "oneTestableNextChange": "Keep Herculaneum's original 0–2sec 'Did you know…' + recognizable artifact reveal, and test whether a specific visually verifiable object outperform abstract mystery packaging once age-matched 24h/7d/28d Studio retention is actually available. This is a hypothesis, not a measured improvement.",
       "noWorkClaims": "No competitor video playback, comments, likes, Work hour, purchased credits, generated Higgsfield motion, final MP4 QC or new bookings.",
       "verifiedStopAlert": "No fresh confirmed blocker, do not create duplicate Telegram alert for 32.8 credits on unbooked ideas."
+    },
+    {
+      "id": "bizarre-2026-11-08-1745-oslo",
+      "channel": "bizarre",
+      "checkedAt": "2026-11-08 17:46 Europe/Oslo",
+      "method": "Fresh dated public third-party channel-page snapshots; source verification, NO YouTube/vidIQ credit spend and NO watched competitor footage.",
+      "references": [
+        {
+          "channel": "History Matters",
+          "url": "https://trari.com/en/c/historymatters/",
+          "snapshotDate": "2026-11-08",
+          "newRelease": "Why didn't Napoleon just stop? (Short Animated Documentary)",
+          "releaseDate": "2026-11-06",
+          "viewsReported": 677931,
+          "observedAge": "~2 calendar days",
+          "caveat": "Trari third-party reported count, 1.92M-subscriber channel; not organic/paid split or equal-sized comparator, no first 0–2s watch performed."
+        },
+        {
+          "channel": "Squire Explains",
+          "url": "https://channeldb.com/c/@squireexplains",
+          "snapshotDate": "2026-11-08",
+          "newRelease": "Why He Faked Insanity to Destroy His Best Friend...",
+          "relativeDate": "Today Nov8 per third-party page",
+          "viewsReported": 122300,
+          "comparison": "A 9-min long film 'Why Knights Stopped Using Shields' dated approx Oct16 with ~1.2M reported views",
+          "caveat": "Third-party counts refresh with latency, different video format and age and channel size ~18.5K subscribers; scripts and exact first 2s NOT viewed, never claim title causes views."
+        }
+      ],
+      "originalTest": {
+        "video": "Herculaneum original 37.8sec Nov9 Bizarre Short",
+        "hook": "Spoken and written Did you know... this burned lump was a book? (actual final output checked at 0s)",
+        "mechanism": "Visual paradox of charred object + documented virtual unwrapping + credible complete payoff",
+        "singleVariable": "Artifact physical mystery vs prior battle/war hook at comparable Short length and age; do not change three things at once.",
+        "audienceMeasure": "24h/7d/28d age-matched YouTube Shorts engaged views, stayed-to-watch, avg percent, subscribers per 1000; TikTok completion and share rate if available.",
+        "uncertainties": "No competitor retention or first2 motion observed; count/size and age cannot establish algorithm preference.",
+        "newResearchSource": "https://scrollprize.org/firstscroll"
+      },
+      "actions": "Used existing user-approved six principles, verified source, produced original film and booked Nov9; zero copyright clip/thumb copying; no vidIQ paid credits; no YouTube comments/likes; not claiming one-hour interactive session."
     }
   ],
   "latestRecommendations": {
