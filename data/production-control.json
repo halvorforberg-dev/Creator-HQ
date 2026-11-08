@@ -277,21 +277,8 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-08 10:18 Europe/Oslo; Nov15 Mørstad PENDING on YouTube and TikTok at 18:00, Nov8 Pastry War protected",
+      "verifiedDate": "2026-11-08 17:45 Europe/Oslo: pending Nov8 Pastry War / Nov9 Herculaneum / Nov15 Mørstad all verified via Metricool with autoPublish=true; publication not yet confirmed",
       "bizarrePast": [
-        {
-          "id": 414921238,
-          "uuid": "1907720729421826469",
-          "date": "2026-11-04",
-          "network": "youtube",
-          "time": "18:00",
-          "title": "Oak Island",
-          "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-05",
-          "publicUrl": "https://www.youtube.com/shorts/zUpY51tbRks",
-          "providerPostId": "zUpY51tbRks",
-          "statusSource": "Metricool authenticated getScheduledPosts included published provider entry Nov 5; publicationDate 2026-11-04 18:00 Europe/Oslo"
-        },
         {
           "id": 395308671,
           "uuid": "602198118900974987",
@@ -306,17 +293,17 @@
           "statusSource": "Metricool authenticated getScheduledPosts included published provider entry Nov 5; publicationDate 2026-11-04 18:00 Europe/Oslo"
         },
         {
-          "id": 414921278,
-          "uuid": "-6522068693621584776",
-          "date": "2026-11-06",
+          "id": 414921238,
+          "uuid": "1907720729421826469",
+          "date": "2026-11-04",
           "network": "youtube",
           "time": "18:00",
-          "title": "Knights Templar",
+          "title": "Oak Island",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-06 after 18:00 Europe/Oslo",
-          "statusSource": "Metricool authenticated getScheduledPosts; provider status PUBLISHED, direct publicUrl returned 2026-11-06",
-          "publicUrl": "https://www.youtube.com/shorts/TKTHIHIKPPI",
-          "providerPostId": "TKTHIHIKPPI"
+          "statusVerifiedDate": "2026-11-05",
+          "publicUrl": "https://www.youtube.com/shorts/zUpY51tbRks",
+          "providerPostId": "zUpY51tbRks",
+          "statusSource": "Metricool authenticated getScheduledPosts included published provider entry Nov 5; publicationDate 2026-11-04 18:00 Europe/Oslo"
         },
         {
           "id": 395308721,
@@ -332,15 +319,17 @@
           "providerPostId": "7705106186160327958"
         },
         {
-          "id": 414921393,
-          "uuid": "-1182831858875808596",
-          "date": "2026-11-08",
+          "id": 414921278,
+          "uuid": "-6522068693621584776",
+          "date": "2026-11-06",
           "network": "youtube",
           "time": "18:00",
-          "title": "Pastry War",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
+          "title": "Knights Templar",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-06 after 18:00 Europe/Oslo",
+          "statusSource": "Metricool authenticated getScheduledPosts; provider status PUBLISHED, direct publicUrl returned 2026-11-06",
+          "publicUrl": "https://www.youtube.com/shorts/TKTHIHIKPPI",
+          "providerPostId": "TKTHIHIKPPI"
         },
         {
           "id": 414921374,
@@ -354,15 +343,37 @@
           "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
         },
         {
-          "id": 420588270,
-          "uuid": "-599217763043752269",
-          "date": "2026-11-15",
+          "id": 414921393,
+          "uuid": "-1182831858875808596",
+          "date": "2026-11-08",
           "network": "youtube",
           "time": "18:00",
-          "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+          "title": "Pastry War",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, public ordinary 16:9 video, AI disclosure true"
+          "statusVerifiedDate": "2026-11-07 17:23 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts for Bizarre Past brand 7296504, range 2026-11-06 to 2026-11-17, autoPublish=true; release scheduled Nov 8 18:00 Europe/Oslo"
+        },
+        {
+          "id": 420886502,
+          "uuid": "-6858831798982523644",
+          "date": "2026-11-09",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "Scientists Read an Ancient Scroll Without Opening It 😳",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-08 17:45 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish true, TikTok PUBLIC_TO_EVERYONE, synthetic video disclosure true"
+        },
+        {
+          "id": 420886327,
+          "uuid": "-7291786532113264737",
+          "date": "2026-11-09",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-08 17:45 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish true, public YouTube 9:16 Short, synthetic content disclosure true"
         },
         {
           "id": 420588470,
@@ -374,6 +385,17 @@
           "lastVerifiedStatus": "PENDING",
           "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
           "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, PUBLIC_TO_EVERYONE, AIGC true"
+        },
+        {
+          "id": 420588270,
+          "uuid": "-599217763043752269",
+          "date": "2026-11-15",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, public ordinary 16:9 video, AI disclosure true"
         }
       ]
     },
@@ -996,6 +1018,72 @@
       "paidPromotionStarted": false,
       "sourceCaptionWordsReviewed": 411,
       "thumbnailIncludedCredits": 22
+    },
+    "latestBizarreHerculaneum20261108": {
+      "checkedAt": "2026-11-08T17:45:00+01:00",
+      "channel": "Bizarre Past",
+      "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
+      "sourceBrief": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
+      "qcEvidence": "data/bizarre-past-herculaneum-qc-2026-11-08.json",
+      "source": "https://scrollprize.org/firstscroll",
+      "stage": "GENERATION_COMPLETED_FINAL_MP4_REVIEWED_METRICOOL_BOOKED_NOT_PUBLISHED",
+      "durationSeconds": 37.834,
+      "resolution": "1080x1920 24fps H264/AAC",
+      "firstWords": "Did you know… (spoken and printed at 0 seconds)",
+      "review": {
+        "allMotionScenes": true,
+        "fullMP4Decode": true,
+        "manualVisualSampling": true,
+        "noBlackOrFreezeOverThreshold": true,
+        "fullSpeechASR": true,
+        "audiovisualSceneAnalysis": true,
+        "analysisId": "9cd75402-a4e4-4d46-831c-32346a7de141",
+        "soundMixTechnicalCheck": true,
+        "visualizationDisclosureRevised": true,
+        "directHumanAudioAudition": false,
+        "humanAuditionClaim": false,
+        "finalSha256": "9644e4c9a9092ad7d510bc4dd433fe7c8f13ea3d1dbf9d2bf94a5173eae7e06e"
+      },
+      "productionJobs": {
+        "clips": 6,
+        "clipModel": "cinematic_studio_video_v2",
+        "voiceId": "8121b809-6be2-4ae9-8bfc-6a2d1596cd22",
+        "musicId": "32f7e2cf-d01c-4b65-b862-5ee535f7af26"
+      },
+      "credits": {
+        "start": 493.46,
+        "used": 79.47,
+        "end": 413.99,
+        "purchases": 0,
+        "upgrades": 0,
+        "paidPromotion": 0,
+        "source": "Higgsfield balance read after completed jobs"
+      },
+      "booked": [
+        {
+          "network": "youtube",
+          "postId": 420886327,
+          "uuid": "-7291786532113264737",
+          "time": "2026-11-09 18:00 Europe/Oslo",
+          "status": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "network": "tiktok",
+          "postId": 420886502,
+          "uuid": "-6858831798982523644",
+          "time": "2026-11-09 18:00 Europe/Oslo",
+          "status": "PENDING",
+          "autoPublish": true
+        }
+      ],
+      "preserved": [
+        "Nov8 Pastry War YT+TikTok autoPublish 18:00, pending at 17:45",
+        "Nov15 Mørstad public 16:9 YT+TT autoPublish 18:00, pending at 17:45"
+      ],
+      "nextCheck": "After 2026-11-08 18:00 verify Pastry War published and after Nov9 18:00 verify Herculaneum publishes on both, source is Metricool provider status plus actual public URLs. No new Telegram alert unless a fresh confirmed publishing failure.",
+      "researchTest": "Measure 24h/7d/28d same-format age-matched retention, swipe/engaged views, subscriber conversion; title hook physical paradox hypothesis only, no causal inference before results.",
+      "socialEngagement": "No interactive Work login, YouTube like, view or comment performed or claimed."
     }
   },
   "channelAudit": {
@@ -1432,6 +1520,25 @@
         "reportToTelegram": "No new verified incident. Do not create fake push; hourly watcher remains responsible for future confirmed blockers.",
         "newBrief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
         "operations": "Only read-only provider checks, sourced script/research in GitHub; no comments, likes, generator jobs, credit purchases, deletions, video QC claims or Metricool booking."
+      },
+      "nov08": {
+        "checked": "2026-11-08 17:45 Europe/Oslo",
+        "sources": [
+          "Metricool authenticated Nov8–Nov16 getScheduledPosts",
+          "Higgsfield read-only balance pre/post existing credit generation",
+          "Higgsfield generated video jobs and uploaded revision-2 exported file",
+          "Original script from Vesuvius Challenge 25 June 2026",
+          "Full FFmpeg decode, audio ASR, manual contact frame inspection, Higgsfield external scene+audio analysis",
+          "existing Creator-HQ competitor-watch Nov7"
+        ],
+        "result": "Produced 37.834s original full-motion Herculaneum Short; revised to label concept Greek text; booked YouTube/TikTok for 2026-11-09 18:00; Nov8 Pastry and Nov15 Mørstad preserved; 413.99 existing credits remain, no purchases; no fresh Bizarre blocker.",
+        "metricoolToday": "Nov8 Pastry War YT and TikTok PENDING at 17:45; do not claim published yet",
+        "outOfScope": [
+          "What If bee film actual QC blocker remains separate already logged",
+          "Do not launch paid campaigns or use Google Ads/VeeFly wallet"
+        ],
+        "nextPriority": "Produce/QA original 2–4min Antikythera ordinary 16:9 for Wed Nov11 ONLY after checking queue, full cost and final MP4; 413.99 Higgsfield credits remaining as of this audit. No proof long video booked today.",
+        "performanceCaution": "Metricool current YouTube history newly indexed Nov2 Galloway Hoard 897 cumulative views / 15s avg; no robust recent first-2s retention for competitors or own Nov4–6 releases. No invented hour of YouTube comments."
       }
     }
   },
