@@ -872,9 +872,9 @@
     "whatIfBeeCompletion20261108": {
       "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
       "exportId": "fa06a399-e309-4924-8148-900da10de266",
-      "state": "THUMBNAIL_CORRECTED_EXPORT_PROCESSING_PERCEPTUAL_AUDIO_QC_REQUIRED_NOT_BOOKED",
+      "state": "CORRECTED_FINAL_MP4_TECHNICAL_AND_CAPTION_SOURCE_CHECKED_PERCEPTUAL_AUDIO_QC_PENDING_NOT_BOOKED",
       "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
-      "actualMP4DurationSeconds": 158.933,
+      "actualMP4DurationSeconds": 159.019,
       "publication": {
         "attempted": false,
         "publicationId": null,
@@ -1600,7 +1600,7 @@
     "updatedAt": "2026-11-08",
     "timezone": "Europe/Oslo",
     "releaseTime": "18:00",
-    "state": "WHAT_IF_NOV8_THUMBNAIL_CORRECTED_EXPORT_PROCESSING_AUDIO_REVIEW_PENDING_NOT_BOOKED",
+    "state": "WHAT_IF_NOV8_CORRECTED_FINAL_MP4_READY_PERCEPTUAL_AUDIO_REVIEW_PENDING_NOT_BOOKED",
     "entries": [
       {
         "channel": "Bizarre Past",
@@ -1618,15 +1618,15 @@
       {
         "channel": "What If in 40 Seconds",
         "date": "2026-11-08",
-        "length": "159 seconds actual first version; final MP4 158.933s",
+        "length": "159 seconds actual first version; corrected-thumbnail MP4 159.019s",
         "aspect": "16:9 ordinary public",
         "title": "What If You Could See the World Like a Bee? 🐝🌸",
         "subject": "UV flower patterns + separately sensed floral electric fields",
         "brief": "data/whatif-bee-vision-long-brief-2026-11-06.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "THUMBNAIL_CORRECTED_EXPORT_PROCESSING_PERCEPTUAL_AUDIO_QC_REQUIRED_NOT_BOOKED",
-        "caution": "All 411 source-caption words/times now reviewed; corrected original thumbnail verified. New same-ID export fa06a399-e309-4924-8148-900da10de266 processing normally. Full direct perceived voice/music/AV sync not approved; no booking or external-analysis transfer. Previous MP4 technical evidence applies to original d698 export only.",
+        "stage": "CORRECTED_FINAL_MP4_TECHNICAL_AND_CAPTION_SOURCE_CHECKED_PERCEPTUAL_AUDIO_QC_PENDING_NOT_BOOKED",
+        "caution": "Use latest corrected export fa06a399-e309-4924-8148-900da10de266 of SAME video. Final 159.019s, 1080p verified; not booked because direct voice/music/AV sync assessment remains unpassed. No external analysis has run.",
         "previousEditorialTarget": "2026-11-11",
         "time": "18:00 Europe/Oslo",
         "request": "User explicitly requested one long film tomorrow after stopping paid promotion; authorized one-off exception before the Nov9 editorial schedule starts.",
@@ -1652,12 +1652,15 @@
         "export": {
           "id": "fa06a399-e309-4924-8148-900da10de266",
           "requestedResolution": "1080p",
-          "lastObservedStatus": "processing",
-          "statusSource": "AI Tuber exports/download exact exportId returned processing Nov8",
+          "lastObservedStatus": "completed",
+          "statusSource": "AI Tuber exports/download exact ID + full local decode, ffprobe and refreshed ASR",
           "requestedAt": "2026-11-08T08:38:54.286Z",
-          "verifiedAt": "2026-11-08T08:41:16Z",
+          "verifiedAt": "2026-11-08T08:43:49Z",
           "reason": "Same video re-export after original thumbnail correction; not a duplicate film.",
-          "technicalPass": false
+          "technicalPass": true,
+          "actualResolution": "1920x1080",
+          "actualDurationSeconds": 159.019,
+          "sha256": "e01fd6a8cc835eb2e8afe2db4a61ba5e9c5e14666ff654051f7dffa5173abbc7"
         },
         "qc": {
           "fullAudioVisualReviewPassed": false,
@@ -1666,12 +1669,12 @@
           "fullCaptionAccuracyPassed": false,
           "naturalVoiceMusicPassed": false,
           "thumbnailApproved": true,
-          "remaining": "Direct natural voice/music and perceived AV sync review; fresh final MP4 technical check after corrected thumbnail. All source caption words/times now reviewed.",
+          "remaining": "Direct natural voice/music and perceived AV-sync review. Original and thumbnail-revised exports both have technical evidence; all 411 source caption words/times checked; corrected thumbnail inspected.",
           "evidencePath": "data/whatif-bee-vision-qc-2026-11-08.json",
-          "note": "Caption source text passed; direct sound perception/AV sync still unpassed. Current revised-thumbnail export needs final technical verification.",
+          "note": "Source-caption words/times and corrected thumbnail checked; fresh final MP4 decoded and ASR confirms full narration. Direct sound perception/AV sync still unpassed.",
           "alertId": "whatif-bee-final-av-review-blocked-2026-11-08",
           "captionSourceTextPassed": true,
-          "evidenceCommitSha": "2f0e4bd5fc6f01dfb2c1fe674da07f27aa4b3fd6"
+          "evidenceCommitSha": "911c4de4f34dc16f76499531344f14992fba0487"
         },
         "followUp": {
           "automationId": "Automation_7118d8cefe548191b0c455d8f29612f0",
