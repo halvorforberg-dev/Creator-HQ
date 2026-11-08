@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-08T08:41:16Z",
+  "checkedAt": "2026-11-08T08:43:49Z",
   "channel": "What If in 40 Seconds",
   "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
   "exportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
@@ -82,12 +82,12 @@
     "fullCaptionAccuracyPassed": false,
     "naturalVoiceMusicPassed": false,
     "thumbnailApproved": true,
-    "remaining": "Direct natural voice/music and perceived AV sync review; fresh final MP4 technical check after corrected thumbnail. All source caption words/times now reviewed.",
+    "remaining": "Direct natural voice/music and perceived AV-sync review. Original and thumbnail-revised exports both have technical evidence; all 411 source caption words/times checked; corrected thumbnail inspected.",
     "captionSourceTextPassed": true
   },
   "blocker": {
     "type": "quality_gate_blocker",
-    "reason": "Remaining review limitation: browser playback audio is not directly available to agent for perceptual voice/music/AV-sync assessment. Source captions and corrected original thumbnail have now been reviewed. Earlier automatic approval rejection of sharing MP4 with Higgsfield remains in force; no transfer retried and no external analysis run. Await specific data-sharing authorization if that review path is used. Normal rendering of revised thumbnail export is NOT an operational blocker.",
+    "reason": "Remaining review limitation: browser playback audio is not directly available to agent for perceptual voice/music/AV-sync assessment. Source captions and corrected original thumbnail have now been reviewed. Earlier automatic approval rejection of sharing MP4 with Higgsfield remains in force; no transfer retried and no external analysis run. Await specific data-sharing authorization if that review path is used. Revised thumbnail export is now completed, downloaded and technically checked; processing is not a blocker.",
     "externalAnalysisRun": false,
     "rejectedTransferRetried": false,
     "action": "Obtain explicit permission to share existing MP4 with a named review service if using external analysis; otherwise complete sound review through an authorized available path. Do not claim full AV pass from source captions/ASR/volume checks. Finish/check revised export then recheck queue before exact same-ID booking."
@@ -377,11 +377,237 @@
   "reviewedExportId": "d698a595-1e9a-4d27-bf5d-dee37e9c1ce6",
   "currentExport": {
     "id": "fa06a399-e309-4924-8148-900da10de266",
-    "status": "processing",
+    "status": "completed",
     "resolution": "1080p",
     "requestedAt": "2026-11-08T08:38:54.286Z",
     "reason": "Same video ID re-exported after corrected original thumbnail; no new film generated.",
-    "technicalReviewPending": true
+    "technicalReviewPending": false,
+    "downloaded": true,
+    "sha256": "e01fd6a8cc835eb2e8afe2db4a61ba5e9c5e14666ff654051f7dffa5173abbc7",
+    "bytes": 135917333,
+    "durationSeconds": 159.019,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "videoCodec": "h264",
+    "audio": "AAC stereo 48000Hz",
+    "fullyDecodedFrames": 4770,
+    "audioMeanDb": -23.5,
+    "audioPeakDb": -4.6,
+    "firstFrame": "Corrected WHAT IF... BEE VISION / UV PATTERN thumbnail verified in exported MP4 at time zero",
+    "narrationEnd": "Fresh local ASR of new MP4 ends with full final sentence at 158.8s; no artificial duration stretch",
+    "automatedTranscript": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": " What if you could see a flower's hidden ultraviolet bullseye?"
+      },
+      {
+        "start": 4,
+        "end": 9.8,
+        "text": " To a bee, an ordinary garden can reveal patterns our eyes simply cannot detect."
+      },
+      {
+        "start": 9.8,
+        "end": 12.3,
+        "text": " The secret is ultraviolet light."
+      },
+      {
+        "start": 12.3,
+        "end": 17.8,
+        "text": " Human eyes usually use receptors most sensitive to blue, green, and red ranges."
+      },
+      {
+        "start": 17.8,
+        "end": 21.400000000000002,
+        "text": " Many bees use ultraviolet, blue, and green."
+      },
+      {
+        "start": 21.400000000000002,
+        "end": 24.1,
+        "text": " They don't see an upgraded version of our colors."
+      },
+      {
+        "start": 24.1,
+        "end": 27,
+        "text": " They see a different combination of signals."
+      },
+      {
+        "start": 27,
+        "end": 28.400000000000002,
+        "text": " Look at this flower."
+      },
+      {
+        "start": 28.400000000000002,
+        "end": 31.400000000000002,
+        "text": " To us, the petals might see one color."
+      },
+      {
+        "start": 31.400000000000002,
+        "end": 38.900000000000006,
+        "text": " Under ultraviolet imaging, the edges can reflect more light while the center absorbs it, creating a dark bullseye."
+      },
+      {
+        "start": 38.900000000000006,
+        "end": 44.2,
+        "text": " For certain flowers, that contrast can help guide a visiting bee towards its landing area."
+      },
+      {
+        "start": 44.2,
+        "end": 50.5,
+        "text": " But not every blossom has a UV target, and not every bee sees flowers in exactly the same way."
+      },
+      {
+        "start": 50.5,
+        "end": 52.1,
+        "text": " There is another twist."
+      },
+      {
+        "start": 52.1,
+        "end": 56.1,
+        "text": " Every picture called bee vision on your screen is in illustration."
+      },
+      {
+        "start": 56.1,
+        "end": 60.7,
+        "text": " We have to translate ultraviolet patterns into colors humans can see."
+      },
+      {
+        "start": 60.7,
+        "end": 66,
+        "text": " A bright purple diagram is not proof that a real bee sees glowing purple petals."
+      },
+      {
+        "start": 66,
+        "end": 68.9,
+        "text": " Now imagine flying towards a patch of flowers."
+      },
+      {
+        "start": 68.9,
+        "end": 74,
+        "text": " From a distance, color contrast helps you notice what stands out against green leaves."
+      },
+      {
+        "start": 74,
+        "end": 77,
+        "text": " Up close, patterns can provide more clues."
+      },
+      {
+        "start": 77,
+        "end": 81.4,
+        "text": " And with experience, bees can learn which visual signals are worth following."
+      },
+      {
+        "start": 81.4,
+        "end": 84.8,
+        "text": " You may think that's already a remarkable superpower."
+      },
+      {
+        "start": 84.8,
+        "end": 89,
+        "text": " But a bumble bee can detect something else that isn't a color at all."
+      },
+      {
+        "start": 89,
+        "end": 91.8,
+        "text": " Flowers carry tiny electric fields."
+      },
+      {
+        "start": 91.8,
+        "end": 94.7,
+        "text": " Flying bees can pick up an electrical charge."
+      },
+      {
+        "start": 94.7,
+        "end": 99.39999999999999,
+        "text": " And when a charge bee visits a flower, the flowers feel can change."
+      },
+      {
+        "start": 99.39999999999999,
+        "end": 106.2,
+        "text": " In experiments, researchers show that bumble bees could learn to tell different floral electric field patterns apart."
+      },
+      {
+        "start": 106.2,
+        "end": 111.7,
+        "text": " Those cues can work together with visual information while the bees learn where rewards are."
+      },
+      {
+        "start": 111.7,
+        "end": 113.7,
+        "text": " But here's a crucial difference."
+      },
+      {
+        "start": 113.7,
+        "end": 117.3,
+        "text": " A bee doesn't see electricity sparkling around the petals."
+      },
+      {
+        "start": 117.3,
+        "end": 120.60000000000001,
+        "text": " Electrical sensing is separate from color vision."
+      },
+      {
+        "start": 120.60000000000001,
+        "end": 123.60000000000001,
+        "text": " Any glowing field we show here is a diagram."
+      },
+      {
+        "start": 123.60000000000001,
+        "end": 126.8,
+        "text": " Not a video of what a bee literally sees."
+      },
+      {
+        "start": 126.8,
+        "end": 131.2,
+        "text": " So what would happen if you borrowed a bee's senses for one afternoon?"
+      },
+      {
+        "start": 131.2,
+        "end": 134.3,
+        "text": " The garden wouldn't suddenly become a neon fantasy."
+      },
+      {
+        "start": 134.3,
+        "end": 138.1,
+        "text": " It would become a place full of information you usually miss."
+      },
+      {
+        "start": 138.1,
+        "end": 141.6,
+        "text": " Patterns in ultraviolet, changes in contrast,"
+      },
+      {
+        "start": 141.6,
+        "end": 145.2,
+        "text": " and perhaps even weak electric clues around blossoms."
+      },
+      {
+        "start": 145.2,
+        "end": 147.79999999999998,
+        "text": " The flowers were never hiding on purpose."
+      },
+      {
+        "start": 147.79999999999998,
+        "end": 151.79999999999998,
+        "text": " Your human senses simply weren't built to pick up the same signals."
+      },
+      {
+        "start": 151.79999999999998,
+        "end": 153.1,
+        "text": " And that's the answer."
+      },
+      {
+        "start": 153.1,
+        "end": 155.1,
+        "text": " The garden hasn't changed."
+      },
+      {
+        "start": 155.1,
+        "end": 158.79999999999998,
+        "text": " Only the eyes and the senses you're using to explore it."
+      }
+    ]
   },
   "thumbnail": {
     "approved": true,
