@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -1178,6 +1178,70 @@
       "nextCheck": "After 2026-11-08 18:00 verify Pastry War published and after Nov9 18:00 verify Herculaneum publishes on both, source is Metricool provider status plus actual public URLs. No new Telegram alert unless a fresh confirmed publishing failure.",
       "researchTest": "Measure 24h/7d/28d same-format age-matched retention, swipe/engaged views, subscriber conversion; title hook physical paradox hypothesis only, no causal inference before results.",
       "socialEngagement": "No interactive Work login, YouTube like, view or comment performed or claimed."
+    },
+    "bizarrePastLatest20261109": {
+      "verifiedAt": "2026-11-09T17:54:39+01:00",
+      "timeContext": "Before the 18:00 Europe/Oslo Monday release; do not mark published without later platform confirmation.",
+      "sources": [
+        "Authenticated Higgsfield balance",
+        "Higgsfield show_generations video recent page size 40 with all states",
+        "Authenticated Metricool getScheduledPosts brand 7296504 8–23 November",
+        "Creator HQ recent production briefs and competitor-watch 8 November"
+      ],
+      "higgsfield": {
+        "credits": 413.99,
+        "referenceBeforeRefill": 413.99,
+        "refillConfirmed": false,
+        "plan": "plus",
+        "freeCinematicGenerations": 0,
+        "latestObservedVideoJobId": "3771450e-25f5-4dbc-87be-f15c92fd80c9",
+        "latestObservedVideoJobCreatedAt": "2026-11-08T16:31:29.043Z",
+        "recentVideoJobsChecked": 40,
+        "recentJobsStatuses": "all 40 on newest page completed; no pending/waiting among those 40, other workspaces/pages not exhaustively audited",
+        "newGenerationInitiated": false,
+        "creditsSpentByAgent": 0,
+        "newCreditsPurchased": false
+      },
+      "verifiedMetricool": {
+        "brandId": "7296504",
+        "reviewedFrom": "2026-11-08",
+        "reviewedTo": "2026-11-23",
+        "pendingBookings": [
+          {
+            "date": "2026-11-09",
+            "time": "18:00",
+            "title": "Herculaneum – surviving scroll core",
+            "youtubePostId": 420886327,
+            "tiktokPostId": 420886502,
+            "status": "PENDING pre-release"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "18:00",
+            "title": "Mørstad Viking hoard 178s 16:9",
+            "youtubePostId": 420588270,
+            "tiktokPostId": 420588470,
+            "status": "PENDING"
+          }
+        ],
+        "antikythera20261111": "No Metricool entry found in returned 8–23 Nov posts; editorial draft only",
+        "thonis20261113": "No Metricool entry found; new Friday Short editorial draft only",
+        "existingBookingsChanged": false
+      },
+      "nextPriority": "Wait until Higgsfield balance demonstrably increases above 413.99 through new monthly allowance; then first check Antikythera existing jobs/exports/Metricool IDs and ensure full-budget cost reserve; produce 11 Nov 16:9 2–4 minute Antikythera if feasible and QC-checked. Only after securing full film, consider new 35–40s Shorts for vacant slots.",
+      "preparedFridayShort": {
+        "subject": "Thonis-Heracleion",
+        "brief": "data/bizarre-past-thonis-heracleion-short-brief-2026-11-09.md",
+        "targetDate": "2026-11-13",
+        "targetTime": "18:00 Europe/Oslo",
+        "status": "FACT_CHECKED_SCRIPT_AND_MOTION_PLAN_ONLY_NOT_GENERATED_NOT_QC_NOT_BOOKED",
+        "expectedFinal": "ONE CITY · TWO NAMES",
+        "primaryResearch": "Franck Goddio/IEASM; Oxford maritime archaeology",
+        "competingTopicsCheck": "Checked existing HQ verified bookings; no Thonis/Heracleion booking",
+        "productionRule": "No paid generation before confirmed refill and Antikythera long-form priority."
+      },
+      "alertDecision": "No NEW confirmed operational blockade: unchanged balance still provides existing credits but no additional planned refill; waiting under user's explicit gating rule is NOT an out-of-credit error. Do not create Telegram alert.",
+      "organicPolicy": "No ads initiated or reactivated. No comments, likes or claims of one-hour Work session. Status only from provider checks."
     }
   },
   "channelAudit": {
@@ -2022,6 +2086,16 @@
           "additionalVoiceMusicRetakes": "not yet quoted",
           "servicePurchaseAllowed": false,
           "verifiedAt": "2026-11-08T17:54:00+01:00"
+        },
+        "latestReadinessCheck": {
+          "checkedAt": "2026-11-09T17:54:39+01:00",
+          "higgsfieldCredits": 413.99,
+          "balanceVsBeforeRefill": "UNCHANGED_413.99",
+          "refillConfirmed": false,
+          "priceEstimate": "Prior 252 credits base for 21×8-second video source clips, narration/music/retakes not budgeted",
+          "generationInitiated": false,
+          "metricoolBooked": false,
+          "hold": "Wait for verified additional credit refill. No credits used until confirmed by provider. Book only following full AV-QC and duplicate guard."
         }
       },
       {
@@ -2171,5 +2245,18 @@
     ],
     "existingBookings": "Existing posts preserved. Bizarre Past Mørstad long-form is now verified booked on both YouTube and TikTok for 2026-11-15 18:00 Europe/Oslo; booking is not proof of publication.",
     "approvalPolicy": "User authorizes release only of a finished high-quality verified unique video; no bypass of QC, provider conflict guard, budget, 18:00 or channel identification."
+  },
+  "nextShortEditorial": {
+    "bizarrePast": {
+      "status": "SOURCE_BACKED_EDITORIAL_DRAFT_NOT_GENERATED_NOT_BOOKED",
+      "targetDate": "2026-11-13",
+      "time": "18:00 Europe/Oslo",
+      "format": "9:16 35–40 sec",
+      "subject": "Thonis-Heracleion, a lost Egyptian port with two historical names",
+      "brief": "data/bizarre-past-thonis-heracleion-short-brief-2026-11-09.md",
+      "firstFrameQuestion": "Why is this Egyptian statue under the sea, and why did texts name two cities?",
+      "finalScenePayoff": "Clear motion reveal: one submerged city, named Thonis in Egyptian and Heracleion in Greek traditions",
+      "priority": "AFTER credit refill and Antikythera 11 Nov 16:9 film budget/QC"
+    }
   }
 }
