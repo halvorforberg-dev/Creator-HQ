@@ -1703,6 +1703,100 @@
           "measure": "Compare 24h, 7d and 28d age-matched stayed-to-watch / engaged views / avg percentage viewed when available."
         },
         "unchanged": "No new production, no paid promotion renewal or spend, no scheduling. Nov7-8 authenticated AutoPilot draft-only still recorded, not independently rechecked via connected API tonight. Existing QC alert remains open; no duplicate Telegram push."
+      },
+      "dailyAudit20261109": {
+        "checkedDate": "2026-11-09",
+        "timeZone": "Europe/Oslo",
+        "source": [
+          "AI Tuber connected GET /videos list, GET /videos/{id} exact ID, api_read full scenes/script for Jupiter",
+          "AI Tuber GET /subscription and connected YouTube channels",
+          "Metricool What If brand 7751348, YouTube published in range YTVP Nov2026 through Nov9",
+          "vidIQ owner channels and balance read-only",
+          "GitHub Creator HQ production-control, competitor-watch, current alerts, bee QC evidence",
+          "NASA/Harvard/DLR original optical schlieren science and dated QuirkScience publisher catalog"
+        ],
+        "newestProviderDraft": {
+          "videoId": "cd5b0ce3-13e5-4253-960f-26dd06c1e44d",
+          "title": "What If Jupiter Became a Star?",
+          "providerCreatedAt": "2026-11-09T17:00:46.539Z",
+          "localCreatedAt": "2026-11-09 18:00:46 Europe/Oslo",
+          "status": "completed",
+          "durationSeconds": 36,
+          "aspectRatio": "9:16",
+          "sceneCount": 5,
+          "mediaType": "video",
+          "exportStatus": null,
+          "providerPublicationId": null,
+          "publicationStatus": "UNVERIFIED_NOT_CLAIMED_PUBLISHED",
+          "scriptAssessment": "Opener starts 'What if'; 5 explicitly moving cosmic scenes and a substantive caveat about ~75–80 Jupiter masses. Ending 'Would you explore this cosmic what-if? Follow for more' is a generic CTA instead of visible explanatory payoff; no actual MP4 export, full audiovisual review, metadata/thumbnail or queue-proof. Not QC-approved. Do not regenerate automatically; no agent publish or booking.",
+          "enhancementHypothesis": "Future Jupiter script should finish on a visible comparison of ordinary icy Europa versus hypothetical luminous Jovian star, with a factual caveat; no standalone creative expense without itemized budget and full QC."
+        },
+        "beeLongFilm": {
+          "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+          "exportId": "fa06a399-e309-4924-8148-900da10de266",
+          "providerStatus": "completed 1080p",
+          "durationSeconds": 159.019,
+          "finalQc": "HOLD_PERCEPTUAL_AUDIO_VOICE_MUSIC_AV_SYNC_UNPASSED",
+          "existingAlertId": "whatif-bee-final-av-review-blocked-2026-11-08",
+          "alertState": "open (already logged; no duplicate/revision)",
+          "newBookingPerformed": false,
+          "actualYouTubePublicationUnverified": true,
+          "releasePlan": "Do not bypass QC or produce duplicate. Previously missed Nov8 editor goal was not a confirmed booking."
+        },
+        "verifiedAnalyticsSnapshot": {
+          "provider": "Metricool 7751348 published-in-range returned 2026-11-09",
+          "type": "CUMULATIVE NOT AGE-MATCHED, MAY BE STALE",
+          "saturn": {
+            "videoId": "92Vn8iNgVN0",
+            "views": 2081,
+            "avgViewSeconds": 15
+          },
+          "octopus": {
+            "videoId": "u51oWL8ACTQ",
+            "views": 1011,
+            "avgViewSeconds": 10
+          },
+          "ocean": {
+            "videoId": "l_eoxyfvfRM",
+            "views": 144,
+            "avgViewSeconds": 9
+          },
+          "restrictions": "No What If vidIQ owner authorization, so retention/engaged views and organic/paid attribution unavailable; don't claim topic causal wins. Metricool returns previous indexed counts."
+        },
+        "aiTuberCredits": {
+          "remaining": 7417,
+          "monthlyIncluded": 10000,
+          "expectedPolicySplitWhatIf": 7000,
+          "littleWild": 3000,
+          "priorSnapshotNov8": 7615,
+          "difference": -198,
+          "attribution": "UNKNOWN shared subscription use; agent spent zero additional credits in this check",
+          "purchased": false
+        },
+        "vidiq": {
+          "totalRemaining": 2,
+          "chargedThisCheck": 0,
+          "ownerChannelWhatIf": "NOT_CONNECTED_TO_VIDIQ_OWNER_ANALYTICS"
+        },
+        "nextResearch": {
+          "title": "What If You Could See Invisible Air?",
+          "stage": "FACT_CHECKED_FULL_ENGLISH_SCRIPT_AND_ACTION_STORYBOARD_ONLY_NO_GENERATION_BOOKING_OR_PUBLICATION",
+          "brief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+          "durationGoal": "196s 16:9 3–4min",
+          "researchSources": [
+            "https://www.grc.nasa.gov/WWW/K-12/airplane/tunvschlrn.html",
+            "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+            "https://science.nasa.gov/earth/earth-observatory/seeing-shock-waves-86742/",
+            "https://quirkscience.com/films/"
+          ],
+          "priority": "Secondary to existing bee-vision QC-held video; only create if verified unique slot, budget estimate and QC path.",
+          "first2Seconds": "What if you could actually SEE the air moving around you? Cup split-screen reveals rising density gradient.",
+          "finalPayoff": "Same ordinary cup, now split-screen with schlieren camera representation as fan redirects a visible air-density plume; visual answer, not magic literal eyesight.",
+          "test": "One variable—immediate 0–2s real demonstration vs previously abstract long-form openers; compare 24h/7d/28d age-matched after actual public release."
+        },
+        "editorialSchedule": "What If Mon/Fri 35-40s Shorts; Wed/Sun 3–4min 16:9 films; all 18:00 Europe/Oslo goals only, not provider bookings.",
+        "checksPerformed": "No extra video generation/export, new paid subscription, ad campaign, publication, booking, user likes or comments. No one-hour interactive social work claimed. Existing paid What If Saturn ads remain paused by prior verified YouTube Studio; no new check or change made.",
+        "alertDecision": "No new confirmed blocker, existing 2026-11-08 bee QC blocker remains open and its notificationRevision unchanged. Latest Jupiter is a draft, not a failed confirmed booking. Do not send new Telegram blocker push."
       }
     },
     "bizarre": {
