@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -975,5 +975,32 @@
       "test": "Reveal UV bullseye no later than ~7s, distinguish ultraviolet visual patterns from separately sensed electric-field cues, close with clear science answer. Compare 24h/7d/28d public watch time/CTR/retention only after actual release."
     },
     "constraints": "What If AutoPilot recurring settings and non-overlapping platform queue unverified. Keep agent publish lock. No credits purchased; AI Tuber remaining shared 9166/10000, vidIQ 2 (not spent). No new alert for old Nov3 scheduling collision."
+  },
+  "bizarreResearchNote20261109": {
+    "checkedAt": "2026-11-09T17:54:39+01:00",
+    "scope": "No new paid vidIQ search or playback of competitor videos; reused 2026-11-08 documented competitive observations and performed targeted primary historical research before original Friday Short.",
+    "priorCompetitorEvidence": "Existing 2026-11-08 history channels comparison already logged; neither 0–2s hooks nor retention was directly inspected in this check.",
+    "originality": "Proposed original source-backed factual topic, not copied competitor headline, footage, narration or thumbnail.",
+    "proposedVideo": {
+      "title": "Egypt's Lost City Had TWO Names 😳 | Thonis-Heracleion",
+      "candidateRelease": "2026-11-13 18:00 Europe/Oslo",
+      "format": "9:16 35–40s",
+      "videoStatus": "EDITORIAL_DRAFT_ONLY_NO_RENDER_NO_BOOKING",
+      "brief": "data/bizarre-past-thonis-heracleion-short-brief-2026-11-09.md"
+    },
+    "primarySources": [
+      {
+        "institution": "Franck Goddio / IEASM",
+        "url": "https://www.franckgoddio.org/projects/sunken-civilizations/heracleion",
+        "fact": "Underwater excavations in Aboukir Bay confirmed historical port referred to as Thonis and Heracleion was one city."
+      },
+      {
+        "institution": "Oxford Centre for Maritime Archaeology",
+        "url": "https://www.arch.ox.ac.uk/ocma",
+        "fact": "Scholarly monographs on submerged ancient port and excavated vessels."
+      }
+    ],
+    "testableHypothesis": "A visual question in first 2s (statue underwater; two city names) with a last-frame answer 'ONE CITY · TWO NAMES' may increase completion vs broader historical mysteries; test only after actual 35–40s publication, age-match 24h/7d/28d retention, engaged views and subscribers-per-1000.",
+    "formatConstraint": "Do not burn credits before confirmed Higgsfield refill; prioritize Antikythera 11 Nov 16:9 film first."
   }
 }
