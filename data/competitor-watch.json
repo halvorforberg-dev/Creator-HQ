@@ -1002,5 +1002,16 @@
     ],
     "testableHypothesis": "A visual question in first 2s (statue underwater; two city names) with a last-frame answer 'ONE CITY · TWO NAMES' may increase completion vs broader historical mysteries; test only after actual 35–40s publication, age-match 24h/7d/28d retention, engaged views and subscribers-per-1000.",
     "formatConstraint": "Do not burn credits before confirmed Higgsfield refill; prioritize Antikythera 11 Nov 16:9 film first."
+  },
+  "littleWildResearchNote20261109": {
+    "checkedOn": "2026-11-09",
+    "type": "PRIMARY_EDUCATIONAL_RESEARCH; no competitor view-count or retention measurement",
+    "officialSource": "https://www.peepandthebigwideworld.com/en/educators/preschool-science-peep-approach/",
+    "additionalSource": "https://peepandthebigwideworld.com/en/educators/",
+    "evidence": "PEEP curriculum emphasizes first-hand investigation, observing consequences and themes including Sound; used only for pedagogy, not plot or IP.",
+    "actionableHypothesis": "Replace generic narrated routine with visually legible first 2s physical mismatch and 2-tap-stop consequence; compare age-matched 24h/7d/28d engaged views, watch time, and viewer-versus-swiped if published.",
+    "originalBrief": "data/little-wild-rainy-day-rhythm-short-brief-2026-11-09.md",
+    "releaseStatus": "NOT_GENERATED_NOT_BOOKED",
+    "ownFreshAnalytics": "No retention or paid/organic breakdown available. Only 250 subscribers / 7,386 views / 17 public videos from free connected vidIQ on Nov9."
   }
 }
