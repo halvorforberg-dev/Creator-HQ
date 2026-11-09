@@ -277,7 +277,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-08 after 18:04 Europe/Oslo: both Pastry War YT+TikTok PUBLISHED; Herculaneum Nov9 YT+TikTok and Mørstad Nov15 YT+TikTok PENDING at 18:00",
+      "verifiedDate": "2026-11-09 after 18:35 Europe/Oslo: Herculaneum YT+TikTok PUBLISHED at booked 18:00 with public URLs; Mørstad Nov15 YT+TikTok remains PENDING at 18:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -364,9 +364,11 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "Scientists Read an Ancient Scroll Without Opening It 😳",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-08 17:45 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish true, TikTok PUBLIC_TO_EVERYONE, synthetic video disclosure true"
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-09 after 18:35 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 18:35; provider status=PUBLISHED and publicUrl returned",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7706218976136973571",
+          "providerPostId": "7706218976136973571"
         },
         {
           "id": 420886327,
@@ -375,9 +377,11 @@
           "network": "youtube",
           "time": "18:00",
           "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-08 17:45 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish true, public YouTube 9:16 Short, synthetic content disclosure true"
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-09 after 18:35 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 18:35; provider status=PUBLISHED and publicUrl returned",
+          "publicUrl": "https://www.youtube.com/shorts/wSIzmG9_su4",
+          "providerPostId": "wSIzmG9_su4"
         },
         {
           "id": 420588470,
@@ -826,7 +830,7 @@
     },
     "bizarreNextProduction": {
       "date": "2026-11-08",
-      "firstTarget": "2026-11-09 18:00 Europe/Oslo: Herculaneum 37.834s 9:16 original Short, QC reviewed and BOOKED YouTube+TikTok (Metricool IDs 420886327 and 420886502), both still PENDING 2026-11-08 17:54 Oslo. Not published.",
+      "firstTarget": "2026-11-09 18:00 Europe/Oslo: Herculaneum 37.834s 9:16 original Short, QC reviewed and PUBLISHED on YouTube+TikTok. Verified 18:35 with public provider URLs (Metricool IDs 420886327 and 420886502).",
       "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo: Antikythera ordinary public 16:9 2–4 min, fact-checked DRAFT ONLY; not generated, QC approved or booked.",
       "sundayTarget": "2026-11-15 18:00 Europe/Oslo: Mørstad 178.25s 16:9, QC reviewed and BOOKED YouTube+TikTok (IDs 420588270 and 420588470), still PENDING on 8 Nov; not yet published.",
       "status": "MORSTAD_LONGFORM_QC_COMPLETE_AND_METRICOOL_BOOKED_YOUTUBE_TIKTOK",
@@ -838,7 +842,7 @@
       "productionBudget": "Higgsfield Plus verified 2026-11-08: 1032.8 credits before this authorized production, 493.46 after. 539.34 included credits used (narration, music, 20 initial video scenes and six scene-quality replacements); no purchase or upgrade. vidIQ paid credits not used.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
       "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin. Finished 178.25 s 16:9 1080p film, fact-checked and booked to YouTube + TikTok for 2026-11-15 18:00 Europe/Oslo.",
-      "platformControl": "2026-11-08 after 18:04 Europe/Oslo authenticated Metricool: Pastry War PUBLISHED both YouTube/TikTok at booked Nov8 18:00; Herculaneum PENDING Nov9 18:00 (YT ID 420886327, TikTok 420886502); Mørstad PENDING Nov15 18:00 (YT ID 420588270, TikTok 420588470). No post edits or duplicate jobs.",
+      "platformControl": "2026-11-09 after 18:35 Europe/Oslo authenticated Metricool: Herculaneum PUBLISHED both YouTube/TikTok at booked Nov9 18:00 with public URLs; Mørstad PENDING Nov15 18:00 (YT ID 420588270, TikTok 420588470). No post edits or duplicate jobs.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
       "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases.",
       "dailyAudit20261107": {
@@ -1159,13 +1163,13 @@
       "thumbnailIncludedCredits": 22
     },
     "latestBizarreHerculaneum20261108": {
-      "checkedAt": "2026-11-08T17:45:00+01:00",
+      "checkedAt": "2026-11-09T18:35:37+01:00",
       "channel": "Bizarre Past",
       "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
       "sourceBrief": "data/bizarre-past-herculaneum-brief-2026-11-04.md",
       "qcEvidence": "data/bizarre-past-herculaneum-qc-2026-11-08.json",
       "source": "https://scrollprize.org/firstscroll",
-      "stage": "GENERATION_COMPLETED_FINAL_MP4_REVIEWED_METRICOOL_BOOKED_NOT_PUBLISHED",
+      "stage": "PUBLISHED_YOUTUBE_AND_TIKTOK_VERIFIED",
       "durationSeconds": 37.834,
       "resolution": "1080x1920 24fps H264/AAC",
       "firstWords": "Did you know… (spoken and printed at 0 seconds)",
@@ -1204,29 +1208,35 @@
           "postId": 420886327,
           "uuid": "-7291786532113264737",
           "time": "2026-11-09 18:00 Europe/Oslo",
-          "status": "PENDING",
-          "autoPublish": true
+          "status": "PUBLISHED",
+          "autoPublish": true,
+          "providerPostId": "wSIzmG9_su4",
+          "publicUrl": "https://www.youtube.com/shorts/wSIzmG9_su4",
+          "statusVerifiedDate": "2026-11-09 after 18:35 Europe/Oslo"
         },
         {
           "network": "tiktok",
           "postId": 420886502,
           "uuid": "-6858831798982523644",
           "time": "2026-11-09 18:00 Europe/Oslo",
-          "status": "PENDING",
-          "autoPublish": true
+          "status": "PUBLISHED",
+          "autoPublish": true,
+          "providerPostId": "7706218976136973571",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7706218976136973571",
+          "statusVerifiedDate": "2026-11-09 after 18:35 Europe/Oslo"
         }
       ],
       "preserved": [
         "Nov8 Pastry War YT+TikTok autoPublish 18:00, pending at 17:45",
         "Nov15 Mørstad public 16:9 YT+TT autoPublish 18:00, pending at 17:45"
       ],
-      "nextCheck": "After 2026-11-08 18:00 verify Pastry War published and after Nov9 18:00 verify Herculaneum publishes on both, source is Metricool provider status plus actual public URLs. No new Telegram alert unless a fresh confirmed publishing failure.",
+      "nextCheck": "Measure the first age-matched 24-hour results after 2026-11-10 18:00, then 7-day and 28-day retention/engaged views/subscriber conversion when available; do not infer performance from publication alone.",
       "researchTest": "Measure 24h/7d/28d same-format age-matched retention, swipe/engaged views, subscriber conversion; title hook physical paradox hypothesis only, no causal inference before results.",
       "socialEngagement": "No interactive Work login, YouTube like, view or comment performed or claimed."
     },
     "bizarrePastLatest20261109": {
-      "verifiedAt": "2026-11-09T17:54:39+01:00",
-      "timeContext": "Before the 18:00 Europe/Oslo Monday release; do not mark published without later platform confirmation.",
+      "verifiedAt": "2026-11-09T18:35:37+01:00",
+      "timeContext": "After the 18:00 Europe/Oslo Monday release; Metricool provider status and public URLs verify publication on both destinations.",
       "sources": [
         "Authenticated Higgsfield balance",
         "Higgsfield show_generations video recent page size 40 with all states",
@@ -1253,14 +1263,6 @@
         "reviewedTo": "2026-11-23",
         "pendingBookings": [
           {
-            "date": "2026-11-09",
-            "time": "18:00",
-            "title": "Herculaneum – surviving scroll core",
-            "youtubePostId": 420886327,
-            "tiktokPostId": 420886502,
-            "status": "PENDING pre-release"
-          },
-          {
             "date": "2026-11-15",
             "time": "18:00",
             "title": "Mørstad Viking hoard 178s 16:9",
@@ -1271,7 +1273,19 @@
         ],
         "antikythera20261111": "No Metricool entry found in returned 8–23 Nov posts; editorial draft only",
         "thonis20261113": "No Metricool entry found; new Friday Short editorial draft only",
-        "existingBookingsChanged": false
+        "existingBookingsChanged": false,
+        "publishedToday": {
+          "date": "2026-11-09",
+          "time": "18:00",
+          "title": "Herculaneum – surviving scroll core",
+          "youtubePostId": 420886327,
+          "youtubeProviderId": "wSIzmG9_su4",
+          "youtubeUrl": "https://www.youtube.com/shorts/wSIzmG9_su4",
+          "tiktokPostId": 420886502,
+          "tiktokProviderId": "7706218976136973571",
+          "tiktokUrl": "https://www.tiktok.com/@bizzare.past/video/7706218976136973571",
+          "status": "PUBLISHED on both, verified 2026-11-09 after 18:35 Europe/Oslo"
+        }
       },
       "nextPriority": "Wait until Higgsfield balance demonstrably increases above 413.99 through new monthly allowance; then first check Antikythera existing jobs/exports/Metricool IDs and ensure full-budget cost reserve; produce 11 Nov 16:9 2–4 minute Antikythera if feasible and QC-checked. Only after securing full film, consider new 35–40s Shorts for vacant slots.",
       "preparedFridayShort": {
@@ -1285,7 +1299,7 @@
         "competingTopicsCheck": "Checked existing HQ verified bookings; no Thonis/Heracleion booking",
         "productionRule": "No paid generation before confirmed refill and Antikythera long-form priority."
       },
-      "alertDecision": "No NEW confirmed operational blockade: unchanged balance still provides existing credits but no additional planned refill; waiting under user's explicit gating rule is NOT an out-of-credit error. Do not create Telegram alert.",
+      "alertDecision": "No NEW confirmed operational blocker. Herculaneum published successfully on both destinations; Higgsfield balance 413.99 and vidIQ balance 2 are unchanged, with no active jobs. Do not create Telegram alert.",
       "organicPolicy": "No ads initiated or reactivated. No comments, likes or claims of one-hour Work session. Status only from provider checks."
     },
     "littleWildDaily20261109": {
