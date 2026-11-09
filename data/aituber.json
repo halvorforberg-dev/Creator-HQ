@@ -1,8 +1,35 @@
 {
-  "updatedAt": "2026-11-08T08:16:32.154Z",
+  "updatedAt": "2026-11-09T08:40:17.104Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "1227f0c5-83f0-4d21-b1ee-e22710b2b09c",
+      "title": "Oops! Teddy’s buttons are crooked! Milo looks down at the",
+      "status": "completed",
+      "createdAt": "2026-11-08T15:28:31.627Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "7eb3a514-ac25-48f1-bf61-3bbd76a6d1d8",
+      "title": "“Oops! My buttons don't match!” Milo holds up his teddy",
+      "status": "completed",
+      "createdAt": "2026-11-08T15:25:57.702Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "317c909a-d982-44ea-a60e-488446694d65",
+      "title": "The Pajama Button Parade",
+      "status": "completed",
+      "createdAt": "2026-11-08T15:00:39.454Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
       "title": "What if you could see a flower's hidden ultraviolet bull's-eye?",
