@@ -46,7 +46,13 @@
         ],
         "observed": "2026-10-28 publisher-listed 1:05 Short 'Can a Cookiecutter Shark Bite a Submarine?'; source-led one-question format but no independently verified view count or exact opening inspection.",
         "test": "Try original visual 35–40s flower-through-a-bee's-eyes question with authentic UV science, clear payoff, and full-motion, not another oceans-glow variant.",
-        "confidence": "Direct publisher portfolio, not a view-performance comparison."
+        "confidence": "Direct publisher portfolio, not a view-performance comparison.",
+        "latestVerifiedCatalogCheck": {
+          "checkedDate": "2026-11-09",
+          "source": "https://quirkscience.com/films/",
+          "observed": "Publisher lists Why They Sealed the Deepest Hole on Earth (2026-11-08, 14 min) and How Big Is the Biggest Star? (2026-11-07, 1:04 Short). These are format/topic catalog observations; no actual video opening watched, no retention or view counts verified.",
+          "implication": "A distinct source-backed visible-air/schlieren camera demonstration is an original positive long-video candidate; do not copy competitor scripts or video assets."
+        }
       },
       {
         "name": "xkcd’s What If?",
@@ -175,6 +181,20 @@
         "https://quirkscience.com/films/"
       ],
       "brief": "data/whatif-frozen-bubble-short-brief-2026-11-07.md"
+    },
+    {
+      "channel": "whatif",
+      "hypothesis": "An apparently everyday invisible-air reveal in the FIRST two seconds, then progressively larger original visual demonstrations of schlieren optics (cup → hand → hair dryer → aircraft shockwaves), with a final real-science side-by-side payoff, could improve 16:9 long-form opening retention versus an abstract thought experiment.",
+      "measure": "Same-format 16:9 age-matched 24h/7d/28d engaged views, first 2s drop-off/retention, average view percentage, CTR, qualifying organic watch minutes, subscriber gains/1,000; no causal claim until observed.",
+      "status": "SOURCED_EDITORIAL_DRAFT_ONLY_NO_GENERATION_NO_BOOKING_2026-11-09",
+      "nextTrial": "What If You Could See Invisible Air? — script/storyboard data/whatif-visible-air-long-brief-2026-11-09.md",
+      "sourceLinks": [
+        "https://www.grc.nasa.gov/WWW/K-12/airplane/tunvschlrn.html",
+        "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+        "https://science.nasa.gov/earth/earth-observatory/seeing-shock-waves-86742/",
+        "https://quirkscience.com/films/"
+      ],
+      "interpretation": "NASA/Harvard verify air-density gradient visualization, not literal human ability to see all wind. Competition research publisher listings only."
     }
   ],
   "lastResearch": {
