@@ -316,7 +316,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-10 15:05 Europe/Oslo: Antikythera YT+TikTok PENDING Nov11 18:00; Thonis-Heracleion YT+TikTok PENDING Nov13 18:00; Mørstad YT+TikTok PENDING Nov15 18:00; Herculaneum remains PUBLISHED",
+      "verifiedDate": "2026-11-10 ~17:08 Europe/Oslo: authenticated recheck; Herculaneum PUBLISHED; Antikythera Nov11, Thonis Nov13, Mørstad Nov15 YT+TikTok PENDING.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -430,8 +430,8 @@
           "time": "18:00",
           "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, PUBLIC_TO_EVERYONE, AIGC true"
+          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true"
         },
         {
           "id": 420588270,
@@ -441,8 +441,8 @@
           "time": "18:00",
           "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-08 10:18 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after creation; autoPublish=true, public ordinary 16:9 video, AI disclosure true"
+          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true"
         },
         {
           "id": 422895207,
@@ -452,8 +452,8 @@
           "time": "18:00",
           "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 11:18 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, ordinary public YouTube video, AI disclosure true",
+          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-9313543014694070346.mp4",
           "thumbnailUrl": "https://static.metricool.com/planner/202611/7296504-file-17329399027920313354.jpeg"
         },
@@ -465,8 +465,8 @@
           "time": "18:00",
           "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 11:18 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, TikTok PUBLIC_TO_EVERYONE, AIGC disclosure true",
+          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-9825133929000376631.mp4"
         },
         {
@@ -479,8 +479,8 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 15:05 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, YouTube public Short, AI disclosure true",
+          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-422101741849091139.mp4"
         },
         {
@@ -493,8 +493,8 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 15:05 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, PUBLIC_TO_EVERYONE, AIGC disclosure true",
+          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-12022711021074898252.mp4"
         }
       ]
@@ -2449,8 +2449,8 @@
         "brief": "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
         "producer": "Higgsfield",
         "publisher": "Metricool",
-        "stage": "FACT_CHECKED_EDITORIAL_DRAFT_ONLY_NOT_GENERATED_NOT_BOOKED",
-        "caution": "Fresh Nov8 17:54: authenticated Higgsfield 413.99 existing credits; one 8s 16:9 cinematic shot priced at 12 credits, so 21 shots/168 seconds = indicative 252 credits before voice/music/retakes. No generation or 11 Nov Metricool booking. Prior 32.8 credit warning is obsolete. Full-film budget & full final AV/QC required.",
+        "stage": "METRICOOL_YOUTUBE_AND_TIKTOK_PENDING_VERIFIED_NOV10",
+        "caution": "Previously stored PRE-PRODUCTION draft/budget snapshot superseded by confirmed 10 Nov Metricool booking. Do not regenerate, rebook or change queued film. Do not represent scheduled PENDING as published. This agent did not re-audit full AV playback on 10 Nov.",
         "productionBudgetEstimate": {
           "creditsAvailable": 413.99,
           "quoteType": "read-only price estimate, not committed",
@@ -2470,6 +2470,14 @@
           "generationInitiated": false,
           "metricoolBooked": false,
           "hold": "Wait for verified additional credit refill. No credits used until confirmed by provider. Book only following full AV-QC and duplicate guard."
+        },
+        "booking": {
+          "youtubePostId": 422895207,
+          "tiktokPostId": 422895503,
+          "date": "2026-11-11",
+          "time": "18:00 Europe/Oslo",
+          "status": "PENDING",
+          "source": "Authenticated Metricool 2026-11-10 ~17:08 Oslo"
         }
       },
       {
@@ -2622,15 +2630,26 @@
   },
   "nextShortEditorial": {
     "bizarrePast": {
-      "status": "SOURCE_BACKED_EDITORIAL_DRAFT_NOT_GENERATED_NOT_BOOKED",
-      "targetDate": "2026-11-13",
+      "status": "SOURCE_CHECKED_EDITORIAL_DRAFT_ONLY_NOT_GENERATED_NOT_QC_PASSED_NOT_BOOKED",
+      "subject": "Merer's 4,500-year-old shipping diary: white limestone for the Great Pyramid by boat",
+      "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳 | #Shorts",
+      "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
+      "proposedTargetDate": "2026-11-16",
       "time": "18:00 Europe/Oslo",
       "format": "9:16 35–40 sec",
-      "subject": "Thonis-Heracleion, a lost Egyptian port with two historical names",
-      "brief": "data/bizarre-past-thonis-heracleion-short-brief-2026-11-09.md",
-      "firstFrameQuestion": "Why is this Egyptian statue under the sea, and why did texts name two cities?",
-      "finalScenePayoff": "Clear motion reveal: one submerged city, named Thonis in Egyptian and Heracleion in Greek traditions",
-      "priority": "AFTER credit refill and Antikythera 11 Nov 16:9 film budget/QC"
+      "firstFrameQuestion": "What could a 4,500-year-old work diary reveal about pyramid stones?",
+      "finalScenePayoff": "Tura limestone arrives by boat; white outer casing, not the entire pyramid build",
+      "budgetPolicy": "169.42 Higgsfield credits as of Nov10 17h; 5x8s cinematic clips quote ~60 before audio/retakes. HOLD NEW SPEND: preserve long-form reserve, next unbooked 3–6 minute Sunday Nov22 needs more than remaining credits at prior quality. Recheck provider costs & no other jobs before any generation.",
+      "sourceCheckedAt": "2026-11-10T16:08:43.691Z",
+      "sourceLinks": [
+        "https://www.orient-mediterranee.com/les-papyrus-de-la-mer-rouge-i-le-journal-de-merer-p-jarf-a-et-b/",
+        "https://egymonuments.gov.eg/en/monuments/the-great-pyramid/"
+      ],
+      "priorSlot": {
+        "subject": "Thonis-Heracleion, a lost Egyptian port with two historical names",
+        "date": "2026-11-13",
+        "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
+      }
     },
     "littleWild": {
       "status": "EDITORIAL_DRAFT_ONLY",
@@ -2672,6 +2691,46 @@
       "antikythera": "2026-11-11T18:00:00+01:00 YT+TikTok pending 422895207/422895503",
       "morstad": "2026-11-15T18:00:00+01:00 YT+TikTok pending 420588270/420588470"
     },
-    "nextSteps": "Confirm Friday actual platform publication after 18:00. Budget 169.42 credits is not adequate to promise full additional 3–6-minute cinematic original long form; prioritize source-based original next film plan then render only when credits allow; no duplicate uploads."
+    "nextSteps": "Confirm Friday actual platform publication after 18:00. Budget 169.42 credits is not adequate to promise full additional 3–6-minute cinematic original long form; prioritize source-based original next film plan then render only when credits allow; no duplicate uploads.",
+    "agentCheck1700": {
+      "checkedAt": "2026-11-10T16:08:43.691Z",
+      "source": "Authenticated Metricool getScheduledPosts Nov9–25 Europe/Oslo + authenticated Higgsfield balance & last 30 video generation jobs + primary archaeological sources",
+      "productionStatus": "NO_NEW_GENERATION_THIS_CHECK; NEXT MERER SHORT RESEARCH BRIEF ONLY",
+      "currentCredits": 169.42,
+      "creditQuote": "12 credits per 8-sec cinematic_studio_video_v2 clip, 9:16; five ≈60 video-only; no voice/music/retake quote",
+      "noCreditPurchase": true,
+      "platformBookingsChanged": false,
+      "confirmedProviderQueue": [
+        {
+          "film": "Antikythera",
+          "date": "2026-11-11",
+          "time": "18:00 Europe/Oslo",
+          "youtubeId": 422895207,
+          "tiktokId": 422895503,
+          "status": "PENDING"
+        },
+        {
+          "film": "Thonis-Heracleion",
+          "date": "2026-11-13",
+          "time": "18:00 Europe/Oslo",
+          "youtubeId": 423027641,
+          "tiktokId": 423027976,
+          "status": "PENDING"
+        },
+        {
+          "film": "Mørstad",
+          "date": "2026-11-15",
+          "time": "18:00 Europe/Oslo",
+          "youtubeId": 420588270,
+          "tiktokId": 420588470,
+          "status": "PENDING"
+        }
+      ],
+      "mostRecentPublished": "Herculaneum Nov9 YT id 420886327 & TT 420886502 PUBLISHED with provider public URLs",
+      "latestHiggsfieldJobs": "Last 30 generation entries all completed, no active jobs within latest 30. This does not prove absence from every paginated older page.",
+      "nextAvailableEditorialSlot": "2026-11-16 18:00 Europe/Oslo Monday Short, MERER concept; NOT BOOKED",
+      "reserveDecision": "Keep full 169.42 credits unspent pending next long-form budget. Existing prior 21x8s long documentary source shots ~252 credits, voice/music/retakes additional; no guarantee further 3–6-min film can be produced with remaining credits.",
+      "alert": "No FRESH verified operational blocker: next target is editorial only; no Telegram alert added."
+    }
   }
 }
