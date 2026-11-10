@@ -1,7 +1,7 @@
 # Bizarre Past — Thonis-Heracleion Short (EDITORIAL DRAFT ONLY)
 
 **Research/pre-production:** 2026-11-09, Europe/Oslo.  
-**State: NOT GENERATED · NO 1080×1920 MP4 · NOT QUALITY-APPROVED · NOT BOOKED.**  
+**State update 2026-11-10: 39.01-second 1080×1920 (upscaled source) MP4 assembled and technical QC/ASR completed. BOTH YouTube (423027641) and TikTok (423027976) booked for Friday 13 November at 18:00 Europe/Oslo; current state PENDING, NOT yet published. See `data/bizarre-past-thonis-qc-2026-11-10.json`.**  
 **Candidate slot (editorial target, not a booking):** Friday 2026-11-13 at 18:00 Europe/Oslo, 35–40 sec, 9:16. Existing Herculaneum (Nov 9) and Mørstad (Nov 15) Metricool posts are protected. Produce only in **Higgsfield**; after completed audiovisual QC, schedule through **Metricool** to Bizarre Past YouTube/TikTok. No paid ads.
 
 ## 0–2-second question and final-scene answer
@@ -49,4 +49,4 @@ Sound: calm natural narrator in existing approved Bizarre Past voice; quiet susp
 - Before “klar til publisering,” inspect and listen to final exported MP4, verify 35–40s, true 1080×1920, natural voice and subtitles, moving story, factual claims, complete final payoff, cover, duplicate check, correct platform destinations and verified booking time **18:00 Europe/Oslo**.
 - After publishing, evaluate 24h/7d/28d age-matched Shorts retained viewers, engaged views, watch percentage and subscribers; do not claim first-2s retention without inspection.
 
-**Status for this document:** Original source-backed script/shot plan only. **Not an asset, not queued, not a request to spend credits.**
+**Status update 2026-11-10:** The original draft has been produced using SIX existing motion clips, narration and music. Finished 39s video is scheduled on both platforms, as recorded in `data/bizarre-past-thonis-qc-2026-11-10.json`. Historical notes above remain as draft-era context, not current status. No extra Higgsfield generation credits were used in today's assembly.
