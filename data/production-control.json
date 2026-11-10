@@ -1388,6 +1388,117 @@
       "publicationsInitiated": 0,
       "alertsOpened": 0,
       "nextEditorialShort": "Wed 2026-11-11 18:00 Europe/Oslo ONLY if a completely reviewed film can be safely booked; not a confirmed booking"
+    },
+    "whatifDailyAudit20261110": {
+      "checkedAt": "2026-11-10 ~19:35+01:00 onward",
+      "sources": [
+        "AI Tuber connected get_subscription/list_videos/get_video and /videos/{id} for Jupiter",
+        "Metricool brand 7751348 published all videos and 8–18 Nov scheduled-post read",
+        "vidIQ zero-cost account/credit data",
+        "GitHub creative-prompt-upgrades.json, production-control.json, competitor-watch.json, production-alerts.json",
+        "Harvard schlieren and NASA AirBOS primary research; QuirkScience official 10 Nov catalog"
+      ],
+      "governingPrompt": "Newest approved 2026-11-10 creative prompt upgrades: 3–5 truthful 0–2s hooks, prune but preserve natural pacing, deliberate visual/action/audio beats, full final MP4+audio perceptual QC; nonmechanical cuts.",
+      "providerLive": {
+        "aiTuber": {
+          "plan": "Studio",
+          "status": "active",
+          "remainingCredits": 7213,
+          "monthlyCredits": 10000,
+          "prior20261109": 7417,
+          "sharedDelta": -204,
+          "deltaAttribution": "NOT VERIFIED: What If and Little Wild share this balance; no credits spent by this agent",
+          "whatifConnectedChannel": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+          "latestWhatIfDraft": {
+            "id": "cd5b0ce3-13e5-4253-960f-26dd06c1e44d",
+            "title": "What If Jupiter Became a Star?",
+            "durationSeconds": 36,
+            "format": "9:16",
+            "status": "completed",
+            "exportStatus": null,
+            "scriptChecked": "Current script's first line is What if Jupiter became a star?; final words are 'Would you explore this cosmic what-if? Follow for more.' Does not satisfy visible factual payoff, so QC HOLD. No revised/regenerated duplicate.",
+            "publication": "No publication proof read from AITuber; not labeled published",
+            "fullAvQC": "NOT PASSED; no completed export for this Short."
+          },
+          "beeExistingLong": {
+            "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+            "status": "completed",
+            "exportStatus": "completed",
+            "exportId": "fa06a399-e309-4924-8148-900da10de266",
+            "durationSeconds": 159,
+            "format": "16:9 1080p",
+            "state": "QC_HOLD_NOT_BOOKED",
+            "unpassed": "Full natural voice/music audition and perceived AV synchronization",
+            "existingAlertId": "whatif-bee-final-av-review-blocked-2026-11-08",
+            "sameIdPreserved": true
+          }
+        },
+        "metricool": {
+          "brandId": 7751348,
+          "scheduledPostWindow": "2026-11-08 to 2026-11-18",
+          "scheduledPostsReturned": 0,
+          "importantLimit": "Metricool empty queue not authoritative for independent AI Tuber scheduling or public YouTube post visibility",
+          "publishedVideoMetricWindow": "2026-10-25 to 2026-11-10",
+          "metricsAre": "Cumulative provider-returned values; channel advertising/paid vs organic unavailable at video granularity",
+          "saturn": {
+            "youtubeId": "92Vn8iNgVN0",
+            "views": 2559,
+            "avgViewSeconds": 15,
+            "prevNov9Views": 2081,
+            "delta": 478
+          },
+          "sun": {
+            "youtubeId": "AmoxUPMdCwI",
+            "views": 953,
+            "avgViewSeconds": 12,
+            "publicationDate": "2026-11-07"
+          },
+          "octopus": {
+            "youtubeId": "u51oWL8ACTQ",
+            "views": 1024,
+            "avgViewSeconds": 10
+          },
+          "ocean": {
+            "youtubeId": "l_eoxyfvfRM",
+            "views": 181,
+            "avgViewSeconds": 9
+          },
+          "solarStorm": {
+            "youtubeId": "6JKhRTWs7rU",
+            "views": 107,
+            "avgViewSeconds": 11
+          },
+          "lastProviderObservedPublishDate": "2026-11-07; this does not prove no other newly published media elsewhere",
+          "evolutionSubscriberCountAtCheck": 48
+        },
+        "vidiq": {
+          "remainingCredits": 2,
+          "connectedOwnerChannelsExcludeWhatIf": true,
+          "paidRetentionAnalysisCalled": false
+        }
+      },
+      "newResearch": {
+        "brief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+        "briefUpdatedCommit": "12f5879921b3e1cae84edba8b946f596766c23a4",
+        "competitorWatchCommit": "e9f00a67fe8232499a6e5375b9cc6f6284477035",
+        "topic": "What If You Could See Invisible Air?",
+        "format": "16:9 3–4 min editorial-only",
+        "firstTwoSeconds": "What if you could SEE air? Cup split-screen reveals modeled schlieren density plume",
+        "lastVisual": "Return to identical cup; fan bends the camera-visible plume as a demonstrable scientific payoff",
+        "sources": [
+          "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+          "https://www.nasa.gov/image-article/airborne-background-oriented-schlieren-imaging-airbos/",
+          "https://quirkscience.com/"
+        ],
+        "competitorObservation": "QuirkScience Nov10 official catalog lists a 1:03 Earth-hole Short, actual video not watched and no verified views/retention.",
+        "nextTest": "Immediate optical reveal instead of abstract question; compare only age-matched long-form engagement after actual release",
+        "status": "SCRIPT_AND_STORYBOARD_QC_UPDATED_NO_NEW_GENERATION_OR_BOOKING"
+      },
+      "releaseDecision": "HOLD. Without actual full AV audition no film can be declared QC-approved, and the existing bee film remains held under previously confirmed alert. 2026-11-11 18:00 long-form is editorial target only, not a verified slot/booking. Do not invent a pending publication or duplicate bee.",
+      "newAlertOpened": false,
+      "existingAlertUnchanged": true,
+      "advertising": "No VeeFly/Google Ads/YouTube Promote action; Saturn paid promotion previously verified paused, not independently changed today.",
+      "actionsThisRun": "Read-only provider and source checks plus GitHub brief/competitor/control updates; 0 AI Tuber credits purchased or spent by this run; 0 new generations, exports, scheduled or published videos, social interactions or fictitious 1-hour Work sessions."
     }
   },
   "channelAudit": {
