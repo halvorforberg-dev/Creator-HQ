@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "channel": "Little Wild Adventures",
+  "date": "2026-11-10",
+  "observedAtOslo": "2026-11-10 after 18:51 Europe/Oslo",
+  "source": [
+    "AITuber authenticated GET /videos (list)",
+    "AITuber authenticated GET /videos/{id} (script and scene instructions)",
+    "AITuber get_subscription",
+    "AITuber get_video after POST /exports"
+  ],
+  "video": {
+    "id": "70f5759d-15f2-4b08-8620-7bfdd74dc22a",
+    "title": "The Little Shoe-Matching Mission",
+    "createdAt": "2026-11-10T15:00:48.906Z",
+    "status": "completed",
+    "durationSeconds": 35,
+    "mediaType": "video",
+    "aspectRatio": "9:16",
+    "sceneCount": 5,
+    "scriptWordCount": 81,
+    "estimatedNarrationWordsPerMinute": 139,
+    "finalExport": {
+      "id": "9c945d6b-6213-49af-ad56-adfd6f293243",
+      "status": "completed",
+      "resolution": "1080p",
+      "initiatedByThisReview": true,
+      "costCredits": 0
+    },
+    "scriptCharactersNamed": [
+      "Milo",
+      "Miko",
+      "Pip"
+    ],
+    "publishing": {
+      "status": "NOT_VERIFIED_AS_POSTED_OR_SCHEDULED",
+      "publicationId": null,
+      "actionByReview": "NONE"
+    },
+    "review": {
+      "status": "QC_HOLD_NOT_APPROVED",
+      "fullExportAudioVisualReviewed": false,
+      "reason": "Completed MP4 URL is returned by provider, but original media is not reachable in current runtime (CDN DNS failure, web MP4 open unsupported). Character motion/continuity, actual spoken soundtrack, visual-to-line synchronization, clean complete ending and thumbnail cannot be validated by listening/viewing.",
+      "hardStop": "Must not publish without real 0-to-end visual + audio review, child-directed Made for Kids metadata check, provider queue/duplicate verification, correct 18:00 Europe/Oslo date."
+    }
+  },
+  "preproductionRetrospective": {
+    "truthfulHooksToTestBeforeAnyRebuild": [
+      "First frame: Milo raises one green and one red shoe with a puzzled face.",
+      "First frame: Pip finds a lone red shoe hidden beside Milo's orange jacket.",
+      "First frame: Miko accidentally holds up a green shoe beside Milo's red one.",
+      "First frame: Milo sets two different shoes together; Pip spots the color mismatch.",
+      "First frame: Milo tries to line up mismatched shoes and notices one is green."
+    ],
+    "selectedConcept": "Show the red-and-green mismatch instantly, without introductory narration; this opening is already contemplated by scene one but final rendered first frame remains UNVERIFIED.",
+    "viewerQuestion": "Can Milo and his friends find two shoes that match?",
+    "finalAnswerPlanned": "Milo wears two matching red sneakers, wiggles his toes, and walks forward with Miko and blue Pip cheering.",
+    "storyBeats": [
+      "0–8s: Milo notices a red and green shoe instead of a pair; Miko offers help.",
+      "8–17s: Pip points to the floor; Milo discovers another red sneaker near the orange jacket.",
+      "17–25s: Miko lines the red shoes up; Pip taps in celebration.",
+      "25–34s: Milo puts the matching red shoes on with Miko's help.",
+      "final beat: Milo walks happily wearing both red shoes; no new problem."
+    ],
+    "scriptPruning": "The last explanatory 'Milo learns...' sentence is less cinematic than seeing the matching shoes; consider relying on action and one short invite to copy the color-matching task. Do not modify this already generated video until actual AV review.",
+    "consistencyRisk": "Generated scene prompts specify a teal sweater plus mustard shorts, while approved reference calls for Milo's teal romper with cream sun emblem; reference @Little-Wild-Milo-and-Friends was not found in the returned scene-instruction text. Written consistency reminders do not validate the rendered characters.",
+    "dubbingRisk": "Script quotes Miko and Pip, while scene descriptions ask for silent character acting; separate character voice/lipsync is not verified.",
+    "nextTest": "Preflight a fresh 'Rainy-Day Rhythm' Short according to existing 2026-11-09 editorial draft only after a genuine final AV-review pathway is available; maintain no duplicate and budget check."
+  },
+  "budget": {
+    "sharedAITuberCreditsObserved": 7213,
+    "monthlyIncludedCredits": 10000,
+    "previousVerifiedBalanceOn20261109": 7417,
+    "deltaSincePrior": -204,
+    "attribution": "UNKNOWN across both What If and Little Wild; cannot attribute all 204 to this draft.",
+    "creditsPurchasedByReview": 0,
+    "newVideoGenerationByReview": false
+  },
+  "operationalAlert": {
+    "newVerifiedBlocker": false,
+    "existingAlertUpdated": false,
+    "reason": "Draft/QA hold and incomplete review are not proof of a fresh platform failure or missed confirmed booking; no new Telegram alert."
+  },
+  "actionsPerformed": [
+    "Read HQ production and creative prompt rules",
+    "Reviewed current draft metadata, script and 5 scene descriptions",
+    "Initiated one no-credit 1080p MP4 export for pre-publication review; confirmed completed",
+    "Attempted access to finished export; unavailable in runtime",
+    "Kept the video unapproved and unbooked",
+    "No new generation, ad spend, social interaction, deletion or publication"
+  ]
+}
