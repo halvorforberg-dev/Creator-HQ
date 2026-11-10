@@ -1,0 +1,70 @@
+{
+  "createdAt": "2026-11-10T12:32:00+01:00",
+  "project": "Bizarre Past",
+  "film": "Egypt's Lost City Had TWO Names | Thonis-Heracleion",
+  "stage": "FULL_MP4_ASSEMBLED_QC_TECHNICALLY_PASSED_AND_METRICOOL_SCHEDULED_NOT_YET_PUBLISHED",
+  "runtimeSeconds": 39.01,
+  "format": "9:16 video",
+  "export": {
+    "resolution": "1080x1920 H.264 AAC 24fps",
+    "sourceResolution": "720x1280 24fps AI-generated full-motion (upscaled, NOT native 1080)",
+    "bytes": 9472861,
+    "sha256": "a27a0d91b2819d645809aff7e771233cbc1ba10b00953f9e8ec9c3c6580b98e6",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/0901a2cc-07b1-4dec-b7b3-4e1848c66e60.mp4",
+    "higgsfieldMediaId": "0901a2cc-07b1-4dec-b7b3-4e1848c66e60"
+  },
+  "assets": {
+    "sourceVideoIds": [
+      "35112d77-8343-4e39-930a-0228a15b73d2",
+      "e5ace311-0ea2-4895-9cc3-e3b37f928bcc",
+      "482b758b-6875-4ec6-8e52-17da26892ee9",
+      "f4a99e8d-4930-492f-93e8-71ae539cd530",
+      "159293a4-4638-4e9c-aff0-43650c95fed8",
+      "372dfce4-20ec-426d-bc4c-a2e5f4801fc1"
+    ],
+    "narrationId": "359cd2bb-558f-4952-8653-dd4107c3d14b",
+    "musicId": "d035e1af-ead7-4046-9839-e656c92add98"
+  },
+  "qualityReview": {
+    "historicalFacts": "Compared against primary archaeological site: franckgoddio.org/projects/sunken-civilizations/heracleion; corroborated by Oxford Centre for Maritime Archaeology. Two names, discovered 2000, location Aboukir Bay verified.",
+    "firstWords": "Did you know... at time 0 according to ASR of final mixed MP4",
+    "ending": "Final ASR ends 'one city became two names' at 38.8 sec, end card ONE CITY. TWO NAMES. through 39s",
+    "visuals": "Reviewed contact sheets of all six moving source clips and sampled eight final frames",
+    "captions": "Created from model ASR word timings; generated into output as burned-on readable bottom captions; exact spellings should be visually audited, automatic captions may miss proper nouns.",
+    "blackFreeze": "FFmpeg blackdetect >0.3sec and freezedetect >1s returned no flagged events in decoded final.",
+    "fullDecode": "FFmpeg stream transcode/sample, H.264/AAC stream probe; full file decoded during filters",
+    "audio": "ASR of mixed final audio confirms complete story, mean volume -32.6dB / peak -9.3dB, background music low.",
+    "perceptualListening": "No direct human-style auditory audition was performed; machine ASR and technical sound analysis were used. Avoid claiming human listening confirmation.",
+    "version": "Final 9.1 MB delivery, first 39.7 MB uncompressed export upload failed due HTTP 400 and was NOT booked; subsequent compressed 1080 output upload HTTP 200 confirmed."
+  },
+  "delivery": {
+    "youtube": {
+      "date": "2026-11-13",
+      "time": "18:00",
+      "timezone": "Europe/Oslo",
+      "postId": 423027641,
+      "uuid": "7553766380282200893",
+      "status": "PENDING",
+      "privacy": "public",
+      "madeForKids": false,
+      "aiDisclosure": true,
+      "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion #Shorts"
+    },
+    "tiktok": {
+      "date": "2026-11-13",
+      "time": "18:00",
+      "timezone": "Europe/Oslo",
+      "postId": 423027976,
+      "uuid": "727620980819837647",
+      "status": "PENDING",
+      "aiDisclosure": true,
+      "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion"
+    }
+  },
+  "costs": {
+    "newHiggsfieldGenerationJobsThisTurn": 0,
+    "additionalGenerationCreditsConsumedThisTurn": 0,
+    "balanceAtCheck": 169.42
+  },
+  "publishingRule": "Scheduled, not yet published. Verify actual platform status after 18:00 Friday. No duplicate booking; leave Antikythera and Mørstad intact."
+}
