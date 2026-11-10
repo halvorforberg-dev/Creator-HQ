@@ -316,7 +316,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-10",
+      "verifiedDate": "2026-11-10 15:05 Europe/Oslo: Antikythera YT+TikTok PENDING Nov11 18:00; Thonis-Heracleion YT+TikTok PENDING Nov13 18:00; Mørstad YT+TikTok PENDING Nov15 18:00; Herculaneum remains PUBLISHED",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -475,9 +475,13 @@
           "date": "2026-11-13",
           "network": "youtube",
           "time": "18:00",
-          "title": "Thonis-Heracleion",
+          "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion #Shorts",
           "status": "PENDING",
-          "source": "Metricool authenticated 2026-11-10"
+          "source": "Metricool authenticated 2026-11-10",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-10 15:05 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, YouTube public Short, AI disclosure true",
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-422101741849091139.mp4"
         },
         {
           "id": 423027976,
@@ -485,9 +489,13 @@
           "date": "2026-11-13",
           "network": "tiktok",
           "time": "18:00",
-          "title": "Thonis-Heracleion",
+          "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion",
           "status": "PENDING",
-          "source": "Metricool authenticated 2026-11-10"
+          "source": "Metricool authenticated 2026-11-10",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-10 15:05 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, PUBLIC_TO_EVERYONE, AIGC disclosure true",
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-12022711021074898252.mp4"
         }
       ]
     },
@@ -926,7 +934,7 @@
       "productionBudget": "Higgsfield Plus verified 2026-11-08: 1032.8 credits before this authorized production, 493.46 after. 539.34 included credits used (narration, music, 20 initial video scenes and six scene-quality replacements); no purchase or upgrade. vidIQ paid credits not used.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
       "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin. Finished 178.25 s 16:9 1080p film, fact-checked and booked to YouTube + TikTok for 2026-11-15 18:00 Europe/Oslo.",
-      "platformControl": "2026-11-10 11:18 Europe/Oslo authenticated Metricool: Herculaneum PUBLISHED both destinations; Antikythera PENDING Nov11 18:00 (YT 422895207, TikTok 422895503); Mørstad PENDING Nov15 18:00 (YT 420588270, TikTok 420588470). No booking edits or duplicates in this check.",
+      "platformControl": "2026-11-10 15:05 Europe/Oslo authenticated Metricool: Antikythera PENDING Nov11 18:00 (YT 422895207, TikTok 422895503); Thonis-Heracleion PENDING Nov13 18:00 (YT 423027641, TikTok 423027976); Mørstad PENDING Nov15 18:00 (YT 420588270, TikTok 420588470). Herculaneum remains PUBLISHED. No booking edits or duplicates in this monitoring run.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
       "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases.",
       "dailyAudit20261107": {
@@ -1373,11 +1381,29 @@
         "brief": "data/bizarre-past-thonis-heracleion-short-brief-2026-11-09.md",
         "targetDate": "2026-11-13",
         "targetTime": "18:00 Europe/Oslo",
-        "status": "FACT_CHECKED_SCRIPT_AND_MOTION_PLAN_ONLY_NOT_GENERATED_NOT_QC_NOT_BOOKED",
+        "status": "FINAL_MP4_UPLOADED_AND_METRICOOL_BOOKED_YOUTUBE_TIKTOK_PENDING",
         "expectedFinal": "ONE CITY · TWO NAMES",
         "primaryResearch": "Franck Goddio/IEASM; Oxford maritime archaeology",
         "competingTopicsCheck": "Checked existing HQ verified bookings; no Thonis/Heracleion booking",
-        "productionRule": "No paid generation before confirmed refill and Antikythera long-form priority."
+        "productionRule": "No paid generation before confirmed refill and Antikythera long-form priority.",
+        "bookingVerifiedAt": "2026-11-10T15:05:42+01:00",
+        "bookings": [
+          {
+            "network": "youtube",
+            "postId": 423027641,
+            "uuid": "7553766380282200893",
+            "status": "PENDING",
+            "time": "2026-11-13 18:00 Europe/Oslo"
+          },
+          {
+            "network": "tiktok",
+            "postId": 423027976,
+            "uuid": "727620980819837647",
+            "status": "PENDING",
+            "time": "2026-11-13 18:00 Europe/Oslo"
+          }
+        ],
+        "qcEvidenceBoundary": "Metricool confirms an uploaded MP4 and booking on both destinations. This monitoring run did not independently replay the full master with sound, so it records booking evidence without inventing a fresh QC claim."
       },
       "alertDecision": "No NEW confirmed operational blocker. Herculaneum published successfully on both destinations; Higgsfield balance 413.99 and vidIQ balance 2 are unchanged, with no active jobs. Do not create Telegram alert.",
       "organicPolicy": "No ads initiated or reactivated. No comments, likes or claims of one-hour Work session. Status only from provider checks."
@@ -1428,7 +1454,7 @@
       "activities": "Repository editorial brief created; no actual one-hour social-media watch/like/comment session completed."
     },
     "bizarrePastLatest20261110": {
-      "verifiedAt": "2026-11-10T11:18:03+01:00",
+      "verifiedAt": "2026-11-10T15:05:42+01:00",
       "sources": [
         "Authenticated Metricool getScheduledPosts brand 7296504",
         "Authenticated Higgsfield balance",
@@ -1459,14 +1485,34 @@
           }
         ],
         "morstad": "YouTube 420588270 and TikTok 420588470 remain PENDING for 2026-11-15 18:00 Europe/Oslo",
-        "existingBookingsChanged": false
+        "existingBookingsChanged": false,
+        "thonisHeracleion": [
+          {
+            "network": "youtube",
+            "postId": 423027641,
+            "uuid": "7553766380282200893",
+            "status": "PENDING",
+            "time": "2026-11-13 18:00 Europe/Oslo",
+            "type": "public Short",
+            "aiDisclosure": true
+          },
+          {
+            "network": "tiktok",
+            "postId": 423027976,
+            "uuid": "727620980819837647",
+            "status": "PENDING",
+            "time": "2026-11-13 18:00 Europe/Oslo",
+            "privacy": "PUBLIC_TO_EVERYONE",
+            "aiDisclosure": true
+          }
+        ]
       },
       "higgsfield": {
         "credits": 169.42,
         "plan": "plus",
         "activeJobs": 0,
         "recentAntikytheraAssets": "Narration 126.93s, music 155.04s and completed 16:9 cinematic video scenes observed in Higgsfield history.",
-        "recentThonisAssets": "Callum narration 40.05s, music 45.04s and six completed 9:16 cinematic video scenes observed; these assets alone are NOT proof of a finished/QC-approved export or booking.",
+        "recentThonisAssets": "Callum narration 40.05s, music 45.04s and six completed 9:16 cinematic scenes. A finished MP4 is now present in both Metricool posts; this run verifies booking, not an independent full audio replay.",
         "refillConfirmed": false
       },
       "vidiq": {
@@ -1474,8 +1520,8 @@
         "activeJobs": 0,
         "actualBlocker": false
       },
-      "nextAction": "Do not duplicate Antikythera. Verify full Thonis-Heracleion assembled export with sound and metadata before any Friday booking; preserve enough credits and do not purchase.",
-      "alertDecision": "No fresh confirmed production or publishing blocker requiring user action. Do not create Telegram alert."
+      "nextAction": "Preserve Antikythera Nov11, Thonis-Heracleion Nov13 and Mørstad Nov15 bookings. Verify each platform publication after 18:00. Do not duplicate or buy credits.",
+      "alertDecision": "No fresh confirmed blocker requiring user action. All observed jobs completed, current bookings are PENDING as expected, and 169.42 Higgsfield credits remain. Do not create Telegram alert."
     }
   },
   "channelAudit": {
