@@ -277,7 +277,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-10 11:18 Europe/Oslo: Herculaneum YT+TikTok remains PUBLISHED; Antikythera YT+TikTok verified PENDING for Nov11 18:00; Mørstad YT+TikTok remains PENDING for Nov15 18:00",
+      "verifiedDate": "2026-11-10",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -429,6 +429,26 @@
           "statusVerifiedDate": "2026-11-10 11:18 Europe/Oslo",
           "statusSource": "Authenticated Metricool getScheduledPosts; autoPublish true, TikTok PUBLIC_TO_EVERYONE, AIGC disclosure true",
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-9825133929000376631.mp4"
+        },
+        {
+          "id": 423027641,
+          "uuid": "7553766380282200893",
+          "date": "2026-11-13",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "Thonis-Heracleion",
+          "status": "PENDING",
+          "source": "Metricool authenticated 2026-11-10"
+        },
+        {
+          "id": 423027976,
+          "uuid": "727620980819837647",
+          "date": "2026-11-13",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "Thonis-Heracleion",
+          "status": "PENDING",
+          "source": "Metricool authenticated 2026-11-10"
         }
       ]
     },
@@ -2535,5 +2555,38 @@
       "nextPossibleSlot": "No verified platform booking; 18:00 Europe/Oslo editorial goal, not promise",
       "createdOn": "2026-11-09"
     }
+  },
+  "bizarrePastLatest20261110": {
+    "updatedAt": "2026-11-10T12:34:00+01:00",
+    "qcBrief": "data/bizarre-past-thonis-qc-2026-11-10.json",
+    "higgsfield": {
+      "credits": 169.42,
+      "plusAccount": true,
+      "activeJobs": 0,
+      "thoniMotionClips": 6,
+      "thoniNarrationReady": true,
+      "thoniOriginalMusicReady": true,
+      "additionalNewGenerationsByAssistant": 0
+    },
+    "fridayThonis": {
+      "stage": "SCHEDULED_YOUTUBE_AND_TIKTOK_QC_ASSEMBLED_FINAL_PENDING_PUBLICATION",
+      "videoSeconds": 39.01,
+      "finalDimensions": "1080x1920 upscaled from original AI-generated 720x1280 clips",
+      "youtubePostId": 423027641,
+      "youtubeUuid": "7553766380282200893",
+      "tiktokPostId": 423027976,
+      "tiktokUuid": "727620980819837647",
+      "scheduledAt": "2026-11-13T18:00:00+01:00",
+      "statusVerified": "PENDING from authenticated Metricool",
+      "publisher": "Metricool autoPublish",
+      "source": "Higgsfield completed media plus Metricool authenticated queue",
+      "mediaId": "0901a2cc-07b1-4dec-b7b3-4e1848c66e60",
+      "qc": "Technical QC + ASR transcript, sampled visual frames, ASR final voice, no long black/freeze. No direct human-style auditory audition."
+    },
+    "protectedPosts": {
+      "antikythera": "2026-11-11T18:00:00+01:00 YT+TikTok pending 422895207/422895503",
+      "morstad": "2026-11-15T18:00:00+01:00 YT+TikTok pending 420588270/420588470"
+    },
+    "nextSteps": "Confirm Friday actual platform publication after 18:00. Budget 169.42 credits is not adequate to promise full additional 3–6-minute cinematic original long form; prioritize source-based original next film plan then render only when credits allow; no duplicate uploads."
   }
 }
