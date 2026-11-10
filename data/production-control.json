@@ -95,6 +95,22 @@
       "success": "Ready for release means completed QC plus provider verified booking. PENDING is scheduled; PUBLISHED only after the provider confirms actual publication.",
       "stop": "If quality fails, required access is lost, publishing would double-book, or metadata cannot be verified: do NOT schedule or publish; create a confirmed blocker notification as appropriate and fix the actual issue first.",
       "timing": "Scheduled releases at 18:00 Europe/Oslo per existing latest channel-specific editorial cadence. Don't release early merely because review finishes; don't change existing booked posts."
+    },
+    "creativePromptPlaybook": {
+      "effectiveDate": "2026-11-10",
+      "source": "data/creative-prompt-upgrades.json",
+      "mandatoryEveryVideo": [
+        "3–5 strong truthful hook options, select one",
+        "Trim slow setup and redundant words without rushing",
+        "Synchronize timecoded visuals + spoken text + sound",
+        "Preflight retention review of script AND entire final MP4 with audio, ensuring clean payoff"
+      ],
+      "useWhenUseful": [
+        "Periodic channel architecture/SEO/thumbnail recheck",
+        "Reframe niche topic for broader truthful audience relevance"
+      ],
+      "pacingRule": "NATURAL FLOW FIRST. The six user-supplied prompts are references, not hard numerical obligations: never force 130 spoken words/30 sec, sentences <=8 words, four-word onscreen text, exactly 8-second cuts, or forced loop endings. Deliberate shifts and sufficient breathing space keep storytelling enjoyable.",
+      "sourceOfTruth": "Newer, channel-specific schedules, producers, QC gates and publication permissions in this file take precedence. Four adopted prompt methods augment but do not override established six prompt principles."
     }
   },
   "channels": {
