@@ -145,5 +145,11 @@
     "state": "Configured, delivery of first real push not yet tested",
     "monitorAutomation": "6aeba316aa608191b4e21420dadaf407",
     "safety": "No account tokens or private campaign identifiers in public GitHub alert feed."
+  },
+  "publishingAuthority": {
+    "userAuthorized": "2026-11-10",
+    "decision": "Assistant can schedule/publish new fully QC-passed videos on existing connected platforms, without individual approval for each video.",
+    "scope": "Bizarre Past Higgsfield → Metricool YouTube/TikTok; What If and Little Wild AI Tuber → YouTube.",
+    "limit": "Telegram bot itself is report-only. Channel agents must use authenticated actual publishing tools and confirm bookings. 18:00 Europe/Oslo; no duplicate releases; no low-quality films; no unauthorised paid purchases."
   }
 }
