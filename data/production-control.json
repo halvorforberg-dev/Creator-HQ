@@ -2730,7 +2730,21 @@
       "latestHiggsfieldJobs": "Last 30 generation entries all completed, no active jobs within latest 30. This does not prove absence from every paginated older page.",
       "nextAvailableEditorialSlot": "2026-11-16 18:00 Europe/Oslo Monday Short, MERER concept; NOT BOOKED",
       "reserveDecision": "Keep full 169.42 credits unspent pending next long-form budget. Existing prior 21x8s long documentary source shots ~252 credits, voice/music/retakes additional; no guarantee further 3–6-min film can be produced with remaining credits.",
-      "alert": "No FRESH verified operational blocker: next target is editorial only; no Telegram alert added."
+      "alert": "No FRESH verified operational blocker: next target is editorial only; no Telegram alert added.",
+      "modelPreflight": {
+        "noGeneration": true,
+        "quoteDate": "2026-11-10",
+        "videoOnlyEightSec16x9": {
+          "grok_video_v15_lite": 8,
+          "veo3_1_lite": 12,
+          "cinematic_studio_video_v2": 12
+        },
+        "scenario21Clips": {
+          "grokLite": 168,
+          "cinematicStudioV2": 252
+        },
+        "caution": "169.42 credits cannot cover entire 168s cheap model plus audio/music/retakes; Grok quality not evaluated; prioritize full original long-form and actual QC; no switch to cheaper model automatically."
+      }
     }
   }
 }
