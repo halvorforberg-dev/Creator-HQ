@@ -2611,7 +2611,7 @@
       "subject": "Merer's 4,500-year-old shipping diary: white limestone for the Great Pyramid by boat",
       "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳 | #Shorts",
       "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
-      "proposedTargetDate": "2026-11-16",
+      "proposedTargetDate": null,
       "time": "18:00 Europe/Oslo",
       "format": "9:16 35–40 sec",
       "firstFrameQuestion": "What could a 4,500-year-old work diary reveal about pyramid stones?",
@@ -2626,7 +2626,8 @@
         "subject": "Thonis-Heracleion, a lost Egyptian port with two historical names",
         "date": "2026-11-13",
         "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
-      }
+      },
+      "slotUpdate": "Nov16 booked for completed San Juan horse-races Short. Merer remains in backlog."
     },
     "littleWild": {
       "status": "EDITORIAL_DRAFT_ONLY",
@@ -2722,6 +2723,38 @@
         },
         "caution": "169.42 credits cannot cover entire 168s cheap model plus audio/music/retakes; Grok quality not evaluated; prioritize full original long-form and actual QC; no switch to cheaper model automatically."
       }
+    },
+    "sanJuanShort": {
+      "stage": "BOOKED_PENDING_VERIFIED",
+      "mediaId": "396cf7ec-34a4-4465-976e-02927824cd2d",
+      "readBack": [
+        {
+          "id": 423659187,
+          "date": {
+            "dateTime": "2026-11-16T18:00:00",
+            "timezone": "Europe/Oslo"
+          },
+          "provider": {
+            "network": "youtube",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        },
+        {
+          "id": 423659361,
+          "date": {
+            "dateTime": "2026-11-16T18:00:00",
+            "timezone": "Europe/Oslo"
+          },
+          "provider": {
+            "network": "tiktok",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        }
+      ],
+      "qc": "Full exported film reviewed by Higgsfield audiovisual scene analysis (nine scenes including dialogue through ending), frame inspection, final soundtrack transcription and loudness checks. No independent human listening.",
+      "report": "data/bizarre-past-san-juan-horse-races-2026-11-10.json"
     }
   }
 }
