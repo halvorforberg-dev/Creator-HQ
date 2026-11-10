@@ -6,7 +6,7 @@ Created 2026-11-09 Europe/Oslo. **EDITORIAL SCRIPT ONLY — no generation, expor
 1. Audience/competition: QuirkScience's 2026-11-08 film and 2026-11-07 Short, listed in its own current catalogue, demonstrate the visual science-question packaging. Their actual opening and private retention are **not watched/known**. This idea instead uses independent Harvard, NASA and DLR evidence.
 2. Truthful promise: title asks whether invisible air could be *shown*, not whether humans gain supernatural eyes. Evidence is density-gradient visualization via schlieren/BOS, not every airflow.
 3. Immediate hook (select before production):
-   - **SELECTED:** “What if you could actually SEE the air moving around you?” [normal cup flips to visible rising plume in 0–2 s].
+   - **SELECTED (10 Nov tighter mobile hook):** “What if you could SEE air?” [0–2 s: normal cup instantly becomes a split-screen with an **illustrative** upward density-gradient plume; voice starts at frame zero].
    - “What if your warm hand left an invisible trail?”
    - “What if the air above this cup wasn't invisible?”
    - “What if a camera could reveal the room's secret rivers?”
@@ -17,8 +17,8 @@ Created 2026-11-09 Europe/Oslo. **EDITORIAL SCRIPT ONLY — no generation, expor
 
 ## Full English scene-by-scene narration and visual actions
 ### 1. 00:00–00:14
-**Voice:** What if you could actually SEE the air moving around you? Right now, an invisible river may be rising from that warm drink. Watch what happens when a special camera reveals it.
-**Visual consequence:** Close-up steaming? IMPORTANT no fake steam: normal cup with no visible vapor. Match-cut to scientifically styled Schlieren depiction: transparent rising plumes; WHAT IF... legible 0-2s. This is diagram, not literal naked-eye colour.
+**Voice:** What if you could SEE air? This plain cup seems perfectly still. But look through a special camera. Suddenly, a faint river climbs above it. Is the air different, or are we finally detecting it?
+**Visual consequence:** FRAME ZERO: clear 16:9 cup on a table, natural warm light, no visible steam or special glow. By 00:01: split screen keeps the identical cup on left and a **labeled scientific visualization** on right; thin black/white rising gradient shifts upward. First-frame text 'WHAT IF WE COULD SEE AIR?' is readable on mobile. Match the right-side visualization and its motion to the question; this is a demonstration of an optical technique, **not** literally colored air or supernatural eyesight. Continue the same cup/lighting continuity into scene 2.
 
 ### 2. 00:14–00:34
 **Voice:** We think of air as empty space because light usually passes right through it. But warm and cold patches can have different densities, and that slightly bends light. We normally miss those tiny distortions.
@@ -58,7 +58,7 @@ Created 2026-11-09 Europe/Oslo. **EDITORIAL SCRIPT ONLY — no generation, expor
 
 
 ## Credits / technical / publish safeguards
-Script draft has **378 words** for **196s** target (~116 words/minute). The AI Tuber per-job quote is **not obtained**; don't assume a 3+ min full-AI video fits the separate illustrative 7,000-credit What If monthly planning envelope. Use suitable stock / original graphic explanations / a few AI clips rather than continuous costly AI motion.
+Script draft originally had **378 words** for **196s** target (~116 words/minute); after the 10 Nov hook rewrite it remains a **natural-tempo ~3–4 minute** script. Final runtime is determined by actual spoken narration, not by rigid cuts or speech-speed forcing. The AI Tuber per-job quote is **not obtained**; don't assume a 3+ min full-AI video fits the separate illustrative 7,000-credit What If monthly planning envelope. Use suitable stock / original graphic explanations / a few AI clips rather than continuous costly AI motion.
 Before production: verify exact What If queue and budget, ensure no duplicate invisible-air topic, keep What If AutoPilot in drafts-only. Video must be delivered with clear sound, natural narration and scene-accurate visuals.
 Hard QC: full MP4 watched **and listened to** end to end including actual lipless voice cadence, music balance, opening on mobile, caption/audio sync, each unique scene and visible final cup payoff. Technical ffprobe/ASR/frame sampling alone is insufficient. If inaccessible, hold draft and log exact missing gates. No paid promotion, new credit purchase or automatic posting.
 Analysis after confirmed public release: measure 24h/7d/28d same-age engaged views, 0–2s retention, average watch duration/percent, CTR, qualifying public watch time, subscribers/1,000; compare long-form to long-form, separate paid/organic where supported.
@@ -73,3 +73,13 @@ Analysis after confirmed public release: measure 24h/7d/28d same-age engaged vie
 
 ## Status log
 2026-11-09 evening: research and original script/storyboard completed. **Zero generation, export, new credits, purchased ads, scheduling or publishing for this concept.**
+
+## 2026-11-10 editorial preflight — latest approved prompt upgrade
+- **Question in first 2s:** Can a normal cup reveal moving air? Show the actual side-by-side optical reveal immediately; keep spoken hook compact and mobile-legible.
+- **Last-scene answer:** The same cup's motionless naked-eye appearance sits beside a realistic monochrome schlieren-style density-gradient plume, visibly bending when a gentle draft passes. The camera reveals density differences; it does not color the air or show every air molecule.
+- **Natural scene causality:** same cup → what bends light → mirror/knife-edge explanation → candle plume bends under a draft → hand creates warm gradient → hair-dryer disturbs existing plume → airplane shockwave as extreme case → source-based limitation → same-cup payoff. No unrelated filler, fake cut-every-eight-seconds rhythm, rushed VO, generic CTA, or obligatory loop.
+- **Updated truthful hook options:** (1) **SELECTED** 'What if you could SEE air?'; (2) 'What if air left fingerprints?'; (3) 'What if this cup showed invisible motion?'; (4) 'What if we filmed a breeze?'; (5) 'What if a camera revealed warm air?'. All are test options, not simultaneous lines in the film.
+- **Source rechecked on 10 November:** Harvard describes schlieren visualization of candle convection, cold sinking air and hair-dryer warm jet: https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics ; NASA confirms that AirBOS visualizes refractive-index distortions from supersonic shock waves: https://www.nasa.gov/image-article/airborne-background-oriented-schlieren-imaging-airbos/ . Physical demonstrations must be labeled if AI-generated illustrations, not sold as unaltered experimental footage.
+- **Competitive contrast:** QuirkScience's official catalog lists its new 10 Nov 1:03 short 'What If You Dug a Hole Through the Earth and Jumped In?' (https://quirkscience.com/). This is a catalog-level packaging observation, not watched video/retention proof. Our test is an original calm, real-science visual demonstration instead of space-catastrophe escalation; different formats cannot be compared as if identical.
+- **Production gate:** Not generated on 10 Nov: latest AI Tuber balance 7,213 shared credits; no exact per-job quote or verified end-to-end audio review path. Estimated basic 196s full AI-motion could require about 980 video credits **plus** speech/music/possible retakes, rather than guaranteed budget. Existing bee-vision final MP4 ID f3dc9b3c-1001-41ec-9d80-e96246c67bd6 remains held for full perceptual QC. Re-check real queue and finances before any order; don't spend credits simply to fill an unbooked Wed slot.
+- **Release only when verified:** actual full audio/video viewing, 1920×1080, 16:9, natural VO, complete science payoff, correct What If account, proper AI label, madeForKids=false for general science, zero duplicate, then a confirmed AI Tuber booking at 18:00 Europe/Oslo. This is an editorial draft, **not** a finished video, QC pass, or scheduled post.
