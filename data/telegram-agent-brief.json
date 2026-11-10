@@ -151,5 +151,21 @@
     "decision": "Assistant can schedule/publish new fully QC-passed videos on existing connected platforms, without individual approval for each video.",
     "scope": "Bizarre Past Higgsfield → Metricool YouTube/TikTok; What If and Little Wild AI Tuber → YouTube.",
     "limit": "Telegram bot itself is report-only. Channel agents must use authenticated actual publishing tools and confirm bookings. 18:00 Europe/Oslo; no duplicate releases; no low-quality films; no unauthorised paid purchases."
+  },
+  "creativePromptEnhancements": {
+    "date": "2026-11-10",
+    "source": "data/creative-prompt-upgrades.json",
+    "always": [
+      "Choose strongest of 3–5 authentic curiosity hooks",
+      "Prune filler but preserve comfortable human-paced speech",
+      "Storyboard visuals and narration together with sound",
+      "Audit final video for predictable weak sections, story logic and satisfying ending"
+    ],
+    "optional": [
+      "Channel-description/visual identity overhaul only when helpful",
+      "Broaden topic angle without sensationalizing or abandoning the niche"
+    ],
+    "must": "Smooth flow, not forced rapid speech, every-eight-seconds pattern interrupts, robotic sentence lengths or loop gimmicks.",
+    "preserve": "Bizarre Past only Higgsfield; What If efficient mixed media AI Tuber; Little Wild real animation consistent characters; respect latest schedules per production-control.json and full approval checks."
   }
 }
