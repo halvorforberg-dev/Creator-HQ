@@ -1313,63 +1313,39 @@
     }
   ],
   "lastWhatIfMicroResearch": {
-    "date": "2026-11-07",
-    "scope": "Connected AITuber API + publisher publication email + authenticated Metricool cumulative YouTube table + original evidence-based physics micro-research; no competitor video playback and no Work engagement session.",
-    "finding": "AITuber AutoPilot generated What If the Sun Grew 10% Brighter? at 2026-11-07T18:00:44+01:00 and emailed confirmed direct YouTube publishing 18:07 local; https://www.youtube.com/watch?v=AmoxUPMdCwI. 34s; script starts 'What if' (word alignment at 0), but ends with generic 'Follow for more what-ifs!' instead of crisp payoff, uses catastrophic climate risks and was published without a complete MP4/audio QC. This is a NEW independently confirmed active quality-gate blocker, unlike earlier unconfirmed solar Nov5 upload. Alert now OPEN in data/production-alerts.json.",
-    "latestRelease": {
-      "date": "2026-11-07",
-      "source": "Provider Gmail 1a1b6faae2f4f19d + AITuber GET /videos/{id}",
-      "videoId": "00fd5574-adc8-4c43-a1ad-2045cb29082a",
-      "youtube": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
-      "title": "What If the Sun Got 10% Brighter?",
-      "durationSeconds": 34,
-      "producedAt": "2026-11-07T18:00:44+01:00",
-      "publishedByProviderEmailAt": "2026-11-07T18:07:24+01:00",
-      "avQC": "NOT_PERFORMED_BEFORE_PUBLICATION",
-      "quality": "34s below 35–40s target, generic CTA instead of coherent closing payoff, dark risk framing"
+    "checkedAt": "2026-11-10 Europe/Oslo after 19:35",
+    "source": "QuirkScience official publisher catalog https://quirkscience.com/ and https://quirkscience.com/films/ ; direct science validation NASA/Harvard",
+    "newObservation": {
+      "competitor": "QuirkScience",
+      "title": "What If You Dug a Hole Through the Earth and Jumped In?",
+      "publicationDate": "2026-11-10",
+      "format": "1:03 Shorts as publisher catalog labels",
+      "url": "https://quirkscience.com/",
+      "limits": "Publisher listing reviewed, actual opening not watched, YouTube view count and retention not verified; no evidence of viral success."
     },
-    "ownAnalytics": {
-      "source": "Metricool authenticated YouTube all videos Nov7 read, cumulative values, no first-two-second retention, newer Nov5/Nov7 video not yet indexed",
-      "saturn": {
-        "date": "2026-11-01",
-        "views": 2081,
-        "avgViewSeconds": 15,
-        "sourceUrl": "https://www.youtube.com/watch?v=92Vn8iNgVN0"
-      },
-      "octopus": {
-        "date": "2026-11-03",
-        "views": 1011,
-        "avgViewSeconds": 10,
-        "sourceUrl": "https://www.youtube.com/watch?v=u51oWL8ACTQ"
-      },
-      "ocean": {
-        "date": "2026-11-03",
-        "views": 144,
-        "avgViewSeconds": 9,
-        "sourceUrl": "https://www.youtube.com/watch?v=l_eoxyfvfRM"
-      },
-      "caveat": "Different release ages and 34/33/32/38s durations prevent causal comparisons; no owner retention/organic-vs-paid breakdown."
+    "originalCandidate": {
+      "title": "What If You Could See Invisible Air?",
+      "sourceBrief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+      "originality": "Visualize Harvard-documented schlieren convection of a warm cup/candle/hand, with NASA shockwave reveal and a same-cup final comparison; not a copy of a competitor's hole-through-Earth script.",
+      "testVariable": "An immediate optical reveal in the first 0–2s versus an abstract science question, with no generic CTA and natural narration.",
+      "howToMeasure": "After actual public 16:9 release: 24h/7d/28d matched long-form CTR, engaged views, average watch time, verified organic-vs-paid source and subscriber conversion; do not compare directly with older 9:16 Shorts."
     },
-    "competitorSources": [
-      {
-        "name": "QuirkScience",
-        "url": "https://quirkscience.com/films/",
-        "checked": "2026-11-07",
-        "listed": "Could Humans Live on Titan? Nov3 2026 1:03, source-led one-question format",
-        "caveat": "Publisher page only; no footage, 0–2s, or dated video view counts assessed."
-      },
-      {
-        "name": "xkcd What If?",
-        "url": "https://bsky.app/profile/xkcd.com/post/3mmrwvbjxys2b",
-        "checked": "2026-11-07",
-        "listed": "Sep15 2026 teaser: If you put a toaster in a freezer, which wins?",
-        "caveat": "Official post only, no video/audio watched or direct performance stats"
-      }
-    ],
-    "originalTest": "Source-backed 35–40s frozen-bubble snow globe physics candidate. Primary Nature Communications 2019: https://www.nature.com/articles/s41467-019-10021-6 . Draft at data/whatif-frozen-bubble-short-brief-2026-11-07.md; preserve existing moonbow/bee research; no generation/bookings while quality blocker open.",
-    "credits": "AI Tuber Studio 8969/10000 shared credits observed Nov7, previous Nov6 9166; 197 decrease not confidently attributable despite new AutoPilot video; no agent spend, new purchase or vidIQ credit spend.",
-    "vidIQ": "2 credits remaining, renewable portion 0; renew 2026-11-21T20:09:10Z; no paid data called.",
-    "action": "Hold all agent publishing and protect preexisting posts. To prevent another unreviewed direct upload, What If AutoPilot YouTube must be disabled/draft-only in provider UI and actual queue/18:00 verified. No claim of completed one-hour browsing, likes or comments."
+    "platformEvidence": {
+      "metricoolBrandId": 7751348,
+      "saturnNov10Views": 2559,
+      "octopusNov10Views": 1024,
+      "solarNov10Views": 107,
+      "oceanNov10Views": 181,
+      "sunNov10Views": 953,
+      "saturnAvgViewSeconds": 15,
+      "sunAvgViewSeconds": 12,
+      "caution": "Metricool cumulative counts with different upload ages, promotional traffic still unseparated; not competitor stats or video-level retention."
+    },
+    "sourceURLs": [
+      "https://quirkscience.com/",
+      "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+      "https://www.nasa.gov/image-article/airborne-background-oriented-schlieren-imaging-airbos/"
+    ]
   },
   "whatIfResearchRun20261106": {
     "checkedAt": "2026-11-06T19:50:20+01:00",
