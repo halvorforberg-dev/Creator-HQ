@@ -72,6 +72,29 @@
       "decidedOn": "2026-11-07",
       "policy": "Do not start, renew, rerun, resume or spend held wallet credit on YouTube Promote, Google Ads or VeeFly without NEW explicit user authorization. Prioritize ordinary public 16:9 long-form and organic qualifying watch time. Production subscriptions are not canceled by this decision.",
       "verifiedAction": "What If Saturn promotion paused and saved in authenticated YouTube Studio 2026-11-07; automatic Google Ads billing settings remain unchanged, existing accrued charges are separate."
+    },
+    "publishingAuthorization": {
+      "approvedByUserOn": "2026-11-10",
+      "userDecision": "Assistant is authorized to publish new channel videos once full quality review is completed and passed; no separate approval required for every individual compliant video.",
+      "scope": [
+        "Bizarre Past through Metricool to authorized YouTube and TikTok",
+        "What If in 40 Seconds through connected AI Tuber YouTube",
+        "Little Wild Adventures through connected AI Tuber YouTube"
+      ],
+      "workflow": "Check approved editorial plan and existing provider queue → confirm completed ORIGINAL final MP4 → verify actual audio and video through practical QC → verify correct channel, metadata, AI labeling, kids flag where applicable, format and 18:00 Europe/Oslo → schedule the vetted film using the connected publisher → read back and verify provider post ID/date/status → check actual publication after its time",
+      "beforeScheduling": [
+        "Full rendered final MP4 exists (a few finished individual clips are not a finished film)",
+        "Opening hook, narration, sound mix, real scenes, continuity, captions, factual claims and final payoff are checked",
+        "Complete visual and audio QA evidence saved, not merely a technical ffprobe or provider status",
+        "No duplicate post on destination, and no conflict with already booked content",
+        "Credits and budget verified before any new charge, using current channel priority",
+        "Bizarre Past historical source verification and Did you know… opening",
+        "What If can use its current mixed visual style, Little Wild recurring characters and Made for Kids flag",
+        "Public 16:9 videos should not be misclassified as Shorts"
+      ],
+      "success": "Ready for release means completed QC plus provider verified booking. PENDING is scheduled; PUBLISHED only after the provider confirms actual publication.",
+      "stop": "If quality fails, required access is lost, publishing would double-book, or metadata cannot be verified: do NOT schedule or publish; create a confirmed blocker notification as appropriate and fix the actual issue first.",
+      "timing": "Scheduled releases at 18:00 Europe/Oslo per existing latest channel-specific editorial cadence. Don't release early merely because review finishes; don't change existing booked posts."
     }
   },
   "channels": {
