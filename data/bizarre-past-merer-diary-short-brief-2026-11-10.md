@@ -71,3 +71,6 @@
 
 ## Testable hypothesis
 A **real artifact + specific practical answer** (papyrus diary → how white casing stone moved) gives a clearer early audience expectation and end-payoff than generic "ancient mystery solved" packaging. Compare with similar-age Bizarre Past Shorts at 24h/7d/28d when actual metrics exist. This is a hypothesis, not a measured outcome.
+
+### Extra preflight comparison (2026-11-10; no generation)
+Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `grok_video_v15_lite` = **8 credits**; `veo3_1_lite` = **12 credits**; `cinematic_studio_video_v2` = **12 credits**. A 21-scene 168-second long-form illustrative **video-only** budget would be **168 credits** on Grok Lite vs **252** on Cinematic Studio v2, still excluding voice/music/retakes; with 169.42 remaining neither enables a safe guaranteed complete long-form production. Cheaper model's visual quality was NOT tested/approved, and its 'up to 1080p' can be upscaled. Do not claim equivalent quality or switch automatically. No credit spend.
