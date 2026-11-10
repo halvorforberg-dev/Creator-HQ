@@ -455,5 +455,11 @@
     "qc": "All three Nov8 videos are HOLD_NOT_APPROVED; no new publishing, exporting, generation, credits purchase, or user-engagement interaction in this audit. Use completed MP4 with audible review, full character continuity and 18:00 Oslo after queue check.",
     "sharedAvailableCredits": 7615,
     "noNewOperationalBlocker": "The main AutoPilot confirmed draft-only for Nov8 video. Weekly Long Story pause not reverified today; previously confirmed 2026-11-05."
+  },
+  "publishingAuthorization": {
+    "userDecisionOn": "2026-11-10",
+    "assistantMayBookAfterPassingQC": true,
+    "perVideoConfirmationRequired": false,
+    "guardrails": "Apply full MP4 visual+audio review and >=90/100 quality score, recurring cast, true motion, educational payoff, correct Made for Kids flag, 18:00 Europe/Oslo queue and duplicate verification. Existing AI Tuber Autopilot draft-only settings still require real booking and status proof; no unchecked autopost."
   }
 }
