@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -195,6 +195,42 @@
         "https://quirkscience.com/films/"
       ],
       "interpretation": "NASA/Harvard verify air-density gradient visualization, not literal human ability to see all wind. Competition research publisher listings only."
+    },
+    {
+      "channel": "whatif",
+      "hypothesis": "A physical two-shadow demonstration plus explicit answer by final scene yields higher 30-second retention and CTR than abstract hypothetical packaging.",
+      "measure": "Before future publication, check unique project/video ID, real AI Tuber/Metricool queue and MP4 audio+motion QC. Then after 24h/7d/28d by SAME format + age compare engaged views, viewed-vs-swiped, retention curve 0–2s and 30s, avg watch percent, gross subs/1000, longform CTR, organic qualifying public watch-hours; paid and organic separate if accessible. One predeclared creative variable at a time; no success or algorithm claims without owner analytics.",
+      "status": "SOURCE_CHECKED_2026-11-10_EDITORIAL_RESEARCH_ONLY_NO_GENERATION_NO_BOOKING",
+      "nextTrial": "What If One Stick Could Measure Our Entire Planet?",
+      "sourceLinks": [
+        "https://science.nasa.gov/solar-system/skywatching/night-sky-network/tropical-solstice-shadows/",
+        "https://science.nasa.gov/resource/whats-up-june-2023-skywatching-tips-from-nasa/"
+      ],
+      "editorialFormat": "public 16:9, 3–4 min; editorial proposal NOT booked"
+    },
+    {
+      "channel": "bizarre",
+      "hypothesis": "Small documented artifact + contrasting 'world map' visual may hold retention better than broad unattributed mystery claims.",
+      "measure": "Before future publication, check unique project/video ID, real AI Tuber/Metricool queue and MP4 audio+motion QC. Then after 24h/7d/28d by SAME format + age compare engaged views, viewed-vs-swiped, retention curve 0–2s and 30s, avg watch percent, gross subs/1000, longform CTR, organic qualifying public watch-hours; paid and organic separate if accessible. One predeclared creative variable at a time; no success or algorithm claims without owner analytics.",
+      "status": "SOURCE_CHECKED_2026-11-10_EDITORIAL_RESEARCH_ONLY_NO_GENERATION_NO_BOOKING",
+      "nextTrial": "Did You Know Babylon Drew a Map of the World on Clay?",
+      "sourceLinks": [
+        "https://smarthistory.org/map-of-the-world/",
+        "https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg"
+      ],
+      "editorialFormat": "Wednesday public 16:9 2–4 min editorial, not booked"
+    },
+    {
+      "channel": "wild",
+      "hypothesis": "Single size-ordering challenge with a visible first-frame mistake lifts stayed-to-watch and 24h/7d engaged views vs descriptive routine narration.",
+      "measure": "Before future publication, check unique project/video ID, real AI Tuber/Metricool queue and MP4 audio+motion QC. Then after 24h/7d/28d by SAME format + age compare engaged views, viewed-vs-swiped, retention curve 0–2s and 30s, avg watch percent, gross subs/1000, longform CTR, organic qualifying public watch-hours; paid and organic separate if accessible. One predeclared creative variable at a time; no success or algorithm claims without owner analytics.",
+      "status": "SOURCE_CHECKED_2026-11-10_EDITORIAL_RESEARCH_ONLY_NO_GENERATION_NO_BOOKING",
+      "nextTrial": "Milo, Miko & Pip: The Three Leaf Puzzle!",
+      "sourceLinks": [
+        "https://www.pbs.org/parents/crafts-and-experiments/sort-by-size-is-it-big-or-little",
+        "https://www.pbs.org/parents/crafts-and-experiments/sorting-and-counting-with-blocks"
+      ],
+      "editorialFormat": "35–40s full-motion Short, research only"
     }
   ],
   "lastResearch": {
@@ -756,54 +792,436 @@
         "newResearchSource": "https://scrollprize.org/firstscroll"
       },
       "actions": "Used existing user-approved six principles, verified source, produced original film and booked Nov9; zero copyright clip/thumb copying; no vidIQ paid credits; no YouTube comments/likes; not claiming one-hour interactive session."
+    },
+    {
+      "id": "weekly-competitor-analysis-2026-11-10",
+      "researchedOn": "2026-11-10",
+      "checkedAtOslo": "2026-11-10T10:24:00+01:00",
+      "method": "Free public third-party channel/video listings (ViewGoblin, Trari, GridVids, public vidIQ page) plus authenticated Metricool analytics and zero-credit vidIQ owner-channel list. Each date- and view-count claim refers to the specifically dated snapshot. Competitive video playback not available; zero direct inspection of first 2 sec, video motion, exact pacing, full payoff or actual cover pixels; structure discussed only as title/description/chapter-based hypothesis.",
+      "cost": {
+        "paidVidIQCreditsUsed": 0,
+        "creditPurchases": 0,
+        "paidPromotionAction": false
+      },
+      "sampleVideos": {
+        "bizarre": [
+          {
+            "channel": "Weird History",
+            "channelScale": "established (~4.74M subscribers as of Nov9)",
+            "title": "10 Most Unsettling Medical Cases In History",
+            "publishedOn": "2026-11-01",
+            "format": "regular compilation, exact runtime not verified",
+            "viewsSnapshot": {
+              "views": 74328,
+              "snapshotDate": "2026-11-09",
+              "calendarAgeDays": 8,
+              "crudeLifetimeViewsPerCalendarDay": 9291
+            },
+            "sources": [
+              "https://viewgoblin.com/channels/weirdhistory"
+            ],
+            "titlePackagingFact": "Numeral + unsettling-specific-history category; exact cover not inspected.",
+            "narrativeHypothesis": "Likely episodic case/reveal chapters; no evidence that numeral or dark subject independently drove views.",
+            "first2Sec": "NOT_INSPECTED",
+            "visualPaceAndFullMotion": "NOT_INSPECTED",
+            "payoff": "NOT_INSPECTED",
+            "comparability": "Compilation and huge established channel; not like Bizarre 2–4 min new-channel original. Paid/sponsor status on THIS individual video unknown."
+          },
+          {
+            "channel": "History Hit",
+            "channelScale": "established (~2.02M subscribers as of Nov9)",
+            "title": "Historian Explains Scotland's Facts, Myths & History",
+            "publishedOn": "2026-11-06",
+            "format": "regular history documentary/explainer; duration not verified",
+            "viewsSnapshot": {
+              "viewsApprox": 53750,
+              "snapshotDescription": "public vidIQ page displayed first 2 days and 4 hours, updated Nov9; not measured at fixed exact 24h",
+              "calendarAgeApproxDays": 2.17,
+              "crudeLifetimeViewsPerCalendarDayApprox": 24808
+            },
+            "sources": [
+              "https://vidiq.com/youtube-stats/channel/@historyhit/",
+              "https://www.youtube.com/@historyhit"
+            ],
+            "titlePackagingFact": "Facts-versus-myths trust frame; actual thumbnail not inspected.",
+            "narrativeHypothesis": "Expert-backed myth check may help Bizarre distinguish legend from artifact; title pattern NOT causal proof.",
+            "first2Sec": "NOT_INSPECTED",
+            "visualPaceAndFullMotion": "NOT_INSPECTED",
+            "payoff": "NOT_INSPECTED",
+            "comparability": "Much larger channel, likely documentary rather than our 2–4 min 16:9; different age and distribution."
+          }
+        ],
+        "whatif": [
+          {
+            "channel": "MinuteEarth",
+            "channelScale": "established (~3.34M subscribers Nov10)",
+            "title": "Why Do We Even Need A Clock This Accurate?",
+            "publishedOn": "2026-11-05",
+            "format": "ordinary long-form 7:56",
+            "viewsSnapshot": {
+              "views": 231779,
+              "snapshotDate": "2026-11-09",
+              "calendarAgeDays": 4,
+              "crudeLifetimeViewsPerCalendarDay": 57945,
+              "reportedFirstDayViews": 138638,
+              "firstDayProvider": "Trari third-party calculation"
+            },
+            "sources": [
+              "https://trari.com/en/c/minuteearth/",
+              "https://gridvids.com/minuteearth/why-do-we-even-need-a-clock-this-accurate"
+            ],
+            "titlePackagingFact": "Intuitive why-question with a concrete apparent absurdity; thumbnail not directly inspected.",
+            "narrativeHypothesis": "Publisher description starts with 1656 pendulum clocks and 19-decimal-place precision then practical 'what's the point' question; chapter order and actual final payoff not directly watched.",
+            "first2Sec": "NOT_INSPECTED",
+            "visualPaceAndFullMotion": "NOT_INSPECTED",
+            "payoff": "NOT_INSPECTED; only publisher description reflects a functional science explanation",
+            "comparability": "7:56 vs our What If 3–4 min; large audience and first-day calculations not directly from Analytics."
+          },
+          {
+            "channel": "minutephysics",
+            "channelScale": "established (~5.99M subscribers Nov9)",
+            "title": "What if We Can't Detect Dark Matter?",
+            "publishedOn": "2026-10-29",
+            "format": "ordinary long-form 12:45",
+            "viewsSnapshot": {
+              "views": 672678,
+              "snapshotDate": "2026-11-09",
+              "calendarAgeDays": 11,
+              "crudeLifetimeViewsPerCalendarDay": 61153,
+              "reportedFirstDayViews": 365212,
+              "firstDayProvider": "Trari third-party calculation"
+            },
+            "sources": [
+              "https://trari.com/en/c/minutephysics/",
+              "https://gridvids.com/minutephysics/what-if-we-can-t-detect-dark-matter",
+              "https://www.youtube.com/watch?v=QXXqSh5qAuA"
+            ],
+            "titlePackagingFact": "Open what-if paradox with uncertain answer; thumbnail not directly inspected.",
+            "narrativeHypothesis": "Published chapter list explicitly progresses galaxy rotation -> gravitational lensing -> CMB -> theory candidates -> modified gravity; structure shows announced subquestions, not direct viewing or proven retention.",
+            "first2Sec": "NOT_INSPECTED",
+            "visualPaceAndFullMotion": "NOT_INSPECTED",
+            "payoff": "Not directly seen; do not claim resolution of dark matter which remains unsettled",
+            "comparability": "12:45, different niche/scale; first-day reported not comparable to 3–4min owner uploads."
+          }
+        ],
+        "wild": [
+          {
+            "channel": "Super Simple Songs - Kids Songs",
+            "channelScale": "very large (~47.2M subscribers Nov9)",
+            "title": "Scrubbity Rubbity Doo 🧼 | Wash Your Hands & Face | Fun Kids Hygiene Song",
+            "publishedOn": "2026-11-05",
+            "format": "kids song; third-party archive indicates 2:08, public tracker does not confirm format",
+            "viewsSnapshot": {
+              "views": 172865,
+              "snapshotDate": "2026-11-07",
+              "calendarAgeDays": 2,
+              "crudeLifetimeViewsPerCalendarDay": 86433
+            },
+            "sources": [
+              "https://viewgoblin.com/channels/supersimplesongs",
+              "https://www.youtube.com/watch?v=PIWYVP6hBEM"
+            ],
+            "titlePackagingFact": "Rhythmic invented phrase plus clear practical hygiene learning goal; thumbnail not inspected.",
+            "narrativeHypothesis": "Publisher description repeats a simple scrub cue; this is evidence of topic/pedagogy only, not playback-proof of story beat or retention.",
+            "first2Sec": "NOT_INSPECTED",
+            "visualPaceAndFullMotion": "NOT_INSPECTED",
+            "payoff": "NOT_INSPECTED",
+            "comparability": "Massive brand/songs; ours original characters and 35–40sec full-motion shorts. No audio/character copying."
+          },
+          {
+            "channel": "Alphablocks",
+            "channelScale": "established (~4.17M subscribers Nov9)",
+            "title": "Alphablocks I's Firework Display | Alphablocks #shorts",
+            "publishedOn": "2026-11-05",
+            "format": "Short, exact length not verified",
+            "viewsSnapshot": {
+              "views": 15177,
+              "snapshotDate": "2026-11-09",
+              "calendarAgeDays": 4,
+              "crudeLifetimeViewsPerCalendarDay": 3794
+            },
+            "sources": [
+              "https://viewgoblin.com/channels/officialalphablocks"
+            ],
+            "titlePackagingFact": "One focal letter and visual event; actual cover not inspected.",
+            "narrativeHypothesis": "Singular concept in title is transferable as one clear lesson per Little Wild episode, not reason for views.",
+            "first2Sec": "NOT_INSPECTED",
+            "visualPaceAndFullMotion": "NOT_INSPECTED",
+            "payoff": "NOT_INSPECTED",
+            "comparability": "Pre-existing broadcast IP with a different literacy objective; do not copy copyrighted character, clips, sound or branding."
+          }
+        ]
+      },
+      "rotation": {
+        "thisWeek": "Large established references with fresh dated video snapshots; deliberately not reusing Nov3 Squire Explains/Peep/QuirkScience reference films.",
+        "smallEmergingNextWatchlist": [
+          {
+            "channel": "The Reversed Century",
+            "source": "https://channeldb.com/c/%40thereversedcentury",
+            "note": "~8.7K subs Oct28; no fresh individual upload with verified date+views suitable for numeric case study; do not count as reviewed video."
+          },
+          {
+            "channel": "Tiny Explorers Lab",
+            "source": "https://www.tinyexplorerslab.com/",
+            "note": "Small creator/publisher site describes stop-motion STEM recurring figures, but no confirmed current YouTube video/date/views; watchlist only."
+          }
+        ]
+      },
+      "ownedChannelComparison": {
+        "source": "Authenticated Metricool getAnalyticsDataByMetrics (YT evolution daily and traffic source) 2026-11-10 + zero-credit vidIQ user_channels. Data can lag; not owner Studio video-retention API.",
+        "caveat": "24h totals UNAVAILABLE (Nov9 missing and Nov10 partial/zero). 7d/28d sums below are of available daily rows only, NOT complete windows; never label as exact mature 7d or 28d cohort. Source-of-traffic metric is NOT a direct organic-vs-paid decomposition of the listed daily views. Cumulative per-video snapshots from Metricool 'all videos' are not age-matched release curves. Not safe to attribute promotional effect or infer causation.",
+        "metrics": {
+          "bizarre": {
+            "currentSubscribers": 34,
+            "observedAsOf": "2026-11-10",
+            "last24h": {
+              "available": false,
+              "reason": "Nov9 daily view row NULL; Nov10 ongoing day partial"
+            },
+            "last7dPartial": {
+              "range": "Nov3–Nov10",
+              "availableViewDays": 5,
+              "missingDates": [
+                "Nov8",
+                "Nov9",
+                "Nov10"
+              ],
+              "viewsOnReportedDays": 281,
+              "newSubscribersOnReportedDays": 1,
+              "lostSubscribersOnReportedDays": 0,
+              "grossSubscribersPer1000ReportedViews": 3.56
+            },
+            "last28dPartial": {
+              "range": "Oct13–Nov10",
+              "availableViewDays": 26,
+              "missingDates": [
+                "Nov8",
+                "Nov9",
+                "Nov10"
+              ],
+              "viewsOnReportedDays": 5995,
+              "gained": 24,
+              "lost": 1,
+              "grossSubscribersPer1000ReportedViews": 4
+            },
+            "trafficSourceSnapshot": {
+              "queriedRange": "Nov3–Nov10",
+              "shorts": 6216,
+              "advertising": 12,
+              "warning": "separate connector counts and may represent different coverage than daily views; cannot cross-divide to claim organic fraction"
+            },
+            "engagedViews": null,
+            "retention0to2": null,
+            "swipedAway": null,
+            "longformCTR": null,
+            "longformQualifiedPublicHours": null
+          },
+          "whatif": {
+            "currentSubscribers": 48,
+            "observedAsOf": "2026-11-10 (Metricool evolution; latest rows may be stale)",
+            "last24h": {
+              "available": false,
+              "reason": "Nov9 daily views NULL; Nov10 incomplete"
+            },
+            "last7dPartial": {
+              "range": "Nov3–Nov10",
+              "availableViewDays": 5,
+              "missingDates": [
+                "Nov8",
+                "Nov9",
+                "Nov10"
+              ],
+              "viewsOnReportedDays": 2954,
+              "newSubscribersOnReportedDays": 34,
+              "lostSubscribersOnReportedDays": 5,
+              "grossSubscribersPer1000ReportedViews": 11.51
+            },
+            "last28dPartial": {
+              "range": "Oct13–Nov10",
+              "availableViewDays": 21,
+              "missingDates": [
+                "Nov8",
+                "Nov9",
+                "Nov10"
+              ],
+              "viewsOnReportedDays": 5234,
+              "gained": 54,
+              "lost": 6,
+              "grossSubscribersPer1000ReportedViews": 10.32
+            },
+            "trafficSourceSnapshot": {
+              "queriedRange": "Nov3–Nov10",
+              "shorts": 3046,
+              "advertising": 273,
+              "warning": "paused What If Saturn paid promotion Nov7: prior paid exposure is present; do not treat view totals as purely organic"
+            },
+            "engagedViews": null,
+            "retention0to2": null,
+            "swipedAway": null,
+            "longformCTR": null,
+            "longformQualifiedPublicHours": null
+          },
+          "wild": {
+            "currentSubscribers": 250,
+            "publicLifetimeViews": 7389,
+            "publicVideos": 17,
+            "observedAsOf": "2026-11-10 zero-cost vidIQ user_channels",
+            "last24h": null,
+            "last7d": null,
+            "last28d": null,
+            "engagedViews": null,
+            "retention0to2": null,
+            "swipedAway": null,
+            "longformCTR": null,
+            "longformQualifiedPublicHours": null,
+            "missingAnalytics": "Little Wild not in Metricool brands; public vidIQ owner list only contains current public cumulative snapshot, no 24h/7d/28d cohort or Studio private insights."
+          }
+        }
+      },
+      "top3OriginalTestsPerChannel": {
+        "whatif": [
+          {
+            "rank": 1,
+            "workingTitle": "What If One Stick Could Measure Our Entire Planet?",
+            "format": "public 16:9, 3–4 min; editorial proposal NOT booked",
+            "first2SecDraft": "What if… THIS STICK could measure Earth?",
+            "visualSequence": "Two sticks/towns; compare simultaneous noon shadows; draw angle/arc; derive circumference visually; reveal that geometry worked centuries before satellites.",
+            "payoff": "A long-distance shadow difference reveals Earth's approximate circumference; avoid claiming the story is exact rather than traditional historical account.",
+            "hypothesis": "A physical two-shadow demonstration plus explicit answer by final scene yields higher 30-second retention and CTR than abstract hypothetical packaging.",
+            "singleVariableToTest": "physical-prop opening vs abstract no-object opening with similar runtime/topic/packaging where feasible",
+            "sources": [
+              "https://science.nasa.gov/solar-system/skywatching/night-sky-network/tropical-solstice-shadows/",
+              "https://science.nasa.gov/resource/whats-up-june-2023-skywatching-tips-from-nasa/"
+            ],
+            "estimatedEffort": "medium: original 3–4min motion graphics+stock, mixed-media quality, no forced full-motion",
+            "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED"
+          },
+          {
+            "rank": 2,
+            "workingTitle": "What If You Could See Invisible Air?",
+            "format": "public 16:9, 3–4 min",
+            "sourceBrief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+            "estimatedEffort": "medium",
+            "status": "EXISTING_BRIEF_DO_NOT_REGENERATE_AS_DUPLICATE"
+          },
+          {
+            "rank": 3,
+            "workingTitle": "What If Soap Bubbles Became Snow Globes?",
+            "format": "Short 35–40 sec",
+            "sourceBrief": "data/whatif-frozen-bubble-short-brief-2026-11-07.md",
+            "estimatedEffort": "low to medium",
+            "status": "EXISTING_BRIEF_DO_NOT_REGENERATE_AS_DUPLICATE"
+          }
+        ],
+        "bizarre": [
+          {
+            "rank": 1,
+            "workingTitle": "Did You Know Babylon Drew a Map of the World on Clay?",
+            "format": "Wednesday public 16:9 2–4 min editorial, not booked",
+            "first2SecDraft": "Did you know… THIS tiny tablet mapped the WHOLE WORLD?",
+            "visualSequence": "Original animated clay-tablet replica -> map ring -> Babylon center -> mythical edge regions -> distinction between geography and worldview",
+            "payoff": "Tablet is mainly a Babylonian cosmological worldview, not an accurate modern globe; no false 'lost continent found' claim.",
+            "hypothesis": "Small documented artifact + contrasting 'world map' visual may hold retention better than broad unattributed mystery claims.",
+            "singleVariableToTest": "artifact-visible question at 0–2sec vs general mystery intro, comparable age/formats",
+            "sources": [
+              "https://smarthistory.org/map-of-the-world/",
+              "https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg"
+            ],
+            "estimatedEffort": "medium-high Higgsfield cinematic full-motion original 16:9 2–4min; strict credit/balance gate",
+            "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED"
+          },
+          {
+            "rank": 2,
+            "workingTitle": "Mørstad's Viking Coin Hidden for 980 Years",
+            "format": "Sunday public 16:9 3–6min",
+            "sourceBrief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
+            "estimatedEffort": "high",
+            "status": "PRIOR_BRIEF_ONLY_DO_NOT_DUPLICATE"
+          },
+          {
+            "rank": 3,
+            "workingTitle": "Thonis–Heracleion: The City With Two Names",
+            "format": "Friday 35–40sec Short",
+            "sourceBrief": "data/bizarre-past-thonis-heracleion-short-brief-2026-11-09.md",
+            "estimatedEffort": "medium",
+            "status": "PRIOR_BRIEF_ONLY_DO_NOT_DUPLICATE"
+          }
+        ],
+        "wild": [
+          {
+            "rank": 1,
+            "workingTitle": "Milo, Miko & Pip: The Three Leaf Puzzle!",
+            "format": "35–40s full-motion Short, research only",
+            "first2SecDraft": "Three leaves tumble into Milo's picnic — tiny, medium, HUGE!",
+            "story": "Milo sorts leaves by size the wrong way, Miko suggests small-to-big, blue Pip performs the 3-step motion, then all laugh as the right leaf provides a tiny shelter for Pip. One educational goal: order by size.",
+            "payoff": "Clearly visible small / medium / big order + completed picnic joke; keep approved visual reference and exact Milo/Miko/Pip identity.",
+            "hypothesis": "Single size-ordering challenge with a visible first-frame mistake lifts stayed-to-watch and 24h/7d engaged views vs descriptive routine narration.",
+            "singleVariableToTest": "visually obvious character mistake in first frame vs descriptive opening, hold format and characters stable",
+            "sources": [
+              "https://www.pbs.org/parents/crafts-and-experiments/sort-by-size-is-it-big-or-little",
+              "https://www.pbs.org/parents/crafts-and-experiments/sorting-and-counting-with-blocks"
+            ],
+            "estimatedEffort": "medium-high: all scenes require genuine coherent full-motion and consistent saved characters; within Little Wild protected AI Tuber budget",
+            "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED"
+          },
+          {
+            "rank": 2,
+            "workingTitle": "Pip's Quiet-Loud Mystery",
+            "format": "35–40s Short",
+            "source": "https://www.pbs.org/parents/crafts-and-experiments/be-sound-detectives",
+            "estimatedEffort": "medium",
+            "status": "IDEA_ONLY"
+          },
+          {
+            "rank": 3,
+            "workingTitle": "Milo and the Shadow Switch",
+            "format": "3–6min 16:9",
+            "source": "https://www.pbs.org/parents/light-and-shadows",
+            "estimatedEffort": "high",
+            "status": "OLDER_SHADOW_VARIANT_REQUIRES_TOPIC_DEDUP"
+          }
+        ]
+      },
+      "measurementPlan": "Before future publication, check unique project/video ID, real AI Tuber/Metricool queue and MP4 audio+motion QC. Then after 24h/7d/28d by SAME format + age compare engaged views, viewed-vs-swiped, retention curve 0–2s and 30s, avg watch percent, gross subs/1000, longform CTR, organic qualifying public watch-hours; paid and organic separate if accessible. One predeclared creative variable at a time; no success or algorithm claims without owner analytics.",
+      "policyPreserved": "2026-11-09 canonical: What If Mon/Fri Shorts + Wed/Sun 3–4min ordinary public 16:9; Bizarre Mon/Fri Shorts + Wed 2–4min + Sun 3–6min 16:9; Little Wild Mon/Wed/Fri Shorts + Sun 3–6min 16:9. ALL new posts editorial 18:00 Europe/Oslo. Higgsfield+Metricool for Bizarre; AI Tuber for What If and Little Wild with What If priority. Paid promotions paused and not resumed. No changed bookings, generated media, publication, comment, purchases, vidIQ paid search or Telegram message."
     }
   ],
   "latestRecommendations": {
     "bizarre": {
-      "dated": "2026-11-04",
-      "insight": "A striking primary-source historical paradox may package well when the payoff explicitly corrects popular assumptions. Own video views are not age-matched and cannot prove a title formula.",
-      "action": "Did You Know a Volcano Saved a Book Nobody Could Open? (editorial short idea only)",
-      "referenceSources": [
-        "https://scrollprize.org/firstscroll",
-        "https://www.reuters.com/science/complete-text-carbonised-herculaneum-scroll-unlocked-first-time-2026-06-25/"
+      "dated": "2026-11-10",
+      "insight": "Specific source-verifiable artifact + myth-vs-fact answer merits an original test; competitors are huge and not comparable on growth.",
+      "action": "Did You Know Babylon Drew a Map of the World on Clay?",
+      "format": "Wednesday public 16:9 2–4 min editorial, not booked",
+      "sourceLinks": [
+        "https://smarthistory.org/map-of-the-world/",
+        "https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg"
       ],
-      "productionBrief": "data/bizarre-past-herculaneum-brief-2026-11-04.md"
+      "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-10"
     },
     "whatif": {
-      "dated": "2026-11-04",
-      "insight": "Largest currently visible own Short snapshot is Saturn's 1635 views after Nov1 upload, but its mean 15-sec watch on 38s suggests potential mid-Short retention improvement. Neither topic success nor 0–2s hook is proven without age-matched Studio retention. Positive photogenic nature phenomena with real optical science merit a controlled test.",
-      "action": "Prepare but DO NOT schedule the 35–40s moonbow concept. Show nearly-white eye view versus long-exposure camera colors and finish the real physics payoff. Confirm AutoPilot unique slot before generation.",
-      "referenceSources": [
-        "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
-        "https://quirkscience.com/films/",
-        "https://bsky.app/profile/xkcd.com/post/3mgb5poz7kc2w"
+      "dated": "2026-11-10",
+      "insight": "Visible physical demonstrations and one clear factual answer are a leading original test, not a causal conclusion from MinuteEarth/Minutephysics views. What If first priority for AI Tuber.",
+      "action": "What If One Stick Could Measure Our Entire Planet?",
+      "format": "public 16:9, 3–4 min; editorial proposal NOT booked",
+      "sourceLinks": [
+        "https://science.nasa.gov/solar-system/skywatching/night-sky-network/tropical-solstice-shadows/",
+        "https://science.nasa.gov/resource/whats-up-june-2023-skywatching-tips-from-nasa/"
       ],
-      "productionBrief": "data/whatif-moonbow-brief-2026-11-04.md",
-      "snapshot": "2026-11-04 19:54 Europe/Oslo",
-      "nextRetentionTest": {
-        "updatedAt": "2026-11-04",
-        "oneVariable": "Earlier tangible answer: show eye-versus-long-exposure moonbow reveal no later than second 7; keep rest of current What If mixed-media quality style",
-        "evidencedBy": "Nov1 Saturn's 15s mean watch of actual 38s Short in Metricool, NOT first-frame retention and NOT causal proof",
-        "fullBrief": "data/whatif-moonbow-brief-2026-11-04.md",
-        "release": "Hold. What If AutoPilot clash unresolved; no agent booking, regeneration or publication",
-        "afterRelease": "Use age-matched 24h/7d/28d engaged views and early-retention, if owner analytics becomes available."
-      },
-      "updatedNov5": {
-        "finding": "Solar Storm's script ends on generic follow CTA although NOAA-valid core science and 38s/9:16 production metadata are verified. Actual MP4 AV-QC and public upload unverified.",
-        "oneNextTest": "For the original Moonbow candidate, show real phenomenon/eye-vs-camera reveal by second 7; finish on a clear science answer instead of generic subscribe CTA.",
-        "source": "https://www.spaceweather.gov/impacts",
-        "release": "HOLD: verified unique AI Tuber AutoPilot-free slot and actual MP4 playback required; credit check before generation.",
-        "budget": "Shared balance 9364/10000 observed Nov5, What If planning 7000 and Little Wild 3000 monthly, no purchases"
-      }
+      "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-10"
     },
     "wild": {
-      "dated": "2026-11-03",
-      "insight": "Preskole-eksempler pakket rundt små gjenkjennelige problemer eller ett uttalt læringsmål. Det fremstår overførbart til serien; konkrete videoer er ikke faktisk avspilt.",
-      "action": "Milo and the Shadow That Wouldn't Stay Still!",
-      "referenceSources": [
-        "https://www.peepandthebigwideworld.com/",
-        "https://providencechildrensmuseum.org/shadows-and-sun-fun/"
-      ]
+      "dated": "2026-11-10",
+      "insight": "One problem and one visible preschool sorting action with recurring consistent characters; third-party giant-channel song/letter popularity is not proof of transfer.",
+      "action": "Milo, Miko & Pip: The Three Leaf Puzzle!",
+      "format": "35–40s full-motion Short, research only",
+      "sourceLinks": [
+        "https://www.pbs.org/parents/crafts-and-experiments/sort-by-size-is-it-big-or-little",
+        "https://www.pbs.org/parents/crafts-and-experiments/sorting-and-counting-with-blocks"
+      ],
+      "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-10"
     }
   },
   "whatifIdeas": [
@@ -1033,5 +1451,6 @@
     "originalBrief": "data/little-wild-rainy-day-rhythm-short-brief-2026-11-09.md",
     "releaseStatus": "NOT_GENERATED_NOT_BOOKED",
     "ownFreshAnalytics": "No retention or paid/organic breakdown available. Only 250 subscribers / 7,386 views / 17 public videos from free connected vidIQ on Nov9."
-  }
+  },
+  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-10"
 }
