@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "decidedOn": "2026-11-10",
+  "source": "Six user-provided Prompt Libreria screenshots",
+  "status": "APPROVED_ADAPTATION",
+  "principles": "Improve retention, flow and learning without formulaic editing, artificial pacing, rushed narration or copying; preserve the user's six established production/QC principles and all newer channel-specific schedules.",
+  "prompts": [
+    {
+      "number": 1,
+      "name": "Channel Architecture Generator",
+      "use": "SELECTIVE",
+      "application": "Review each channel's distinctive brand, description, visual consistency and cover/thumbnail readability when analytics indicate a real opportunity; no automatic rebrand."
+    },
+    {
+      "number": 2,
+      "name": "3-Second Retention Hook Engine",
+      "use": "EVERY_VIDEO",
+      "application": "Propose 3-5 truthful topic-specific opening concepts and select the strongest naturally spoken, visually compelling 0–2 sec hook. Bizarre Past starts clearly 'Did you know…', What If starts clearly 'What if…', Little Wild starts with Milo and one fun small problem. On-screen hook copy should be short and legible, not a rigid four-word maximum."
+    },
+    {
+      "number": 3,
+      "name": "Script Pruning Engine",
+      "use": "EVERY_VIDEO",
+      "application": "Edit for clarity, eliminate slow setup, padding and repeated information; maintain natural storytelling, pauses, excitement, empathy and satisfying payoff. Do NOT adopt '130 words in 30 seconds': that would be rushed. Measure narration pacing in final audio. No universal eight-word sentence or eight-second edit rule."
+    },
+    {
+      "number": 4,
+      "name": "Faceless B-Roll Builder",
+      "use": "EVERY_VIDEO",
+      "application": "Plan synchronized visual/story/audio beats: timecode, camera/action, short on-screen text if useful, exact spoken script, music/SFX. Bizarre Past original factual cinematic Higgsfield; What If efficient purposeful mixed visuals via AI Tuber, no full-motion-every-second mandate; Little Wild continuous true animation with the same Milo/Miko/BLUE Pip."
+    },
+    {
+      "number": 5,
+      "name": "Broad-Appeal Niche Re-Framer",
+      "use": "SELECTIVE",
+      "application": "When the topic is narrow, generate a few honest accessible angles without generic outrage, misleading clickbait, or changing the channel's established identity. Keep safe, warm, pedagogical Little Wild."
+    },
+    {
+      "number": 6,
+      "name": "Pre-Flight Algorithm Audit",
+      "use": "EVERY_VIDEO",
+      "application": "Audit the SCRIPT and then the FINISHED MP4 with sound for 0–2s hook, natural visual rhythm, weak passages, clarity, useful transitions and completed payoff. Suggest edits at actual story beats rather than mechanically every N seconds. Looped ending only if elegant and factually coherent; otherwise a clean ending. Never claim to know exact viewer drop-offs before performance data."
+    }
+  ],
+  "continuityRules": [
+    "Smooth narrative rhythm takes priority over mechanical word limits, overediting, exact cut schedules and false urgency.",
+    "Retain original six approved channel quality principles, strong first 2 seconds, title/cover systems, competitor research and iterative analytics.",
+    "Only publish after finished-media QC, correct channel, appropriate Made for Kids setting when applicable, and verified provider booking; source files and agents cannot technically prevent external Autopilot posting.",
+    "Do not override newer channel-specific posting cadences from data/production-control.json (Bizarre Past and What If have updated Wednesday long-form rules)."
+  ],
+  "qcChecklist": [
+    "Viewer understands and wants to see the next event immediately",
+    "Only necessary spoken lines, natural pace",
+    "Every visual and sound element helps the actual story",
+    "No dull/unclear passage unless it serves a purposeful contrast",
+    "Content delivers the opening promise without unsupported exaggeration",
+    "Complete satisfying payoff and clean cut or natural loop",
+    "Full video/audio QA, factual/child safety and metadata checks before publishing"
+  ],
+  "intendedOutcomes": [
+    "clearer openings",
+    "better natural flow and retention",
+    "lower wasted production cost",
+    "more intelligible children's stories",
+    "stronger subject-specific visual storytelling"
+  ],
+  "successMeasurement": "Compare same-age, same-format 24h, 7d, 28d results: engaged views, retention, viewed-vs-swiped, watch time, subscriber conversion and longform CTR. No guarantee of virality."
+}
