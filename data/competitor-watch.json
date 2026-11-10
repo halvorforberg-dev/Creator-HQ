@@ -1452,5 +1452,21 @@
     "releaseStatus": "NOT_GENERATED_NOT_BOOKED",
     "ownFreshAnalytics": "No retention or paid/organic breakdown available. Only 250 subscribers / 7,386 views / 17 public videos from free connected vidIQ on Nov9."
   },
-  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-10"
+  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-10",
+  "bizarreResearchNote20261110Agent": {
+    "checkedAt": "2026-11-10T16:08:43Z",
+    "previousWeeklyResearch": "2026-11-10 weekly competitor analysis exists; not rerun or charged vidIQ for this concept",
+    "topic": "Inspector Merer's papyrus log from Wadi al-Jarf and Tura limestone shipments toward Giza",
+    "originalTest": "Begin 'Did you know…' with closeup moving papyrus in cave; payoff actual historical transportation of outer Tura limestone by boat. Distinguish from entire pyramid-building blueprint.",
+    "format": "Potential Monday 2026-11-16 35–40s original Bizarre Past Short, 9:16, editorial only; not generated or booked",
+    "sourceLinks": [
+      "https://www.orient-mediterranee.com/les-papyrus-de-la-mer-rouge-i-le-journal-de-merer-p-jarf-a-et-b/",
+      "https://egymonuments.gov.eg/en/monuments/the-great-pyramid/",
+      "https://www.nationalgeographic.com/premium/article/red-sea-scrolls-pyramids-egypt"
+    ],
+    "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
+    "viewerHypothesis": "Concrete artifact + one precise evidence-based ending may hold attention better than a generic 'pyramid secret solved' headline. Unmeasured hypothesis.",
+    "limitations": "No fresh owner retention data or third-party first-two-seconds actual video playback inspected today. Existing huge-channel public view differences not proof this topic performs. No copyrighted competitor clips, photo reuse or derivative script. No paid vidIQ calls.",
+    "budgetHold": "169.42 Higgsfield credits; preserve for next long-form until real all-in budget. Do not generate or schedule new Short on old credit refill assumption."
+  }
 }
