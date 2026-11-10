@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "channel": "Little Wild Adventures",
   "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
@@ -353,7 +353,7 @@
     "implementation": "For AI Tuber script generation include this saved @handle in bracketed scene visual directions for continuity, alongside explicit movements. Confirm characters in the final actual MP4; a reference is not a guarantee."
   },
   "schedulingBlocker": {
-    "status": "PROVIDER_CONFIRMED_ACTIVE_AUTOPUBLISH_QC_BLOCKER",
+    "status": "RESOLVED_DRAFT_ONLY_PREVIOUSLY_VERIFIED_2026-11-05; CURRENT_UI_NOT_RECHECKED_2026-11-10",
     "concern": "YouTube Cozy Bedtime Countdown published 2026-11-02 15:07:09Z (16:07 Oslo) even though all new videos should publish at 18:00 Oslo. Existing AI Tuber Autopilot may have an older time setting.",
     "url": "https://app.aituber.app/dashboard/autopilot/cd02f495-23d9-43d0-86e9-8a55132ac489",
     "caveat": "Connected AI Tuber API does not offer direct Autopilot schedule read or update. The video upload time alone does not prove whether this specific upload came from Autopilot.",
@@ -361,8 +361,16 @@
     "latestObservation": "2026-11-05 direct email from AI Tuber support: Short autopilot ON, every 2 days, next Fri 6 Nov 16:00 Oslo, auto-publishes; Weekly Long Story ON next Mon 9 Nov 16:00 Oslo, auto-publishes 5min IMAGES-only 16:9; Splashy Rinse YouTube published 4 Nov 16:09 and Breeze That Hid 2 Nov 16:13. Support changed NOTHING. Pilot Wobbly Tower not scheduled/published.",
     "additionalConcern": "The new video's actual input calls sidekick characters 'Meerkat' and 'Bird' instead of Miko/Pip; no @Little-Wild-Milo-and-Friends handle appeared in returned generation data. No full audiovisual QC available, thus NOT APPROVED; manual AutoPilot configuration fix remains necessary. Old recurring workflows may ignore our prompt requirements.",
     "providerSource": "Gmail message 1a1a9f95b28c7856, support@? actual sender hello@aituber.app Dhiva, received 2026-11-05T04:30:51Z",
-    "immediateAction": "Make both AutoPilots draft-only by disconnecting YouTube destination from AutoPilot workflows; PAUSE Weekly Long Story due to unacceptable images-only public release and ~1650 credits/episode for Basic AI video versus ~3000 Little Wild monthly planning allocation; then configure recurring cast, full-motion and confirm actual 18:00 Oslo on separately QC-approved publishes. No settings changed as of this run.",
-    "supportFollowupSent": "2026-11-05, Gmail message 1a1acc1329a18b15, requested safe fixes; awaiting confirmation. No actual technical pause/disconnect verified."
+    "immediateAction": "Keep Main Shorts draft-only and Weekly Long Story paused until compatible full-motion QA workflow is confirmed. New draft generated 10 Nov but not booked by agent; no duplicate manual post without fresh queue verification. Do not assert current UI settings from video-generation time alone.",
+    "supportFollowupSent": "2026-11-05, Gmail message 1a1acc1329a18b15, requested safe fixes; awaiting confirmation. No actual technical pause/disconnect verified.",
+    "latestVerifiedResolution": {
+      "at": "2026-11-05",
+      "source": "Authenticated AI Tuber UI, recorded in production-alerts.json resolved little-wild-autopilot-unreviewed-publishing-2026-11-05",
+      "mainShorts": "YouTube channel deselected and status 'Nothing posts'; draft generation cadence still every two days at 16:00 Oslo.",
+      "weeklyLongStory": "Paused; must not resume before full-motion and full QC workflow corrected.",
+      "nov10": "AI Tuber generated another 35s Short draft at 16:00 Oslo, but no updated provider Autopilot settings/API confirmation; actual YouTube publication NOT verified.",
+      "rule": "Continue to require actual 0-end MP4 video/audio review and queue check before manually publishing at 18:00; generation cadence may differ from Mon/Wed/Fri targets."
+    }
   },
   "productionPriority": {
     "position": "SECOND after What If on the shared AI Tuber account",
@@ -370,8 +378,8 @@
     "planningCreditsMonthly": 3000,
     "otherChannelCreditsMonthly": 7000,
     "qualityRule": "If credits cannot support the target cadence, publish fewer fully animated quality-approved Little Wild episodes. Do not silently substitute image slideshow. Do not re-generate without assessing balance and outcome.",
-    "currentBalanceVerified": 9364,
-    "currentBalanceCheckedAt": "2026-11-05T18:26:13+01:00"
+    "currentBalanceVerified": 7213,
+    "currentBalanceCheckedAt": "2026-11-10 evening Europe/Oslo via AITuber get_subscription"
   },
   "nextProductionTest": {
     "title": "Milo's Rainy-Day Rhythm! Can Pip Fix the Beat? 🥁",
@@ -399,27 +407,24 @@
     "notes": "Scene-by-scene causality, 5 hooks, one safe sound-pattern lesson, original English script and full QC steps in linked brief. Never publish from metadata alone."
   },
   "problemsObservedOnLastAutoGeneratedShort": {
-    "videoId": "bbd79dbc-f6a5-414e-9376-0381eec173f4",
-    "title": "The Splashy Tub-Team Rinse",
-    "date": "2026-11-04",
-    "createdAtOslo": "16:00",
-    "status": "PRODUCED/EXPORTED NOT YOUTUBE-PUBLICATION-VERIFIED",
-    "durationSeconds": 37,
+    "date": "2026-11-10",
+    "videoId": "70f5759d-15f2-4b08-8620-7bfdd74dc22a",
+    "title": "The Little Shoe-Matching Mission",
+    "createdAtOslo": "2026-11-10 16:00:48",
+    "status": "PRODUCED/EXPORTED_1080p_QC_HOLD_NO_BOOKING",
+    "durationSeconds": 35,
     "mediaType": "video",
     "scenes": 5,
-    "scriptNames": "Milo / Meerkat / Bird (Miko and Pip omitted)",
-    "seriesVisualHandleVisible": false,
-    "passedQC": false,
-    "publicYouTubeLink": null,
-    "contentNote": "Tub rinsing/washing routine; overlaps an earlier hygiene concept and relies on narration, unlike active original new learning tests. Do not claim weak retention without owned analytics.",
-    "action": "Use this as a quality deviation example, NOT as approved reference. Check AutoPilot scripts and public queue manually before future generations and publishing.",
-    "publicationVerifiedBySupport": {
-      "date": "2026-11-04",
-      "timeOslo": "16:09",
-      "publishedTitle": "Splashy Tub Teamwork! A Cozy Bath-Time Rinse",
-      "verifiedAt": "2026-11-05",
-      "source": "AI Tuber Support Dhiva"
-    }
+    "exportedMp4Id": "9c945d6b-6213-49af-ad56-adfd6f293243",
+    "scriptNames": "Milo, Miko and Pip correctly named in text, unlike previous drafts",
+    "sourceReferenceMentioned": false,
+    "continuityRisk": "Scene instructions use teal SWEATER and mustard shorts instead of approved teal ROMPER with cream sun emblem. Actual film character consistency UNVERIFIED without playback.",
+    "audioRisk": "Script quotes Miko and Pip, but scenes specify silent acting; character voice/lipsync unverified.",
+    "qc": "NOT APPROVED; final MP4 created but CDN inaccessible from this run's runtime; no actual full sound-and-motion quality review.",
+    "publication": "UNVERIFIED; no release booked/published by agent",
+    "creditBalance": 7213,
+    "qualityReport": "data/little-wild-shoe-matching-qc-2026-11-10.json",
+    "nextAction": "Full 0-end video/audio review plus correct series identity, title and Made for Kids, nonduplicate provider booking verification. Do not claim that produced/exported means QC passed or posted."
   },
   "latestAutopilotDraft": {
     "checkedAt": "2026-11-06T18:43:57+01:00",
