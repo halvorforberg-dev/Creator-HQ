@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-10",
+  "channel": "Bizarre Past",
+  "subject": "Antikythera mechanism",
+  "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
+  "targetRelease": "2026-11-11T18:00:00+01:00",
+  "targetType": "regular_public_16:9_youtube_video",
+  "releaseStatus": "EDITORIAL_TARGET_NOT_BOOKED",
+  "productionStatus": "VOICE_AND_MUSIC_READY_SCENES_GENERATING",
+  "contentGoal": "2-4 minute original high-quality ordinary 16:9 video for watch hours; no padding; minimum 2:00",
+  "narratorScript": "Did you know… ancient Greeks built a machine that could predict an eclipse? And then it vanished beneath the sea for nearly two thousand years.\n\nIn 1900, sponge divers discovered a shipwreck near the Greek island of Antikythera. Among the statues, they recovered a crusted lump of bronze. It looked like scrap.\n\nBut when the fragment cracked open, investigators spotted something impossible-looking: tiny interlocking gear teeth. Not one wheel. Dozens.\n\nThe object was made roughly two thousand years ago, long before modern clocks or computers. Turn a handle, and a network of bronze gears could model cycles in the sky.\n\nOne dial followed the Moon through its phases. Another tracked a calendar. On the back, spiral scales were linked to eclipse cycles, helping predict when lunar or solar eclipses might happen.\n\nIt was not magic, and it did not look into the future. Its makers had discovered mathematical patterns that repeat in the heavens—and turned those patterns into machinery.\n\nThen researchers found another clue: inscriptions scratched into the fragments, like an ancient instruction manual. X-ray scans revealed hidden gears and letters the sea had concealed for centuries.\n\nModern teams have reconstructed how much of it may have worked. But only part of the original device survives. Some details, including the planetary displays, are still debated.\n\nImagine the ancient person who owned it, turning a small crank while the face of the Moon shifted beneath a bronze pointer. Somewhere, mathematics became motion.\n\nSo here is the real mystery: how did engineers build something this sophisticated, and why do so few comparable machines survive?\n\nThe discovery changed how we think about ancient science. It wasn't just a box of gears from a wreck.\n\nIt was a handheld model of the cosmos—made two thousand years before the age of computers.",
+  "sourceLinks": [
+    "https://www.nature.com/articles/nature05357",
+    "https://www.nature.com/articles/s41550-017-0347-2",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7955085/"
+  ],
+  "caveats": [
+    "Antikythera shipwreck discovered circa 1900; mechanism parts recovered by 1901 and gears recognized in 1902",
+    "Only about a third survives, remaining original components are unknown",
+    "Planetary display historically plausible but particular front reconstruction debated",
+    "All images AI historical reconstructions; not footage of actual artifact; avoid fake readable authentic text"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "jobId": "5b07e83d-74a0-4206-94ad-7a1793c33de0",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Underwater mysterious bronze gears (first-frame hook)",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 2,
+      "jobId": "b07e8b63-35e1-475c-a12d-b5f75db8222a",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Ancient lunar eclipse concept",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 3,
+      "jobId": "3e848068-d488-44cd-bec4-c1d9e0368ea9",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Hellenistic merchant ship in storm",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 4,
+      "jobId": "9f4044a6-55f9-4c7c-b9b3-7f70829e6de0",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "1900 divers arrive at wreck",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 5,
+      "jobId": "d5774222-b071-4abe-bd24-b95aaac8d69f",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Submerged Greek statues and metal fragment",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 6,
+      "jobId": "5a4fbc5c-a6f0-4e6e-b949-d5c79e4d7bd5",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "1902 museum conservator discovers gears",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 7,
+      "jobId": "984e3d4a-b062-4560-b562-6e8bd4aa9fc0",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Macro actual patinated gear teeth",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 8,
+      "jobId": "872f63fd-0674-4016-a9f1-fef20ee2b11b",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Conceptual inner mechanism animated",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 9,
+      "jobId": "70c5c869-c5fc-4ec9-b8f2-25762227c12d",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Hellenistic metal workshop",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 10,
+      "jobId": "3756f661-93c8-4ad6-b071-2dc08902f649",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Hand-cranked mechanical gears",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 11,
+      "jobId": "c12f62ba-4906-4714-ba34-238fa4319502",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Moon-phase dial CGI",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 12,
+      "jobId": "8eece199-4602-4b35-89ed-8fbe94a18f17",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Calendar spiral dial CGI",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 13,
+      "jobId": "06bd8a4c-81e9-4b11-b7df-c443fb0d88a9",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Eclipse spiral indicator",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 14,
+      "jobId": "0e6a24fe-f14a-41c9-9d4d-9920c52f903e",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Sun-Earth-Moon eclipse geometry",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 15,
+      "jobId": "fb3f6966-2f19-434a-9ed2-a445f911e56f",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Ancient astronomical observation",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 16,
+      "jobId": "2125ccf5-0630-4055-ac48-792b7f8ebf7b",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Fragment inscriptions macro",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 17,
+      "jobId": "6cf187a0-fd4b-4699-b818-3665568a0f2c",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Modern CT examination",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 18,
+      "jobId": "6a496296-b196-4b31-a7ac-7c51f23315be",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "X-ray transparent reconstruction",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 19,
+      "jobId": "bbf5d998-e610-4e3d-8da3-0973f9fcd1e8",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Conservators discuss unresolved front dial",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    },
+    {
+      "index": 20,
+      "jobId": "29c53051-e9e0-4595-b7ad-d255b7dc0e8a",
+      "model": "cinematic_studio_video_v2",
+      "targetSeconds": 8,
+      "description": "Moving hand-cranked cosmos / final payoff",
+      "status": "SUBMITTED",
+      "rawUrl": null
+    }
+  ],
+  "narrator": {
+    "jobId": "41ada978-51ba-4e20-a0b4-aeaa12f36197",
+    "voiceName": "Callum",
+    "voiceType": "preset",
+    "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "durationSeconds": 126.929,
+    "costCredits": 5.7,
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261110_085546_41ada978-51ba-4e20-a0b4-aeaa12f36197.mp3"
+  },
+  "music": {
+    "jobId": "da4ff4fc-934f-4e11-bd57-20c530d4a0c5",
+    "durationSeconds": 155.037,
+    "costCredits": 22.53,
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261110_085822_da4ff4fc-934f-4e11-bd57-20c530d4a0c5.mp3"
+  },
+  "cost": {
+    "balanceBefore": 413.99,
+    "estimatedSceneCredits": 160,
+    "voiceCredits": 5.7,
+    "musicCredits": 22.53,
+    "estimatedTotal": 188.23,
+    "finalBalance": "TO_VERIFY"
+  },
+  "qualityGate": [
+    "all 20 video jobs terminal and individual scenes inspected",
+    "script supported by scientific sources",
+    "first spoken and written Did you know at 0–2s",
+    "real full motion, not a slideshow",
+    "ordinary public 16:9 1080p at least 2 mins",
+    "accurate captions and AI visualization disclosure",
+    "professional sound and completed final sentence",
+    "check scheduled post duplicates; only after MP4 QC, book via Metricool 18:00 Europe/Oslo"
+  ],
+  "fileMaster": null,
+  "youtubeMetadata": {
+    "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
+    "description": "Did you know ancient engineers made a machine that could track the Moon and predict eclipses? The Antikythera mechanism was recovered from a Greek shipwreck over 100 years ago. Modern X-rays revealed an astonishing network of bronze gears and clues to a lost tradition of astronomy. Original AI historical reconstructions; not archival footage or a fully verified physical reconstruction of all mechanisms. Research: Freeth et al., Nature (2006); Seiradakis & Edmunds, Nature Astronomy (2018); Freeth et al., Scientific Reports (2021). #BizarrePast #Antikythera #AncientGreece #HistoryMysteries",
+    "tags": [
+      "Antikythera mechanism",
+      "ancient Greek computer",
+      "ancient technology",
+      "astronomy history"
+    ],
+    "isAiGeneratedContent": true,
+    "madeForKids": false,
+    "privacy": "public"
+  },
+  "auditAt": "2026-11-10"
+}
