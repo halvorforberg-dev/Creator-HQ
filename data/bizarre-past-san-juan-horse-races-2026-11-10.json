@@ -1,0 +1,20 @@
+{
+  "title": "Why Rival Armies Raced Horses on the Same Island",
+  "target": "2026-11-16T18:00:00+01:00 (candidate; check current queue before booking)",
+  "format": "36.0s 9:16 1080x1920",
+  "media": {
+    "media_id": "396cf7ec-34a4-4465-976e-02927824cd2d",
+    "status": "uploaded",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/396cf7ec-34a4-4465-976e-02927824cd2d.mp4"
+  },
+  "sha256": "291e873eddf10bf41c6f5446d01ed501e1071911cdd0dc1701d5ab044e2c1f90",
+  "script": "Did you know British and American troops once held horse races on an island both countries claimed? On San Juan Island, the two sides had nearly come to blows in eighteen fifty-nine. Then they pitched camps at opposite ends of the island and waited for someone to settle the border. They waited twelve years. Long enough for the men to visit each other's camps and race horses together. So who finally drew the line between Britain and America? In eighteen seventy-two, the German emperor settled it. The islands went to the United States.",
+  "sources": [
+    "https://www.nps.gov/sajh/learn/historyculture/outpost-of-empire.htm",
+    "https://www.nps.gov/sajh/learn/kidsyouth/upload/Junior-Ranger-Activity-Book_2010.pdf",
+    "https://www.nps.gov/sajh/planyourvisit/upload/2012-American_Camp_History_Walk_online_color.pdf"
+  ],
+  "plan": "Existing San Juan historical footage, original new narration, distinct joint occupation/horse races story. Previous upload 'One Pig Nearly Started a War' covers the outbreak. Reuse final MP4; do not re-render automatically. Disclose AI reconstruction. Verify live queue/QC before publishing.",
+  "technicalQC": "Checked exported frames, captions and complete final soundtrack via ASR, duration, audio peaks. Direct listening not available in authoring session.",
+  "sceneAnalysis": "bc173e20-85b1-40d5-b672-5d6fd6fcf1fe"
+}
