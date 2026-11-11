@@ -1,7 +1,7 @@
 # Bizarre Past — Merer's diary (next original Short candidate)
 **Prepared:** 10 November 2026, Europe/Oslo.  
 **Status:** SOURCE-CHECKED EDITORIAL / PRODUCTION BRIEF ONLY — **NOT GENERATED**, **NOT EXPORTED**, **NOT QC-PASSED**, **NOT BOOKED**.  
-**First possible empty regular slot:** Monday 16 November 2026 at **18:00 Europe/Oslo**, only after checking the live Metricool queue again.  
+**First possible empty SHORT slot (updated 11 November):** Friday 20 November 2026 at **18:00 Europe/Oslo**, only after checking the live Metricool queue again. Monday 16 November is NOW VERIFIED BOOKED for a different completed Bizarre Past Short (“Why Rival Armies Raced Horses on the Same Island”), YouTube 423659187 and TikTok 423659361. This Merer draft must NOT be double-booked for Nov16.  
 **Format:** 9:16, target 35–40 sec, real moving scenes, final MP4 1080×1920, real audio and verified public YouTube+TikTok booking only after all checks pass.  
 **Producer → publisher:** Higgsfield only → Metricool. Do not generate in AI Tuber. This is distinct from the already booked Nov11 Antikythera, Nov13 Thonis and Nov15 Mørstad films.
 
@@ -74,3 +74,5 @@ A **real artifact + specific practical answer** (papyrus diary → how white cas
 
 ### Extra preflight comparison (2026-11-10; no generation)
 Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `grok_video_v15_lite` = **8 credits**; `veo3_1_lite` = **12 credits**; `cinematic_studio_video_v2` = **12 credits**. A 21-scene 168-second long-form illustrative **video-only** budget would be **168 credits** on Grok Lite vs **252** on Cinematic Studio v2, still excluding voice/music/retakes; with 169.42 remaining neither enables a safe guaranteed complete long-form production. Cheaper model's visual quality was NOT tested/approved, and its 'up to 1080p' can be upscaled. Do not claim equivalent quality or switch automatically. No credit spend.
+
+**QUEUE CORRECTION 11 NOV 2026:** Live authenticated Metricool queue confirms Nov16 San Juan Short booked both platforms. Merer draft moves from former tentative Nov16 to unbooked candidate Fri20, with no automatic booking or spending. Nov18 is a Wednesday 16:9 target and is not a slot for this 9:16 Short.
