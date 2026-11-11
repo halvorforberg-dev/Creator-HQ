@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-11 evening Europe/Oslo",
+  "channel": "What If in 40 Seconds",
+  "source": "AITuber authenticated GET /videos/{id}, GET /videos, GET /subscription, POST /exports, GET /exports/download, Metricool authenticated analytics Nov11",
+  "video": {
+    "id": "6b43df29-1aac-498f-8a0d-5070d8872857",
+    "title": "What If Plants Paused Photosynthesis for a Day?",
+    "createdAt": "2026-11-11T17:00:48.853Z",
+    "status": "completed",
+    "durationSecondsReported": 35,
+    "aspectRatio": "9:16",
+    "sceneCount": 5,
+    "mediaType": "video",
+    "export": {
+      "id": "b8ac350b-8cef-4465-9f4c-fad5c635b337",
+      "status": "completed",
+      "resolution": "1080p",
+      "requestedByThisRun": true,
+      "cost": "No export credits",
+      "note": "Provider MP4 location verified. This runtime could not fetch/view full MP4 with sound, so no end-to-end audiovisual approval."
+    }
+  },
+  "qc": {
+    "decision": "HOLD_NOT_APPROVED_NOT_BOOKED",
+    "scriptAudited": true,
+    "scenePromptsAudited": true,
+    "fullMp4VideoSeen": false,
+    "fullMp4AudioHeard": false,
+    "captionSyncVerified": false,
+    "publicationAttempted": false,
+    "bookingId": null,
+    "positiveFindings": [
+      "What if... question spoken at beginning of script",
+      "35-second vertical draft uses five video scenes",
+      "Factual one-day oxygen-reserve idea is plausible",
+      "Images/prompts feature one sapling and plausible temporary ecological consequence"
+    ],
+    "failedOrUnverifiedGates": [
+      "Final spoken words 'Follow for more what-ifs!' displace a clear concrete answer; final visual offers generic garden montage rather than explicit return to photosynthesis.",
+      "Scene 2 depicts active molecular conversion after the opening states that it has stopped; use an explicitly labeled normal-versus-paused comparison to remove narrative ambiguity.",
+      "No final MP4 audio and video viewed from beginning to end; no confirmation of narrator naturalness, actual visual fidelity, opening legibility on mobile, text timing or music mixing.",
+      "Published/queue presence for this exact video not independently established by a per-video publication ID; Metricool has no queued What If posts in its connected brand for 9–20 Nov but AITuber direct queue could be separate."
+    ],
+    "correctiveAction": "Keep as unposted draft. In authorized editing workflow replace generic CTA with the visually demonstrated 24-hour answer and clarify paused versus normal photosynthesis; require full MP4 sound/vision playback and actual AITuber unique publication queue check before any 18:00 booking. No extra generation/credits on this audit."
+  },
+  "sourceChecks": {
+    "botany": "Plants generally draw on daytime-stored starch at night; source https://doi.org/10.7554/eLife.00669 (John Innes Centre/eLife 2013). Avoid claiming all species respond identically in a 24-hour pause.",
+    "comparison": "QuirkScience publisher film list checked Nov 11, with Nov10 'What If You Dug a Hole Through the Earth and Jumped In?' 1:03. This is a question→explained-consequence format observation, NOT evidence of its engagement, nor has the first 2s been watched.",
+    "competitorUrl": "https://quirkscience.com/films/"
+  },
+  "proposedRevision": {
+    "status": "EDITORIAL_SCRIPT_ONLY_NO_NEW_GENERATION",
+    "openingQuestion": "Would every living thing struggle immediately if leaves stopped making new food?",
+    "lastFrameAnswer": "Same sapling still healthy at dawn; a labeled normal/paused comparison changes back to 'photosynthesis on', with no instant oxygen catastrophe.",
+    "truthfulHooks": [
+      "What if every plant stopped making food today?",
+      "What if photosynthesis paused for one day?",
+      "What if the world's green engines paused?",
+      "What if leaves stopped using sunlight today?"
+    ],
+    "selectedHook": "What if every plant stopped making food today?",
+    "scriptEnglish": "What if every plant stopped making food today? Leaves would pause their work of turning sunlight into sugar. But the oxygen in our sky wouldn't suddenly disappear. Many plants store starch for nights like these. Watch this tree: it stays green as the hours pass. When daylight returns tomorrow, the leaves can start making sugar again. One day wouldn't empty the sky. It shows how much life quietly depends on the next sunrise.",
+    "sceneBeats": [
+      {
+        "beat": "0–2 seconds",
+        "action": "The familiar sapling fills the phone frame; leaf nutrition activity visually pauses while surrounding wind keeps moving; hook title short and legible",
+        "voice": "What if every plant stopped making food today?",
+        "sound": "Quiet drop in biological activity, no alarm siren"
+      },
+      {
+        "beat": "Early middle",
+        "action": "Show a simple before/paused split visualization of leaf sugar formation; label as schematic rather than a real glowing chemical",
+        "voice": "Leaves would pause their work of turning sunlight into sugar.",
+        "sound": "Soft natural transition"
+      },
+      {
+        "beat": "Midpoint",
+        "action": "Pull out to stable blue sky; visually cross out the myth of oxygen vanishing, not the sky itself",
+        "voice": "But the oxygen in our sky wouldn't suddenly disappear.",
+        "sound": "Narration carries explanation"
+      },
+      {
+        "beat": "Later middle",
+        "action": "Move beneath the same sapling and subtly illustrate stored starch, then mark the end of the first day",
+        "voice": "Many plants store starch for nights like these.",
+        "sound": "Natural hopeful tone"
+      },
+      {
+        "beat": "Final",
+        "action": "Return to identical sapling at sunrise; show clearly labeled photosynthesis restarting and the healthy meadow, final fact on screen",
+        "voice": "One day wouldn't empty the sky. It shows how much life quietly depends on the next sunrise.",
+        "sound": "Full voice completes before musical fade"
+      }
+    ]
+  },
+  "costAndSafety": {
+    "studioCreditsObserved": 7020,
+    "monthlyCredits": 10000,
+    "whatIfEditorialBudget": 7000,
+    "creditsPurchased": 0,
+    "additionalVideoGenerations": 0,
+    "promotions": 0,
+    "otherPostChanges": 0,
+    "alertPolicy": "No fresh confirmed blocker. Editorial slot absence and limited playback access do not independently justify a new Telegram event; existing bee QA incident is historic."
+  }
+}
