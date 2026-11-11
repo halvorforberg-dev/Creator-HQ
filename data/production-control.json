@@ -316,7 +316,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-11 ~18:01 Europe/Oslo: Antikythera YT+TikTok PUBLISHING transitional, other Nov13/15/16 still PENDING.",
+      "verifiedDate": "2026-11-11 after 19:12 Europe/Oslo: Antikythera YouTube+TikTok PUBLISHED; Nov13/15/16 remain PENDING.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -453,11 +453,13 @@
           "network": "youtube",
           "time": "18:00",
           "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
-          "lastVerifiedStatus": "PUBLISHING",
-          "statusVerifiedDate": "2026-11-11 after 18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts at ~18:01 Oslo; transitional provider status PUBLISHING, not yet PUBLISHED; do not claim public URL",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-11 after 19:12 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 19:12 Europe/Oslo; provider status=PUBLISHED and publicUrl returned",
           "mediaUrl": null,
-          "thumbnailUrl": "https://static.metricool.com/planner/202611/7296504-file-17329399027920313354.jpeg"
+          "thumbnailUrl": "https://static.metricool.com/planner/202611/7296504-file-17329399027920313354.jpeg",
+          "publicUrl": "https://www.youtube.com/watch?v=-HD80govMH4",
+          "providerPostId": "-HD80govMH4"
         },
         {
           "id": 422895503,
@@ -466,10 +468,12 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
-          "lastVerifiedStatus": "PUBLISHING",
-          "statusVerifiedDate": "2026-11-11 after 18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts at ~18:01 Oslo; transitional provider status PUBLISHING, not yet PUBLISHED; do not claim public URL",
-          "mediaUrl": null
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-11 after 19:12 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 19:12 Europe/Oslo; provider status=PUBLISHED and publicUrl returned",
+          "mediaUrl": null,
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7706960721170402582",
+          "providerPostId": "7706960721170402582"
         },
         {
           "id": 423027641,
@@ -803,7 +807,7 @@
     "bizarreNextProduction": {
       "date": "2026-11-08",
       "firstTarget": "2026-11-09 18:00 Europe/Oslo: Herculaneum 37.834s 9:16 original Short, QC reviewed and PUBLISHED on YouTube+TikTok. Verified 18:35 with public provider URLs (Metricool IDs 420886327 and 420886502).",
-      "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo: Antikythera ordinary public 16:9 film, generated and verified BOOKED/PENDING on YouTube and TikTok (Metricool IDs 422895207 and 422895503). Current run verifies platform booking and metadata; it does not independently repeat the full MP4+audio QC.",
+      "wednesdayTarget": "2026-11-11 18:00 Europe/Oslo: Antikythera ordinary public 16:9 film PUBLISHED on YouTube and TikTok. Verified after 19:12 with public provider URLs (Metricool IDs 422895207 and 422895503).",
       "sundayTarget": "2026-11-15 18:00 Europe/Oslo: Mørstad 178.25s 16:9, QC reviewed and BOOKED YouTube+TikTok (IDs 420588270 and 420588470), still PENDING on 8 Nov; not yet published.",
       "status": "MORSTAD_LONGFORM_QC_COMPLETE_AND_METRICOOL_BOOKED_YOUTUBE_TIKTOK",
       "briefs": [
@@ -814,7 +818,7 @@
       "productionBudget": "Higgsfield Plus verified 2026-11-08: 1032.8 credits before this authorized production, 493.46 after. 539.34 included credits used (narration, music, 20 initial video scenes and six scene-quality replacements); no purchase or upgrade. vidIQ paid credits not used.",
       "doubleBookingRule": "Current 6 historic posts Nov4/6/8 verified and protected, Nov4 two now published. Do not generate duplicates, do not infer any Nov9+ editorial target is booked.",
       "sundayTopic": "Mørstad Viking silver treasure / exceptionally rare Saint Olaf coin. Finished 178.25 s 16:9 1080p film, fact-checked and booked to YouTube + TikTok for 2026-11-15 18:00 Europe/Oslo.",
-      "platformControl": "2026-11-10 15:05 Europe/Oslo authenticated Metricool: Antikythera PENDING Nov11 18:00 (YT 422895207, TikTok 422895503); Thonis-Heracleion PENDING Nov13 18:00 (YT 423027641, TikTok 423027976); Mørstad PENDING Nov15 18:00 (YT 420588270, TikTok 420588470). Herculaneum remains PUBLISHED. No booking edits or duplicates in this monitoring run.",
+      "platformControl": "2026-11-11 after 19:12 Europe/Oslo authenticated Metricool: Antikythera PUBLISHED (YT https://www.youtube.com/watch?v=-HD80govMH4; TikTok https://www.tiktok.com/@bizzare.past/video/7706960721170402582). Thonis-Heracleion Nov13, Mørstad Nov15 and San Juan Nov16 remain PENDING on both destinations. No booking edits or duplicates.",
       "refinedQualityHypothesis": "Introduce genuine historical artefact in first 2 seconds immediately after spoken/written Did you know…; reveal the source-led surprise (a 2026 newly catalogued coin bearing Olaf's name), then compare age-matched ordinary 16:9 CTR/watch time/retention. Third-party first seconds not watched, no causal attribution.",
       "budgetSeparation": "Bizarre Past spending solely Higgsfield. AI Tuber credit plans apply What If and Little Wild only; no purchases.",
       "dailyAudit20261107": {
@@ -2516,8 +2520,8 @@
         "brief": "data/bizarre-past-antikythera-long-brief-2026-11-05.md",
         "producer": "Higgsfield",
         "publisher": "Metricool",
-        "stage": "METRICOOL_YOUTUBE_AND_TIKTOK_PENDING_VERIFIED_NOV10",
-        "caution": "Previously stored PRE-PRODUCTION draft/budget snapshot superseded by confirmed 10 Nov Metricool booking. Do not regenerate, rebook or change queued film. Do not represent scheduled PENDING as published. This agent did not re-audit full AV playback on 10 Nov.",
+        "stage": "PUBLISHED_YOUTUBE_AND_TIKTOK_VERIFIED_2026_11_11",
+        "caution": "Published status and public URLs verified after 19:12 Europe/Oslo. Do not regenerate, rebook or duplicate this film.",
         "productionBudgetEstimate": {
           "creditsAvailable": 413.99,
           "quoteType": "read-only price estimate, not committed",
@@ -2543,8 +2547,10 @@
           "tiktokPostId": 422895503,
           "date": "2026-11-11",
           "time": "18:00 Europe/Oslo",
-          "status": "PENDING",
-          "source": "Authenticated Metricool 2026-11-10 ~17:08 Oslo"
+          "status": "PUBLISHED",
+          "youtubeUrl": "https://www.youtube.com/watch?v=-HD80govMH4",
+          "tiktokUrl": "https://www.tiktok.com/@bizzare.past/video/7706960721170402582",
+          "source": "Authenticated Metricool after 19:12 Europe/Oslo"
         }
       },
       {
@@ -2873,7 +2879,7 @@
         "id": 422895207,
         "date": "2026-11-11",
         "network": "youtube",
-        "status": "PENDING",
+        "status": "PUBLISHED",
         "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
         "time": "18:00"
       },
@@ -2881,7 +2887,7 @@
         "id": 422895503,
         "date": "2026-11-11",
         "network": "tiktok",
-        "status": "PENDING",
+        "status": "PUBLISHED",
         "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
         "time": "18:00"
       },
@@ -2918,8 +2924,8 @@
         "time": "18:00"
       }
     ],
-    "tonight": "Antikythera PENDING on YT 422895207 and TikTok 422895503, 18:00 Oslo; NOT YET PUBLISHED at pre-release check, no duplicate.",
-    "later": "Thonis Nov13, Mørstad Nov15, San Juan Nov16 remain PENDING YT+TT and must not be altered.",
+    "tonight": "Antikythera PUBLISHED on YouTube 422895207 and TikTok 422895503 after the 2026-11-11 18:00 Europe/Oslo release; public provider URLs verified.",
+    "later": "Thonis-Heracleion Nov13, Mørstad Nov15 and San Juan Nov16 remain PENDING on YouTube+TikTok and were not altered.",
     "providerCredits": {
       "current": 167.77,
       "plan": "Plus",
@@ -2968,12 +2974,88 @@
       "productionHistory": "Higgsfield latest 50 video generation jobs checked Nov11 before 18:00; every one returned completed, none active in that latest-50 sample; this does not prove absence outside the sampled page."
     },
     "eveningPostWindow": {
-      "checkedAt": "2026-11-11 ~18:01 Europe/Oslo",
-      "verified": "Antikythera scheduled posts began publishing: Metricool provider status PUBLISHING on BOTH YouTube 422895207 and TikTok 422895503.",
-      "classification": "IN_PROGRESS_NORMAL_NOT_A_BLOCKER",
-      "publicUrls": null,
-      "publicationConfirmed": false,
-      "action": "No new upload or duplicate. Wait for future connected platform status observation of PUBLISHED/FAILED before recording result; avoid false Telegram alarm for normal processing."
+      "checkedAt": "2026-11-11 after 19:12 Europe/Oslo",
+      "verified": "Antikythera provider status PUBLISHED on YouTube 422895207 and TikTok 422895503; public URLs returned.",
+      "classification": "PUBLISHED_SUCCESS",
+      "publicUrls": {
+        "youtube": "https://www.youtube.com/watch?v=-HD80govMH4",
+        "tiktok": "https://www.tiktok.com/@bizzare.past/video/7706960721170402582"
+      },
+      "publicationConfirmed": true,
+      "action": "No user action. Preserve future bookings and verify their publication after each release time."
+    },
+    "latestEveningVerification": {
+      "checkedAt": "2026-11-11T19:12:00+01:00",
+      "sources": [
+        "Authenticated Metricool getBrandSettings/getScheduledPosts brand 7296504",
+        "Authenticated Higgsfield balance and latest 50 generation jobs",
+        "vidIQ balance, jobs and connected channel list"
+      ],
+      "channels": {
+        "youtube": "UCBO7keO3jYYoXbc_TtkXiTA",
+        "tiktok": "bizzare.past",
+        "connected": true
+      },
+      "publication": {
+        "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
+        "scheduled": "2026-11-11 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 422895207,
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.youtube.com/watch?v=-HD80govMH4",
+          "providerPostId": "-HD80govMH4"
+        },
+        "tiktok": {
+          "postId": 422895503,
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7706960721170402582",
+          "providerPostId": "7706960721170402582"
+        }
+      },
+      "pendingQueue": [
+        {
+          "film": "Thonis-Heracleion",
+          "date": "2026-11-13",
+          "time": "18:00",
+          "youtubeId": 423027641,
+          "tiktokId": 423027976,
+          "status": "PENDING"
+        },
+        {
+          "film": "Mørstad hoard",
+          "date": "2026-11-15",
+          "time": "18:00",
+          "youtubeId": 420588270,
+          "tiktokId": 420588470,
+          "status": "PENDING"
+        },
+        {
+          "film": "San Juan horse races",
+          "date": "2026-11-16",
+          "time": "18:00",
+          "youtubeId": 423659187,
+          "tiktokId": 423659361,
+          "status": "PENDING"
+        }
+      ],
+      "higgsfield": {
+        "credits": 167.77,
+        "plan": "plus",
+        "latest50Jobs": "all completed",
+        "activeJobs": 0,
+        "recentFailedJobs": 0,
+        "productionBlocked": false
+      },
+      "vidiq": {
+        "credits": 2,
+        "activeJobs": 0,
+        "channelSubscribers": 34,
+        "channelViews": 7449,
+        "publicVideos": 24,
+        "productionBlocked": false
+      },
+      "userActionRequired": false,
+      "alertDecision": "No fresh confirmed blocker; production-alerts.json unchanged."
     }
   }
 }
