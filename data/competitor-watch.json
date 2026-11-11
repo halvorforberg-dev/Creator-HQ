@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -1444,5 +1444,87 @@
     "viewerHypothesis": "Concrete artifact + one precise evidence-based ending may hold attention better than a generic 'pyramid secret solved' headline. Unmeasured hypothesis.",
     "limitations": "No fresh owner retention data or third-party first-two-seconds actual video playback inspected today. Existing huge-channel public view differences not proof this topic performs. No copyrighted competitor clips, photo reuse or derivative script. No paid vidIQ calls.",
     "budgetHold": "169.42 Higgsfield credits; preserve for next long-form until real all-in budget. Do not generate or schedule new Short on old credit refill assumption."
+  },
+  "ownerMetricoolVideoSnapshot20261111": {
+    "observedAt": "2026-11-11 ~17:56–17:57 Europe/Oslo",
+    "network": "Bizarre Past YouTube+TikTok via authenticated Metricool",
+    "sources": [
+      "Metricool analytics Youtube all Videos YTVV01,YTVV05,YTVV06,YTVV07,YTVV08,YTVV17",
+      "Metricool analytics TikTok posts TKPO01,TKPO03,TKPO05,TKPO06,TKPO07,TKPO08,TKPO10"
+    ],
+    "youtube": [
+      {
+        "date": "2026-11-02",
+        "title": "Galloway Hoard",
+        "views": 935,
+        "totalWatchMinutes": 242.3,
+        "meanViewSeconds": 15,
+        "url": "https://www.youtube.com/watch?v=qyc-mi3hbGA"
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Oak Island",
+        "views": 139,
+        "totalWatchMinutes": 32.53,
+        "meanViewSeconds": 14,
+        "url": "https://www.youtube.com/watch?v=zUpY51tbRks"
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Knights Templar",
+        "views": 30,
+        "totalWatchMinutes": 5.68,
+        "meanViewSeconds": 11,
+        "url": "https://www.youtube.com/watch?v=TKTHIHIKPPI"
+      },
+      {
+        "date": "2026-11-08",
+        "title": "Pastry War",
+        "views": 40,
+        "totalWatchMinutes": 12.06,
+        "meanViewSeconds": 18,
+        "url": "https://www.youtube.com/watch?v=69Xdr_3JXME"
+      }
+    ],
+    "tiktok": [
+      {
+        "date": "2026-11-02",
+        "title": "Galloway Hoard",
+        "views": 268,
+        "likes": 1,
+        "shares": 0
+      },
+      {
+        "date": "2026-11-04",
+        "title": "Oak Island",
+        "views": 263,
+        "likes": 0,
+        "shares": 0
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Knights Templar",
+        "views": 296,
+        "likes": 2,
+        "shares": 0
+      },
+      {
+        "date": "2026-11-08",
+        "title": "Pastry War",
+        "views": 291,
+        "likes": 0,
+        "shares": 0
+      },
+      {
+        "date": "2026-11-09",
+        "title": "Herculaneum",
+        "views": 274,
+        "likes": 3,
+        "shares": 0
+      }
+    ],
+    "limitations": "Snapshots with different video ages; no creator-owned 24h/7d age-aligned retention curves, no organic-vs-paid breakdown, Herculaneum Nov9 was NOT returned in this query's YouTube all Videos list (data lag). TikTok fullVideoWatchedRate fields null. Do not claim causality or that any particular title/hook beats others, and do not mistake metric averages for retention.",
+    "cautiousHypothesis": "Concrete named historical artifacts/hoards may produce curiosity suited to Bizarre Past. Test a factual artifact-first mystery (e.g., Babylon tablet map or Merer's real papyrus diary) against age-aligned existing mystery Shorts with one primary creative variable changed, subject to credits, actual QC, no duplicate.",
+    "publishingImplication": "Preserve verified pending posts; next unbooked candidate Wednesday Nov18 Babylon original 16:9, Friday Nov20 Merer original Short, neither produced/booked. Do not spend Higgsfield credits while full longer-film reserve unfunded."
   }
 }
