@@ -14,7 +14,7 @@
 5. “Did you know a clay map mixed real cities with legendary places?” True nuanced thesis, perhaps reveals too much too soon.
 All spoken starts with “Did you know…” visibly labeled at start; don't squeeze the phrase into robotic speed.
 
-## ENGLISH NARRATION v1 — draft, natural paced ~2:30–3:00 (adjust to finished recording, not mechanical quotas)
+## ENGLISH NARRATION v1 — 328 spoken words, naturally ~2:35–3:00 including meaningful pauses (adjust to finished recording, not mechanical quotas)
 > Did you know a Babylonian map showed mysterious lands beyond the sea?
 >
 > More than two thousand five hundred years ago, someone carved an extraordinary picture onto clay. It was small enough to fit into a hand. But it tried to show an entire world.
@@ -40,25 +40,25 @@ All spoken starts with “Did you know…” visibly labeled at start; don't squ
 > On this little piece of clay, Babylon wasn't just a place on the map. It was a way of seeing the world — and everything beyond it.
 
 ### Storybeat / synchronized visual and sound plan
-Durations are expressive planning beats, NOT automatic hard cuts every eight seconds.
+Ordered narrative beats only: time each segment to the ACTUAL recorded narration, varying shot length as needed. The 328-word text suggests roughly 2:40–3:00 with a natural voice. Do NOT stretch to hit prefixed scene timecodes or rush the last sentence.
 | Beat | Narration anchor | Original animated action | Text / audio |
 |---|---|---|---|
-| 1, 0–7 s | “Did you know… beyond the sea?” | Start on low-lit tactile Babylonian-inspired clay model; slow push into triangle just beyond outer ring; modeled rather than copied | “DID YOU KNOW?” at 0; “BEYOND THE SEA?” subtle low percussion |
-| 2, 7–17 s | “More than… clay” | Scribe shapes a palm-sized clay slab by oil lamp in historically plausible workshop, moving fingers/tools | “ABOUT 2,600 YEARS AGO” |
-| 3, 17–30 s | “small enough… entire world” | Camera crane reveals palm-sized tablet against large textured landscape; animation morph into drawn lines | airy curiosity |
-| 4, 30–45 s | “Look closely… Babylon… Euphrates” | Circle/rectangle schema illuminated; river path traced in wet clay; no misleading exact original transcription | “BABYLON / EUPHRATES” |
-| 5, 45–60 s | “Other regions… Assyria, Elam” | Geographic region names appear over simple stylized ancient Mesopotamia at roughly appropriate directions; not GIS-precise | soft clay scratching |
-| 6, 60–75 s | “ring… Salt Sea” | Water creeps round ring in close-up; surrounding water is an illustrated ancient concept, not a real satellite view | “SALT SEA” |
-| 7, 75–88 s | “different from a map on your phone” | Brief cinematic contrast between tablet relief and neutral modern contour map; no recognizable app UI | gentle tonal lift |
-| 8, 88–100 s | “outside the ring” | Push beyond outer ring to triangular areas; momentary suspense without jump scare | “WHAT WERE THESE?” |
-| 9, 100–114 s | “Scholars interpret… regions, islands” | Distant coastline silhouettes move through fog, **explicitly imagined** not literal archaeological reconstruction | “REGIONS / ISLANDS” |
-| 10, 114–128 s | “probably eight… damaged” | Broken fragment reassembles only schematically, missing portions remain visibly unresolved | “TABLET IS INCOMPLETE” |
-| 11, 128–145 s | “writing… geography” | Cuneiform-like detail glows without invented direct translation; river and heroic shapes as shadowed storytelling metaphors | quiet tonal shift |
-| 12, 145–162 s | “strange creatures… heroic figures” | Abstract ancient-myth silhouettes deliberately framed as imagination (NOT photographed historical reality) | “MYTH & GEOGRAPHY” |
-| 13, 162–178 s | “did they… sail… monsters?” | Boat prow at foggy horizon dissolves, leaving an unanswered line; avoid depicting Ark as truth | no false 'proof' card |
-| 14, 178–193 s | “found… Sippar… century” | Sippar/Iraq map locator and archaeological era label; do not confuse modern site with old original composition | “SIPPAR • MODERN IRAQ” |
-| 15, 193–end (~210–225 s) | “boundary… everything beyond it” | Camera back to intact schematic map; outer triangles turn into fading question marks and final clear world-view diagram | “A MAP OF THEIR WORLDVIEW”, music resolves after the final spoken line |
-**Note:** Beat timings are an upper guideline and likely too long for this ~300-word narration. Editor must time each beat from actual recorded speech, collapse/extend actions naturally, fit overall 2–4 minutes and avoid artificial pauses. The ending must not be cut.
+| 1 | “Did you know… beyond the sea?” | Start on low-lit tactile Babylonian-inspired clay model; slow push into triangle just beyond outer ring; modeled rather than copied | “DID YOU KNOW?” at 0; “BEYOND THE SEA?” subtle low percussion |
+| 2 | “More than… clay” | Scribe shapes a palm-sized clay slab by oil lamp in historically plausible workshop, moving fingers/tools | “ABOUT 2,600 YEARS AGO” |
+| 3 | “small enough… entire world” | Camera crane reveals palm-sized tablet against large textured landscape; animation morph into drawn lines | airy curiosity |
+| 4 | “Look closely… Babylon… Euphrates” | Circle/rectangle schema illuminated; river path traced in wet clay; no misleading exact original transcription | “BABYLON / EUPHRATES” |
+| 5 | “Other regions… Assyria, Elam” | Geographic region names appear over simple stylized ancient Mesopotamia at roughly appropriate directions; not GIS-precise | soft clay scratching |
+| 6 | “ring… Salt Sea” | Water creeps round ring in close-up; surrounding water is an illustrated ancient concept, not a real satellite view | “SALT SEA” |
+| 7 | “different from a map on your phone” | Brief cinematic contrast between tablet relief and neutral modern contour map; no recognizable app UI | gentle tonal lift |
+| 8 | “outside the ring” | Push beyond outer ring to triangular areas; momentary suspense without jump scare | “WHAT WERE THESE?” |
+| 9 | “Scholars interpret… regions, islands” | Distant coastline silhouettes move through fog, **explicitly imagined** not literal archaeological reconstruction | “REGIONS / ISLANDS” |
+| 10 | “probably eight… damaged” | Broken fragment reassembles only schematically, missing portions remain visibly unresolved | “TABLET IS INCOMPLETE” |
+| 11 | “writing… geography” | Cuneiform-like detail glows without invented direct translation; river and heroic shapes as shadowed storytelling metaphors | quiet tonal shift |
+| 12 | “strange creatures… heroic figures” | Abstract ancient-myth silhouettes deliberately framed as imagination (NOT photographed historical reality) | “MYTH & GEOGRAPHY” |
+| 13 | “did they… sail… monsters?” | Boat prow at foggy horizon dissolves, leaving an unanswered line; avoid depicting Ark as truth | no false 'proof' card |
+| 14 | “found… Sippar… century” | Sippar/Iraq map locator and archaeological era label; do not confuse modern site with old original composition | “SIPPAR • MODERN IRAQ” |
+| 15 | “boundary… everything beyond it” | Camera back to intact schematic map; outer triangles turn into fading question marks and final clear world-view diagram | “A MAP OF THEIR WORLDVIEW”, music resolves after the final spoken line |
+**Note:** The 15 beats are planning cues, NOT a requirement for 15 shots. Collapse or extend actions naturally to recorded dialogue and keep the total between 2–4 minutes. The ending must not be cut.
 
 ## Historical accuracy / sources
 - British Museum's museum-authored explanation (Smarthistory): https://smarthistory.org/map-of-the-world/ . **Core source**: c. sixth century BCE clay map from Abu Habba/Sippar; Babylon rectangle; Assyria/Elam named; surrounding “Salt-Sea”; outer region/island triangles probably originally eight; myth and familiar geography, incomplete inscription.
