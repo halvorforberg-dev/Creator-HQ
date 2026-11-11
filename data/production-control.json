@@ -1593,6 +1593,76 @@
       },
       "alertDecision": "No fresh verified blocker under production-alerts.json policy: existing shoe media QC hold and missed unbooked editorial target are not new platform-failure incidents. Do not add a Telegram alert or duplicate prior incidents.",
       "actions": "Read-only source checks; attempted existing finished MP4 retrieval but could not view/listen. GitHub status logging only. No generation, publication, advertising, purchases, likes/comments or claims of 1h Work session."
+    },
+    "whatifLatest20261111": {
+      "checkedAt": "2026-11-11 after 19:55 Europe/Oslo",
+      "producer": "AI Tuber authenticated video/scene record, subscription, 1080p export",
+      "currentDraft": {
+        "videoId": "6b43df29-1aac-498f-8a0d-5070d8872857",
+        "title": "What If Plants Paused Photosynthesis for a Day?",
+        "providerCreatedAt": "2026-11-11T17:00:48.853Z",
+        "format": "9:16 35s video, five scenes",
+        "status": "COMPLETED_GENERATION_EXPORTED_1080P_QC_HOLD",
+        "exportId": "b8ac350b-8cef-4465-9f4c-fad5c635b337",
+        "publicationId": null,
+        "publicReleaseConfirmed": false,
+        "qualityConcerns": [
+          "ends with generic follow CTA not concrete visual payoff",
+          "normal photosynthesis imagery potentially confusing during supposed pause",
+          "actual end-to-end MP4 and sound not watchable in this environment"
+        ],
+        "qaBrief": "data/whatif-plants-photosynthesis-qc-2026-11-11.json"
+      },
+      "channelPublishing": {
+        "metricoolWhatifQueueNov9ToNov20": "EMPTY on connected What If brand 7751348; does NOT independently enumerate AI Tuber direct publication queue",
+        "wednesdayLongForm20261111": "EDITORIAL_GOAL_ELAPSED_NO_VERIFIED_NEW_16_9_RELEASE_FROM_METRICOOL",
+        "note": "No past-date booking or immediate upload attempted."
+      },
+      "beePublicObservation": {
+        "publicationDate": "2026-11-08",
+        "title": "What If You Could See Flowers Like a Bee?",
+        "publicUrl": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+        "viewsAtCheck": 8,
+        "averageViewDurationSeconds": 79,
+        "source": "Metricool authenticated YouTube videos published in range + all videos, Nov11",
+        "warning": "Public Bee-themed video exists despite 2026-11-08 QC-hold record. Platform data does not prove this is exact AITuber production ID f3dc9b3c-1001-41ec-9d80-e96246c67bd6; do not assert match or assume that final AV QC passed. Need compare source/export and provider publication before resolving bee QA alert."
+      },
+      "analytics": {
+        "checkedOn": "2026-11-11",
+        "source": "Metricool authenticated YouTube all videos, cumulative not age matched",
+        "saturn": {
+          "views": 2559,
+          "avgViewSeconds": 15,
+          "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0"
+        },
+        "octopus": {
+          "views": 1024,
+          "avgViewSeconds": 10,
+          "url": "https://www.youtube.com/watch?v=u51oWL8ACTQ"
+        },
+        "sun": {
+          "views": 1031,
+          "avgViewSeconds": 15,
+          "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI"
+        },
+        "ocean": {
+          "views": 181,
+          "avgViewSeconds": 9,
+          "url": "https://www.youtube.com/watch?v=l_eoxyfvfRM"
+        },
+        "limitations": "No owned 0–2s retention or like-for-like 24h/7d/28d comparison; paid versus organic not established; bee 8-view sample cannot establish quality."
+      },
+      "budget": {
+        "aituberCreditsNow": 7020,
+        "monthlyCredits": 10000,
+        "deltaSince20261110Snapshot": -193,
+        "deltaAttribution": "Unknown split across What If and Little Wild; do not assign to single draft",
+        "vidiqRemaining": 2,
+        "paidVidiqCallsThisCheck": 0,
+        "externalCreditsPurchased": 0,
+        "adsPurchased": 0
+      },
+      "nextAction": "Hold photosynthesis draft until final AV review and real visual payoff. Reuse existing sourced 'What If You Could See Invisible Air?' long-film brief only after confirming budget and complete QC path; no repeated production/duplicate. Resolve bee-video source-ID discrepancy without falsely approving old quality hold. No new confirmed blocker alert."
     }
   },
   "channelAudit": {
