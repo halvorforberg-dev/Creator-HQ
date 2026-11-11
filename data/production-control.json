@@ -2877,6 +2877,31 @@
     "budgetDecision": "HOLD ALL NEW PAID GENERATION: 167.77 existing credits cannot safely fund a full original ~3min cinematic 16:9 at previously quoted 21×8s (~252 video-only), plus voice, music, retakes; no new model quality proof, reserve balance.",
     "operationalBlocker": "None NEW confirmed: no booked post failure. Lack of fully funded *editorial target* is not a fresh Telegram-blocker under alert policy.",
     "workPerformed": "Direct provider queue/balance checks, source-vetted original creative film brief, corrected preexisting Merer brief to prevent duplicate Nov16 slot, canonical queue reconciliation. No generation, QC claim, scheduling, upload, paid promotion, likes/comments or new paid vidIQ call.",
-    "note": "Existing 11 Nov PENDING means scheduled but not published. Verify actual PUBLISHED or failed status after 18:00; do not invent result."
+    "note": "Existing 11 Nov PENDING means scheduled but not published. Verify actual PUBLISHED or failed status after 18:00; do not invent result.",
+    "preReleaseQualityMetadata": {
+      "antikytheraYouTube": {
+        "id": 422895207,
+        "autoPublish": true,
+        "type": "video",
+        "privacy": "public",
+        "madeForKids": false,
+        "aiDisclosure": true,
+        "scheduled": "2026-11-11T18:00:00 Europe/Oslo",
+        "status": "PENDING",
+        "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳"
+      },
+      "antikytheraTikTok": {
+        "id": 422895503,
+        "autoPublish": true,
+        "privacy": "PUBLIC_TO_EVERYONE",
+        "aiDisclosure": true,
+        "status": "PENDING",
+        "scheduled": "2026-11-11T18:00:00 Europe/Oslo"
+      },
+      "source": "Authenticated Metricool getScheduledPosts 2026-11-11 17:55–17:56 Oslo; 2021 Scientific Reports Freeth et al. https://doi.org/10.1038/s41598-021-84310-w",
+      "facts": "Mechanism recovered from 1901 shipwreck exploration; complex bronze geared astronomical calculator; documented eclipse-prediction function. Alternative reconstruction details remain scholarly models.",
+      "qualityScope": "Verified publisher flags, content description and scholarly premise ONLY. Did NOT freshly listen to or visually audit entire scheduled MP4 in this run; do not claim fresh full perceptual playback QC.",
+      "productionHistory": "Higgsfield latest 50 video generation jobs checked Nov11 before 18:00; every one returned completed, none active in that latest-50 sample; this does not prove absence outside the sampled page."
+    }
   }
 }
