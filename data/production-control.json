@@ -1525,6 +1525,70 @@
       "existingAlertUnchanged": true,
       "advertising": "No VeeFly/Google Ads/YouTube Promote action; Saturn paid promotion previously verified paused, not independently changed today.",
       "actionsThisRun": "Read-only provider and source checks plus GitHub brief/competitor/control updates; 0 AI Tuber credits purchased or spent by this run; 0 new generations, exports, scheduled or published videos, social interactions or fictitious 1-hour Work sessions."
+    },
+    "littleWildDaily20261111": {
+      "date": "2026-11-11",
+      "checkedAtOslo": "2026-11-11 after 18:50 Europe/Oslo",
+      "sources": [
+        "AI Tuber connected get_subscription, list_videos, list_channels, GET /videos/{id}, download_video for 70f5759d-15f2-4b08-8620-7bfdd74dc22a",
+        "Gmail AI Tuber notifications after 2026-11-09 and support correspondence",
+        "vidIQ user_channels zero-credit account read",
+        "GitHub production-control.json, creative-prompt-upgrades.json, little-wild-series-bible.json, production-alerts.json, existing rainy-day brief and shoe QA report",
+        "Attempted external final MP4 download with CDN URL; tool access failed"
+      ],
+      "sourceVideo": {
+        "videoId": "70f5759d-15f2-4b08-8620-7bfdd74dc22a",
+        "title": "The Little Shoe-Matching Mission",
+        "createdAt": "2026-11-10T15:00:48.906Z",
+        "latestLittleWildInAITuber": true,
+        "mediaType": "video",
+        "durationSeconds": 35,
+        "aspectRatio": "9:16",
+        "exportedMp4Id": "9c945d6b-6213-49af-ad56-adfd6f293243",
+        "exportStatus": "completed",
+        "scriptAndFiveSceneInstructionsRead": true,
+        "scriptUsesNames": "Milo, Miko, Pip",
+        "continuityConcern": "Teal sweater/mustard shorts in generator prompts differ from approved teal romper and sun emblem; actual full rendered identity unverified",
+        "review": "QC_HOLD_NO_FULL_AV; no complete MP4 playback/audio review, scene consistency and final payoff cannot be certified. AI Tuber CDN URL was returned but was not reachable via container (DNS error) or web open (unsupported); do not publish.",
+        "publication": "NOT_VERIFIED; no publication or booking by this run; exact publication ID absent",
+        "issue": "This is a held creative draft, not a fresh confirmed operational platform failure"
+      },
+      "production": {
+        "aituberNewLittleWildToday": "No Little Wild video found created 2026-11-11 in newest 13 AI Tuber videos; latest remains 2026-11-10 shoe matching",
+        "latestOtherChannelVideo": {
+          "id": "6b43df29-1aac-498f-8a0d-5070d8872857",
+          "title": "What If Plants Paused Photosynthesis for a Day?",
+          "createdAt": "2026-11-11T17:00:48.853Z",
+          "channel": "What If; not a Little Wild video"
+        },
+        "nextLittleWild": "Friday 2026-11-13 18:00 Europe/Oslo editorial target, NOT booked",
+        "rainyDayScript": "Existing original six-scene script/5 hook options in data/little-wild-rainy-day-rhythm-short-brief-2026-11-09.md; editorial draft only, not generated",
+        "today1811": "Wednesday 2026-11-11 18:00 Little Wild Short is an editorial target, no new public upload/booking confirmed. No retroactive publication attempted."
+      },
+      "budget": {
+        "sharedAI_TuberPlan": "Studio",
+        "monthlyCredits": 10000,
+        "availableCredits": 7020,
+        "priorVerified20261110": 7213,
+        "delta": -193,
+        "attribution": "Unknown: both What If and Little Wild share balance. Do not ascribe all 193 credits to a Little Wild video.",
+        "newCreditsSpentByThisRun": 0,
+        "purchases": 0,
+        "allocationGuidance": "What If ~7000; Little Wild ~3000 provisional per-month editorial guidance, not technical caps"
+      },
+      "channel": {
+        "aiTuberChannelConnected": true,
+        "youtubeId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+        "vidIQZeroCreditObserved": {
+          "subscribers": 250,
+          "views": 7391,
+          "publicVideos": 17,
+          "observedOn": "2026-11-11",
+          "caution": "Provider may cache channel totals; no new retention/organic-vs-paid evidence"
+        }
+      },
+      "alertDecision": "No fresh verified blocker under production-alerts.json policy: existing shoe media QC hold and missed unbooked editorial target are not new platform-failure incidents. Do not add a Telegram alert or duplicate prior incidents.",
+      "actions": "Read-only source checks; attempted existing finished MP4 retrieval but could not view/listen. GitHub status logging only. No generation, publication, advertising, purchases, likes/comments or claims of 1h Work session."
     }
   },
   "channelAudit": {
