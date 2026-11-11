@@ -1526,5 +1526,29 @@
     "limitations": "Snapshots with different video ages; no creator-owned 24h/7d age-aligned retention curves, no organic-vs-paid breakdown, Herculaneum Nov9 was NOT returned in this query's YouTube all Videos list (data lag). TikTok fullVideoWatchedRate fields null. Do not claim causality or that any particular title/hook beats others, and do not mistake metric averages for retention.",
     "cautiousHypothesis": "Concrete named historical artifacts/hoards may produce curiosity suited to Bizarre Past. Test a factual artifact-first mystery (e.g., Babylon tablet map or Merer's real papyrus diary) against age-aligned existing mystery Shorts with one primary creative variable changed, subject to credits, actual QC, no duplicate.",
     "publishingImplication": "Preserve verified pending posts; next unbooked candidate Wednesday Nov18 Babylon original 16:9, Friday Nov20 Merer original Short, neither produced/booked. Do not spend Higgsfield credits while full longer-film reserve unfunded."
+  },
+  "whatifResearchNote20261111Agent": {
+    "checkedAt": "2026-11-11 evening Europe/Oslo",
+    "publicCompetitorReference": {
+      "channel": "QuirkScience",
+      "title": "What If You Dug a Hole Through the Earth and Jumped In?",
+      "releaseDate": "2026-11-10",
+      "format": "Short 1m03s according to producer catalog",
+      "url": "https://quirkscience.com/films/what-if-you-dug-a-hole-through-the-earth-and-jumped-in/",
+      "verified": "Official publisher catalog/film explainer; no first-two-second playback, views or retention verified",
+      "creativeTakeaway": "Answer a precise hypothetical with an actual concrete consequence; do not mimic their Earth-tunnel premise or use a rigid time-per-scene formula."
+    },
+    "scienceSource": {
+      "title": "Arabidopsis plants perform arithmetic division to prevent starvation at night",
+      "date": "2013-06-25",
+      "url": "https://doi.org/10.7554/eLife.00669",
+      "evidence": "Certain plants use stored starch at night to fuel metabolism; do not generalize single-plant physiology across the entire biosphere."
+    },
+    "originalHypothesis": "A quiet, positive photosynthesis-pause thought experiment with a precise visible return-to-normal ending (same tree switches to photosynthesis ON at the next sunrise) may improve comprehension/Short completion compared with an unrelated garden montage and follow CTA. One main variable: finale clarity, if future authorized revision is genuinely completed.",
+    "linkedVideo": "AITuber existing draft id 6b43df29-1aac-498f-8a0d-5070d8872857 (35s, 9:16) is NOT approved/published; only a 1080p export exists, no full AV playback completed.",
+    "evidencePath": "data/whatif-plants-photosynthesis-qc-2026-11-11.json",
+    "measurement": "After verified publication of a quality-passed film, compare 24h/7d/28d same-age Shorts metrics, especially stayed-to-watch, average percentage viewed, full retention curve and subscribers per 1000; organic versus paid if accessible; no guarantee of advantage.",
+    "paidVidiqCreditsUsed": 0,
+    "regenerationOrPublicationPerformed": false
   }
 }
