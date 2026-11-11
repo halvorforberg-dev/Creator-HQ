@@ -316,7 +316,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-11 before 18:00 Europe/Oslo: 8 provider posts on dates Nov11, Nov13, Nov15, Nov16; all PENDING, each date both YouTube+TikTok. Status must be checked after 18:00 for Nov11.",
+      "verifiedDate": "2026-11-11 ~18:01 Europe/Oslo: Antikythera YT+TikTok PUBLISHING transitional, other Nov13/15/16 still PENDING.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -453,9 +453,9 @@
           "network": "youtube",
           "time": "18:00",
           "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "lastVerifiedStatus": "PUBLISHING",
+          "statusVerifiedDate": "2026-11-11 after 18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts at ~18:01 Oslo; transitional provider status PUBLISHING, not yet PUBLISHED; do not claim public URL",
           "mediaUrl": null,
           "thumbnailUrl": "https://static.metricool.com/planner/202611/7296504-file-17329399027920313354.jpeg"
         },
@@ -466,9 +466,9 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "lastVerifiedStatus": "PUBLISHING",
+          "statusVerifiedDate": "2026-11-11 after 18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts at ~18:01 Oslo; transitional provider status PUBLISHING, not yet PUBLISHED; do not claim public URL",
           "mediaUrl": null
         },
         {
@@ -2902,6 +2902,14 @@
       "facts": "Mechanism recovered from 1901 shipwreck exploration; complex bronze geared astronomical calculator; documented eclipse-prediction function. Alternative reconstruction details remain scholarly models.",
       "qualityScope": "Verified publisher flags, content description and scholarly premise ONLY. Did NOT freshly listen to or visually audit entire scheduled MP4 in this run; do not claim fresh full perceptual playback QC.",
       "productionHistory": "Higgsfield latest 50 video generation jobs checked Nov11 before 18:00; every one returned completed, none active in that latest-50 sample; this does not prove absence outside the sampled page."
+    },
+    "eveningPostWindow": {
+      "checkedAt": "2026-11-11 ~18:01 Europe/Oslo",
+      "verified": "Antikythera scheduled posts began publishing: Metricool provider status PUBLISHING on BOTH YouTube 422895207 and TikTok 422895503.",
+      "classification": "IN_PROGRESS_NORMAL_NOT_A_BLOCKER",
+      "publicUrls": null,
+      "publicationConfirmed": false,
+      "action": "No new upload or duplicate. Wait for future connected platform status observation of PUBLISHED/FAILED before recording result; avoid false Telegram alarm for normal processing."
     }
   }
 }
