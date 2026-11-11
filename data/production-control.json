@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -316,7 +316,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-10 ~17:08 Europe/Oslo: authenticated recheck; Herculaneum PUBLISHED; Antikythera Nov11, Thonis Nov13, Mørstad Nov15 YT+TikTok PENDING.",
+      "verifiedDate": "2026-11-11 before 18:00 Europe/Oslo: 8 provider posts on dates Nov11, Nov13, Nov15, Nov16; all PENDING, each date both YouTube+TikTok. Status must be checked after 18:00 for Nov11.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -430,8 +430,9 @@
           "time": "18:00",
           "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true"
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
         },
         {
           "id": 420588270,
@@ -441,8 +442,9 @@
           "time": "18:00",
           "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true"
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
         },
         {
           "id": 422895207,
@@ -452,9 +454,9 @@
           "time": "18:00",
           "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
-          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-9313543014694070346.mp4",
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null,
           "thumbnailUrl": "https://static.metricool.com/planner/202611/7296504-file-17329399027920313354.jpeg"
         },
         {
@@ -465,9 +467,9 @@
           "time": "18:00",
           "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
-          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-9825133929000376631.mp4"
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
         },
         {
           "id": 423027641,
@@ -479,9 +481,9 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
-          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-422101741849091139.mp4"
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
         },
         {
           "id": 423027976,
@@ -493,9 +495,33 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-10 ~17:08 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts, provider PENDING + autoPublish=true",
-          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-12022711021074898252.mp4"
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
+        },
+        {
+          "id": 423659187,
+          "uuid": "3107932699462288101",
+          "date": "2026-11-16",
+          "time": "18:00",
+          "network": "youtube",
+          "title": "Why Rival Armies Raced Horses on the Same Island",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
+        },
+        {
+          "id": 423659361,
+          "uuid": "-8606159293425237917",
+          "date": "2026-11-16",
+          "time": "18:00",
+          "network": "tiktok",
+          "title": "Why Rival Armies Raced Horses on the Same Island",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "mediaUrl": null
         }
       ]
     },
@@ -2611,7 +2637,7 @@
       "subject": "Merer's 4,500-year-old shipping diary: white limestone for the Great Pyramid by boat",
       "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳 | #Shorts",
       "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
-      "proposedTargetDate": null,
+      "proposedTargetDate": "2026-11-20",
       "time": "18:00 Europe/Oslo",
       "format": "9:16 35–40 sec",
       "firstFrameQuestion": "What could a 4,500-year-old work diary reveal about pyramid stones?",
@@ -2627,7 +2653,7 @@
         "date": "2026-11-13",
         "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
       },
-      "slotUpdate": "Nov16 booked for completed San Juan horse-races Short. Merer remains in backlog."
+      "slotUpdate": "Nov16 booked for San Juan on YT+TikTok (provider IDs 423659187 / 423659361). Merer remains editorial only candidate for Fri20, not generated or booked."
     },
     "littleWild": {
       "status": "EDITORIAL_DRAFT_ONLY",
@@ -2756,5 +2782,101 @@
       "qc": "Full exported film reviewed by Higgsfield audiovisual scene analysis (nine scenes including dialogue through ending), frame inspection, final soundtrack transcription and loudness checks. No independent human listening.",
       "report": "data/bizarre-past-san-juan-horse-races-2026-11-10.json"
     }
+  },
+  "bizarrePastAgentCheck20261111": {
+    "checkedAt": "2026-11-11 ~17:48–17:54 Europe/Oslo",
+    "source": "Authenticated Metricool getBrandSettings/getScheduledPosts, Higgsfield balance, user-approved creative-prompt-upgrades, British Museum authorship via Smarthistory and source research",
+    "producer": "Higgsfield ONLY",
+    "publisher": "Metricool YouTube+TikTok",
+    "bookingReadback": [
+      {
+        "id": 420588270,
+        "date": "2026-11-15",
+        "network": "youtube",
+        "status": "PENDING",
+        "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+        "time": "18:00"
+      },
+      {
+        "id": 420588470,
+        "date": "2026-11-15",
+        "network": "tiktok",
+        "status": "PENDING",
+        "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
+        "time": "18:00"
+      },
+      {
+        "id": 422895207,
+        "date": "2026-11-11",
+        "network": "youtube",
+        "status": "PENDING",
+        "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
+        "time": "18:00"
+      },
+      {
+        "id": 422895503,
+        "date": "2026-11-11",
+        "network": "tiktok",
+        "status": "PENDING",
+        "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
+        "time": "18:00"
+      },
+      {
+        "id": 423027641,
+        "date": "2026-11-13",
+        "network": "youtube",
+        "status": "PENDING",
+        "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion #Shorts",
+        "time": "18:00"
+      },
+      {
+        "id": 423027976,
+        "date": "2026-11-13",
+        "network": "tiktok",
+        "status": "PENDING",
+        "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion",
+        "time": "18:00"
+      },
+      {
+        "id": 423659187,
+        "date": "2026-11-16",
+        "network": "youtube",
+        "status": "PENDING",
+        "title": "Why Rival Armies Raced Horses on the Same Island",
+        "time": "18:00"
+      },
+      {
+        "id": 423659361,
+        "date": "2026-11-16",
+        "network": "tiktok",
+        "status": "PENDING",
+        "title": "Why Rival Armies Raced Horses on the Same Island",
+        "time": "18:00"
+      }
+    ],
+    "tonight": "Antikythera PENDING on YT 422895207 and TikTok 422895503, 18:00 Oslo; NOT YET PUBLISHED at pre-release check, no duplicate.",
+    "later": "Thonis Nov13, Mørstad Nov15, San Juan Nov16 remain PENDING YT+TT and must not be altered.",
+    "providerCredits": {
+      "current": 167.77,
+      "plan": "Plus",
+      "priorSnapshot": 169.42,
+      "difference": -1.65,
+      "attribution": "Unknown; do not assert which job consumed difference",
+      "extraPurchase": false,
+      "refillConfirmed": false
+    },
+    "editorialProgress": {
+      "newWednesdayBrief": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md",
+      "topic": "Babylonian map of world: regions beyond Salt Sea",
+      "possibleSlot": "2026-11-18 18:00 Europe/Oslo ordinary 16:9 2–4min, editorial only NOT generated/booked",
+      "source": "British Museum, Smarthistory, c. 6th century BCE, object BM 92687",
+      "nextShort": "Merer's diary draft corrected to Fri 2026-11-20 rather than already booked Nov16",
+      "shortBrief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
+      "status": "RESEARCH_DRAFT_NOT_MEDIA_QC_NOT_PUBLISHABLE"
+    },
+    "budgetDecision": "HOLD ALL NEW PAID GENERATION: 167.77 existing credits cannot safely fund a full original ~3min cinematic 16:9 at previously quoted 21×8s (~252 video-only), plus voice, music, retakes; no new model quality proof, reserve balance.",
+    "operationalBlocker": "None NEW confirmed: no booked post failure. Lack of fully funded *editorial target* is not a fresh Telegram-blocker under alert policy.",
+    "workPerformed": "Direct provider queue/balance checks, source-vetted original creative film brief, corrected preexisting Merer brief to prevent duplicate Nov16 slot, canonical queue reconciliation. No generation, QC claim, scheduling, upload, paid promotion, likes/comments or new paid vidIQ call.",
+    "note": "Existing 11 Nov PENDING means scheduled but not published. Verify actual PUBLISHED or failed status after 18:00; do not invent result."
   }
 }
