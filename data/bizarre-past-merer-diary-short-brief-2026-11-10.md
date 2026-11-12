@@ -76,3 +76,12 @@ A **real artifact + specific practical answer** (papyrus diary → how white cas
 Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `grok_video_v15_lite` = **8 credits**; `veo3_1_lite` = **12 credits**; `cinematic_studio_video_v2` = **12 credits**. A 21-scene 168-second long-form illustrative **video-only** budget would be **168 credits** on Grok Lite vs **252** on Cinematic Studio v2, still excluding voice/music/retakes; with 169.42 remaining neither enables a safe guaranteed complete long-form production. Cheaper model's visual quality was NOT tested/approved, and its 'up to 1080p' can be upscaled. Do not claim equivalent quality or switch automatically. No credit spend.
 
 **QUEUE CORRECTION 11 NOV 2026:** Live authenticated Metricool queue confirms Nov16 San Juan Short booked both platforms. Merer draft moves from former tentative Nov16 to unbooked candidate Fri20, with no automatic booking or spending. Nov18 is a Wednesday 16:9 target and is not a slot for this 9:16 Short.
+
+
+## Production recheck — 12 November 2026
+- **Checked:** 2026-11-12 08:54 Europe/Oslo.
+- **Live queue:** Thonis-Heracleion remains PENDING on YouTube/TikTok for 13 Nov 18:00; Mørstad remains PENDING on both for 15 Nov 18:00; San Juan horse-races remains PENDING on both for 16 Nov 18:00. No Nov20 Merer booking exists.
+- **Generation history:** newest 100 Higgsfield video jobs were all completed; no active/failed job and no Merer/Wadi al-Jarf generation found in that sample. No existing export to reuse.
+- **Balance:** Higgsfield Plus **167.77 credits**; no usable free video generations.
+- **Decision:** keep this as a source-checked production draft. Do not spend the long-form reserve or silently change to a cheaper, unapproved visual model. The next Wednesday 16:9 film target (18 Nov) needs a safe full budget for original clips, voice, music, retakes and full MP4+audio QC; current balance does not cover the previously indicated approved-quality video-only budget (~252 credits).
+- **Classification:** editorial target held for budget protection, not a failed booking and not a fresh Telegram blocker. No user purchase requested during this run.
