@@ -3454,5 +3454,72 @@
       "caveat": "Snapshots at different publication ages, TikTok completion-rate fields null; cannot say one topic/hook won. 24h/7d/28d or organic/promotion comparisons not available in this retrieval."
     },
     "alert": "No fresh verified operational blocker in publisher or generation status. No Telegram push; insufficient projected funds for an unbooked editorial goal is NOT a confirmed production release blocker."
+  },
+  "whatIfAgentCheck20261112": {
+    "checkedAt": "2026-11-12 around 19:45 Europe/Oslo",
+    "evidence": "data/whatif-agent-review-2026-11-12.json",
+    "aiTuber": {
+      "plan": "Studio",
+      "status": "active",
+      "availableCredits": 6800,
+      "monthlyCredits": 10000,
+      "lastWhatIfDraft": {
+        "id": "6b43df29-1aac-498f-8a0d-5070d8872857",
+        "title": "What If Plants Paused Photosynthesis for a Day?",
+        "durationSeconds": 35,
+        "aspectRatio": "9:16",
+        "generationStatus": "completed",
+        "exportStatus": "completed",
+        "qc": "HOLD_NO_FULL_AUDIOVISUAL_REVIEW",
+        "publicationAttempted": false
+      },
+      "beePriorVideo": {
+        "id": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+        "generationStatus": "completed",
+        "exportStatus": "completed",
+        "qc": "HOLD_FULL_PERCEPTUAL_AUDIOVISUAL_REVIEW_NOT_CONFIRMED",
+        "openAlertId": "whatif-bee-final-av-review-blocked-2026-11-08"
+      }
+    },
+    "publicationCrossCheck": {
+      "youtubeMostRecentSeenInMetricool": {
+        "title": "What If You Could See Flowers Like a Bee?",
+        "publishedDate": "2026-11-08",
+        "youtubeUrl": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+        "views": 8,
+        "meanViewSeconds": 79,
+        "metricoolBrandId": 7751348
+      },
+      "exactAiTuberBeeExportMatch": "NOT_INDEPENDENTLY_VERIFIED",
+      "publicationQcPass": "NOT_ESTABLISHED",
+      "newNov12WhatIfPublicVideoInMetricool": "NONE_OBSERVED",
+      "lastMetricoolQuery": "2026-11-12 evening, YTVV all-videos and YTVP published-range",
+      "interpretation": "Public Bee video exists but does not certify that previously held exact export was booked by agent or fully QC-passed. No reupload/deduplication."
+    },
+    "metricoolSnapshot": {
+      "source": "What If brand 7751348 YTVV cumulative as of Nov12",
+      "saturnViews": 2559,
+      "sunBrighterViews": 1031,
+      "octopusViews": 1024,
+      "oceanViews": 181,
+      "solarStormViews": 107,
+      "beeLongViews": 8,
+      "caution": "Different publishing ages, paid vs organic not separated, no first-2s retention. Don't equate these snapshots with controlled before/after."
+    },
+    "nextSteps": {
+      "short": "Existing Plants 35s needs clear final scientific payoff replacing generic CTA, explicit normal-vs-paused visual, and end-to-end MP4/audio QC before any Friday 18:00 booking. Do not create a duplicate automatically.",
+      "long": "Invisible Air 3–4m source-backed draft remains editorial only; verify job quote, existing queue and audiovisual QA pathway before generation. Next target according to newest What If-specific plan is Sunday 18:00 (not a platform booking).",
+      "analysis": "Use 24h/7d/28d same-age same-format analytics, separating paid/organic whenever accessible."
+    },
+    "compliance": {
+      "newVideoGenerations": 0,
+      "newPublications": 0,
+      "newBookings": 0,
+      "newCreditPurchases": 0,
+      "newPromotions": 0,
+      "existingBookingsModified": false,
+      "newBlockerAlert": false,
+      "reason": "No fresh confirmed blocker; existing bee QC alert remains open."
+    }
   }
 }
