@@ -111,6 +111,20 @@
       ],
       "pacingRule": "NATURAL FLOW FIRST. The six user-supplied prompts are references, not hard numerical obligations: never force 130 spoken words/30 sec, sentences <=8 words, four-word onscreen text, exactly 8-second cuts, or forced loop endings. Deliberate shifts and sufficient breathing space keep storytelling enjoyable.",
       "sourceOfTruth": "Newer, channel-specific schedules, producers, QC gates and publication permissions in this file take precedence. Four adopted prompt methods augment but do not override established six prompt principles."
+    },
+    "scriptFirstQualityDecision20261112": {
+      "decidedOn": "2026-11-12",
+      "principle": "Allocate more editorial time to concept selection, story logic, drafts, visual beats and read-aloud review BEFORE video generation; scripts must pass their channel-specific narrative/educational purpose, not just conform to word counts and technical settings. Preserve natural cinematic/child-friendly flow and the approved 2026-11-10 four mandatory prompt upgrades.",
+      "beforeCredits": [
+        "Choose topic based on verified value for the audience and a precise question/learning goal plus honest final payoff.",
+        "Compare 2-3 genuinely different story approaches and 3-5 strong truthful opening hooks; select one coherent arc.",
+        "Write and prune a complete voice script and storyboard synced scene-by-scene to active visual action, text and sound.",
+        "Read script aloud at natural speed and critically inspect transitions, continuity, accuracy, dialogue, emotion, clarity, any repetitions and whether promised final answer appears.",
+        "Reject unclear scripts BEFORE submitting paid jobs. Check existing video jobs and booking queue to avoid duplication."
+      ],
+      "littleWildSpecific": "Prioritize exciting, educational Milo/Miko/blue Pip mini-adventures with one meaningful child-safe discovery demonstrated in action; review script against data/little-wild-series-bible.json. No credit-spending rework of flawed completed Little Wild films.",
+      "publicationBoundary": "Script review alone NEVER establishes final media QC or publishing approval; actual completed MP4 with sound must be fully reviewed, correctly classified and booked on proper provider with confirmed 18:00 time. Do not buy new credits or promotions without separate approval.",
+      "avoid": "No mechanical cuts, forced word count or rushed narration; quality and meaningful scenes over artificial duration."
     }
   },
   "channels": {
@@ -248,7 +262,8 @@
         "noPaidCorrections": "No additional AI Tuber credits may be spent fixing, regenerating, retrying or replacing a completed Little Wild video that has quality/story/continuity errors. HOLD/REJECT that video instead. Zero-credit work on existing material is allowed only with full final AV QA and no premature publish.",
         "storyRequirement": "Every new Little Wild episode must be simultaneously educational, exciting, age-appropriate, full-motion and character-consistent: visual problem within 0–2 seconds, relevant action and exploration, one accurate learning moment, emotional payoff, warm natural dialogue. Milo teal romper with sun emblem; Miko brown meerkat; Pip blue bird. Preflight all scene prompts and arithmetic BEFORE starting new paid work.",
         "latestHeld": "Pip’s Five-Berry Counting Picnic ID cf30e4c4-e596-44e4-baa9-604bda005130, 38s exported but no full MP4+sound approval, outfit and berry story issues; do not spend more credits trying to fix it. Do not publish as-is.",
-        "autopilot": "A connected YouTube channel at AI Tuber account level is not evidence that the specific AutoPilot is linked; 2026-11-12 notification confirmed this specific AutoPilot has no connected channel. Do not reactivate auto-posting without full QC protections."
+        "autopilot": "A connected YouTube channel at AI Tuber account level is not evidence that the specific AutoPilot is linked; 2026-11-12 notification confirmed this specific AutoPilot has no connected channel. Do not reactivate auto-posting without full QC protections.",
+        "scriptGate": "Before a new paid Little Wild generation, satisfy data/little-wild-series-bible.json scriptFirstProductionGate20261112. Spend more editor effort BEFORE first attempt; only generate truly educational and exciting scripts with visual logic and fixed characters."
       }
     },
     "whatif": {
