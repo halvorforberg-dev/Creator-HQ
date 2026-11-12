@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -1550,5 +1550,65 @@
     "measurement": "After verified publication of a quality-passed film, compare 24h/7d/28d same-age Shorts metrics, especially stayed-to-watch, average percentage viewed, full retention curve and subscribers per 1000; organic versus paid if accessible; no guarantee of advantage.",
     "paidVidiqCreditsUsed": 0,
     "regenerationOrPublicationPerformed": false
+  },
+  "ownerMetricoolVideoSnapshot20261112": {
+    "observedAt": "2026-11-12T16:10:39.386Z",
+    "source": "authenticated Metricool account brand 7296504, YTVP published-in-range and TKPO posts data 4–12 Nov 2026",
+    "youtubeOlderShorts": [
+      {
+        "date": "2026-11-04",
+        "title": "Oak Island",
+        "views": 139,
+        "meanViewSeconds": 14
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Knights Templar",
+        "views": 30,
+        "meanViewSeconds": 11
+      },
+      {
+        "date": "2026-11-08",
+        "title": "Pastry War",
+        "views": 40,
+        "meanViewSeconds": 18
+      }
+    ],
+    "tiktok": [
+      {
+        "date": "2026-11-04",
+        "title": "Oak Island",
+        "views": 263
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Knights Templar",
+        "views": 296
+      },
+      {
+        "date": "2026-11-08",
+        "title": "Pastry War",
+        "views": 291
+      },
+      {
+        "date": "2026-11-09",
+        "title": "Herculaneum",
+        "views": 275
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Antikythera",
+        "views": 272
+      }
+    ],
+    "caveat": "These are current cumulative snapshots NOT age-matched 24h results. YouTube Nov9/Nov11 missing in this connector (sync lag). TikTok completionRate and watchtime null. This does not demonstrate hook/topic effects, and traffic origin (paid/organic) could not be established.",
+    "oneVariableTest": "For future Merer Short, test the truthful 'ancient work diary → Nile boat transport of white pyramid casing' first-frame artifact with explicit last scene answer; compare after real release against an age-matched Bizarre Past Short without changing voice/schedule/format simultaneously.",
+    "sources": [
+      "https://www.ifao.egnet.net/recherche/archeologie/ouadi-el-jarf/",
+      "https://archaeology.org/issues/july-august-2022/features/egypt-wadi-el-jarf-port-papyri/",
+      "https://www.nationalgeographic.com/premium/article/red-sea-scrolls-pyramids-egypt"
+    ],
+    "status": "RESEARCH_HYPOTHESIS_NOT_GENERATED_OR_BOOKED",
+    "impact": "No schedule, media, budget, promotion or alert changes."
   }
 }
