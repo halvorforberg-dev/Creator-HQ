@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-12",
+  "channel": "Little Wild Adventures",
+  "videoId": "cf30e4c4-e596-44e4-baa9-604bda005130",
+  "title": "Pip’s Five-Berry Counting Picnic",
+  "source": "Authenticated AI Tuber GET /videos, GET /videos/{id}, get_video, export_video, download_video; verified shared balance via get_subscription; vidIQ user_channels / balance.",
+  "createdAt": "2026-11-12T15:00:48.163Z",
+  "productionStatus": "completed",
+  "mediaType": "video",
+  "aspectRatio": "9:16",
+  "durationSeconds": 38,
+  "sceneCount": 5,
+  "eachSceneHasGeneratedVideo": true,
+  "export": {
+    "id": "90cc5cc9-4f8f-4eb3-b279-9fd37fcd182b",
+    "resolutionRequested": "1080p",
+    "status": "completed",
+    "verifiedBy": "AITuber get_video and download_video",
+    "finishedFileUrlReturned": true,
+    "actualMp4FullAudioVisualPlayback": false,
+    "limitation": "Provider returned an export MP4 download URL, but web could not open it and container retrieval rejected the URL; no actual end-to-end watch/listen occurred."
+  },
+  "sourceScriptQA": {
+    "characterNames": [
+      "Milo",
+      "Miko",
+      "Pip"
+    ],
+    "bluePipSpecified": true,
+    "brownMikoSpecified": true,
+    "visualReferenceHandlePresentInGeneratorInstructions": false,
+    "outfitMismatch": "Every generator scene describes a teal SWEATER and dark SHORTS. Approved series-bible Milo wears a teal ROMPER with a cream sun emblem; this is a source prompt inconsistency, not an observed final-frame assertion.",
+    "hook": "Opening is a verbal berry-counting question, not an unmistakable physical mishap or funny event in 0–2 sec. Actual first frames not watched.",
+    "storyline": "Five berries are counted 1–5, immediately counted 1–5 again, then shared. Repetitive counting occupies much of the story; no failed attempt or meaningful discovery before resolution.",
+    "visualIssue": "Scene 4 depicts giving away/munching berries, but scene 5 generator environment still says the bowl holds exactly FIVE berries. This is a source scene prompt continuity risk; actual final video not visually verified.",
+    "audience": "Safe preschool counting and sharing theme; 'follow along' is a participation cue rather than a request for public comments.",
+    "ending": "The script says count each fruit once, although source scene planning narrates the count twice; final scene reveals other fruit but does not strongly answer a difficult opening question."
+  },
+  "qc": {
+    "verdict": "HOLD_NOT_APPROVED",
+    "fullAVQcPassed": false,
+    "score": null,
+    "reason": "No finished MP4 actual full playback with audio; scene continuity and hook/story quality need improvement; Made for Kids flag, exact title/cover, live queue and no-duplicate status not independently verified."
+  },
+  "release": {
+    "bookedByThisRun": false,
+    "publishedByThisRun": false,
+    "publicationId": null,
+    "providerBookingVerified": false,
+    "target": "Next compliant NEW Little Wild release only at 18:00 Europe/Oslo after passing QC and queue check; 2026-11-13 is an EDITORIAL TARGET, not an existing booking."
+  },
+  "budget": {
+    "plan": "Studio",
+    "availableCredits": 6800,
+    "monthlyCredits": 10000,
+    "priorReportedCredits": 7020,
+    "delta": -220,
+    "attribution": "Unknown (shared with What If, producer and AutoPilot may consume credits). This agent did not run a new credit-paid generation.",
+    "exportCostCredits": 0,
+    "purchasesByThisRun": 0
+  },
+  "analytics": {
+    "source": "vidIQ user_channels cost 0",
+    "subscribers": 364,
+    "lifetimeViews": 7450,
+    "publicVideos": 17,
+    "priorReportedSubscribers": 250,
+    "caveat": "Not age-matched analytics; organic vs paid/ads cannot be distinguished. 2 vidIQ credits remain, below 5 credits needed for a detailed analytics or owned-upload listing."
+  },
+  "editorialNext": "Retain existing prepared 'Milo’s Rainy-Day Rhythm' brief: begin with a startling visible drum/shaker mishap and END with the trio synchronizing tap-tap-stop, not another counting-only checklist. Review source manuscript, credit needs and provider queue before any new generation. Fix Milo teal romper visual reference in every prompt.",
+  "actionsThisRun": "Read verified sources and all mandated creator HQ rules; 1080p export created at zero credits; attempted download, no full audiovisual QC; no generation, posting, booking, paid promotion, new credits or 1h interactive engagement claimed.",
+  "alertDecision": "No fresh provider-confirmed production/publication blocker. Do not create Telegram alert for a held creative draft or an unbooked editorial goal."
+}
