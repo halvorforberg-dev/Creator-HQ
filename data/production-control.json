@@ -316,7 +316,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-11 after 19:12 Europe/Oslo: Antikythera YouTube+TikTok PUBLISHED; Nov13/15/16 remain PENDING.",
+      "verifiedDate": "2026-11-12 current authenticated Metricool: Nov9 Herculaneum and Nov11 Antikythera both PUBLISHED on YouTube/TikTok; Nov13 Thonis, Nov15 Mørstad and Nov16 San Juan PENDING at 18:00 Europe/Oslo with autoPublish on.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -404,8 +404,8 @@
           "time": "18:00",
           "title": "Scientists Read an Ancient Scroll Without Opening It 😳",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-09 after 18:35 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 18:35; provider status=PUBLISHED and publicUrl returned",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7706218976136973571",
           "providerPostId": "7706218976136973571"
         },
@@ -417,8 +417,8 @@
           "time": "18:00",
           "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-09 after 18:35 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 18:35; provider status=PUBLISHED and publicUrl returned",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "publicUrl": "https://www.youtube.com/shorts/wSIzmG9_su4",
           "providerPostId": "wSIzmG9_su4"
         },
@@ -430,8 +430,8 @@
           "time": "18:00",
           "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null
         },
         {
@@ -442,8 +442,8 @@
           "time": "18:00",
           "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null
         },
         {
@@ -454,8 +454,8 @@
           "time": "18:00",
           "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-11 after 19:12 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 19:12 Europe/Oslo; provider status=PUBLISHED and publicUrl returned",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null,
           "thumbnailUrl": "https://static.metricool.com/planner/202611/7296504-file-17329399027920313354.jpeg",
           "publicUrl": "https://www.youtube.com/watch?v=-HD80govMH4",
@@ -469,8 +469,8 @@
           "time": "18:00",
           "title": "Did you know the Greeks built an ancient COMPUTER? 😳",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-11 after 19:12 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 19:12 Europe/Oslo; provider status=PUBLISHED and publicUrl returned",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null,
           "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7706960721170402582",
           "providerPostId": "7706960721170402582"
@@ -485,8 +485,8 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null
         },
         {
@@ -499,8 +499,8 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null
         },
         {
@@ -511,8 +511,8 @@
           "network": "youtube",
           "title": "Why Rival Armies Raced Horses on the Same Island",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null
         },
         {
@@ -523,8 +523,8 @@
           "network": "tiktok",
           "title": "Why Rival Armies Raced Horses on the Same Island",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-11 pre-18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool live getScheduledPosts Nov11–Nov23, Europe/Oslo",
+          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
+          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
           "mediaUrl": null
         }
       ]
@@ -3198,5 +3198,180 @@
     },
     "userActionRequired": false,
     "alertDecision": "No fresh confirmed booked-production or publication blocker. production-alerts.json unchanged."
+  },
+  "bizarrePastAgentCheck20261112": {
+    "checkedAt": "2026-11-12T16:10:39.386Z",
+    "scope": "Authenticated read-only pre-18:00 audit (not a platform booking or post-release verification for Nov13 onward)",
+    "source": [
+      "Metricool getScheduledPosts brand 7296504 9–25 Nov Europe/Oslo",
+      "Metricool published-in-range YouTube and TikTok posts analytics Nov4–Nov12",
+      "Higgsfield balance and newest 50 video jobs",
+      "IFAO Wadi al-Jarf archaeology excavation source + Archaeology Magazine + NatGeo for Merer"
+    ],
+    "status": [
+      {
+        "id": 420588270,
+        "network": "youtube",
+        "date": "2026-11-15T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PENDING",
+        "url": null,
+        "autoPublish": true,
+        "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard"
+      },
+      {
+        "id": 420588470,
+        "network": "tiktok",
+        "date": "2026-11-15T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PENDING",
+        "url": null,
+        "autoPublish": true,
+        "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard"
+      },
+      {
+        "id": 420886327,
+        "network": "youtube",
+        "date": "2026-11-09T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PUBLISHED",
+        "url": "https://www.youtube.com/shorts/wSIzmG9_su4",
+        "autoPublish": true,
+        "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳"
+      },
+      {
+        "id": 420886502,
+        "network": "tiktok",
+        "date": "2026-11-09T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PUBLISHED",
+        "url": "https://www.tiktok.com/@bizzare.past/video/7706218976136973571",
+        "autoPublish": true,
+        "title": "Scientists Read an Ancient Scroll Without Opening It 😳 #HistoryTok #BizarrePast"
+      },
+      {
+        "id": 422895207,
+        "network": "youtube",
+        "date": "2026-11-11T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PUBLISHED",
+        "url": "https://www.youtube.com/watch?v=-HD80govMH4",
+        "autoPublish": true,
+        "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳"
+      },
+      {
+        "id": 422895503,
+        "network": "tiktok",
+        "date": "2026-11-11T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PUBLISHED",
+        "url": "https://www.tiktok.com/@bizzare.past/video/7706960721170402582",
+        "autoPublish": true,
+        "title": "Did you know the Greeks built an ancient COMPUTER? 😳"
+      },
+      {
+        "id": 423027641,
+        "network": "youtube",
+        "date": "2026-11-13T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PENDING",
+        "url": null,
+        "autoPublish": true,
+        "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion #Shorts"
+      },
+      {
+        "id": 423027976,
+        "network": "tiktok",
+        "date": "2026-11-13T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PENDING",
+        "url": null,
+        "autoPublish": true,
+        "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion"
+      },
+      {
+        "id": 423659187,
+        "network": "youtube",
+        "date": "2026-11-16T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PENDING",
+        "url": null,
+        "autoPublish": true,
+        "title": "Why Rival Armies Raced Horses on the Same Island"
+      },
+      {
+        "id": 423659361,
+        "network": "tiktok",
+        "date": "2026-11-16T18:00:00",
+        "timeZone": "Europe/Oslo",
+        "status": "PENDING",
+        "url": null,
+        "autoPublish": true,
+        "title": "Why Rival Armies Raced Horses on the Same Island"
+      }
+    ],
+    "credits": 167.77,
+    "plan": "plus",
+    "freeUsableVideoGenerations": 0,
+    "generationHistory": "50 newest video jobs all completed, no pending/running among examined 50; absence of active work elsewhere not guaranteed",
+    "queuedChangeByThisRun": false,
+    "newGeneration": false,
+    "newPublishing": false,
+    "paidCreditsPurchased": false,
+    "adsStarted": false,
+    "nextEditorial": "Nov18 Babylon 16:9 ordinary 2–4min is source-checked draft ONLY, not generated/booked; Nov20 Merer 35–40s 9:16 is a draft ONLY, not generated/booked. Monday Nov16 San Juan is already booked. Keep credits available for higher-priority long-form, and do not promise 3–6min new film from 167.77 credits.",
+    "budget": "Previously quoted cinematic 21×8s source scenes cost approx 252 credits video-only; voice/music/retakes extra. No safe full new original 2–4min film budget in current verified balance, and editorial target is not a failed scheduled release.",
+    "analytics": {
+      "youtubeDataSyncLimitation": "published-in-range metric query Nov4–Nov12 returned only Nov4, Nov6, Nov8 older Shorts; Nov9/Nov11 videos did not appear and no user retention curve available.",
+      "youtube": [
+        {
+          "title": "Oak Island",
+          "date": "2026-11-04",
+          "views": 139,
+          "avgViewSeconds": 14
+        },
+        {
+          "title": "Knights Templar",
+          "date": "2026-11-06",
+          "views": 30,
+          "avgViewSeconds": 11
+        },
+        {
+          "title": "Pastry War",
+          "date": "2026-11-08",
+          "views": 40,
+          "avgViewSeconds": 18
+        }
+      ],
+      "tiktok": [
+        {
+          "title": "Oak Island",
+          "date": "2026-11-04",
+          "views": 263
+        },
+        {
+          "title": "Knights Templar",
+          "date": "2026-11-06",
+          "views": 296
+        },
+        {
+          "title": "Pastry War",
+          "date": "2026-11-08",
+          "views": 291
+        },
+        {
+          "title": "Herculaneum",
+          "date": "2026-11-09",
+          "views": 275
+        },
+        {
+          "title": "Antikythera",
+          "date": "2026-11-11",
+          "views": 272
+        }
+      ],
+      "caveat": "Snapshots at different publication ages, TikTok completion-rate fields null; cannot say one topic/hook won. 24h/7d/28d or organic/promotion comparisons not available in this retrieval."
+    },
+    "alert": "No fresh verified operational blocker in publisher or generation status. No Telegram push; insufficient projected funds for an unbooked editorial goal is NOT a confirmed production release blocker."
   }
 }
