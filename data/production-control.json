@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -3127,5 +3127,76 @@
       "userActionRequired": false,
       "alertDecision": "No fresh confirmed blocker; production-alerts.json unchanged."
     }
+  },
+  "bizarrePastShortsCheck20261112": {
+    "checkedAt": "2026-11-12T08:54:39+01:00",
+    "task": "Bizarre Past Shorts queue maintenance",
+    "governingFiles": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
+      "Library libfile_4c651a7414a88191ba834a4ddd276281 (historical plan; newer production-control rules take precedence)"
+    ],
+    "liveQueue": [
+      {
+        "film": "Thonis-Heracleion",
+        "date": "2026-11-13",
+        "time": "18:00",
+        "youtubeId": 423027641,
+        "tiktokId": 423027976,
+        "status": "PENDING",
+        "mediaAttached": true
+      },
+      {
+        "film": "Mørstad hoard",
+        "date": "2026-11-15",
+        "time": "18:00",
+        "youtubeId": 420588270,
+        "tiktokId": 420588470,
+        "status": "PENDING",
+        "mediaAttached": true
+      },
+      {
+        "film": "San Juan horse races",
+        "date": "2026-11-16",
+        "time": "18:00",
+        "youtubeId": 423659187,
+        "tiktokId": 423659361,
+        "status": "PENDING",
+        "mediaAttached": true
+      }
+    ],
+    "protectedQueueChanged": false,
+    "nextShortCandidate": {
+      "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳",
+      "topic": "Merer's diary / Wadi al-Jarf shipping records",
+      "possibleSlot": "2026-11-20 18:00 Europe/Oslo",
+      "status": "SOURCE_CHECKED_PRODUCTION_DRAFT_NOT_GENERATED_NOT_EXPORTED_NOT_QC_PASSED_NOT_BOOKED",
+      "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
+      "generatedVideoJobsFound": 0,
+      "exportFound": false
+    },
+    "higgsfield": {
+      "credits": 167.77,
+      "plan": "plus",
+      "usableFreeVideoGenerations": 0,
+      "newest100VideoJobs": "all completed",
+      "activeJobs": 0,
+      "failedJobs": 0
+    },
+    "reserveDecision": {
+      "priority": "Preserve credits for the planned 2026-11-18 ordinary 16:9 film before a new Short",
+      "approvedQualityVideoOnlyEstimateCredits": 252,
+      "additionalCosts": "voice, music and retakes not included",
+      "outcome": "NO_PAID_GENERATION_THIS_RUN",
+      "reason": "167.77 credits do not safely cover the priority long-form target at the approved-quality model; no silent downgrade to a cheaper untested model."
+    },
+    "vidiq": {
+      "credits": 2,
+      "connectedChannel": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "productionBlocked": false
+    },
+    "userActionRequired": false,
+    "alertDecision": "No fresh confirmed booked-production or publication blocker. production-alerts.json unchanged."
   }
 }
