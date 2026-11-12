@@ -481,5 +481,27 @@
     "zeroCreditChanges": "Metadata or editing of existing material is allowed only if genuinely zero-credit and the full final MP4 with audio can be reviewed. No quality approval merely from script, thumbnails, transcript, technical metadata or completed export.",
     "existingCurrentDraft": "Pip’s Five-Berry Counting Picnic (cf30e4c4-e596-44e4-baa9-604bda005130) remains HOLD, not approved, not published or scheduled. Do not purchase credits or run paid regeneration to fix clothing, story, or berries.",
     "publishing": "Maintain Made for Kids and 18:00 Europe/Oslo, verify provider actual queue and full audiovisual QC, no duplicates. The AutoPilot's lack of a connected channel must not be bypassed by an unreviewed auto-publish toggle."
+  },
+  "scriptFirstProductionGate20261112": {
+    "decidedOn": "2026-11-12",
+    "priority": "Spend more of the editorial effort on concept and manuscript BEFORE any AI Tuber generation. A script is not ready merely because it fits 35-40 seconds. It must be an educational, emotionally engaging, exciting mini-adventure with a visible payoff. This step is a hard pre-production gate, not a retroactive fix.",
+    "workflow": [
+      "Write a one-sentence child-level learning objective and a separate one-sentence dramatic question the child wants answered; both must pay off on screen.",
+      "Draft 2-3 meaningfully different story paths (not cosmetic retellings). Choose the clearest with the strongest observable action, safe learning, and emotional payoff.",
+      "Write 3-5 truthful immediate visual openings; select an opening where Milo encounters a small tangible surprise/problem in the first 0-2 seconds.",
+      "Build a complete beginning / purposeful middle / solution / warm finale. Give Milo a real choice and attempt; make Miko and blue Pip active helpers. Avoid repetitive counting, generic lectures and arbitrary narration.",
+      "Use a scene-by-scene script + moving visuals + exact dialogue/voice + SFX/music + character/wardrobe notes. Every scene changes the situation or teaches something that leads directly to the ending. Let scene durations follow natural storytelling rather than rigid timed cuts.",
+      "Read the script aloud at a gentle preschool pace and test the logic from a 3-6-year-old viewer perspective: what is the problem, what happens, what do I learn, how do we know the solution worked?",
+      "Proofread numbers, colors, character identities and costumes against series bible. If any inconsistency exists, rewrite the SCRIPT before credits are used. Confirm no accidental dupes or preexisting jobs in AutoPilot.",
+      "Only after script-level approval consider new generation, with budget guard and prior no-paid-rework rule. Completed MP4 still requires complete audiovisual QC, correct Made for Kids and provider booking at 18:00 Europe/Oslo before release."
+    ],
+    "approvalQuestions": [
+      "Would a child understand and care about the opening immediately?",
+      "Is the curiosity sustained through real attempts and consequences rather than filler?",
+      "Does the learning happen through actions the child can see?",
+      "Is the story coherent, exciting, warm and age appropriate?",
+      "Can every scene be animated consistently with Milo, Miko and BLUE Pip?"
+    ],
+    "noPaidRework": "Do not use additional paid credits to fix an already generated flawed episode; failed videos remain drafts/rejected."
   }
 }
