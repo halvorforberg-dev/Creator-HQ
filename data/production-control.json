@@ -1663,6 +1663,65 @@
         "adsPurchased": 0
       },
       "nextAction": "Hold photosynthesis draft until final AV review and real visual payoff. Reuse existing sourced 'What If You Could See Invisible Air?' long-film brief only after confirming budget and complete QC path; no repeated production/duplicate. Resolve bee-video source-ID discrepancy without falsely approving old quality hold. No new confirmed blocker alert."
+    },
+    "littleWildDaily20261112": {
+      "date": "2026-11-12",
+      "checkedAtOslo": "2026-11-12 after 18:15 Europe/Oslo",
+      "source": [
+        "AITuber authenticated list_videos, GET /videos/{id}, get_video, export_video, download_video, get_subscription and list_channels",
+        "Creator HQ governing production-control/series-bible/prompt-upgrades/competitor-watch and production-alerts",
+        "vidIQ authenticated zero-credit channel stats and balance; Gmail notifications query (no matching recent messages)"
+      ],
+      "production": {
+        "latestLittleWild": {
+          "videoId": "cf30e4c4-e596-44e4-baa9-604bda005130",
+          "title": "Pip’s Five-Berry Counting Picnic",
+          "providerCreatedAt": "2026-11-12T15:00:48.163Z",
+          "mediaType": "video",
+          "durationSeconds": 38,
+          "aspectRatio": "9:16",
+          "fiveVideoScenes": true,
+          "exportId": "90cc5cc9-4f8f-4eb3-b279-9fd37fcd182b",
+          "exportStatus": "completed",
+          "exportResolutionRequested": "1080p",
+          "approval": "HOLD_NOT_APPROVED",
+          "publicationId": null,
+          "publicYouTubeStatus": "UNVERIFIED; not posted or booked by this run",
+          "qaPath": "data/little-wild-five-berry-qc-2026-11-12.json"
+        },
+        "priorShoeDraft": "70f5759d-15f2-4b08-8620-7bfdd74dc22a remains QC HOLD; do not duplicate",
+        "upcomingTarget": "Friday 2026-11-13 18:00 Europe/Oslo Short is editorial only, not verified provider booking"
+      },
+      "qa": {
+        "sourceScriptRead": true,
+        "completeMp4AudioVideoViewed": false,
+        "findings": [
+          "Correct names Milo/Miko/Pip and BLUE Pip in script/prompts",
+          "Milo clothing rendered instructions are teal sweater and dark shorts, not approved teal romper with cream sun",
+          "Recounts five berries twice; lacks opening animated physical problem; last scene says five berries remain after sharing; visual mismatch risk",
+          "1080p export completed but actual file cannot be downloaded/viewed with tools; final visual, audio, lip sync, Made for Kids metadata and queue unverified"
+        ],
+        "disposition": "No posting or QC approval until actual full media is inspected and errors cleared"
+      },
+      "budget": {
+        "sharedPlan": "Studio",
+        "monthlyCredits": 10000,
+        "availableCredits": 6800,
+        "priorReportedCredits": 7020,
+        "observedDifference": -220,
+        "attribution": "Unknown split between What If and Little Wild; agent-generated extra videos 0; export free; purchases 0",
+        "allocation": "What If approx 7000 / Little Wild approx 3000 per month, guidance not hard caps"
+      },
+      "analytics": {
+        "vidiqSubscribers": 364,
+        "vidiqLifetimeViews": 7450,
+        "vidiqPublicVideos": 17,
+        "previousReportedSubscribers": 250,
+        "vidiqRemainingCredits": 2,
+        "note": "Abrupt subscriber change does not establish organic growth; paid vs organic not verified. No paid vidIQ calls."
+      },
+      "decision": "No duplicate/past-date booking; retain Rainy-Day Rhythm script only. No new verified operational blocker or Telegram alert; existing alert registry unchanged.",
+      "actualActions": "Read platform and HQ, exported one existing AI Tuber video to 1080p (0 credits), attempted to obtain final video without success, wrote QA report and operational check. No paid generation, public post, advertisement, credit purchase, like, comment or 1-hour Work session."
     }
   },
   "channelAudit": {
