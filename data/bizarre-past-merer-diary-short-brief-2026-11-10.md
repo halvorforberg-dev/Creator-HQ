@@ -85,3 +85,9 @@ Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `g
 - **Balance:** Higgsfield Plus **167.77 credits**; no usable free video generations.
 - **Decision:** keep this as a source-checked production draft. Do not spend the long-form reserve or silently change to a cheaper, unapproved visual model. The next Wednesday 16:9 film target (18 Nov) needs a safe full budget for original clips, voice, music, retakes and full MP4+audio QC; current balance does not cover the previously indicated approved-quality video-only budget (~252 credits).
 - **Classification:** editorial target held for budget protection, not a failed booking and not a fresh Telegram blocker. No user purchase requested during this run.
+
+## Source cross-check — 12 November 2026
+- The excavating institution's own Wadi el-Jarf project page publishes restored Papyrus B fragments and excavation context: https://www.ifao.egnet.net/recherche/archeologie/ouadi-el-jarf/ . Use it to check visual plausibility, NOT to reuse copyrighted documentary photographs in our generated video.
+- Archaeology Magazine’s interview/report on Tallet’s excavations confirms roughly forty workers in Merer’s direct group and explains the discovery context: https://archaeology.org/issues/july-august-2022/features/egypt-wadi-el-jarf-port-papyri/ . Avoid a misleading generic 'slaves built the pyramid' claim; the script already avoids it.
+- National Geographic’s account also distinguishes the white casing-stone transport from the entire engineering method: https://www.nationalgeographic.com/premium/article/red-sea-scrolls-pyramids-egypt . Keep that distinction in the final narrated payoff.
+- This is source research only: neither a real generated master nor a booking has been created here. Keep the proposed Nov20 Short unbooked until sufficient funds, finished AV-QC and exact duplicate control.
