@@ -1610,5 +1610,68 @@
     ],
     "status": "RESEARCH_HYPOTHESIS_NOT_GENERATED_OR_BOOKED",
     "impact": "No schedule, media, budget, promotion or alert changes."
+  },
+  "whatifResearchNote20261112Agent": {
+    "checkedAt": "2026-11-12 evening Europe/Oslo",
+    "officialCompetitorReference": {
+      "publisher": "QuirkScience",
+      "catalogue": "https://quirkscience.com/films/",
+      "lastAlreadyDatedItemAtCheck": "Will California Fall Into the Ocean? (listed Nov 11, 2026; 1:06 short)",
+      "caveat": "Catalog also lists 'Will the World End on November 13, 2026?' as Nov 12. Because site says releases at 6 PM Central, do not treat Nov12 listing as independently live at 19:45 Oslo. No video playback, views, 2-second hook or retention verified."
+    },
+    "scienceSource": {
+      "title": "Harvard Natural Sciences: Schlieren Optics",
+      "url": "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+      "fact": "Schlieren optics reveals small light-refraction differences from gradients of temperature/density/pressure in air, such as warm convection and hair-dryer air flow; not literal eyesight of all wind."
+    },
+    "ownedYouTubeEvidence": {
+      "channel": "What If in 40 Seconds",
+      "source": "authenticated Metricool brand 7751348 YTVV all videos (2026-11-12)",
+      "saturn": {
+        "views": 2559,
+        "meanWatchSeconds": 15,
+        "paidTrafficUnseparated": true
+      },
+      "sunBrighter": {
+        "views": 1031,
+        "meanWatchSeconds": 15
+      },
+      "octopus": {
+        "views": 1024,
+        "meanWatchSeconds": 10
+      },
+      "ocean": {
+        "views": 181,
+        "meanWatchSeconds": 9
+      },
+      "beeLong": {
+        "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+        "publishedAt": "2026-11-08",
+        "views": 8,
+        "meanWatchSeconds": 79,
+        "interpretation": "Very small sample; public post does not independently prove exact export/QA."
+      },
+      "limitation": "Cumulative counts at unequal post ages; no organic split, detailed retention, measured opening or valid matched cross-format comparison."
+    },
+    "originalHypothesis": "In a positive science What If, immediate split-screen physical demo plus visible real-science conclusion on the SAME object may improve explanatory clarity and future long-form retention vs abstract narration or generic CTA. Requires real post-QC test.",
+    "proposedTest": {
+      "title": "What If You Could See Invisible Air?",
+      "brief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+      "status": "SCRIPT_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "hook": "What if you could SEE air?",
+      "payoff": "Return to normal cup and labeled schlieren view of density-gradient plume bending under a gentle draft.",
+      "length": "3–4 min ordinary 16:9",
+      "measure": "Same-format age-matched 24h/7d/28d CTR, retention, qualified public watch minutes and subscriptions; separate organic/paid when possible"
+    },
+    "creditSafeStatus": {
+      "studioCredits": 6800,
+      "sharedMonthlyBudget": 10000,
+      "whatIfAutopilot": "Latest confirmed drafts-only (Nov 7 UI), cannot verify real-time setting via API.",
+      "shortDraft": "Plants paused photosynthesis 35s (ID 6b43df29-1aac-498f-8a0d-5070d8872857), exported but HOLD pending full sound+visual QA and clearer final payoff.",
+      "newGenerations": 0,
+      "newBookings": 0,
+      "newAlerts": 0
+    },
+    "evidencePath": "data/whatif-agent-review-2026-11-12.json"
   }
 }
