@@ -242,6 +242,13 @@
         },
         "ownerAnalytics": "vidIQ connected owner channels do not include Little Wild; public vidIQ channel-videos request failed with insufficient credits (2 remaining, 5 required) and no credits were charged. Metricool brands do not include Little Wild.",
         "nextStep": "User should inspect/pause or correct main and Weekly Long Story AutoPilot schedules in AITuber dashboard; enforce names Milo/Miko/Pip, approved visual reference, full-motion and pre-publication MP4+audio review and release time 18:00; avoid publishing rejected scripts."
+      },
+      "noPaidReworkDecision20261112": {
+        "decidedOn": "2026-11-12",
+        "noPaidCorrections": "No additional AI Tuber credits may be spent fixing, regenerating, retrying or replacing a completed Little Wild video that has quality/story/continuity errors. HOLD/REJECT that video instead. Zero-credit work on existing material is allowed only with full final AV QA and no premature publish.",
+        "storyRequirement": "Every new Little Wild episode must be simultaneously educational, exciting, age-appropriate, full-motion and character-consistent: visual problem within 0–2 seconds, relevant action and exploration, one accurate learning moment, emotional payoff, warm natural dialogue. Milo teal romper with sun emblem; Miko brown meerkat; Pip blue bird. Preflight all scene prompts and arithmetic BEFORE starting new paid work.",
+        "latestHeld": "Pip’s Five-Berry Counting Picnic ID cf30e4c4-e596-44e4-baa9-604bda005130, 38s exported but no full MP4+sound approval, outfit and berry story issues; do not spend more credits trying to fix it. Do not publish as-is.",
+        "autopilot": "A connected YouTube channel at AI Tuber account level is not evidence that the specific AutoPilot is linked; 2026-11-12 notification confirmed this specific AutoPilot has no connected channel. Do not reactivate auto-posting without full QC protections."
       }
     },
     "whatif": {
