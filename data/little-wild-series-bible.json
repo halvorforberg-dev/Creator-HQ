@@ -79,7 +79,8 @@
       "genuine child-friendly problem, attempt, learning, payoff",
       "scientific and preschool-safe content, no mistakes portrayed as teaching facts",
       "1080p final export; ideally native 1080p clips when credits allow",
-      "correct YouTube channel + Made for Kids + 18:00 Oslo + no duplicate release"
+      "correct YouTube channel + Made for Kids + 18:00 Oslo + no duplicate release",
+      "2026-11-12 USER RULE: no credit-spending repair/retry/regeneration of an already-generated flawed Little Wild video; do not release that draft"
     ],
     "scorecard": {
       "hookAndImmediateAction": 20,
@@ -471,5 +472,14 @@
     "assistantMayBookAfterPassingQC": true,
     "perVideoConfirmationRequired": false,
     "guardrails": "Apply full MP4 visual+audio review and >=90/100 quality score, recurring cast, true motion, educational payoff, correct Made for Kids flag, 18:00 Europe/Oslo queue and duplicate verification. Existing AI Tuber Autopilot draft-only settings still require real booking and status proof; no unchecked autopost."
+  },
+  "userDecision20261112": {
+    "decidedOn": "2026-11-12",
+    "rule": "DO NOT spend any additional AI Tuber credits to fix, regenerate, retry, extend, or replace an already-generated Little Wild episode with mistakes. Mark the episode QC_HOLD or REJECTED; no second paid pass and do not publish a failing video.",
+    "priority": "New episodes must be educational AND exciting for preschoolers: immediate visually engaging small problem; Milo attempts something; Miko and BLUE Pip help through action; one accurate observable learning point; surprising/satisfying final payoff. Not generic counting narration, repetition or passive slides.",
+    "beforeAnyNewPaidGeneration": "Preflight the full script and per-scene facts, character visual reference and outfits, names, counting/arithmetic, action, voice pacing and hook; ensure the intended idea is genuinely differentiated. Check existing video IDs/drafts/AutoPilot first. Only start a separate new production when the credit budget and first-pass quality plan justify it; no credits for correcting a prior bad video.",
+    "zeroCreditChanges": "Metadata or editing of existing material is allowed only if genuinely zero-credit and the full final MP4 with audio can be reviewed. No quality approval merely from script, thumbnails, transcript, technical metadata or completed export.",
+    "existingCurrentDraft": "Pip’s Five-Berry Counting Picnic (cf30e4c4-e596-44e4-baa9-604bda005130) remains HOLD, not approved, not published or scheduled. Do not purchase credits or run paid regeneration to fix clothing, story, or berries.",
+    "publishing": "Maintain Made for Kids and 18:00 Europe/Oslo, verify provider actual queue and full audiovisual QC, no duplicates. The AutoPilot's lack of a connected channel must not be bypassed by an unreviewed auto-publish toggle."
   }
 }
