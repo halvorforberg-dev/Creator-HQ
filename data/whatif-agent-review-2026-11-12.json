@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "checkedAtOslo": "2026-11-12 19:45 Europe/Oslo (approximately; routine read-only verification)",
+  "agent": "What If – kanalagent",
+  "source": {
+    "productionRules": "data/production-control.json",
+    "creative": "data/creative-prompt-upgrades.json",
+    "competitorWatch": "data/competitor-watch.json",
+    "aiTuber": "authenticated GET /videos; GET /subscription; GET /channels",
+    "ownAnalytics": "Metricool brand 7751348 (connected channel UCUZ1h_XukdY1IQvwwuEnW0Q), YTVV all videos and YTVP published in range 2026-10-25 through 2026-11-12",
+    "competitor": "Official dated QuirkScience publisher catalogue https://quirkscience.com/films/",
+    "scientificSource": "Harvard Natural Sciences Demonstrations https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics"
+  },
+  "actualStatus": {
+    "mostRecentConfirmedYouTubePublication": {
+      "title": "What If You Could See Flowers Like a Bee?",
+      "publishedAtPlatform": "2026-11-08 18:55:40 from Metricool field YTVP02 (timezone not explicitly encoded)",
+      "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+      "views": 8,
+      "meanWatchSeconds": 79,
+      "watchMinutes": 10.57435,
+      "interpretation": "Very small sample: 8 views; do not claim healthy retention or organic traffic. Public upload does not prove that the prior AI Tuber bee-export ID is the exact same rendering or that full audio-visual QC passed."
+    },
+    "newOwnVideoTodayConfirmed": false,
+    "newestAITuberWhatIfDraft": {
+      "videoId": "6b43df29-1aac-498f-8a0d-5070d8872857",
+      "title": "What If Plants Paused Photosynthesis for a Day?",
+      "created": "2026-11-11T17:00:48.853Z",
+      "status": "completed",
+      "exportStatus": "completed",
+      "aspectRatio": "9:16",
+      "durationSeconds": 35,
+      "projectQcFile": "data/whatif-plants-photosynthesis-qc-2026-11-11.json",
+      "qc": "HOLD: no full final MP4 with audible sound reviewed; generic CTA and unclear normal/paused chemistry were previously verified in source script; no booking/publish attempted this run"
+    },
+    "oldBeeExport": {
+      "videoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
+      "status": "completed",
+      "fullPerceptualAvQcPassed": false,
+      "alertId": "whatif-bee-final-av-review-blocked-2026-11-08",
+      "alertAlreadyOpen": true
+    },
+    "credits": {
+      "studioBalance": 6800,
+      "monthlyStudioCredits": 10000,
+      "previousReportedNov11": 7020,
+      "delta": -220,
+      "attribution": "not established, shared What If/Little Wild pool",
+      "newCreditsPurchased": 0
+    },
+    "channel": "What If in 40 Seconds in connected AI Tuber, ID 78dcabfb-3657-41ab-89b8-8c04da2f43d5"
+  },
+  "metrics": [
+    {
+      "title": "What If Saturn’s Rings Vanished Overnight?",
+      "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0",
+      "publishedAt": "2026-11-01",
+      "views": 2559,
+      "meanWatchSeconds": 15,
+      "approxLengthSeconds": 38,
+      "paidCaveat": "promotion previously used; paid and organic not separated"
+    },
+    {
+      "title": "What If the Sun Got 10% Brighter?",
+      "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+      "publishedAt": "2026-11-07",
+      "views": 1031,
+      "meanWatchSeconds": 15,
+      "approxLengthSeconds": 34
+    },
+    {
+      "title": "What If Octopuses Lived on Land?",
+      "url": "https://www.youtube.com/watch?v=u51oWL8ACTQ",
+      "publishedAt": "2026-11-03",
+      "views": 1024,
+      "meanWatchSeconds": 10,
+      "approxLengthSeconds": 33
+    },
+    {
+      "title": "What If the Ocean Glowed Like Stars?",
+      "url": "https://www.youtube.com/watch?v=l_eoxyfvfRM",
+      "publishedAt": "2026-11-03",
+      "views": 181,
+      "meanWatchSeconds": 9,
+      "approxLengthSeconds": 31.509
+    },
+    {
+      "title": "What If a Solar Storm Hit Earth?",
+      "url": "https://www.youtube.com/watch?v=6JKhRTWs7rU",
+      "publishedAt": "2026-11-05",
+      "views": 107,
+      "meanWatchSeconds": 11,
+      "approxLengthSeconds": 38
+    },
+    {
+      "title": "What If You Could See Flowers Like a Bee?",
+      "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+      "publishedAt": "2026-11-08",
+      "views": 8,
+      "meanWatchSeconds": 79,
+      "approxLengthSeconds": 159
+    }
+  ],
+  "analyticsInterpretation": {
+    "evidence": "Authenticated Metricool snapshot; cumulative values, published-age differences and incomplete organic/paid source attribution",
+    "noInference": "Do not infer causal hook effects, an audience preference, or strong bee retention from these comparisons; do not infer that the old hold is resolved by public YouTube existence.",
+    "strongestActionableFinding": "The latest Plants generated script lacks the promised visible final consequence; prioritize revising the existing project (rather than a duplicated generation) with normal-vs-paused and a clear photosynthesis-restored sunrise scene.",
+    "hypothesis": "A physically demonstrated result in the final scene, with the same object and a natural opening question, is more comprehensible than a generic follow-for-more CTA. Hypothesis only; not yet A/B tested.",
+    "measurement": "If a future QC-approved film is actually published, capture video-level 24h/7d/28d retention, stayed-to-watch, average duration, subs per 1000, and organic-vs-paid; compare within format and age rather than cumulative lifetime snapshots."
+  },
+  "competitor": {
+    "officialCatalog": "https://quirkscience.com/films/",
+    "latestClearlyPastDatedShort": "Will California Fall Into the Ocean?",
+    "listedDate": "2026-11-11",
+    "listedDuration": "1:06",
+    "contentNotPlayed": true,
+    "viewsOrRetentionKnown": false,
+    "timingCaveat": "Official catalog also lists Nov 12 film 'Will the World End on November 13, 2026?' but do not assert the film went live as of 19:45 Oslo; site says daily release 6 PM Central (later than this check).",
+    "inference": "One-question structured explanatory Shorts remain an existing content convention. We will keep a different positive real-physics visual demonstration; no title/script/visual copying."
+  },
+  "editorialNext": {
+    "primaryLongForm": {
+      "title": "What If You Could See Invisible Air?",
+      "brief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+      "format": "public 16:9 3–4 min",
+      "state": "SOURCE_CHECKED_SCRIPT_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "selectedHook": "What if you could SEE air?",
+      "firstVisual": "A normal cup contrasted within two seconds with clearly labeled schlieren-style rising air-density gradient",
+      "finalVisual": "The identical cup side-by-side with the schlieren gradient that bends under a draft; clearly explain that changes in air density, not every breeze, become visible",
+      "source": "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+      "risk": "No actual per-job production quote or full audiovisual QC path verified; do not spend credits just to fill a target."
+    },
+    "nextShort": {
+      "title": "What If Plants Paused Photosynthesis for a Day?",
+      "existingId": "6b43df29-1aac-498f-8a0d-5070d8872857",
+      "action": "Use already documented revised script in data/whatif-plants-photosynthesis-qc-2026-11-11.json and correct original export where feasible; no new paid generation until actual QC route exists.",
+      "state": "HOLD_NOT_APPROVED_NOT_BOOKED"
+    },
+    "schedule": {
+      "source": "latest What If specific schedule in data/production-control.json",
+      "newFilmTargets": "Monday + Friday 35–40s 9:16 Shorts; Wednesday + Sunday 3–4m 16:9 regular public; 18:00 Europe/Oslo",
+      "editorialNotBooking": true
+    }
+  },
+  "execution": {
+    "newVideoJobs": 0,
+    "newMp4Exports": 0,
+    "newBookings": 0,
+    "confirmedPublicationsByThisAgent": 0,
+    "adCampaigns": 0,
+    "newSubscriptionsOrCreditPurchases": 0,
+    "githubReportCreated": true,
+    "alertsAdded": 0,
+    "reasonNoNewAlert": "No fresh confirmed operational blocker: the bee AV-quality case is already open; missing editorial slots or limited playback access alone are not new confirmed incidents."
+  }
+}
