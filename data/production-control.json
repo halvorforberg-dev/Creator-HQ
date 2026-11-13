@@ -338,7 +338,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-13 18:05 Europe/Oslo: Nov13 Thonis YouTube PUBLISHED with verified public URL; TikTok AWAITING_CONFIRMATION (detailedStatus says Published:7707703213323569155, no final published status/URL). Nov15 Mørstad and Nov16 San Juan PENDING intact.",
+      "verifiedDate": "2026-11-13 after 18:07 Oslo: Nov13 Thonis PUBLISHED both YouTube and TikTok (live public URLs verified). Nov15 Mørstad and Nov16 San Juan PENDING both unchanged.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -522,12 +522,12 @@
           "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion",
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
-          "lastVerifiedStatus": "AWAITING_CONFIRMATION",
-          "statusVerifiedDate": "2026-11-13 18:05:43 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 18:00 Oslo, status AWAITING_CONFIRMATION, detailedStatus=Published:7707703213323569155, but no PUBLISHED status or publicUrl yet",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-13 18:07 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 18:07 Oslo, PUBLISHED and provider publicUrl returned",
           "mediaUrl": null,
-          "detail": "Published:7707703213323569155",
-          "reportedProviderPostIdPendingConfirmation": "7707703213323569155"
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7707703313050963202",
+          "providerPostId": "7707703313050963202"
         },
         {
           "id": 423659187,
@@ -3527,7 +3527,7 @@
     }
   },
   "bizarrePastAgentCheck20261113": {
-    "checkedAtOslo": "2026-11-13 18:05:43 Europe/Oslo",
+    "checkedAtOslo": "2026-11-13 18:07 Europe/Oslo",
     "sources": [
       "Authenticated Metricool getScheduledPosts BIZARRE PAST brand 7296504 before and after Nov13 18:00",
       "Higgsfield authenticated balance",
@@ -3547,11 +3547,12 @@
       },
       "tiktok": {
         "postId": 423027976,
-        "status": "AWAITING_CONFIRMATION",
-        "detailedStatus": "Published:7707703213323569155",
-        "confirmedAt": "2026-11-13 18:05:43 Europe/Oslo",
-        "publicUrl": null,
-        "decision": "Not yet independently PUBLISHED even though detailed status contains a candidate provider id. Check later provider status, no duplicate posting."
+        "status": "PUBLISHED",
+        "confirmedAt": "2026-11-13 18:07 Europe/Oslo",
+        "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7707703313050963202",
+        "providerVideoId": "7707703313050963202",
+        "source": "Authenticated Metricool confirmed published and returned exact provider public URL",
+        "note": "Earlier AWAITING_CONFIRMATION detail showed a different candidate ID, not used as URL; this is the final provider-confirmed ID."
       },
       "queueUnchanged": true
     },
@@ -3634,7 +3635,7 @@
       "squireExplains": "https://channeldb.com/c/%40squireexplains/stats",
       "learningHypothesis": "For next funded original long-form, test physical archaeological mystery explained through a question with a visible final answer; compare 24h/7d/28d owner CTR, retention and qualifying watch time with like-for-like formats; source read, no openings directly watched."
     },
-    "alertDecision": "No new confirmed provider failure: one platform PUBLISHED, TikTok AWAITING_CONFIRMATION (not failed) within normal processing. No Telegram alert now; do not invent a failure. If actual provider changes to FAILED or remains failed after established normal processing, log confirmed blocker with latest source.",
+    "alertDecision": "Thonis verified PUBLISHED on both YT and TikTok, no provider failure, no Telegram blocking alert. Next Nov15/Nov16 PENDING unchanged.",
     "actionsThisRun": "Read platform status multiple times around actual 18:00; checked balance and two queues; improved existing source-backed Babylon editorial manuscript and dated competitor research in GitHub; read older Library plan while preferring newer production-control; no generation, no paid video or ad, no video publish/booking changes, no comments/likes or claimed one-hour Work session."
   }
 }
