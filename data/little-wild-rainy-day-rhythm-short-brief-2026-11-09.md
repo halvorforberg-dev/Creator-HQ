@@ -43,3 +43,40 @@ Reference AI Tuber saved element `@Little-Wild-Milo-and-Friends` (ID `02b49901-3
 - After actual release (if any), collect 24h/7d/28d engaged views, watch time and Shorts viewed-vs-swiped and avoid causal claims from tiny samples. Test the effect of **physical action within first two seconds** against comparable previous Little Wild Shorts.
 
 **Prepared on:** 09.11.2026, read-only AITuber audit first. The published series reference is https://www.youtube.com/shorts/NjlWiWmNrRg .
+
+---
+
+## 13.11.2026 — manus før credits: ytterligere historie- og rytme-QC
+
+**Status fortsatt:** REVISED_EDITORIAL_DRAFT_ONLY. Ingen generering, eksport, booking eller publisering av dette konseptet. Dette er en foreslått manusforbedring, **ikke** godkjent ferdig video. Ny generering forutsetter fersk saldo, estimert kredittbruk og What If-reservasjon, faktisk AutoPilot-/køkontroll og et ferdig manus vurdert i rolig opplesning.
+
+**Tre vesentlig forskjellige konsepter vurdert før valg:**
+- **A. Vår innendørs regn-parade (valgt):** Milo starter tromming for høyt, Miko mister ranglen, og Pip finner en *to slag + pause*-rytme som alle kan lære med kroppen. Én trygg lek, lett forståelig uten lyd.
+- **B. Regndråpe-detektiv:** De hører ulik lyd fra regn mot vindu og tak, utforsker *sterkt/svakt*. Faglig spennende, men mange usynlige lydårsaker gjør denne vanskelig å vise presist på 35–40 sekunder.
+- **C. Hinderløype-marsj:** De mister takten mens de marsjerer rundt puter og stoler, og lærer å lytte til en felles leder. Mer fysisk variasjon, men for mange samtidige bevegelser gjør fortelling og animasjon vanskeligere.
+
+**Fire mulige sanne 0–2s-hooks vurdert på nytt:** (1) Milo slår trommen og Miko mister ranglen (*valgt*), (2) blå Pip stopper brått mens venner trommer videre, (3) regnværet gjør at de flytter lekeparaden inn, (4) Milo og Miko slår samtidig, men i helt ulik takt. Valg (1) viser konflikten umiddelbart og gir et reelt svar i siste scene.
+
+**Revidert engelsk arbeidsmanus — 63 ord, ikke lydtestet:**
+
+> BOOM! Milo's drum startled Miko. His shaker rolled away! "Oops!" Milo laughed. He tried a faster beat. Miko shook too soon. Pip flapped twice... then stopped. Milo watched closely. "Pip has a pattern! Two beats, then quiet!" Milo tapped twice. Miko shook twice. Pip flapped twice. They all froze. Then everybody laughed. "We found our rhythm!" cheered Milo. "Your turn: tap, tap... STOP!"
+
+**Manus-QC:** Ca. 30–33 sekunder ren tale ved *antatt* 115–125 ord/min, før rytmelyder, pauser og latter. Dette er et regnestykke, **ikke** en innspilt naturlig opplesning. Varighet 35–40s må verifiseres ved faktisk TTS-/eksportlyd; stryk heller ord enn å fremskynde stemmen. Behold rom for stille STOP og karakterreaksjoner. Ikke tving sceneskift til faste intervaller.
+
+**Scener for animasjon og lyd (tider er flytende dramaturgiske holdepunkter):**
+1. **Umiddelbar overraskelse:** Samme lekestue, regn synlig i vinduet; Milo i teal romper med solmerke slår på myk leketromme, brun Miko mister en *lukket* barnerangle på mykt teppe, blå Pip hopper bakover. BOOM-effekt i trygg, mild miks under ordet, ingen voldsom lyd. Barnet spør: *Kan de lære samme takt?*
+2. **Mislykket forsøk:** Milo hjelper Miko opp/ranglen tilbake; trommingen går for fort, Miko rister for tidlig, Pip blir forvirret. Hver synlig bevegelse skal følge sin lyd, ingen repetisjon som fyll.
+3. **Oppdagelse:** Pip flakser **to** tydelige ganger og venter helt stille. Milo ser på Pip og forstår ideen: to slag, så pause. Lyden senkes akkurat under pausen for å la barnet forutse svaret.
+4. **Prøve det ut:** Milo slår nøyaktig **to** slag, Miko rister to ganger, Pip flakser to ganger, i samme takt. Ingen ny figur, ingen endring i hår, hudtone, antrekk, prop eller bakgrunn.
+5. **Visuelt svar:** Samme gruppe i bredt bilde gjør én ren *tap, tap ... STOP!*; alle tre stopper samtidig, smiler og ler. Kort deltakelsesinvitasjon "Your turn" uten offentlig kommentaroppfordring. Sluttlyd og siste ord må være fullt hørbare.
+
+**Visuelt hardkrav:** Gjenbruk AI Tuber-elementet `@Little-Wild-Milo-and-Friends` / `02b49901-30ed-4570-be58-64b0c9b4d801` i alle scenebeskrivelser der støttet. Milo bruker **teal romper**, ikke teal sweater + mørk shorts. Miko gyllenbrun med grønn sekk; Pip helt blå med oransje nebb og brun veske. Reell full motion (ikke pan/zoom på stillbilder), samme regnværsrom, eksakt to fysiske rytmebevegelser ved payoff.
+
+**Kildekontroll 13.11.2026:** PBS KIDS for Parents beskriver at 3-åringer kan kopiere rytmer med enkle perkusjonsinstrumenter og at 4-åringer oppdager musikalske mønstre og kroppslig bevegelse. PEEP fremhever aktiv, observerbar utforsking. Kilder:
+- https://www.pbs.org/parents/learn-grow/age-3/arts/music-and-movement
+- https://www.pbs.org/parents/learn-grow/age-4/arts/music-and-movement
+- https://www.peepandthebigwideworld.com/en/educators/preschool-science-peep-approach/
+
+Dette underbygger *læringsmetoden*, ikke påstander om YouTube-retensjon eller ferdig videoeffekt. Testbar hypotese: fysisk rytmefeil i første sekund + gjentakbar synkronisert løsningsscene gir mer engasjerte visninger og 0–2s hold enn historiske oppramsende rutiner, ved sammenligning av like gamle Shorts. Ingen slike resultater er målt ennå.
+
+**Faktisk produksjonskontroll 13.11:** AI Tuber-kontoen har 6 580 av 10 000 credits, delt med prioritert What If. Ingen ny Little Wild-produksjon etter 12.11 finnes i tilgjengelig liste pr. kontroll rundt 18:05 Oslo. Ny eksport fra 12.11 («Pip’s Five-Berry Counting Picnic») er fortsatt på HOLD: MP4-lenke kom fra AI Tuber, men `cdn.aituber.app` kunne ikke DNS-oppløses i arbeidsmiljøet; full lyd/bilde-QC er dermed ikke utført. Fredag 13.11 kl. 18 var et redaksjonelt mål, ikke verifisert plattformbooking. Ingen forsøk på sen publisering, ingen nye kjøp/credits brukt eller AutoPilot-endring.
