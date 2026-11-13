@@ -81,3 +81,47 @@ Ordered narrative beats only: time each segment to the ACTUAL recorded narration
 - Existing future unique Metricool records read on Nov 11: Antikythera YT 422895207/TT 422895503, Thonis YT 423027641/TT 423027976, Mørstad YT 420588270/TT 420588470, San Juan YT 423659187/TT 423659361 — all PENDING at 18:00 Oslo, dates Nov 11/13/15/16 respectively.
 - This brief is an **editorial deliverable only**. Before any work on this title, check new Higgsfield jobs, exact current credit quote, sources and reusable licensed original clips, playback viability of final export and Metricool live queue. Don't create or book duplicates; booking response must include provider ID and pending status, followed by verification after release.
 - QC priority: 3–5 truthful hooks, one clear mystery and final answer, natural unforced narration, every scene advances the story, factual boundaries, full MP4/audio audition, matching voice/visuals, no black frames, no false captions, good cover/metadata, 1080p when possible, no forced loop or machine-timed cuts.
+
+
+## Manuspreflight v2 — 13 November 2026 (ingen generering)
+**Status:** Redigert manusutkast, ikke godkjent video, ingen ny kostnad eller booking. Basert på verifisert museumsforklaring; UK British Museum direkte nettside ga 403 ved ny henting, men museumstekst gjengitt hos Smarthistory og Google Arts & Culture er tilgjengelig. Før betalt produksjon må eventuelle innskriftsdetaljer kontrolleres igjen.
+
+**Redaksjonell endring:** Korter ned abstrakte gjentakelser, flytter de synlige trekantene tidligere i fortellingen, og løser konkret spørsmålet som vises i åpningen. Beholder rolig fortellerstemme og naturlige pustepauser. Publikum får først et objekt, deretter en observasjon, et spørsmål, forsøk på tolkning, kildebegrensninger og til slutt et presist svar. Ingen kunstige åttesekunderskutt.
+
+**Spoken English v2 (263 words; estimer faktisk spilletid ved ordentlig prøveinnlesing, ikke lås til tidslinje):**
+
+> Did you know a Babylonian map showed mysterious lands beyond the sea?
+>
+> Imagine an ancient scribe pressing a map into wet clay. It was small enough to hold in one hand. But this tiny tablet pictured an entire world.
+>
+> Start in the middle. The rectangle is Babylon, with the Euphrates running through it. Other names refer to real places, including Assyria and Elam.
+>
+> Then your eye reaches a ring. It wasn't a modern political border. Its label means the Salt Sea, surrounding the familiar world.
+>
+> But look outside that ring. Tiny triangles stretch away from the circle. What did those strange shapes mean?
+>
+> Scholars read them as distant regions or islands. There were probably eight in the original picture. Yet the clay is broken. Some of the writing is lost forever.
+>
+> Now this gets stranger. The inscriptions aren't simply directions for travellers. They mix real geography with stories of distant places. Strange creatures and heroic figures enter that imagined world.
+>
+> So are these triangles secret islands waiting to be found? That is not what the tablet can prove. It doesn't provide modern coordinates. And it cannot verify that mythical adventures happened.
+>
+> The surviving object was found near ancient Sippar, in what is now Iraq. It is usually dated to around the sixth century before the Common Era.
+>
+> Now return to those tiny triangles. On this map, they picture what lay beyond familiar lands: distant regions, uncertainty, and stories about the unknown.
+>
+> The answer isn't a hidden monster or a lost treasure. It's a window into how Babylonians imagined the edge of their world.
+
+**Scene, lyd og bevegelse for v2:**
+- **0–2 sek:** Faktisk bevegelig leirmodell, kamera raskt mot trekant utenfor ring; muntlig «Did you know…», liten «DID YOU KNOW?» og spørsmålet «WHAT IS BEYOND THE SEA?». *Nysgjerrighet:* Hva er disse små trekantene?
+- **Skriveren og det ekte landet:** Arbeidende hender og lys over en liten tavle → plan modell av Babylon/Eufrat/Assyria/Elam; naturlig blyantskrap/leirlyd. Ikke påstå å vise presis avskrift eller lokalisere med moderne nøyaktighet.
+- **Det store skillet:** Ring fylles visuelt av animerte vannstrømmer på lerretet; fortelleren sier «Salt Sea»; kamera fortsetter over ringen til trekantene uten skarpt, uforklart scenekutt.
+- **Avdekkingen:** Trianglenes form avsløres med bevegelse og forsiktig illustrasjon av region/øy; sprekkene i originaltavlen markeres som hull, ikke diktet ferdigutfylte deler. Musikk bygger lett spenning.
+- **Historie vs. myte:** Faraway silhouettes og symbolske figurer som eksplisitt imaginær/fortellende illustrasjon; VO presiserer at fortellingene ikke gir moderne GPS eller beviser legender.
+- **Sluttsvar:** Samme leirmodell fra åpningen. Kamera trekker ut, trekantene labeles «DISTANT REGIONS / ISLANDS» og ringen «SALT SEA»; sluttlinjen fortelles ferdig mens bildet viser Babylons forestillingsverden, og musikken får naturlig avslutning. Unngå misvisende påstand om Noahs ark eller funn av monstrene.
+
+**Ny offentlig konkurrentobservasjon, 13.11:** History Matters publiserte en 8:11 ordentlig 16:9-video 6.11 med WHY-tittel «Why didn't Napoleon just stop?», ifølge Trari 1 376 485 visninger pr. 13.11, 7 kalenderdager etter publisering; kanalen ca. 1,92M abonnenter. Ingen direkte avspilling av 0–2 sek foreligger. Test på vår **egen** kanal kun *et kildebelagt spørsmål som viser objektet og får et synlig svar* mot vår forrige langfilm ved 24t/7d/28d: CTR, faktisk retention, seerminutter og subs/1000. Ikke sammenlign råvisninger direkte med langt større History Matters; ikke anta årsakssammenheng.
+
+**Kilder:** British Museum via https://smarthistory.org/map-of-the-world/ ; https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg ; History Matters tredjeparts daterte katalog: https://trari.com/en/c/historymatters/ .
+
+**Budsjettport:** Higgsfield Plus 167,77 credits ved tilkoblet sjekk 13.11; ingen gratis video-generering igjen. Tidligere ca. 252 credits for 21 × 8s cinematic video-klipp før voice, musikk, rettelser. Derfor HOLD 16:9-film som manus: ingen ny betalt generering eller utrygg planlagt publisering uten finansiert full scenepakke og ferdig avspilt MP4 med lyd. Nov18 18:00 er kun redaksjonelt mål, ikke booket.
