@@ -1736,5 +1736,47 @@
     "application": "Original new Little Wild Rainy-Day Rhythm premise: Milo drum noise -> Miko loses beat -> Pip demonstrates two wing flaps and a pause -> all synchronize physically and stop together. Clear causality, one learning outcome, use approved visual reference unchanged.",
     "test": "If eventual full-motion 9:16 35–40s film passes AV QC and is actually published, compare first 2s stay rate, engaged views, watch time and viewer participation proxies to previous similarly aged Little Wild Shorts. Identify organic vs paid traffic first.",
     "caveat": "The links explain educational design, NOT observed video view performance or retention. No competitor full audiovisual playback/metrics this run. No generated or booked video and no paid vidIQ analytics."
+  },
+  "whatifResearchNote20261113Agent": {
+    "checkedAt": "2026-11-13 evening Europe/Oslo",
+    "competitiveFormatEvidence": {
+      "publisher": "QuirkScience",
+      "catalog": "https://quirkscience.com/films/",
+      "latestListed": "Why Is the Door to Hell Still Burning? — listed Nov 13 2026, 1:04",
+      "previousListed": "Will the World End on November 13, 2026? — listed Nov 12 2026, 1:04",
+      "limitation": "Publisher lists a 6 PM Central release time; evening Oslo Nov13 is earlier, so the Nov13 listing is NOT evidence the video has already been published. No direct playback, opening, views or retention verified."
+    },
+    "ourEvidence": {
+      "source": "Authenticated Metricool What If all videos as of Nov 13 evening",
+      "views": {
+        "saturn2560": 2560,
+        "sun1067": 1067,
+        "octopus1025": 1025,
+        "ocean182": 182,
+        "bee16": 16
+      },
+      "qualifiedReading": "Only cumulative counts, unequal ages, paid Saturn contamination and no video-specific early retention; no causal conclusion."
+    },
+    "newOriginalTest": {
+      "title": "What If the Sky Showed Three Suns?",
+      "brief": "data/whatif-sundogs-short-brief-2026-11-13.md",
+      "source": [
+        "https://www.rmets.org/metmatters/haloes-and-sun-dogs",
+        "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects"
+      ],
+      "science": "Sun dogs/parhelia are real side-bright spots caused by refraction through oriented plate-like hexagonal ice crystals; one actual Sun, apparent extra suns. RMetS paper published 2026-10-08.",
+      "hook": "What if the sky showed THREE suns?",
+      "payoff": "Same real sky labels single central Sun and two sun dogs, with ray path through one hexagonal ice crystal.",
+      "hypothesis": "First-two-second credible optical reveal and exact visual explanation may improve clarity and future same-format retention versus generic final CTA. Must test at 24h/7d/28d; no claims yet.",
+      "status": "EDITORIAL_ONLY_NO_GENERATION_NO_BOOKING"
+    },
+    "latestAIObservation": {
+      "videoId": "455caced-457b-4a19-9796-1f74926d2845",
+      "title": "What If Antarctica’s Ice Melted Completely?",
+      "createdNov13": true,
+      "qc": "HOLD: not exported nor AV-reviewed; catastrophe-focused plus generic CTA and contradictory final Antarctic ice visualization.",
+      "providerSource": "AI Tuber GET /videos/{id}",
+      "report": "data/whatif-agent-review-2026-11-13.json"
+    }
   }
 }
