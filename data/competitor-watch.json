@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -23,7 +23,19 @@
         ],
         "observed": "2026-11-03: 16 October 2026 long film about Molotov-Ribbentrop Pact 9:07, 815,111 third-party views after 18 calendar days. Questions (WHY) dominate titles; exact opening and pace not watched.",
         "test": "Test original sourced WHY-mysteries with immediate Did you know hook; start with a fact-checked Roman scroll digitally read without opening it; do not imply views are caused by title.",
-        "confidence": "High that packaging pattern exists; no direct causal proof for views."
+        "confidence": "High that packaging pattern exists; no direct causal proof for views.",
+        "latestVerifiedNov13": {
+          "checkedDate": "2026-11-13",
+          "source": "https://trari.com/en/c/historymatters/",
+          "newUpload": "Why didn't Napoleon just stop? (Short Animated Documentary)",
+          "published": "2026-11-06",
+          "format": "8:11 long-form ordinary video",
+          "observedViews20261113": 1376485,
+          "approxChannelSubscribers20261113": 1920000,
+          "finding": "Specific why-question titles remain common in the newest History Matters long-form documentary; views age ~7 days and subscribers enormous vs Bizarre Past. Neither first 0-2 seconds nor retention watched or known; don't attribute views to why-title.",
+          "originalTest": "For the sourced Babylon clay-map draft, test a concrete object + Why question + visible explanation of regions/islands beyond the Salt Sea. Distinguish geography from myth. Measure own age-matched 24h/7d/28d long-form CTR, retention and watch-minutes after verified release, if any.",
+          "noCopy": "No source footage or title script reused."
+        }
       },
       {
         "name": "Squire Explains",
@@ -231,6 +243,21 @@
         "https://www.pbs.org/parents/crafts-and-experiments/sorting-and-counting-with-blocks"
       ],
       "editorialFormat": "35–40s full-motion Short, research only"
+    },
+    {
+      "channel": "bizarre",
+      "addedOn": "2026-11-13",
+      "hypothesis": "An original photographed-looking-but-labeled AI clay-object mystery ('What were the triangles beyond Babylon’s Salt Sea?') solved in the last shot may better justify a long video than vague legendary-ark speculation.",
+      "basis": "British Museum museum-authored object explanation + recent competitor title format and current own limited Metricool data. This is an editorial hypothesis, not a measured result.",
+      "evidence": [
+        "https://smarthistory.org/map-of-the-world/",
+        "https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg",
+        "https://trari.com/en/c/historymatters/"
+      ],
+      "ownDataCaveat": "Metricool YouTube published-in-range returned older Nov4-8 rows, 139 Oak Island, 30 Templar, 40 Pastry War; newer YouTube Nov9+ rows absent in this field. TikTok posts Nov11 Antikythera 274, Nov9 Herculaneum 275 as of Nov13; no full watch-rate or retention. Different ages/platforms. No causal claim.",
+      "test": "Preflight 2–4min documentary script first, then if safely funded full original Higgsfield motion+voice+music+MP4 QC, compare 24h/7d/28d same-format CTR/retention/seerminutter against channel baseline. Do not book editorial target without master.",
+      "status": "SOURCE_CHECKED_SCRIPT_REVISED_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "briefPath": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
     }
   ],
   "lastResearch": {
