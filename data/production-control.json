@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -338,7 +338,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-12 current authenticated Metricool: Nov9 Herculaneum and Nov11 Antikythera both PUBLISHED on YouTube/TikTok; Nov13 Thonis, Nov15 Mørstad and Nov16 San Juan PENDING at 18:00 Europe/Oslo with autoPublish on.",
+      "verifiedDate": "2026-11-13 18:05 Europe/Oslo: Nov13 Thonis YouTube PUBLISHED with verified public URL; TikTok AWAITING_CONFIRMATION (detailedStatus says Published:7707703213323569155, no final published status/URL). Nov15 Mørstad and Nov16 San Juan PENDING intact.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -506,10 +506,12 @@
           "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion #Shorts",
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
-          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
-          "mediaUrl": null
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-13 18:05:43 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 18:00 Oslo, status PUBLISHED and publicUrl returned",
+          "mediaUrl": null,
+          "publicUrl": "https://www.youtube.com/shorts/LvqQbn53zwo",
+          "providerPostId": "LvqQbn53zwo"
         },
         {
           "id": 423027976,
@@ -520,10 +522,12 @@
           "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion",
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
-          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
-          "mediaUrl": null
+          "lastVerifiedStatus": "AWAITING_CONFIRMATION",
+          "statusVerifiedDate": "2026-11-13 18:05:43 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts after 18:00 Oslo, status AWAITING_CONFIRMATION, detailedStatus=Published:7707703213323569155, but no PUBLISHED status or publicUrl yet",
+          "mediaUrl": null,
+          "detail": "Published:7707703213323569155",
+          "reportedProviderPostIdPendingConfirmation": "7707703213323569155"
         },
         {
           "id": 423659187,
@@ -3521,5 +3525,116 @@
       "newBlockerAlert": false,
       "reason": "No fresh confirmed blocker; existing bee QC alert remains open."
     }
+  },
+  "bizarrePastAgentCheck20261113": {
+    "checkedAtOslo": "2026-11-13 18:05:43 Europe/Oslo",
+    "sources": [
+      "Authenticated Metricool getScheduledPosts BIZARRE PAST brand 7296504 before and after Nov13 18:00",
+      "Higgsfield authenticated balance",
+      "Creator HQ creative-prompt-upgrades.json / production-control.json / competitor-watch.json / Thonis QC",
+      "User Library YouTube-kanalplan.md (01 Nov older superseded lengths)",
+      "British Museum museum-authored text via Smarthistory and Google Arts & Culture",
+      "History Matters Nov13 2026 Trari channel/video age data",
+      "Squire Explains Nov13 2026 ChannelDB third-party channel stats"
+    ],
+    "currentPublish": {
+      "video": "Egypt’s Lost City Had TWO Names (Thonis-Heracleion), 39.01s 9:16 master from prior technical+ASR QA",
+      "youtube": {
+        "postId": 423027641,
+        "status": "PUBLISHED",
+        "confirmedAt": "2026-11-13 18:05:43 Europe/Oslo",
+        "url": "https://www.youtube.com/shorts/LvqQbn53zwo"
+      },
+      "tiktok": {
+        "postId": 423027976,
+        "status": "AWAITING_CONFIRMATION",
+        "detailedStatus": "Published:7707703213323569155",
+        "confirmedAt": "2026-11-13 18:05:43 Europe/Oslo",
+        "publicUrl": null,
+        "decision": "Not yet independently PUBLISHED even though detailed status contains a candidate provider id. Check later provider status, no duplicate posting."
+      },
+      "queueUnchanged": true
+    },
+    "upcoming": {
+      "sunday": {
+        "title": "Mørstad Viking silver hoard",
+        "date": "2026-11-15 18:00 Europe/Oslo",
+        "youtubePostId": 420588270,
+        "tiktokPostId": 420588470,
+        "status": "PENDING both",
+        "autoPublish": true
+      },
+      "monday": {
+        "title": "San Juan Island horse races",
+        "date": "2026-11-16 18:00 Europe/Oslo",
+        "youtubePostId": 423659187,
+        "tiktokPostId": 423659361,
+        "status": "PENDING both",
+        "autoPublish": true
+      },
+      "wednesday": {
+        "title": "Babylon's world map",
+        "date": "2026-11-18",
+        "format": "16:9 2-4min",
+        "status": "IMPROVED_SCRIPT_V2_ONLY_NOT_GENERATED_NOT_BOOKED"
+      },
+      "friday": {
+        "title": "Merer's diary",
+        "date": "2026-11-20",
+        "format": "35-40s 9:16",
+        "status": "SOURCE_CHECKED_DRAFT_ONLY_NOT_GENERATED_NOT_BOOKED"
+      }
+    },
+    "credits": {
+      "higgsfieldPlan": "Plus",
+      "balance": 167.77,
+      "usableFreeVideoGenerations": 0,
+      "refillObserved": false,
+      "estimatedPreviousLongVideoClipsOnly": 252,
+      "decision": "HOLD new paid generation until a complete approved model budget including voice, music and retakes can support long-form; don't spend short credits without reserve. No credit purchase."
+    },
+    "analytics": {
+      "metricoolYouTubeOldRows": [
+        {
+          "date": "2026-11-04",
+          "title": "Oak Island",
+          "views": 139
+        },
+        {
+          "date": "2026-11-06",
+          "title": "Knights Templar",
+          "views": 30
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Pastry War",
+          "views": 40
+        }
+      ],
+      "freshYouTubeRowsNov9To13": "NO_ROWS_RETURNED_BY_SELECTED_METRICOOL_METRICS; NOT proof of zero views",
+      "tiktokRecent": [
+        {
+          "date": "2026-11-09",
+          "title": "Herculaneum",
+          "views": 275
+        },
+        {
+          "date": "2026-11-11",
+          "title": "Antikythera",
+          "views": 274
+        }
+      ],
+      "caveat": "Snapshotted at different video ages; paid/organic and retention not available, don't attribute performance to hook or cause."
+    },
+    "research": {
+      "work": "Reviewed and rewrote Babylon script as 263-word v2 with concrete missing-islands question, simpler middle, original moving sequence and final answer on map; no clip/audio generated.",
+      "brief": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md",
+      "competitorFile": "data/competitor-watch.json",
+      "historyMatters": "https://trari.com/en/c/historymatters/",
+      "squireExplains": "https://channeldb.com/c/%40squireexplains/stats",
+      "learningHypothesis": "For next funded original long-form, test physical archaeological mystery explained through a question with a visible final answer; compare 24h/7d/28d owner CTR, retention and qualifying watch time with like-for-like formats; source read, no openings directly watched."
+    },
+    "alertDecision": "No new confirmed provider failure: one platform PUBLISHED, TikTok AWAITING_CONFIRMATION (not failed) within normal processing. No Telegram alert now; do not invent a failure. If actual provider changes to FAILED or remains failed after established normal processing, log confirmed blocker with latest source.",
+    "actionsThisRun": "Read platform status multiple times around actual 18:00; checked balance and two queues; improved existing source-backed Babylon editorial manuscript and dated competitor research in GitHub; read older Library plan while preferring newer production-control; no generation, no paid video or ad, no video publish/booking changes, no comments/likes or claimed one-hour Work session."
   }
 }
