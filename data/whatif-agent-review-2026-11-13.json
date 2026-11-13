@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "checkedAtOslo": "2026-11-13 evening, approximately 19:37–19:55 Europe/Oslo",
+  "channel": "What If in 40 Seconds",
+  "sources": {
+    "governance": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/competitor-watch.json"
+    ],
+    "provider": "Authenticated AI Tuber Studio GET /videos, GET /videos/{id}, GET /subscription; Gmail AI Tuber AutoPilot notification 2026-11-13",
+    "metrics": "Metricool brand 7751348 YouTube published-in-range/all-videos 2026-10-18 through 2026-11-13 evening; source-relative cumulative snapshots",
+    "competitor": "QuirkScience official publisher dated listings https://quirkscience.com/films/ (not actual video playback)",
+    "factChecks": [
+      "https://climate.copernicus.eu/climate-indicators/ice-sheets",
+      "https://www.rmets.org/metmatters/haloes-and-sun-dogs",
+      "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects"
+    ]
+  },
+  "observed": {
+    "latestDraft": {
+      "id": "455caced-457b-4a19-9796-1f74926d2845",
+      "title": "What If Antarctica’s Ice Melted Completely?",
+      "createdAt": "2026-11-13T17:00:50.435Z",
+      "createdAtOslo": "2026-11-13 18:00:50",
+      "status": "completed",
+      "mediaType": "video",
+      "aspectRatio": "9:16",
+      "durationSeconds": 40,
+      "sourceVideoScenes": 5,
+      "exportStatus": null,
+      "providerNotification": "New video saved in library, not posting to YouTube per AI Tuber notification 2026-11-13 17:02:23Z",
+      "publicationId": null,
+      "publicYouTubeUrl": null
+    },
+    "qc": {
+      "verdict": "HOLD_UNAPPROVED",
+      "scriptAndSceneInstructionsRead": true,
+      "fullExportedMP4Available": false,
+      "fullAudioVisualReviewCompleted": false,
+      "opening": "What if Antarctica’s ice melted completely? (word alignment What if within ~0.4 sec).",
+      "scientificAccuracy": "Antarctic land ice full-loss potential ~58m global sea level; Copernicus 57.9±0.9m. Long-duration caveat present.",
+      "specificFailures": [
+        "Generic final Follow/share CTA instead of a scientific spoken conclusion and visible payoff; last scene shows Antarctica still capped in white ice, conflicting with the premise of completely melted ice.",
+        "Dark catastrophic flooding is not the channel's preferred positive, surprising science theme.",
+        "Narration-to-clip timecodes from final actual MP4, music balance, visual fidelity, mobile opening, subtitles and natural voice are not checked; no completed export exists."
+      ],
+      "action": "Keep draft, do not book or regenerate without clear QC/budget. Revise ending only if this topic is deliberately retained later; prefer next positive, physically demonstrable concept."
+    },
+    "subscription": {
+      "plan": "Studio",
+      "status": "active",
+      "sharedAvailableCredits": 6580,
+      "monthlyAllowance": 10000,
+      "previousKnown20261112": 6800,
+      "delta": -220,
+      "attribution": "not attributable exactly to What If; shared with Little Wild",
+      "purchasesByThisRun": 0
+    },
+    "publication": {
+      "mostRecentInMetricool": {
+        "date": "2026-11-08",
+        "title": "What If You Could See Flowers Like a Bee?",
+        "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+        "newSinceNov12": false
+      },
+      "confirmedWhatIfPostOnNov13": false,
+      "caveat": "Metricool YouTube sync is a snapshot and AI Tuber itself has no account-wide list-publications endpoint; cannot prove exhaustive absence on all services."
+    },
+    "ownMetrics": [
+      {
+        "video": "Saturn rings",
+        "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0",
+        "views": 2560,
+        "averageViewSeconds": 15,
+        "paidPromoted": true
+      },
+      {
+        "video": "Sun 10% brighter",
+        "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+        "views": 1067,
+        "averageViewSeconds": 15
+      },
+      {
+        "video": "Octopuses on land",
+        "url": "https://www.youtube.com/watch?v=u51oWL8ACTQ",
+        "views": 1025,
+        "averageViewSeconds": 10
+      },
+      {
+        "video": "Ocean glowed",
+        "url": "https://www.youtube.com/watch?v=l_eoxyfvfRM",
+        "views": 182,
+        "averageViewSeconds": 10
+      },
+      {
+        "video": "Bee flowers long",
+        "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+        "views": 16,
+        "averageViewSeconds": 62
+      }
+    ],
+    "metricsCaveat": "Cumulative snapshots at unequal post ages; organic and paid not separated; no owner retention curves or first-two-seconds data. Bee long 16 views is too small for reliable conclusions.",
+    "competitor": {
+      "source": "https://quirkscience.com/films/",
+      "latestListed": "Why Is the Door to Hell Still Burning? listed Nov13, 1:04",
+      "lastEarlierListed": "Will the World End on November 13, 2026? listed Nov12, 1:04",
+      "caution": "Official site says new video daily 6 PM Central; Nov13 listing by evening Oslo does not prove it has yet gone live. No direct video playback or audience metrics measured; only question-led editorial format observed."
+    },
+    "nextAction": {
+      "prioritize": "Complete/read existing 16:9 What If You Could See Invisible Air? scientific storyboard; no generation until per-video quote, safe QA path and duplicate queue checks. Do not create duplicate bee, Plants or Antarctica clips.",
+      "newTest": "What If the Sky Showed Three Suns?",
+      "brief": "data/whatif-sundogs-short-brief-2026-11-13.md",
+      "hypothesis": "Immediate true sundog visual and same-view refraction payoff may improve comprehension versus catastrophic abstract narration and generic CTA. Untested."
+    }
+  },
+  "execution": {
+    "newGenerations": 0,
+    "newExports": 0,
+    "newBookings": 0,
+    "confirmedNewPublications": 0,
+    "newPaidAds": 0,
+    "purchasedCredits": 0,
+    "newBlockerAlerts": 0,
+    "reasonNoAlert": "Latest new video is a library draft as intended, not verified failed production or a confirmed missed booking; previously known perceptual bee AV gate remains separately tracked."
+  }
+}
