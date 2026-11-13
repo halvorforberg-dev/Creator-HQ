@@ -1714,5 +1714,27 @@
       "newAlerts": 0
     },
     "evidencePath": "data/whatif-agent-review-2026-11-12.json"
+  },
+  "littleWildResearchNote20261113": {
+    "date": "2026-11-13",
+    "channel": "Little Wild Adventures",
+    "type": "FREE_PRIMARY_SOURCE_EDUCATIONAL_MICRO_RESEARCH",
+    "sources": [
+      {
+        "url": "https://www.pbs.org/parents/learn-grow/age-3/arts/music-and-movement",
+        "observation": "PBS KIDS for Parents describes young children exploring percussive instruments and copying simple rhythms."
+      },
+      {
+        "url": "https://www.pbs.org/parents/learn-grow/age-4/arts/music-and-movement",
+        "observation": "PBS KIDS discusses recognizing music patterns, tempo and rhythmic movement."
+      },
+      {
+        "url": "https://www.peepandthebigwideworld.com/en/educators/preschool-science-peep-approach/",
+        "observation": "PEEP preschool approach emphasizes firsthand object experiments, observable consequences and inquiry."
+      }
+    ],
+    "application": "Original new Little Wild Rainy-Day Rhythm premise: Milo drum noise -> Miko loses beat -> Pip demonstrates two wing flaps and a pause -> all synchronize physically and stop together. Clear causality, one learning outcome, use approved visual reference unchanged.",
+    "test": "If eventual full-motion 9:16 35–40s film passes AV QC and is actually published, compare first 2s stay rate, engaged views, watch time and viewer participation proxies to previous similarly aged Little Wild Shorts. Identify organic vs paid traffic first.",
+    "caveat": "The links explain educational design, NOT observed video view performance or retention. No competitor full audiovisual playback/metrics this run. No generated or booked video and no paid vidIQ analytics."
   }
 }
