@@ -45,7 +45,21 @@
         ],
         "observed": "Nov 2 public third-party snapshot: 15.3k subscribers; 2026-10-18 'She Went to War Disguised as Her Brother' 3.49M views (15 days old), ~14x site's typical comparator. Visual opening and runtime not inspected.",
         "test": "Look for undercovered bizarre historical incidents and simple but high-energy storytelling; verify actual channel videos before drawing performance conclusions.",
-        "confidence": "Candidate to check; video-level claims not yet verified."
+        "confidence": "Candidate to check; video-level claims not yet verified.",
+        "latestVerifiedNov13": {
+          "checkedDate": "2026-11-13",
+          "source": "https://channeldb.com/c/%40squireexplains/stats",
+          "thirdPartyChannelSnapshot": {
+            "subscribers": 20900,
+            "totalViews": 22054076,
+            "publicVideos": 56,
+            "lastSevenDaySubscriberGain": 3700,
+            "lastSevenDayViewGain": 3900000
+          },
+          "interpretation": "Compared with ~1.92M-subscriber History Matters, this much smaller animated history channel shows substantial channel-level weekly growth. 1 newly added video Nov13 but video title/individual count not yet verified; do NOT attribute growth to today's post or extrapolate to Bizarre Past.",
+          "uncertainty": "ChannelDB aggregate snapshot, not direct YouTube Studio; cannot inspect opening 0-2sec or audience retention; avoid speculative cause and ad earnings.",
+          "test": "Use original verifiable small historical paradox with first-second moving object and satisfying final answer, not copied Squire script/visual."
+        }
       }
     ],
     "whatif": [
