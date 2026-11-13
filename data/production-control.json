@@ -3637,5 +3637,65 @@
     },
     "alertDecision": "Thonis verified PUBLISHED on both YT and TikTok, no provider failure, no Telegram blocking alert. Next Nov15/Nov16 PENDING unchanged.",
     "actionsThisRun": "Read platform status multiple times around actual 18:00; checked balance and two queues; improved existing source-backed Babylon editorial manuscript and dated competitor research in GitHub; read older Library plan while preferring newer production-control; no generation, no paid video or ad, no video publish/booking changes, no comments/likes or claimed one-hour Work session."
+  },
+  "littleWildAgentCheck20261113": {
+    "date": "2026-11-13",
+    "checkedWindow": "approx 18:05 Europe/Oslo; provider timestamps in UTC",
+    "sources": [
+      "AI Tuber GET /videos (35 newest, account shared)",
+      "AI Tuber GET /subscription",
+      "AI Tuber GET /videos/cf30e4c4-e596-44e4-baa9-604bda005130",
+      "AI Tuber GET /exports/download (12 Nov five-berry video)",
+      "AI Tuber GET /channels",
+      "Gmail 2026-11-13 AI Tuber AutoPilot notification",
+      "vidIQ connected user_channels (0 credits)",
+      "Creator HQ fresh source docs; PBS KIDS/PEEP primary educational sources"
+    ],
+    "littleWild": {
+      "latestVideoId": "cf30e4c4-e596-44e4-baa9-604bda005130",
+      "latestVideoTitle": "Pip’s Five-Berry Counting Picnic",
+      "latestVideoCreatedUTC": "2026-11-12T15:00:48.163Z",
+      "status": "completed; actual 9:16 full-motion AI-VIDEO mediaType 38s; provider 1080p export completed; HOLD NOT APPROVED",
+      "generatedNewLittleWildToday": false,
+      "evidenceScope": "No new Little Wild video in newest 35 AI Tuber account creations through 2026-11-13 17:02Z. No inference about other provider/public/private YouTube uploads or AutoPilot booking from this alone.",
+      "mp4Qc": "Not completed; provider returned MP4 download URL but container DNS lookup for cdn.aituber.app failed, and web video access unavailable. Cannot watch/listen, verify character continuity, natural voice/music, scene logic or complete ending.",
+      "scriptDefects": "In 12 Nov source scene prompts, Milo has wrong teal sweater+shorts instead of approved romper, the count is redundantly repeated, and final bowl inventory conflicts with berries eaten. These are prompt-level issues, not witnessed defects in MP4.",
+      "booking": "No new booking or publication performed by this agent; Friday 13 Nov 18:00 was an editorial target, not a confirmed posting; current third-party bookings not fully enumerable via AI Tuber connector.",
+      "nextShortBrief": "data/little-wild-rainy-day-rhythm-short-brief-2026-11-09.md (13 Nov revised editorial draft only, no generated/video ID, 3 alternate story paths, 4 truthful hooks, 63-word working script and 5 causal visual beats)"
+    },
+    "budget": {
+      "aiTuberPlan": "Studio",
+      "sharedCreditsAvailable": 6580,
+      "sharedMonthlyCredits": 10000,
+      "previousObserved": 6800,
+      "change": -220,
+      "attribution": "Not verified; shared with What If, which had a new 40s account video created 2026-11-13T17:00:50Z. Never assign -220 to Little Wild without provider costs.",
+      "monthlyPlanning": "What If ~7000, Little Wild ~3000 of shared 10000, nontechnical guidance; no spend cap and no credit purchases.",
+      "creditsSpentByThisAgent": 0,
+      "purchases": 0
+    },
+    "publicVidIQSnapshot": {
+      "checkedAt": "2026-11-13 18:05 Europe/Oslo",
+      "channelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "subscribers": 363,
+      "viewsLifetime": 8383,
+      "publicVideos": 17,
+      "previousReportedSubs": 364,
+      "previousReportedViews": 7450,
+      "previousReportedPublicVideos": 17,
+      "caveat": "Cumulative public figures and earlier snapshots; no private retention, Shorts swipes or paid/organic source breakdown. Video count unchanged, not conclusive provider queue verification.",
+      "creditsConsumed": 0
+    },
+    "creativeResearch": {
+      "observed": "Official PBS KIDS 3yo music education describes matching rhythms from simple instruments, and age-4 child movement/music patterns; official Peep emphasizes active first-hand observation.",
+      "sources": [
+        "https://www.pbs.org/parents/learn-grow/age-3/arts/music-and-movement",
+        "https://www.pbs.org/parents/learn-grow/age-4/arts/music-and-movement",
+        "https://www.peepandthebigwideworld.com/en/educators/preschool-science-peep-approach/"
+      ],
+      "decision": "Short brief revised (no paid generation). Visible physical problem at opening, two taps+pause shared in finale, unchanged three characters/outfit. Test only after actual QC approval and next scheduled 18:00 slot."
+    },
+    "operationalAlert": "No FRESH source-confirmed critical or blocker incident. Inaccessible finished MP4 is a longstanding QA access limitation; unbooked editorial 18:00 target is not an operation failure. No new production-alerts.json event or Telegram push.",
+    "actions": "Read provider/Gmail/vidIQ/HQ and educational sources, attempted MP4 retrieval, revised free pre-credit script brief, updated HQ notes. No new AI Tuber generation/export or paid retry, no YouTube post/booking, no ad/promotion/credit purchase, no interactions performed."
   }
 }
