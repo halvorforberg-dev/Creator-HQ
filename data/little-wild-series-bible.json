@@ -570,5 +570,21 @@
     "videoSource": "AITuber GET /videos/{id}",
     "promptDefects": "Milo teal sweater not approved teal romper; no explicit green Miko backpack; bland opening; 34s duration",
     "nextAction": "Do NOT spend credits repairing existing flawed video. Keep held; use source QA lessons in future pre-generation briefs."
+  },
+  "engagementFeedback20261114": {
+    "date": "2026-11-14",
+    "basis": "Direct user feedback: the recently published Little Wild episodes feel insufficiently engaging. This is editorial feedback, NOT verified measured audience retention or a claim that we watched the recent published MP4s.",
+    "decision": "Beginning with the next NEW script, move the plot out of exposition and into visible funny action; retain authentic preschool warmth, natural pace and full-motion Milo/Miko/BLUE Pip.",
+    "scriptGate": [
+      "Open frame at 0–2 s: a readable physical surprise or small playful mishap visibly happens to Milo; immediately create one specific curiosity question without clickbait.",
+      "Milo reacts emotionally and chooses to try something. Miko and Pip act and respond as characters rather than being described by an all-knowing narrator.",
+      "Include an amusing failed attempt or unexpected result that CAUSES a discovery, then an observable collaborative fix. Each scene moves the same story forward.",
+      "End with a visually obvious success that ANSWERS the first-two-seconds question and one short, child-repeatable learning point.",
+      "Prune voiceover that merely restates what the viewer can already see; synchronize short natural dialogue, music and distinct sound effects with physical action.",
+      "Do NOT force fixed cut intervals, artificial loops or frantic narration. Check whether a preschooler could follow the plot without audio and whether it also makes sense WITH audio."
+    ],
+    "test": "For next NEW episode, test a genuinely surprising visible 0–2s event + one failed attempt + active Milo-led collaborative solution versus previous narrated routine format. After real publication, compare Shorts viewed-vs-swiped and early audience retention at matched video age where available, not presumed causal impact.",
+    "exception": "The user's separate 2026-11-14 decision allows incorrect Milo CLOTHES only for hairbrush video 1ae54fb5-cdaa-4656-a544-66e43077f2b2. It does not waive full final audio/video review. The user does not wish to approve the film personally.",
+    "spend": "No credit-spending rework of completed flawed videos. Prioritize script/scene quality before new credit usage and protect What If share."
   }
 }
