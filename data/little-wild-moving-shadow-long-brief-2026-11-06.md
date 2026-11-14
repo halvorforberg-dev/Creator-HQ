@@ -26,3 +26,11 @@
 - Primary Connections education resource: https://primaryconnections.org.au/teaching-sequences/year-2/eyes-earth/mission-3-observing-suns-movement-shadows
 
 **After release (if ever actually released):** compare 24h/7d/28d retention, public watch time, views and children's appropriate engagement measures, with age-matched genuine long-form releases; do not invent YouTube metrics.
+
+---
+
+## 14.11.2026 — full original production script added without credits
+
+The more detailed follow-up is **[Milo and the Shadow That Wouldn't Stay Still — 2026-11-14 script](little-wild-shadow-long-script-2026-11-14.md)**. This v2 contains five non-clickbait first-frame options, a 485-word English working narration, 12 cause-and-effect animated visual/audio beats, two observable chalk shadow lengths around one stationary prop, consistent Milo teal romper / golden-brown Miko green backpack / vivid BLUE Pip, source-checking for sunlight geometry and a last-frame answer to the opening question. The story was tightened for natural ~4:35–5:00 pacing **as an estimate only**; no spoken audio exists yet.
+
+**Status remains EDITORIAL ONLY: NOT GENERATED, NOT EXPORTED, NOT QC PASSED, NOT BOOKED.** Shared AI Tuber credits on 14 Nov: 6,382 (What If remains priority). Four minutes of true original full-motion AI footage could cost roughly 1,200 basic, 2,400 good or 6,240 premium credits for footage only under previously recorded rate assumptions, before narration, retakes or variation. These are examples, not an actual new provider quote. A 15 Nov 18:00 release is not guaranteed and the paused, formerly still-images Weekly Long Story must not be resumed unchanged. Actual cost, AutoPilot/queue, full MP4+audio and child classification must pass before booking.
