@@ -338,7 +338,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-14 08:39 Europe/Oslo: Thonis PUBLISHED both. Mørstad Nov15 and San Juan Nov16 PENDING on YouTube+TikTok with media and auto-publish. No Merer Nov20 booking.",
+      "verifiedDate": "2026-11-14 17:20 Oslo: Thonis PUBLISHED YT+TikTok; Mørstad Nov15 PENDING YT+TikTok; San Juan Nov16 PENDING YT+TikTok, all 18:00 and autoPublish (provider GET).",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -452,9 +452,11 @@
           "time": "18:00",
           "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
-          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
-          "mediaUrl": null
+          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "mediaUrl": null,
+          "autoPublish": true,
+          "mediaPresent": true
         },
         {
           "id": 420588270,
@@ -464,9 +466,11 @@
           "time": "18:00",
           "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
-          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
-          "mediaUrl": null
+          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "mediaUrl": null,
+          "autoPublish": true,
+          "mediaPresent": true
         },
         {
           "id": 422895207,
@@ -507,8 +511,8 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-13 18:05:43 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 18:00 Oslo, status PUBLISHED and publicUrl returned",
+          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
           "mediaUrl": null,
           "publicUrl": "https://www.youtube.com/shorts/LvqQbn53zwo",
           "providerPostId": "LvqQbn53zwo"
@@ -523,8 +527,8 @@
           "status": "PENDING",
           "source": "Metricool authenticated 2026-11-10",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-13 18:07 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts after 18:07 Oslo, PUBLISHED and provider publicUrl returned",
+          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
           "mediaUrl": null,
           "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7707703313050963202",
           "providerPostId": "7707703313050963202"
@@ -537,9 +541,11 @@
           "network": "youtube",
           "title": "Why Rival Armies Raced Horses on the Same Island",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
-          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
-          "mediaUrl": null
+          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "mediaUrl": null,
+          "autoPublish": true,
+          "mediaPresent": true
         },
         {
           "id": 423659361,
@@ -549,9 +555,11 @@
           "network": "tiktok",
           "title": "Why Rival Armies Raced Horses on the Same Island",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-12T16:10:39.386Z",
-          "statusSource": "Metricool authenticated getScheduledPosts (09–25 Nov) checked 12 Nov",
-          "mediaUrl": null
+          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "mediaUrl": null,
+          "autoPublish": true,
+          "mediaPresent": true
         }
       ]
     },
@@ -2920,8 +2928,8 @@
         "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
       },
       "slotUpdate": "Nov16 booked for San Juan on YT+TikTok (provider IDs 423659187 / 423659361). Merer remains editorial only candidate for Fri20, not generated or booked.",
-      "latestRecheck": "2026-11-14 08:39 Europe/Oslo",
-      "productionDecision": "HOLD paid generation to protect the insufficient 16:9 long-form reserve; no cheaper unapproved model; recheck balance, jobs and queue before spending."
+      "latestRecheck": "2026-11-14 17:20 Europe/Oslo",
+      "productionDecision": "HOLD Merer paid generation while 167.77 Higgsfield credits are below prior 2–4min approved-quality 252 video-only estimate; existing Nov15/16 queue unchanged"
     },
     "littleWild": {
       "status": "EDITORIAL_DRAFT_ONLY",
@@ -3825,5 +3833,109 @@
     },
     "alertDecision": "No fresh verified production or publishing blocker. No Telegram alert and no credit purchase request.",
     "actionsThisRun": "Read both governing GitHub files and the specified Library plan; verified live Metricool queue, Higgsfield balance/history and vidIQ access/jobs; documented fresh Merer preflight. No generation, export, QC claim, booking, reschedule, duplicate, paid promotion or purchase."
+  },
+  "bizarrePastAgentCheck20261114": {
+    "checkedAtOslo": "2026-11-14 17:20 Europe/Oslo",
+    "sources": [
+      "Authenticated GitHub: data/production-control.json, data/creative-prompt-upgrades.json, data/competitor-watch.json and latest Babylon/Merer briefs",
+      "Authenticated Metricool getBrandSettings and getScheduledPosts Bizarre brand 7296504, date span 13–25 Nov",
+      "Authenticated Higgsfield balance read",
+      "Authenticated Metricool YouTube all videos and TikTok posts metrics; null/unindexed fields treated as unknown",
+      "British Museum-authored original commentary hosted at Smarthistory https://smarthistory.org/map-of-the-world/",
+      "Historical Museum primary Mørstad 5500 coins + rare Olaf Haraldsson coin https://www.historiskmuseum.no/english/exhibitions/morstad-hoard/index.html",
+      "Third party dated competitor History Matters profile https://trari.com/en/c/historymatters/"
+    ],
+    "queue": {
+      "recentPublished": [
+        {
+          "topic": "Thonis-Heracleion",
+          "date": "2026-11-13 18:00",
+          "youtube": {
+            "id": 423027641,
+            "status": "PUBLISHED",
+            "url": "https://www.youtube.com/shorts/LvqQbn53zwo"
+          },
+          "tiktok": {
+            "id": 423027976,
+            "status": "PUBLISHED",
+            "url": "https://www.tiktok.com/@bizzare.past/video/7707703313050963202"
+          }
+        }
+      ],
+      "verifiedUpcoming": [
+        {
+          "topic": "Mørstad Viking hoard, ~5500 coins including rare St Olaf penny",
+          "date": "2026-11-15",
+          "time": "18:00 Europe/Oslo",
+          "youtube": {
+            "id": 420588270,
+            "status": "PENDING"
+          },
+          "tiktok": {
+            "id": 420588470,
+            "status": "PENDING"
+          },
+          "mediaPresent": true,
+          "autoPublish": true,
+          "existingBookingsChanged": false
+        },
+        {
+          "topic": "San Juan Island horse races",
+          "date": "2026-11-16",
+          "time": "18:00 Europe/Oslo",
+          "youtube": {
+            "id": 423659187,
+            "status": "PENDING"
+          },
+          "tiktok": {
+            "id": 423659361,
+            "status": "PENDING"
+          },
+          "mediaPresent": true,
+          "autoPublish": true,
+          "existingBookingsChanged": false
+        }
+      ],
+      "laterSlots": [
+        {
+          "date": "2026-11-18",
+          "title": "Babylon map",
+          "format": "16:9, 2–4min",
+          "status": "EDITORIAL_SCRIPT_V3_ONLY_NO_MP4_NO_QC_NO_BOOKING"
+        },
+        {
+          "date": "2026-11-20",
+          "title": "Merer papyrus",
+          "format": "9:16 Short 35–40s",
+          "status": "SOURCE_CHECKED_EDITORIAL_DRAFT_ONLY_NO_MP4_NO_BOOKING"
+        }
+      ],
+      "noDuplicatePosts": true,
+      "providerFacts": "Scheduled PENDING not published. Recent Thonis published IDs verified. Booking time 18:00 Europe/Oslo and AI marks correct."
+    },
+    "budget": {
+      "higgsfieldPlan": "Plus",
+      "credits": 167.77,
+      "usableFreeVideoGenerations": 0,
+      "priorApproxApprovedQualityVideoOnly": 252,
+      "voiceMusicRetakesExtra": true,
+      "refillObserved": false,
+      "decision": "NO NEW PAID GENERATION. 167.77 less than prior cinematic video-only estimate for 2–4 minute production. Do not spend on Merer until long-form reserve funded; no untested cheaper-model switch or purchases. Provider active-job history not re-read in this run; earlier Nov14 08:39 HQ check reported none among newest 100."
+    },
+    "editorial": {
+      "newV3": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md",
+      "sourceChecked": "British Museum via https://smarthistory.org/map-of-the-world/",
+      "scriptWords": 230,
+      "status": "ORIGINAL_ENGLISH_SCRIPT_V3_AND_VISUAL_AUDIO_SCENE_PLAN_ONLY",
+      "newPayoff": "Boat-view of a rising triangular distant shoreline illuminates why mapmaker could depict regions as triangles; myth/geography separated; not proof of literal monstrous islands.",
+      "qc": "No completed video to watch/listen; therefore no video-level QC approval or booking. Do not confuse script preflight with AV QA."
+    },
+    "competitive": {
+      "watch": "data/competitor-watch.json#bizarreResearchNote20261114Agent",
+      "historyMatters": "Nov6 video 'Why didn't Napoleon just stop?' 8:11, ~1.415m views by Nov14 (Trari third party), huge channel; opening not watched",
+      "ourData": "Bizarre Nov13 Thonis TT 259 cumulative, Nov11 Antikythera TT 275, Nov9 Herculaneum TT 275; YouTube all videos analytics missing latest 11/13 despite confirmed publication. Cumulative varying age, no organic/paid or retention. No causal claims.",
+      "test": "First two seconds show actual physical triangle mystery; end reveals boat-to-island interpretation. Test when video actually ships and compare same-format same-age CTR and watchtime, not competitor raw views."
+    },
+    "operational": "No confirmed new publishing/production failure; no Telegram alert warranted; no edits to live bookings. No generation credits, ads, likes, comments or publication writes. No full-hour Work session claimed."
   }
 }
