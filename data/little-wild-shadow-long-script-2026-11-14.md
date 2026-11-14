@@ -2,7 +2,7 @@
 
 **Prepared:** 2026-11-14 · **Status: EDITORIAL SCRIPT ONLY. NOT GENERATED, NOT EXPORTED, NOT QC-PASSED, NOT BOOKED, NOT PUBLISHED.**
 
-**Format and target:** Ordinary public 16:9 children's video, roughly 3–6 minutes, ideally ~4:10 after audio timing. This is a narrative outline, not a speed target; voice pacing and actual export duration must be verified. Use genuine full-motion 3D animation only. Any possible 2026-11-15 18:00 Europe/Oslo release is an editorial goal only, **not a confirmed reservation**.
+**Format and target:** Ordinary public 16:9 children's video, roughly 3–6 minutes, working target ~4:35–5:00 including action pauses, unverified until final audio. This is a narrative outline, not a speed target; voice pacing and actual export duration must be verified. Use genuine full-motion 3D animation only. Any possible 2026-11-15 18:00 Europe/Oslo release is an editorial goal only, **not a confirmed reservation**.
 
 ## Pre-credit story test
 **Single learning objective:** A shadow changes when the direction or amount of sunlight changes, even while the object casting it stays in place. A stationary toy's shadow can be traced and compared later.
@@ -19,66 +19,66 @@
 
 ## Full English narration and animated moving-scene storyboard
 
-This draft contains **605 spoken words**. Intended tone: unhurried, curious, warm, varied, with real reaction beats and sound pauses, never squeezed to a fixed word-per-second rule. The scene times below are flexible story beats. They are not instructions to cut every N seconds. Every action must be supported by actually continuous moving animation, coherent sunlight geometry, cast identity and matching music/SFX.
+This draft contains **485 spoken words**. Intended tone: unhurried, curious, warm, varied, with real reaction beats and sound pauses, never squeezed to a fixed word-per-second rule. The scene times below are flexible story beats. They are not instructions to cut every N seconds. Every action must be supported by actually continuous moving animation, coherent sunlight geometry, cast identity and matching music/SFX.
 
-### Scene 1 — 0:00–0:17 (flexible editorial guide)
+### Scene 1 — 0:00–0:18 (flexible editorial guide)
 **Visible action and consequence:** Milo steps into a small chalk circle; his long morning shadow spills far outside; visible problem in frame one.
-**Exact English spoken script:** “Whoa! My shadow doesn't fit!” Milo hopped into his chalk circle. A long dark shape stretched right across the path. He looked behind him. Nobody was there. “Miko, Pip, where did this giant shape come from?” The shadow stretched all the way past Pip's tiny feet.
+**Exact English spoken script:** “Whoa! My shadow doesn't fit!” Milo jumped into his chalk circle. A long dark shape stretched outside it. He looked behind him. Nobody was there. “Miko! Pip! What's that giant shape?” The shadow reached past Pip's little feet.
 **Audio and pacing:** Quick playful plop, gentle curious woodwind; title clears the action.
 
-### Scene 2 — 0:17–0:39 (flexible editorial guide)
+### Scene 2 — 0:18–0:41 (flexible editorial guide)
 **Visible action and consequence:** Milo sidesteps, crouches and stands; the dark outline follows his moves; Miko and Pip respond separately.
-**Exact English spoken script:** Miko the meerkat hurried over with his green backpack bouncing. Pip, the little blue bird, fluttered down beside him. Milo waved one arm. The shadow waved too! He bent his knees. The shadow bent with him. “It's copying me,” Milo whispered. “But why is it so long?”
+**Exact English spoken script:** Miko the meerkat hurried over. Pip, the little blue bird, fluttered beside him. Milo raised one arm. His shadow raised an arm too! He crouched. The shadow crouched. “It's copying me,” he whispered. “But why is it so long?”
 **Audio and pacing:** Soft foot taps and a surprised flutter.
 
-### Scene 3 — 0:39–0:58 (flexible editorial guide)
+### Scene 3 — 0:41–1:02 (flexible editorial guide)
 **Visible action and consequence:** Funny unsuccessful solution: Miko tries holding the chalk circle under the elongated shadow, but cannot make it fit.
-**Exact English spoken script:** Miko drew a bigger circle. Pip landed neatly inside it. Milo stepped in and stretched out his arms. His shadow reached beyond the new circle again. Miko scratched his fuzzy head. “Maybe this isn't something we can catch,” Milo said. Pip tilted his bright blue head toward the sunshine.
+**Exact English spoken script:** Miko drew a bigger chalk circle. Pip hopped inside. Milo stepped in with him. The long shadow still escaped. Miko scratched his head. “Maybe we can't catch it,” Milo said. Pip tilted his blue head toward the sunlit path.
 **Audio and pacing:** Chalk skritch, Miko's gentle puzzled hum.
 
-### Scene 4 — 0:58–1:21 (flexible editorial guide)
+### Scene 4 — 1:02–1:28 (flexible editorial guide)
 **Visible action and consequence:** They choose a controlled test: toy lighthouse stays in exact marked location; long shadow traced in chalk.
-**Exact English spoken script:** “Let's be shadow detectives!” Milo decided. They set one little wooden lighthouse on the path. Miko marked where its feet stood, so it would not move. Pip watched as its long shadow stretched along the ground. Together they traced the shadow's edge in blue chalk. “There,” said Milo. “Now we can see if it changes.”
+**Exact English spoken script:** “Let's become shadow detectives!” Milo decided. They placed a little wooden lighthouse on the path. Miko marked the toy's feet with chalk so it could stay still. Together they traced its long shadow in blue. “Now we'll know if something changes,” said Milo.
 **Audio and pacing:** Calm transition into observant music, tiny chalk scrape.
 
-### Scene 5 — 1:21–1:43 (flexible editorial guide)
+### Scene 5 — 1:28–1:50 (flexible editorial guide)
 **Visible action and consequence:** Close-up shows sunlight arrives from one side, fixed lighthouse blocks it, shadow on opposite side; do not show children staring at Sun.
-**Exact English spoken script:** Pip flew to the side of the lighthouse, then back again. The bright light reached the toy from one direction. The wooden tower blocked some of that light. On the other side, the path looked darker. “Ah,” said Milo. “The shadow is where the light can't reach!” Miko nodded and grinned.
+**Exact English spoken script:** Pip watched sunlight reach the toy from one side. The wooden lighthouse blocked some light. The ground behind it looked darker. Milo smiled. “That's a shadow! It happens where the light can't reach.” Miko nodded. The three friends looked at their chalk outline.
 **Audio and pacing:** Music softens under simple observation.
 
-### Scene 6 — 1:43–2:04 (flexible editorial guide)
+### Scene 6 — 1:50–2:10 (flexible editorial guide)
 **Visible action and consequence:** Time passage with purposeful play: trio takes a snack under shelter, colors a picture; lighthouse remains fixed on mark.
-**Exact English spoken script:** The friends left their little lighthouse exactly where it was. They went inside for their snack and made a picture of the three of them. Pip drew his own bright blue wings. Miko added a funny little tail. Milo drew the lighthouse and its long shadow. “I wonder if it will look the same later,” he said.
+**Exact English spoken script:** The friends left the lighthouse in its marked spot. They went inside for a snack and drew pictures. Pip drew his blue wings. Miko added a silly tail. Milo drew the lighthouse. “Will its shadow stay the same?” he wondered.
 **Audio and pacing:** Natural day ambience, short musical time bridge; no arbitrary loop.
 
-### Scene 7 — 2:04–2:29 (flexible editorial guide)
+### Scene 7 — 2:10–2:35 (flexible editorial guide)
 **Visible action and consequence:** Clearly later afternoon, still sunny: toy remains fixed but shadow now shorter and different direction; compare chalk trace.
-**Exact English spoken script:** Later, they hurried back outside with a grown-up nearby. The lighthouse had not moved at all. But something was different. Its shadow no longer matched the blue chalk line! The new shadow was shorter and pointed a little differently. “Miko! Pip! The lighthouse stayed put!” Milo cried. “The shadow changed anyway!”
+**Exact English spoken script:** Later, they returned outside with a grown-up nearby. The lighthouse had not moved! But its shadow no longer matched the blue chalk. It was shorter and pointed another way. “Look!” Milo cried. “The toy stayed put, but the shadow changed!”
 **Audio and pacing:** Little discovery glockenspiel, then space for reaction.
 
-### Scene 8 — 2:29–2:52 (flexible editorial guide)
+### Scene 8 — 2:35–3:00 (flexible editorial guide)
 **Visible action and consequence:** Pip points to bright patch (not at Sun); camera shows changed sunlight angle and opposite-side shadow; Miko physically measures short-vs-long chalk shapes.
-**Exact English spoken script:** Pip pointed his wing toward the bright patch of sunlight. The light now reached the toy from a different angle. Miko traced the new shadow with yellow chalk. Milo compared the two outlines. One was long. The other was short. “The sunlight changed where it was coming from,” Milo said. “So the shadow changed too!”
+**Exact English spoken script:** Pip pointed toward the bright patch on the ground. The sunlight reached the toy from a different angle now. Miko drew the new shadow in yellow. Milo compared both outlines. “One long! One short!” he said. “The light came from a different place.”
 **Audio and pacing:** Light percussion punctuates each comparison.
 
-### Scene 9 — 2:52–3:14 (flexible editorial guide)
+### Scene 9 — 3:00–3:24 (flexible editorial guide)
 **Visible action and consequence:** Single test of result: Milo stands at his chalk circle, shadow different from morning; he reframes problem rather than forcing it to fit.
-**Exact English spoken script:** Milo stepped back into his first chalk circle. “Look! My shadow looks different now!” He lifted his arm, and the shadow lifted with him. He stepped sideways, and it followed. “It never ran away,” Milo laughed. “It was my shadow all along!” Miko gave him a happy high five, and Pip fluttered a tiny victory loop.
+**Exact English spoken script:** Milo stepped back into his first chalk circle. His own shadow looked different too. He lifted a hand. Its shadow lifted. He stepped sideways. It followed. “It wasn't running away!” Milo laughed. Miko gave a gentle high five. Pip fluttered happily.
 **Audio and pacing:** Soft footsteps, reassuring chord.
 
-### Scene 10 — 3:14–3:37 (flexible editorial guide)
+### Scene 10 — 3:24–3:47 (flexible editorial guide)
 **Visible action and consequence:** A small cloud briefly weakens direct sunlight; shadow fades; sunshine returns and shadow reappears. This reinforces same light idea.
-**Exact English spoken script:** Just then, a fluffy cloud drifted across the light. The shadow grew faint. Milo looked at the path in surprise. “Where did you go this time?” He waited, then smiled as the sunshine returned. His shadow grew clear again. “Oh, I see! Less sunlight means a softer shadow. More sunlight brings it back!”
+**Exact English spoken script:** A fluffy cloud crossed the sunshine. The shadow grew faint. Milo blinked. “Where did it go?” They waited. The light returned, and so did the dark shape. “Oh!” Milo said. “When the sunlight changes, the shadow changes too.”
 **Audio and pacing:** Gentle hush when cloud passes; warm music returns.
 
-### Scene 11 — 3:37–3:58 (flexible editorial guide)
+### Scene 11 — 3:47–4:14 (flexible editorial guide)
 **Visible action and consequence:** Visible payoff: fixed toy centered, two differently colored outlines drawn, one long morning and one shorter later; trio matches with feet/claps.
-**Exact English spoken script:** Together, they decorated the two chalk shadow outlines. Blue for the long morning shape. Yellow for the shorter shape later in the day. Milo put his hands on his hips. “We didn't need to catch my shadow,” he said. “We needed to watch the light!” Miko smiled. Pip cheered with two happy wing flaps.
+**Exact English spoken script:** Together they decorated both outlines. Blue marked the morning's long shadow. Yellow marked the shorter one from later. The little lighthouse was still in the same spot. “We didn't need to catch my shadow,” Milo said. “We needed to watch what the light did!”
 **Audio and pacing:** Short original three-note discovery tune, no licensed melodies.
 
-### Scene 12 — 3:58–4:12 (flexible editorial guide)
+### Scene 12 — 4:14–4:35 (flexible editorial guide)
 **Visible action and consequence:** Final clear wide visual shows unchanged lighthouse, long blue old trace, shorter yellow current shadow, all three cast their own shadows and smile.
-**Exact English spoken script:** “Two shadows. One little lighthouse!” Milo giggled. “When the sunlight changes, shadows change!” Can you spot a shadow outside with a grown-up? The friends waved together beside their colorful chalk discovery.
+**Exact English spoken script:** Miko clapped. Pip gave two happy wing flaps. Milo stood between the chalk drawings. “Two shadows, one lighthouse!” he cheered. “Sunlight changes shadows!” Can you find a shadow outside with a grown-up? The friends waved and smiled.
 **Audio and pacing:** One gentle final chord, complete audible tail; no forced loop.
 
 ## Exact cast and visual continuity
