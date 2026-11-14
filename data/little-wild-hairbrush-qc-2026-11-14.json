@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-14",
+  "channel": "Little Wild Adventures",
+  "toolSources": [
+    "AITuber connected list_videos newest 35",
+    "AITuber connected get_video and api_read GET /videos/{id}",
+    "AITuber get_subscription",
+    "AITuber connected YouTube channel list",
+    "vidIQ 0-credit user_channels and balance",
+    "Creator HQ production-control.json, creative-prompt-upgrades.json and little-wild-series-bible.json",
+    "NHS Cwm Taf Morgannwg University Health Board pediatric hair brushing guidance",
+    "Nationwide Children's Hospital hair care guidance"
+  ],
+  "video": {
+    "id": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+    "title": "Miko’s Gentle Hair-Brush Helper",
+    "createdAtUTC": "2026-11-14T15:00:46.900Z",
+    "generationStatus": "completed",
+    "mediaType": "video",
+    "format": "9:16",
+    "durationSeconds": 34,
+    "sceneCount": 5,
+    "clipUrlsPresent": true,
+    "exportStatus": null,
+    "generationVsPublishing": "Provider video list and details confirm creation, NOT a publication. No new booking or upload performed by agent; global publication status/recurring AutoPilot UI are not exposed by this API."
+  },
+  "review": {
+    "verdict": "HOLD_NOT_APPROVED",
+    "fullVideoAudioReviewPassed": false,
+    "visualContinuityVerified": false,
+    "exportedMP4Available": false,
+    "sourceScriptAndPromptReviewed": true,
+    "problems": [
+      "34 seconds, below 35–40 second new-Short target; do not pad artificial filler",
+      "Every scene describes Milo wearing teal SWEATER with sun emblem instead of approved teal ROMPER; a prompt-level continuity rule violation, not verified rendered footage",
+      "Miko's backpack described generically as warm earthy tones; does not explicitly anchor approved green backpack",
+      "Visible surprise too weak: first moment is Milo's hair tuft wiggle rather than a clear tangled-hair physical problem; this is editorial evaluation, not observed retention data",
+      "Tangle discovery arrives in second scene, not first; no clear funny attempt or emotional progression before solution",
+      "Provider rendered 5 moving AI clips, but that does not prove correct true animation or consistent cast in final MP4",
+      "Narration is a single synthesized voice even if 'Pip sings'/'Milo smiles' appear in script. Separate voices, lipsync and natural sound are unverified",
+      "Closing generic 'Come join us again!' weakens instructional payoff; better final frame must show Milo independently practicing a gentle stroke/stop before the last line",
+      "No exported full MP4 to watch/listen, no final 1080p verification, no actual soundtrack/voice balance or metadata/published time verification"
+    ],
+    "goodSigns": [
+      "Both Miko and Pip are named throughout source script",
+      "Pip blue color, orange beak and brown satchel explicitly specified in every scene prompt",
+      "Original preschool-safe learning objective: be gentle when brushing hair and untangling",
+      "Every shot generated as mediaType=video, not images-only",
+      "Source technique is directionally accurate: start at ends, work in small sections, hold near a tangle to limit pulling"
+    ],
+    "sourcesForHairCare": [
+      {
+        "url": "https://ctmuhb.nhs.wales/services/occupational-therapy-for-children/hair-brushing/",
+        "verifiedDate": "2026-11-14",
+        "supported": "child grooming guidance: small sections, start at the ends and hold hair near roots to avoid pulling"
+      },
+      {
+        "url": "https://www.nationwidechildrens.org/family-resources-education/health-wellness-and-safety-resources/helping-hands/patient-hair-care",
+        "verifiedDate": "2026-11-14",
+        "supported": "children's detangling guidance: appropriate brush, damp hair when tangled, work from ends toward scalp"
+      }
+    ],
+    "improvementTest": "In the next genuinely new and pre-QC-approved hair-care story, show a tiny snag and Milo's worried expression in first 0–2 seconds; let Miko pause, ask permission and gently work from the ends, and show Milo choosing the gentle way himself in the final scene. Keep official approved outfits and all three visible.",
+    "comparisonPlan": "Compare genuinely age-matched 24h/7d/28d engaged views and Shorts swipe/retention only after actual release. No view-retention claim from this script review."
+  },
+  "budget": {
+    "aituberAvailableCredits": 6382,
+    "monthlyIncluded": 10000,
+    "previousObserved": 6580,
+    "balanceDelta": -198,
+    "deltaAttribution": "Not itemized by provider; a new 34s Little Wild video was generated today, but do not assign entire -198 to it or What If without billing data.",
+    "planningPriority": "What If ~7000, Little Wild ~3000 guidance, not hard cap.",
+    "creditsSpentByThisAgent": 0,
+    "purchases": 0
+  },
+  "channelPublicSnapshot": {
+    "source": "vidIQ user_channels (0 credits) 2026-11-14",
+    "subscribers": 363,
+    "viewsLifetime": 8385,
+    "publicVideos": 17,
+    "note": "Public counts only; no paid/organic split, private studio retention or conclusive platform booking status. These are near-identical to 13 Nov cumulative counts."
+  },
+  "productionAndPublishing": {
+    "newGenerationByAgent": false,
+    "exportByAgent": false,
+    "scheduledByAgent": false,
+    "publishedByAgent": false,
+    "autoPilotStatus": "Not reverified in authenticated UI today; last confirmed main Little Wild draft-only, Weekly Long Story paused as of 2026-11-05.",
+    "knownInaccessibleExport": "Existing 12 Nov Five-Berry MP4 download API returned a link again, but cdn.aituber.app DNS resolution in this working environment failed on 2026-11-14; cannot conduct full audio/video review. Previously under-QC draft remains HOLD.",
+    "nextSunday": "2026-11-15 18:00 editorial target, not provider booking; existing original shadow long-form outline now has 2026-11-14 full script, not generated or booked."
+  },
+  "alertDecision": {
+    "newConfirmedOperationalBlocker": false,
+    "telegramAlertCreated": false,
+    "rationale": "An auto-generated ordinary draft with known QC failures and missing AV export is not a new fresh failed confirmed booked release; CDN DNS issue is a longstanding access limitation without a newly confirmed scheduled release failure. No fake alert."
+  },
+  "links": {
+    "video": "https://app.aituber.app/dashboard/videos/1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+    "shadowScript": "data/little-wild-shadow-long-script-2026-11-14.md"
+  }
+}
