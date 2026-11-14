@@ -125,6 +125,97 @@
       "littleWildSpecific": "Prioritize exciting, educational Milo/Miko/blue Pip mini-adventures with one meaningful child-safe discovery demonstrated in action; review script against data/little-wild-series-bible.json. No credit-spending rework of flawed completed Little Wild films.",
       "publicationBoundary": "Script review alone NEVER establishes final media QC or publishing approval; actual completed MP4 with sound must be fully reviewed, correctly classified and booked on proper provider with confirmed 18:00 time. Do not buy new credits or promotions without separate approval.",
       "avoid": "No mechanical cuts, forced word count or rushed narration; quality and meaningful scenes over artificial duration."
+    },
+    "organicGrowthAndChannelQualityDecision20261114": {
+      "decidedAt": "2026-11-14",
+      "approvedFrom": "User explicitly extends compelling Little Wild storytelling quality to Bizarre Past and What If and prioritizes real subscriber and view growth.",
+      "audienceObjective": "Increase meaningful organic views, real engaged viewers, subscriber conversion and qualifying public long-form watch hours; no promises or invented retention/traffic attribution.",
+      "sharedNewVideoGates": [
+        "3–5 truthful niche-specific 0–2 second hook candidates and strongest one chosen against last scene payoff.",
+        "One question that the last scene actually answers; every middle scene adds a new fact, action, complication, discovery or consequence rather than paraphrasing narration.",
+        "Natural, emotionally engaging performance; strong forward momentum without forced cut timing, word limits, loops or cliched CTA.",
+        "Storyboarding locks specific visuals/sound on the spoken line, and includes distinctive sound design where appropriate.",
+        "Complete 1080p MP4 when available, watch and listen all the way through, inspect first frame on mobile, visual/voice match, full last sentence, fact check and actual channel metadata.",
+        "Publish only after end-to-end AV approval, actual destination queue/dupe check and verified 18:00 Europe/Oslo booking (except protected existing postings)."
+      ],
+      "adaptations": {
+        "bizarrePast": {
+          "producer": "Higgsfield only; Metricool publishing to YouTube+TikTok.",
+          "opening": "Must begin clearly with 'Did you know…' spoken and on-screen; show a physical historical object, discovery or evidence rather than generic cinematic background.",
+          "narrative": "Reveal primary-source-grounded human stakes, surprising discovery, counter-question and credible final explanation. Distinguish history from legends; no unsupported mystery claim.",
+          "nextTest": "Make first 2 seconds a close action shot of the authentic discovery/artefact linked to a precise curiosity question; finish showing exact historical answer.",
+          "cta": "After story payoff, optional brief accurate next-episode curiosity line; no generic subscribe request at expense of ending."
+        },
+        "whatIf": {
+          "producer": "AI Tuber; mixed visual media remain acceptable; not full-motion on every second.",
+          "opening": "Must begin 'What if…' in first 2 seconds with a surprising, plausible, concrete image or consequence and specific question.",
+          "narrative": "Show vivid initial consequence, one unexpected change in assumptions, visually clear chain and truthful scientifically bounded positive/curious payoff; avoid pure catastrophe/repetitive premise.",
+          "nextTest": "Compare grounded 'unexpected upside/insight' payoff with fear-only narration, not by treating views alone as causality.",
+          "cta": "A short invitation to consider the what-if only if it naturally follows the final insight."
+        },
+        "littleWild": {
+          "producer": "AI Tuber fully animated full-motion; consistent Milo/Miko/blue Pip.",
+          "opening": "Physical play problem 0–2s; child's curiosity triggered visually.",
+          "narrative": "One little mistake, active shared experiment, surprise, tangible educational success and characters who react, not a narrator list."
+        }
+      },
+      "evidence": {
+        "snapshot": "Metricool data retrieved 2026-11-14 for 2026-11-01 through 2026-11-14; some days null and provider may lag; examples are not a full current audit.",
+        "bizarreExamples": [
+          {
+            "title": "The Treasure Hidden for 1,100 Years (Galloway Hoard)",
+            "youtubeViews": 937,
+            "publishedDate": "2026-11-02"
+          },
+          {
+            "title": "Oak Island",
+            "youtubeViews": 139,
+            "publishedDate": "2026-11-04"
+          },
+          {
+            "title": "Knights Templar",
+            "youtubeViews": 32,
+            "publishedDate": "2026-11-06"
+          }
+        ],
+        "whatIfExamples": [
+          {
+            "title": "What If Saturn's Rings Vanished Overnight?",
+            "youtubeViews": 2560,
+            "publishedDate": "2026-11-01"
+          },
+          {
+            "title": "What If Octopuses Lived on Land?",
+            "youtubeViews": 1025,
+            "publishedDate": "2026-11-03"
+          },
+          {
+            "title": "What If the Sun Got 10% Brighter?",
+            "youtubeViews": 1067,
+            "publishedDate": "2026-11-07"
+          },
+          {
+            "title": "What If You Could See Flowers Like a Bee?",
+            "youtubeViews": 16,
+            "publishedDate": "2026-11-08"
+          }
+        ],
+        "interpretation": "Shorts and regular 16:9 differ in age, distribution and traffic and small samples do NOT prove a hook pattern or channel cause. YouTube self analytics retention, engaged views and promo-vs-organic not available in this retrieval; treat all conclusions as hypotheses."
+      },
+      "testAndLearn": {
+        "perVideo24h7d28d": [
+          "views",
+          "engaged views",
+          "first-2-second retention or viewed-vs-swiped where available",
+          "average view duration",
+          "estimated watch minutes",
+          "subscribers gained per 1000 engaged views",
+          "CTR and qualifying watch hours for ordinary public 16:9 films"
+        ],
+        "optimizeOneVariableAtATime": "Make the next new video test a more visual concrete immediate curiosity hook while preserving comparable length, natural film flow and channel format. Compare videos at matched post age and no paid promotion.",
+        "postingDiscipline": "Plan first, execute finished QC, check existing queue, then publish. No duplicate posts, no ads/promotion, no extra credit purchase, no rework that spends credits on already-generated flawed Little Wild videos.",
+        "uncertainty": "Do not label editorial misses as operational blockers. Telegram alerts only fresh confirmed production stoppages."
+      }
     }
   },
   "channels": {
@@ -183,6 +274,13 @@
         },
         "effectiveFrom": "2026-11-09",
         "existingBookings": "Preserve all prior bookings unchanged"
+      },
+      "nextGrowthTest20261114": {
+        "producer": "Higgsfield only; Metricool publishing to YouTube+TikTok.",
+        "opening": "Must begin clearly with 'Did you know…' spoken and on-screen; show a physical historical object, discovery or evidence rather than generic cinematic background.",
+        "narrative": "Reveal primary-source-grounded human stakes, surprising discovery, counter-question and credible final explanation. Distinguish history from legends; no unsupported mystery claim.",
+        "nextTest": "Make first 2 seconds a close action shot of the authentic discovery/artefact linked to a precise curiosity question; finish showing exact historical answer.",
+        "cta": "After story payoff, optional brief accurate next-episode curiosity line; no generic subscribe request at expense of ending."
       }
     },
     "wild": {
@@ -292,6 +390,11 @@
         "test": "For next NEW episode, test a genuinely surprising visible 0–2s event + one failed attempt + active Milo-led collaborative solution versus previous narrated routine format. After real publication, compare Shorts viewed-vs-swiped and early audience retention at matched video age where available, not presumed causal impact.",
         "exception": "The user's separate 2026-11-14 decision allows incorrect Milo CLOTHES only for hairbrush video 1ae54fb5-cdaa-4656-a544-66e43077f2b2. It does not waive full final audio/video review. The user does not wish to approve the film personally.",
         "spend": "No credit-spending rework of completed flawed videos. Prioritize script/scene quality before new credit usage and protect What If share."
+      },
+      "nextGrowthTest20261114": {
+        "producer": "AI Tuber fully animated full-motion; consistent Milo/Miko/blue Pip.",
+        "opening": "Physical play problem 0–2s; child's curiosity triggered visually.",
+        "narrative": "One little mistake, active shared experiment, surprise, tangible educational success and characters who react, not a narrator list."
       }
     },
     "whatif": {
@@ -318,7 +421,14 @@
       },
       "visualPolicy": "Keep current video look/style and energetic storytelling. Mixed visuals acceptable: well-chosen images, motion graphics, stock footage and moving AI clips. No requirement for 100% full-motion; strong hook and satisfying payoff remain non-negotiable.",
       "productionCreditPolicy": "Prefer current AI Tuber setup and choose efficient visual type/clip mixes by topic. Do not force costly Max/Premium full-motion for all scenes. Confirm costs before generating and inspect finished MP4.",
-      "priority": "PRIMARY channel for shared AITuber production budget and agent focus"
+      "priority": "PRIMARY channel for shared AITuber production budget and agent focus",
+      "nextGrowthTest20261114": {
+        "producer": "AI Tuber; mixed visual media remain acceptable; not full-motion on every second.",
+        "opening": "Must begin 'What if…' in first 2 seconds with a surprising, plausible, concrete image or consequence and specific question.",
+        "narrative": "Show vivid initial consequence, one unexpected change in assumptions, visually clear chain and truthful scientifically bounded positive/curious payoff; avoid pure catastrophe/repetitive premise.",
+        "nextTest": "Compare grounded 'unexpected upside/insight' payoff with fear-only narration, not by treating views alone as causality.",
+        "cta": "A short invitation to consider the what-if only if it naturally follows the final insight."
+      }
     }
   },
   "goalSchedule": {
