@@ -1813,6 +1813,32 @@
       "qcEvidence": "data/little-wild-hairbrush-qc-2026-11-14.json",
       "noNewBlocker": true,
       "publishedByAgent": false
+    },
+    "whatIfLatest20261114": {
+      "checkedAt": "2026-11-14 evening Europe/Oslo",
+      "report": "data/whatif-agent-review-2026-11-14.json",
+      "studioCredits": 6382,
+      "sharedBudget": 10000,
+      "latestDraft": {
+        "id": "455caced-457b-4a19-9796-1f74926d2845",
+        "title": "What If Antarctica’s Ice Melted Completely?",
+        "createdAt": "2026-11-13T17:00:50.435Z",
+        "exported": false,
+        "qc": "HOLD: last script generic CTA and final Antarctic ice image contradicts fully melted premise; no finished MP4+audio review"
+      },
+      "latestMetricoolWhatIfPublic": "What If You Could See Flowers Like a Bee? (Nov8), cumulative 16 views and 62sec AVD in current Nov14 synchronized snapshot; no What If Nov9–14 public entries returned, not exhaustive proof absent",
+      "scheduled": "Metricool What If brand returned no scheduled entries Nov13–19; AI Tuber account-wide queue not listable through current API; future Sunday target is NOT_BOOKED",
+      "analytics": "Saturn paid-promoted cumulative 2560 views/15s AVD, Sun Brighter 1067/15s, Octopus 1025/10s, Solar Storm 108/11s, Ocean 182/10s. Unequal-age and mixed paid/organic cannot infer causality.",
+      "nextTest": {
+        "title": "What If You Could See Invisible Air?",
+        "brief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+        "status": "SCRIPT_ONLY",
+        "science": "Harvard schlieren optics https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+        "hypothesis": "Direct first-frame same-object schlieren demonstration to final same-object payoff; test after full QC and publication; no source footage reuse without permission"
+      },
+      "newActions": "Read creative/production/competitor governance; checked AI Tuber credits and video metadata, Metricool all-videos, published range and queue, AI Tuber notification mail, competitor publisher catalogue and Harvard science; wrote detailed verified report. No generation, export, posting, ad, purchase, or new alert.",
+      "newConfirmedBlocker": false,
+      "existingBeeQCHold": "Still open from 8 Nov; not re-raised, no new proof of resolution."
     }
   },
   "channelAudit": {
