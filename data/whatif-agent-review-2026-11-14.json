@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "checkedAtOslo": "2026-11-14 19:04–19:15 Europe/Oslo (automated read-only check)",
+  "channel": "What If in 40 Seconds",
+  "sources": {
+    "governance": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/competitor-watch.json",
+      "data/production-alerts.json"
+    ],
+    "api": [
+      "AI Tuber authenticated list_videos",
+      "AI Tuber authenticated GET /videos/455caced-457b-4a19-9796-1f74926d2845",
+      "AI Tuber authenticated get_subscription",
+      "Metricool brand 7751348 YouTube all videos 2026-10-15 to 2026-11-14",
+      "Metricool brand 7751348 videos published in range 2026-11-08 to 2026-11-14",
+      "Metricool scheduled posts 2026-11-13 to 2026-11-19",
+      "Gmail AI Tuber notifications since 2026-11-12"
+    ],
+    "competitors": [
+      "https://quirkscience.com/films/",
+      "https://quirkscience.com/films/whats-below-the-mariana-trench/"
+    ],
+    "factCheck": [
+      "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics"
+    ]
+  },
+  "confirmed": {
+    "studio": {
+      "plan": "Studio",
+      "status": "active",
+      "sharedCredits": 6382,
+      "monthlyAllowance": 10000,
+      "priorNov13": 6580,
+      "changeSincePrior": -198,
+      "attribution": "shared with Little Wild; cause not itemized; do not assign to What If or assume purchased"
+    },
+    "latestWhatIfDraft": {
+      "id": "455caced-457b-4a19-9796-1f74926d2845",
+      "title": "What If Antarctica’s Ice Melted Completely?",
+      "createdAtUtc": "2026-11-13T17:00:50.435Z",
+      "status": "completed",
+      "durationSeconds": 40,
+      "aspectRatio": "9:16",
+      "exportStatus": null
+    },
+    "newestOtherAccountVideo": {
+      "id": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+      "channel": "Little Wild",
+      "title": "Miko’s Gentle Hair-Brush Helper",
+      "createdAtUtc": "2026-11-14T15:00:46.900Z",
+      "note": "Shared AI Tuber account; not a What If upload"
+    },
+    "metricoolLatestWhatIfPublic": {
+      "title": "What If You Could See Flowers Like a Bee?",
+      "date": "2026-11-08",
+      "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+      "views": 16,
+      "meanViewSeconds": 62,
+      "totalWatchMinutes": 16.6832
+    },
+    "whatIfNewPublicNov9to14": "NOT_SEEN_IN_THIS_METRICOOL_SYNC; not exhaustive independent YouTube Studio proof",
+    "whatIfScheduledNov13to19": "NO_ENTRIES_RETURNED_BY_METRICOOL; AI Tuber scheduling not account-wide listable via this connector"
+  },
+  "videoMetricoolSnapshot": {
+    "caution": "Cumulative at unequal published ages; ad-driven Saturn; no organic/paid split, first 2 seconds/stayed-to-watch, actual owner retention curves or comparable same-age cohort.",
+    "videos": [
+      {
+        "title": "Saturn rings",
+        "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0",
+        "views": 2560,
+        "meanSeconds": 15,
+        "knownPaidPromotion": true
+      },
+      {
+        "title": "Sun 10% brighter",
+        "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+        "views": 1067,
+        "meanSeconds": 15
+      },
+      {
+        "title": "Octopuses on land",
+        "url": "https://www.youtube.com/watch?v=u51oWL8ACTQ",
+        "views": 1025,
+        "meanSeconds": 10
+      },
+      {
+        "title": "Solar storm",
+        "url": "https://www.youtube.com/watch?v=6JKhRTWs7rU",
+        "views": 108,
+        "meanSeconds": 11
+      },
+      {
+        "title": "Ocean glowed",
+        "url": "https://www.youtube.com/watch?v=l_eoxyfvfRM",
+        "views": 182,
+        "meanSeconds": 10
+      },
+      {
+        "title": "Bee vision long",
+        "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+        "views": 16,
+        "meanSeconds": 62
+      }
+    ]
+  },
+  "antarcticaScriptQC": {
+    "inputAndAllFiveScenePromptsReviewed": true,
+    "opening": "Starts what if and depicts Antarctica immediately.",
+    "issue": "Final audio text says Follow for more; final shot shows white ice still covering Antarctica; fails question's visible complete-melt answer. Catastrophe tone less aligned with positive What If identity.",
+    "fullMP4ExportPresent": false,
+    "fullAVQCCompleted": false,
+    "verdict": "HOLD_AS_DRAFT_NO_PUBLISHING",
+    "sourceVideo": "https://app.aituber.app/dashboard/videos/455caced-457b-4a19-9796-1f74926d2845"
+  },
+  "originalEditorialTest": {
+    "prioritize": "What If You Could See Invisible Air?",
+    "existingBrief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+    "state": "SCRIPT_ONLY_NOT_GENERATED_NOT_BOOKED",
+    "hookVariants": [
+      "What if you could SEE air?",
+      "What if your hand left an invisible trail?",
+      "What if this cup revealed the air above it?",
+      "What if a camera exposed invisible air currents?"
+    ],
+    "selected": "What if you could SEE air?",
+    "firstTwoSeconds": "A real cup remains on left; a clearly labelled SCHLIEREN VIEW on right shows rising refraction gradients from the same cup. No supernatural visible air.",
+    "payoff": "Return to the same cup; a gentle lateral draft visibly bends schlieren density-gradient streaks, explicitly identified as refractive index differences, not literally all air being seen.",
+    "scientificBasis": "Harvard's schlieren optics shows density/temperature/pressure-related refraction: a candle, iced glass or hair dryer; precise visualization technique and not naked-eye air visibility.",
+    "newLearningFromCompetitorSource": "QuirkScience's dated catalogue and full-script story pages demonstrate focused question-first science and object-led cause/effect; not a firsthand 0–2 sec video or owner retention analysis; no copying.",
+    "testablePrediction": "Clear same-object question/answer framing may improve first-frame comprehension and long-form viewing. Measure 24h/7d/28d CTR, AVD, retention and qualified organic watchtime after actual production, vs matched format/video age; no current proof.",
+    "mediaPolicy": "What If mixed visuals; use existing science demonstrations only with verified reuse permission or create original labelled recreations. Avoid all-AI unbudgeted generated footage and fake scientific documentary claims."
+  },
+  "actions": {
+    "readOnlyChecksCompleted": true,
+    "mediaGenerated": 0,
+    "newExports": 0,
+    "postsBooked": 0,
+    "postsPublished": 0,
+    "paidPromotions": 0,
+    "creditsPurchased": 0,
+    "notificationsTriggered": 0,
+    "newBlockersConfirmed": false,
+    "existingBeeQCHoldPreserved": true,
+    "previousBookingsUnchanged": true
+  },
+  "nextStep": "No new generation until current provider itemized quote and final MP4-with-sound review path are available; no auto-post from drafts. Sunday Nov15 18:00 is editorial target, not a verified booking. Avoid duplicate production or unjustified Telegram alert."
+}
