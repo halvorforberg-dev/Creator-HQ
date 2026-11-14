@@ -264,6 +264,18 @@
         "latestHeld": "Pip’s Five-Berry Counting Picnic ID cf30e4c4-e596-44e4-baa9-604bda005130, 38s exported but no full MP4+sound approval, outfit and berry story issues; do not spend more credits trying to fix it. Do not publish as-is.",
         "autopilot": "A connected YouTube channel at AI Tuber account level is not evidence that the specific AutoPilot is linked; 2026-11-12 notification confirmed this specific AutoPilot has no connected channel. Do not reactivate auto-posting without full QC protections.",
         "scriptGate": "Before a new paid Little Wild generation, satisfy data/little-wild-series-bible.json scriptFirstProductionGate20261112. Spend more editor effort BEFORE first attempt; only generate truly educational and exciting scripts with visual logic and fixed characters."
+      },
+      "oneFilmWardrobeException20261114": {
+        "decidedAt": "2026-11-14",
+        "scope": "ONLY AI Tuber video 1ae54fb5-cdaa-4656-a544-66e43077f2b2 (Miko’s Gentle Hair-Brush Helper)",
+        "userAuthorization": "Publish this specific film even if Milo's clothes are wrong. This exception applies to wardrobe only; do not infer approval for other videos or waive full final MP4 + audio QC, safety, no duplication, metadata and correct YouTube channel.",
+        "existingFilmDurationSeconds": 34,
+        "releaseStatus": "HOLD_NOT_PUBLISHED",
+        "statusReason": "Generated as video with five moving segments; 1080p export 5310cf88-775b-41d0-bb38-b0f3879d3938 completed by AITuber on 2026-11-14. Download endpoint provided an MP4 URL, but direct CDN fetch failed with DNS resolution error, preventing mandatory end-to-end viewing and listening. Also 34s below 35–40s target; user waived wrong clothes only.",
+        "mp4ExportId": "5310cf88-775b-41d0-bb38-b0f3879d3938",
+        "proof": "AI Tuber get_video/list_videos/export_video/download_video and local DNS error while fetching cdn.aituber.app",
+        "credits": "Export at 1080p is a no-credits operation; no video regeneration, no purchase.",
+        "nextStep": "Make full MP4 accessible and review entire picture and sound; then verify duplicate-free booking and Made for Kids for next appropriate 18:00 Europe/Oslo slot. If remaining gate fails, hold without paid corrections."
       }
     },
     "whatif": {
