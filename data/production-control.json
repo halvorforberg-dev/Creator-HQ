@@ -1797,6 +1797,22 @@
       ],
       "execution": "No generation, export, booking, publication, new ads or credit purchase by this audit.",
       "alert": "Existing bee audio-quality alert stays open until real evidence of correction; no fresh operational blocker and no duplicate push."
+    },
+    "littleWildDaily20261114": {
+      "date": "2026-11-14",
+      "videoId": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+      "source": "AITuber current connected account video record",
+      "state": "34s source-completed AI-video / export absent / QC HOLD / publication not verified",
+      "creditBalance": 6382,
+      "vidIQ": {
+        "subscribers": 363,
+        "views": 8385,
+        "videos": 17
+      },
+      "shadowLongScript": "data/little-wild-shadow-long-script-2026-11-14.md",
+      "qcEvidence": "data/little-wild-hairbrush-qc-2026-11-14.json",
+      "noNewBlocker": true,
+      "publishedByAgent": false
     }
   },
   "channelAudit": {
@@ -2872,8 +2888,10 @@
         "brief": "data/little-wild-moving-shadow-long-brief-2026-11-06.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "NEW_EDITORIAL_OUTLINE_NOT_GENERATED_NOT_BOOKED",
-        "caution": "Old images-only Weekly Long Story AutoPilot paused; real full-motion 16:9 cost and MP4 QC must be checked before restarting/generation."
+        "stage": "FULL_EDITORIAL_SCRIPT_ONLY_NOT_GENERATED_NOT_BOOKED",
+        "caution": "DO NOT treat 2026-11-15 18:00 as confirmed reservation. Existing images-only Weekly Long Story last known paused. True moving video 3–6 minutes requires cost estimate and finished AV+MadeForKids QC. No new paid generation due shared credit and QC access guard.",
+        "script": "data/little-wild-shadow-long-script-2026-11-14.md",
+        "scriptRevision": "2026-11-14 original v2: 485 spoken words, 12 causal scenes, 5 truthful opening options, proper shadow geometry and cast continuity; runtime unverified; no provider booking"
       },
       {
         "channel": "Bizarre Past",
@@ -3937,5 +3955,57 @@
       "test": "First two seconds show actual physical triangle mystery; end reveals boat-to-island interpretation. Test when video actually ships and compare same-format same-age CTR and watchtime, not competitor raw views."
     },
     "operational": "No confirmed new publishing/production failure; no Telegram alert warranted; no edits to live bookings. No generation credits, ads, likes, comments or publication writes. No full-hour Work session claimed."
+  },
+  "littleWildAgentCheck20261114": {
+    "date": "2026-11-14",
+    "checkedWindow": "18:42+ Europe/Oslo; AI Tuber provider timestamps in UTC",
+    "sources": [
+      "AITuber list_videos + get_video + GET /videos/{id} for 14 Nov hairbrush",
+      "AITuber get_subscription and GET /channels",
+      "AITuber downloads for previously exported 12 Nov film, container DNS test",
+      "vidIQ user_channels (0 credits) + vidiq_balance (2 add-on credits remain)",
+      "Creator HQ canonical creative, production and Little Wild series docs",
+      "NHS hair brushing and Nationwide Children's Hospital detangling guidance; Schools' Observatory shadow guide"
+    ],
+    "latestLittleWildVideo": {
+      "videoId": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+      "title": "Miko’s Gentle Hair-Brush Helper",
+      "createdAtUTC": "2026-11-14T15:00:46.900Z",
+      "status": "completed; mediaType video; 9:16; 34s; 5 AI video scene sources; export NOT present",
+      "scriptQc": "HOLD_NOT_APPROVED: length below 35–40s target, source scenes specify Milo sweater not approved teal romper, Miko green backpack not firmly locked, weak first 2s action, generic CTA. Hair-care technique directionally consistent with NHS, but final visuals, soundtrack and speech cannot be verified without full exported MP4.",
+      "qcReport": "data/little-wild-hairbrush-qc-2026-11-14.json",
+      "publication": "No booking/publication by this agent; list/get_video do NOT confirm global provider publication status, and AutoPilot settings not reverified today."
+    },
+    "budget": {
+      "aituberSharedCredits": 6382,
+      "monthlyCredits": 10000,
+      "previousObserved": 6580,
+      "change": -198,
+      "attribution": "Not provider-itemized; do not assign 198 credits to any single video. What If priority ~7000/Little Wild ~3000 monthly working allocation only.",
+      "creditsSpentByThisAgent": 0,
+      "purchases": 0
+    },
+    "publicVidIQ": {
+      "subscribers": 363,
+      "lifetimeViews": 8385,
+      "publicVideos": 17,
+      "source": "vidIQ authenticated 0-credit user_channels on 2026-11-14",
+      "changeFrom13Nov": "0 subscribers, +2 lifetime views, 0 public video count; not evidence of new uploads or retention",
+      "analyticsLimit": "No organic/paid separation or fresh retention. vidIQ available credits=2; no paid API calls."
+    },
+    "longFormDevelopment": {
+      "title": "Milo and the Shadow That Wouldn't Stay Still!",
+      "dateTarget": "2026-11-15 18:00 Europe/Oslo, editorial only",
+      "scriptPath": "data/little-wild-shadow-long-script-2026-11-14.md",
+      "scriptVersion": "v2: 485 English spoken words across 12 causal moving scenes, 5 truthful hooks, 3 story options, verified shadow science, full audio/visual instructions, source-backed safety, specific character wardrobe",
+      "status": "EDITORIAL_SCRIPT_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "cost": "Illustrative full-motion ~4min AI video footage 1200 basic/2400 good/6240 premium credits BEFORE voice/retakes; no actual provider quote or authorized spend; preserve What If priorities."
+    },
+    "existingDraftQc": {
+      "fiveBerryVideoId": "cf30e4c4-e596-44e4-baa9-604bda005130",
+      "status": "HOLD existing 12 Nov complete 1080p export, still not viewable with sound due cdn.aituber.app DNS lookup failure on 14 Nov. No repeat paid generation and no new booking."
+    },
+    "alerts": "No FRESH verified production/publishing blocker, so production-alerts.json left unchanged; existing historic What If blocker remains separate. Missing QA access without confirmed booked release is not new confirmed publication failure.",
+    "actions": "Read connected providers and canonical HQ docs; evaluated new 14 Nov video source scenes, educational source check, revised existing Sunday long-form outline into full script and saved QC report; no paid generation/export, bookings, publishing, comments, likes, promotions, ads or credits purchases."
   }
 }
