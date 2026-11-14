@@ -125,3 +125,53 @@ Ordered narrative beats only: time each segment to the ACTUAL recorded narration
 **Kilder:** British Museum via https://smarthistory.org/map-of-the-world/ ; https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg ; History Matters tredjeparts daterte katalog: https://trari.com/en/c/historymatters/ .
 
 **Budsjettport:** Higgsfield Plus 167,77 credits ved tilkoblet sjekk 13.11; ingen gratis video-generering igjen. Tidligere ca. 252 credits for 21 × 8s cinematic video-klipp før voice, musikk, rettelser. Derfor HOLD 16:9-film som manus: ingen ny betalt generering eller utrygg planlagt publisering uten finansiert full scenepakke og ferdig avspilt MP4 med lyd. Nov18 18:00 er kun redaksjonelt mål, ikke booket.
+
+
+## Latest editorial preflight v3 — 14 November 2026, 17:20 Oslo (NO paid production)
+**Status: SCRIPT AND STORYBOARD ONLY — not generated, exported, perceptually QC-passed, scheduled or published.** Supersedes v1/v2 for any future production; previous drafts remain for change history. Today British Museum-authored primary interpretation at https://smarthistory.org/map-of-the-world/ newly rechecked: the outer triangles can represent the view of a region as first approached across water. This is a source-backed, more **visible final revelation** than a generic mythological-world conclusion. No invented precise place or monster identification.
+
+**Viewer question 0–2 seconds:** What are the triangles beyond the circular sea on this real Babylonian map? Opening has original moving model and a visible triangle by the first frame; narrator immediately says “Did you know…”. **Last-scene answer:** a boat approaches land; the far shoreline first looks like a triangular point and the label reads “REGION / ISLAND”; pull back to a real-world-inspired tablet diagram labeled “BABYLONIAN WORLDVIEW, NOT MODERN COORDINATES”. The true object does not prove that mythical creatures lived there.
+
+**5 truthful hook options:** (1) **Chosen** “Did you know a Babylonian map showed mysterious lands beyond the sea?” (2) “Did you know ancient Babylon drew islands beyond an encircling sea?” (3) “Did you know this ancient map placed triangles beyond the world?” (4) “Did you know a clay tablet pictured the world surrounded by water?” (5) “Did you know a Babylonian map mixed real places with mythical lands?” Hook 1 offers the clearest tangible question without revealing its answer. The “Did you know…” phrase starts at 0–2 seconds, not an unnatural requirement to deliver the whole sentence in two seconds.
+
+**FINAL CANDIDATE ENGLISH VOICEOVER v3 (230 words; estimate by real voice read-through, do NOT force timing):**
+> Did you know a Babylonian map showed mysterious lands beyond the sea?
+>
+> This tablet is small enough to hold in one hand. Yet a scribe tried to picture an entire world.
+>
+> Near the center, a rectangle marks Babylon. The Euphrates runs through it. Assyria and Elam are named nearby.
+>
+> A double ring surrounds these familiar places. Its ancient label means the Salt Sea.
+>
+> But look beyond that ring. Triangles jut out from the water. Some are labeled Region or Island. Scholars think there may originally have been eight.
+>
+> And here is a surprising clue. Why did the mapmaker choose triangles? From a boat, a distant coastline may first appear as a pointed shape on the horizon. Watch what happens as an imagined vessel approaches: the tip rises, then land gradually comes into view.
+>
+> This wasn't just a navigational chart. The surviving inscriptions mix familiar geography with heroes and mythical creatures. Parts are damaged, so their full story is lost.
+>
+> Archaeologists found this tablet at Abu Habba, ancient Sippar, in what is now Iraq. The surviving object dates to roughly the sixth century BCE.
+>
+> Now look again at those triangles. They are not proof of secret islands or legendary beasts. They are the distant regions of a Babylonian picture of the world.
+>
+> The mystery wasn't where the monsters lived. It was how people imagined the unknown, just beyond the Salt Sea.
+
+**Scene-to-speech / sound synchronization — fluid beats, not rigid 8-second cuts**
+
+| VO passage (exact v3 anchor) | Moving ORIGINAL Higgsfield visual | Caption and audio |
+| --- | --- | --- |
+| “Did you know a Babylonian map…” | Begin on tiny genuine-motion clay **reconstruction**, move camera into triangular relief beyond the outer water ring from frame 1 | “DID YOU KNOW?” clear, then “BEYOND THE SEA?”; single low impact, not loud clickbait |
+| “This tablet is small enough…” | Scribe's hands impress tiny slab with tool, camera moves from hand-scale to stylized whole-tablet composition | Soft tool and fire sounds; no fake claim this is actual ancient excavation footage |
+| “Near the center… Assyria and Elam…” | One continuous animated reveal of rectangle/river then other labeled regions on **schematic** map; never pretend perfect original cuneiform transcription | BABYLON / EUPHRATES / ASSYRIA / ELAM one at a time, not cluttered |
+| “A double ring… Salt Sea” | Trace the encircling ring, water motion flows into outline as camera follows, not literal realistic globe | “SALT SEA”; slight suspense |
+| “But look beyond… eight” | Camera continues beyond the ring to triangular tips; damaged/missing segments kept visibly missing | “REGION / ISLAND”; “ORIGINALLY ABOUT EIGHT?” |
+| “Why did… choose triangles? From a boat…” | **Main new payoff setup:** physically animated boat and rising faraway coastline in the distance; the coastline's first visible silhouette is a triangular peak. Dissolve to corresponding triangular mark on clay | Water/wood and air, narration breathes; on-screen “SEEN FROM THE WATER” |
+| “This wasn't just… heroes and mythical creatures” | Scribe's stylized imaginary myth silhouettes emerge only as shadow/visualization, with clear STORY/MYTH visual language, **not claimed archaeological evidence** | “GEOGRAPHY + MYTH”; slightly lowered score, no monsters presented as documented sightings |
+| “Archaeologists found this tablet… century BCE” | Neutral map locator of Abu Habba (Sippar) in present-day Iraq, date on actual-time graphic, then back to clay | “SIPPAR, IRAQ” / “c. 6th century BCE”; no claim dating underlying composition precisely |
+| “Now look again… They are not proof…” | Boat-to-triangle visual returns, triangle aligns with actual map schematic, other regions stay incomplete | “REGION / ISLAND ≠ PROVEN SECRET ISLAND” (can simplify for mobile) |
+| “The mystery wasn't… Salt Sea.” | Pull back to the whole small clay schematic, outer triangles visible and actual answer on screen. Sound resolves after final spoken word, with natural tail | “THE EDGE OF THEIR KNOWN WORLD”; clean ending, no forced loop |
+
+**Historical/creative validation:** The British Museum's own text describes Babylon and named regions, the Salt-Sea ring, probably eight triangles labeled Region or Island, and their shape as a sea-approach silhouette; it notes the fragmentary mythological text (https://smarthistory.org/map-of-the-world/). The original object is British Museum BM 92687 (https://www.britishmuseum.org/collection/object/W_1882-0714-509). No claim that the map accurately locates literal mythical creatures or specific modern islands; show imaginary reconstructions as such. Museum photography used only as a study reference unless rights explicitly cleared.
+
+**Cost and release gate:** Higgsfield Plus live balance 167.77 credits on 14 Nov, no usable free VIDEO generations; 21 × 8-sec prior cinematic clips were estimated at 252 credits **video alone** before voice, music, or retakes. New 2–4-minute 16:9 production cannot be safely funded at previously approved quality. HOLD paid generation and Nov18 booking until current model quote/full budget and complete audio-visual QC path are available. Existing Mørstad Nov15 and San Juan Nov16 Metricool PENDING posts stay untouched. Do not silently downgrade models; no credits/ads purchased or spent in this preflight.
+
+**Hypothesis to test after actual publication:** Specific “why triangle” boat-to-map reveal may deliver stronger retention than abstract ancient-world endings, but no audience result is measured. Compare actual owner CTR/watchtime and early retention at 24h/7d/28d to age-matched ordinary 16:9 Bizarre Past uploads, separating formats and traffic sources where possible.
