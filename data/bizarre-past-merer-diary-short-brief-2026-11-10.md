@@ -91,3 +91,10 @@ Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `g
 - Archaeology Magazine’s interview/report on Tallet’s excavations confirms roughly forty workers in Merer’s direct group and explains the discovery context: https://archaeology.org/issues/july-august-2022/features/egypt-wadi-el-jarf-port-papyri/ . Avoid a misleading generic 'slaves built the pyramid' claim; the script already avoids it.
 - National Geographic’s account also distinguishes the white casing-stone transport from the entire engineering method: https://www.nationalgeographic.com/premium/article/red-sea-scrolls-pyramids-egypt . Keep that distinction in the final narrated payoff.
 - This is source research only: neither a real generated master nor a booking has been created here. Keep the proposed Nov20 Short unbooked until sufficient funds, finished AV-QC and exact duplicate control.
+
+## Production recheck — 14 November 2026
+- **Checked:** 2026-11-14 08:39 Europe/Oslo.
+- **Provider truth:** Thonis-Heracleion is PUBLISHED on YouTube/TikTok from 13 Nov 18:00. Mørstad remains PENDING on both for 15 Nov 18:00, and San Juan remains PENDING on both for 16 Nov 18:00. Both upcoming posts contain media and auto-publish; no Nov20 Merer booking exists.
+- **Generation control:** Latest 100 Higgsfield jobs contain no active or failed job; no Merer production/export was found for reuse in the checked history.
+- **Balance:** Higgsfield Plus **167.77 credits**, with no usable free video generations. vidIQ has no active job; its 2-credit balance is not blocking this editorial preparation.
+- **Decision:** Keep Merer as a source-checked, production-ready editorial brief only. Do not spend the reserved long-form credits or silently switch to an unapproved cheaper visual model. This is an unbooked editorial slot, not a failed delivery and not a fresh Telegram blocker.
