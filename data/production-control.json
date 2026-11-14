@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -338,7 +338,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-13 after 18:07 Oslo: Nov13 Thonis PUBLISHED both YouTube and TikTok (live public URLs verified). Nov15 Mørstad and Nov16 San Juan PENDING both unchanged.",
+      "verifiedDate": "2026-11-14 08:39 Europe/Oslo: Thonis PUBLISHED both. Mørstad Nov15 and San Juan Nov16 PENDING on YouTube+TikTok with media and auto-publish. No Merer Nov20 booking.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -2899,7 +2899,7 @@
   },
   "nextShortEditorial": {
     "bizarrePast": {
-      "status": "SOURCE_CHECKED_EDITORIAL_DRAFT_ONLY_NOT_GENERATED_NOT_QC_PASSED_NOT_BOOKED",
+      "status": "SOURCE_CHECKED_PRODUCTION_BRIEF_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_QC_PASSED_NOT_BOOKED",
       "subject": "Merer's 4,500-year-old shipping diary: white limestone for the Great Pyramid by boat",
       "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳 | #Shorts",
       "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
@@ -2919,7 +2919,9 @@
         "date": "2026-11-13",
         "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
       },
-      "slotUpdate": "Nov16 booked for San Juan on YT+TikTok (provider IDs 423659187 / 423659361). Merer remains editorial only candidate for Fri20, not generated or booked."
+      "slotUpdate": "Nov16 booked for San Juan on YT+TikTok (provider IDs 423659187 / 423659361). Merer remains editorial only candidate for Fri20, not generated or booked.",
+      "latestRecheck": "2026-11-14 08:39 Europe/Oslo",
+      "productionDecision": "HOLD paid generation to protect the insufficient 16:9 long-form reserve; no cheaper unapproved model; recheck balance, jobs and queue before spending."
     },
     "littleWild": {
       "status": "EDITORIAL_DRAFT_ONLY",
@@ -3738,5 +3740,90 @@
     },
     "operationalAlert": "No FRESH source-confirmed critical or blocker incident. Inaccessible finished MP4 is a longstanding QA access limitation; unbooked editorial 18:00 target is not an operation failure. No new production-alerts.json event or Telegram push.",
     "actions": "Read provider/Gmail/vidIQ/HQ and educational sources, attempted MP4 retrieval, revised free pre-credit script brief, updated HQ notes. No new AI Tuber generation/export or paid retry, no YouTube post/booking, no ad/promotion/credit purchase, no interactions performed."
+  },
+  "bizarrePastShortsCheck20261114": {
+    "checkedAtOslo": "2026-11-14 08:39 Europe/Oslo",
+    "governingFiles": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "Library YouTube-kanalplan.md (01 Nov; older conflicting schedules superseded by production-control)",
+      "data/bizarre-past-merer-diary-short-brief-2026-11-10.md"
+    ],
+    "channelConnections": {
+      "metricoolBrandId": 7296504,
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "tiktokHandle": "bizzare.past",
+      "connected": true
+    },
+    "liveQueue": [
+      {
+        "film": "Thonis-Heracleion",
+        "date": "2026-11-13 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 423027641,
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.youtube.com/shorts/LvqQbn53zwo"
+        },
+        "tiktok": {
+          "postId": 423027976,
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7707703313050963202"
+        }
+      },
+      {
+        "film": "Mørstad Viking hoard",
+        "date": "2026-11-15 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 420588270,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "postId": 420588470,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true
+      },
+      {
+        "film": "San Juan Island horse races",
+        "date": "2026-11-16 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 423659187,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "postId": 423659361,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true
+      }
+    ],
+    "nextShort": {
+      "topic": "Merer's diary / Wadi al-Jarf shipping records",
+      "possibleSlot": "2026-11-20 18:00 Europe/Oslo",
+      "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
+      "status": "SOURCE_CHECKED_EDITORIAL_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_QC_PASSED_NOT_BOOKED",
+      "hooksPrepared": 5,
+      "selectedHook": "Did you know a worker left written clues to the Great Pyramid?"
+    },
+    "production": {
+      "higgsfieldPlan": "Plus",
+      "credits": 167.77,
+      "usableFreeVideoGenerations": 0,
+      "activeJobs": 0,
+      "failedJobsInLatest100": 0,
+      "existingMererExportFound": false,
+      "decision": "NO_GENERATION_THIS_RUN; reserve credits for prioritized 16:9 film. Do not silently downgrade model or quality."
+    },
+    "vidiq": {
+      "connectedChannel": "Bizarre Past @bizarrepast69",
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "credits": 2,
+      "activeJobs": 0,
+      "productionBlocked": false
+    },
+    "alertDecision": "No fresh verified production or publishing blocker. No Telegram alert and no credit purchase request.",
+    "actionsThisRun": "Read both governing GitHub files and the specified Library plan; verified live Metricool queue, Higgsfield balance/history and vidIQ access/jobs; documented fresh Merer preflight. No generation, export, QC claim, booking, reschedule, duplicate, paid promotion or purchase."
   }
 }
