@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "channel": "Little Wild Adventures",
   "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
@@ -527,5 +527,48 @@
     "balanceAttribution": "Shared with What If; -220 since 12 Nov is unattributed.",
     "publishing": "No booking or publication by this agent; 18:00 Friday was an editorial target, not evidence of queue or publication.",
     "alerts": "No fresh confirmed blocker; no new Telegram event."
+  },
+  "lastAgentCheck20261114": {
+    "date": "2026-11-14",
+    "sharedAiTuberCredits": 6382,
+    "previousObserved": 6580,
+    "latestProviderVideo": {
+      "videoId": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+      "title": "Miko’s Gentle Hair-Brush Helper",
+      "createdUTC": "2026-11-14T15:00:46.900Z",
+      "mediaType": "video",
+      "durationSeconds": 34,
+      "scenes": 5,
+      "exportStatus": null,
+      "quality": "HOLD_NOT_APPROVED",
+      "reason": "Milo sweater vs approved teal romper; backpack green not explicit; weak visible physical hook; generic closing CTA; no complete MP4+audio or metadata checks",
+      "review": "data/little-wild-hairbrush-qc-2026-11-14.json"
+    },
+    "nextLongForm": {
+      "title": "Milo and the Shadow That Wouldn't Stay Still!",
+      "script": "data/little-wild-shadow-long-script-2026-11-14.md",
+      "editorialOnly": true,
+      "spokenWords": 485,
+      "scenes": 12,
+      "releaseTarget": "2026-11-15 18:00 Europe/Oslo editorial, not booked",
+      "noCreditsSpent": true
+    },
+    "fiveBerryExisting": "HOLD: 12 Nov export still inaccessible due cdn.aituber.app DNS issue (14 Nov repeat); no visual/audio QC passed.",
+    "autopilot": "Main draft-only and Weekly Long Story paused last confirmed 2026-11-05, not reverified by UI today.",
+    "youtubePublic": {
+      "subscribers": 363,
+      "views": 8385,
+      "publicVideos": 17
+    },
+    "alert": "No fresh verified operational blocker. No Telegram notice."
+  },
+  "latestProviderDraft20261114": {
+    "videoId": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+    "title": "Miko’s Gentle Hair-Brush Helper",
+    "status": "GENERATED_PROVIDER_VIDEO_HOLD_NO_EXPORT_OR_QC",
+    "creatorOrigin": "Not proven to be AutoPilot from generic video API",
+    "videoSource": "AITuber GET /videos/{id}",
+    "promptDefects": "Milo teal sweater not approved teal romper; no explicit green Miko backpack; bland opening; 34s duration",
+    "nextAction": "Do NOT spend credits repairing existing flawed video. Keep held; use source QA lessons in future pre-generation briefs."
   }
 }
