@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -1778,5 +1778,98 @@
       "providerSource": "AI Tuber GET /videos/{id}",
       "report": "data/whatif-agent-review-2026-11-13.json"
     }
+  },
+  "bizarreResearchNote20261114Agent": {
+    "checkedAtOslo": "2026-11-14 around 17:20 Europe/Oslo",
+    "scope": "Bizarre Past original historical-storytelling research and comparison; no paid vidIQ calls or playback claim",
+    "competitor": {
+      "name": "History Matters",
+      "reference": "https://trari.com/en/c/historymatters/",
+      "videoTitle": "Why didn't Napoleon just stop? (Short Animated Documentary)",
+      "videoDate": "2026-11-06",
+      "videoLength": "8:11 (GridVids third party)",
+      "channelSizeAtCheck": "~1.92M YouTube subscribers (Trari, 14 Nov)",
+      "cumulativeVideoViewsAtCheck": 1415621,
+      "sourceChecked": "2026-11-14",
+      "limits": "Third-party catalog counts and channel size, not our firsthand YouTube Studio source. No direct observation of the opening seconds, narration, thumbnail A/B, or audience retention. Large channel unlike our own; do NOT compare absolute raw views or infer title causality.",
+      "sourceUrls": [
+        "https://trari.com/en/c/historymatters/",
+        "https://gridvids.com/history-matters"
+      ]
+    },
+    "ownedPlatformSnapshot": {
+      "source": "Authenticated Metricool, brand 7296504, 2026-11-14",
+      "youtubeIndexedRows": [
+        {
+          "date": "2026-11-09",
+          "title": "Herculaneum scroll",
+          "views": 53,
+          "avgSeconds": 12
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Pastry War",
+          "views": 42,
+          "avgSeconds": 17
+        },
+        {
+          "date": "2026-11-06",
+          "title": "Knights Templar",
+          "views": 32,
+          "avgSeconds": 12
+        },
+        {
+          "date": "2026-11-04",
+          "title": "Oak Island",
+          "views": 139,
+          "avgSeconds": 14
+        },
+        {
+          "date": "2026-11-02",
+          "title": "Galloway Hoard",
+          "views": 937,
+          "avgSeconds": 15
+        }
+      ],
+      "youtubeFreshMissingRows": "Nov11 Antikythera and Nov13 Thonis are confirmed PUBLISHED by Metricool but absent in selected 'YouTube all videos' analytics rows; never misread as 0 views.",
+      "tiktokIndexedRows": [
+        {
+          "date": "2026-11-13",
+          "title": "Thonis-Heracleion",
+          "views": 259
+        },
+        {
+          "date": "2026-11-11",
+          "title": "Antikythera",
+          "views": 275
+        },
+        {
+          "date": "2026-11-09",
+          "title": "Herculaneum scroll",
+          "views": 275
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Pastry War",
+          "views": 291
+        },
+        {
+          "date": "2026-11-06",
+          "title": "Knights Templar",
+          "views": 296
+        }
+      ],
+      "tiktokRetentionData": "Requested fullVideoWatchedRate/totalTimeWatched were null for this connector snapshot; do not invent retention",
+      "limitation": "Cumulative unadjusted snapshots at different video ages, paid/organic split and full retention unavailable; cannot infer why one topic did better."
+    },
+    "newSourceBackedBabylonInsight": {
+      "fact": "British Museum states eight originally imagined triangular Region/Island marks could represent land seen when approaching across water; map shows Babylon and other real regions within Salt Sea, myth outside.",
+      "source": "https://smarthistory.org/map-of-the-world/",
+      "brief": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md",
+      "editorialChange": "v3 manuscript 230 words with an original boat approaches triangular coastline reveal, resolves exact physical opening question; no generation/booking",
+      "test": "When actually produced/quality-approved/published, compare same-format age-matched 24h/7d/28d YouTube CTR/retention/qualifying public watch time, not raw views against History Matters.",
+      "status": "RESEARCH AND SCRIPT_ONLY"
+    },
+    "nextAction": "Do not spend 167.77 Higgsfield credits on an unbudgeted 2-4 minute film. Nov15 Mørstad and Nov16 San Juan current provider bookings remain untouched. No fake engagement activities, no 1h session claimed."
   }
 }
