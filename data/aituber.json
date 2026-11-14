@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-11-13T08:28:45.776Z",
+  "updatedAt": "2026-11-14T08:17:15.994Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "455caced-457b-4a19-9796-1f74926d2845",
+      "title": "What If Antarctica’s Ice Melted Completely?",
+      "status": "completed",
+      "createdAt": "2026-11-13T17:00:50.435Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "cf30e4c4-e596-44e4-baa9-604bda005130",
       "title": "Pip’s Five-Berry Counting Picnic",
