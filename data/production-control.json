@@ -4414,5 +4414,71 @@
     "status": "SCRIPT_STORYBOARD_AND_SOURCE_CHECK_COMPLETE_NOT_GENERATED_NOT_EXPORTED_NOT_QC_PASSED_NOT_BOOKED",
     "choiceBasis": "Public 2026-11-15 YouTube comparison: Cleo Abram 2025 Sun Disappeared ~12m, Vsauce 2013 Sun Disappeared ~20.8m, xkcd visible-light scenario ~4.38m; own What If Sun 10% Brighter 1073 views, Saturn 2560 (promoted), Octopus 1025, Bee long 19. These are noncomparable counts, not forecast.",
     "editorialPrecedence": "Replace only unbooked editorial priority Invisible Air (retain as later concept). Preserve all actual provider bookings. Do not spend new credits until current budget, script, timing and quality gates checked. Must conduct full audiovisual MP4 QC and duplicate guard before any 18:00 booking."
+  },
+  "littleWildAgentCheck20261115": {
+    "checkedAt": "2026-11-15 ~18:54 Europe/Oslo",
+    "sources": [
+      "AI Tuber connected list_videos and get_video/export metadata",
+      "AI Tuber Studio get_subscription",
+      "AI Tuber connected YouTube channel list",
+      "AI Tuber download_video temporary signed MP4 link + attempted local DNS fetch",
+      "vidIQ user_channels 0-credit public stats",
+      "GitHub canonical production-control, series bible, creative-prompt-upgrades, competitor-watch and hairbrush QC",
+      "Library YouTube-kanalplan.md (2026-11-01, obsolete schedule superseded by newer GitHub)",
+      "PBS KIDS for Parents active inquiry guide"
+    ],
+    "latestLittleWildGenerated": {
+      "id": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+      "title": "Miko’s Gentle Hair-Brush Helper",
+      "createdAtUTC": "2026-11-14T15:00:46.900Z",
+      "status": "completed",
+      "mediaType": "video",
+      "durationSeconds": 34,
+      "aspectRatio": "9:16",
+      "realVideoSegmentsInTimeline": 5
+    },
+    "videoExport": {
+      "exportId": "5310cf88-775b-41d0-bb38-b0f3879d3938",
+      "resolution": "1080p",
+      "status": "completed",
+      "directCDNAccess": "failed DNS resolution for cdn.aituber.app in review runtime",
+      "fullAVReviewed": false
+    },
+    "sourceQA": {
+      "outfitException": "2026-11-14 one-video user waiver retained",
+      "specificFinding": "Last segment ~42 frames (1.4s) with generic 'Come join us again!' rather than visual instructional final; stronger story payoff required in future. Source timeline only, cannot judge audio/actual final animation.",
+      "disposition": "HOLD_NOT_APPROVED_NOT_SCHEDULED"
+    },
+    "queueRisk": "No new 16:9 Little Wild video exists in latest connected AI Tuber videos as of check. Studio recurring AutoPilot / global publication schedule cannot be verified by exposed API. Prior weekly-long-story paused from 2026-11-05 UI, NOT freshly reverified. No duplicate or new booking made.",
+    "sundayTarget": "15 Nov 18:00 Little Wild long film was a planned editorial target; shadow script is ungenerated and unbooked. Do not misreport as missed confirmed platform booking.",
+    "latestStudioCredits": {
+      "remaining": 6189,
+      "totalIncluded": 10000,
+      "previousObserved20261114": 6382,
+      "change": -193,
+      "allocation": "Shared What If and Little Wild, no reliable attribution"
+    },
+    "latestPublicStats": {
+      "source": "vidIQ 0-credit owner channel listing",
+      "subscribers": 363,
+      "totalViews": 10601,
+      "publicVideos": 17,
+      "previousNov14TotalViews": 8385,
+      "deltaSinceLastSample": 2216,
+      "interpretation": "Snapshot change, NOT proof of organic gain/retention or which video drove it. Subscriber total unchanged."
+    },
+    "currentCostByAgent": 0,
+    "newGenerationByThisRun": false,
+    "newExportByThisRun": false,
+    "bookingsByThisRun": 0,
+    "publicationsByThisRun": 0,
+    "paidPromotionsByThisRun": 0,
+    "weeklyLongStoryVerifiedToday": false,
+    "videosWatchedOrLikedByAgent": 0,
+    "userNotificationBasis": "Material metric snapshot change and outstanding concrete quality-gate limitation; no fresh operational blocker Telegram.",
+    "alertCreated": false,
+    "nextStep": "Use already preflighted Rainy-Day Rhythm or Shadow only after checking credit/What If buffer, active AutoPilot, actual provider queue and a way to review exported MP4 with SOUND. Improve next new opening/action/payoff; do not regenerate the existing Hair-Brush film or spend credits on completed flaws.",
+    "brief": "data/little-wild-rainy-day-rhythm-short-brief-2026-11-09.md",
+    "qualityReport": "data/little-wild-hairbrush-qc-2026-11-14.json"
   }
 }
