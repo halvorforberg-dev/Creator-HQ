@@ -3087,15 +3087,15 @@
         "channel": "What If in 40 Seconds",
         "date": "2026-11-18",
         "time": "18:00 Europe/Oslo",
-        "length": "3–4 min",
+        "length": "Flexible 2, 3 or 4 min — storytelling decides",
         "aspect": "16:9 ordinary public",
-        "title": "What If the Sun Went Dark for 24 Hours? 🌍",
-        "subject": "Sunlight and heating radiation switched off for exactly 24 hours while solar mass and gravity remain",
-        "brief": "data/whatif-sun-dark-24h-long-brief-2026-11-15.md",
+        "title": "What If the Sun Went Dark for a Week? 🌍",
+        "subject": "Seven days without sunlight or radiant heating while solar gravity remains",
+        "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "EDITORIAL_SCRIPT_AND_STORYBOARD_ONLY_NOT_GENERATED_NOT_BOOKED",
-        "caution": "Chosen after public competitor analysis 2026-11-15. No generation, export, final AV review or provider booking yet; 18:00 is an editorial target. Must preserve actual existing bookings, avoid duplicates and pass full final MP4+audio QC."
+        "stage": "EDITORIAL_BRIEF_ONLY_NOT_PRODUCED_NOT_BOOKED",
+        "caution": "User expressly prioritizes interesting story over rigid runtime. No booking or publication until full final AV QC."
       }
     ],
     "existingBookings": "Existing posts preserved. Bizarre Past Mørstad long-form is now verified booked on both YouTube and TikTok for 2026-11-15 18:00 Europe/Oslo; booking is not proof of publication.",
@@ -4406,14 +4406,15 @@
   "whatIfNextLongFormSelection20261115": {
     "decisionAt": "2026-11-15",
     "channel": "What If in 40 Seconds",
-    "topic": "Sun stops emitting light and heat for 24 hours, but its gravity stays",
-    "title": "What If the Sun Went Dark for 24 Hours? 🌍",
+    "topic": "Sun stops radiating sunlight for seven full days while gravity stays unchanged",
+    "title": "What If the Sun Went Dark for a Week? 🌍",
     "editorialTarget": "2026-11-18 18:00 Europe/Oslo",
-    "format": "Public ordinary 16:9 long film, about 3–4 minutes, not a Short",
-    "brief": "data/whatif-sun-dark-24h-long-brief-2026-11-15.md",
-    "status": "SCRIPT_STORYBOARD_AND_SOURCE_CHECK_COMPLETE_NOT_GENERATED_NOT_EXPORTED_NOT_QC_PASSED_NOT_BOOKED",
-    "choiceBasis": "Public 2026-11-15 YouTube comparison: Cleo Abram 2025 Sun Disappeared ~12m, Vsauce 2013 Sun Disappeared ~20.8m, xkcd visible-light scenario ~4.38m; own What If Sun 10% Brighter 1073 views, Saturn 2560 (promoted), Octopus 1025, Bee long 19. These are noncomparable counts, not forecast.",
-    "editorialPrecedence": "Replace only unbooked editorial priority Invisible Air (retain as later concept). Preserve all actual provider bookings. Do not spend new credits until current budget, script, timing and quality gates checked. Must conduct full audiovisual MP4 QC and duplicate guard before any 18:00 booking."
+    "format": "Public ordinary 16:9 long-form video; story-led flexible length: 2, 3 or 4 minutes acceptable",
+    "lengthPolicy": "USER EXPLICITLY CONFIRMED: length is irrelevant between 2–4 minutes; no padding or rushing. Quality, natural narrative and compelling retention determine length.",
+    "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+    "status": "SCRIPT_STORYBOARD_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_AV_QC_PASSED_NOT_BOOKED",
+    "choiceBasis": "User selected a one-week escalation as more interesting than 24 hours, following prior YouTube market and own channel analysis.",
+    "editorialPrecedence": "Supersedes only unbooked 24h Sun and Invisible Air priorities, not existing scheduled or published posts. Full end-to-end AV QC, cost check, unique video and exact 18:00 provider booking required before any publication."
   },
   "littleWildAgentCheck20261115": {
     "checkedAt": "2026-11-15 ~18:54 Europe/Oslo",
