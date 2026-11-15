@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -4171,5 +4171,76 @@
     },
     "alerts": "No FRESH verified production/publishing blocker, so production-alerts.json left unchanged; existing historic What If blocker remains separate. Missing QA access without confirmed booked release is not new confirmed publication failure.",
     "actions": "Read connected providers and canonical HQ docs; evaluated new 14 Nov video source scenes, educational source check, revised existing Sunday long-form outline into full script and saved QC report; no paid generation/export, bookings, publishing, comments, likes, promotions, ads or credits purchases."
+  },
+  "bizarrePastShortsCheck20261115": {
+    "checkedAtOslo": "2026-11-15 08:25 Europe/Oslo",
+    "governingFiles": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "Library YouTube-kanalplan.md (01 Nov; older conflicting schedules superseded by production-control)",
+      "data/bizarre-past-merer-diary-short-brief-2026-11-10.md"
+    ],
+    "channelConnections": {
+      "metricoolBrandId": 7296504,
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "tiktokHandle": "bizzare.past",
+      "connected": true
+    },
+    "liveQueue": [
+      {
+        "film": "Mørstad Viking hoard",
+        "date": "2026-11-15 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 420588270,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "postId": 420588470,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true
+      },
+      {
+        "film": "San Juan Island horse races",
+        "date": "2026-11-16 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 423659187,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "postId": 423659361,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true
+      }
+    ],
+    "nextShort": {
+      "topic": "Merer's diary / Wadi al-Jarf shipping records",
+      "possibleSlot": "2026-11-20 18:00 Europe/Oslo",
+      "status": "SOURCE_CHECKED_EDITORIAL_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_QC_PASSED_NOT_BOOKED",
+      "duplicateCheck": "No Metricool booking through 2026-11-24 and no Merer match in newest 100 Higgsfield generations."
+    },
+    "production": {
+      "higgsfieldPlan": "Plus",
+      "credits": 167.77,
+      "usableFreeVideoGenerations": 0,
+      "activeJobs": 0,
+      "failedJobsInLatest100": 0,
+      "decision": "NO_GENERATION_THIS_RUN; reserve credits for the prioritized ordinary 16:9 film. Do not silently downgrade model or quality."
+    },
+    "vidiq": {
+      "connectedChannel": "Bizarre Past @bizarrepast69",
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "subscribers": 34,
+      "lifetimeViews": 7499,
+      "publicVideos": 25,
+      "credits": 2,
+      "activeJobs": 0,
+      "productionBlocked": false
+    },
+    "alertDecision": "No fresh verified production or publishing blocker. No production-alerts.json entry and no Telegram push.",
+    "actionsThisRun": "Read both governing GitHub files and specified Library plan; verified live Metricool queue, Higgsfield balance/history and vidIQ access/jobs; preserved existing bookings and long-form reserve. No generation, export, QC claim, booking, reschedule, duplicate, paid promotion or purchase."
   }
 }
