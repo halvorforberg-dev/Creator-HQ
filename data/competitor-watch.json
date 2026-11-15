@@ -1885,5 +1885,89 @@
     "noCopy": "No source character, video, music or script copied. No claims of watching or commenting on any YouTube videos in this run.",
     "paidVidIQLimit": "Detailed owner report requested Nov15 and rejected: only 2 vidIQ credits, 5 required, 0 deducted; balance expected refresh Nov21. Do not buy.",
     "constraints": "No fresh confirmed public video-level results/competitor retention. Active AITuber script is editorial only; no generated duplicate."
+  },
+  "whatifResearchNote20261115Agent": {
+    "checkedAt": "2026-11-15 evening Europe/Oslo",
+    "external": {
+      "publisher": "QuirkScience",
+      "catalog": "https://quirkscience.com/films/",
+      "latestListedShorts": [
+        {
+          "title": "The Lake That Disappeared in 3 Hours",
+          "publisherDate": "2026-11-14",
+          "duration": "1:04"
+        },
+        {
+          "title": "What's Below the Mariana Trench?",
+          "publisherDate": "2026-11-14",
+          "duration": "1:03"
+        }
+      ],
+      "latestListedLong": {
+        "title": "The 1859 Solar Storm That Would Break the World Today",
+        "publisherDate": "2026-11-11",
+        "duration": "13 min"
+      },
+      "evidenceScope": "Publisher's dated catalogue/individual text pages viewed; no source video watched end-to-end, no opening 0–2s independently inspected, no views or retention known.",
+      "use": "Question or startling literal event plus one verifiable surprising mechanism; design our own answer/payoff rather than repeating competitor story or runtime."
+    },
+    "internal": {
+      "source": "Authenticated Metricool What If brand 7751348, published range Nov1–15",
+      "publishedSnapshot": [
+        {
+          "title": "Sun got 10% brighter",
+          "views": 1073,
+          "averageViewSeconds": 15,
+          "published": "2026-11-07"
+        },
+        {
+          "title": "Octopuses lived on land",
+          "views": 1025,
+          "averageViewSeconds": 10,
+          "published": "2026-11-03"
+        },
+        {
+          "title": "Ocean glowed like stars",
+          "views": 182,
+          "averageViewSeconds": 10,
+          "published": "2026-11-03"
+        },
+        {
+          "title": "Bee vision",
+          "views": 19,
+          "averageViewSeconds": 52,
+          "published": "2026-11-08"
+        }
+      ],
+      "paidContamination": "Saturn 2560 views/15s includes previous paid campaign; exclude from clean organic comparison.",
+      "unknowns": "No comparable retention, engaged views, viewed-vs-swiped or subscriber conversion. Differences in upload dates/formats make causal ranking unsupported."
+    },
+    "productionProblem": {
+      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-15",
+      "videoId": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
+      "title": "What If a Black Hole Passed Our Solar System?",
+      "publishedUrl": "https://www.youtube.com/watch?v=I887Dlx9kRA",
+      "finding": "Nov15 AI Tuber provider sent conflicting drafts-only then published emails for same title; publishing happened before full AV QA. New control needed."
+    },
+    "newTest": {
+      "title": "What If the Sun Went Dark for a Week?",
+      "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+      "sourceScience": [
+        "https://science.nasa.gov/sun/",
+        "https://science.nasa.gov/earth/"
+      ],
+      "hypothesis": "First frame Sun dark / Earth still lit, followed by 8m20s light-delay payoff and human adaptability may communicate scientific causality more clearly than repetitive risk montage or generic subscribe CTA.",
+      "candidateHooks": [
+        "What if the Sun went dark?",
+        "What if daylight vanished?",
+        "What if the next sunrise never came?",
+        "What if the Sun switched off?",
+        "What if Earth lost sunlight for a week?"
+      ],
+      "selectedHook": "What if the Sun went dark? with 7 DAYS legible on first frame and Earth still lit for immediate mystery",
+      "finalAnswer": "Show sunlight return after travel delay and continuing recovery; Earth still in orbit and not instantly frozen.",
+      "status": "USER_SELECTED_EDITORIAL_ONLY_NOT_GENERATED_OR_BOOKED",
+      "testPlan": "Only after QC/pass and provider booking compare same-age 24h/7d/28d long-form retention, CTR and watch hours against other public ordinary 16:9 films. Short/long do not compare as same format."
+    }
   }
 }
