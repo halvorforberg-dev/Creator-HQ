@@ -61,9 +61,9 @@
     },
     "whatIfDuplicatePrevention": {
       "since": "2026-11-03",
-      "status": "AUTOPILOT_DRAFT_ONLY_VERIFIED_AGENT_PUBLISHING_REQUIRES_QC_AND_QUEUE_CHECK",
+      "status": "NEW_NOV15_PROVIDER_CONFIRMED_UNREVIEWED_AUTOPILOT_POST_CHECK_REQUIRED",
       "policy": "2026-11-07 authenticated AI Tuber UI: What If AutoPilot YouTube channel deselected and changes saved. Provider status explicitly says 'Videos are saved to My Videos' / 'Nothing posts'. Generation every two days at 18:00 remains active but drafts only. Agent scheduling/publication may resume ONLY after full finished MP4+audio/factual QC, exact unique ID and current queue check. No existing public videos were changed.",
-      "latestConfirmed": "2026-11-08 morning authenticated AutoPilot: Videos are saved to My Videos / Nothing posts. Publications: 0 up next, queue empty. Bee exact video/export completed and downloaded in 1080p; full AV QC not approved, no publish attempt. Draft-only retained.",
+      "latestConfirmed": "2026-11-15: AITuber email 18:02 Oslo said new Black Hole video draft only/no channel; provider email 18:26 Oslo confirmed the same titled video was auto-published to YouTube https://www.youtube.com/watch?v=I887Dlx9kRA. Previous 07/08 Nov drafts-only setting cannot be considered current guarantee; verify all series in actual AI Tuber UI before any new agent booking. Open alert whatif-autopilot-unreviewed-publishing-2026-11-15.",
       "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
       "previousPolicy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
       "resolvedOn": "2026-11-07"
@@ -823,6 +823,16 @@
       "verifiedPublished": "2026-11-04 16:09 Europe/Oslo",
       "source": "AITuber support reply 2026-11-05",
       "publishedTitle": "Splashy Tub Teamwork! A Cozy Bath-Time Rinse"
+    },
+    {
+      "channel": "What If in 40 Seconds",
+      "date": "2026-11-15",
+      "status": "CONFIRMED_AUTOPILOT_PUBLISHED_WITHOUT_FINAL_QC",
+      "videoId": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
+      "publishedUrl": "https://www.youtube.com/watch?v=I887Dlx9kRA",
+      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-15",
+      "reason": "AITuber same-title draft-only email Nov15 18:02 Oslo contradicted by publisher-confirmed auto publication email 18:26 Oslo. Video is 35s 9:16 with generic CTA; full AV QC not passed. User's Sunday 16:9 editorial goal does not equal confirmed booking.",
+      "remedy": "Inspect all What If AutoPilot series and disconnect any YouTube autopost destination in authenticated UI. Preserve existing public video. Confirm actual settings and resolve same alert."
     }
   ],
   "competitorResearch": {
@@ -1977,6 +1987,64 @@
       "newActions": "Read creative/production/competitor governance; checked AI Tuber credits and video metadata, Metricool all-videos, published range and queue, AI Tuber notification mail, competitor publisher catalogue and Harvard science; wrote detailed verified report. No generation, export, posting, ad, purchase, or new alert.",
       "newConfirmedBlocker": false,
       "existingBeeQCHold": "Still open from 8 Nov; not re-raised, no new proof of resolution."
+    },
+    "whatifDailyAudit20261115": {
+      "checkedAt": "2026-11-15 evening Europe/Oslo",
+      "report": "data/whatif-agent-review-2026-11-15.json",
+      "event": "NEW_PROVIDER_CONFIRMED_AUTO_PUBLICATION_WITHOUT_QC",
+      "latestVideo": {
+        "videoId": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
+        "title": "What If a Black Hole Passed Our Solar System?",
+        "createdAt": "2026-11-15T17:00:47.063Z",
+        "durationSeconds": 35,
+        "aspectRatio": "9:16",
+        "exportStatus": "completed",
+        "scriptHasGenericSubscribeCTA": true,
+        "fullFinishedMp4AudioQC": false,
+        "publishedUrl": "https://www.youtube.com/watch?v=I887Dlx9kRA",
+        "providerPublishedEmailAt": "2026-11-15T17:26:43Z",
+        "providerDraftOnlyEmailAt": "2026-11-15T17:02:01Z"
+      },
+      "autopilotState": "UNSAFE_CONFLICTING_PROVIDER_EMAILS: 18:02 drafts-only confirmation followed by 18:26 publisher-confirmed public YouTube post; do not assume earlier verified drafts-only disables all future posts. Actual series cause not established.",
+      "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-15",
+      "audienceAnalytics": {
+        "provider": "Metricool What If published range retrieved Nov15",
+        "lastListed": "Nov8 Bee video; Nov15 new provider publication not yet in Metricool sync",
+        "bee": {
+          "views": 19,
+          "averageViewDurationSeconds": 52
+        },
+        "sun": {
+          "views": 1073,
+          "averageViewDurationSeconds": 15
+        },
+        "octopus": {
+          "views": 1025,
+          "averageViewDurationSeconds": 10
+        },
+        "saturn": {
+          "views": 2560,
+          "averageViewDurationSeconds": 15,
+          "paidPromotionHistory": true
+        },
+        "limits": "Counts cumulative, ages vary, paid/organic not split; no qualified retention claim."
+      },
+      "aituber": {
+        "studioAvailableCredits": 6189,
+        "monthlyCredits": 10000,
+        "sharedAccount": true,
+        "changeVsNov14": -193,
+        "noPurchase": true
+      },
+      "nextApprovedLong": {
+        "title": "What If the Sun Went Dark for a Week?",
+        "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+        "target": "2026-11-18 18:00 Europe/Oslo",
+        "status": "SCRIPT_ONLY_NO_MP4_NOT_BOOKED",
+        "length": "User-approved flexible natural story ~2-4min"
+      },
+      "directActions": "Created one new confirmed blocker entry, saved source-linked audit; no video generation, publication, ads, credit purchases, comments, likes or old booking changes.",
+      "requiredFollowup": "Authenticated AI Tuber AutoPilot Settings and Publications review, verify no unreviewed publication path before scheduling any additional video."
     }
   },
   "channelAudit": {
@@ -4481,5 +4549,63 @@
     "nextStep": "Use already preflighted Rainy-Day Rhythm or Shadow only after checking credit/What If buffer, active AutoPilot, actual provider queue and a way to review exported MP4 with SOUND. Improve next new opening/action/payoff; do not regenerate the existing Hair-Brush film or spend credits on completed flaws.",
     "brief": "data/little-wild-rainy-day-rhythm-short-brief-2026-11-09.md",
     "qualityReport": "data/little-wild-hairbrush-qc-2026-11-14.json"
+  },
+  "whatIfAgentCheck20261115": {
+    "checkedAt": "2026-11-15 evening Europe/Oslo",
+    "report": "data/whatif-agent-review-2026-11-15.json",
+    "event": "NEW_PROVIDER_CONFIRMED_AUTO_PUBLICATION_WITHOUT_QC",
+    "latestVideo": {
+      "videoId": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
+      "title": "What If a Black Hole Passed Our Solar System?",
+      "createdAt": "2026-11-15T17:00:47.063Z",
+      "durationSeconds": 35,
+      "aspectRatio": "9:16",
+      "exportStatus": "completed",
+      "scriptHasGenericSubscribeCTA": true,
+      "fullFinishedMp4AudioQC": false,
+      "publishedUrl": "https://www.youtube.com/watch?v=I887Dlx9kRA",
+      "providerPublishedEmailAt": "2026-11-15T17:26:43Z",
+      "providerDraftOnlyEmailAt": "2026-11-15T17:02:01Z"
+    },
+    "autopilotState": "UNSAFE_CONFLICTING_PROVIDER_EMAILS: 18:02 drafts-only confirmation followed by 18:26 publisher-confirmed public YouTube post; do not assume earlier verified drafts-only disables all future posts. Actual series cause not established.",
+    "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-15",
+    "audienceAnalytics": {
+      "provider": "Metricool What If published range retrieved Nov15",
+      "lastListed": "Nov8 Bee video; Nov15 new provider publication not yet in Metricool sync",
+      "bee": {
+        "views": 19,
+        "averageViewDurationSeconds": 52
+      },
+      "sun": {
+        "views": 1073,
+        "averageViewDurationSeconds": 15
+      },
+      "octopus": {
+        "views": 1025,
+        "averageViewDurationSeconds": 10
+      },
+      "saturn": {
+        "views": 2560,
+        "averageViewDurationSeconds": 15,
+        "paidPromotionHistory": true
+      },
+      "limits": "Counts cumulative, ages vary, paid/organic not split; no qualified retention claim."
+    },
+    "aituber": {
+      "studioAvailableCredits": 6189,
+      "monthlyCredits": 10000,
+      "sharedAccount": true,
+      "changeVsNov14": -193,
+      "noPurchase": true
+    },
+    "nextApprovedLong": {
+      "title": "What If the Sun Went Dark for a Week?",
+      "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+      "target": "2026-11-18 18:00 Europe/Oslo",
+      "status": "SCRIPT_ONLY_NO_MP4_NOT_BOOKED",
+      "length": "User-approved flexible natural story ~2-4min"
+    },
+    "directActions": "Created one new confirmed blocker entry, saved source-linked audit; no video generation, publication, ads, credit purchases, comments, likes or old booking changes.",
+    "requiredFollowup": "Authenticated AI Tuber AutoPilot Settings and Publications review, verify no unreviewed publication path before scheduling any additional video."
   }
 }
