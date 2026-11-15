@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-15",
+  "checkedAtOslo": "2026-11-15 evening after 19:22 Europe/Oslo",
+  "channel": "What If in 40 Seconds",
+  "stage": "PROVIDER_CONFIRMED_AUTOPILOT_PUBLICATION_QC_BYPASS_NEW_ALERT",
+  "criticalFinding": {
+    "videoId": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
+    "title": "What If a Black Hole Passed Our Solar System?",
+    "publicationTitle": "What If a Black Hole Passed Our Solar System? 🌌",
+    "createdAt": "2026-11-15T17:00:47.063Z",
+    "providerEmailDraftAt": "2026-11-15T17:02:01Z",
+    "providerEmailPublishedAt": "2026-11-15T17:26:43Z",
+    "publishedUrl": "https://www.youtube.com/watch?v=I887Dlx9kRA",
+    "draftProviderSaid": "This video was not posted. No channel is connected to this autopilot.",
+    "laterProviderSaid": "What if in 35 seconds just published 'What If a Black Hole Passed Our Solar System?' to YouTube.",
+    "confirmedEvidence": [
+      "Gmail message 1a1e028a4c872411 17:02Z full body",
+      "Gmail message 1a1e03f3f45da704 17:26Z full body, published URL",
+      "Connected AI Tuber /videos exact ID complete 35s, 9:16, exported",
+      "Metricool What If published-range snapshot did not yet show Nov15 video at audit (sync lag possible)"
+    ],
+    "contradiction": "The provider's own draft-only email precedes provider publication email for same title by ~24 min. Precise cause/series configuration unknown; previous drafts-only verified 7 Nov does not prevent all future auto-posts.",
+    "qc": {
+      "fullFinishedMp4WithSoundPassed": false,
+      "completeRuntimeSeconds": 35,
+      "aspectRatio": "9:16",
+      "scriptReviewed": true,
+      "shotInstructionsReviewed": true,
+      "lastLine": "The real danger is gravity, not a cosmic vacuum. Follow for more what-ifs.",
+      "assessment": "NASA substantiates gravity-not-vacuum claim; general CTA displaces a stronger visual scientific payoff, topic is risk/catastrophe-framed against positive brief. Not compliant with authorization to post before full audiovisual approval."
+    },
+    "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-15",
+    "requiredFix": "Authenticate in AI Tuber and inspect ALL What If AutoPilot series and publication targets; remove YouTube destination and save, verify drafts-only, and check Publications. Do not delete public video without specific user authorization."
+  },
+  "credits": {
+    "plan": "Studio",
+    "sharedBalance": 6189,
+    "monthly": 10000,
+    "baselinePreviousNov14": 6382,
+    "changeSinceNov14": -193,
+    "attribution": "Unknown between What If/Little Wild; no new generation, purchases, or ad spend initiated by this audit."
+  },
+  "channelSnapshot": {
+    "provider": "Metricool What If brand 7751348, youtube published-in-range and all-videos",
+    "checked": "2026-11-15 evening Europe/Oslo",
+    "videos": [
+      {
+        "title": "What If Saturn’s Rings Vanished Overnight?",
+        "views": 2560,
+        "avgViewDurationSeconds": 15,
+        "published": "2026-11-01",
+        "paidPromotionHistory": true
+      },
+      {
+        "title": "What If the Sun Got 10% Brighter?",
+        "views": 1073,
+        "avgViewDurationSeconds": 15,
+        "published": "2026-11-07"
+      },
+      {
+        "title": "What If Octopuses Lived on Land?",
+        "views": 1025,
+        "avgViewDurationSeconds": 10,
+        "published": "2026-11-03"
+      },
+      {
+        "title": "What If the Ocean Glowed Like Stars?",
+        "views": 182,
+        "avgViewDurationSeconds": 10,
+        "published": "2026-11-03"
+      },
+      {
+        "title": "What If You Could See Flowers Like a Bee?",
+        "views": 19,
+        "avgViewDurationSeconds": 52,
+        "published": "2026-11-08"
+      }
+    ],
+    "lastMetricoolListedPublication": "2026-11-08; Nov15 provider email is fresher than sync",
+    "limitations": "Cumulative counts, unequal ages; paid Saturn traffic; 0–2s retention, engaged views, organic-vs-paid, CTR unavailable for comparison. 19 bee views not reliable long-form performance evidence.",
+    "noScheduledMetricoolWhatIfEntries": "Nov14–22 results empty; AI Tuber own Publications queue not fully listable via current API."
+  },
+  "competitorEvidence": {
+    "catalog": "https://quirkscience.com/films/",
+    "latestCatalogNov15": "The Lake That Disappeared in 3 Hours and What's Below the Mariana Trench? listed Nov14; long '1859 Solar Storm' listed Nov11.",
+    "observation": "Question + verifiable numerical event + particular consequence, evidenced by titles and written descriptions; opening video and retention not watched or verified.",
+    "nasaBlackHole": "https://science.nasa.gov/universe/black-holes/",
+    "learningHypothesis": "Use visible surprise/causality rather than danger-only framing. Do not infer performance from competitor catalog."
+  },
+  "nextLongForm": {
+    "selectedByUser": "What If the Sun Went Dark for a Week? 🌍",
+    "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+    "editorialTarget": "2026-11-18 18:00 Europe/Oslo",
+    "duration": "Natural story led 2–4 min, user explicitly accepts length flexibility",
+    "status": "SCRIPT_STORYBOARD_ONLY_NO_GENERATION_NO_MP4_NO_BOOKING",
+    "hookCandidates": [
+      "What if the Sun went dark?",
+      "What if sunrise stopped for a week?",
+      "What if daylight suddenly vanished?",
+      "What if the Sun switched off?",
+      "What if the next sunrise never came?"
+    ],
+    "selectedHook": "What if the Sun went dark? (0–2s), '7 DAYS' in short onscreen title; visible Earth remains bright at first, light travel delay is the immediate question.",
+    "finalPayoff": "Sunlight returns only after ~8m20s travel; Earth did not instantly freeze or change orbit; human disruption survives sunrise. Final image shows sunrise and recovering community rather than universal instant recovery.",
+    "budgetAndQC": "Shared credits must be preflighted; no new generative job until duplicate/AutoPilot state checked and actual final MP4/audio assessment path available. Never claim booking until provider confirms."
+  },
+  "actionLog": {
+    "read": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/competitor-watch.json",
+      "data/production-alerts.json",
+      "data/whatif-sun-dark-week-long-brief-2026-11-15.md"
+    ],
+    "verified": [
+      "AI Tuber videos/video details and subscription",
+      "Gmail source emails",
+      "Metricool What If channel published range and queue",
+      "QuirkScience official dated film catalogue",
+      "NASA Black Hole science"
+    ],
+    "alertCreated": "data/production-alerts.json: whatif-autopilot-unreviewed-publishing-2026-11-15",
+    "noAdditionalProduction": true,
+    "noPublicationByAgent": true,
+    "noCreditPurchase": true,
+    "noCampaign": true,
+    "noSocialLikesOrComments": true,
+    "hoursOfWorkNotClaimed": true
+  }
+}
