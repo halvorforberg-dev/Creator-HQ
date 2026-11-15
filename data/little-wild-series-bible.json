@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "channel": "Little Wild Adventures",
   "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
@@ -379,8 +379,8 @@
     "planningCreditsMonthly": 3000,
     "otherChannelCreditsMonthly": 7000,
     "qualityRule": "If credits cannot support the target cadence, publish fewer fully animated quality-approved Little Wild episodes. Do not silently substitute image slideshow. Do not re-generate without assessing balance and outcome.",
-    "currentBalanceVerified": 6580,
-    "currentBalanceCheckedAt": "2026-11-13 ~18:05 Europe/Oslo via AI Tuber get_subscription"
+    "currentBalanceVerified": 6189,
+    "currentBalanceCheckedAt": "2026-11-15 ~18:54 Europe/Oslo via AI Tuber get_subscription"
   },
   "nextProductionTest": {
     "title": "Milo's Rainy-Day Rhythm! Can Pip Fix the Beat? 🥁",
@@ -586,5 +586,19 @@
     "test": "For next NEW episode, test a genuinely surprising visible 0–2s event + one failed attempt + active Milo-led collaborative solution versus previous narrated routine format. After real publication, compare Shorts viewed-vs-swiped and early audience retention at matched video age where available, not presumed causal impact.",
     "exception": "The user's separate 2026-11-14 decision allows incorrect Milo CLOTHES only for hairbrush video 1ae54fb5-cdaa-4656-a544-66e43077f2b2. It does not waive full final audio/video review. The user does not wish to approve the film personally.",
     "spend": "No credit-spending rework of completed flawed videos. Prioritize script/scene quality before new credit usage and protect What If share."
+  },
+  "latestReview20261115": {
+    "latestProduction": "2026-11-14 Hair-Brush video; no new Little Wild video created 2026-11-15 as of 18:54",
+    "title": "Miko’s Gentle Hair-Brush Helper",
+    "id": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+    "fullExport": "5310cf88-775b-41d0-bb38-b0f3879d3938, 1080p completed",
+    "fullVideoAudioWatched": false,
+    "blocker": "Review environment cannot resolve cdn.aituber.app; end-to-end AV QC remains unavailable. Generic very short last scene also weakens storytelling. HOLD.",
+    "wardrobeException": "Applies to THIS video only, doesn't waive other review/quality gates.",
+    "notes": "5 video timeline clips; last 42 frames at 30 fps (~1.4s) is a generic 'Come join us again!' CTA. Video is 34s versus 35–40s goal, but do not pad or pay rework.",
+    "nextEditorial": "Rainy-Day Rhythm already has chosen immediate shaker-drop hook, one failed attempt, active Pip/Miko/Milo discovery and synchronized tap-tap-STOP payoff. Do not claim video produced.",
+    "budgeting": "Remaining 6189 / 10000 shared with What If; previous Nov14 6382, -193 with no per-channel attribution. No credits spent by this agent today.",
+    "publisher": "No verified booking or release from this review. Long story paused as last verified Nov5 and not newly confirmed.",
+    "growth": "vidIQ public channel: 363 subs, 10601 cumulative views, 17 videos. Nov14 363/8385/17; +2216 views across snapshots, no verified organic attribution."
   }
 }
