@@ -98,3 +98,12 @@ Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `g
 - **Generation control:** Latest 100 Higgsfield jobs contain no active or failed job; no Merer production/export was found for reuse in the checked history.
 - **Balance:** Higgsfield Plus **167.77 credits**, with no usable free video generations. vidIQ has no active job; its 2-credit balance is not blocking this editorial preparation.
 - **Decision:** Keep Merer as a source-checked, production-ready editorial brief only. Do not spend the reserved long-form credits or silently switch to an unapproved cheaper visual model. This is an unbooked editorial slot, not a failed delivery and not a fresh Telegram blocker.
+
+
+## Production recheck — 15 November 2026
+- **Checked:** 2026-11-15 08:25 Europe/Oslo.
+- **Live queue:** Mørstad remains PENDING on YouTube/TikTok for 15 Nov 18:00; San Juan horse races remains PENDING on both for 16 Nov 18:00. No Merer booking exists through 24 Nov.
+- **Generation history:** no active or failed job among the newest 100 Higgsfield generations; no Merer/Wadi al-Jarf match and no finished export to reuse.
+- **Balance:** Higgsfield Plus **167.77 credits**; no usable free video generation allowance.
+- **Decision:** keep Merer as a source-checked editorial draft. Do not spend the protected 16:9 reserve or silently switch to a cheaper unapproved model. No finished MP4, audiovisual QC pass or publication booking is claimed.
+- **Operations:** no booking moved, duplicated or changed; no credit purchase, ad spend or Telegram blocker alert.
