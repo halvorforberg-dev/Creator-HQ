@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T07:29:44+01:00",
-  "requestedThrough": "2026-11-14",
+  "updatedAt": "2026-11-15T07:39:14+01:00",
+  "requestedThrough": "2026-11-15",
   "source": "Metricool authenticated analytics via connected app",
   "periodStart": "2026-10-10",
-  "periodEnd": "2026-11-14",
+  "periodEnd": "2026-11-15",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -279,13 +279,21 @@
           {
             "date": "2026-11-12",
             "subscribers": 34,
+            "views": 16,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-13",
+            "subscribers": 34,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-13",
+            "date": "2026-11-14",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -693,7 +701,13 @@
           },
           {
             "date": "2026-11-13",
-            "videoViews": 259,
+            "videoViews": 266,
+            "followers": 3,
+            "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-14",
+            "videoViews": null,
             "followers": 3,
             "followerNetChange": 0
           }
@@ -910,10 +924,10 @@
           {
             "date": "2026-11-12",
             "subscribers": 48,
-            "views": null,
+            "views": 1,
             "videosPublished": null,
-            "followersGained": null,
-            "followersLost": null
+            "followersGained": 0,
+            "followersLost": 0
           },
           {
             "date": "2026-11-13",
@@ -945,8 +959,8 @@
           {
             "publishedAt": "20261107170743",
             "title": "What If the Sun Got 10% Brighter?",
-            "views": 1067,
-            "watchMinutes": 274.1189666666666,
+            "views": 1073,
+            "watchMinutes": 275.48359999999997,
             "likes": 39,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI"
@@ -999,8 +1013,8 @@
           {
             "publishedAt": "20261026170501",
             "title": "What If Migratory Birds Lost Their Way?",
-            "views": 71,
-            "watchMinutes": 12.094599999999998,
+            "views": 72,
+            "watchMinutes": 12.291149999999998,
             "likes": 9,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
@@ -1035,8 +1049,8 @@
           {
             "publishedAt": "20261108185540",
             "title": "What If You Could See Flowers Like a Bee?",
-            "views": 16,
-            "watchMinutes": 16.683166666666665,
+            "views": 19,
+            "watchMinutes": 16.779833333333332,
             "likes": 2,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM"
@@ -1082,24 +1096,24 @@
     },
     "wild": {
       "name": "Little Wild Adventures",
-      "platform": "youtube",
+      "platform": "YouTube",
       "source": "not connected to Metricool analytics",
       "youtube": {
         "series": [],
         "videos": []
       },
-      "notes": "No authenticated Little Wild Adventures analytics source was queried; data are unavailable and are not zero."
+      "notes": "No authorized, verified Little Wild analytics were available for this Metricool sync; no numbers included."
     }
   },
   "notes": [
-    "Five successful authenticated Metricool getAnalyticsDataByMetrics calls, 2026-10-10 to 2026-11-14 inclusive (Europe/Oslo), retrieved at 2026-11-14T07:29:44+01:00. Bizarre Past brandId 7296504 YouTube/TikTok; What If in 40 Seconds brandId 7751348 YouTube.",
-    "YouTube evolution field mappings: YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Verified 35 dated Bizarre Past and 28 dated What If rows; latest returned 2026-11-13/2026-11-14.",
-    "TikTok evolution field mappings: TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Verified 35 dated rows, latest 2026-11-13. TKEV02 is defined by Metricool as views of videos published in the selected period, not necessarily total all-account views in the rolling week.",
-    "Published YouTube video field mappings: YTVP02 publishedAt, YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Verified 21 Bizarre and 16 What If videos; publishedAt is YYYYMMDDHHmmss (no timezone assumed).",
-    "Published-video views/watch minutes are cumulative for the listed videos, not seven-day views. Videos are sorted by cumulative source views, descending. They cannot establish monetization-eligible public watch hours.",
-    "Blank daily fields are null, not 0; only explicit source zeros are 0. Metricool may report late, especially recent days. The 2026-11-08 to 2026-11-14 window currently contains 6 Bizarre YouTube, 7 What If YouTube and 6 Bizarre TikTok dated rows; missing dates are not imputed.",
-    "Use YouTube daily evolution views, not per-video cumulative lifetime views, to calculate seven-day view sums. A window with null metrics or missing dates may be incomplete.",
-    "Little Wild Adventures is not connected to Metricool analytics for this sync; no figures are fabricated. Highlights Of Everything is intentionally excluded.",
-    "These specific metrics do not distinguish paid from organic YouTube activity."
+    "Five successful, authenticated Metricool getAnalyticsDataByMetrics calls for 2026-10-10 through 2026-11-15 inclusive (Europe/Oslo), retrieved 2026-11-15T07:39:14+01:00. Brands: Bizarre Past 7296504 (YouTube, TikTok) and What If in 40 Seconds 7751348 (YouTube).",
+    "YouTube evolution fields: YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. 36 valid Bizarre YouTube dated rows (latest 2026-11-14) and 28 What If rows (latest 2026-11-14).",
+    "TikTok evolution fields: TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. 36 Bizarre TikTok dated rows (latest 2026-11-14). TKEV02 represents Metricool's defined metric, not necessarily total account-wide rolling-week views.",
+    "YouTube videos published in period: YTVP02 publishedAt (source YYYYMMDDHHmmss, timezone not inferred), YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. 21 Bizarre and 16 What If source-verified video rows, sorted descending by views.",
+    "Per-video views and watchMinutes are accumulated values for videos published in this date range; NOT seven-day views and NOT necessarily monetization-eligible public watch hours. To calculate rolling-week views use YouTube evolution daily views, not cumulative video views.",
+    "Source nulls and absent/empty daily fields remain null (not zero). Explicit source zeros are retained. No missing dates are imputed; Metricool can report data late and the latest dates may have no rows or incomplete metrics.",
+    "Last seven calendar dates 2026-11-09 to 2026-11-15: Bizarre YouTube 6/7 dated rows, What If YouTube 6/7, Bizarre TikTok 6/7. Presence of a date does not imply all metrics are populated.",
+    "Little Wild Adventures has no verified connected Metricool analytics in this synchronization; no fabricated figures. Highlights Of Everything is intentionally omitted.",
+    "Selected metrics do not distinguish organic from paid YouTube traffic."
   ]
 }
