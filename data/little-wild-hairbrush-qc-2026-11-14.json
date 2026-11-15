@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedOn": "2026-11-14",
+  "checkedOn": "2026-11-15",
   "channel": "Little Wild Adventures",
   "toolSources": [
     "AITuber connected list_videos newest 35",
@@ -22,14 +22,16 @@
     "durationSeconds": 34,
     "sceneCount": 5,
     "clipUrlsPresent": true,
-    "exportStatus": null,
-    "generationVsPublishing": "Provider video list and details confirm creation, NOT a publication. No new booking or upload performed by agent; global publication status/recurring AutoPilot UI are not exposed by this API."
+    "exportStatus": "completed",
+    "generationVsPublishing": "Provider video list and details confirm creation, NOT a publication. No new booking or upload performed by agent; global publication status/recurring AutoPilot UI are not exposed by this API.",
+    "exportId": "5310cf88-775b-41d0-bb38-b0f3879d3938",
+    "exportResolution": "1080p"
   },
   "review": {
     "verdict": "HOLD_NOT_APPROVED",
     "fullVideoAudioReviewPassed": false,
     "visualContinuityVerified": false,
-    "exportedMP4Available": false,
+    "exportedMP4Available": true,
     "sourceScriptAndPromptReviewed": true,
     "problems": [
       "34 seconds, below 35–40 second new-Short target; do not pad artificial filler",
@@ -62,38 +64,60 @@
       }
     ],
     "improvementTest": "In the next genuinely new and pre-QC-approved hair-care story, show a tiny snag and Milo's worried expression in first 0–2 seconds; let Miko pause, ask permission and gently work from the ends, and show Milo choosing the gentle way himself in the final scene. Keep official approved outfits and all three visible.",
-    "comparisonPlan": "Compare genuinely age-matched 24h/7d/28d engaged views and Shorts swipe/retention only after actual release. No view-retention claim from this script review."
+    "comparisonPlan": "Compare genuinely age-matched 24h/7d/28d engaged views and Shorts swipe/retention only after actual release. No view-retention claim from this script review.",
+    "exportAvailableMeansPlaybackApproved": false,
+    "newVerifiedTimelineFacts20261115": {
+      "source": "AI Tuber get_video 2026-11-15, export 5310cf88-775b-41d0-bb38-b0f3879d3938",
+      "fiveMovingClips": true,
+      "scene5DurationFrames": 42,
+      "exportFps": 30,
+      "lastSceneSecondsApprox": 1.4,
+      "lastSceneAudioScript": "Come join us again!",
+      "conclusion": "Generic one-line CTA as last scene after hair-care takeaway, instead of a fresh visible demonstration. This is a factual timeline observation and editorial judgement, not finished AV QA.",
+      "estimatedSpeechVsClip": "The final 1.4-second scene may be too brief for unhurried spoken line; actual audio not heard.",
+      "userWardrobeException": "User 2026-11-14 allows wrong Milo clothes for THIS video only, no other technical/educational/QC waiver.",
+      "cdnDownloadAttempt": "2026-11-15: provider supplied export link, but working container requests failed DNS lookup cdn.aituber.app and web could not open it.",
+      "userWillNotReview": "The user does not need to view or personally approve the file; assistant final AV review remains a mandatory production gate.",
+      "preventedPublication": "No publication/bookings performed. 18:00 2026-11-15 passed, do not publish immediately to catch up."
+    }
   },
   "budget": {
-    "aituberAvailableCredits": 6382,
+    "aituberAvailableCredits": 6189,
     "monthlyIncluded": 10000,
-    "previousObserved": 6580,
-    "balanceDelta": -198,
-    "deltaAttribution": "Not itemized by provider; a new 34s Little Wild video was generated today, but do not assign entire -198 to it or What If without billing data.",
+    "previousObserved": 6382,
+    "balanceDelta": -193,
+    "deltaAttribution": "Shared AI Tuber balance between What If and Little Wild; no verified per-video attribution. No agent generation or purchase.",
     "planningPriority": "What If ~7000, Little Wild ~3000 guidance, not hard cap.",
     "creditsSpentByThisAgent": 0,
     "purchases": 0
   },
   "channelPublicSnapshot": {
-    "source": "vidIQ user_channels (0 credits) 2026-11-14",
+    "source": "vidIQ user_channels read on 2026-11-15 (free)",
     "subscribers": 363,
-    "viewsLifetime": 8385,
+    "viewsLifetime": 10601,
     "publicVideos": 17,
-    "note": "Public counts only; no paid/organic split, private studio retention or conclusive platform booking status. These are near-identical to 13 Nov cumulative counts."
+    "previous20261114": {
+      "subscribers": 363,
+      "viewsLifetime": 8385,
+      "publicVideos": 17
+    },
+    "sincePriorSampleViewDelta": 2216,
+    "summary": "These are two snapshots and may be subject to update delays or any prior paid traffic; not a verified one-day organic or per-video attribution; no subscriber count gain observed."
   },
   "productionAndPublishing": {
     "newGenerationByAgent": false,
-    "exportByAgent": false,
+    "exportByAgent": true,
     "scheduledByAgent": false,
     "publishedByAgent": false,
     "autoPilotStatus": "Not reverified in authenticated UI today; last confirmed main Little Wild draft-only, Weekly Long Story paused as of 2026-11-05.",
     "knownInaccessibleExport": "Existing 12 Nov Five-Berry MP4 download API returned a link again, but cdn.aituber.app DNS resolution in this working environment failed on 2026-11-14; cannot conduct full audio/video review. Previously under-QC draft remains HOLD.",
-    "nextSunday": "2026-11-15 18:00 editorial target, not provider booking; existing original shadow long-form outline now has 2026-11-14 full script, not generated or booked."
+    "nextSunday": "2026-11-15 18:00 editorial target passed without a newly generated Little Wild 16:9 video in AI Tuber; no verified booking or release. The separate shadow script remains research only.",
+    "exportByAgentDetails": "Free 1080p export was started 2026-11-14 by a previous conversational run, and is already completed; no new export triggered 2026-11-15."
   },
   "alertDecision": {
     "newConfirmedOperationalBlocker": false,
     "telegramAlertCreated": false,
-    "rationale": "An auto-generated ordinary draft with known QC failures and missing AV export is not a new fresh failed confirmed booked release; CDN DNS issue is a longstanding access limitation without a newly confirmed scheduled release failure. No fake alert."
+    "rationale": "Old inaccessible MP4 issue and a not-booked editorial Sunday goal are not fresh verified production failures; new timeline scrutiny is an editorial QC note, not a confirmed production or provider release blocker."
   },
   "links": {
     "video": "https://app.aituber.app/dashboard/videos/1ae54fb5-cdaa-4656-a544-66e43077f2b2",
