@@ -4242,5 +4242,80 @@
     },
     "alertDecision": "No fresh verified production or publishing blocker. No production-alerts.json entry and no Telegram push.",
     "actionsThisRun": "Read both governing GitHub files and specified Library plan; verified live Metricool queue, Higgsfield balance/history and vidIQ access/jobs; preserved existing bookings and long-form reserve. No generation, export, QC claim, booking, reschedule, duplicate, paid promotion or purchase."
+  },
+  "bizarrePastSundayCheck20261115": {
+    "checkedAtOslo": "2026-11-15 09:09 Europe/Oslo",
+    "governingPlan": "Bizarre Past Sunday ordinary public 16:9 3–6 minutes, new unbooked films only, 18:00 Europe/Oslo; 8–10 minute goal paused. Existing bookings protected.",
+    "queue": {
+      "today": {
+        "film": "Mørstad Viking hoard",
+        "date": "2026-11-15 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 420588270,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "postId": 420588470,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true,
+        "changed": false
+      },
+      "nextShort": {
+        "film": "San Juan Island horse races",
+        "date": "2026-11-16 18:00 Europe/Oslo",
+        "youtube": {
+          "postId": 423659187,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "postId": 423659361,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true,
+        "changed": false
+      },
+      "nextSunday": {
+        "date": "2026-11-22 18:00 Europe/Oslo",
+        "status": "EMPTY_EDITORIAL_TARGET_NOT_BOOKED"
+      }
+    },
+    "production": {
+      "higgsfieldPlan": "Plus",
+      "credits": 167.77,
+      "activeJobs": 0,
+      "failedJobsInLatest100": 0,
+      "unitQuote": "Cinematic Studio v2 16:9, 8 seconds = 12 credits",
+      "fullFilmEstimate": "About 360 video credits for 30 new 8-second clips / 4 minutes, before voice, music, captions, assembly and retakes.",
+      "decision": "HOLD_GENERATION_CURRENT_BALANCE_DOES_NOT_SAFELY_COVER_APPROVED_3_TO_6_MIN_ORIGINAL_FILM; no provider job failed and no purchase attempted."
+    },
+    "editorial": {
+      "topic": "Ketef Hinnom silver amulets",
+      "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+      "brief": "data/bizarre-past-ketef-hinnom-long-brief-2026-11-15.md",
+      "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_AV_QC_PASSED_NOT_BOOKED",
+      "scriptTarget": "Approximately 4–5 minutes natural narration",
+      "hook": "Did you know two tiny silver scrolls preserved a biblical blessing centuries before the Dead Sea Scrolls?",
+      "payoff": "The amulets preserve an early form of the priestly blessing; they document early use of the text but do not date the entire Bible or prove a miracle.",
+      "sources": [
+        "Israel Museum object record via Google Arts & Culture",
+        "Barkay et al. 2004 BASOR 334",
+        "Barkay et al. 2003 Near Eastern Archaeology 66(4)",
+        "Na'aman 2011 Tel Aviv University research record"
+      ]
+    },
+    "vidIQ": {
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "channel": "Bizarre Past @bizarrepast69",
+      "subscribers": 34,
+      "lifetimeViews": 7499,
+      "publicVideos": 25,
+      "credits": 2,
+      "activeJobs": 0
+    },
+    "alertDecision": "No fresh confirmed provider credit failure or publishing failure. Editorial target remains unbooked; no production-alerts.json event and no Telegram push.",
+    "actions": "Read governing GitHub files and specified Library plan; verified Metricool queue, Higgsfield balance/jobs and vidIQ access; performed current cost preflight; wrote a source-checked 3–6 minute Ketef Hinnom script/storyboard. No generation, export, booking, reschedule, duplicate, paid promotion, credit purchase or QC claim."
   }
 }
