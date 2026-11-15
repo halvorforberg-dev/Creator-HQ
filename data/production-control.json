@@ -4317,5 +4317,76 @@
     },
     "alertDecision": "No fresh confirmed provider credit failure or publishing failure. Editorial target remains unbooked; no production-alerts.json event and no Telegram push.",
     "actions": "Read governing GitHub files and specified Library plan; verified Metricool queue, Higgsfield balance/jobs and vidIQ access; performed current cost preflight; wrote a source-checked 3–6 minute Ketef Hinnom script/storyboard. No generation, export, booking, reschedule, duplicate, paid promotion, credit purchase or QC claim."
+  },
+  "bizarrePastAgentCheck20261115": {
+    "checkedAtOslo": "2026-11-15 approx 17:25 Europe/Oslo (BEFORE the scheduled 18:00 release)",
+    "read": "data/creative-prompt-upgrades.json; data/production-control.json; data/competitor-watch.json; data/production-alerts.json; latest Babylon/Merer/Ketef Hinnom briefs; authenticated Metricool brand settings + future queue; Higgsfield balance",
+    "providerQueue": {
+      "brandId": 7296504,
+      "today": {
+        "topic": "Mørstad hoard",
+        "date": "2026-11-15",
+        "time": "18:00 Europe/Oslo",
+        "youtube": {
+          "id": 420588270,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "id": 420588470,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true,
+        "madeForKids": false,
+        "youtubeAiDisclosure": true,
+        "tiktokAiDisclosure": true,
+        "publishedClaim": false
+      },
+      "tomorrow": {
+        "topic": "San Juan Island horse races",
+        "date": "2026-11-16",
+        "time": "18:00 Europe/Oslo",
+        "youtube": {
+          "id": 423659187,
+          "status": "PENDING"
+        },
+        "tiktok": {
+          "id": 423659361,
+          "status": "PENDING"
+        },
+        "mediaPresent": true,
+        "autoPublish": true,
+        "madeForKids": false,
+        "youtubeAiDisclosure": true,
+        "tiktokAiDisclosure": true
+      },
+      "later": "Nov18 Babylon 16:9 and Nov20 Merer 9:16 still SCRIPT ONLY; Nov22 Ketef Hinnom 16:9 SCRIPT ONLY. Neither exported, AV-QC passed nor booked. No new Metricool queue slots on Nov18/20/22.",
+      "scopeCaveat": "getScheduledPosts enumerates pending future posts; does not prove publication after 18:00. Need fresh provider read after due time."
+    },
+    "credits": {
+      "provider": "Higgsfield Plus",
+      "remaining": 167.77,
+      "freeVideoGenerations": 0,
+      "refillConfirmed": false,
+      "decision": "NO GENERATION; insufficient safe reserve for approved cinematic 2–4/3–6 min film; no credits purchased or spent in this run."
+    },
+    "historicalFactCheck": [
+      {
+        "topic": "Mørstad",
+        "verified": "The Viking Age coin hoard was discovered 10 April 2026 near Rena, with 5,500 silver coins in the museum's latest count; includes a rare St Olaf/Olaf Haraldsson coin, struck around 1024–1028. Source supports today's scheduled factual premise.",
+        "source": "https://www.khm.uio.no/english/news/sensational-discovery-first-in-norway-since-1924.html",
+        "secondary": "https://www.historiskmuseum.no/english/exhibitions/morstad-hoard/index.html"
+      },
+      {
+        "topic": "San Juan Island",
+        "verified": "U.S. National Park Service historic guide documents 12-year friendly joint occupation, visits between British and American camps, and horse races; in June 1860 Charles Griffin's black mare won a sweepstakes. Do not imply a formally documented Britain-vs-US military horse-racing tournament or known riders without further evidence.",
+        "source": "https://www.nps.gov/parkhistory/online_books/sajh/pig_war.pdf",
+        "supplement": "https://npshistory.com/publications/sajh/index.htm"
+      }
+    ],
+    "editorialLearning": "When drafting the NEXT distinct film, test one artifact-first visual curiosity followed by its evidence-based identity reveal; do not generate an extra Mørstad follow-up or repeat San Juan topic solely because historical sources support it. Today already has source-checked 3–6-minute Ketef Hinnom script and upcoming Babylon/Merer drafts. Preserve natural narration and 3–5 truthful hook preflight.",
+    "qaStatus": "No completed new film inspected end-to-end with sound in this run; no AV QC approval or new booking claimed.",
+    "action": "Read-only connected provider check, original-source fact-checking and HQ operational record update. No edits to scheduled posts, no duplicate generation, no ads, no public interactions and no claimed 1h Work session.",
+    "alert": "No fresh confirmed operational blocker or publication failure as of pre-release provider check; no Telegram incident created."
   }
 }
