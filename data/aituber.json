@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-11-14T08:17:15.994Z",
+  "updatedAt": "2026-11-15T08:21:32.690Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
+      "title": "Miko’s Gentle Hair-Brush Helper",
+      "status": "completed",
+      "createdAt": "2026-11-14T15:00:46.900Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "455caced-457b-4a19-9796-1f74926d2845",
       "title": "What If Antarctica’s Ice Melted Completely?",
