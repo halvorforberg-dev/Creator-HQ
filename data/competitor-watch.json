@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -1871,5 +1871,19 @@
       "status": "RESEARCH AND SCRIPT_ONLY"
     },
     "nextAction": "Do not spend 167.77 Higgsfield credits on an unbudgeted 2-4 minute film. Nov15 Mørstad and Nov16 San Juan current provider bookings remain untouched. No fake engagement activities, no 1h session claimed."
+  },
+  "littleWildResearchNote20261115": {
+    "date": "2026-11-15",
+    "source": [
+      "https://www.pbs.org/parents/thrive/doing-science-with-young-children",
+      "https://www.pbs.org/parents/thrive/how-to-help-your-child-think-like-a-scientist"
+    ],
+    "primaryObservation": "PBS KIDS emphasizes child-led questions, direct observations, testing ideas and thinking about outcomes; direct pedagogical source, NOT evidence of competitor virality, subscriber lift or measured channel retention.",
+    "application": "In the original Rainy-Day Rhythm brief, Milo reacts to the startling drum/shaker slip, the first faster attempt fails, Pip provides visible two-flap pattern and trio makes a successful two-beat pause. Keep learning shown by action; sound effects follow actual movement.",
+    "ownCurrentChannel": "VidIQ 2026-11-15 363 subscribers, 10601 views, 17 public videos; 2026-11-14 363/8385/17. Change may be aggregation lag, historical paid exposure, or organic; no verification. No new published Little Wild content shown by public video count alone.",
+    "testableGrowthHypothesis": "A visible and humorous small action in first 2s + one active discovery may improve watch choices and early retention compared with narrated routine intros. Need real Studio Shorts stayed-to-watch and 24h/7d age-matched videos after actual publication before accepting.",
+    "noCopy": "No source character, video, music or script copied. No claims of watching or commenting on any YouTube videos in this run.",
+    "paidVidIQLimit": "Detailed owner report requested Nov15 and rejected: only 2 vidIQ credits, 5 required, 0 deducted; balance expected refresh Nov21. Do not buy.",
+    "constraints": "No fresh confirmed public video-level results/competitor retention. Active AITuber script is editorial only; no generated duplicate."
   }
 }
