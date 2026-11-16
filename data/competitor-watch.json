@@ -2028,5 +2028,70 @@
     "testableAction": "For next original full-motion short, open with Milo accidentally disrupting a beat or visible playful mishap, let Miko/Pip test one unsuccessful solution and demonstrate one discovery (e.g. tap-tap-stop), with visible final group success. Check final MP4+audio and compare matched-age Shorts engaged views, stay-vs-swipe and subscriber conversion after publication. Do not infer effects beforehand.",
     "noCopy": "PEEP/PBS principles used only as pedagogy; no characters/plots/music copied.",
     "noSpend": "vidIQ detailed report previously blocked by 2 vs required 5 credits; used available free public owner stats only, did not buy more."
+  },
+  "whatifResearchNote20261116Agent": {
+    "checkedAtOslo": "2026-11-16 evening Europe/Oslo",
+    "method": "Official creator catalog and published film science notes + NASA/NOAA primaries + authenticated Metricool own-video data. No competitor full video playback or 0–2s inspection. No paid vidIQ calls.",
+    "competitor": {
+      "name": "QuirkScience",
+      "catalog": "https://quirkscience.com/films/",
+      "specificFilm": "What If the Sun Disappeared?",
+      "date": "2026-11-06",
+      "durationSeconds": 62,
+      "source": "https://quirkscience.com/films/what-if-the-sun-disappeared/",
+      "verifiedSourceScope": "Readable dated film explanation and written script; video itself not watched. Competitor explains Sun's mass disappearing, loss of gravity and orbit change. No verified view counts or retention."
+    },
+    "ownData": {
+      "source": "Authenticated Metricool What If brand 7751348, YouTube all-videos Nov1–16",
+      "sunBright": {
+        "date": "2026-11-07",
+        "views": 1073,
+        "avgViewSeconds": 15,
+        "format": "35s short"
+      },
+      "octopus": {
+        "date": "2026-11-03",
+        "views": 1025,
+        "avgViewSeconds": 10,
+        "format": "33s short"
+      },
+      "ocean": {
+        "date": "2026-11-03",
+        "views": 182,
+        "avgViewSeconds": 10,
+        "format": "32s short"
+      },
+      "beeLong": {
+        "date": "2026-11-08",
+        "views": 19,
+        "avgViewSeconds": 52,
+        "format": "16:9 159s long-form"
+      },
+      "saturn": {
+        "date": "2026-11-01",
+        "views": 2560,
+        "avgViewSeconds": 15,
+        "priorPaidPromotion": true
+      },
+      "publicationSyncCaveat": "Provider email confirms 2026-11-15 Black Hole published, but Metricool synced list contains only through Nov8; missing row not proof video absent. Same-age retention/engaged views/CTR and traffic-type split not available."
+    },
+    "originalTest": {
+      "title": "What If the Sun Went Dark for a Week?",
+      "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+      "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+      "freshTwist": "Unlike QuirkScience's Sun DISAPPEARING, our fictional Sun retains mass and gravity but loses radiation for exactly seven days; show Earth bright for 8m20s, cooling with ocean heat reservoir, then sunlight return and recovery. No copied wording/footage/graphics.",
+      "sources": [
+        "https://science.nasa.gov/earth/facts/",
+        "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+        "https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content"
+      ],
+      "first2Seconds": "Sun visually blacks out but Earth remains lit; clear 7 DAYS overlay, spoken 'What if the Sun went dark?'",
+      "finalScene": "Realistic sunlight returns to same city/greenhouse, orbit unchanged, rebuilding not instant worldwide fix.",
+      "hypothesis": "Physical paradox + final visible answer may improve long-form comprehension and retention versus vague fear montage; untested.",
+      "measure": "Within ordinary 16:9 format, same-age 24h/7d/28d CTR, retention, qualifying public watch hours, subscriber conversion, traffic origin. Do not compare directly to Shorts or include paid Saturn as organic control.",
+      "status": "AI_TUBER_PROCESSING_DRAFT_NOT_EXPORTED_NOT_QC_NOT_BOOKED"
+    },
+    "operations": "Preflight checked latest 30 AI Tuber videos for duplicate; newly generated 16:9 draft only using existing credits. Active unreviewed AutoPilot publication alert of 15 Nov unchanged; no new alert or platform publication.",
+    "noSocialEngagement": "No competitor video viewing, comments, likes, or 1h session claimed."
   }
 }
