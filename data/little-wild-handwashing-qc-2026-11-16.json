@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-11-16 ~18:50 Europe/Oslo",
+  "channel": "Little Wild Adventures",
+  "source": "Connected AI Tuber list_videos/get_video/api_read/export_video/download_video and connected vidIQ 0-credit user_channels; direct reviewer runtime DNS check for cdn.aituber.app; canonical HQ rules and PEEP/PBS primary research",
+  "video": {
+    "id": "9e4aad02-94a0-4057-a1eb-bf1438f842c1",
+    "title": "Milo’s Happy Handwashing Song",
+    "createdAtUTC": "2026-11-16T15:00:57.042Z",
+    "status": "completed",
+    "mediaType": "video",
+    "durationSeconds": 36,
+    "aspectRatio": "9:16",
+    "sourceVideoSegments": 5,
+    "exportId": "81c50a95-0b28-412a-afa9-ae1b4c9aa128",
+    "resolution": "1080p",
+    "exportStatus": "completed"
+  },
+  "actualMediaReview": {
+    "fullMP4Downloaded": false,
+    "fullVideoViewed": false,
+    "fullAudioListened": false,
+    "reason": "Provider returned completed MP4 download URL but local reviewer runtime could not resolve cdn.aituber.app DNS. A complete audiovisual quality pass cannot be established from script and scene descriptions.",
+    "actualAppearanceConfirmed": false,
+    "fullMotionConfirmedByActualPlayback": false,
+    "audioVoiceMixConfirmed": false,
+    "payoffConfirmedFromFinalFilm": false
+  },
+  "scriptAndSceneReview": {
+    "first2Seconds": "Narrated sticky hands after play. Source scene shows Milo pausing and holding his sticky hands apart, but no immediate funny physical surprise; likely less engaging than the new story gate. Actual first frame not watched.",
+    "cast": "Source visual instructions describe Milo in teal sweater with sun rather than canonical teal romper, Miko golden-brown meerkat and Pip completely blue with orange beak. Character appearances in exported frames not verified.",
+    "pedagogicalPotential": "Clear basic handwashing sequence: wet, soap, rub different surfaces, rinse and dry; appropriate with adult help as scripted.",
+    "scriptProblem": "Script instructs 'Scrub for twenty seconds as we sing', but dedicated visual handwashing scrubbing segment is listed at about nine seconds within a 36-second complete video. Verify that actual video/audible teaching does not misleadingly demonstrate a nine-second scrub as sufficient for 20 seconds.",
+    "storytellingProblem": "The scene-plan is mainly a narrated routine with little comic setback or unexpected discovery; last text 'Sing along next time' is generic rather than a strong visible payoff. This is a SOURCE-script editorial concern, not a claim to have watched the exported video.",
+    "references": "https://www.youtube.com/shorts/NjlWiWmNrRg (approved style) and https://www.peepandthebigwideworld.com/en/educators/peep-family-science/ (active inquiry reference)"
+  },
+  "userDecisions": {
+    "singleFilmWardrobeWaiver": "The Nov14 clothes exception applies ONLY to 'Miko’s Gentle Hair-Brush Helper' ID 1ae54fb5-cdaa-4656-a544-66e43077f2b2; do not automatically transfer it to this handwashing video.",
+    "noUserPreviewRequired": true,
+    "publishingMandate": "Full audiovisual QC required before scheduling; never equate exported with approved.",
+    "noPaidReworkOnCompletedFlawedLittleWild": true
+  },
+  "QC": {
+    "status": "HOLD_NOT_APPROVED",
+    "reason": "Final MP4 with audio cannot be accessed/listened to and script/visual pacing concerns remain. 1080p export completed but does not establish QC pass.",
+    "scheduledByThisRun": false,
+    "publishedByThisRun": false,
+    "publicationId": null,
+    "madeForKidsVerifiedAtPublish": false,
+    "autoPilotSchedulingVerifiedToday": false,
+    "duplicateCheckedAtActualProviderQueue": false
+  },
+  "latestOwnerSnapshot": {
+    "source": "vidIQ user_channels 0-credit 2026-11-16",
+    "subscribers": 363,
+    "totalViews": 10602,
+    "publicVideos": 17,
+    "priorSnapshot": {
+      "date": "2026-11-15",
+      "subscribers": 363,
+      "totalViews": 10601,
+      "publicVideos": 17
+    },
+    "interpretation": "Snapshot only; no verified organic lift, retention or new public content"
+  },
+  "studioCreditSnapshot": {
+    "remaining": 5980,
+    "total": 10000,
+    "priorRemainingNov15": 6189,
+    "delta": -209,
+    "sharedWith": "What If",
+    "attribution": "Unknown; no new paid generation by reviewer",
+    "exportCostCredits": 0
+  },
+  "nextTest": "Newly scripted original Rainy-Day Rhythm remains a working draft; future episode must begin with visible playful physical mishap, show one failed attempt, lead to specific child-understandable discovery and end with visual resolution. Follow mandatory 3–5 hooks, natural scene/voice/sound flow and full MP4 QA.",
+  "blockerAlert": "Do not open a new Telegram blocker merely for persistent CDN/DNS limitation or editorial misses without a newly confirmed provider failure, per production-alerts policy.",
+  "actionsThisRun": {
+    "newPaidGenerations": 0,
+    "freeExports": 1,
+    "extraCreditPurchases": 0,
+    "adSpend": 0,
+    "scheduledPosts": 0,
+    "publishedPosts": 0,
+    "youtubeLikes": 0,
+    "youtubeComments": 0,
+    "weeklyLongStoryStatusNewlyVerified": false
+  }
+}
