@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "channel": "Little Wild Adventures",
   "status": "PILOT 466835c0 GENERATED AND EXPORTED 1080P; QC HOLD (NO END-TO-END PLAYBACK); NOT APPROVED FOR BOOKING",
   "decision": "Every new episode follows the look, characters, tone and actual full-motion media type of Brush Along with Milo!, not rejected The Breeze That Hid.",
@@ -600,5 +600,30 @@
     "budgeting": "Remaining 6189 / 10000 shared with What If; previous Nov14 6382, -193 with no per-channel attribution. No credits spent by this agent today.",
     "publisher": "No verified booking or release from this review. Long story paused as last verified Nov5 and not newly confirmed.",
     "growth": "vidIQ public channel: 363 subs, 10601 cumulative views, 17 videos. Nov14 363/8385/17; +2216 views across snapshots, no verified organic attribution."
+  },
+  "latestReview20261116": {
+    "checkedAt": "2026-11-16 ~18:50 Europe/Oslo",
+    "videoId": "9e4aad02-94a0-4057-a1eb-bf1438f842c1",
+    "title": "Milo’s Happy Handwashing Song",
+    "createdAtOslo": "2026-11-16 16:00:57 Europe/Oslo",
+    "durationSeconds": 36,
+    "mediaType": "video",
+    "sourceScenes": 5,
+    "exportId": "81c50a95-0b28-412a-afa9-ae1b4c9aa128",
+    "exportStatus": "completed",
+    "export1080p": true,
+    "fullExportWatchedWithSound": false,
+    "status": "HOLD_NOT_APPROVED_NO_BOOKING",
+    "sourceReview": "Routine handwashing is appropriate, but not a compelling physical 0–2-second hook; sources instruct 20-second scrub while dedicated visible scrub scene ~9s; generic ending; teal sweater instead of approved romper. Do not infer final pixels/audio from prompt.",
+    "channelSnapshot": {
+      "subscribers": 363,
+      "views": 10602,
+      "publicVideos": 17,
+      "source": "vidIQ 0-credit 2026-11-16"
+    },
+    "creditsSharedWithWhatIf": 5980,
+    "action": "Retain as draft; no further credit-spending revisions. Better new scripts require immediate visual problem, one failed solution, active discovery and complete child-friendly payoff.",
+    "report": "data/little-wild-handwashing-qc-2026-11-16.json",
+    "existingSingleWardrobeWaiver": "Nov14 waiver applies only to hairbrush video ID 1ae54fb5-cdaa-4656-a544-66e43077f2b2, not this draft."
   }
 }
