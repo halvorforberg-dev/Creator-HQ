@@ -4720,5 +4720,87 @@
     "nextQualityTest": "Use current source-checked Babylon/Merer/Ketef Hinnom briefs: 3–5 truthful 'Did you know…' hooks, a tangible historical artifact in 0–2s, original motion storyboard/audio alignment, final object-specific reveal; do not mistake script completion for export/full AV-QC.",
     "actions": "Read-only checks of live publisher, balance, historical source briefs; logged verified publishing state and aggregate analytics. Zero generated/exported/scheduled/published by this run; no advertising, credit spend, likes/comments, or falsely claimed 1-hour session.",
     "alertDecision": "No fresh confirmed provider failure as of this check; post-release check is due later, but no new alert now."
+  },
+  "littleWildAgentCheck20261116": {
+    "checkedAt": "2026-11-16 ~18:50 Europe/Oslo",
+    "sources": [
+      "AI Tuber connected list_videos/get_video/api_read/export_video/download_video/get_subscription",
+      "vidIQ user_channels 0-credit",
+      "Creative prompt upgrades 2026-11-10 and canonical HQ production control",
+      "Little Wild series bible and competitor-watch",
+      "Direct runtime DNS resolution test for cdn.aituber.app",
+      "PEEP official preschool science educator primary resources"
+    ],
+    "latestProviderDraft": {
+      "title": "Milo’s Happy Handwashing Song",
+      "videoId": "9e4aad02-94a0-4057-a1eb-bf1438f842c1",
+      "createdAtUTC": "2026-11-16T15:00:57.042Z",
+      "mediaType": "video",
+      "durationSeconds": 36,
+      "aspectRatio": "9:16",
+      "sceneCount": 5,
+      "status": "completed"
+    },
+    "completedExport": {
+      "exportId": "81c50a95-0b28-412a-afa9-ae1b4c9aa128",
+      "resolution": "1080p",
+      "providerStatus": "completed",
+      "startedByThisRun": true,
+      "creditCost": 0,
+      "mp4SignedUrlProviderConfirmed": true,
+      "actualFullMP4RetrievedAndListenedTo": false,
+      "directCDNFailure": "cdn.aituber.app DNS not resolving in reviewer runtime"
+    },
+    "sourceStoryQC": {
+      "positive": "Adult-supervised handwashing sequence from sticky hands to rinse and dry, source prompt names Miko and blue Pip",
+      "problems": [
+        "Opening shows ordinary sticky hands, no funny physical surprise or active character problem in first 2 seconds per text prompts; actual video unseen",
+        "Script says scrub for 20 seconds, while dedicated scrub segment in 36-second film is about 9 seconds; verify not misleading before considering a future release",
+        "Source specifies teal sweater with sun rather than canonical teal romper; Nov14 user waiver applies only to hairbrush film",
+        "Generic final 'Sing along next time' risks weak payoff; actual closing video/audio unverified"
+      ],
+      "verdict": "HOLD_NOT_APPROVED"
+    },
+    "verifiedPublicStats": {
+      "source": "vidIQ 0-credit user_channels",
+      "subscribers": 363,
+      "totalViews": 10602,
+      "publicVideos": 17,
+      "priorNov15": {
+        "subscribers": 363,
+        "totalViews": 10601,
+        "publicVideos": 17
+      },
+      "caveat": "Not a measure of organic subscribers, video retention or campaign attribution; +1 total view and unchanged subscribers."
+    },
+    "sharedStudioCredits": {
+      "remaining": 5980,
+      "monthlyIncluded": 10000,
+      "previousObservedNov15": 6189,
+      "delta": -209,
+      "creditAttributionUnknown": true,
+      "reviewerExtraGenerationCredits": 0
+    },
+    "publication": {
+      "scheduledByThisRun": false,
+      "publishedByThisRun": false,
+      "publicationId": null,
+      "queueNotFullyAccessibleThroughAPI": true,
+      "weeklyLongStoryStatusNotFreshlyVerified": true,
+      "existingBookingsPreserved": true,
+      "editorialTargetNotVerifiedBooking": true
+    },
+    "nextStep": "Do not publish today to make up editorial missed time. Full exported video and audio must actually be viewed/listened to, Made for Kids + metadata and exact provider queue verified, and only then next valid 18:00 Europe/Oslo slot. Maintain prior Rainy-Day Rhythm and Shadow pre-credit scripts; no duplicate, no paid revisions of handwashing video.",
+    "actions": {
+      "newCreditsPurchased": 0,
+      "newVideoGenerations": 0,
+      "free1080pExports": 1,
+      "publications": 0,
+      "promotionSpend": 0,
+      "comments": 0,
+      "likes": 0
+    },
+    "report": "data/little-wild-handwashing-qc-2026-11-16.json",
+    "alert": "No NEW confirmed operational blocker discovered: preexisting CDN accessibility issue remains; no Telegram alert generated."
   }
 }
