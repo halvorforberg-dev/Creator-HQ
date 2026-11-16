@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -1969,5 +1969,43 @@
       "status": "USER_SELECTED_EDITORIAL_ONLY_NOT_GENERATED_OR_BOOKED",
       "testPlan": "Only after QC/pass and provider booking compare same-age 24h/7d/28d long-form retention, CTR and watch hours against other public ordinary 16:9 films. Short/long do not compare as same format."
     }
+  },
+  "bizarreResearchNote20261116Agent": {
+    "checkedAtOslo": "2026-11-16 before 18:00 Europe/Oslo",
+    "source": "Authenticated Metricool brand 7296504, YouTube all-videos and TikTok posts metrics; Metricool confirmed post states separately",
+    "ownPlatform": {
+      "morstad": {
+        "date": "2026-11-15",
+        "platform": "tiktok",
+        "status": "PUBLISHED",
+        "url": "https://www.tiktok.com/@bizzare.past/video/7708445004020174102",
+        "views": 359,
+        "likes": 12,
+        "durationSeconds": 178,
+        "fullVideoWatchedRate": null,
+        "watchTimeSeconds": null
+      },
+      "thonis": {
+        "date": "2026-11-13",
+        "platform": "tiktok",
+        "status": "PUBLISHED",
+        "views": 266,
+        "likes": 4,
+        "durationSeconds": 39,
+        "fullVideoWatchedRate": null
+      },
+      "antikythera": {
+        "date": "2026-11-11",
+        "platform": "tiktok",
+        "status": "PUBLISHED",
+        "views": 275,
+        "likes": 2,
+        "durationSeconds": 128,
+        "fullVideoWatchedRate": null
+      }
+    },
+    "interpretation": "These are cumulative numbers measured at different upload ages and formats; cannot establish that Mørstad's topic, hook or long runtime caused a better performance. TikTok full-watch/watchtime metrics unavailable; YouTube all-videos connector did not return new Nov11–15 video rows, not evidence of zero views.",
+    "creativeTest": "Hold artifact-first, fact-grounded Babylon/Merer/Ketef Hinnom scripts to current quality gate, including natural narration and a real final answer; once actually published compare 24h/7d/28d within same format and age, with retention and organic attribution where possible.",
+    "productionBoundaries": "No new source competitor video inspected end-to-end this run; no direct observation of competitor 0–2 second hooks, no paid vidIQ calls, no public social engagement, no credits spent. Existing Nov16 San Juan confirmed PENDING before release; not new content created."
   }
 }
