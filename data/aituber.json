@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-11-15T08:21:32.690Z",
+  "updatedAt": "2026-11-16T09:56:58.893Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
+      "title": "What If a Black Hole Passed Our Solar System?",
+      "status": "completed",
+      "createdAt": "2026-11-15T17:00:47.063Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "1ae54fb5-cdaa-4656-a544-66e43077f2b2",
       "title": "Miko’s Gentle Hair-Brush Helper",
