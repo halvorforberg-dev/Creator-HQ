@@ -2089,7 +2089,9 @@
       "finalScene": "Realistic sunlight returns to same city/greenhouse, orbit unchanged, rebuilding not instant worldwide fix.",
       "hypothesis": "Physical paradox + final visible answer may improve long-form comprehension and retention versus vague fear montage; untested.",
       "measure": "Within ordinary 16:9 format, same-age 24h/7d/28d CTR, retention, qualifying public watch hours, subscriber conversion, traffic origin. Do not compare directly to Shorts or include paid Saturn as organic control.",
-      "status": "AI_TUBER_PROCESSING_DRAFT_NOT_EXPORTED_NOT_QC_NOT_BOOKED"
+      "status": "AITUBER_16X9_GENERATED_118S_EXPORTED_1080P_URL_BUT_NO_AV_QC_NOT_BOOKED",
+      "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+      "caveat": "Download URL confirmed; full MP4 could not be downloaded/played because cdn.aituber.app DNS unavailable in container. No claims about audio quality, observed first 2s, actual scene motion or human-viewer retention."
     },
     "operations": "Preflight checked latest 30 AI Tuber videos for duplicate; newly generated 16:9 draft only using existing credits. Active unreviewed AutoPilot publication alert of 15 Nov unchanged; no new alert or platform publication.",
     "noSocialEngagement": "No competitor video viewing, comments, likes, or 1h session claimed."
