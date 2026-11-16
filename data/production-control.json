@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15",
+  "updatedAt": "2026-11-16",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -476,7 +476,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-14 17:20 Oslo: Thonis PUBLISHED YT+TikTok; Mørstad Nov15 PENDING YT+TikTok; San Juan Nov16 PENDING YT+TikTok, all 18:00 and autoPublish (provider GET).",
+      "verifiedDate": "2026-11-16 before 18:00 Europe/Oslo: Mørstad Nov15 PUBLISHED with YouTube and TikTok public URLs; San Juan Nov16 PENDING both, 18:00 Europe/Oslo, mediaPresent and autoPublish confirmed. Other historical queue entries unchanged.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -589,12 +589,15 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504, Nov14–25; providers[].status=PUBLISHED, publicUrl and platform post ID returned",
           "mediaUrl": null,
           "autoPublish": true,
-          "mediaPresent": true
+          "mediaPresent": true,
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7708445004020174102",
+          "providerPostId": "7708445004020174102"
         },
         {
           "id": 420588270,
@@ -603,12 +606,15 @@
           "network": "youtube",
           "time": "18:00",
           "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504, Nov14–25; providers[].status=PUBLISHED, publicUrl and platform post ID returned",
           "mediaUrl": null,
           "autoPublish": true,
-          "mediaPresent": true
+          "mediaPresent": true,
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.youtube.com/watch?v=0JaVYEKlFxo",
+          "providerPostId": "0JaVYEKlFxo"
         },
         {
           "id": 422895207,
@@ -679,11 +685,12 @@
           "network": "youtube",
           "title": "Why Rival Armies Raced Horses on the Same Island",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov14–25; provider status=PENDING, release 2026-11-16 18:00 Europe/Oslo",
           "mediaUrl": null,
           "autoPublish": true,
-          "mediaPresent": true
+          "mediaPresent": true,
+          "status": "PENDING"
         },
         {
           "id": 423659361,
@@ -693,11 +700,12 @@
           "network": "tiktok",
           "title": "Why Rival Armies Raced Horses on the Same Island",
           "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-14 around 17:20 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov13–Nov25, checked Nov14 17:20 Oslo",
+          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
+          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov14–25; provider status=PENDING, release 2026-11-16 18:00 Europe/Oslo",
           "mediaUrl": null,
           "autoPublish": true,
-          "mediaPresent": true
+          "mediaPresent": true,
+          "status": "PENDING"
         }
       ]
     },
@@ -3136,20 +3144,22 @@
         "brief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
         "producer": "Higgsfield",
         "publisher": "Metricool",
-        "stage": "QC_COMPLETE_METRICOOL_BOOKED_YOUTUBE_TIKTOK",
+        "stage": "PUBLISHED_YOUTUBE_AND_TIKTOK_VERIFIED_2026_11_16",
         "publication": {
           "youtube": {
             "id": 420588270,
-            "uuid": "-599217763043752269",
-            "status": "PENDING"
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.youtube.com/watch?v=0JaVYEKlFxo",
+            "platformId": "0JaVYEKlFxo"
           },
           "tiktok": {
             "id": 420588470,
-            "uuid": "9091728307992414316",
-            "status": "PENDING"
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7708445004020174102",
+            "platformId": "7708445004020174102"
           }
         },
-        "caution": "Booking verified, not yet published. Protect both posts; confirm provider publication after 2026-11-15 18:00."
+        "caution": "Publication independently confirmed by authenticated Metricool before 18:00 Oslo Nov16. Do not regenerate, rebook or duplicate."
       },
       {
         "channel": "What If in 40 Seconds",
@@ -4607,5 +4617,108 @@
     },
     "directActions": "Created one new confirmed blocker entry, saved source-linked audit; no video generation, publication, ads, credit purchases, comments, likes or old booking changes.",
     "requiredFollowup": "Authenticated AI Tuber AutoPilot Settings and Publications review, verify no unreviewed publication path before scheduling any additional video."
+  },
+  "bizarrePastAgentCheck20261116": {
+    "checkedAtOslo": "2026-11-16 approximately 17:24 Europe/Oslo, BEFORE today's 18:00 release",
+    "governingFiles": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/competitor-watch.json",
+      "data/production-alerts.json",
+      "data/bizarre-past-ketef-hinnom-long-brief-2026-11-15.md",
+      "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
+    ],
+    "platform": "Authenticated Metricool getBrandSettings and getScheduledPosts, brand 7296504, 2026-11-14 through 2026-11-25, timezone Europe/Oslo",
+    "previousRelease": {
+      "date": "2026-11-15 18:00 Europe/Oslo",
+      "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
+      "youtube": {
+        "postId": 420588270,
+        "status": "PUBLISHED",
+        "url": "https://www.youtube.com/watch?v=0JaVYEKlFxo",
+        "platformId": "0JaVYEKlFxo"
+      },
+      "tiktok": {
+        "postId": 420588470,
+        "status": "PUBLISHED",
+        "url": "https://www.tiktok.com/@bizzare.past/video/7708445004020174102",
+        "platformId": "7708445004020174102"
+      }
+    },
+    "today": {
+      "title": "Why Rival Armies Raced Horses on the Same Island",
+      "date": "2026-11-16",
+      "time": "18:00 Europe/Oslo",
+      "youtube": {
+        "postId": 423659187,
+        "status": "PENDING",
+        "mediaPresent": true,
+        "autoPublish": true,
+        "madeForKids": false,
+        "isAiGeneratedContent": true
+      },
+      "tiktok": {
+        "postId": 423659361,
+        "status": "PENDING",
+        "mediaPresent": true,
+        "autoPublish": true,
+        "isAigc": true
+      },
+      "note": "Bookable provider response confirmed before due time; NOT a published claim. Needs a separate post-18:00 provider read."
+    },
+    "laterEditorial": [
+      {
+        "date": "2026-11-18",
+        "channel": "Bizarre Past",
+        "subject": "Babylonian world map",
+        "status": "SOURCE_CHECKED_SCRIPT_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_QC_APPROVED_NOT_BOOKED"
+      },
+      {
+        "date": "2026-11-20",
+        "subject": "Merer's limestone shipping diary",
+        "status": "SOURCE_CHECKED_SCRIPT_ONLY_NOT_GENERATED_NOT_QC_APPROVED_NOT_BOOKED"
+      },
+      {
+        "date": "2026-11-22",
+        "subject": "Ketef Hinnom silver amulets",
+        "status": "SOURCE_CHECKED_SCRIPT_ONLY_NOT_GENERATED_NOT_QC_APPROVED_NOT_BOOKED"
+      }
+    ],
+    "higgsfield": {
+      "plan": "plus",
+      "credits": 167.77,
+      "freeMotionControlVideoGens": 0,
+      "refillConfirmed": false,
+      "decision": "No paid generation initiated; reserve existing credits, request fully costed longform master only after genuine refilling. No individual current generation job inventory checked in this run."
+    },
+    "recentTikTokAnalytics": {
+      "source": "Authenticated Metricool TikTok posts; current cumulative indexed snapshot, not age-matched; Nov16 before 18:00",
+      "morstad": {
+        "date": "2026-11-15",
+        "views": 359,
+        "likes": 12,
+        "durationSeconds": 178,
+        "fullVideoWatchedRate": null
+      },
+      "thonis": {
+        "date": "2026-11-13",
+        "views": 266,
+        "likes": 4,
+        "durationSeconds": 39,
+        "fullVideoWatchedRate": null
+      },
+      "antikythera": {
+        "date": "2026-11-11",
+        "views": 275,
+        "likes": 2,
+        "durationSeconds": 128,
+        "fullVideoWatchedRate": null
+      },
+      "interpretation": "The new Mørstad count is an early signal; different upload ages and durations and no comparable retention make causal recommendations premature."
+    },
+    "youtubeAnalyticsCaveat": "Metricool all-videos connector returned a partial indexed set without Nov11–15 posts, despite authenticated PUBLISHED states; do not interpret absent rows as zero views. Historical 24h/7d/28d cohort comparisons unavailable.",
+    "nextQualityTest": "Use current source-checked Babylon/Merer/Ketef Hinnom briefs: 3–5 truthful 'Did you know…' hooks, a tangible historical artifact in 0–2s, original motion storyboard/audio alignment, final object-specific reveal; do not mistake script completion for export/full AV-QC.",
+    "actions": "Read-only checks of live publisher, balance, historical source briefs; logged verified publishing state and aggregate analytics. Zero generated/exported/scheduled/published by this run; no advertising, credit spend, likes/comments, or falsely claimed 1-hour session.",
+    "alertDecision": "No fresh confirmed provider failure as of this check; post-release check is due later, but no new alert now."
   }
 }
