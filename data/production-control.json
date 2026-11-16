@@ -3172,8 +3172,24 @@
         "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "EDITORIAL_BRIEF_ONLY_NOT_PRODUCED_NOT_BOOKED",
-        "caution": "User expressly prioritizes interesting story over rigid runtime. No booking or publication until full final AV QC."
+        "stage": "AITUBER_GENERATION_PROCESSING_NOT_EXPORTED_NOT_QC_NOT_BOOKED",
+        "caution": "User expressly prioritizes interesting story over rigid runtime. No booking or publication until full final AV QC.",
+        "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+        "productionAcceptedAt": "2026-11-16T18:24:14.279Z",
+        "productionScriptVersion": "v2 locked pre-generation 2026-11-16",
+        "sourceBrief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+        "publication": {
+          "attempted": false,
+          "publicationId": null,
+          "status": "NOT_BOOKED",
+          "target": "2026-11-18 18:00 Europe/Oslo (editorial target only)"
+        },
+        "qa": {
+          "finishedExport": false,
+          "fullAudioVisualReviewed": false,
+          "approved": false
+        },
+        "note": "AI Tuber original 16:9 narrated video generation accepted; checked duplicate against 30 newest provider videos. Current AutoPilot quality-gate blocker from 15 Nov remains open. Do not schedule before real QC and safe queue settings."
       }
     ],
     "existingBookings": "Existing posts preserved. Bizarre Past Mørstad long-form is now verified booked on both YouTube and TikTok for 2026-11-15 18:00 Europe/Oslo; booking is not proof of publication.",
@@ -4802,5 +4818,70 @@
     },
     "report": "data/little-wild-handwashing-qc-2026-11-16.json",
     "alert": "No NEW confirmed operational blocker discovered: preexisting CDN accessibility issue remains; no Telegram alert generated."
+  },
+  "whatifAgentReview20261116": {
+    "reviewedAtOslo": "2026-11-16 evening, manual connected API run",
+    "planAuthority": "data/production-control.json; data/creative-prompt-upgrades.json",
+    "currentPlan": "What If Mon/Fri 35–40s Shorts; Wed/Sun 16:9 3–4 min story driven; 18:00 Europe/Oslo editorial intent",
+    "newProduction": {
+      "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+      "title": "What If the Sun Went Dark for a Week?",
+      "status": "processing",
+      "generation": "accepted 2026-11-16T18:24:14.279Z",
+      "mediaType": "video",
+      "quality": "basic",
+      "aspectRatio": "16:9",
+      "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+      "voiceSpeed": 0.9,
+      "script": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+      "duplicateCheck": "No matching Sun-dark-week title among 30 latest AI Tuber videos before generation",
+      "fullMp4Audition": false,
+      "exported": false,
+      "qcVerdict": "HOLD_NOT_RELEASED",
+      "publicationId": null,
+      "booking": false
+    },
+    "sharedCredits": {
+      "beforeRequest": 5980,
+      "firstCheckAfterAcceptance": 5507,
+      "observedDifference": 473,
+      "attribution": "Balance observed 473 lower immediately after acceptance; provider itemized final cost not known; shared with Little Wild; no credit purchase"
+    },
+    "ownMetricool": {
+      "source": "Metricool brand 7751348 YouTube all-videos 2026-11-16",
+      "syncedLastVisibleUpload": "2026-11-08 bee video",
+      "bee": {
+        "views": 19,
+        "avgViewSeconds": 52
+      },
+      "sunBright": {
+        "views": 1073,
+        "avgViewSeconds": 15
+      },
+      "octopus": {
+        "views": 1025,
+        "avgViewSeconds": 10
+      },
+      "ocean": {
+        "views": 182,
+        "avgViewSeconds": 10
+      },
+      "saturn": {
+        "views": 2560,
+        "avgViewSeconds": 15,
+        "priorPaidPromotion": true
+      },
+      "blackHoleNov15": "Provider publication email reported public YouTube URL, but Metricool not yet synced; don't negate or claim view data"
+    },
+    "scienceSources": [
+      "https://science.nasa.gov/earth/facts/",
+      "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+      "https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content"
+    ],
+    "competitorSource": "https://quirkscience.com/films/what-if-the-sun-disappeared/",
+    "competitorDate": "2026-11-06",
+    "originality": "Competitor premise removes Sun/mass; ours removes radiation for one week but leaves gravity and shows recovery; no copied script/visuals; competitor retention and view count unavailable.",
+    "testPlan": "After independently approved ordinary public 16:9 video, compare matched-format 24h/7d/28d long-form CTR, audience retention, public watch hours, subscribe conversion, and organic-vs-paid where possible. Hypothesis: immediate Earth-still-lit paradox plus concrete recovery payoff improves clarity, not yet proven.",
+    "operational": "Existing confirmed AutoPilot unreviewed posting 2026-11-15 remains OPEN in production-alerts.json. API cannot modify AutoPilot settings; no manual publish until UI verified draft-only and queue safe; no new alert for same incident."
   }
 }
