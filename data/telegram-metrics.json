@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-15T07:39:14+01:00",
-  "requestedThrough": "2026-11-15",
+  "updatedAt": "2026-11-16T07:37:58+01:00",
+  "requestedThrough": "2026-11-16",
   "source": "Metricool authenticated analytics via connected app",
   "periodStart": "2026-10-10",
-  "periodEnd": "2026-11-15",
+  "periodEnd": "2026-11-16",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -287,13 +287,21 @@
           {
             "date": "2026-11-13",
             "subscribers": 34,
+            "views": 19,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-14",
+            "subscribers": 34,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-14",
+            "date": "2026-11-15",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -314,8 +322,8 @@
           {
             "publishedAt": "20261102150323",
             "title": "The Treasure Hidden for 1,100 Years 💰 | Galloway Hoard",
-            "views": 937,
-            "watchMinutes": 242.49731666666656,
+            "views": 941,
+            "watchMinutes": 243.9720999999999,
             "likes": 14,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=qyc-mi3hbGA"
@@ -431,9 +439,9 @@
           {
             "publishedAt": "20261109170514",
             "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
-            "views": 53,
-            "watchMinutes": 11.46005,
-            "likes": 5,
+            "views": 59,
+            "watchMinutes": 12.351716666666668,
+            "likes": 6,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=wSIzmG9_su4"
           },
@@ -445,6 +453,15 @@
             "likes": 2,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=xtJbJk9T2nE"
+          },
+          {
+            "publishedAt": "20261108170416",
+            "title": "Did a Pastry Shop Help Start a War? 😳 | 1838",
+            "views": 47,
+            "watchMinutes": 13.543,
+            "likes": 5,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=69Xdr_3JXME"
           },
           {
             "publishedAt": "20261028195535",
@@ -463,15 +480,6 @@
             "likes": 3,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=ar3cC9y1gNY"
-          },
-          {
-            "publishedAt": "20261108170416",
-            "title": "Did a Pastry Shop Help Start a War? 😳 | 1838",
-            "views": 42,
-            "watchMinutes": 12.361999999999998,
-            "likes": 5,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=69Xdr_3JXME"
           },
           {
             "publishedAt": "20261011140348",
@@ -710,6 +718,12 @@
             "videoViews": null,
             "followers": 3,
             "followerNetChange": 0
+          },
+          {
+            "date": "2026-11-15",
+            "videoViews": 359,
+            "followers": 5,
+            "followerNetChange": 2
           }
         ]
       }
@@ -932,14 +946,22 @@
           {
             "date": "2026-11-13",
             "subscribers": 48,
+            "views": 4,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-14",
+            "subscribers": 48,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-14",
-            "subscribers": 48,
+            "date": "2026-11-15",
+            "subscribers": 49,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
@@ -1106,14 +1128,14 @@
     }
   },
   "notes": [
-    "Five successful, authenticated Metricool getAnalyticsDataByMetrics calls for 2026-10-10 through 2026-11-15 inclusive (Europe/Oslo), retrieved 2026-11-15T07:39:14+01:00. Brands: Bizarre Past 7296504 (YouTube, TikTok) and What If in 40 Seconds 7751348 (YouTube).",
-    "YouTube evolution fields: YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. 36 valid Bizarre YouTube dated rows (latest 2026-11-14) and 28 What If rows (latest 2026-11-14).",
-    "TikTok evolution fields: TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. 36 Bizarre TikTok dated rows (latest 2026-11-14). TKEV02 represents Metricool's defined metric, not necessarily total account-wide rolling-week views.",
-    "YouTube videos published in period: YTVP02 publishedAt (source YYYYMMDDHHmmss, timezone not inferred), YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. 21 Bizarre and 16 What If source-verified video rows, sorted descending by views.",
-    "Per-video views and watchMinutes are accumulated values for videos published in this date range; NOT seven-day views and NOT necessarily monetization-eligible public watch hours. To calculate rolling-week views use YouTube evolution daily views, not cumulative video views.",
-    "Source nulls and absent/empty daily fields remain null (not zero). Explicit source zeros are retained. No missing dates are imputed; Metricool can report data late and the latest dates may have no rows or incomplete metrics.",
-    "Last seven calendar dates 2026-11-09 to 2026-11-15: Bizarre YouTube 6/7 dated rows, What If YouTube 6/7, Bizarre TikTok 6/7. Presence of a date does not imply all metrics are populated.",
-    "Little Wild Adventures has no verified connected Metricool analytics in this synchronization; no fabricated figures. Highlights Of Everything is intentionally omitted.",
-    "Selected metrics do not distinguish organic from paid YouTube traffic."
+    "Five successful authenticated Metricool getAnalyticsDataByMetrics source calls for 2026-10-10 through 2026-11-16 inclusive (Europe/Oslo), retrieved 2026-11-16T07:37:58+01:00; brands: Bizarre Past 7296504 (YouTube and TikTok), What If in 40 Seconds 7751348 (YouTube).",
+    "YouTube daily evolution metric IDs YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Valid Bizarre YouTube rows 37 (latest 2026-11-15); What If rows 29 (latest 2026-11-15).",
+    "TikTok daily evolution metric IDs TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Valid Bizarre TikTok rows 37 (latest 2026-11-15). TikTok videoViews has its Metricool-specific definition; do not assume all-platform rolling totals.",
+    "YouTube videos published during requested period: YTVP02 publishedAt (source format YYYYMMDDHHmmss; publication timezone not inferred), YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. 21 Bizarre videos and 16 What If videos, highest accumulated views first.",
+    "Per-video views and watchMinutes represent accumulated measurements for videos published in the date window, NOT seven-day video views and NOT necessarily monetization-eligible public watch hours; rolling seven-day views should use daily evolution views.",
+    "Null metric cells were retained as null; explicit Metricool numeric zeros remain zero. Missing dates were not imputed; Metricool may lag or return incomplete rows on recent days.",
+    "Available dated rows for latest 7-calendar-day window (10–16 Nov): Bizarre YouTube 6/7, What If YouTube 6/7, Bizarre TikTok 6/7. Missing daily rows or metric values must NOT be treated as zero.",
+    "Little Wild Adventures has no verified connected Metricool analytics for this sync and no numeric figures are included. Highlights Of Everything is omitted.",
+    "These selected metrics do not distinguish organic from paid YouTube views or subscribers."
   ]
 }
