@@ -3172,7 +3172,7 @@
         "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "AITUBER_GENERATION_COMPLETED_118S_EXPORT_PROCESSING_NOT_QC_NOT_BOOKED",
+        "stage": "COMPLETE_AI_TUBER_GENERATION_EXPORTED_DOWNLOAD_URL_READY_BUT_MP4_FULL_AV_QC_BLOCKED_NOT_BOOKED",
         "caution": "User expressly prioritizes interesting story over rigid runtime. No booking or publication until full final AV QC.",
         "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
         "productionAcceptedAt": "2026-11-16T18:24:14.279Z",
@@ -3182,21 +3182,31 @@
           "attempted": false,
           "publicationId": null,
           "status": "NOT_BOOKED",
-          "target": "2026-11-18 18:00 Europe/Oslo (editorial target only)"
+          "target": "2026-11-18 18:00 Europe/Oslo, editorial only"
         },
         "qa": {
-          "finishedExport": false,
+          "finishedExport": true,
           "fullAudioVisualReviewed": false,
-          "approved": false
+          "approved": false,
+          "criticalUnverified": [
+            "actual complete MP4 sound + picture playback",
+            "voice naturalness and audio-image sync",
+            "subtitles and scene/pacing review",
+            "actual 1080p technical metadata"
+          ],
+          "note": "Generated 118 seconds; editorial target 2–4 minutes, but do not pad just to reach length."
         },
         "note": "AI Tuber original 16:9 narrated video generation accepted; checked duplicate against 30 newest provider videos. Current AutoPilot quality-gate blocker from 15 Nov remains open. Do not schedule before real QC and safe queue settings.",
         "actualDurationSeconds": 118,
         "sceneCount": 18,
         "export": {
           "id": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
-          "resolutionRequested": "1080p",
-          "status": "processing",
-          "isCompletedVerified": false
+          "requestedResolution": "1080p",
+          "status": "download_url_available",
+          "verifiedBy": "AI Tuber /exports/download returned 200 OK",
+          "actualResolutionMeasured": false,
+          "fullPlaybackPossible": false,
+          "directCdnDownloadError": "DNS resolution unavailable in container 2026-11-16; no local MP4 obtained"
         }
       }
     ],
@@ -4844,20 +4854,21 @@
       "script": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
       "duplicateCheck": "No matching Sun-dark-week title among 30 latest AI Tuber videos before generation",
       "fullMp4Audition": false,
-      "exported": false,
-      "qcVerdict": "HOLD_NO_COMPLETED_EXPORT_YET",
+      "exported": true,
+      "qcVerdict": "HOLD_FINAL_MP4_AV_UNAVAILABLE",
       "publicationId": null,
       "booking": false,
       "actualDurationSeconds": 118,
       "sceneCount": 18,
       "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
-      "exportStatus": "processing"
+      "exportStatus": "download_url_available",
+      "notScheduledOrPublished": true
     },
     "sharedCredits": {
       "beforeRequest": 5980,
       "firstCheckAfterAcceptance": 5507,
       "observedDifference": 473,
-      "attribution": "Balance observed 473 lower immediately after acceptance; provider itemized final cost not known; shared with Little Wild; no credit purchase",
+      "attribution": "Observed balance reduced 649 from 5980 pre-generation to 5331 after completion; account shared, provider itemized cost not supplied; no purchase",
       "latestObservedBalance": 5331,
       "latestObservedDifference": 649
     },
@@ -4896,6 +4907,7 @@
     "competitorDate": "2026-11-06",
     "originality": "Competitor premise removes Sun/mass; ours removes radiation for one week but leaves gravity and shows recovery; no copied script/visuals; competitor retention and view count unavailable.",
     "testPlan": "After independently approved ordinary public 16:9 video, compare matched-format 24h/7d/28d long-form CTR, audience retention, public watch hours, subscribe conversion, and organic-vs-paid where possible. Hypothesis: immediate Earth-still-lit paradox plus concrete recovery payoff improves clarity, not yet proven.",
-    "operational": "Existing confirmed AutoPilot unreviewed posting 2026-11-15 remains OPEN in production-alerts.json. API cannot modify AutoPilot settings; no manual publish until UI verified draft-only and queue safe; no new alert for same incident."
+    "operational": "Existing confirmed AutoPilot unreviewed posting 2026-11-15 remains OPEN in production-alerts.json. API cannot modify AutoPilot settings; no manual publish until UI verified draft-only and queue safe; no new alert for same incident.",
+    "exportObstacle": "AI Tuber returned live download URL 200 OK; local container DNS for cdn.aituber.app failed (Temporary failure in name resolution); no auditory or visual QC. This overlaps the existing open perceptual QC issue. Do not mark QC pass or send duplicate blocker push."
   }
 }
