@@ -3172,7 +3172,7 @@
         "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "AITUBER_GENERATION_PROCESSING_NOT_EXPORTED_NOT_QC_NOT_BOOKED",
+        "stage": "AITUBER_GENERATION_COMPLETED_118S_EXPORT_PROCESSING_NOT_QC_NOT_BOOKED",
         "caution": "User expressly prioritizes interesting story over rigid runtime. No booking or publication until full final AV QC.",
         "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
         "productionAcceptedAt": "2026-11-16T18:24:14.279Z",
@@ -3189,7 +3189,15 @@
           "fullAudioVisualReviewed": false,
           "approved": false
         },
-        "note": "AI Tuber original 16:9 narrated video generation accepted; checked duplicate against 30 newest provider videos. Current AutoPilot quality-gate blocker from 15 Nov remains open. Do not schedule before real QC and safe queue settings."
+        "note": "AI Tuber original 16:9 narrated video generation accepted; checked duplicate against 30 newest provider videos. Current AutoPilot quality-gate blocker from 15 Nov remains open. Do not schedule before real QC and safe queue settings.",
+        "actualDurationSeconds": 118,
+        "sceneCount": 18,
+        "export": {
+          "id": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+          "resolutionRequested": "1080p",
+          "status": "processing",
+          "isCompletedVerified": false
+        }
       }
     ],
     "existingBookings": "Existing posts preserved. Bizarre Past Mørstad long-form is now verified booked on both YouTube and TikTok for 2026-11-15 18:00 Europe/Oslo; booking is not proof of publication.",
@@ -4826,7 +4834,7 @@
     "newProduction": {
       "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
       "title": "What If the Sun Went Dark for a Week?",
-      "status": "processing",
+      "status": "completed",
       "generation": "accepted 2026-11-16T18:24:14.279Z",
       "mediaType": "video",
       "quality": "basic",
@@ -4837,15 +4845,21 @@
       "duplicateCheck": "No matching Sun-dark-week title among 30 latest AI Tuber videos before generation",
       "fullMp4Audition": false,
       "exported": false,
-      "qcVerdict": "HOLD_NOT_RELEASED",
+      "qcVerdict": "HOLD_NO_COMPLETED_EXPORT_YET",
       "publicationId": null,
-      "booking": false
+      "booking": false,
+      "actualDurationSeconds": 118,
+      "sceneCount": 18,
+      "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+      "exportStatus": "processing"
     },
     "sharedCredits": {
       "beforeRequest": 5980,
       "firstCheckAfterAcceptance": 5507,
       "observedDifference": 473,
-      "attribution": "Balance observed 473 lower immediately after acceptance; provider itemized final cost not known; shared with Little Wild; no credit purchase"
+      "attribution": "Balance observed 473 lower immediately after acceptance; provider itemized final cost not known; shared with Little Wild; no credit purchase",
+      "latestObservedBalance": 5331,
+      "latestObservedDifference": 649
     },
     "ownMetricool": {
       "source": "Metricool brand 7751348 YouTube all-videos 2026-11-16",
