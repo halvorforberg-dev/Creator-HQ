@@ -2494,5 +2494,63 @@
     },
     "operations": "Preflight checked latest 30 AI Tuber videos for duplicate; newly generated 16:9 draft only using existing credits. Active unreviewed AutoPilot publication alert of 15 Nov unchanged; no new alert or platform publication.",
     "noSocialEngagement": "No competitor video viewing, comments, likes, or 1h session claimed."
+  },
+  "whatifResearchNote20261117Agent": {
+    "checkedAtOslo": "2026-11-17T19:17:35+01:00",
+    "method": "Authenticated Metricool owned video metrics, AI Tuber text/script/scene records and provider notification, free public QuirkScience creator catalog, NASA/OpenStax physics references. No competitor full video playback, no paid vidIQ credit use.",
+    "competitor": {
+      "name": "QuirkScience",
+      "catalog": "https://quirkscience.com/films/",
+      "latestShortListed": "The Lake That Disappeared in 3 Hours",
+      "publishedDate": "2026-11-14",
+      "observed": "Publisher catalog shows concrete question and factual outcome; no evidence of audience retention, actual first two seconds or public view count",
+      "originality": "Do not copy plots, scripts, animation or narrator; apply only the one-question-one-verifiable-mechanism editorial pattern."
+    },
+    "ownMetrics": {
+      "provider": "Metricool brand 7751348",
+      "checkedOn": "2026-11-17",
+      "sunBrighter": {
+        "views": 1079,
+        "avgViewSeconds": 15,
+        "ageDifferent": true
+      },
+      "octopus": {
+        "views": 1025,
+        "avgViewSeconds": 10
+      },
+      "ocean": {
+        "views": 182,
+        "avgViewSeconds": 10
+      },
+      "beeLong": {
+        "views": 27,
+        "avgViewSeconds": 46,
+        "aspect": "16:9",
+        "durationSeconds": 159
+      },
+      "saturn": {
+        "views": 2560,
+        "avgViewSeconds": 15,
+        "paidHistory": true
+      },
+      "limitations": "Aggregate cumulative counts, varying ages/formats, no verified organic breakdown/retention, missing provider-synced Nov15 post not evidence of absence."
+    },
+    "newProductionReview": {
+      "videoId": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
+      "title": "What If Earth’s Atmosphere Were Twice as Thick?",
+      "durationSeconds": 31,
+      "scriptStatus": "LAST_SCENE_GENERIC_CTA_AND_AMBIGUOUS_OXYGEN_LANGUAGE",
+      "fullAvQc": "NOT_DONE",
+      "release": "HOLD_NOT_BOOKED_BY_AGENT",
+      "originalTest": "Show same 21% oxygen share but doubled pressure/oxygen partial pressure with on-screen 1 atm→2 atm comparison; remove generic CTA and verify voice/image match after export."
+    },
+    "science": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "https://openstax.org/books/biology/pages/39-2-gas-exchange-across-respiratory-surfaces"
+    ],
+    "hypothesis": "A specific tangible pressure-gauge payoff rather than generic subscribe CTA may make the answer clearer and reduce viewer drop-off; no claimed retention result.",
+    "priority": "Finish audiovisual QC for already-exported 16:9 'Sun Went Dark for a Week' before any new credit-spending production. No extra AutoPilot booking while Nov15 alert remains open.",
+    "audit": "data/whatif-agent-review-2026-11-17.json",
+    "noSpendOrSocial": "No video generated/exported/published by agent; no paid promotion, subscriptions, vidIQ credits, likes or comments; paused Little Wild excluded."
   }
 }
