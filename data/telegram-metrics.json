@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-16T07:37:58+01:00",
-  "requestedThrough": "2026-11-16",
+  "updatedAt": "2026-11-17T07:26:28+01:00",
+  "requestedThrough": "2026-11-17",
   "source": "Metricool authenticated analytics via connected app",
-  "periodStart": "2026-10-10",
-  "periodEnd": "2026-11-16",
+  "periodStart": "2026-10-12",
+  "periodEnd": "2026-11-17",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -12,22 +12,6 @@
       "brandId": "7296504",
       "youtube": {
         "series": [
-          {
-            "date": "2026-10-10",
-            "subscribers": 4,
-            "views": 68,
-            "videosPublished": 1,
-            "followersGained": 0,
-            "followersLost": 0
-          },
-          {
-            "date": "2026-10-11",
-            "subscribers": 4,
-            "views": 54,
-            "videosPublished": 1,
-            "followersGained": 1,
-            "followersLost": 0
-          },
           {
             "date": "2026-10-12",
             "subscribers": 5,
@@ -272,7 +256,7 @@
             "date": "2026-11-11",
             "subscribers": null,
             "views": 17,
-            "videosPublished": null,
+            "videosPublished": 1,
             "followersGained": 0,
             "followersLost": 0
           },
@@ -288,12 +272,20 @@
             "date": "2026-11-13",
             "subscribers": 34,
             "views": 19,
-            "videosPublished": null,
+            "videosPublished": 1,
             "followersGained": 0,
             "followersLost": 0
           },
           {
             "date": "2026-11-14",
+            "subscribers": 34,
+            "views": 120,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-15",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -301,7 +293,7 @@
             "followersLost": null
           },
           {
-            "date": "2026-11-15",
+            "date": "2026-11-16",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -313,8 +305,8 @@
           {
             "publishedAt": "20261021140419",
             "title": "Vikings Left Prisoners for the Rising Tide? 😳 | Norse Saga",
-            "views": 1266,
-            "watchMinutes": 392.5495666666667,
+            "views": 1267,
+            "watchMinutes": 393.2623666666667,
             "likes": 17,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=rknqX_6US-0"
@@ -340,8 +332,8 @@
           {
             "publishedAt": "20261030150302",
             "title": "The Viking King Who Changed Denmark's Gods ⚔️ | Harald Bluetooth",
-            "views": 732,
-            "watchMinutes": 190.0780333333333,
+            "views": 734,
+            "watchMinutes": 190.09005,
             "likes": 21,
             "comments": 1,
             "url": "https://www.youtube.com/watch?v=Fbxu3hOzwTQ"
@@ -367,8 +359,8 @@
           {
             "publishedAt": "20261014140441",
             "title": "The Year Summer Never Came 😳 | 1816",
-            "views": 328,
-            "watchMinutes": 71.20633333333332,
+            "views": 329,
+            "watchMinutes": 71.21133333333331,
             "likes": 14,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=0ANw6q39maY"
@@ -376,8 +368,8 @@
           {
             "publishedAt": "20261026150317",
             "title": "The Blood Eagle: Real Viking Execution or Dark Legend? 😳",
-            "views": 288,
-            "watchMinutes": 103.66943333333332,
+            "views": 292,
+            "watchMinutes": 104.74003333333332,
             "likes": 8,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=fAZeSyTZnJM"
@@ -385,8 +377,8 @@
           {
             "publishedAt": "20261025150251",
             "title": "One Pig Nearly Started a War 😳 | The Pig War of 1859",
-            "views": 286,
-            "watchMinutes": 65.74010000000001,
+            "views": 287,
+            "watchMinutes": 66.53343333333335,
             "likes": 6,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=BNqH2RY58Zo"
@@ -410,6 +402,15 @@
             "url": "https://www.youtube.com/watch?v=zUpY51tbRks"
           },
           {
+            "publishedAt": "20261113170216",
+            "title": "Egypt’s Lost City Had TWO Names 😳 | Thonis-Heracleion #Shorts",
+            "views": 113,
+            "watchMinutes": 14.301283333333332,
+            "likes": 4,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=LvqQbn53zwo"
+          },
+          {
             "publishedAt": "20261028150315",
             "title": "The Day Vikings Attacked God's Island 😱 | 793",
             "views": 112,
@@ -421,8 +422,8 @@
           {
             "publishedAt": "20261018140435",
             "title": "People Danced Until They Collapsed 😳 | The Dancing Plague of 1518",
-            "views": 95,
-            "watchMinutes": 10.667383333333332,
+            "views": 96,
+            "watchMinutes": 10.753783333333331,
             "likes": 4,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=t0XKACsvyiI"
@@ -439,8 +440,8 @@
           {
             "publishedAt": "20261109170514",
             "title": "They Read a 2,000-Year-Old Scroll Without Opening It 😳",
-            "views": 59,
-            "watchMinutes": 12.351716666666668,
+            "views": 64,
+            "watchMinutes": 12.753150000000002,
             "likes": 6,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=wSIzmG9_su4"
@@ -448,8 +449,8 @@
           {
             "publishedAt": "20261019160456",
             "title": "Did You Know a Dead Pope Was Put on Trial? 😳 | 897",
-            "views": 48,
-            "watchMinutes": 8.07531666666667,
+            "views": 49,
+            "watchMinutes": 8.371783333333337,
             "likes": 2,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=xtJbJk9T2nE"
@@ -457,7 +458,7 @@
           {
             "publishedAt": "20261108170416",
             "title": "Did a Pastry Shop Help Start a War? 😳 | 1838",
-            "views": 47,
+            "views": 48,
             "watchMinutes": 13.543,
             "likes": 5,
             "comments": 0,
@@ -466,60 +467,39 @@
           {
             "publishedAt": "20261028195535",
             "title": "The Battle That Killed a Viking King ⚔️ | Stamford Bridge 1066",
-            "views": 46,
-            "watchMinutes": 5.23935,
+            "views": 47,
+            "watchMinutes": 5.28935,
             "likes": 4,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=oegyI_rdkPw"
           },
           {
-            "publishedAt": "20261010140423",
-            "title": "People Danced Until They Collapsed 😳 | The Dancing Plague of 1518",
-            "views": 44,
-            "watchMinutes": 8.33145,
-            "likes": 3,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=ar3cC9y1gNY"
-          },
-          {
-            "publishedAt": "20261011140348",
-            "title": "They Put a Dead Pope on Trial 🤯 | The Corpse Synod",
-            "views": 35,
-            "watchMinutes": 5.496250000000001,
-            "likes": 3,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=bvjEJxqIYO4"
-          },
-          {
             "publishedAt": "20261106170155",
             "title": "Did the Knights Templar Hide Their Treasure? 😱 | 1307",
-            "views": 32,
-            "watchMinutes": 6.444133333333334,
+            "views": 34,
+            "watchMinutes": 6.519266666666668,
             "likes": 3,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=TKTHIHIKPPI"
+          },
+          {
+            "publishedAt": "20261111170614",
+            "title": "Ancient Greeks Built a COMPUTER That Predicted Eclipses 😳",
+            "views": 30,
+            "watchMinutes": 9.544383333333332,
+            "likes": 1,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=-HD80govMH4"
           }
         ]
       },
       "tiktok": {
         "series": [
           {
-            "date": "2026-10-10",
-            "videoViews": 969,
-            "followers": 1,
-            "followerNetChange": null
-          },
-          {
-            "date": "2026-10-11",
-            "videoViews": 261,
-            "followers": 1,
-            "followerNetChange": 0
-          },
-          {
             "date": "2026-10-12",
             "videoViews": 1611,
             "followers": 1,
-            "followerNetChange": 0
+            "followerNetChange": null
           },
           {
             "date": "2026-10-13",
@@ -721,9 +701,15 @@
           },
           {
             "date": "2026-11-15",
-            "videoViews": 359,
+            "videoViews": 434,
             "followers": 5,
             "followerNetChange": 2
+          },
+          {
+            "date": "2026-11-16",
+            "videoViews": 266,
+            "followers": 6,
+            "followerNetChange": 1
           }
         ]
       }
@@ -954,13 +940,21 @@
           {
             "date": "2026-11-14",
             "subscribers": 48,
+            "views": 6,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-15",
+            "subscribers": 49,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-15",
+            "date": "2026-11-17",
             "subscribers": 49,
             "views": null,
             "videosPublished": null,
@@ -981,8 +975,8 @@
           {
             "publishedAt": "20261107170743",
             "title": "What If the Sun Got 10% Brighter?",
-            "views": 1073,
-            "watchMinutes": 275.48359999999997,
+            "views": 1079,
+            "watchMinutes": 277.18483333333336,
             "likes": 39,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI"
@@ -1042,10 +1036,19 @@
             "url": "https://www.youtube.com/watch?v=KIDr0B0aXTQ"
           },
           {
+            "publishedAt": "20261108185540",
+            "title": "What If You Could See Flowers Like a Bee?",
+            "views": 27,
+            "watchMinutes": 20.707349999999998,
+            "likes": 2,
+            "comments": 0,
+            "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM"
+          },
+          {
             "publishedAt": "20261031170905",
             "title": "What If Humans Lived With Dinosaurs? A Day in Our New World",
-            "views": 24,
-            "watchMinutes": 14.2332,
+            "views": 25,
+            "watchMinutes": 14.299866666666667,
             "likes": 4,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=OT6P32a60Rg"
@@ -1067,15 +1070,6 @@
             "likes": 1,
             "comments": 0,
             "url": "https://www.youtube.com/watch?v=iOstByrBFdE"
-          },
-          {
-            "publishedAt": "20261108185540",
-            "title": "What If You Could See Flowers Like a Bee?",
-            "views": 19,
-            "watchMinutes": 16.779833333333332,
-            "likes": 2,
-            "comments": 0,
-            "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM"
           },
           {
             "publishedAt": "20261030170411",
@@ -1124,18 +1118,18 @@
         "series": [],
         "videos": []
       },
-      "notes": "No authorized, verified Little Wild analytics were available for this Metricool sync; no numbers included."
+      "notes": "No authorized, verified Little Wild analytics available through Metricool for this sync; no numeric figures included."
     }
   },
   "notes": [
-    "Five successful authenticated Metricool getAnalyticsDataByMetrics source calls for 2026-10-10 through 2026-11-16 inclusive (Europe/Oslo), retrieved 2026-11-16T07:37:58+01:00; brands: Bizarre Past 7296504 (YouTube and TikTok), What If in 40 Seconds 7751348 (YouTube).",
-    "YouTube daily evolution metric IDs YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Valid Bizarre YouTube rows 37 (latest 2026-11-15); What If rows 29 (latest 2026-11-15).",
-    "TikTok daily evolution metric IDs TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Valid Bizarre TikTok rows 37 (latest 2026-11-15). TikTok videoViews has its Metricool-specific definition; do not assume all-platform rolling totals.",
-    "YouTube videos published during requested period: YTVP02 publishedAt (source format YYYYMMDDHHmmss; publication timezone not inferred), YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. 21 Bizarre videos and 16 What If videos, highest accumulated views first.",
-    "Per-video views and watchMinutes represent accumulated measurements for videos published in the date window, NOT seven-day video views and NOT necessarily monetization-eligible public watch hours; rolling seven-day views should use daily evolution views.",
-    "Null metric cells were retained as null; explicit Metricool numeric zeros remain zero. Missing dates were not imputed; Metricool may lag or return incomplete rows on recent days.",
-    "Available dated rows for latest 7-calendar-day window (10–16 Nov): Bizarre YouTube 6/7, What If YouTube 6/7, Bizarre TikTok 6/7. Missing daily rows or metric values must NOT be treated as zero.",
-    "Little Wild Adventures has no verified connected Metricool analytics for this sync and no numeric figures are included. Highlights Of Everything is omitted.",
-    "These selected metrics do not distinguish organic from paid YouTube views or subscribers."
+    "Five successful authenticated Metricool getAnalyticsDataByMetrics calls for 2026-10-12 through 2026-11-17 inclusive, requested in Europe/Oslo with correct daylight-saving offsets; retrieved 2026-11-17T07:26:28+01:00. Brands: Bizarre Past 7296504 (YouTube, TikTok), What If in 40 Seconds 7751348 (YouTube).",
+    "YouTube daily evolution field IDs YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Valid Bizarre YouTube rows 36 (latest 2026-11-16); What If rows 30 (latest 2026-11-17).",
+    "TikTok daily evolution field IDs TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Valid Bizarre TikTok rows 36 (latest 2026-11-16); network-specific videoViews definition should not be mixed with YouTube counts.",
+    "YouTube videos published in requested period: YTVP02 publishedAt (Metricool source format YYYYMMDDHHmmss; timezone not inferred), YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. 21 Bizarre videos, 16 What If videos, sorted by accumulated views descending.",
+    "Per-video views and watchMinutes are accumulated metrics for the videos published in this window, not rolling seven-day views or necessarily eligible public watch-hours; calculate rolling seven-day channel views only from daily evolution views.",
+    "Missing source metric cells are null, and explicit numeric zero values remain zero. No missing dates are synthesized. Metricool may delay, revise, or omit recent daily metrics (including current-day data); do not calculate missing rows or nulls as zeros.",
+    "Rows available for latest seven calendar days (11–17 Nov inclusive): Bizarre YouTube 6/7, What If YouTube 6/7, Bizarre TikTok 6/7. Some present rows contain null metrics; treat seven-day calculations as incomplete where applicable.",
+    "Little Wild Adventures is not connected to Metricool analytics in this sync and carries no figures. Highlights Of Everything is omitted.",
+    "Selected Metricool metrics do not distinguish organic from paid YouTube views or subscribers."
   ]
 }
