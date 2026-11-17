@@ -24,11 +24,7 @@
     "publishTimePrecision": "All newly produced or rescheduled videos target 18:00 Europe/Oslo. Existing six Bizarre Past publications are already verified at 18:00.",
     "watchHours": "Only valid public watch time from ordinary long-form uploads counts toward the standard public watch-hour route to YPP; Shorts-feed watch hours do not count toward that route. Do not treat 8 minutes as a minimum qualifying duration. Normal YPP eligibility rules and YouTube reporting still apply.",
     "oldLongFilmRuleSuperseded": "8–10-minute Sunday goal paused 2026-11-03 until user revisits it. No auto-extension of current scheduled video durations, and preserve existing verified bookings without duplicate.",
-    "productionPlatforms": {
-      "bizarre": "Higgsfield for production; Metricool for YouTube and TikTok publishing; no AI Tuber credits",
-      "wild": "AI Tuber for production and own YouTube publishing",
-      "whatif": "AI Tuber for production and own YouTube publishing"
-    },
+    "productionPlatforms": "Active two-channel system: Bizarre Past -> Higgsfield -> Metricool; What If -> AI Tuber -> its own YouTube channel. Little Wild paused.",
     "creditBudgetBoundary": "AI Tuber credit budgets cover ONLY Little Wild Adventures and What If; What If does NOT require full-motion generated footage for every scene. Maintain current What If creative style and use efficient mixed visuals when it genuinely makes the film better. Little Wild still requires fully animated full motion; Bizarre Past remains Higgsfield-only.",
     "visualPolicyDecision": {
       "date": "2026-11-03",
@@ -216,7 +212,8 @@
         "postingDiscipline": "Plan first, execute finished QC, check existing queue, then publish. No duplicate posts, no ads/promotion, no extra credit purchase, no rework that spends credits on already-generated flawed Little Wild videos.",
         "uncertainty": "Do not label editorial misses as operational blockers. Telegram alerts only fresh confirmed production stoppages."
       }
-    }
+    },
+    "channelPriorityDecision20261117": "New authoritative override: only Bizarre Past (Higgsfield) and What If (AI Tuber) active. Little Wild Adventures is paused; all earlier instructions assigning it content/AI Tuber credits are obsolete."
   },
   "channels": {
     "bizarre": {
@@ -281,7 +278,8 @@
         "narrative": "Reveal primary-source-grounded human stakes, surprising discovery, counter-question and credible final explanation. Distinguish history from legends; no unsupported mystery claim.",
         "nextTest": "Make first 2 seconds a close action shot of the authentic discovery/artefact linked to a precise curiosity question; finish showing exact historical answer.",
         "cta": "After story payoff, optional brief accurate next-episode curiosity line; no generic subscribe request at expense of ending."
-      }
+      },
+      "status": "ACTIVE"
     },
     "wild": {
       "name": "Little Wild Adventures",
@@ -295,13 +293,13 @@
       "visualReference": "@Little-Wild-Milo-and-Friends",
       "requireBeforeGeneration": "Read series bible; use saved approved visual reference and QC; verify actual 18:00 platform schedule, not only editorial intent",
       "weeklyTarget": {
-        "shorts": 3,
-        "regularLongForm": 1,
-        "regularLongFormDurationMinutes": "3–6",
-        "time": "18:00 Europe/Oslo",
-        "formatOfLongForm": "ordinary public 16:9 upload"
+        "shorts": 0,
+        "regularLongForm": 0,
+        "regularLongFormDurationMinutes": null,
+        "time": null,
+        "status": "PAUSED"
       },
-      "priority": "SECONDARY under shared AITuber budget; maintain strict quality, reduce volume rather than downgrade to low quality",
+      "priority": "PAUSED indefinitely; no spend; no work",
       "latestPilotQA": {
         "title": "Milo's Wobbly Tower! Can He Save It? 🧱",
         "videoId": "466835c0-27bd-4172-a846-4d9f3d187f32",
@@ -395,7 +393,10 @@
         "producer": "AI Tuber fully animated full-motion; consistent Milo/Miko/blue Pip.",
         "opening": "Physical play problem 0–2s; child's curiosity triggered visually.",
         "narrative": "One little mistake, active shared experiment, surprise, tangible educational success and characters who react, not a narrator list."
-      }
+      },
+      "status": "PAUSED_NO_NEW_PRODUCTION_OR_PUBLICATION",
+      "pausedAt": "2026-11-17",
+      "currentInstruction": "Do not spend credits, generate, export, schedule, post, or run agent/analytics for this channel; do not resume automatically. Prior fields document historical workflows only."
     },
     "whatif": {
       "name": "What If in 40 Seconds",
@@ -428,24 +429,26 @@
         "narrative": "Show vivid initial consequence, one unexpected change in assumptions, visually clear chain and truthful scientifically bounded positive/curious payoff; avoid pure catastrophe/repetitive premise.",
         "nextTest": "Compare grounded 'unexpected upside/insight' payoff with fear-only narration, not by treating views alone as causality.",
         "cta": "A short invitation to consider the what-if only if it naturally follows the final insight."
-      }
+      },
+      "status": "ACTIVE"
     }
   },
   "goalSchedule": {
     "effectiveFrom": "2026-11-09",
-    "monday": "All 3 channels: 9:16 Shorts 35–40 sec",
-    "wednesday": "Bizarre Past: regular 16:9 public film 2–4 min; What If: regular 16:9 public film 3–4 min; Little Wild: 9:16 Short 35–40 sec",
-    "friday": "All 3 channels: 9:16 Shorts 35–40 sec",
-    "sunday": "Bizarre Past + Little Wild: regular 16:9 public film 3–6 min; What If: regular 16:9 public film 3–4 min",
+    "monday": "Bizarre Past Short; What If Short; Little Wild PAUSED",
+    "wednesday": "Bizarre Past regular 16:9 2–4min; What If regular 16:9 3–4min; Little Wild PAUSED",
+    "friday": "Bizarre Past Short; What If Short; Little Wild PAUSED",
+    "sunday": "Bizarre Past regular 16:9 3–6min; What If regular 16:9 3–4min; Little Wild PAUSED",
     "time": "18:00",
     "status": "EDITORIAL_GOAL_NOT_BOOKED",
-    "authority": "Newest 2026-11-03 user decisions: Bizarre Past changes Wednesday Short to public 16:9 film 2–4 min; What If keeps Mon/Fri Shorts and Wed/Sun public 16:9 films 3–4 min; Little Wild unchanged Mon/Wed/Fri Shorts + Sunday public 16:9 film 3–6 min. Bizarre Sunday remains 3–6 min. Only new not-yet-booked videos from 09.11. Existing bookings protected.",
+    "authority": "Updated 2026-11-17: two-channel-only editorial plan. Historical goals for Little Wild are cancelled. Actual future bookings must still be verified at each provider.",
     "weeklyPerChannel": {
       "note": "Legacy universal schedule replaced by explicit weeklyByChannel; retain counts per channel below."
     },
     "weeklyAllThreeChannels": {
-      "shorts": 7,
-      "regularVideos": 5
+      "shorts": 4,
+      "regularVideos": 4,
+      "status": "LEGACY_KEY_NOW_ONLY_TWO_ACTIVE_CHANNELS"
     },
     "weeklyByChannel": {
       "bizarre": {
@@ -465,12 +468,9 @@
         "regularVideos": 2
       },
       "wild": {
-        "monday": "Short 35–40 sec, 9:16",
-        "wednesday": "Short 35–40 sec, 9:16",
-        "friday": "Short 35–40 sec, 9:16",
-        "sunday": "Regular 16:9 public film 3–6 minutes",
-        "shorts": 3,
-        "regularVideos": 1
+        "shorts": 0,
+        "regularVideos": 0,
+        "status": "PAUSED_INDEFINITELY"
       }
     }
   },
@@ -867,7 +867,7 @@
     "reporting": "One short practical summary per channel in Creator HQ and Telegram weekly reporting when feed connected"
   },
   "creditPlanning": {
-    "updatedAt": "2026-11-03",
+    "updatedAt": "2026-11-17",
     "aituberPlanVerified": {
       "plan": "Studio",
       "status": "active",
@@ -900,16 +900,18 @@
           "platform": "AI Tuber; Mon/Fri Shorts, Wed/Sun 3–4-min 16:9"
         },
         "littleWild": {
-          "shorts": 12,
-          "regularVideos": 4,
-          "platform": "AI Tuber; Mon/Wed/Fri Shorts, Sun 3–6-min 16:9"
+          "shorts": 0,
+          "regularVideos": 0,
+          "platform": "AI Tuber (PAUSED)"
         }
       },
       "aiTuberOnly": {
-        "shorts": 20,
-        "regularVideos": 12
+        "shorts": 8,
+        "regularVideos": 8,
+        "producer": "What If only; editorial goals not credit commitments"
       },
-      "status": "EDITORIAL TARGETS ONLY; not actual bookings or a production guarantee. Cannot use this combined total as an AI Tuber purchase order."
+      "status": "HISTORICAL_THREE_CHANNEL_SCENARIO_SUPERSEDED_2026-11-17",
+      "activeFocus": "Only Bizarre Past and What If; see activeStrategy20261117 and goalSchedule."
     },
     "officialRates": {
       "source": "https://help.aituber.app/en/article/quality-tiers-explained-basic-good-premium-max-oagajm/",
@@ -936,17 +938,15 @@
     "allocation": {
       "totalMonthlyCredits": 10000,
       "provisionalPrioritization": {
-        "whatif": 7000,
-        "littleWild": 3000
+        "whatif": 10000,
+        "littleWild": 0
       },
       "shares": {
-        "whatif": 0.7,
-        "littleWild": 0.3
+        "whatif": 1,
+        "littleWild": 0
       },
-      "rule": "Working allocation for planning, NOT a purchase or guaranteed exact spend. Within these limits favor quality and verified retention. Move unused credits only after quality/release checks; never force production or duplicate titles to exhaust a quota. Actual monthly targets may be unaffordable; label shortfall and revise production schedule deliberately rather than using slideshows for Little Wild.",
-      "priority": "What If gets first call on AI Tuber credits. Keep the visually engaging mixed format that works today; full-motion is not mandatory. Little Wild uses original full-motion video and approved Milo/Miko/Pip character reference, but fewer productions if budget requires.",
-      "productionMethod": "Run a cost estimate before each paid generation, record estimated and actual credits, and reserve for revisions before scheduling.",
-      "separateBudget": "Bizarre Past remains entirely in Higgsfield -> Metricool, outside this calculation."
+      "priority": "What If only; no Little Wild production spend. Monthly credits are existing plan capacity, not a mandate to exhaust them.",
+      "rule": "Stop all Little Wild spend. Use What If quality-first; validate cost and do not purchase extra credits without explicit approval."
     },
     "fourWeekFeasibilityCheck": {
       "checkedAt": "2026-11-04",
@@ -4964,5 +4964,25 @@
     "decision": "NO_NEW_GENERATION. The requested confirmed refill condition is not met. Preserve the entire 167.77 balance for the prioritized long-form pipeline; do not spend on Merer, switch provider/model silently, purchase credits, book an unreviewed draft, or claim final MP4/QA.",
     "alertDecision": "No fresh confirmed operational blocker: this is an unbooked editorial target with an unmet refill/reserve precondition, not a failed production job or failed provider booking. No Telegram alert created.",
     "actions": "Read governing files and plan; verified both connected channels, Metricool states, Higgsfield balance/history, vidIQ access/jobs and existing repo brief/export records. No generation, export, booking, reschedule, duplicate, credit purchase, ad spend or publication performed."
+  },
+  "activeStrategy20261117": {
+    "approvedAt": "2026-11-17",
+    "status": "ACTIVE_TWO_CHANNEL_FOCUS",
+    "activeChannels": [
+      "bizarre",
+      "whatif"
+    ],
+    "pausedChannels": [
+      "wild"
+    ],
+    "decision": "Little Wild Adventures is paused indefinitely. Stop all Little Wild editorial work, generation, exports, AI Tuber credit spending, scheduled publishing, analysis and competitor activity. Do not re-enable without a new explicit user decision. Keep historical channel content, archives and references unless explicitly told to delete them.",
+    "producerByChannel": {
+      "bizarre": "Higgsfield only",
+      "whatif": "AI Tuber only"
+    },
+    "publishing": "Use the channel's verified publication workflow. Maintain user-preferred 18:00 Europe/Oslo time and full audiovisual quality checks, no duplicates.",
+    "quality": "Quality over quantity: compelling evidence-based hooks, natural narrative, appropriate motion, audio, factual reliability, complete payoff, and full MP4 QC before publication.",
+    "budget": "100% of future AI Tuber production allocation is reserved for What If. Bizarre Past uses Higgsfield credits. No new purchases or paid promotion.",
+    "limitations": "ChatGPT automation for Little Wild was disabled on 2026-11-17. AI Tuber's independent AutoPilot or Weekly Long Story settings are NOT controllable via the connected API; their actual paused state must be independently confirmed in the provider's UI. This configuration alone cannot suspend platform-side automation."
   }
 }
