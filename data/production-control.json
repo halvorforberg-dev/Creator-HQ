@@ -476,7 +476,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-16 before 18:00 Europe/Oslo: Mørstad Nov15 PUBLISHED with YouTube and TikTok public URLs; San Juan Nov16 PENDING both, 18:00 Europe/Oslo, mediaPresent and autoPublish confirmed. Other historical queue entries unchanged.",
+      "verifiedDate": "2026-11-17 authenticated Metricool: Mørstad Nov15 and San Juan Nov16 PUBLISHED YouTube+TikTok, no future posts through Nov30 in returned scheduled planner records.",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -590,8 +590,8 @@
           "time": "18:00",
           "title": "One Rare Coin Inside a 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504, Nov14–25; providers[].status=PUBLISHED, publicUrl and platform post ID returned",
+          "statusVerifiedDate": "2026-11-17T17:11:00+01:00",
+          "statusSource": "Authenticated Metricool getScheduledPosts 2026-11-17, date range 2026-11-15 through 2026-11-30, provider PUBLISHED status and publicUrl",
           "mediaUrl": null,
           "autoPublish": true,
           "mediaPresent": true,
@@ -607,14 +607,14 @@
           "time": "18:00",
           "title": "One Rare Coin Inside Norway's 5,500-Coin Viking Hoard",
           "lastVerifiedStatus": "PUBLISHED",
-          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504, Nov14–25; providers[].status=PUBLISHED, publicUrl and platform post ID returned",
+          "statusVerifiedDate": "2026-11-17T17:11:00+01:00",
+          "statusSource": "Authenticated Metricool getScheduledPosts 2026-11-17, date range 2026-11-15 through 2026-11-30, provider PUBLISHED status and publicUrl",
           "mediaUrl": null,
           "autoPublish": true,
           "mediaPresent": true,
           "status": "PUBLISHED",
           "publicUrl": "https://www.youtube.com/watch?v=0JaVYEKlFxo",
-          "providerPostId": "0JaVYEKlFxo"
+          "providerPostId": "watch?v=0JaVYEKlFxo"
         },
         {
           "id": 422895207,
@@ -684,13 +684,15 @@
           "time": "18:00",
           "network": "youtube",
           "title": "Why Rival Armies Raced Horses on the Same Island",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov14–25; provider status=PENDING, release 2026-11-16 18:00 Europe/Oslo",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-17T17:11:00+01:00",
+          "statusSource": "Authenticated Metricool getScheduledPosts 2026-11-17, date range 2026-11-15 through 2026-11-30, provider PUBLISHED status and publicUrl",
           "mediaUrl": null,
           "autoPublish": true,
           "mediaPresent": true,
-          "status": "PENDING"
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.youtube.com/shorts/lNDesnI93VE",
+          "providerPostId": "lNDesnI93VE"
         },
         {
           "id": 423659361,
@@ -699,13 +701,15 @@
           "time": "18:00",
           "network": "tiktok",
           "title": "Why Rival Armies Raced Horses on the Same Island",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-16 before 18:00 Europe/Oslo",
-          "statusSource": "Authenticated Metricool getScheduledPosts brand 7296504 Nov14–25; provider status=PENDING, release 2026-11-16 18:00 Europe/Oslo",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-17T17:11:00+01:00",
+          "statusSource": "Authenticated Metricool getScheduledPosts 2026-11-17, date range 2026-11-15 through 2026-11-30, provider PUBLISHED status and publicUrl",
           "mediaUrl": null,
           "autoPublish": true,
           "mediaPresent": true,
-          "status": "PENDING"
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7708817244570012950",
+          "providerPostId": "7708817244570012950"
         }
       ]
     },
@@ -4984,5 +4988,91 @@
     "quality": "Quality over quantity: compelling evidence-based hooks, natural narrative, appropriate motion, audio, factual reliability, complete payoff, and full MP4 QC before publication.",
     "budget": "100% of future AI Tuber production allocation is reserved for What If. Bizarre Past uses Higgsfield credits. No new purchases or paid promotion.",
     "limitations": "ChatGPT automation for Little Wild was disabled on 2026-11-17. AI Tuber's independent AutoPilot or Weekly Long Story settings are NOT controllable via the connected API; their actual paused state must be independently confirmed in the provider's UI. This configuration alone cannot suspend platform-side automation."
+  },
+  "bizarrePastAgentCheck20261117": {
+    "checkedAtOslo": "2026-11-17 approximately 17:11 Europe/Oslo",
+    "governingSources": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/competitor-watch.json",
+      "data/production-alerts.json",
+      "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
+    ],
+    "channelStrategy": "Only Bizarre Past and What If active since Nov17. This agent checks Bizarre Past only. Little Wild indefinite pause, no work or spend on it.",
+    "metricool": {
+      "brandId": 7296504,
+      "channelYouTube": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "channelTikTok": "bizzare.past",
+      "queried": "2026-11-15 00:00 to 2026-11-30 23:59 Europe/Oslo",
+      "morstad": {
+        "date": "2026-11-15",
+        "youtube": {
+          "postId": 420588270,
+          "status": "PUBLISHED",
+          "url": "https://www.youtube.com/watch?v=0JaVYEKlFxo"
+        },
+        "tiktok": {
+          "postId": 420588470,
+          "status": "PUBLISHED",
+          "url": "https://www.tiktok.com/@bizzare.past/video/7708445004020174102"
+        }
+      },
+      "sanJuan": {
+        "date": "2026-11-16",
+        "youtube": {
+          "postId": 423659187,
+          "status": "PUBLISHED",
+          "url": "https://www.youtube.com/shorts/lNDesnI93VE"
+        },
+        "tiktok": {
+          "postId": 423659361,
+          "status": "PUBLISHED",
+          "url": "https://www.tiktok.com/@bizzare.past/video/7708817244570012950"
+        }
+      },
+      "noFuturePlannerRecordsThrough": "2026-11-30",
+      "interpretation": "No confirmed future bookings shown in the requested range. Editorial planned slots Nov18 Babylon, Nov20 Merer, Nov22 Ketef Hinnom are NOT booked; do not declare PENDING."
+    },
+    "higgsfield": {
+      "plan": "plus",
+      "credits": 167.77,
+      "availableFreeVideoGenerations": 0,
+      "refillConfirmed": false,
+      "comparison": "Unchanged vs Nov17 morning snapshot; old 413.99 'before refill' figure is historical, not a live balance.",
+      "generation": "NONE started during this check",
+      "constraint": "No affordable costed complete 2–4min production/AV-QC path in current balance on last budget estimates; preserve all existing credits; no purchases/automatic model downgrades."
+    },
+    "recentTikTokMetrics": {
+      "source": "Authenticated Metricool TikTok posts 2026-11-01 through 2026-11-17 (indexed cumulative snapshot)",
+      "morstadNov15": {
+        "views": 434,
+        "likes": 13,
+        "durationSeconds": 178
+      },
+      "sanJuanNov16": {
+        "views": 266,
+        "likes": 1,
+        "durationSeconds": 36
+      },
+      "thonisNov13": {
+        "views": 266,
+        "likes": 4,
+        "durationSeconds": 39
+      },
+      "antikytheraNov11": {
+        "views": 275,
+        "likes": 2,
+        "durationSeconds": 128
+      },
+      "limitations": "Different age/length, unknown full-watch/watch-time; cannot infer hook superiority or organic lift and no cross-format causal comparison."
+    },
+    "editorial": {
+      "babylonNov18": "Script v3 (230 English words), source-checked original storyboard only, NOT generated/exported/full-AV-QC/booked. Original hook and animated boat-to-triangle scholarly interpretation sourced to British Museum / Smarthistory.",
+      "mererNov20": "Editorial brief only; no finished MP4 or confirmed platform booking.",
+      "ketefHinnomNov22": "Editorial brief only; no finished MP4 or confirmed platform booking.",
+      "nextAction": "Retain high quality 3–5 truthful hooks and original artifact-first first frames; no generation until refill and full production budget, no scheduling unless export and entire MP4 with sound are actually checked."
+    },
+    "done": "Read latest governing files, verified publisher status, balance and current TikTok metrics; reconciled older PENDING records in canonical queue; no ads, credit spend, generations, uploads, booking, interaction or alleged hour session.",
+    "alertDecision": "No fresh confirmed operational failure. Unbooked editorial slots and lack of credit refill are not a newly failed platform operation; no new Telegram blocker alert."
   }
 }
