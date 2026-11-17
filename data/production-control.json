@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -4909,5 +4909,60 @@
     "testPlan": "After independently approved ordinary public 16:9 video, compare matched-format 24h/7d/28d long-form CTR, audience retention, public watch hours, subscribe conversion, and organic-vs-paid where possible. Hypothesis: immediate Earth-still-lit paradox plus concrete recovery payoff improves clarity, not yet proven.",
     "operational": "Existing confirmed AutoPilot unreviewed posting 2026-11-15 remains OPEN in production-alerts.json. API cannot modify AutoPilot settings; no manual publish until UI verified draft-only and queue safe; no new alert for same incident.",
     "exportObstacle": "AI Tuber returned live download URL 200 OK; local container DNS for cdn.aituber.app failed (Temporary failure in name resolution); no auditory or visual QC. This overlaps the existing open perceptual QC issue. Do not mark QC pass or send duplicate blocker push."
+  },
+  "bizarrePastShortsCheck20261117": {
+    "checkedAtOslo": "2026-11-17 08:23 Europe/Oslo",
+    "governingSources": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "YouTube-kanalplan.md (Library-ID libfile_4c651a7414a88191ba834a4ddd276281)"
+    ],
+    "currentPlan": "Bizarre Past: Monday and Friday 35–40s 9:16 Shorts; Wednesday ordinary public 16:9 2–4 min; Sunday ordinary public 16:9 3–6 min; all editorial targets at 18:00 Europe/Oslo. Existing bookings protected.",
+    "connections": {
+      "metricoolBrandId": 7296504,
+      "metricoolBrandLabel": "BIZZARE PAST",
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "tiktokHandle": "bizzare.past",
+      "vidiqAuthenticatedChannel": "Bizarre Past @bizarrepast69"
+    },
+    "verifiedPublishing": {
+      "morstad20261115": {
+        "youtubePostId": 420588270,
+        "youtubeStatus": "PUBLISHED",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0JaVYEKlFxo",
+        "tiktokPostId": 420588470,
+        "tiktokStatus": "PUBLISHED",
+        "tiktokUrl": "https://www.tiktok.com/@bizzare.past/video/7708445004020174102"
+      },
+      "sanJuan20261116": {
+        "youtubePostId": 423659187,
+        "youtubeStatus": "PUBLISHED",
+        "youtubeUrl": "https://www.youtube.com/shorts/lNDesnI93VE",
+        "tiktokPostId": 423659361,
+        "tiktokStatus": "PUBLISHED",
+        "tiktokUrl": "https://www.tiktok.com/@bizzare.past/video/7708817244570012950"
+      },
+      "futureQueueThrough20261124": "NO_FUTURE_METRICOOL_BOOKINGS_RETURNED"
+    },
+    "productionState": {
+      "merer20261120": "SOURCE_CHECKED_EDITORIAL_BRIEF_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_AV_QC_PASSED_NOT_BOOKED",
+      "babylon20261118": "SOURCE_CHECKED_SCRIPT_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_AV_QC_PASSED_NOT_BOOKED",
+      "ketefHinnom20261122": "SOURCE_CHECKED_SCRIPT_ONLY_NOT_GENERATED_NOT_EXPORTED_NOT_AV_QC_PASSED_NOT_BOOKED",
+      "higgsfieldPlan": "plus",
+      "higgsfieldCredits": 167.77,
+      "usableFreeMotionVideoGenerations": 0,
+      "newestGenerationSample": "100 items checked; 100 completed, 0 active/failed, no Merer/Wadi al-Jarf, Babylon or Ketef Hinnom match",
+      "exportReuse": "NO_MATCHING_FINISHED_EXPORT_FOUND_IN_CHECKED_PROVIDER_HISTORY_OR_REPO_QC_RECORDS"
+    },
+    "vidiq": {
+      "credits": 2,
+      "activeJobs": 0,
+      "youtubeSubscribers": 34,
+      "youtubeLifetimeViews": 7803,
+      "youtubePublicVideos": 27
+    },
+    "decision": "NO_NEW_GENERATION. The requested confirmed refill condition is not met. Preserve the entire 167.77 balance for the prioritized long-form pipeline; do not spend on Merer, switch provider/model silently, purchase credits, book an unreviewed draft, or claim final MP4/QA.",
+    "alertDecision": "No fresh confirmed operational blocker: this is an unbooked editorial target with an unmet refill/reserve precondition, not a failed production job or failed provider booking. No Telegram alert created.",
+    "actions": "Read governing files and plan; verified both connected channels, Metricool states, Higgsfield balance/history, vidIQ access/jobs and existing repo brief/export records. No generation, export, booking, reschedule, duplicate, credit purchase, ad spend or publication performed."
   }
 }
