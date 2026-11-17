@@ -5074,5 +5074,67 @@
     },
     "done": "Read latest governing files, verified publisher status, balance and current TikTok metrics; reconciled older PENDING records in canonical queue; no ads, credit spend, generations, uploads, booking, interaction or alleged hour session.",
     "alertDecision": "No fresh confirmed operational failure. Unbooked editorial slots and lack of credit refill are not a newly failed platform operation; no new Telegram blocker alert."
+  },
+  "whatIfAgentCheck20261117": {
+    "checkedAtOslo": "2026-11-17T19:17:35+01:00",
+    "report": "data/whatif-agent-review-2026-11-17.json",
+    "activeStrategy": "What If active in AI Tuber; Bizarre independent Higgsfield; Little Wild paused indefinitely and not worked on.",
+    "newDraft": {
+      "id": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
+      "title": "What If Earth’s Atmosphere Were Twice as Thick?",
+      "createdAt": "2026-11-17T17:00:56.595Z",
+      "durationSeconds": 31,
+      "aspectRatio": "9:16",
+      "sceneCount": 4,
+      "exportStatus": null,
+      "providerEmail": "1a1ea75a6ee72439",
+      "emailVerdict": "SAVED_TO_LIBRARY_NOT_POSTED_AT_18_02_OSLO",
+      "fullAudioVisualQA": false,
+      "editorialVerdict": "HOLD_GENERIC_CTA_31SEC_NO_FINISHED_MP4",
+      "publicStatus": "NO_NEW_POST_IN_METRICOOL_SYNC; INDEPENDENT_PUBLIC_STATUS_NOT_FULLY_VERIFIED"
+    },
+    "sunDarkLong": {
+      "id": "6825f860-3fca-449d-9618-8e56a4175aa7",
+      "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+      "durationSeconds": 118,
+      "aspectRatio": "16:9",
+      "actualMp4WithAudioReviewed": false,
+      "downloadAttempt": "cdn.aituber.app DNS failed in local runtime Nov17",
+      "providerBookingId": null,
+      "status": "HOLD_FULL_AV_QC_NOT_BOOKED",
+      "nextTarget": "2026-11-18 18:00 Europe/Oslo editorial target, not provider booking"
+    },
+    "currentAituberCredits": {
+      "balance": 5160,
+      "monthly": 10000,
+      "changeVsNov16": -171,
+      "attribution": "provider did not itemize; no purchase or new agent generation in this run"
+    },
+    "publicAnalytics": {
+      "source": "Metricool What If all videos Nov1–17",
+      "beeLong": {
+        "views": 27,
+        "avgViewSeconds": 46
+      },
+      "sunBrighter": {
+        "views": 1079,
+        "avgViewSeconds": 15
+      },
+      "octopus": {
+        "views": 1025,
+        "avgViewSeconds": 10
+      },
+      "ocean": {
+        "views": 182,
+        "avgViewSeconds": 10
+      },
+      "saturn": {
+        "views": 2560,
+        "previousPaidCampaign": true
+      },
+      "note": "Cumulative unlike-aged and incomplete provider sync: Nov15 Black Hole public posting confirmed by email, not yet in Metricool."
+    },
+    "alertStatus": "Existing confirmed Nov15 AutoPilot bypass remains OPEN; today's drafts-only email does not prove safe, do not resolve without authenticated settings. No new alert created.",
+    "noNewActions": "No publish/booking/exports/generation/ads/credit purchase/comments/likes. Full audiovisual playback not achieved."
   }
 }
