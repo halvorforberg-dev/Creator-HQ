@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -272,6 +272,45 @@
       "test": "Preflight 2–4min documentary script first, then if safely funded full original Higgsfield motion+voice+music+MP4 QC, compare 24h/7d/28d same-format CTR/retention/seerminutter against channel baseline. Do not book editorial target without master.",
       "status": "SOURCE_CHECKED_SCRIPT_REVISED_ONLY_NOT_GENERATED_NOT_BOOKED",
       "briefPath": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
+    },
+    {
+      "channel": "whatif",
+      "addedOn": "2026-11-17",
+      "hypothesis": "A real visible biological question in the first 2s with a measured factual answer may improve long-form watch time vs an abstract hypothetical opening; not proven by competitor metadata.",
+      "nextTrial": "What If Humans Had a Third Eyelid?",
+      "sourceLinks": [
+        "https://pubmed.ncbi.nlm.nih.gov/15255295/",
+        "https://en.wikipedia.org/wiki/Nictitating_membrane"
+      ],
+      "measurement": "After verified public release compare same-age/same-format 24h/7d/28d engaged views, retention, 0–2s, subs/1000, longform CTR/qualified organic public hours where available; don't imply known results.",
+      "status": "SOURCE_RESEARCH_ONLY_NOV17_NOT_PRODUCED_NOT_BOOKED",
+      "researchRunId": "weekly-competitor-analysis-2026-11-17"
+    },
+    {
+      "channel": "bizarre",
+      "addedOn": "2026-11-17",
+      "hypothesis": "First 2s original reflected-green-to-backlit-red Roman cup visual, followed by careful material-science reveal, could improve longform CTR/retention vs generic mysteries.",
+      "nextTrial": "Did You Know a Roman Cup Could Change Color?",
+      "sourceLinks": [
+        "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+        "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
+      ],
+      "measurement": "After verified public release compare same-age/same-format 24h/7d/28d engaged views, retention, 0–2s, subs/1000, longform CTR/qualified organic public hours where available; don't imply known results.",
+      "status": "SOURCE_RESEARCH_ONLY_NOV17_NOT_PRODUCED_NOT_BOOKED",
+      "researchRunId": "weekly-competitor-analysis-2026-11-17"
+    },
+    {
+      "channel": "wild",
+      "addedOn": "2026-11-17",
+      "hypothesis": "One full-motion physical failure/retry/success with consistent Milo/Miko/blue Pip may improve Short stayed-to-watch over generic narrated routines.",
+      "nextTrial": "Milo, Miko & Pip: The Boat That Wouldn't Float!",
+      "sourceLinks": [
+        "https://www.pbs.org/parents/crafts-and-experiments/sink-or-float-experiment",
+        "https://www.pbs.org/parents/crafts-and-experiments/float-diy-water-bottle-boats"
+      ],
+      "measurement": "After verified public release compare same-age/same-format 24h/7d/28d engaged views, retention, 0–2s, subs/1000, longform CTR/qualified organic public hours where available; don't imply known results.",
+      "status": "SOURCE_RESEARCH_ONLY_NOV17_NOT_PRODUCED_NOT_BOOKED",
+      "researchRunId": "weekly-competitor-analysis-2026-11-17"
     }
   ],
   "lastResearch": {
@@ -1225,44 +1264,404 @@
       },
       "measurementPlan": "Before future publication, check unique project/video ID, real AI Tuber/Metricool queue and MP4 audio+motion QC. Then after 24h/7d/28d by SAME format + age compare engaged views, viewed-vs-swiped, retention curve 0–2s and 30s, avg watch percent, gross subs/1000, longform CTR, organic qualifying public watch-hours; paid and organic separate if accessible. One predeclared creative variable at a time; no success or algorithm claims without owner analytics.",
       "policyPreserved": "2026-11-09 canonical: What If Mon/Fri Shorts + Wed/Sun 3–4min ordinary public 16:9; Bizarre Mon/Fri Shorts + Wed 2–4min + Sun 3–6min 16:9; Little Wild Mon/Wed/Fri Shorts + Sun 3–6min 16:9. ALL new posts editorial 18:00 Europe/Oslo. Higgsfield+Metricool for Bizarre; AI Tuber for What If and Little Wild with What If priority. Paid promotions paused and not resumed. No changed bookings, generated media, publication, comment, purchases, vidIQ paid search or Telegram message."
+    },
+    {
+      "id": "weekly-competitor-analysis-2026-11-17",
+      "researchedOn": "2026-11-17",
+      "checkedAtOslo": "2026-11-17T10:13:15+01:00",
+      "evidenceStatus": "PUBLIC_METADATA_CONFIRMED_NO_VIDEO_PLAYBACK",
+      "method": "First read latest production-control.json and competitor-watch.json; free public indexed video metadata and source documentation; authenticated Metricool daily evolution and video snapshots; zero-credit vidIQ account balance and own-channel snapshots. No paid vidIQ competitor queries, video watch or owner analytics.",
+      "sourceAccounting": "6 video cases across History with Cy, Ancient Architects, MinuteEarth, Numberblocks and Peep; channels rotated from last week's study. Public tracker view counts are dated snapshots and may update asynchronously; date-matched upload-age days are calendar proxies, not exact 24h/7d views. Two MinuteEarth uploads same day permit descriptive comparison, not controlled evidence of cause.",
+      "cost": {
+        "vidiqCreditsSpent": 0,
+        "vidiqCreditsRemaining": 2,
+        "vidiqRenewal": "2026-11-21T20:09:10Z",
+        "newAIProductionCreditsSpent": 0,
+        "paidPromotionsStarted": false
+      },
+      "sampleVideos": {
+        "bizarre": [
+          {
+            "channel": "History with Cy",
+            "size": "smaller established niche channel ~304K subscribers",
+            "title": "Did Alexander the Great Fall Victim to Mesopotamia’s Darkest Ritual?",
+            "publishedUTC": "2026-11-03",
+            "snapshotDate": "2026-11-16",
+            "snapshotViewsApprox": 104180,
+            "daysSinceUploadCalendar": 13,
+            "format": "long 16:9",
+            "duration": "14:35",
+            "youtube": "https://www.youtube.com/watch?v=YabYlAvDEW0",
+            "source": "https://vidiq.com/youtube-stats/channel/@historywithcy/",
+            "outlierVsChannelTypical": "4.85x per provider but unadjusted across content ages",
+            "observed": "A specific ancient person + controversial question title; strong curiosity packaging. Metadata and tracker only.",
+            "unknown": "No actual opening 0–2s, motion, edit rhythm, narrative beats, payoff, original thumbnail image or retention checked.",
+            "hypothesis": "An evidence-led answer to a sharply phrased question may outperform vague historical mystery. Title is not proof of sensational claims."
+          },
+          {
+            "channel": "Ancient Architects",
+            "size": "mid-size ~642K subscribers",
+            "title": "Does Wooden Great Pyramid Relic Re-Date the Ancient Structure?",
+            "publishedUTC": "2026-11-12",
+            "snapshotDate": "2026-11-16",
+            "snapshotViewsApprox": 60580,
+            "daysSinceUploadCalendar": 4,
+            "format": "long 16:9",
+            "duration": "12:43",
+            "youtube": "https://www.youtube.com/watch?v=RZLFk4XVbcU",
+            "source": "https://vidiq.com/youtube-stats/channel/@ancientarchitects/",
+            "outlierVsChannelTypical": "2.02x provider tracker figure",
+            "observed": "Physical object plus provocative dating question in metadata; title sets up a testable mystery rather than an abstract lecture.",
+            "unknown": "Actual opening, full-motion, narrative progression, footage, payoff, exact thumbnail and retention not watched.",
+            "hypothesis": "Opening on the artifact, then explaining what the evidence really can and cannot establish, may give stronger honest payoff."
+          }
+        ],
+        "whatif": [
+          {
+            "channel": "MinuteEarth",
+            "size": "large established 3.34M subscribers",
+            "title": "Why Do We Have 3 Or 4 Holes?",
+            "publishedUTC": "2026-11-13",
+            "snapshotDate": "2026-11-15",
+            "snapshotViewsApprox": 379246,
+            "daysSinceUploadCalendar": 2,
+            "format": "long-form",
+            "duration": "5:23",
+            "youtube": "https://www.youtube.com/watch?v=wfGo-1kM9OQ",
+            "source": "https://vidiq.com/youtube-stats/channel/@minuteearth/videos/",
+            "observed": "Concrete biological question/number hook in title. Public Nov15 video list showed 379246 views; later source snapshot shows larger counts; do not mix date snapshots.",
+            "unknown": "No direct video playback, exact hook 0–2s, visual motion, actual thumbnail, narrative order or final payoff verified.",
+            "hypothesis": "Specific visible anatomy and a surprising answer might prompt clicks; the high count does not establish causal role of the title."
+          },
+          {
+            "channel": "MinuteEarth",
+            "size": "large established, same creator for contrast",
+            "title": "What's the highest a bird can fly?",
+            "publishedUTC": "2026-11-13",
+            "snapshotDate": "2026-11-15",
+            "snapshotViewsApprox": 42814,
+            "daysSinceUploadCalendar": 2,
+            "format": "Short (provider classification; length >60s)",
+            "duration": "2:26",
+            "youtube": "https://www.youtube.com/watch?v=PwZdtsIbXps",
+            "source": "https://vidiq.com/youtube-stats/channel/@minuteearth/videos/",
+            "observed": "Question headline is concrete and measurable; upload date same as other MinuteEarth video. Different formats and lengths, so view differences cannot be attributed to the subject or title.",
+            "unknown": "Opening, actual shot rhythm, motion sequence, ending and thumbnail not watched. The provider format tag may differ from YouTube current classification.",
+            "hypothesis": "Try a question that becomes an immediate visual demonstration, then an answer; no inference of causation from 379246 vs 42814."
+          }
+        ],
+        "wild": [
+          {
+            "channel": "Numberblocks",
+            "size": "very large established preschool educational series ~15.5M subscribers",
+            "title": "Who Will Win the Race? | Numberblocks #shorts",
+            "publishedUTC": "2026-11-11",
+            "snapshotDate": "2026-11-15",
+            "snapshotViewsApprox": 59092,
+            "daysSinceUploadCalendar": 4,
+            "format": "Short 9:16",
+            "duration": "0:19",
+            "youtube": "https://www.youtube.com/shorts/00BakJ1QGis",
+            "source": "https://vidiq.com/youtube-stats/channel/@numberblocks/videos/",
+            "observed": "Question signals one obvious goal and recognizable existing children's series. View count is provider's older dated Nov15 listing, not a live count.",
+            "unknown": "Did not actually watch the first 2s, any character motion/continuity, exact thumbnail/cover frames or ending. Series structure inferred from public descriptions, not proven video beat timings.",
+            "hypothesis": "One concrete playful problem on opening frame is an original structure worth testing; do not copy Numberblocks' characters, art, songs or scripts."
+          },
+          {
+            "channel": "Peep and the Big Wide World",
+            "size": "mid-size preschool channel ~709K subscribers",
+            "title": "Two’s A Crowd (Part 2)",
+            "publishedUTC": "2026-11-12",
+            "snapshotDate": "2026-11-16",
+            "snapshotViewsApprox": 26646,
+            "daysSinceUploadCalendar": 4,
+            "format": "ordinary long-form",
+            "duration": "10:46",
+            "youtube": "https://www.youtube.com/watch?v=EvQKA4lHM8w",
+            "source": "https://vidiq.com/youtube-stats/channel/@peepwgbh/videos/",
+            "observed": "Episode-style interpersonal dilemma is title-visible, and series uses recurring cast. This is Part 2, so existing serial viewers may affect counts.",
+            "unknown": "No actual scenes, opening, character animation smoothness, dramatic payoff or thumbnail examined; owner CTR/retention unavailable.",
+            "hypothesis": "An easy-to-understand small conflict and warm solution, kept in our own Milo/Miko/Pip universe, can strengthen the episode's narrative coherence."
+          }
+        ]
+      },
+      "analyticalLimits": {
+        "first2Seconds": "NONE of six videos actually played back in this run; no 0–2s hook claim",
+        "tempo": "NO shot-by-shot timing verified; pacing not inspected",
+        "fullMotion": "Actual camera/animation motion and continuity not inspected",
+        "storyAndPayoff": "Actual plot, narration, surprise/reveal and ending not verified; any predicted beats are title/category-derived hypotheses only",
+        "thumbnail": "Only public title and metadata studied; thumbnail image not visually inspected, so no statements about its composition",
+        "causality": "Views are affected by channel size, age, format, history, promotion, recommendation exposure, quality and many unmeasured variables; no inference of viral cause",
+        "views": "Approximate archived cumulative views with provider snapshot dates, NOT age-matched 24h/7d/28d release curves, VPH or engaged views."
+      },
+      "ownedChannelComparison": {
+        "asOf": "2026-11-17 Europe/Oslo",
+        "source": "Authenticated Metricool YouTube evolution 2026-10-20 to 2026-11-17 and all-videos snapshots; zero-credit vidIQ user_channels 2026-11-17",
+        "bizarre": {
+          "subscribers": 34,
+          "lifetimePublicViewsViaVidiq": 7803,
+          "reportedLast7CalendarDays": {
+            "range": "2026-11-10 to 2026-11-16",
+            "daysWithData": 5,
+            "ofDays": 7,
+            "reportedViews": 187,
+            "grossSubscriberGains": 0,
+            "lost": 0,
+            "missingDates": [
+              "2026-11-15",
+              "2026-11-16"
+            ]
+          },
+          "reportedLast28CalendarDays": {
+            "range": "2026-10-20 to 2026-11-16",
+            "daysWithData": 26,
+            "ofDays": 28,
+            "reportedViews": 5525,
+            "grossSubscriberGains": 18,
+            "lost": 1,
+            "grossSubsPer1000ReportedViews": 3.26
+          },
+          "recentUploads": [
+            {
+              "title": "Egypt’s Lost City Had TWO Names",
+              "published": "2026-11-13",
+              "cumulativeViews": 113
+            },
+            {
+              "title": "Ancient Greeks Built a COMPUTER",
+              "published": "2026-11-11",
+              "cumulativeViews": 30
+            }
+          ]
+        },
+        "whatif": {
+          "subscribers": 49,
+          "reportedLast7CalendarDays": {
+            "range": "2026-11-10 to 2026-11-16",
+            "daysWithData": 5,
+            "ofDays": 7,
+            "reportedViews": 25,
+            "grossSubscriberGains": 0,
+            "lost": 0,
+            "missingDates": [
+              "2026-11-15",
+              "2026-11-16"
+            ]
+          },
+          "reportedLast28CalendarDays": {
+            "range": "2026-10-20 to 2026-11-16",
+            "daysWithData": 26,
+            "ofDays": 28,
+            "reportedViews": 5397,
+            "grossSubscriberGains": 51,
+            "lost": 6,
+            "grossSubsPer1000ReportedViews": 9.45
+          },
+          "recentUploads": [
+            {
+              "title": "What If You Could See Flowers Like a Bee?",
+              "published": "2026-11-08",
+              "cumulativeViews": 27
+            },
+            {
+              "title": "What If the Sun Got 10% Brighter?",
+              "published": "2026-11-07",
+              "cumulativeViews": 1079
+            }
+          ],
+          "paidPromotionHistory": true,
+          "note": "Paid Saturn campaign was paused 2026-11-07; historical paid and organic traffic cannot be cleanly separated here; ad traffic source connector cannot be reconciled with same daily rows."
+        },
+        "wild": {
+          "publicSubscribersNow": 363,
+          "publicSubscribersAt20261110": 250,
+          "snapshotDifference": 113,
+          "lifetimePublicViewsNow": 10605,
+          "lifetimePublicVideosNow": 17,
+          "ownerData": "Only 0-cost public-connected vidIQ channel snapshot; missing in Metricool brands, hence 24h/7d/28d views/subscribers-per-1000 unavailable; snapshot change not verified as organic subscriber gains."
+        },
+        "unavailableMetrics": [
+          "per-release first 24h cohort",
+          "true complete seven-/28-day upload cohorts",
+          "engagedViews",
+          "audience retention / first 2-second drop-off",
+          "Shorts viewed vs swiped away",
+          "longform impression CTR",
+          "qualified public longform watch-hours",
+          "clean paid vs organic decomposition",
+          "Little Wild channel owner day-by-day analytics"
+        ],
+        "watchTimeCaution": "Metricool cumulative all-video watch minutes do not confirm organic qualifying public watch hours. Some video counts and average view time mix format ages."
+      },
+      "top3OriginalTestsPerChannel": {
+        "whatif": [
+          {
+            "rank": 1,
+            "title": "What If Humans Had a Third Eyelid?",
+            "new": true,
+            "format": "ordinary public 16:9 3–4min",
+            "idea": "Open with an original translucent side-to-side eye shield, ask 'What if… humans had a THIRD eyelid?', compare bird protective nictitating membrane and human plica semilunaris, finish with the real tiny fold already in the corner of our eyes. Keep it inviting, not gross or alarmist.",
+            "payoff": "Existing human plica semilunaris is a remnant, not a working third blinking eyelid. Distinguish realistic tear/conjunctival function from speculative full eyelid protection.",
+            "testVariable": "Physical moving anatomy demonstration in 0–2s versus abstract narrated question in otherwise similar long-form titles, if comparable releases exist",
+            "thumbnail": "Large original drawn close-up eye with a translucent side-moving shield, max 2-3 words, not borrowed art",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/15255295/",
+              "https://en.wikipedia.org/wiki/Nictitating_membrane"
+            ],
+            "effort": "medium: AI Tuber mixed-media original graphics + a few useful motion shots, natural spoken pace",
+            "status": "RESEARCH_PROPOSAL_ONLY_NOT_GENERATED_NOT_BOOKED_AUTO_PILOT_DUPLICATE_PROTECTION",
+            "note": "Does not supersede the existing user-selected Sun Went Dark for a Week story or verified queue."
+          },
+          {
+            "rank": 2,
+            "title": "What If the Sun Went Dark for a Week?",
+            "new": false,
+            "format": "user-approved ~2–4min long-form editorial story (duration as story needs)",
+            "sourceBrief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+            "sources": [
+              "https://science.nasa.gov/sun/"
+            ],
+            "effort": "medium-high; source-check each time-dependent claim",
+            "status": "EXISTING_SCRIPT_ONLY_NO_MP4_NOT_BOOKED_DO_NOT_DUPLICATE"
+          },
+          {
+            "rank": 3,
+            "title": "What If You Could See Invisible Air?",
+            "new": false,
+            "format": "ordinary 16:9 3–4min",
+            "sourceBrief": "data/whatif-visible-air-long-brief-2026-11-09.md",
+            "sources": [
+              "https://sciencedemonstrations.fas.harvard.edu/presentations/schlieren-optics",
+              "https://www.nasa.gov/image-article/airborne-background-oriented-schlieren-imaging-airbos/"
+            ],
+            "effort": "medium",
+            "status": "EXISTING_BRIEF_NOT_NEW_UPLOAD"
+          }
+        ],
+        "bizarre": [
+          {
+            "rank": 1,
+            "title": "Did You Know a Roman Cup Could Change Color?",
+            "new": true,
+            "format": "Wednesday public 16:9 2–4min (or Sunday 3–6min if editorially justified)",
+            "idea": "Open on an ORIGINAL cinematic Roman-style cup glowing green, shine light through to reveal deep red, then investigate the real 4th-century Lycurgus Cup and the 2026 materials-science reproduction.",
+            "payoff": "Metal nanoparticles create distinct reflected/transmitted colours; historians cannot simply assert Roman craftsmen had modern nanoparticle theory or a guaranteed repeatable recipe.",
+            "testVariable": "Visible artifact transformation in the first 0–2s versus static artifact/question intros at comparable format/age",
+            "thumbnail": "One original photoreal-style cup split by reflected and backlighting; truthful short text 'GREEN → RED?'",
+            "sources": [
+              "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+              "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
+            ],
+            "effort": "medium-high Higgsfield original cinematic motion and fact-check; check credits before any generation",
+            "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED"
+          },
+          {
+            "rank": 2,
+            "title": "Did You Know Babylon Drew a Map of the World on Clay?",
+            "new": false,
+            "format": "Wednesday 16:9 2–4min",
+            "sourceBrief": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md",
+            "sources": [
+              "https://smarthistory.org/map-of-the-world/"
+            ],
+            "effort": "medium-high Higgsfield",
+            "status": "PRIOR_SCRIPT_PREPARED_DO_NOT_REGENERATE"
+          },
+          {
+            "rank": 3,
+            "title": "Mørstad's Viking Coin Hidden for 980 Years",
+            "new": false,
+            "format": "Sunday 16:9 3–6min",
+            "sourceBrief": "data/bizarre-past-morstad-hoard-long-brief-2026-11-06.md",
+            "sources": [
+              "https://www.khm.uio.no/english/news/sensational-discovery-first-in-norway-since-1924.html"
+            ],
+            "effort": "high original Higgsfield film",
+            "status": "PRIOR_BRIEF_VERIFY_PLATFORM_AND_UNIQUE_ID"
+          }
+        ],
+        "wild": [
+          {
+            "rank": 1,
+            "title": "Milo, Miko & Pip: The Boat That Wouldn't Float!",
+            "new": true,
+            "format": "35–40s full-motion 9:16 Short; possible original longer 16:9 follow-up only after tested",
+            "idea": "Milo and Miko build a tiny toy boat. It sinks immediately; blue Pip watches, Miko adjusts its shape, Pip helps launch the new boat; a warm floating success and one short child-safe lesson about shape and floating.",
+            "payoff": "One observable simple preschool experiment: test, change, retry, float. Do not overclaim that making any object bigger always makes it float.",
+            "testVariable": "Clear first-frame physical problem / action compared with quiet descriptive narration within same channel/format",
+            "thumbnail": "For Shorts prioritize legible first frame with consistent Milo/Miko/blue Pip and sinking boat",
+            "sources": [
+              "https://www.pbs.org/parents/crafts-and-experiments/sink-or-float-experiment",
+              "https://www.pbs.org/parents/crafts-and-experiments/float-diy-water-bottle-boats"
+            ],
+            "effort": "medium-high for consistent genuine full-motion of every scene",
+            "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED"
+          },
+          {
+            "rank": 2,
+            "title": "Milo, Miko & Pip: The Three Leaf Puzzle!",
+            "new": false,
+            "format": "35–40s true full-motion Short",
+            "sources": [
+              "https://www.pbs.org/parents/crafts-and-experiments/sort-by-size-is-it-big-or-little"
+            ],
+            "effort": "medium-high",
+            "status": "PRIOR_TEST_NOT_GENERATED_BY_THIS_RESEARCH"
+          },
+          {
+            "rank": 3,
+            "title": "Pip's Quiet–Loud Mystery",
+            "new": false,
+            "format": "35–40s true full-motion Short",
+            "sources": [
+              "https://www.pbs.org/parents/crafts-and-experiments/be-sound-detectives"
+            ],
+            "effort": "medium-high",
+            "status": "PRIOR_IDEA_VALIDATE_SERIES_BIBLE_AND_DEDUP"
+          }
+        ]
+      },
+      "prioritizedWhatIf": "What If is first priority for AI Tuber editorial resources; three-eyelid proposal is optional, does NOT displace user-selected What If the Sun Went Dark for a Week (brief at data/whatif-sun-dark-week-long-brief-2026-11-15.md), and no extra publishing while AutoPilot unverified.",
+      "measurementPlan": "For each new video only AFTER verified unique video ID, actual approved final MP4 with sound, provider 18:00 Oslo booking and public release, collect 24h,7d,28d comparable format+age engaged views, avg percentage viewed, 0–2s curve, viewed-vs-swiped, organic qualified public watch minutes, gross subs /1k, long-form CTR where owners' Studio provides. Log missing metrics as null and compare one creative variable per test. Don't infer causal drivers from title/popularity alone.",
+      "policyPreserved": "NO production-control changes. No promotion, no use of wallet, no vidIQ credit usage, no AI Tuber/Higgsfield generation, no queue changes, no comments/likes or Telegram sent. All new target posts are 18:00 Europe/Oslo. Bizarre Higgsfield+Metricool; What If+Little Wild AI Tuber; What If mixed media, Little Wild full-motion cast Milo/Miko/blue Pip; 7 Shorts +5 16:9 films/week canonical goal, existing bookings preserved, whatif AutoPilot duplication risk upheld."
     }
   ],
   "latestRecommendations": {
     "bizarre": {
-      "dated": "2026-11-10",
-      "insight": "Specific source-verifiable artifact + myth-vs-fact answer merits an original test; competitors are huge and not comparable on growth.",
-      "action": "Did You Know Babylon Drew a Map of the World on Clay?",
-      "format": "Wednesday public 16:9 2–4 min editorial, not booked",
+      "dated": "2026-11-17",
+      "insight": "Two recent historical titles frame an artifact or high-stakes evidence question; real first 2 seconds and video playback not inspected; newer own Bizarre 16:9 remains weak in cumulative views.",
+      "action": "Did You Know a Roman Cup Could Change Color?",
+      "format": "Wednesday public 16:9 2–4min (or Sunday 3–6min if editorially justified)",
       "sourceLinks": [
-        "https://smarthistory.org/map-of-the-world/",
-        "https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg"
+        "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
+        "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
       ],
-      "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
-      "competitorRunId": "weekly-competitor-analysis-2026-11-10"
+      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-17"
     },
     "whatif": {
-      "dated": "2026-11-10",
-      "insight": "Visible physical demonstrations and one clear factual answer are a leading original test, not a causal conclusion from MinuteEarth/Minutephysics views. What If first priority for AI Tuber.",
-      "action": "What If One Stick Could Measure Our Entire Planet?",
-      "format": "public 16:9, 3–4 min; editorial proposal NOT booked",
+      "dated": "2026-11-17",
+      "insight": "Same-day MinuteEarth questions reached very different public view snapshots, but formats/durations differ and no cause can be inferred; own paid-influenced metrics remain incomplete. Prioritize user-selected Sun-Dark story over any new production.",
+      "action": "What If Humans Had a Third Eyelid?",
+      "format": "ordinary public 16:9 3–4min",
       "sourceLinks": [
-        "https://science.nasa.gov/solar-system/skywatching/night-sky-network/tropical-solstice-shadows/",
-        "https://science.nasa.gov/resource/whats-up-june-2023-skywatching-tips-from-nasa/"
+        "https://pubmed.ncbi.nlm.nih.gov/15255295/",
+        "https://en.wikipedia.org/wiki/Nictitating_membrane"
       ],
-      "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
-      "competitorRunId": "weekly-competitor-analysis-2026-11-10"
+      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED_AUTO_PILOT_BLOCK",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-17"
     },
     "wild": {
-      "dated": "2026-11-10",
-      "insight": "One problem and one visible preschool sorting action with recurring consistent characters; third-party giant-channel song/letter popularity is not proof of transfer.",
-      "action": "Milo, Miko & Pip: The Three Leaf Puzzle!",
-      "format": "35–40s full-motion Short, research only",
+      "dated": "2026-11-17",
+      "insight": "Preschool titles make a simple action or character problem explicit. Little Wild public subscriber snapshot moved 250->363 in one week, but causality and owner retention are not available.",
+      "action": "Milo, Miko & Pip: The Boat That Wouldn't Float!",
+      "format": "35–40s full-motion 9:16 Short; possible original longer 16:9 follow-up only after tested",
       "sourceLinks": [
-        "https://www.pbs.org/parents/crafts-and-experiments/sort-by-size-is-it-big-or-little",
-        "https://www.pbs.org/parents/crafts-and-experiments/sorting-and-counting-with-blocks"
+        "https://www.pbs.org/parents/crafts-and-experiments/sink-or-float-experiment",
+        "https://www.pbs.org/parents/crafts-and-experiments/float-diy-water-bottle-boats"
       ],
-      "status": "NEW_RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
-      "competitorRunId": "weekly-competitor-analysis-2026-11-10"
+      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-17"
     }
   },
   "whatifIdeas": [
@@ -1469,7 +1868,7 @@
     "releaseStatus": "NOT_GENERATED_NOT_BOOKED",
     "ownFreshAnalytics": "No retention or paid/organic breakdown available. Only 250 subscribers / 7,386 views / 17 public videos from free connected vidIQ on Nov9."
   },
-  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-10",
+  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-17",
   "bizarreResearchNote20261110Agent": {
     "checkedAt": "2026-11-10T16:08:43Z",
     "previousWeeklyResearch": "2026-11-10 weekly competitor analysis exists; not rerun or charged vidIQ for this concept",
