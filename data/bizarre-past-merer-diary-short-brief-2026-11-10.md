@@ -107,3 +107,13 @@ Authenticated read-only Higgsfield unit price quotations, **8 seconds 16:9**: `g
 - **Balance:** Higgsfield Plus **167.77 credits**; no usable free video generation allowance.
 - **Decision:** keep Merer as a source-checked editorial draft. Do not spend the protected 16:9 reserve or silently switch to a cheaper unapproved model. No finished MP4, audiovisual QC pass or publication booking is claimed.
 - **Operations:** no booking moved, duplicated or changed; no credit purchase, ad spend or Telegram blocker alert.
+
+
+## Production recheck — 17 November 2026
+- **Checked:** 2026-11-17 08:23 Europe/Oslo.
+- **Published state:** Mørstad (15 Nov) and San Juan horse races (16 Nov) are now provider-confirmed **PUBLISHED** on both YouTube and TikTok. Their existing post IDs and public URLs were preserved.
+- **Future queue:** Authenticated Metricool returned no future Bizarre Past bookings through 24 Nov. Merer therefore remains an editorial candidate for Friday 20 Nov, not a confirmed booking.
+- **Generation/export control:** The newest 100 Higgsfield generations were all completed, with no active/failed job and no Merer/Wadi al-Jarf, Babylon or Ketef Hinnom match. No matching finished export or QC record exists for reuse.
+- **Balance:** Higgsfield Plus remains **167.77 credits** with **0 usable free motion-video generations**. The requested confirmed-refill condition is not met.
+- **Decision:** No new generation. Preserve the entire balance for the prioritized 16:9 long-form pipeline; do not silently change provider/model, spend credits, book an unreviewed draft, or claim a final MP4/AV-QC pass.
+- **Classification:** Source-checked editorial draft only; not a failed production job or failed booking, so no fresh Telegram blocker alert and no user purchase request.
