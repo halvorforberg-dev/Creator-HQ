@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-17",
+  "checkedAtOslo": "2026-11-17T19:17:35+01:00",
+  "channel": "What If in 40 Seconds",
+  "scope": "Active channel only; Little Wild paused indefinitely per latest user decision",
+  "sourceChecks": [
+    "Authenticated AI Tuber get_subscription/list_videos/GET /videos/{id}, provider notification email 17 Nov 17:02Z, authenticated Metricool brand 7751348 YouTube all-videos and published-in-range, Creator HQ controls, public QuirkScience catalog, NASA atmospheric facts and OpenStax partial pressure"
+  ],
+  "statusSummary": "No new agent-approved publication or booking. New 31-second AutoPilot draft; full quality failed on story ending, runtime and missing finished MP4 with audio. Sun-dark 16:9 remains QC HOLD, unbooked.",
+  "studio": {
+    "plan": "Studio",
+    "credits": 5160,
+    "monthlyCredits": 10000,
+    "priorObservedCredits": 5331,
+    "deltaCredits": -171,
+    "deltaAttribution": "Not itemized; observed across automated production window; no purchase or agent-initiated video generation this check"
+  },
+  "newDraft": {
+    "title": "What If Earth’s Atmosphere Were Twice as Thick?",
+    "videoId": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
+    "createdAt": "2026-11-17T17:00:56.595Z",
+    "status": "completed",
+    "durationSeconds": 31,
+    "aspectRatio": "9:16",
+    "exportStatus": null,
+    "segments": 4,
+    "providerEmailId": "1a1ea75a6ee72439",
+    "providerEmailAt": "2026-11-17T17:02:20Z",
+    "providerEmailSays": "This video was not posted; No channel is connected to this autopilot",
+    "latestPublicStatus": "NOT_IN_METRICOOL_SYNC; NO_INDEPENDENT_PUBLIC_POST_CONFIRMED",
+    "qualityStatus": "HOLD_NOT_APPROVED",
+    "grounds": [
+      "31 sec vs channel's 35–40 sec target; duration alone would not justify padding",
+      "Unfinished generic follow CTA, not a demonstrated final answer",
+      "No finished MP4 export or end-to-end playback with audio; no observed scene fidelity, natural voice or final fade"
+    ],
+    "scienceReview": "Under a hypothetical doubling of atmospheric mass with gravity/composition similar and all else simplified, surface pressure ~2x; oxygen volume fraction remains ~21%, but its partial pressure and molecule density increase. The existing final line is easily confused with 'no more oxygen' and needs disambiguation.",
+    "sources": [
+      "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "https://openstax.org/books/biology/pages/39-2-gas-exchange-across-respiratory-surfaces"
+    ]
+  },
+  "existingLong": {
+    "title": "What If the Sun Went Dark for a Week?",
+    "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+    "actualDurationSeconds": 118,
+    "aspectRatio": "16:9",
+    "sceneCount": 18,
+    "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+    "source": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
+    "exportStatus": "completed; download link returned",
+    "attemptedFileRetrieval": "Direct HTTPS request to cdn.aituber.app via local runtime failed (DNS resolution), November 17; cannot watch/listen",
+    "fullAudiovisualQcPassed": false,
+    "bookingId": null,
+    "published": false,
+    "target": "2026-11-18T18:00:00+01:00 editorial only",
+    "blocker": "Already existing QC/download issue, no duplicate alert"
+  },
+  "metricool": {
+    "checkedAtOslo": "2026-11-17T19:17:35+01:00",
+    "brandId": 7751348,
+    "syncLastVisiblePublishedDate": "2026-11-08",
+    "beeLong": {
+      "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+      "views": 27,
+      "avgViewSeconds": 46,
+      "priorNov16Views": 19,
+      "priorNov16AvgSeconds": 52
+    },
+    "sunBrighter": {
+      "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+      "views": 1079,
+      "avgViewSeconds": 15,
+      "priorViews": 1073
+    },
+    "octopus": {
+      "views": 1025,
+      "avgViewSeconds": 10
+    },
+    "ocean": {
+      "views": 182,
+      "avgViewSeconds": 10
+    },
+    "saturn": {
+      "views": 2560,
+      "avgViewSeconds": 15,
+      "paidPromoHistory": true
+    },
+    "limitations": "Cumulative heterogeneous-age counts, provider sync incomplete for confirmed Nov15 Black Hole post, no Shorts retention, organic/paid breakdown or CTR supplied. Do not equate missing rows to no publication."
+  },
+  "autopilot": "The Nov15 confirmed unauthorized publication alert remains OPEN; Nov17 draft-only email does not prove all series are safe, because a draft-only email preceded actual public posting on Nov15. No agent-created booking until authenticated UI queue/autopilot audit.",
+  "competitor": {
+    "reference": "https://quirkscience.com/films/",
+    "latestShortListedAsOfThisCheck": "The Lake That Disappeared in 3 Hours — 2026-11-14",
+    "scope": "Read the publisher catalog and dated descriptions only; not video frame 0–2s/actual retention. No copied footage or script.",
+    "insight": "Evidence-based, specific one-question-and-answer structure; propose visible pressure-gauge result for our air thought experiment, not a generic subscribe CTA."
+  },
+  "originalHypothesis": {
+    "topic": "What If Earth Had Twice as Much Air?",
+    "candidateHooks": [
+      "What if Earth had twice as much air?",
+      "What if Earth's air suddenly doubled?",
+      "What if the air above us weighed twice as much?",
+      "What if air pressure doubled overnight?"
+    ],
+    "chosenHook": "What if Earth had twice as much air?",
+    "firstTwoSeconds": "Earth's blue atmospheric halo grows and a clear gauge jumps from 1 atm to 2 atm; brief readable TWO TIMES AIR caption",
+    "finalScene": "Side-by-side at same temperature: 1 atm versus 2 atm, oxygen remains 21% by fraction while molecule count per equal volume doubles; the pressure gauge stays visibly higher. No generic CTA.",
+    "fourBeats": [
+      "Air column doubles; gauge rises while Earth remains recognizable",
+      "Molecule model shows same proportions of nitrogen/oxygen but more molecules in same volume",
+      "Aircraft wing demonstrates increased drag and an approaching meteoroid meets more air without promising a specific burn-up",
+      "Final side-by-side closes the central question: same air mixture, more pressure and higher oxygen partial pressure"
+    ],
+    "proposedNarration": "What if Earth had twice as much air? At sea level, the air's weight would push about twice as hard. Oxygen would still make up roughly twenty-one percent. But in the same volume, there'd be more oxygen molecules. Airplanes would meet more drag. Meteors would meet more resistance. And that is the surprise: not a new oxygen mix, but more of the same gases pressing down on everything.",
+    "disposition": "SCRIPT-ONLY CORRECTION PROPOSAL. Do not regenerate/export without duplicate/budget check, and prefer finishing existing 16:9 QC first.",
+    "test": "After a future successfully QA-approved 35–40 s Short, compare age-matched stayed-to-watch, average view duration and subs/1000 to previous comparable organic Shorts. Hypothesis untested."
+  },
+  "actions": {
+    "newVideoGeneratedByAgent": false,
+    "newExports": false,
+    "newSocialPublications": false,
+    "newBookings": false,
+    "creditsPurchased": false,
+    "paidAds": false,
+    "commentsOrLikes": false,
+    "fullVideoAudition": false,
+    "existingAlertsModified": false,
+    "littleWildWork": false,
+    "githubAuditSaved": true
+  }
+}
