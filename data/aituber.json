@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-16T09:56:58.893Z",
+  "updatedAt": "2026-11-17T08:31:36.921Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "6825f860-3fca-449d-9618-8e56a4175aa7",
+      "title": "What if the Sun went dark? For seven days. Here",
+      "status": "completed",
+      "createdAt": "2026-11-16T18:24:14.279Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "9e4aad02-94a0-4057-a1eb-bf1438f842c1",
+      "title": "Milo’s Happy Handwashing Song",
+      "status": "completed",
+      "createdAt": "2026-11-16T15:00:57.042Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "f3509dba-9c60-45a3-ba58-8ef260e613c6",
       "title": "What If a Black Hole Passed Our Solar System?",
