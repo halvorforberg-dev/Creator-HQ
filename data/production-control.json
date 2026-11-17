@@ -404,7 +404,7 @@
       "producer": "AI Tuber",
       "publisher": "AI Tuber",
       "firstWords": "What if…",
-      "mandatory": "Positive science/nature curiosity, clear payoff, title 2–3 sec",
+      "mandatory": "Dramatic, high-stakes and visually spectacular science-based 'What if…' scenarios with an immediate consequential hook, rising tension and a memorable truthful payoff. Avoid bland small-change explainers. Keep varied tone and scientific accuracy; no false certainty.",
       "weeklyTarget": {
         "shorts": 2,
         "regularLongForm": 2,
@@ -425,9 +425,9 @@
       "priority": "PRIMARY channel for shared AITuber production budget and agent focus",
       "nextGrowthTest20261114": {
         "producer": "AI Tuber; mixed visual media remain acceptable; not full-motion on every second.",
-        "opening": "Must begin 'What if…' in first 2 seconds with a surprising, plausible, concrete image or consequence and specific question.",
-        "narrative": "Show vivid initial consequence, one unexpected change in assumptions, visually clear chain and truthful scientifically bounded positive/curious payoff; avoid pure catastrophe/repetitive premise.",
-        "nextTest": "Compare grounded 'unexpected upside/insight' payoff with fear-only narration, not by treating views alone as causality.",
+        "opening": "Open in 0–2 seconds with the most shocking clear visual/consequence and an explicit 'What if…?' question, then immediately progress the scenario.",
+        "narrative": "High-stakes escalation: show a major immediate consequence, a surprising next-order effect, impact on humans/Earth, and a precise science-grounded payoff. Not repetitive doom, not a generic school explainer. Clearly identify speculative assumptions.",
+        "nextTest": "Test drastic high-stakes scenarios versus previous tame science explainers using comparable Shorts retention/engaged views, without claiming causality.",
         "cta": "A short invitation to consider the what-if only if it naturally follows the final insight."
       },
       "status": "ACTIVE"
@@ -5136,5 +5136,22 @@
     },
     "alertStatus": "Existing confirmed Nov15 AutoPilot bypass remains OPEN; today's drafts-only email does not prove safe, do not resolve without authenticated settings. No new alert created.",
     "noNewActions": "No publish/booking/exports/generation/ads/credit purchase/comments/likes. Full audiovisual playback not achieved."
+  },
+  "whatIfCreativeDirection20261117": {
+    "userFeedbackAt": "2026-11-17",
+    "trigger": "Published 'What If Earth's Atmosphere Were Twice as Thick?' was judged not exciting enough; treat as negative creative feedback, do not delete or repost without separate request.",
+    "supersedes": "Previous What If preference for mostly feel-good/mild curiosity when it conflicts with dramatic high-stakes subjects. Retain scientific honesty, full QA, mixed media, no required universal full motion.",
+    "priority": "Extreme visually compelling what-if scenarios, existential stakes, rapidly escalating surprising consequences, bold images, suspense and meaningful payoff. Topic needs to be compelling before credits are spent.",
+    "openingRule": "Within 0–2s, show an extreme direct consequence and ask What if...; no long explanations of premises. Title/on-screen text must be compelling and truthful.",
+    "structure": "Shock -> specific timeline of escalating consequences -> unexpected second-order effect -> scientifically bounded payoff/end question. Cut filler, never artificially pad duration.",
+    "avoid": "Avoid marginal atmospheric/chemical changes, generic definitions, mild gradual effects and school-explainer style unless tied to clearly extraordinary stakes.",
+    "ideas": [
+      "What If Earth Stopped Spinning for 5 Seconds?",
+      "What If Earth's Atmosphere Vanished for 60 Seconds?",
+      "What If the Moon Suddenly Disappeared?"
+    ],
+    "existingPriority": "Existing 2026-11-18 'Sun Goes Dark for a Week' long-form is already generated (118s) and must be checked with audio/visual QC and duplicate control; do not regenerate this concept blindly or claim it is booked.",
+    "metrics": "Measure intro retention, average viewed percentage, viewed/swiped away, subs per 1000 views and long-form CTR after publishing where available.",
+    "publishing": "Keep correct channel, publish at 18:00 Europe/Oslo after verified QC; no credits purchases or paid campaigns without approval."
   }
 }
