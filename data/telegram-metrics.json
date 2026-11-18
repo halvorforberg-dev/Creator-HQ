@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-17T07:26:28+01:00",
-  "requestedThrough": "2026-11-17",
+  "updatedAt": "2026-11-18T07:51:10+01:00",
+  "requestedThrough": "2026-11-18",
   "source": "Metricool authenticated analytics via connected app",
   "periodStart": "2026-10-12",
-  "periodEnd": "2026-11-17",
+  "periodEnd": "2026-11-18",
   "channels": {
     "bizarre": {
       "name": "Bizarre Past",
@@ -287,13 +287,21 @@
           {
             "date": "2026-11-15",
             "subscribers": 34,
+            "views": 54,
+            "videosPublished": null,
+            "followersGained": 0,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-16",
+            "subscribers": 34,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-16",
+            "date": "2026-11-17",
             "subscribers": 34,
             "views": null,
             "videosPublished": null,
@@ -701,15 +709,21 @@
           },
           {
             "date": "2026-11-15",
-            "videoViews": 434,
+            "videoViews": 444,
             "followers": 5,
             "followerNetChange": 2
           },
           {
             "date": "2026-11-16",
-            "videoViews": 266,
+            "videoViews": 267,
             "followers": 6,
             "followerNetChange": 1
+          },
+          {
+            "date": "2026-11-17",
+            "videoViews": null,
+            "followers": 6,
+            "followerNetChange": 0
           }
         ]
       }
@@ -948,13 +962,21 @@
           {
             "date": "2026-11-15",
             "subscribers": 49,
+            "views": 1017,
+            "videosPublished": null,
+            "followersGained": 1,
+            "followersLost": 0
+          },
+          {
+            "date": "2026-11-17",
+            "subscribers": 49,
             "views": null,
             "videosPublished": null,
             "followersGained": null,
             "followersLost": null
           },
           {
-            "date": "2026-11-17",
+            "date": "2026-11-18",
             "subscribers": 49,
             "views": null,
             "videosPublished": null,
@@ -1118,18 +1140,17 @@
         "series": [],
         "videos": []
       },
-      "notes": "No authorized, verified Little Wild analytics available through Metricool for this sync; no numeric figures included."
+      "notes": "Channel paused indefinitely 2026-11-17. No authorized, verified Little Wild analytics in this Metricool sync; no numeric values provided."
     }
   },
   "notes": [
-    "Five successful authenticated Metricool getAnalyticsDataByMetrics calls for 2026-10-12 through 2026-11-17 inclusive, requested in Europe/Oslo with correct daylight-saving offsets; retrieved 2026-11-17T07:26:28+01:00. Brands: Bizarre Past 7296504 (YouTube, TikTok), What If in 40 Seconds 7751348 (YouTube).",
-    "YouTube daily evolution field IDs YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Valid Bizarre YouTube rows 36 (latest 2026-11-16); What If rows 30 (latest 2026-11-17).",
-    "TikTok daily evolution field IDs TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange. Valid Bizarre TikTok rows 36 (latest 2026-11-16); network-specific videoViews definition should not be mixed with YouTube counts.",
-    "YouTube videos published in requested period: YTVP02 publishedAt (Metricool source format YYYYMMDDHHmmss; timezone not inferred), YTVP17 title, YTVP06 views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. 21 Bizarre videos, 16 What If videos, sorted by accumulated views descending.",
-    "Per-video views and watchMinutes are accumulated metrics for the videos published in this window, not rolling seven-day views or necessarily eligible public watch-hours; calculate rolling seven-day channel views only from daily evolution views.",
-    "Missing source metric cells are null, and explicit numeric zero values remain zero. No missing dates are synthesized. Metricool may delay, revise, or omit recent daily metrics (including current-day data); do not calculate missing rows or nulls as zeros.",
-    "Rows available for latest seven calendar days (11–17 Nov inclusive): Bizarre YouTube 6/7, What If YouTube 6/7, Bizarre TikTok 6/7. Some present rows contain null metrics; treat seven-day calculations as incomplete where applicable.",
-    "Little Wild Adventures is not connected to Metricool analytics in this sync and carries no figures. Highlights Of Everything is omitted.",
-    "Selected Metricool metrics do not distinguish organic from paid YouTube views or subscribers."
+    "Five authenticated Metricool getAnalyticsDataByMetrics source calls succeeded for 2026-10-12 through 2026-11-18 inclusive, using Europe/Oslo start and end offsets across daylight-saving change; snapshot generated 2026-11-18T07:51:10+01:00. Bizarre Past brandId 7296504 (YouTube and TikTok); What If in 40 Seconds brandId 7751348 (YouTube).",
+    "YouTube daily evolution field IDs YTEV01 subscribers, YTEV02 views, YTEV04 videosPublished, YTEV05 followersGained, YTEV06 followersLost. Dated rows: Bizarre Past 37 (latest 2026-11-17), What If 31 (latest 2026-11-18).",
+    "TikTok Bizarre Past evolution field IDs TKEV02 videoViews, TKEV07 followers, TKEV08 followerNetChange; dated rows 37 (latest 2026-11-17). TikTok and YouTube view figures measure separate platforms; do not mix.",
+    "YouTube video list fields YTVP02 publishedAt (Metricool format YYYYMMDDHHmmss without independently verified timezone), YTVP17 title, YTVP06 accumulated video views, YTVP07 watchMinutes, YTVP09 likes, YTVP11 comments, YTVP05 URL. Published-in-window videos: Bizarre Past 21, What If 16; sorted by highest accumulated views.",
+    "Video-list views and watchMinutes are accumulated per-video figures for videos published during this window. They are NOT rolling-seven-day views, nor necessarily eligible public watch hours. Calculate rolling-seven-day channel views only from dated daily YouTube evolution rows.",
+    "Source nulls and empty numeric cells were preserved as null; genuine numeric zeros remain zero. No absent days were synthesized, and partial/missing recent days were not interpreted as zero. Metricool may delay/revise/omit current or recent daily rows. Last seven calendar days 2026-11-12–2026-11-18 coverage: Bizarre YouTube 6/7, What If YouTube 6/7, Bizarre TikTok 6/7; even existing rows can have null metrics.",
+    "Little Wild Adventures was paused indefinitely by the user on 2026-11-17 and is not connected to Metricool analytics for this sync. No Little Wild activity or fabricated metrics. Highlights Of Everything is omitted entirely.",
+    "These Metricool metrics do not establish whether YouTube views or subscriber gains were organic versus paid. No publishing, promotion, purchases, bot secrets, workflows or Telegram messages were changed."
   ]
 }
