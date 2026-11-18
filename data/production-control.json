@@ -2938,16 +2938,16 @@
     }
   },
   "operationalAlerts": {
-    "enabled": true,
+    "enabled": false,
     "decisionDate": "2026-11-04",
     "telegramBot": "@CreatorHQHalvorBot",
     "alertFeed": "data/production-alerts.json",
-    "senderScript": "scripts/telegram_blocker_alerts.py",
-    "githubWorkflow": ".github/workflows/creator-hq-blocker-alerts.yml",
-    "conditionWatchAutomationId": "6aeba316aa608191b4e21420dadaf407",
-    "checkSchedule": "HOURLY starting 2026-11-04 at 23:00 Europe/Oslo, subject to task execution",
-    "toUser": "Private Telegram push when NEW verified blocker stops content production, quality clearance or a confirmed platform booking.",
-    "alsoCheckViaBot": "/alerts shows last committed blocker statuses, not live.",
+    "senderScript": "scripts/telegram_blocker_alerts.py (historical only; do not invoke)",
+    "githubWorkflow": ".github/workflows/creator-hq-blocker-alerts.yml (validation only; Telegram step removed)",
+    "conditionWatchAutomationId": "6aeba316aa608191b4e21420dadaf407 (paused; do not resume for Telegram)",
+    "checkSchedule": "OFF for Telegram notification",
+    "toUser": "Do not send Telegram push messages. Preserve internal alert logs only and report essential issues in ChatGPT or relevant work output when needed.",
+    "alsoCheckViaBot": "Historical only; no Telegram updates are requested.",
     "include": [
       "failed production/export",
       "failed or missed CONFIRMED publishing",
@@ -2964,9 +2964,12 @@
       "mere view underperformance"
     ],
     "deduplication": "GitHub push diff; stable alert ID and only notify when opened or explicitly escalation revision increases",
-    "currentDeliveryVerification": "Unverified end-to-end: workflow and Telegram bot configured in GitHub, but no actual new blocker alert has been sent/tested in this turn.",
+    "currentDeliveryVerification": "Telegram sender step removed from GitHub Actions workflow on 2026-11-18. Bot token secrets were not accessed or changed. No live end-to-end Telegram test performed.",
     "privacy": "GitHub repo can be publicly visible; never add secrets, personal contacts, private account identifiers or private message bodies to alert feed.",
-    "restrictions": "No autonomous ad/credit purchases, scheduling edits or low-quality publishing in response to alerts."
+    "restrictions": "No autonomous ad/credit purchases, scheduling edits or low-quality publishing in response to alerts.",
+    "telegramDeliveryEnabled": false,
+    "disabledAt": "2026-11-18",
+    "disabledBy": "Explicit user request: no more Telegram messages"
   },
   "nextLongFormEditorial": {
     "updatedAt": "2026-11-15",
