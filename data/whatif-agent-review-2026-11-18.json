@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-18",
+  "channel": "What If in 40 Seconds",
+  "checkedAtOslo": "2026-11-18 afternoon Europe/Oslo",
+  "activeChannelsScope": "What If only; Little Wild PAUSED indefinitely, no Little Wild production/analysis/exports/publishing",
+  "sourceChecks": [
+    "GitHub canonical data/production-control.json: whatIfCreativeDirection20261117 and weeklyTarget",
+    "GitHub data/creative-prompt-upgrades.json, data/competitor-watch.json, data/production-alerts.json",
+    "AI Tuber get_subscription/get_video/list_videos/list_channels/download_video/GET /videos/{id}, latest previously exported 16:9 Sun Dark",
+    "Attempt local curl DNS/HTTP HEAD against provider's MP4 CDN on 18 Nov; DNS could not resolve cdn.aituber.app, no MP4 opened or heard",
+    "AI Tuber Gmail provider emails 17 Nov 17:02:20Z draft-only and 18:33:33Z autopilot published same video",
+    "Metricool authenticated brand 7751348 YouTube all-videos/published-in-range and scheduled posts Nov17–Nov20",
+    "QuirkScience dated creator film catalog and public vidIQ overview of large What If channel; NASA primary science pages"
+  ],
+  "importantCorrection": {
+    "status": "CONFIRMED",
+    "title": "What If Earth's Atmosphere Were Twice as Thick? 🌍 #Shorts",
+    "videoId": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Scevz1F9Yz4",
+    "draftEmail": {
+      "id": "1a1ea75a6ee72439",
+      "received": "2026-11-17T17:02:20Z",
+      "message": "This video was not posted; No channel is connected to this autopilot."
+    },
+    "publishedEmail": {
+      "id": "1a1eac92770c95d9",
+      "received": "2026-11-17T18:33:33Z",
+      "message": "What if in 35 seconds just published [this video] to YouTube."
+    },
+    "providerPublishedSeconds": "NOT_INDEPENDENTLY_VERIFIED; 19:33 Oslo is email reception, not platform publish time",
+    "runtimeSeconds": 31,
+    "exportStatus": "completed",
+    "fullMp4AudioQcPassed": false,
+    "metricoolCurrentSync": "Latest visible What If published video is Nov15 Black Hole; Nov17 video is absent from synced rows but direct provider publication email is positive evidence. Do NOT infer no publication from sync lag.",
+    "userEditorialFeedback": "Published atmosphere-doubling film was too tame; prioritize extreme dramatic thought experiments, truthful constraints and visible payoff.",
+    "resolution": "Repeat confirmed AutoPilot unreviewed-posting incident; existing alert whatif-autopilot-unreviewed-publishing-2026-11-15 updated to notificationRevision 2 with source evidence, not a duplicate alert."
+  },
+  "sunDarkExisting": {
+    "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+    "title": "What If the Sun Went Dark for a Week?",
+    "status": "COMPLETED_GENERATION_AND_1080P_EXPORT_BUT_QC_HOLD",
+    "aspectRatio": "16:9",
+    "durationSeconds": 118,
+    "sceneCount": 18,
+    "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+    "providerExport": "completed",
+    "providerMp4UrlReturned": true,
+    "localMp4Download": "FAILED. 18 Nov 'curl' DNS resolution cdn.aituber.app failed. Web media fetch also failed; entire final MP4+sound not accessible.",
+    "fullAudiovisualQcPassed": false,
+    "metadataReviewStatus": "PARTIAL_SCRIPT_TIMELINE_ONLY; no honest final sound/music/pacing/visual match approval",
+    "bookingId": null,
+    "published": false,
+    "scheduledTarget": "2026-11-18T18:00:00+01:00 (EDITORIAL ONLY, NOT BOOKED)",
+    "holdReasons": [
+      "Mandatory full MP4-with-audio playback not possible",
+      "Unresolved repeat AutoPilot unauthorized publication makes unique queue/18:00 manual booking unsafe",
+      "Provider has no supported API to inspect/disable AutoPilot recurring channel settings; UI authentication needed"
+    ],
+    "noDuplicateGenerated": true,
+    "noSeparateUploadAttempted": true
+  },
+  "queueAndCredits": {
+    "aiTuberStudioCreditsRemaining": 5160,
+    "monthlyCredits": 10000,
+    "priorNov17CreditsRemaining": 5160,
+    "observedDeltaSinceLastCheck": 0,
+    "newGenerationPaidByThisRun": false,
+    "newExportByThisRun": false,
+    "newPublicationByThisRun": false,
+    "metricoolWhatIfScheduledPosts": "Empty for Nov17–Nov20 (Metricool is not sole authority for AI Tuber Publications or YouTube)",
+    "aiTuberConnectedWhatIfChannelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+    "aituberPublicationQueueIndependentlyVerified": false,
+    "newVideosSinceNov17": "None in latest returned AI Tuber list"
+  },
+  "metricool": {
+    "brandId": "7751348",
+    "observedOn": "2026-11-18",
+    "dataType": "CUMULATIVE, differing upload ages, provider sync lag",
+    "blackHoleNov15": {
+      "url": "https://www.youtube.com/watch?v=I887Dlx9kRA",
+      "views": 1011,
+      "averageViewDurationSeconds": 15,
+      "reported35sLength": true
+    },
+    "sunBrighterNov7": {
+      "url": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
+      "views": 1079,
+      "averageViewDurationSeconds": 15
+    },
+    "octopusNov3": {
+      "url": "https://www.youtube.com/watch?v=u51oWL8ACTQ",
+      "views": 1025,
+      "averageViewDurationSeconds": 10
+    },
+    "oceanNov3": {
+      "url": "https://www.youtube.com/watch?v=l_eoxyfvfRM",
+      "views": 182,
+      "averageViewDurationSeconds": 10
+    },
+    "beeLongNov8": {
+      "url": "https://www.youtube.com/watch?v=kYiWk0WUrLM",
+      "views": 32,
+      "averageViewDurationSeconds": 44,
+      "durationSeconds": 159
+    },
+    "saturnNov1": {
+      "url": "https://www.youtube.com/watch?v=92Vn8iNgVN0",
+      "views": 2560,
+      "averageViewDurationSeconds": 15,
+      "paidPromoHistory": true
+    },
+    "notAvailable": [
+      "17 Nov new public atmosphere video's synced analytics",
+      "engaged views and viewed-vs-swiped/first-2s retention",
+      "organic vs paid traffic by individual video",
+      "long-form CTR and age-aligned retention"
+    ],
+    "interpretation": "Black Hole generated notable views for its three-day age but has 15s AVD of 35s; this is not evidence why viewers stayed or left. Saturn had paid promotion; cannot use as organic control. Don't conclude a topic alone caused performance."
+  },
+  "competitors": {
+    "quirkScience": "https://quirkscience.com/films/",
+    "newestShortVisibleAsOfNov18": "The Lake That Disappeared in 3 Hours (published Nov 14, 2026), plus Nov14 Mariana Trench",
+    "otherScienceFormat": "https://vidiq.com/youtube-stats/channel/%40whatifscienceshow/videos/",
+    "publicLargeChannelLatest": "What If the Sun Swallowed Jupiter? (Short, published Nov16); public vidIQ 48-video lifetime view sample and varying ages, no competitor retention",
+    "limitations": "Source listings, not frame-level playback or verified competitor video engagement causality; do not copy specific stories."
+  },
+  "editorialNextTest": {
+    "topic": "What If Earth's Air Vanished for 60 Seconds?",
+    "status": "ORIGINAL_SCRIPT_PREFLIGHT_ONLY_NO_GENERATION",
+    "brief": "data/whatif-no-air-60-seconds-short-brief-2026-11-18.md",
+    "creativeFit": "High-stakes instant vacuum with sky/airplane/water/human response and clear final not-reset consequence",
+    "opening": "What if Earth's air vanished for one minute? Full visual atmosphere removal at 0-2 seconds.",
+    "finalScene": "Air returns, falling airplane still needs recovery; consequences do not magically reset",
+    "hooksPrepared": 5,
+    "science": [
+      "https://www.nasa.gov/general/what-is-earths-atmosphere/",
+      "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-lift/",
+      "https://imagine.gsfc.nasa.gov/ask_astro/space_travel.html"
+    ],
+    "guardrail": "Impossible fictional instantly disappearing/returning atmosphere; avoid unsupported casualty counts, exploding humans, oceans instantly evaporating or guaranteed crashes",
+    "duplicateCheck": "Recent AI Tuber generated list no exact air-vanished-one-minute theme. Existing 19 Oct Earth-stops-for-one-second and 18 Oct Moon-disappears videos make those similar pitches unoriginal; refresh entire library before production.",
+    "proposedNextSlot": "2026-11-20T18:00:00+01:00 editorial candidate only, not booked",
+    "creditPolicy": "No spend until AutoPilot settings and queue safety are confirmed plus current draft quality-control issues addressed."
+  },
+  "alert": {
+    "id": "whatif-autopilot-unreviewed-publishing-2026-11-15",
+    "state": "open",
+    "notificationRevision": 2,
+    "sourceDate": "2026-11-17",
+    "file": "data/production-alerts.json",
+    "delivery": "Recorded in GitHub for normal Telegram workflow; delivery not verified",
+    "otherKnownIssue": "Sun-dark CDN fetch is an ongoing already-known quality hold; no fresh separate Telegram event created solely for missed editorial release target."
+  },
+  "actions": {
+    "readConnectedSources": true,
+    "confirmedNewPublicUploadViaProviderEmail": true,
+    "checkedCurrentYouTubeMetricoolSyncAndQueue": true,
+    "triedActualExportMP4Download": true,
+    "fullVideoViewedOrHeard": false,
+    "createdOriginalScienceCheckedSceneScript": true,
+    "savedFreshBlockingRecurrence": true,
+    "generatedVideo": false,
+    "newCreditSpent": false,
+    "newAds": false,
+    "newPublication": false,
+    "newBooking": false,
+    "automatedExternalInteraction": false,
+    "littleWildWork": false
+  }
+}
