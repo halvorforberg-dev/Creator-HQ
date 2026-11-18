@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T15:31:48+01:00",
+  "updatedAt": "2026-11-18T15:01:19.095Z",
   "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -176,6 +176,30 @@
         "durationSeconds": 31
       },
       "lastVerifiedAt": "2026-11-18T15:31:48+01:00"
+    },
+    {
+      "id": "little-wild-unwanted-generation-after-pause-2026-11-18",
+      "channel": "Little Wild Adventures",
+      "category": "paused_channel_unwanted_generation",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-18T15:01:19.095Z",
+      "notificationRevision": 1,
+      "source": {
+        "type": "connected_ai_tuber_api",
+        "videoId": "9f155822-7e05-41ac-a40a-deb234843e74",
+        "createdAt": "2026-11-18T15:01:01.185Z",
+        "lastSeenStatus": "processing",
+        "url": "https://app.aituber.app/dashboard/videos/9f155822-7e05-41ac-a40a-deb234843e74",
+        "evidence": "GET /videos newest listing plus GET /videos/{id}; title Pip’s Rainbow Color Hunt, processing, 9:16. No public publication confirmed."
+      },
+      "summary": "18.11 kl. 16:01 norsk tid ble en ny Little Wild-video 'Pip’s Rainbow Color Hunt' opprettet i AI Tuber, til tross for brukerens eksplisitte stopp av all Little Wild-produksjon 17.11. API viser 'processing', ingen booking eller publisering er bekreftet. Automatisk generering/AutoPilot ser fremdeles ut til å kjøre. Kredittkostnad er ikke verifisert.",
+      "action": "Åpne AI Tubers innloggede AutoPilot-oversikt, identifiser ALLE Little Wild-serier og deaktiver all generering og publisering, ikke bare fjern YouTube-destinasjonen. Lagre og bekreft at ingen nye jobber opprettes. Ikke publiser eller gjenoppta kanalen. Sjekk faktisk kredittforbruk uten nye kjøp.",
+      "ownerActionRequired": true,
+      "relatedLinks": [
+        "https://app.aituber.app/dashboard/autopilot"
+      ]
     }
   ]
 }
