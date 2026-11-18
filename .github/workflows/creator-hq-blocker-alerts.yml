@@ -1,4 +1,4 @@
-name: Creator HQ blocker push alerts
+name: Creator HQ alerts validation - no Telegram
 on:
   push:
     branches: [main]
@@ -28,14 +28,10 @@ jobs:
           python3 -m compileall -q scripts/telegram_hq_bot.py scripts/telegram_blocker_alerts.py
           python3 -m unittest discover -s tests -p 'test_telegram_blocker_alerts.py'
           python3 -m json.tool data/production-alerts.json > /dev/null
-      - name: Send only newly verified blocked events
-        if: github.event_name == 'push'
-        env:
-          GITHUB_ACTIONS: 'true'
-          ALERT_PREVIOUS_COMMIT: ${{ github.event.before }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python3 scripts/telegram_blocker_alerts.py
+      # Telegram notification delivery disabled at user's request on 2026-11-18.
+      # Preserve validation and alert history; never send messages from this workflow.
+      - name: Telegram sending disabled
+        run: echo 'Telegram notifications are disabled; alert records only.'
       - name: Dry run status
         if: github.event_name == 'workflow_dispatch'
         run: echo 'Alert workflow verified; no message sent on manual dry run.'
