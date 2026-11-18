@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -5153,5 +5153,64 @@
     "existingPriority": "Existing 2026-11-18 'Sun Goes Dark for a Week' long-form is already generated (118s) and must be checked with audio/visual QC and duplicate control; do not regenerate this concept blindly or claim it is booked.",
     "metrics": "Measure intro retention, average viewed percentage, viewed/swiped away, subs per 1000 views and long-form CTR after publishing where available.",
     "publishing": "Keep correct channel, publish at 18:00 Europe/Oslo after verified QC; no credits purchases or paid campaigns without approval."
+  },
+  "bizarrePastAgentCheck20261118": {
+    "checkedAtOslo": "2026-11-18 ~15:00 Europe/Oslo",
+    "sourceOfTruth": [
+      "data/creative-prompt-upgrades.json",
+      "data/production-control.json",
+      "data/competitor-watch.json",
+      "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md",
+      "data/production-alerts.json"
+    ],
+    "strategy": "ONLY Bizarre Past and What If active. Little Wild indefinite pause; no operations on Little Wild.",
+    "metricool": {
+      "brandId": 7296504,
+      "checkedScheduledWindow": "2026-11-17 00:00+01 to 2026-12-01 23:59+01",
+      "timezone": "Europe/Oslo",
+      "providerScheduledResults": 0,
+      "releaseToday": "BABYLON_NOT_BOOKED",
+      "pendingFutureBookingsInWindow": 0,
+      "interpretation": "Authenticated Metricool getScheduledPosts returned data:[] (scheduled-only API). No future booking in queried dates; not a claim about historical posts or external platforms."
+    },
+    "higgsfield": {
+      "selectedWorkspace": "private Plus",
+      "credits": 167.77,
+      "freeVideoGenerationsUsable": 0,
+      "refillConfirmed": false,
+      "history": "Latest 100 generations checked: all completed; newest jobs relate to San Juan/Thonis/Antikythera, no identifiable complete Babylon output in returned slice.",
+      "videoCostQuote": {
+        "model": "cinematic_studio_video_v2",
+        "aspect": "16:9",
+        "clipSeconds": 8,
+        "creditsPerClip": 12,
+        "minimum120sSourceFootageCredits": 180,
+        "prior21ClipEstimateCredits": 252,
+        "voiceMusicRetakes": "EXCLUDED"
+      },
+      "spendingThisRun": 0,
+      "newGenerationThisRun": false
+    },
+    "babylon": {
+      "target": "2026-11-18 18:00 Europe/Oslo (editorial only)",
+      "script": "v3, 230 English words; source checked and storyboard present",
+      "sourceVerification": "British Museum-authored Smarthistory text and Google Arts & Culture both support triangular island/region from-water reading, Salt Sea, Sippar origin, sixth-century BCE; no photo re-use.",
+      "sources": [
+        "https://smarthistory.org/map-of-the-world/",
+        "https://artsandculture.google.com/asset/map-of-the-world/SAGUMQ2eG-m7jg"
+      ],
+      "completeMp4Available": false,
+      "fullAudioVisualQC": false,
+      "releaseApproved": false,
+      "metricoolBookingId": null,
+      "decision": "HOLD_NOT_GENERATED_NOT_BOOKED; insufficient total credits for >=120s original moving footage at current model quote, even before audio. No paid partial generation or quality downgrade.",
+      "brief": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
+    },
+    "nextDates": {
+      "merer": "2026-11-20 18:00 Oslo, source-checked editorial short only, no export/QA/booking",
+      "ketefHinnom": "2026-11-22 18:00 Oslo, editorial long-form only, no export/QA/booking"
+    },
+    "alertDecision": "No NEW confirmed platform failed generation or failed booked release. Missing budget replenishment and unbooked editorial target are known constraints, not freshly verified failures. production-alerts.json unchanged.",
+    "actions": "Authenticated Metricool scheduled queue, Higgsfield balance/workspaces/100 latest generation statuses and price quote; current GitHub production/creative/competitor/alert files and Babylon brief checked; British Museum source reverified; Babylon brief and Creator HQ audit updated. Zero uploads, generation, booking, purchase, promotion, paid analytical calls or social interactions."
   }
 }
