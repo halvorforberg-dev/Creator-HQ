@@ -2552,5 +2552,69 @@
     "priority": "Finish audiovisual QC for already-exported 16:9 'Sun Went Dark for a Week' before any new credit-spending production. No extra AutoPilot booking while Nov15 alert remains open.",
     "audit": "data/whatif-agent-review-2026-11-17.json",
     "noSpendOrSocial": "No video generated/exported/published by agent; no paid promotion, subscriptions, vidIQ credits, likes or comments; paused Little Wild excluded."
+  },
+  "whatifResearchNote20261118Agent": {
+    "date": "2026-11-18",
+    "sourceScope": "Free public dated creator listings, NASA official physics, connected AI Tuber source/Metricool own-video analytics. No full competitor media playback or first-2-second observation. No paid vidIQ credits.",
+    "competitors": [
+      {
+        "name": "QuirkScience",
+        "creatorCatalog": "https://quirkscience.com/films/",
+        "latestDated": "Nov14 2026 — The Lake That Disappeared in 3 Hours, What's Below the Mariana Trench? Shorts (~1m); Nov11 2026 long film The 1859 Solar Storm That Would Break the World Today (13m).",
+        "visibleEditorialPrinciple": "One concrete high-stakes question with a fact-bounded answer; format reference only, not demonstrated audience retention."
+      },
+      {
+        "name": "What If (@whatifscienceshow)",
+        "source": "https://vidiq.com/youtube-stats/channel/%40whatifscienceshow/videos/",
+        "dated": "Public vidIQ snapshot Nov17: latest Nov16 Short 'What If the Sun Swallowed Jupiter?', public lifetime 4,071 views at snapshot; Nov9 Saturn entry 497,927 lifetime, much older/large creator. Varying age and 8.99m subscriber base prevent causal or size-adjusted comparison.",
+        "interpretation": "Extreme cosmic premises appear in current uploads, but no verified first-second playback, CTR or retention; avoid copying scripts and claiming causality."
+      }
+    ],
+    "ownData": {
+      "provider": "Metricool What If brand 7751348 checked Nov18",
+      "blackHoleNov15": {
+        "views": 1011,
+        "avgViewSeconds": 15,
+        "durationSeconds": 35
+      },
+      "sunBrighterNov7": {
+        "views": 1079,
+        "avgViewSeconds": 15
+      },
+      "octopusNov3": {
+        "views": 1025,
+        "avgViewSeconds": 10
+      },
+      "oceanNov3": {
+        "views": 182,
+        "avgViewSeconds": 10
+      },
+      "beeLongNov8": {
+        "views": 32,
+        "avgViewSeconds": 44,
+        "durationSeconds": 159
+      },
+      "saturnNov1": {
+        "views": 2560,
+        "avgViewSeconds": 15,
+        "priorPaidPromotion": true
+      },
+      "syncLimit": "Nov17 atmosphere-doubling publication confirmed by AITuber Gmail URL https://www.youtube.com/watch?v=Scevz1F9Yz4 but not yet present in Metricool synced rows. No engaged views, viewed/swiped, exact first-2-sec retention, long CTR, or matched-age organic breakdown."
+    },
+    "hypothesis": "A science-bounded one-minute total atmosphere disappearance with immediate spectacular visual and visible irreversible consequence may hold viewers better than the disliked mild pressure-doubling topic. This is a SCRIPT HYPOTHESIS only, not measured retention.",
+    "originalTopic": {
+      "title": "What If Earth's Air Vanished for 60 Seconds?",
+      "sourceBrief": "data/whatif-no-air-60-seconds-short-brief-2026-11-18.md",
+      "opening": "What if Earth's air vanished for one minute? (atmosphere halo vanishes visually before lengthy setup)",
+      "lastScene": "Air restores, low aircraft still requires pilot recovery; past injuries and physical momentum not magically reset",
+      "sources": [
+        "https://www.nasa.gov/general/what-is-earths-atmosphere/",
+        "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/what-is-lift/",
+        "https://imagine.gsfc.nasa.gov/ask_astro/space_travel.html"
+      ],
+      "duplicatePrecautions": "Existing own Moon disappeared Oct18, Earth stops spinning for one second Oct19 and mild atmosphere Nov17; selected premise differs; check entire library/queue again before actual generation."
+    },
+    "testPlan": "Only after safe draft-only AutoPilot setting confirmed AND complete final MP4+sound QA. For an actual publicly posted 9:16 Short, compare 24h/7d/28d same-format and matched-age organic viewed-vs-swiped, first-2s/overall retention, AVD, subs/1000. Do not credit improvements to theme without controls.",
+    "operations": "Source research plus GitHub review/brief; no new AI Tuber video, no credits, no social engagement, Little Wild remains paused."
   }
 }
