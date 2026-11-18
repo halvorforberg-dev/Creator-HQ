@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T18:26:43+01:00",
+  "updatedAt": "2026-11-18T15:31:48+01:00",
   "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -141,7 +141,7 @@
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-15T18:26:43+01:00",
-      "notificationRevision": 1,
+      "notificationRevision": 2,
       "source": {
         "type": "aituber_provider_publication_email_and_connected_video_api",
         "sender": "AITuber Notifications <notifications@emails.aituber.app>",
@@ -153,13 +153,29 @@
         "conflictingDraftEmailId": "1a1e028a4c872411",
         "conflictingDraftEmailReceivedAt": "2026-11-15T17:02:01Z"
       },
-      "summary": "NYTT BEKREFTET AVVIK 15.11 kl 18:26 Oslo: AI Tuber sendte epost om at What If AutoPilot publiserte 'What If a Black Hole Passed Our Solar System?' på YouTube uten forhåndsgodkjent full MP4-/lyd-QC, på en dato/tid ment for offentlig 16:9 langfilm. Kl 18:02 meldte AI Tuber for samme film/tittel 'This video was not posted' og 'No channel is connected to this autopilot', men kl 18:26 meldte plattformen at filmen ble offentlig publisert. Videoen er 9:16 35s med generisk 'Follow for more what-ifs' som slutt; script/scener lest i API, hele MP4 med lyd IKKE kvalitetsgodkjent. Årsak til motstridende AutoPilot-statuser er ennå ukjent.",
-      "action": "Kontroller ASAP ALLE What If AutoPilot-/publiseringsoppsett i innlogget AI Tuber, spesielt både serien dc3364b4-9342-4e44-8ca8-76cac21fd0c5 og eventuelle andre serier; koble fra YouTube som publiseringsmål der det fortsatt er aktivt, lagre og bekreft 'Videos are saved to My Videos' / 'Nothing posts'. Kontroller Publications/kø og plattformstatus før videre separate publiseringer; ikke slett allerede publisert YouTube-video uten særskilt brukerbeslutning. Oppdater samme hendelse til resolved først ved autentisert bekreftet løsning.",
+      "summary": "NY RECURRENCE VERIFISERT 18.11: Samme What If AutoPilot sendte 17.11 kl 18:02 Oslo e-post 'This video was not posted / No channel is connected', men kl 19:33 Oslo e-post 'autopilot published your video' med offentlig YouTube-lenke. 'What If Earth’s Atmosphere Were Twice as Thick?' er 31s Short uten godkjent full MP4-/lyd-QC. Dette gjentar bekreftet utilsiktet autopublisering 15.11 og viser at draft-only-meldingen IKKE er tilstrekkelig garanti for sikker kø. Ingen nye manuelle publiseringer før autentisert UI-innstilling og kanal-/køkontroll.",
+      "action": "I AI Tuber innlogget nettleser: kontroller og deaktiver automatisk YouTube-publisering for ALLE aktive What If AutoPilot-serier (minst dc3364b4-9342-4e44-8ca8-76cac21fd0c5), lagre og bekreft med 'Nothing posts' i hver serie. Kontroller Publications samt faktiske YouTube-opplastinger og 18:00-kø etterpå. Ikke slett dagens eller tidligere publisert video uten egen instruks. API tilbyr ingen AutoPilot-read/write. Agenten holder ny manuell booking tilbake til full MP4-/lyd-QC og sikker kø er bekreftet.",
       "relatedLinks": [
         "https://www.youtube.com/watch?v=I887Dlx9kRA",
-        "https://app.aituber.app/dashboard/autopilot/dc3364b4-9342-4e44-8ca8-76cac21fd0c5/edit?step=6"
+        "https://app.aituber.app/dashboard/autopilot/dc3364b4-9342-4e44-8ca8-76cac21fd0c5/edit?step=6",
+        "https://www.youtube.com/watch?v=Scevz1F9Yz4"
       ],
-      "ownerActionRequired": true
+      "ownerActionRequired": true,
+      "latestOccurrence": {
+        "videoId": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
+        "title": "What If Earth's Atmosphere Were Twice as Thick? 🌍 #Shorts",
+        "date": "2026-11-17",
+        "publishedYouTubeUrl": "https://www.youtube.com/watch?v=Scevz1F9Yz4",
+        "emailMessageId": "1a1eac92770c95d9",
+        "emailReceivedAt": "2026-11-17T18:33:33Z",
+        "conflictingDraftEmailId": "1a1ea75a6ee72439",
+        "conflictingDraftEmailReceivedAt": "2026-11-17T17:02:20Z",
+        "publicationEvidence": "AI Tuber authenticated notification email explicitly states video published to What If YouTube; earlier same autopilot draft email explicitly states not posted and no channel connected; actual publication timestamp not independently available",
+        "fullMp4AudioQcPassed": false,
+        "exportStatus": "completed",
+        "durationSeconds": 31
+      },
+      "lastVerifiedAt": "2026-11-18T15:31:48+01:00"
     }
   ]
 }
