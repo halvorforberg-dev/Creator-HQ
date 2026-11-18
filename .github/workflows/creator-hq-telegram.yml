@@ -1,68 +1,20 @@
-name: Creator HQ Telegram
+name: Creator HQ Telegram - disabled by user
+# 2026-11-18: User no longer wants Telegram messages.
+# Preserve bot implementation and unit tests for history, but no scheduled
+# polling, daily/weekly reports or any Telegram network sending.
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/creator-hq-telegram.yml'
-      - 'scripts/telegram_hq_bot.py'
-      - 'tests/test_telegram_hq.py'
-  schedule:
-    # Report-first bot: check questions every 30 minutes to limit Actions usage.
-    - cron: '14,44 * * * *'
-    # Daily and weekly summaries use UTC; Oslo clock time changes with DST.
-    - cron: '33 7 * * *'
-    - cron: '43 17 * * 1'
   workflow_dispatch:
-    inputs:
-      mode:
-        description: 'poll, daily or weekly'
-        required: true
-        default: poll
-        type: choice
-        options: [check, poll, daily, weekly]
 permissions:
   contents: read
-concurrency:
-  group: creator-hq-telegram
-  cancel-in-progress: false
 jobs:
-  bot:
+  validate-only:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Validate Creator HQ Bot
+      - uses: actions/checkout@v4
+      - name: Validate bot code without sending messages
         run: |
           python3 -m compileall -q scripts/telegram_hq_bot.py
           python3 -m unittest discover -s tests -p 'test_telegram_hq.py'
-      - name: Check secret configuration
-        env:
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          BOT_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-          OPENAI_CONFIGURED: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          if [ -z "$BOT_TOKEN" ]; then
-            echo "❌ TELEGRAM_BOT_TOKEN missing. Add it under Settings → Secrets and variables → Actions." >> "$GITHUB_STEP_SUMMARY"
-            echo "::error::TELEGRAM_BOT_TOKEN missing from GitHub Actions Secrets"
-            exit 1
-          fi
-          echo "✅ Bot token secret is configured (contents hidden)." >> "$GITHUB_STEP_SUMMARY"
-          if [ -z "$OPENAI_CONFIGURED" ]; then
-            echo "⚠️ OPENAI_API_KEY not set; AI-chat cannot work, but status commands can." >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "✅ OPENAI_API_KEY secret is configured (contents hidden); testing API access in mode check." >> "$GITHUB_STEP_SUMMARY"
-          fi
-          if [ -z "$BOT_CHAT" ]; then
-            echo "ℹ️ TELEGRAM_CHAT_ID not set; first-time pairing mode. Send /start and run mode poll." >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "✅ Private Telegram chat ID configured (contents hidden)." >> "$GITHUB_STEP_SUMMARY"
-          fi
-      - name: Telegram bot
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          RUN_MODE: ${{ github.event_name == 'push' && 'check' || inputs.mode }}
-          RUN_SCHEDULE: ${{ github.event.schedule }}
-        run: python3 scripts/telegram_hq_bot.py
+      - name: Telegram messages are disabled
+        run: echo 'Telegram schedules and message sends are disabled by user request on 2026-11-18.'
