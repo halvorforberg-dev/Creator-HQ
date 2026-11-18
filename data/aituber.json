@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-11-17T08:31:36.921Z",
+  "updatedAt": "2026-11-18T08:33:22.688Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
+      "title": "What If Earth’s Atmosphere Were Twice as Thick?",
+      "status": "completed",
+      "createdAt": "2026-11-17T17:00:56.595Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "6825f860-3fca-449d-9618-8e56a4175aa7",
       "title": "What if the Sun went dark? For seven days. Here",
