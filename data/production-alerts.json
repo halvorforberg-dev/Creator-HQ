@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T15:01:19.095Z",
-  "purpose": "Confirmed operational blockers for the three Creator HQ channels. GitHub workflow sends private Telegram notification once when a NEW confirmed/open blocker is committed.",
+  "updatedAt": "2026-11-18T17:35:58.781Z",
+  "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
     "neverNotifyFor": [
@@ -35,7 +35,7 @@
       "action"
     ],
     "repeat": "Only if a resolved issue reopens or notificationRevision explicitly increases. Editing unrelated files or commentary must not send duplicates.",
-    "sendMode": "GitHub Actions push of THIS file through existing Creator HQ private Telegram bot. Push notifications also depend on user's Telegram notification settings.",
+    "sendMode": "NO TELEGRAM. GitHub .github/workflows/creator-hq-telegram.yml has only manual validation and no sending triggers as checked 2026-11-18. Surface significant blockers in ChatGPT status only.",
     "dashboard": "https://halvorforberg-dev.github.io/Creator-HQ/",
     "noGuarantee": "Monitoring depends on scheduled checks and provider access; a stale snapshot never proves a live failure."
   },
@@ -199,6 +199,62 @@
       "ownerActionRequired": true,
       "relatedLinks": [
         "https://app.aituber.app/dashboard/autopilot"
+      ]
+    },
+    {
+      "id": "whatif-sun-dark-final-av-qc-blocked-2026-11-18",
+      "channel": "What If in 40 Seconds",
+      "category": "quality_gate_blocker",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-18T17:35:58.781Z",
+      "notificationRevision": 1,
+      "source": {
+        "type": "connected_ai_tuber_get_video_and_mp4_access_test",
+        "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+        "exportId": "b6542bf5-84b1-4b1c-b76d-4b35549b709c",
+        "export": "completed",
+        "durationSeconds": 118,
+        "resolution": "1080p",
+        "mp4Read": "DNS resolution failure for cdn.aituber.app during attempt 2026-11-18",
+        "metricoolScheduledToday": 0,
+        "metricoolPublishedInRangeToday": 0,
+        "reviewPath": "data/whatif-agent-review-2026-11-18.json"
+      },
+      "summary": "18. november kl. 18:00 Oslo var planlagt What If-langfilm «What If the Sun Went Dark for a Week?» ikke bekreftet publisert. AI Tuber bekrefter ferdig 118 s/1080p eksport, men sluttfilens bilde, tale, musikk og synk kan ikke verifiseres fordi CDN ikke kan lastes i tilkoblet kjøremiljø (DNS-feil). Reell publisering/booking-ID mangler. Risiko for AutoPilot-dobbeltpublisering er fortsatt åpen. Ingen manuell publisering uten full QA.",
+      "action": "Finn en autorisert avspillingsmetode for ferdig AI Tuber-eksport slik at hele MP4 med lyd kan vurderes. Kontroller deretter AutoPilot-innstillinger/YouTube Publications via innlogget brukergrensesnitt for å forhindre duplikater, og book den eksisterende video-ID-en ved neste avtalte 18:00-slot hvis QC er godkjent. Ingen ny generering, manuell blind publisering eller kjøp.",
+      "ownerActionRequired": true,
+      "relatedLinks": [
+        "https://app.aituber.app/dashboard/videos/6825f860-3fca-449d-9618-8e56a4175aa7",
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-agent-review-2026-11-18.json"
+      ]
+    },
+    {
+      "id": "bizarre-babylon-approved-release-credit-shortfall-2026-11-18",
+      "channel": "Bizarre Past",
+      "category": "insufficient_credits_blocking_approved_release",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-18T17:35:58.781Z",
+      "notificationRevision": 1,
+      "source": {
+        "type": "higgsfield_balance_plus_authenticated_metricool_queue_and_current_production_brief",
+        "higgsfieldCurrentCredits": 167.77,
+        "higgsfieldPlan": "plus",
+        "minimumVideoOnlyCredits120s": 180,
+        "storyboardClipEstimateCredits": 252,
+        "freeSuitableVideoGenerations": 0,
+        "metricoolScheduledToday": 0,
+        "metricoolPublishedInRangeToday": 0,
+        "briefPath": "data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
+      },
+      "summary": "18. november kl. 18:00 Oslo hadde Bizarre Past planlagt 16:9 Babylon World Map-langfilm til YouTube og TikTok, men filmen finnes kun som faktasjekket manus/storyboard, ikke som ferdig eksport. Higgsfield bekrefter 167,77 tilgjengelige kreditter, lavere enn estimert minimum 180 kreditter kun for cirka to minutter video (og tidligere 252 for 21 scener, ekskludert lyd/retakes). Metricool viser ingen booking for dagen. Dette er en godkjent redaksjonell målplass, ikke en feilet provider-booking.",
+      "action": "Ikke start ufullstendig produksjon eller kjøp kreditter uten brukerens uttrykkelige godkjenning. Vurder godkjent kortere originalt format eller kredittpåfyll før ny full produksjon; deretter ekte MP4-/lyd-QC, duplikat- og Metricool-køkontroll og ny 18:00-booking for både YouTube og TikTok.",
+      "ownerActionRequired": true,
+      "relatedLinks": [
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
       ]
     }
   ]
