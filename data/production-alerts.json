@@ -205,7 +205,7 @@
       "id": "whatif-sun-dark-final-av-qc-blocked-2026-11-18",
       "channel": "What If in 40 Seconds",
       "category": "quality_gate_blocker",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-18T17:35:58.781Z",
@@ -220,15 +220,22 @@
         "mp4Read": "DNS resolution failure for cdn.aituber.app during attempt 2026-11-18",
         "metricoolScheduledToday": 0,
         "metricoolPublishedInRangeToday": 0,
-        "reviewPath": "data/whatif-agent-review-2026-11-18.json"
+        "reviewPath": "data/whatif-agent-review-2026-11-18.json",
+        "publishedStatus": "published",
+        "publicationId": "62bc5af5-18a0-4ec0-b8f0-e38f38917b69",
+        "publishedAt": "2026-11-18T17:55:02.770Z",
+        "publishedUrl": "https://www.youtube.com/watch?v=1jQ_W7GYOoo"
       },
-      "summary": "18. november kl. 18:00 Oslo var planlagt What If-langfilm «What If the Sun Went Dark for a Week?» ikke bekreftet publisert. AI Tuber bekrefter ferdig 118 s/1080p eksport, men sluttfilens bilde, tale, musikk og synk kan ikke verifiseres fordi CDN ikke kan lastes i tilkoblet kjøremiljø (DNS-feil). Reell publisering/booking-ID mangler. Risiko for AutoPilot-dobbeltpublisering er fortsatt åpen. Ingen manuell publisering uten full QA.",
-      "action": "Finn en autorisert avspillingsmetode for ferdig AI Tuber-eksport slik at hele MP4 med lyd kan vurderes. Kontroller deretter AutoPilot-innstillinger/YouTube Publications via innlogget brukergrensesnitt for å forhindre duplikater, og book den eksisterende video-ID-en ved neste avtalte 18:00-slot hvis QC er godkjent. Ingen ny generering, manuell blind publisering eller kjøp.",
+      "summary": "LØST SOM PUBLISERINGSBLOKKERING 19.11: AI Tuber bekrefter at eksisterende Sun Went Dark-langfilm faktisk ble publisert 18.11 kl. 18:55:02 Oslo (ca. 55 min etter mål kl. 18:00), publicationId 62bc5af5-18a0-4ec0-b8f0-e38f38917b69 på korrekt What If YouTube-kanal. Full audiovisuell QA er fremdeles IKKE verifisert; denne løsningen gjelder bare den konkrete manglende publiseringsstatusen. Ikke last opp igjen. Oppfølgingskontroll for AutoPilot og nye MP4-filer står fortsatt.",
+      "action": "Ikke generer eller publiser Sun Went Dark på nytt. Gjennomfør etterkontroll av originalfil med lyd når tilgang finnes; det påvirker ikke den allerede fullførte publiseringen. For nye filmer må full MP4+lyd-QA, korrekt 18:00-slot, trygg AutoPilot/YouTube-kø og unik ID verifiseres.",
       "ownerActionRequired": true,
       "relatedLinks": [
         "https://app.aituber.app/dashboard/videos/6825f860-3fca-449d-9618-8e56a4175aa7",
-        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-agent-review-2026-11-18.json"
-      ]
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-agent-review-2026-11-18.json",
+        "https://www.youtube.com/watch?v=1jQ_W7GYOoo"
+      ],
+      "resolvedAt": "2026-11-19",
+      "resolution": "AI Tuber confirmed the SAME pre-existing video was published to correct What If YouTube channel at 2026-11-18 18:55:02 Oslo, publicationId 62bc5af5-18a0-4ec0-b8f0-e38f38917b69, URL https://www.youtube.com/watch?v=1jQ_W7GYOoo. The missed release is no longer a prospective booking blocker. **This does NOT mean full MP4/audio QC passed**: DNS still prevents independent review. Preserve a separate open general AutoPilot unreviewed-publishing incident. No duplicate posting."
     },
     {
       "id": "bizarre-babylon-approved-release-credit-shortfall-2026-11-18",
