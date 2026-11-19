@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-19",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -2616,5 +2616,77 @@
     },
     "testPlan": "Only after safe draft-only AutoPilot setting confirmed AND complete final MP4+sound QA. For an actual publicly posted 9:16 Short, compare 24h/7d/28d same-format and matched-age organic viewed-vs-swiped, first-2s/overall retention, AVD, subs/1000. Do not credit improvements to theme without controls.",
     "operations": "Source research plus GitHub review/brief; no new AI Tuber video, no credits, no social engagement, Little Wild remains paused."
+  },
+  "whatifResearchNote20261119Agent": {
+    "checkedOn": "2026-11-19",
+    "timezone": "Europe/Oslo",
+    "scope": "Fresh free public competitor listings + official science sources + authenticated own Metricool metrics and AI Tuber export/publication status. No competitor video actually watched or intro seconds/retention observed, no paid vidIQ research credits.",
+    "recentCompetitors": [
+      {
+        "name": "xkcd's What If?",
+        "source": "https://vidiq.com/youtube-stats/channel/%40xkcd_whatif/videos/",
+        "published": "2026-11-17",
+        "video": "What if we tried to eat the sun?",
+        "duration": "3:33",
+        "publicLifetimeViewsAtSearch": 712971,
+        "scope": "Public listing snapshot, not matched-age retention, date not comparable with short-form or our channel size",
+        "lesson": "Visually bizarre concrete question with a rigorous, surprising physical answer; apply original structure only, not copy title/scenes."
+      },
+      {
+        "name": "QuirkScience",
+        "source": "https://quirkscience.com/films/",
+        "latestDated": "2026-11-14",
+        "examples": [
+          "The Lake That Disappeared in 3 Hours (1:04)",
+          "What's Below the Mariana Trench? (1:03)"
+        ],
+        "scope": "Publisher catalog metadata/readable summaries only; no 0–2s playback or retention.",
+        "lesson": "Specific stakes, time frames and real causal mechanisms can make short science more intelligible, but no proof of engagement."
+      }
+    ],
+    "ownMetricoolVerified": {
+      "brandId": 7751348,
+      "queryPeriod": "2026-11-01 through 2026-11-19",
+      "blackHoleNov15": {
+        "views": 1011,
+        "avgViewSeconds": 15,
+        "likes": 22
+      },
+      "sunBrightNov7": {
+        "views": 1079,
+        "avgViewSeconds": 15,
+        "likes": 39
+      },
+      "octopusNov3": {
+        "views": 1025,
+        "avgViewSeconds": 10
+      },
+      "oceanNov3": {
+        "views": 182,
+        "avgViewSeconds": 10
+      },
+      "beeLongNov8": {
+        "views": 32,
+        "avgViewSeconds": 44
+      },
+      "lag": "Metricool returned latest row Nov15 and therefore omitted Sun Dark Nov18 and Atmosphere Nov17; their absence from rows is not proof they are unpublished. Confirm Sun direct AI Tuber publication, published 2026-11-18 18:55 Oslo.",
+      "limitations": "Cumulative different-age results and formats; not organic-only, no first-2s retention, swipe rate, subscribe conversions or CTR; don't infer extreme premise is cause of current views."
+    },
+    "newTest": {
+      "title": "What If Earth's Air Vanished for 60 Seconds?",
+      "originality": "Distinct from old Earth-spinning, moon-vanishing, doubled-atmosphere and just-published Sun-Dark episodes; no verified exact-topic duplicate in latest account list.",
+      "storyboard": "data/whatif-no-air-60-seconds-short-brief-2026-11-18.md (v2 Nov19)",
+      "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+      "providerStateAtReport": "pending/processing; generated as draft Nov19, release NOT booked",
+      "hypothesis": "Large 0s WHAT IF…? and dramatic vacuum-first scene, three physically different escalating effects, irreversible final consequence may improve 2s stay/AVD compared to weak intro; unverified until matching platform analytics arrive.",
+      "measurement": "After verified publication, same age 24h/7d/28d in short-only organic segment: viewed/swiped, first 2s and total retention, AVD, subs per 1000. Separate any paid traffic; avoid same-theme causal claim."
+    },
+    "sources": [
+      "https://www.nasa.gov/general/what-is-earths-atmosphere/",
+      "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/four-forces-on-an-airplane/",
+      "https://imagine.gsfc.nasa.gov/ask_astro/space_travel.html"
+    ],
+    "finance": "AI Tuber existing credits used for one new 9:16 cinematic draft; no credits purchased, no vidIQ paid calls (balance 2).",
+    "publishingCaveat": "No booking with open What If AutoPilot direct-publishing alert and unverified final exported MP4 with audible sound. Little Wild work remains paused. Telegram disabled."
   }
 }
