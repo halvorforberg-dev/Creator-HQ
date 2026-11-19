@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "runDate": "2026-11-19",
+  "subject": "Bizarre Past completed 19 November exported three-MP4 batch",
+  "producer": "Higgsfield",
+  "method": "Reviewed original source manifest, final exported media via authenticated Higgsfield cloud sandbox using sampled decoded frames spanning the complete lengths; reviewed Higgsfield video_analysis scene-by-scene audiovisual summaries, and ffmpeg audio volume/silence measurements. This is substantial automated/script/visual QA, NOT direct perceptual listening of the complete audio track.",
+  "currentStatus": "HOLD_FINAL_PERCEPTUAL_AUDIO_AUDITION_PENDING",
+  "sourceManifest": "data/bizarre-past-production-batch-2026-11-19.json",
+  "publisher": {
+    "provider": "Metricool",
+    "brandId": 7296504,
+    "scheduleReadAt": "2026-11-19",
+    "period": "2026-11-18T00:00:00+01:00 to 2026-12-06T23:59:59+01:00",
+    "scheduledCount": 0,
+    "anyNewBookings": false
+  },
+  "creditStatus": {
+    "source": "Higgsfield balance authenticated",
+    "plan": "ultra",
+    "creditsAtReview": 1909.13,
+    "previousBatchManifestClosingBalance": 2412.39,
+    "observedDelta": -503.26,
+    "deltaAttribution": "UNKNOWN; do not claim agent charged these credits or that they belong to a particular job; check concurrent production activity before additional generation",
+    "creditsSpentThisReview": 0
+  },
+  "films": [
+    {
+      "id": "merer",
+      "mediaId": "89ab021b-7063-48cf-abbf-36db3066ea00",
+      "durationSeconds": 36.721,
+      "format": "1080x1920",
+      "finalExportExists": true,
+      "decodedFramesSampled": 16,
+      "videoAnalysisId": "b76842ad-83f2-4370-a877-6ad5254154dc",
+      "videoAnalysisStatus": "completed",
+      "videoAnalysisSceneCount": 8,
+      "visualFinding": "Sampled throughout: papyrus, Wadi al-Jarf / archaeology, ancient author, limestone loading, pyramid and boat movement. Broadly matches script progression. AI scene analysis describes spoken text from hook to final work-log payoff; final ~4 seconds not covered by scene labels.",
+      "ffmpegAudio": {
+        "meanVolumeDb": -19,
+        "maxVolumeDb": -2.8,
+        "lastSilenceStartSeconds": 36.047,
+        "lastSilenceDurationSeconds": 0.674
+      },
+      "technicalStatus": "pass as documented in manifest plus new audio structural test",
+      "directPerceptualAudioAudition": false,
+      "finalHumanOrEquivalentAVPass": false,
+      "bookingApproved": false,
+      "holdReason": "Need true full audio audition and final-frame listening/visual checks before scheduling."
+    },
+    {
+      "id": "scrolls",
+      "mediaId": "d2c357bf-4bce-4e3a-9929-98789b23a8f8",
+      "durationSeconds": 39.253,
+      "format": "1080x1920",
+      "finalExportExists": true,
+      "decodedFramesSampled": 16,
+      "videoAnalysisId": "9c4e4c3a-030a-4058-89b9-88c73330575c",
+      "videoAnalysisStatus": "completed",
+      "videoAnalysisSceneCount": 9,
+      "visualFinding": "Sampled throughout: cave, clay jar, Bedouin shepherd, scroll researcher and parchment fragments. Broadly matches factual discovery story. AI scene analysis identifies complete final manuscript-comparison payoff.",
+      "ffmpegAudio": {
+        "meanVolumeDb": -18.5,
+        "maxVolumeDb": -2.1,
+        "lastSilenceStartSeconds": 38.2085,
+        "lastSilenceDurationSeconds": 1.045
+      },
+      "technicalStatus": "pass as documented in manifest plus new audio structural test",
+      "directPerceptualAudioAudition": false,
+      "finalHumanOrEquivalentAVPass": false,
+      "bookingApproved": false,
+      "holdReason": "Need true complete soundtrack listening and detailed perceptual transitions before scheduling."
+    },
+    {
+      "id": "vikings",
+      "mediaId": "15870f3f-ee3f-4889-bb40-590844214cc7",
+      "durationSeconds": 177.625,
+      "format": "1920x1080",
+      "finalExportExists": true,
+      "decodedFramesSampled": 32,
+      "videoAnalysisId": "c595aeab-1b0e-4a89-9d97-3e8dd8875842",
+      "videoAnalysisStatus": "completed",
+      "videoAnalysisSceneCount": 36,
+      "visualFinding": "Sampled beginning-to-end: axe, Norse site, old documents, longship, excavation, tree rings, radiocarbon lab, close of wood dated 1021. Factual overall arc coherent. Inspect ~0:52–0:59 furnace scene: generated image appears to show molten metal being poured although narration describes ironworking; avoid visually suggesting Viking-era iron casting without historical basis.",
+      "ffmpegAudio": {
+        "meanVolumeDb": -19,
+        "maxVolumeDb": -2.4,
+        "lastSilenceStartSeconds": 176.982,
+        "lastSilenceDurationSeconds": 0.618
+      },
+      "technicalStatus": "pass as documented in manifest plus new audio structural test",
+      "directPerceptualAudioAudition": false,
+      "finalHumanOrEquivalentAVPass": false,
+      "bookingApproved": false,
+      "holdReason": "Full natural audio audition not completed; inspect historically questionable forge imagery in context."
+    }
+  ],
+  "externalResearchForNextBatch": {
+    "briefPath": "data/bizarre-past-next-three-editorial-brief-2026-11-19.md",
+    "sources": [
+      "https://www.imj.org.il/en/exhibitions/cradle-christianity",
+      "https://www.nature.com/articles/s41467-023-36351-0",
+      "https://www.nature.com/articles/s41598-025-91115-8",
+      "https://www.biblegateway.com/passage/?search=2+Maccabees+2&version=GNT%3BNRSVUE%3BRSVCE"
+    ],
+    "status": "3 new topical scripts prepared, no new video generations in this review"
+  },
+  "publicationDecision": "NO BOOKING: exact finished MP4s exist, but required actual perceptual soundtrack QA is incomplete. Keep source media IDs unchanged; do not duplicate exports or spend credits to fix unverified issues.",
+  "telegram": "NONE, by standing user decision 2026-11-18"
+}
