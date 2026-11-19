@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T17:35:58.781Z",
+  "updatedAt": "2026-11-19",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -234,7 +234,7 @@
       "id": "bizarre-babylon-approved-release-credit-shortfall-2026-11-18",
       "channel": "Bizarre Past",
       "category": "insufficient_credits_blocking_approved_release",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-18T17:35:58.781Z",
@@ -255,7 +255,16 @@
       "ownerActionRequired": true,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/bizarre-past-babylon-world-map-long-brief-2026-11-11.md"
-      ]
+      ],
+      "resolvedAt": "2026-11-19",
+      "resolution": {
+        "provider": "Higgsfield balance",
+        "subscriptionPlan": "ultra",
+        "creditsObserved": 1909.13,
+        "reason": "Original insufficient-credit blocker no longer exists: current authenticated Ultra balance exceeds previously costed minimum. This does NOT establish a rendered Babylon film, QA approval, or an actual 18:00 booking; production remains a separate editorial/QA task.",
+        "noNewGeneration": "This status review did not spend credits.",
+        "telegram": "DISABLED BY USER; no send or push triggered."
+      }
     }
   ]
 }
