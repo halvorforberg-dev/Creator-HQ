@@ -747,7 +747,7 @@
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-08",
+      "verifiedDate": "2026-11-19",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -783,6 +783,20 @@
           "youtubeUrl": "https://www.youtube.com/watch?v=AmoxUPMdCwI",
           "source": "AI Tuber autopilot publication email Gmail id 1a1b6faae2f4f19d + authenticated GET /videos/00fd5574-adc8-4c43-a1ad-2045cb29082a",
           "qc": "NOT_PASS: AutoPilot directly published prior to review; 34s vs 35–40 target, generic CTA without full scientific payoff and downbeat catastrophe-risk focus"
+        },
+        {
+          "id": "62bc5af5-18a0-4ec0-b8f0-e38f38917b69",
+          "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+          "channel": "What If in 40 Seconds",
+          "date": "2026-11-18",
+          "time": "18:55:02 Europe/Oslo",
+          "status": "published",
+          "title": "What If the Sun Went Dark for 7 Days?",
+          "publishedAt": "2026-11-18T18:55:02.770+01:00",
+          "youtubeUrl": "https://www.youtube.com/watch?v=1jQ_W7GYOoo",
+          "source": "Authenticated AI Tuber GET /publications/62bc5af5-18a0-4ec0-b8f0-e38f38917b69 checked 2026-11-19",
+          "qa": "UNKNOWN_FULL_AV_REVIEW_NOT_VERIFIED; pre-publication notes show blocked CDN download. Uploaded at 18:55, not scheduled for 18:00.",
+          "scheduledAt": null
         }
       ],
       "unverifiedSeries": [
@@ -3221,17 +3235,21 @@
         "brief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
         "producer": "AI Tuber",
         "publisher": "AI Tuber",
-        "stage": "COMPLETE_AI_TUBER_GENERATION_EXPORTED_DOWNLOAD_URL_READY_BUT_MP4_FULL_AV_QC_BLOCKED_NOT_BOOKED",
-        "caution": "User expressly prioritizes interesting story over rigid runtime. No booking or publication until full final AV QC.",
+        "stage": "PUBLISHED_PROVIDER_CONFIRMED_2026_11_18_AT_18_55_OSLO_WITHOUT_DOCUMENTED_FULL_AV_QC",
+        "caution": "Existing source film now published! NEVER repost/regenerate. Published 18:55 Oslo, not 18:00. Full MP4 audiovisual QC still lacks documentary evidence; disclosure must be accurate.",
         "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
         "productionAcceptedAt": "2026-11-16T18:24:14.279Z",
         "productionScriptVersion": "v2 locked pre-generation 2026-11-16",
         "sourceBrief": "data/whatif-sun-dark-week-long-brief-2026-11-15.md",
         "publication": {
-          "attempted": false,
-          "publicationId": null,
-          "status": "NOT_BOOKED",
-          "target": "2026-11-18 18:00 Europe/Oslo, editorial only"
+          "attempted": true,
+          "publicationId": "62bc5af5-18a0-4ec0-b8f0-e38f38917b69",
+          "status": "published",
+          "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+          "publishedAt": "2026-11-18T17:55:02.770Z",
+          "youtubeUrl": "https://www.youtube.com/watch?v=1jQ_W7GYOoo",
+          "scheduledAt": null,
+          "source": "AI Tuber authenticated GET /publications/{publicationId}, fetched Nov19"
         },
         "qa": {
           "finishedExport": true,
@@ -5592,5 +5610,22 @@
     "noTelegram": true,
     "noSocialEngagement": true,
     "noPublicationClaimWithoutProviderEvidence": true
+  },
+  "whatIfCreativeDirection20261118": {
+    "approvedAt": "2026-11-18T19:24:00+01:00",
+    "supersedes": "Previous mild/positive-only What If tone where it conflicts with spectacular scientifically honest high-stakes scenarios. Applies to ALL new productions after 2026-11-18, not retrospective regeneration.",
+    "status": "ACTIVE_MANDATORY_NEXT_NEW_WHAT_IF_VIDEO",
+    "opening": "Within 0-2 seconds: exact legible on-screen 'WHAT IF…?' and audible natural-English 'What if…?' immediately, with a visually striking CONCRETE scenario from the first frame. Never start with generic explainer intro.",
+    "story": "Immediate extreme image -> physical causal chain -> escalating effects/new twist -> honest concrete payoff visibly answering the premise. Originality and credible fact/speculation boundary; no empty doom clickbait, false claims, rushing or forced loops.",
+    "preCreditGate": "Before any AI Tuber credit expense: check verifiedQueue and entire account list for duplicates; compare 3-5 truthful hooks; edit/approve exact narration and scene-by-scene visual/text/sound instructions; verify topic merits high-stakes dramatic attention.",
+    "postProductionGate": "Complete actual exported 1080p MP4 audiovisual playback (not only provider status/URL), opening/mobile typography, sync, voice, transitions, complete line/payoff, rights/metadata/AI label, YouTube channel and queue/AutoPilot safeguards before booking.",
+    "examples": [
+      "What If Earth's Air Vanished for 60 Seconds?",
+      "What If Earth Stopped Spinning for One Second? (EXISTING VIDEO; do not duplicate)",
+      "What If the Sun Vanished for Seven Days? (EXISTING video; do not duplicate)"
+    ],
+    "mode": "What If uses AI Tuber mixed media as scene needs, full-motion not mandatory throughout; 18:00 Europe/Oslo for QC-approved future posts only.",
+    "constraints": "Only active channels What If and Bizarre Past; Little Wild indefinitely paused; no Telegram sending, paid ads or credits purchase; no reupload/deletion of past videos without instruction.",
+    "source": "Explicit user decision 18 Nov 2026 19:24 Oslo"
   }
 }
