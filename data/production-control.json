@@ -244,7 +244,8 @@
       "publication": "PREPARE_ONLY_UNTIL_FINISHED_QC",
       "budgetCapNewBatchCredits": 650,
       "priorCompletedBatch": "Keep the three Nov19 exports; do not regenerate or delete. New thematic direction governs next new subjects.",
-      "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure."
+      "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure.",
+      "activeBatch": "data/bizarre-past-sacred-batch-2026-11-19.json"
     }
   },
   "channels": {
@@ -5410,7 +5411,8 @@
     "publication": "PREPARE_ONLY_UNTIL_FINISHED_QC",
     "budgetCapNewBatchCredits": 650,
     "priorCompletedBatch": "Keep the three Nov19 exports; do not regenerate or delete. New thematic direction governs next new subjects.",
-    "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure."
+    "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure.",
+    "activeBatch": "data/bizarre-past-sacred-batch-2026-11-19.json"
   },
   "littleWildAdvertisingCheck20261119": {
     "date": "2026-11-19",
@@ -5458,5 +5460,17 @@
       "noCampaignChanged": true
     },
     "conclusion": "Recent advertising views and subscribers are confirmed after VeeFly's stated completion, but the current advertiser/account/payer and live campaign status are unknown. Do not label all traffic organic or assert all advertising stopped. Do not infer charges from these analytics. No new promotions, payments or Telegram messages authorized."
+  },
+  "activeBizarrePastProduction20261119": {
+    "status": "IN_PROGRESS",
+    "manifest": "data/bizarre-past-sacred-batch-2026-11-19.json",
+    "films": [
+      "pilate",
+      "ark",
+      "corridor"
+    ],
+    "generationAccepted": true,
+    "duplicateGuard": "The three Jesus/Pilate, Ark cave and pyramid corridor films are already being produced in this conversation. Reuse the accepted jobs and eventual final exports; do not generate duplicates or start a second version.",
+    "publication": "No new booking made in this production request. Complete practical AV review of exact exports before any later release."
   }
 }
