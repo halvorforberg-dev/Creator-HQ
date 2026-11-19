@@ -1,9 +1,9 @@
 {
   "batch": "bizarre-past-2026-11-19",
   "channel": "Bizarre Past",
-  "status": "SCRIPT_LOCKED_PREFLIGHT",
+  "status": "EXPORTED_TECHNICAL_QC_PASS_FINAL_AV_REVIEW_PENDING",
   "producer": "Higgsfield",
-  "publication": "PREPARE_ONLY_NO_NEW_BOOKING",
+  "publication": "PREPARED_ONLY_NOT_SCHEDULED",
   "userRequestedCount": "2–3",
   "selectedOriginalListNumbers": [
     1,
@@ -19,12 +19,13 @@
   "mode": "pro",
   "openingBalance": 3032.8,
   "plannedVideoSources": {
-    "vikings": 24,
-    "merer": 6,
-    "scrolls": 6,
-    "secondsEach": 8,
-    "videoCreditsEach": 12,
-    "totalVideoCredits": 432
+    "originalShorts": "2 x 6 x 8s",
+    "originalVikings": "24 x 10s",
+    "replacementVideoClips": "5 x 8s",
+    "pyramidReferenceImages": 1,
+    "voiceTracks": 3,
+    "musicTracks": 3,
+    "sourceVideoSeconds": 376
   },
   "budgetCapCredits": 650,
   "analysis": {
@@ -60,6 +61,60 @@
       "music": {
         "duration": 45,
         "prompt": "Original instrumental archaeological mystery short score. Warm plucked strings, soft wooden percussion, subtle air and water textures. Immediate intriguing opening, gentle investigative movement, one small lift around 25 seconds, satisfying warm final cadence. No vocals, no chanting, no pounding trailer drums. Leave generous space for clear English narration."
+      },
+      "final": {
+        "media_id": "89ab021b-7063-48cf-abbf-36db3066ea00",
+        "status": "uploaded",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/89ab021b-7063-48cf-abbf-36db3066ea00.mp4",
+        "fileName": "Bizarre_Past_Merer_Diary_1080x1920.mp4",
+        "libraryFileId": "libfile_fde3_f-13d42c83824c8191a352a73ceb5d7ac3_a051186db4148191abb75d7b8656c8bb",
+        "libraryFileObjectId": "file_00000000888081f58a628f74634cc9e4",
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "36.721000",
+          "size": "30557816"
+        },
+        "decodeExit": 0,
+        "flags": [],
+        "filename": "Bizarre_Past_Merer_Diary_1080x1920.mp4",
+        "sha256": "6a515b1ca9c7e98ea714f62a96985b8bb375af1bb70cdce49ca8d581f65e2431"
+      },
+      "qa": {
+        "scriptSourceChecked": true,
+        "motionVisualSpotChecks": true,
+        "fullDecodePassed": true,
+        "unintendedBlackOrFreezeFlags": [],
+        "voiceScriptASRChecked": true,
+        "measuredMixLUFSApproximately": -16,
+        "actualAudioAuditionPassed": false,
+        "finalPerceptualAVApprovalPassed": false,
+        "analysis": {
+          "id": "b76842ad-83f2-4370-a877-6ad5254154dc",
+          "video_input_id": "89ab021b-7063-48cf-abbf-36db3066ea00",
+          "youtube_url": null,
+          "status": "queued",
+          "fail_reason": null,
+          "video_s3_url": null,
+          "scenes": null
+        },
+        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff."
       }
     },
     {
@@ -80,6 +135,60 @@
       "music": {
         "duration": 45,
         "prompt": "Original instrumental history discovery short score, respectful curious tone. Soft bowed strings, delicate plucked strings and restrained low frame-drum pulse, subtle desert air. Clear mysterious opening grows to a small luminous discovery, then a complete gentle final cadence. No vocals, no choir, no chanting, no bombastic trailer hits. Space for natural English voiceover."
+      },
+      "final": {
+        "media_id": "d2c357bf-4bce-4e3a-9929-98789b23a8f8",
+        "status": "uploaded",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/d2c357bf-4bce-4e3a-9929-98789b23a8f8.mp4",
+        "fileName": "Bizarre_Past_Dead_Sea_Scrolls_1080x1920.mp4",
+        "libraryFileId": "libfile_fde3_f-b9c38a196c2881918f11ccbc8fe63a9c_a051186db4148191abb75d7b8656c8bb",
+        "libraryFileObjectId": "file_00000000140481f5833c73443f43a4e1",
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "24/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "39.253000",
+          "size": "32814369"
+        },
+        "decodeExit": 0,
+        "flags": [],
+        "filename": "Bizarre_Past_Dead_Sea_Scrolls_1080x1920.mp4",
+        "sha256": "db9ce6021a924df2431d791913976f65fa45325cf5722b6d68eb802fb74182c1"
+      },
+      "qa": {
+        "scriptSourceChecked": true,
+        "motionVisualSpotChecks": true,
+        "fullDecodePassed": true,
+        "unintendedBlackOrFreezeFlags": [],
+        "voiceScriptASRChecked": true,
+        "measuredMixLUFSApproximately": -16,
+        "actualAudioAuditionPassed": false,
+        "finalPerceptualAVApprovalPassed": false,
+        "analysis": {
+          "id": "9c4e4c3a-030a-4058-89b9-88c73330575c",
+          "video_input_id": "d2c357bf-4bce-4e3a-9929-98789b23a8f8",
+          "youtube_url": null,
+          "status": "queued",
+          "fail_reason": null,
+          "video_s3_url": null,
+          "scenes": null
+        },
+        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff."
       }
     },
     {
@@ -102,7 +211,298 @@
       "music": {
         "duration": 220,
         "prompt": "Original instrumental investigative historical documentary score about Norse exploration and scientific dating. Opening intimate low strings and a few plucked notes, steady gentle forward pulse, cold North Atlantic air texture. Evolve through curiosity, archival discovery, a more luminous cosmic-science middle, restrained tension during the ring-count investigation, then a warm clear resolution and final cadence. Natural dynamics suitable beneath continuous narration, no vocals or chanting, no heroic battle music, no loud trailer impacts."
+      },
+      "final": {
+        "media_id": "15870f3f-ee3f-4889-bb40-590844214cc7",
+        "status": "uploaded",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/15870f3f-ee3f-4889-bb40-590844214cc7.mp4",
+        "fileName": "Bizarre_Past_Vikings_1021_1920x1080.mp4",
+        "libraryFileId": "libfile_fde3_f-8cc66ca5f588819194e5ac21d7166a88_a051186db4148191abb75d7b8656c8bb",
+        "libraryFileObjectId": "file_00000000332481fb889b59d784c55e9b",
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "r_frame_rate": "24/1"
+          },
+          {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "177.625000",
+          "size": "138160780"
+        },
+        "decodeExit": 0,
+        "flags": [],
+        "filename": "Bizarre_Past_Vikings_1021_1920x1080.mp4",
+        "sha256": "2b405488f8f88c81b21e75c6e895bda38426b149dde6667379d0bb45fc23b075"
+      },
+      "qa": {
+        "scriptSourceChecked": true,
+        "motionVisualSpotChecks": true,
+        "fullDecodePassed": true,
+        "unintendedBlackOrFreezeFlags": [],
+        "voiceScriptASRChecked": true,
+        "measuredMixLUFSApproximately": -16,
+        "actualAudioAuditionPassed": false,
+        "finalPerceptualAVApprovalPassed": false,
+        "analysis": {
+          "id": "c595aeab-1b0e-4a89-9d97-3e8dd8875842",
+          "video_input_id": "15870f3f-ee3f-4889-bb40-590844214cc7",
+          "youtube_url": null,
+          "status": "queued",
+          "fail_reason": null,
+          "video_s3_url": null,
+          "scenes": null
+        },
+        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff."
       }
     }
-  ]
+  ],
+  "actualCreditSpend": 620.41,
+  "closingBalance": 2412.39,
+  "generatedJobs": {
+    "original": [
+      {
+        "index": 0,
+        "job_id": "040e24fc-2faa-46f8-97de-a841e83593bc",
+        "status": "completed"
+      },
+      {
+        "index": 6,
+        "job_id": "9a4b14a9-bb10-4b5e-8eb6-a37ffef8e5c9",
+        "status": "completed"
+      },
+      {
+        "index": 12,
+        "job_id": "4a9fd40c-4767-4656-980c-f6a12f39fc6a",
+        "status": "completed"
+      },
+      {
+        "index": 1,
+        "job_id": "fdbf918b-cde8-457a-84da-4acbdf95b7a0",
+        "status": "completed"
+      },
+      {
+        "index": 2,
+        "job_id": "ade11ecb-fc50-428c-934b-25ee1abe4a1f",
+        "status": "completed"
+      },
+      {
+        "index": 3,
+        "job_id": "b106279e-bcf7-4f23-91c0-57ebfbb66ba1",
+        "status": "completed"
+      },
+      {
+        "index": 4,
+        "job_id": "15ecbd79-39fa-4d1c-bbb8-3a638e3dd268",
+        "status": "completed"
+      },
+      {
+        "index": 5,
+        "job_id": "27336cbb-4d81-4f44-86df-15aa8d58b770",
+        "status": "completed"
+      },
+      {
+        "index": 7,
+        "job_id": "07af7d0f-a80a-4c67-b1dc-aba72f97de1a",
+        "status": "completed"
+      },
+      {
+        "index": 8,
+        "job_id": "3b66866e-7d8e-448c-9015-7ec8b54a9a51",
+        "status": "completed"
+      },
+      {
+        "index": 9,
+        "job_id": "5608cbcf-3c8b-4dd2-ac9d-6506d3292715",
+        "status": "completed"
+      },
+      {
+        "index": 10,
+        "job_id": "b3a40822-5735-4044-8d2f-befe8beda8a5",
+        "status": "completed"
+      },
+      {
+        "index": 11,
+        "job_id": "c96d2e19-2d23-42b0-bb1e-8e6a0307bc6e",
+        "status": "completed"
+      },
+      {
+        "index": 13,
+        "job_id": "bcb10420-eb3b-4186-bede-b49681c6b0f5",
+        "status": "completed"
+      },
+      {
+        "index": 14,
+        "job_id": "c7a98e8e-04d6-4891-8f13-c7616a837db1",
+        "status": "completed"
+      },
+      {
+        "index": 15,
+        "job_id": "67b38a8a-8e8c-41a1-a810-10d8223e20ca",
+        "status": "completed"
+      },
+      {
+        "index": 16,
+        "job_id": "5b773376-9ec4-401d-ad0e-75bc2e781645",
+        "status": "completed"
+      },
+      {
+        "index": 17,
+        "job_id": "fc1aad21-2376-4655-a686-c7d8dc5a08da",
+        "status": "completed"
+      },
+      {
+        "index": 18,
+        "job_id": "eaaa52e3-25c5-4c2a-b461-56354d01c494",
+        "status": "completed"
+      },
+      {
+        "index": 19,
+        "job_id": "34fdf423-23e7-42cc-a5ba-67c54bd164a8",
+        "status": "completed"
+      },
+      {
+        "index": 20,
+        "job_id": "a039223a-c289-4696-b858-1057bcd52dad",
+        "status": "completed"
+      },
+      {
+        "index": 21,
+        "job_id": "af8eee07-2dce-4df5-b9bc-cc7bac107560",
+        "status": "completed"
+      },
+      {
+        "index": 22,
+        "job_id": "fa28902a-5a85-4ed6-bbad-0e091b01e7e0",
+        "status": "completed"
+      },
+      {
+        "index": 23,
+        "job_id": "ed4c1d11-98da-4e17-a110-13f37937979a",
+        "status": "completed"
+      },
+      {
+        "index": 24,
+        "job_id": "8573d14d-60cd-45ab-91e4-247e096fc64d",
+        "status": "completed"
+      },
+      {
+        "index": 25,
+        "job_id": "73216901-d595-4a05-96e7-440122f90a65",
+        "status": "completed"
+      },
+      {
+        "index": 26,
+        "job_id": "39907518-910e-4899-a669-cd776cd416f3",
+        "status": "completed"
+      },
+      {
+        "index": 27,
+        "job_id": "bc5984b5-ab1d-4a7a-be17-0c77a1c1d8b6",
+        "status": "completed"
+      },
+      {
+        "index": 28,
+        "job_id": "cdbc53f1-6df7-4cca-aef2-0e64a1e977de",
+        "status": "completed"
+      },
+      {
+        "index": 29,
+        "job_id": "f7f2a75c-2a61-4476-8d93-03da7835f3ab",
+        "status": "completed"
+      },
+      {
+        "index": 30,
+        "job_id": "d5596390-dab2-49dd-9b38-49cc5b96987a",
+        "status": "completed"
+      },
+      {
+        "index": 31,
+        "job_id": "eedc7404-8a04-4fb1-b3b9-aaffce4be36d",
+        "status": "completed"
+      },
+      {
+        "index": 32,
+        "job_id": "c057a0c7-6c9f-4e33-b3fd-b5bbabbb67f4",
+        "status": "completed"
+      },
+      {
+        "index": 33,
+        "job_id": "50c4ab3a-c4c2-46a8-aa3b-816a16915128",
+        "status": "completed"
+      },
+      {
+        "index": 34,
+        "job_id": "d18b6073-72d8-4bb7-8d63-fb4ce0af30cf",
+        "status": "completed"
+      },
+      {
+        "index": 35,
+        "job_id": "2da346b3-4178-48e0-a4f0-fcd44bd51832",
+        "status": "completed"
+      }
+    ],
+    "replacement": [
+      {
+        "index": 100,
+        "job_id": "70be9fd3-4852-4359-b53b-7d0e82389174",
+        "status": "completed"
+      },
+      {
+        "index": 101,
+        "job_id": "cd9647d0-248a-4457-b272-cb31272cf2d9",
+        "status": "completed"
+      },
+      {
+        "index": 102,
+        "job_id": "095089e5-1d3b-4fa0-b6c8-60e542ff56d2",
+        "status": "completed"
+      },
+      {
+        "index": 103,
+        "job_id": "50903c8b-e0ba-4906-b3c4-a9d269590ed7",
+        "status": "completed"
+      }
+    ],
+    "pyramidReference": {
+      "index": 104,
+      "job_id": "515f59f1-a07d-4572-afa2-b8a0c3118438",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_115639_515f59f1-a07d-4572-afa2-b8a0c3118438.png"
+    },
+    "pyramidVideo": {
+      "index": 105,
+      "job_id": "56252df2-39eb-48f0-89ea-112c34547755",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_115813_56252df2-39eb-48f0-89ea-112c34547755.mp4"
+    }
+  },
+  "supportFiles": [
+    {
+      "file_name": "Bizarre_Past_Produksjonsnotater_19nov2026.md",
+      "library_file_id": "libfile_fde3_f-c82fef33b7088191a69947c504eff2dd_a051186db4148191abb75d7b8656c8bb",
+      "file_id": "file_000000009c9481f58658f146fb292e8f"
+    },
+    {
+      "file_name": "Bizarre_Past_Manus_Undertekster_og_Publisering.zip",
+      "library_file_id": "libfile_fde3_f-e778b81103e88191997ef2c443df8edc_a051186db4148191abb75d7b8656c8bb",
+      "file_id": "file_000000009f5881fb97d495fed1bf8c53"
+    }
+  ],
+  "releaseRule": "Use these exact completed MP4 exports. Do not generate duplicates. No booking in this production request. Complete practical final AV review and refresh destination queue before any later release under existing channel rules."
 }
