@@ -5461,10 +5461,13 @@
       "automaticApprovalReviewAlsoDeniedFurtherGoogleAdsObservation": true,
       "noCampaignChanged": true
     },
-    "conclusion": "Recent advertising views and subscribers are confirmed after VeeFly's stated completion, but the current advertiser/account/payer and live campaign status are unknown. Do not label all traffic organic or assert all advertising stopped. Do not infer charges from these analytics. No new promotions, payments or Telegram messages authorized."
+    "conclusion": "Recent advertising views and subscribers are confirmed after VeeFly's stated completion, but the current advertiser/account/payer and live campaign status are unknown. Do not label all traffic organic or assert all advertising stopped. Do not infer charges from these analytics. No new promotions, payments or Telegram messages authorized.",
+    "manualCheckUrl": "https://ads.google.com/",
+    "manualCheckInstructions": "Select customer 748-968-4543 if present; check campaigns/all statuses and billing for 12-19 November; also check other customer accounts. No user confirmation of current Ads account status yet.",
+    "reportLibraryFileId": "libfile_fde3_f-1df93106fb0c8191a737bc7764b14ea3_a051186db4148191abb75d7b8656c8bb"
   },
   "activeBizarrePastProduction20261119": {
-    "status": "IN_PROGRESS",
+    "status": "EXPORTS_SAVED_QA_PENDING",
     "manifest": "data/bizarre-past-sacred-batch-2026-11-19.json",
     "films": [
       "pilate",
@@ -5472,8 +5475,61 @@
       "corridor"
     ],
     "generationAccepted": true,
-    "duplicateGuard": "The three Jesus/Pilate, Ark cave and pyramid corridor films are already being produced in this conversation. Reuse the accepted jobs and eventual final exports; do not generate duplicates or start a second version.",
-    "publication": "No new booking made in this production request. Complete practical AV review of exact exports before any later release."
+    "duplicateGuard": "39 completed source video generations including 3 cast retakes; final films are exported, confirmed and saved. Do not create another batch or retry accepted jobs to replace these outputs.",
+    "publication": "No new booking made in this production request. Complete practical AV review of exact exports before any later release.",
+    "generationComplete": true,
+    "finalOwnedMedia": {
+      "ark": {
+        "media_id": "41915783-7ef2-4313-9a80-c63663f5f088",
+        "status": "uploaded",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/41915783-7ef2-4313-9a80-c63663f5f088.mp4"
+      },
+      "pilate": {
+        "media_id": "43cb58b2-ec97-4348-8125-82048e270104",
+        "status": "uploaded",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/43cb58b2-ec97-4348-8125-82048e270104.mp4"
+      },
+      "corridor": {
+        "media_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
+        "status": "uploaded",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/6f62e429-6b91-4aee-aa04-dbc6f350b1f7.mp4"
+      }
+    },
+    "machineAVAnalyses": {
+      "pilate": {
+        "id": "77ab98ea-1326-4fda-bae4-0533f173f2d1",
+        "video_input_id": "43cb58b2-ec97-4348-8125-82048e270104",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "ark": {
+        "id": "f8f88795-5764-4d64-b42e-e5f032f12709",
+        "video_input_id": "41915783-7ef2-4313-9a80-c63663f5f088",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "corridor": {
+        "id": "d9488107-67e3-418d-8f89-18b35e0c0940",
+        "video_input_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      }
+    },
+    "technicalAndVisualChecksPassed": true,
+    "machineAVCompleted": false,
+    "spendCredits": 539.26,
+    "closingBalance": 1873.13,
+    "nextAction": "Poll the three existing analysis IDs. Review completed scene descriptions and audio transcript for correct narration, music and timing; resolve actual issues without duplicate generations. User asked for films prepared this turn, not immediate publishing.",
+    "noNewPublicationOrScheduleThisTurn": true
   },
   "bizarrePastAgentCheck20261119": {
     "date": "2026-11-19",
