@@ -1,7 +1,7 @@
 {
   "id": "bizarre-past-sacred-2026-11-19",
   "channel": "Bizarre Past",
-  "status": "PRODUCTION_IN_PROGRESS",
+  "status": "EXPORTED_AND_SAVED_AWAITING_MACHINE_AV_REVIEW",
   "newUserDirection": [
     "Jesus",
     "Bible",
@@ -814,7 +814,7 @@
     {
       "index": 0,
       "job_id": "fdbe5685-cea0-4ea6-b22e-ae3fc69c7900",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -831,12 +831,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_fdbe5685-cea0-4ea6-b22e-ae3fc69c7900.mp4",
+      "film": "pilate",
+      "n": 1
     },
     {
       "index": 1,
       "job_id": "d446a064-e364-41aa-ad87-d5661d4d6ebe",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -853,12 +858,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134959_d446a064-e364-41aa-ad87-d5661d4d6ebe.mp4",
+      "film": "pilate",
+      "n": 2
     },
     {
       "index": 2,
       "job_id": "20a8feb0-13fe-48a7-bf3c-b376158a8425",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -875,12 +885,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_20a8feb0-13fe-48a7-bf3c-b376158a8425.mp4",
+      "film": "pilate",
+      "n": 3
     },
     {
       "index": 3,
       "job_id": "d366a1b7-bf9d-4609-ab7a-97aa3ea16b74",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -897,12 +912,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_d366a1b7-bf9d-4609-ab7a-97aa3ea16b74.mp4",
+      "film": "pilate",
+      "n": 4
     },
     {
       "index": 4,
       "job_id": "64c47b08-5759-4ce5-875d-5aa70bcd4d8d",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -919,12 +939,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134959_64c47b08-5759-4ce5-875d-5aa70bcd4d8d.mp4",
+      "film": "pilate",
+      "n": 5
     },
     {
       "index": 5,
       "job_id": "bdf4688a-1bda-460c-bc24-628d77e375fc",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -941,12 +966,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_bdf4688a-1bda-460c-bc24-628d77e375fc.mp4",
+      "film": "pilate",
+      "n": 6
     },
     {
       "index": 6,
       "job_id": "9a277207-e85e-4b6a-82f8-2dd312de041b",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -963,12 +993,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_9a277207-e85e-4b6a-82f8-2dd312de041b.mp4",
+      "film": "ark",
+      "n": 1
     },
     {
       "index": 7,
       "job_id": "606f9459-0029-4112-b590-affc15b3dd94",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -985,12 +1020,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_606f9459-0029-4112-b590-affc15b3dd94.mp4",
+      "film": "ark",
+      "n": 2
     },
     {
       "index": 8,
       "job_id": "56a39e1f-41f8-42f9-978e-5d737cb18959",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1007,12 +1047,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_56a39e1f-41f8-42f9-978e-5d737cb18959.mp4",
+      "film": "ark",
+      "n": 3
     },
     {
       "index": 9,
       "job_id": "141a549a-f9f2-431c-ad81-c6ab447dc968",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1029,12 +1074,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_141a549a-f9f2-431c-ad81-c6ab447dc968.mp4",
+      "film": "ark",
+      "n": 4
     },
     {
       "index": 10,
       "job_id": "ff0c2f2a-490c-4a8d-8451-bcc0b0f97f6f",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1051,12 +1101,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_ff0c2f2a-490c-4a8d-8451-bcc0b0f97f6f.mp4",
+      "film": "ark",
+      "n": 5
     },
     {
       "index": 12,
       "job_id": "002b07bc-084b-457b-9016-434e0accac81",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1073,12 +1128,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_002b07bc-084b-457b-9016-434e0accac81.mp4",
+      "film": "corridor",
+      "n": 1
     },
     {
       "index": 13,
       "job_id": "231e558a-163c-44b2-8454-ee25fab10e2e",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1095,12 +1155,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_231e558a-163c-44b2-8454-ee25fab10e2e.mp4",
+      "film": "corridor",
+      "n": 2
     },
     {
       "index": 14,
       "job_id": "bfa2ac54-e16a-4fdb-9bd8-b0e580768c18",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1117,12 +1182,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_bfa2ac54-e16a-4fdb-9bd8-b0e580768c18.mp4",
+      "film": "corridor",
+      "n": 3
     },
     {
       "index": 15,
       "job_id": "2d4a83fe-6e61-454f-b482-c03bc994d706",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1139,12 +1209,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_2d4a83fe-6e61-454f-b482-c03bc994d706.mp4",
+      "film": "corridor",
+      "n": 4
     },
     {
       "index": 17,
       "job_id": "6e6ad24c-999c-4d2b-ab8f-913b25816b1c",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1161,12 +1236,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_6e6ad24c-999c-4d2b-ab8f-913b25816b1c.mp4",
+      "film": "corridor",
+      "n": 6
     },
     {
       "index": 18,
       "job_id": "c62519bd-6810-4d8d-a50b-b88888bcd37f",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1183,12 +1263,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_c62519bd-6810-4d8d-a50b-b88888bcd37f.mp4",
+      "film": "corridor",
+      "n": 7
     },
     {
       "index": 19,
       "job_id": "a69b2d0c-aa45-4bc3-add1-67da5025d190",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1205,12 +1290,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_a69b2d0c-aa45-4bc3-add1-67da5025d190.mp4",
+      "film": "corridor",
+      "n": 8
     },
     {
       "index": 20,
       "job_id": "78634bed-0a9b-4ecc-a811-70489f21816a",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1227,12 +1317,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135003_78634bed-0a9b-4ecc-a811-70489f21816a.mp4",
+      "film": "corridor",
+      "n": 9
     },
     {
       "index": 21,
       "job_id": "4bc02db4-3fb9-45a4-8dce-14323a95efce",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1249,12 +1344,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_4bc02db4-3fb9-45a4-8dce-14323a95efce.mp4",
+      "film": "corridor",
+      "n": 10
     },
     {
       "index": 22,
       "job_id": "4b561e93-af8a-46e9-84c6-fe64bca08b91",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1271,12 +1371,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_4b561e93-af8a-46e9-84c6-fe64bca08b91.mp4",
+      "film": "corridor",
+      "n": 11
     },
     {
       "index": 23,
       "job_id": "3b9712d7-3d59-4a66-a174-8ab41747c93d",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1293,12 +1398,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_3b9712d7-3d59-4a66-a174-8ab41747c93d.mp4",
+      "film": "corridor",
+      "n": 12
     },
     {
       "index": 24,
       "job_id": "1b8edb6f-b540-4c7b-af46-b49f06f84be1",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1315,12 +1425,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_1b8edb6f-b540-4c7b-af46-b49f06f84be1.mp4",
+      "film": "corridor",
+      "n": 13
     },
     {
       "index": 25,
       "job_id": "858b4504-d8bf-4da5-856d-c15f44e666b4",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1337,12 +1452,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_858b4504-d8bf-4da5-856d-c15f44e666b4.mp4",
+      "film": "corridor",
+      "n": 14
     },
     {
       "index": 27,
       "job_id": "2622c957-5681-4cdb-8cdd-2b27b927f170",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1359,12 +1479,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135007_2622c957-5681-4cdb-8cdd-2b27b927f170.mp4",
+      "film": "corridor",
+      "n": 16
     },
     {
       "index": 28,
       "job_id": "40869d30-8164-496c-8431-f3749855ce3f",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1381,12 +1506,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135008_40869d30-8164-496c-8431-f3749855ce3f.mp4",
+      "film": "corridor",
+      "n": 17
     },
     {
       "index": 29,
       "job_id": "97ff9319-5120-44c3-8f6f-804f98deb500",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1403,12 +1533,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135006_97ff9319-5120-44c3-8f6f-804f98deb500.mp4",
+      "film": "corridor",
+      "n": 18
     },
     {
       "index": 30,
       "job_id": "8b0e838b-8752-4049-aa52-285b8bd78a64",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1425,12 +1560,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135006_8b0e838b-8752-4049-aa52-285b8bd78a64.mp4",
+      "film": "corridor",
+      "n": 19
     },
     {
       "index": 31,
       "job_id": "72ef826a-7f22-4182-a9ca-c7eeb9a18280",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1447,12 +1587,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135006_72ef826a-7f22-4182-a9ca-c7eeb9a18280.mp4",
+      "film": "corridor",
+      "n": 20
     },
     {
       "index": 33,
       "job_id": "6ea6862f-5183-47c8-b368-5713e5e07633",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1469,12 +1614,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135005_6ea6862f-5183-47c8-b368-5713e5e07633.mp4",
+      "film": "corridor",
+      "n": 22
     },
     {
       "index": 34,
       "job_id": "ee9555a1-46e9-420d-bdee-b691da5e9fec",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1491,12 +1641,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_ee9555a1-46e9-420d-bdee-b691da5e9fec.mp4",
+      "film": "corridor",
+      "n": 23
     },
     {
       "index": 35,
       "job_id": "f38ce93a-3c0e-45f5-96fa-cd5a9e585428",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1513,12 +1668,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_f38ce93a-3c0e-45f5-96fa-cd5a9e585428.mp4",
+      "film": "corridor",
+      "n": 24
     },
     {
       "index": 36,
       "job_id": "5a15ab4d-c559-4aa7-b6a7-13fa9ce735ba",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1535,12 +1695,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135011_5a15ab4d-c559-4aa7-b6a7-13fa9ce735ba.mp4",
+      "film": "corridor",
+      "n": 25
     },
     {
       "index": 38,
       "job_id": "3def77ba-6fcf-4def-9431-cd0bd43fb97b",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1557,12 +1722,17 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_3def77ba-6fcf-4def-9431-cd0bd43fb97b.mp4",
+      "film": "corridor",
+      "n": 27
     },
     {
       "index": 39,
       "job_id": "c74782cd-996c-4acd-860a-02f305171e75",
-      "status": "pending",
+      "status": "completed",
       "adjustments": {
         "params.genre": {
           "requested": "(unset)",
@@ -1579,7 +1749,69 @@
           "used": "custom",
           "reason": "default for model"
         }
-      }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_c74782cd-996c-4acd-860a-02f305171e75.mp4",
+      "film": "corridor",
+      "n": 28
+    },
+    {
+      "index": 11,
+      "job_id": "9ca0f39b-bbd5-4973-a098-49b17cbcfc02",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135439_9ca0f39b-bbd5-4973-a098-49b17cbcfc02.mp4",
+      "film": "ark",
+      "n": 6
+    },
+    {
+      "index": 110,
+      "job_id": "f6f6e834-ac81-4be1-9f47-91be406e03da",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_140536_f6f6e834-ac81-4be1-9f47-91be406e03da.mp4",
+      "film": "pilate",
+      "n": 7
+    },
+    {
+      "index": 111,
+      "job_id": "d5a59551-e414-4b8f-a6bb-a0f8c554667f",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_140534_d5a59551-e414-4b8f-a6bb-a0f8c554667f.mp4",
+      "film": "pilate",
+      "n": 8
+    },
+    {
+      "index": 112,
+      "job_id": "c830980f-265a-488d-8ec2-70ab9cf8d613",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_140533_c830980f-265a-488d-8ec2-70ab9cf8d613.mp4",
+      "film": "pilate",
+      "n": 9
     }
   ],
   "analysis": {
@@ -1618,7 +1850,1675 @@
   },
   "publication": {
     "attempted": false,
-    "status": "NOT_SCHEDULED"
+    "status": "NOT_PUBLISHED",
+    "newScheduleCreated": false,
+    "eligibleForPublication": false,
+    "holdReason": "Machine scene/audio analyses are still queued. Read their actual audio and scene outputs, then review before any publication. Do not regenerate."
   },
-  "noTelegram": true
+  "noTelegram": true,
+  "videoJobs": [
+    {
+      "index": 0,
+      "job_id": "fdbe5685-cea0-4ea6-b22e-ae3fc69c7900",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_fdbe5685-cea0-4ea6-b22e-ae3fc69c7900.mp4",
+      "film": "pilate",
+      "n": 1
+    },
+    {
+      "index": 1,
+      "job_id": "d446a064-e364-41aa-ad87-d5661d4d6ebe",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134959_d446a064-e364-41aa-ad87-d5661d4d6ebe.mp4",
+      "film": "pilate",
+      "n": 2
+    },
+    {
+      "index": 2,
+      "job_id": "20a8feb0-13fe-48a7-bf3c-b376158a8425",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_20a8feb0-13fe-48a7-bf3c-b376158a8425.mp4",
+      "film": "pilate",
+      "n": 3
+    },
+    {
+      "index": 3,
+      "job_id": "d366a1b7-bf9d-4609-ab7a-97aa3ea16b74",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_d366a1b7-bf9d-4609-ab7a-97aa3ea16b74.mp4",
+      "film": "pilate",
+      "n": 4
+    },
+    {
+      "index": 4,
+      "job_id": "64c47b08-5759-4ce5-875d-5aa70bcd4d8d",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134959_64c47b08-5759-4ce5-875d-5aa70bcd4d8d.mp4",
+      "film": "pilate",
+      "n": 5
+    },
+    {
+      "index": 5,
+      "job_id": "bdf4688a-1bda-460c-bc24-628d77e375fc",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134958_bdf4688a-1bda-460c-bc24-628d77e375fc.mp4",
+      "film": "pilate",
+      "n": 6
+    },
+    {
+      "index": 6,
+      "job_id": "9a277207-e85e-4b6a-82f8-2dd312de041b",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_9a277207-e85e-4b6a-82f8-2dd312de041b.mp4",
+      "film": "ark",
+      "n": 1
+    },
+    {
+      "index": 7,
+      "job_id": "606f9459-0029-4112-b590-affc15b3dd94",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_606f9459-0029-4112-b590-affc15b3dd94.mp4",
+      "film": "ark",
+      "n": 2
+    },
+    {
+      "index": 8,
+      "job_id": "56a39e1f-41f8-42f9-978e-5d737cb18959",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_56a39e1f-41f8-42f9-978e-5d737cb18959.mp4",
+      "film": "ark",
+      "n": 3
+    },
+    {
+      "index": 9,
+      "job_id": "141a549a-f9f2-431c-ad81-c6ab447dc968",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_141a549a-f9f2-431c-ad81-c6ab447dc968.mp4",
+      "film": "ark",
+      "n": 4
+    },
+    {
+      "index": 10,
+      "job_id": "ff0c2f2a-490c-4a8d-8451-bcc0b0f97f6f",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_ff0c2f2a-490c-4a8d-8451-bcc0b0f97f6f.mp4",
+      "film": "ark",
+      "n": 5
+    },
+    {
+      "index": 12,
+      "job_id": "002b07bc-084b-457b-9016-434e0accac81",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135000_002b07bc-084b-457b-9016-434e0accac81.mp4",
+      "film": "corridor",
+      "n": 1
+    },
+    {
+      "index": 13,
+      "job_id": "231e558a-163c-44b2-8454-ee25fab10e2e",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_231e558a-163c-44b2-8454-ee25fab10e2e.mp4",
+      "film": "corridor",
+      "n": 2
+    },
+    {
+      "index": 14,
+      "job_id": "bfa2ac54-e16a-4fdb-9bd8-b0e580768c18",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_bfa2ac54-e16a-4fdb-9bd8-b0e580768c18.mp4",
+      "film": "corridor",
+      "n": 3
+    },
+    {
+      "index": 15,
+      "job_id": "2d4a83fe-6e61-454f-b482-c03bc994d706",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_2d4a83fe-6e61-454f-b482-c03bc994d706.mp4",
+      "film": "corridor",
+      "n": 4
+    },
+    {
+      "index": 17,
+      "job_id": "6e6ad24c-999c-4d2b-ab8f-913b25816b1c",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_6e6ad24c-999c-4d2b-ab8f-913b25816b1c.mp4",
+      "film": "corridor",
+      "n": 6
+    },
+    {
+      "index": 18,
+      "job_id": "c62519bd-6810-4d8d-a50b-b88888bcd37f",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_c62519bd-6810-4d8d-a50b-b88888bcd37f.mp4",
+      "film": "corridor",
+      "n": 7
+    },
+    {
+      "index": 19,
+      "job_id": "a69b2d0c-aa45-4bc3-add1-67da5025d190",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135002_a69b2d0c-aa45-4bc3-add1-67da5025d190.mp4",
+      "film": "corridor",
+      "n": 8
+    },
+    {
+      "index": 20,
+      "job_id": "78634bed-0a9b-4ecc-a811-70489f21816a",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135003_78634bed-0a9b-4ecc-a811-70489f21816a.mp4",
+      "film": "corridor",
+      "n": 9
+    },
+    {
+      "index": 21,
+      "job_id": "4bc02db4-3fb9-45a4-8dce-14323a95efce",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_4bc02db4-3fb9-45a4-8dce-14323a95efce.mp4",
+      "film": "corridor",
+      "n": 10
+    },
+    {
+      "index": 22,
+      "job_id": "4b561e93-af8a-46e9-84c6-fe64bca08b91",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_4b561e93-af8a-46e9-84c6-fe64bca08b91.mp4",
+      "film": "corridor",
+      "n": 11
+    },
+    {
+      "index": 23,
+      "job_id": "3b9712d7-3d59-4a66-a174-8ab41747c93d",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_3b9712d7-3d59-4a66-a174-8ab41747c93d.mp4",
+      "film": "corridor",
+      "n": 12
+    },
+    {
+      "index": 24,
+      "job_id": "1b8edb6f-b540-4c7b-af46-b49f06f84be1",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_1b8edb6f-b540-4c7b-af46-b49f06f84be1.mp4",
+      "film": "corridor",
+      "n": 13
+    },
+    {
+      "index": 25,
+      "job_id": "858b4504-d8bf-4da5-856d-c15f44e666b4",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135004_858b4504-d8bf-4da5-856d-c15f44e666b4.mp4",
+      "film": "corridor",
+      "n": 14
+    },
+    {
+      "index": 27,
+      "job_id": "2622c957-5681-4cdb-8cdd-2b27b927f170",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135007_2622c957-5681-4cdb-8cdd-2b27b927f170.mp4",
+      "film": "corridor",
+      "n": 16
+    },
+    {
+      "index": 28,
+      "job_id": "40869d30-8164-496c-8431-f3749855ce3f",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135008_40869d30-8164-496c-8431-f3749855ce3f.mp4",
+      "film": "corridor",
+      "n": 17
+    },
+    {
+      "index": 29,
+      "job_id": "97ff9319-5120-44c3-8f6f-804f98deb500",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135006_97ff9319-5120-44c3-8f6f-804f98deb500.mp4",
+      "film": "corridor",
+      "n": 18
+    },
+    {
+      "index": 30,
+      "job_id": "8b0e838b-8752-4049-aa52-285b8bd78a64",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135006_8b0e838b-8752-4049-aa52-285b8bd78a64.mp4",
+      "film": "corridor",
+      "n": 19
+    },
+    {
+      "index": 31,
+      "job_id": "72ef826a-7f22-4182-a9ca-c7eeb9a18280",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135006_72ef826a-7f22-4182-a9ca-c7eeb9a18280.mp4",
+      "film": "corridor",
+      "n": 20
+    },
+    {
+      "index": 33,
+      "job_id": "6ea6862f-5183-47c8-b368-5713e5e07633",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135005_6ea6862f-5183-47c8-b368-5713e5e07633.mp4",
+      "film": "corridor",
+      "n": 22
+    },
+    {
+      "index": 34,
+      "job_id": "ee9555a1-46e9-420d-bdee-b691da5e9fec",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_ee9555a1-46e9-420d-bdee-b691da5e9fec.mp4",
+      "film": "corridor",
+      "n": 23
+    },
+    {
+      "index": 35,
+      "job_id": "f38ce93a-3c0e-45f5-96fa-cd5a9e585428",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_f38ce93a-3c0e-45f5-96fa-cd5a9e585428.mp4",
+      "film": "corridor",
+      "n": 24
+    },
+    {
+      "index": 36,
+      "job_id": "5a15ab4d-c559-4aa7-b6a7-13fa9ce735ba",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135011_5a15ab4d-c559-4aa7-b6a7-13fa9ce735ba.mp4",
+      "film": "corridor",
+      "n": 25
+    },
+    {
+      "index": 38,
+      "job_id": "3def77ba-6fcf-4def-9431-cd0bd43fb97b",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_3def77ba-6fcf-4def-9431-cd0bd43fb97b.mp4",
+      "film": "corridor",
+      "n": 27
+    },
+    {
+      "index": 39,
+      "job_id": "c74782cd-996c-4acd-860a-02f305171e75",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135009_c74782cd-996c-4acd-860a-02f305171e75.mp4",
+      "film": "corridor",
+      "n": 28
+    },
+    {
+      "index": 11,
+      "job_id": "9ca0f39b-bbd5-4973-a098-49b17cbcfc02",
+      "status": "completed",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      },
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_135439_9ca0f39b-bbd5-4973-a098-49b17cbcfc02.mp4",
+      "film": "ark",
+      "n": 6
+    },
+    {
+      "index": 110,
+      "job_id": "f6f6e834-ac81-4be1-9f47-91be406e03da",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_140536_f6f6e834-ac81-4be1-9f47-91be406e03da.mp4",
+      "film": "pilate",
+      "n": 7
+    },
+    {
+      "index": 111,
+      "job_id": "d5a59551-e414-4b8f-a6bb-a0f8c554667f",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_140534_d5a59551-e414-4b8f-a6bb-a0f8c554667f.mp4",
+      "film": "pilate",
+      "n": 8
+    },
+    {
+      "index": 112,
+      "job_id": "c830980f-265a-488d-8ec2-70ab9cf8d613",
+      "status": "completed",
+      "type": "video",
+      "model": "cinematic_studio_video_v2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_140533_c830980f-265a-488d-8ec2-70ab9cf8d613.mp4",
+      "film": "pilate",
+      "n": 9
+    }
+  ],
+  "actualSpendCredits": 539.26,
+  "closingBalance": 1873.13,
+  "finalMedia": {
+    "pilate": {
+      "media_id": "43cb58b2-ec97-4348-8125-82048e270104",
+      "status": "uploaded",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/43cb58b2-ec97-4348-8125-82048e270104.mp4",
+      "analysis": {
+        "id": "77ab98ea-1326-4fda-bae4-0533f173f2d1",
+        "video_input_id": "43cb58b2-ec97-4348-8125-82048e270104",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "library": {
+        "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/final/Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+        "purpose": "create_library_file",
+        "status": "succeeded",
+        "file_id": "file_00000000809c81fd9c18613adb646e18",
+        "library_file_id": "libfile_fde3_f-8877571e0c0c8191aefa494d8f1a71d7_a051186db4148191abb75d7b8656c8bb",
+        "file_name": "Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+        "local_metadata_applied": true,
+        "path": "/Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+        "current_version_number": 0
+      },
+      "technicalQA": {
+        "film": "pilate",
+        "file": "Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+        "duration": 35.75,
+        "width": 1080,
+        "height": 1920,
+        "fps": "24/1",
+        "audioCodec": "aac",
+        "audioRate": "48000",
+        "audioChannels": 2,
+        "fullDecodeExitCode": 0,
+        "measuredLoudness": {
+          "input_i": "-16.00",
+          "input_tp": "-2.55",
+          "input_lra": "3.50",
+          "input_thresh": "-26.64",
+          "output_i": "-16.12",
+          "output_tp": "-2.84",
+          "output_lra": "2.20",
+          "output_thresh": "-26.63",
+          "normalization_type": "dynamic",
+          "target_offset": "0.12"
+        },
+        "detectionFindings": [],
+        "bytes": 16843404,
+        "sha256": "960fc62356db88dab6c13957a3b45d279b72f7ccbf8c4ba88d85fa5f4cf04cd0"
+      }
+    },
+    "ark": {
+      "media_id": "41915783-7ef2-4313-9a80-c63663f5f088",
+      "status": "uploaded",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/41915783-7ef2-4313-9a80-c63663f5f088.mp4",
+      "analysis": {
+        "id": "f8f88795-5764-4d64-b42e-e5f032f12709",
+        "video_input_id": "41915783-7ef2-4313-9a80-c63663f5f088",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "library": {
+        "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/final/Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+        "purpose": "create_library_file",
+        "status": "succeeded",
+        "file_id": "file_0000000085ec82309158ff9c002c176b",
+        "library_file_id": "libfile_fde3_f-11cd7cf30df08191ab3a456eff1ae06c_a051186db4148191abb75d7b8656c8bb",
+        "file_name": "Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+        "local_metadata_applied": true,
+        "path": "/Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+        "current_version_number": 0
+      },
+      "technicalQA": {
+        "film": "ark",
+        "file": "Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+        "duration": 37.5,
+        "width": 1080,
+        "height": 1920,
+        "fps": "24/1",
+        "audioCodec": "aac",
+        "audioRate": "48000",
+        "audioChannels": 2,
+        "fullDecodeExitCode": 0,
+        "measuredLoudness": {
+          "input_i": "-16.04",
+          "input_tp": "-2.85",
+          "input_lra": "3.20",
+          "input_thresh": "-26.85",
+          "output_i": "-16.17",
+          "output_tp": "-3.00",
+          "output_lra": "2.80",
+          "output_thresh": "-26.88",
+          "normalization_type": "dynamic",
+          "target_offset": "0.17"
+        },
+        "detectionFindings": [],
+        "bytes": 31137329,
+        "sha256": "e25d8ae11c3c03bbee11b24a7f5373bc7f9385514a40553e5de7050cabb09b5f"
+      }
+    },
+    "corridor": {
+      "media_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
+      "status": "uploaded",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/6f62e429-6b91-4aee-aa04-dbc6f350b1f7.mp4",
+      "analysis": {
+        "id": "d9488107-67e3-418d-8f89-18b35e0c0940",
+        "video_input_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "library": {
+        "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/final/Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+        "purpose": "create_library_file",
+        "status": "succeeded",
+        "file_id": "file_00000000824481fda697337170ecf71c",
+        "library_file_id": "libfile_fde3_f-3e8596301b3c8191984c6162fdd37815_a051186db4148191abb75d7b8656c8bb",
+        "file_name": "Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+        "local_metadata_applied": true,
+        "path": "/Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+        "current_version_number": 0
+      },
+      "technicalQA": {
+        "film": "corridor",
+        "file": "Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+        "duration": 182.6,
+        "width": 1920,
+        "height": 1080,
+        "fps": "24/1",
+        "audioCodec": "aac",
+        "audioRate": "48000",
+        "audioChannels": 2,
+        "fullDecodeExitCode": 0,
+        "measuredLoudness": {
+          "input_i": "-16.02",
+          "input_tp": "-2.28",
+          "input_lra": "3.60",
+          "input_thresh": "-26.55",
+          "output_i": "-16.17",
+          "output_tp": "-2.09",
+          "output_lra": "3.50",
+          "output_thresh": "-26.66",
+          "normalization_type": "dynamic",
+          "target_offset": "0.17"
+        },
+        "detectionFindings": [
+          "[freezedetect @ 0x7fc7ac0038c0] lavfi.freezedetect.freeze_start: 118.333333",
+          "[freezedetect @ 0x7fc7ac0038c0] lavfi.freezedetect.freeze_duration: 2",
+          "[freezedetect @ 0x7fc7ac0038c0] lavfi.freezedetect.freeze_end: 120.333333"
+        ],
+        "bytes": 110871240,
+        "sha256": "f79d37570dd2ed870013e44ebaa003656a0a8244814270a9e6d1942cdb461ce4"
+      }
+    }
+  },
+  "excludedSources": {
+    "indices": [
+      16,
+      26,
+      32,
+      37
+    ],
+    "pilateSceneNumbers": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "reason": "Remove inconsistent first frames, invented inscription text, and an unsupported populated corridor. Use cast-derived scenes 7 and 9 for the actual inscription; exclude retake scene 8 because new lower lettering appeared during movement."
+  },
+  "pilatePhotograph": {
+    "author": "Reinhard Dietrich",
+    "source": "https://commons.wikimedia.org/wiki/File:Pilate_Stone_copy_Milano.JPG",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "subject": "Pilate Stone cast in the Civico museo archeologico di Milano",
+    "changes": "AI-animated, reframed, resized and captioned",
+    "disclosure": "Animated museum cast; not original excavation footage"
+  },
+  "noPublicationScheduled": true,
+  "duplicateGuard": "39 completed source video generations including 3 cast retakes; final films are exported, confirmed and saved. Do not create another batch or retry accepted jobs to replace these outputs.",
+  "generationComplete": true,
+  "savedFiles": [
+    {
+      "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/final/Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000809c81fd9c18613adb646e18",
+      "library_file_id": "libfile_fde3_f-8877571e0c0c8191aefa494d8f1a71d7_a051186db4148191abb75d7b8656c8bb",
+      "file_name": "Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+      "local_metadata_applied": true,
+      "path": "/Bizarre_Past_Jesus_Pilate_1080x1920.mp4",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/final/Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000085ec82309158ff9c002c176b",
+      "library_file_id": "libfile_fde3_f-11cd7cf30df08191ab3a456eff1ae06c_a051186db4148191abb75d7b8656c8bb",
+      "file_name": "Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+      "local_metadata_applied": true,
+      "path": "/Bizarre_Past_Ark_Lost_Cave_1080x1920.mp4",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/final/Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000824481fda697337170ecf71c",
+      "library_file_id": "libfile_fde3_f-3e8596301b3c8191984c6162fdd37815_a051186db4148191abb75d7b8656c8bb",
+      "file_name": "Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+      "local_metadata_applied": true,
+      "path": "/Bizarre_Past_Pyramid_Hidden_Corridor_1920x1080.mp4",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/Bizarre_Past_Manus_Kilder_Undertekster_2026-11-19.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000a46481f8bb2c885479bf05ac",
+      "library_file_id": "libfile_fde3_f-8ef008d569f481919fb960f80fd4a406_a051186db4148191abb75d7b8656c8bb",
+      "file_name": "Bizarre_Past_Manus_Kilder_Undertekster_2026-11-19.zip",
+      "local_metadata_applied": true,
+      "path": "/Bizarre_Past_Manus_Kilder_Undertekster_2026-11-19.zip",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/release/Les_meg.md",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000072ec81fdbf15df2b0a5443c1",
+      "library_file_id": "libfile_fde3_f-a7922c05372881918a24e096d1ae81c3_a051186db4148191abb75d7b8656c8bb",
+      "file_name": "Les_meg.md",
+      "local_metadata_applied": true,
+      "path": "/Les_meg.md",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/ff72000e907a/sacred-batch-20261119/Little_Wild_Annonsekontroll_2026-11-19.md",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000f13481fdb7bdd45654a72c4f",
+      "library_file_id": "libfile_fde3_f-1df93106fb0c8191a737bc7764b14ea3_a051186db4148191abb75d7b8656c8bb",
+      "file_name": "Little_Wild_Annonsekontroll_2026-11-19.md",
+      "local_metadata_applied": true,
+      "path": "/Little_Wild_Annonsekontroll_2026-11-19.md",
+      "current_version_number": 0
+    }
+  ],
+  "selectedScenes": [
+    {
+      "index": 0,
+      "film": "pilate",
+      "n": 1,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern museum macro: a damaged beige limestone dedication block about 80cm wide, roughly rectangular with a broken irregular upper-left edge. The carved Latin marks are worn, partial and not fully readable. A blue-nitrile-gloved conservator lightly sweeps a soft brush near the letters. Low raking light catches the grooves; background dark and neutral.",
+      "videoPrompt": "Slow macro dolly along the damaged stone while the soft brush gently dislodges a few grains of dust. Keep carved marks stable and fragmentary; no new letters form. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "661e5c17-e235-4779-a5cb-74a2d7ff7a53"
+    },
+    {
+      "index": 1,
+      "film": "pilate",
+      "n": 2,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. A 1961 archaeological excavation at the Roman theatre of Caesarea on the Mediterranean coast. Two archaeologists in plain khaki field clothes kneel beside a partly exposed beige limestone building block in a later masonry stair, with curved ruined theatre seating behind. No staged treasure chest or modern machines.",
+      "videoPrompt": "Track slowly past the shallow excavation as one archaeologist brushes the stone's edge and the other records observations. Wind moves clothing lightly, no artifact lifting. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "ef87c455-fcf3-4339-909a-6c35008a8697"
+    },
+    {
+      "index": 2,
+      "film": "pilate",
+      "n": 3,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. First-century Roman stone workshop reconstruction: a mason's hands hold a small chisel and wooden mallet beside a beige limestone dedication block. The visible Latin-like carving is partial, defocused and not a readable invented document. Practical linen clothing, sunlit stone courtyard.",
+      "videoPrompt": "The mason makes a few controlled small chisel strokes while the camera moves toward the worn-looking stone surface. No gore, no wild flying debris, no growing text. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7f344891-0079-4f9d-bfea-03c5834a2cfd"
+    },
+    {
+      "index": 3,
+      "film": "pilate",
+      "n": 4,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Respectful visual reconstruction of the Gospel setting: first-century Judea, a brown-skinned Middle Eastern man representing Jesus, dark hair and simple off-white linen robe, stands in profile at a distance before a seated Roman provincial official in a restrained stone courtyard. Calm solemn scene, no angry crowd, no ethnic caricatures, no torture, no modern Christian architecture.",
+      "videoPrompt": "Slow lateral camera move through the courtyard; the robed man turns his head slightly toward the seated official while their clothing moves in a light breeze. No dialogue, no overt melodrama, no violence. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "98cfe97a-277b-4b7a-9f0d-eb0367657a50"
+    },
+    {
+      "index": 4,
+      "film": "pilate",
+      "n": 5,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day conservation close-up of the same kind of battered beige Roman limestone inscription, irregular broken upper-left edge, on a dark museum support. Surviving Latin-like marks are worn and only partly visible; no cross, portrait or image of Jesus appears on the block.",
+      "videoPrompt": "Move a raking inspection light slowly across the carved surface; gentle camera slide reveals the physical depth of the fragmentary marks. Do not invent or transform letters. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "661e5c17-e235-4779-a5cb-74a2d7ff7a53"
+    },
+    {
+      "index": 5,
+      "film": "pilate",
+      "n": 6,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern scholarly study, a conservator's gloved hand beside a damaged beige inscription fragment on an archival support, with an open printed Gospel book further back out of focus. Physical object and written source in the same composition, no readable invented text.",
+      "videoPrompt": "Camera travels from the book's soft pages to the inscription fragment while a hand turns one page gently. Preserve realistic artifacts and a quiet, complete closing motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "661e5c17-e235-4779-a5cb-74a2d7ff7a53"
+    },
+    {
+      "index": 6,
+      "film": "ark",
+      "n": 1,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of an ancient textual account: a closed rectangular gold-covered wooden chest, with a plain rim, four side rings, two long gold-covered carrying poles and two small opposing winged cherub sculptures on its lid. Warm lamplight catches gold as it stands just inside a rough limestone cave. The chest is human-portable, about a metre long, not a giant sarcophagus. No supernatural rays, no film-prop replica, no readable writing.",
+      "videoPrompt": "Slow camera approach, flame flickers and soft shadows move over the closed gold chest. Keep the paired wings, lid and carrying poles unchanged. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "b7c799f5-35bc-4064-91f4-4a6cd3df98ea"
+    },
+    {
+      "index": 7,
+      "film": "ark",
+      "n": 2,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day scholar's desk: an open old printed book and a handwritten manuscript facsimile, all text softly defocused and unreadable. A scholar's hand gently holds down a page, a warm desk lamp picks out paper fibers. This illustrates reading an ancient text rather than a newly discovered manuscript.",
+      "videoPrompt": "A hand turns the page slowly and the camera follows its edge, revealing another page without readable captions or invented quotations. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "73a3e512-298e-4643-910a-35a23cdeb775"
+    },
+    {
+      "index": 8,
+      "film": "ark",
+      "n": 3,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of the account in Second Maccabees: rocky ancient Levantine mountain path, an elderly bearded man in a plain beige robe leads several men in simple wool and linen garments carrying a modest closed gold-covered chest on long poles. Small opposing winged figures on its lid, rough dry landscape. No claim of a verified historical location.",
+      "videoPrompt": "The procession advances carefully uphill in one coherent direction. The chest remains level on the carrying poles; camera tracks alongside from a respectful distance. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a34ec781-9d1b-4cb3-9dd4-6025f61f4c05"
+    },
+    {
+      "index": 9,
+      "film": "ark",
+      "n": 4,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of a biblical textual tradition: a portable gold-covered rectangular chest with plain rim, two carrying poles and two opposing winged figures on its lid sits deeper inside a rough limestone cave. At the entrance, the silhouette of an elderly man in a beige robe shifts a loose stone into place. No treasure piles, no magic glow.",
+      "videoPrompt": "Gentle camera pullback while the man slides one loose stone near the entrance and lamplight flickers on the chest. Do not seal the whole cave impossibly in one motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "ce1a3458-6165-4929-a4bf-7a46489125bf"
+    },
+    {
+      "index": 10,
+      "film": "ark",
+      "n": 5,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of the account's lost route: two ancient travellers in practical beige and brown robes stand at a fork among rocky limestone gullies in the Levant. One looks up an empty path while the other studies the ground. No gold chest or modern excavation tools in this shot.",
+      "videoPrompt": "The travellers walk a few paces, stop and look in different directions as the camera slowly rises to show the confusing branching paths. Natural wind and cloth motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "5f836553-9486-4d70-8908-422c018ea0df"
+    },
+    {
+      "index": 11,
+      "film": "ark",
+      "n": 6,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. A secluded limestone cave entrance in a dry rocky hillside, viewed from outside at dusk, no identifiable modern archaeological site, no discovered artifacts visible. A thin branch sways near the entrance and dark cloud shadows move across the rock. Respectful, grounded mystery illustration.",
+      "videoPrompt": "Slow retreat from the dark cave entrance, wind moves scrub and changing dusk light reveals the landscape. Finish with an unobstructed view of the entrance, no opening door or treasure reveal. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "2db4b924-8ee2-44e9-a739-e72a3c27d835"
+    },
+    {
+      "index": 12,
+      "film": "corridor",
+      "n": 1,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day scientific work on rough limestone: blue-gloved hands guide a very thin black endoscope cable and slender guide tube into a tiny existing gap between massive angled limestone beams on the Great Pyramid's north face. Close realistic scale; no drilling, jackhammer, hieroglyphs or treasure.",
+      "videoPrompt": "Slow close push toward the small gap as the hand carefully advances the endoscope tube a few centimetres, light shifts naturally over rough limestone. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "6ebab6a7-db41-48f2-ad67-d129df91e453"
+    },
+    {
+      "index": 13,
+      "film": "corridor",
+      "n": 2,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Photorealistic reconstruction of the North Face Corridor: an empty narrow limestone passage about two metres wide and two metres high, about nine metres long, with a pitched gabled ceiling formed by rough stone beams, dusty bare stone floor and a closed far wall. A small inspection light illuminates the foreground. No stairs, painted walls, people, doors, statues, gold or inscriptions.",
+      "videoPrompt": "Inspection light sweeps slowly across the pitched ceiling and dusty floor while a small camera glides forward. Keep the closed far wall and plain stone geometry stable. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a14a93a0-14b7-44c1-9e39-b687579dc58e"
+    },
+    {
+      "index": 14,
+      "film": "corridor",
+      "n": 3,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day wide view of Khufu's Great Pyramid at Giza, worn rough tan limestone steps, massive triangular profile in hazy morning light. Visitors stand far away at the base to show scale, contemporary but modest documentary scene, no white ancient casing or invented second entrance in foreground.",
+      "videoPrompt": "Slow lateral aerial-like drift beside the north face; tiny visitors walk near the base and light desert dust moves. Preserve the complete triangular pyramid shape. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "5dc8bb4a-dfc3-410b-ae83-65f1f68e8432"
+    },
+    {
+      "index": 15,
+      "film": "corridor",
+      "n": 4,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Close architectural view of the Great Pyramid's north-face chevron, huge rough pale limestone beams arranged as a double inverted V above a dark original entrance. Modern documentary reconstruction, no decoration, no treasure doorway or smooth fantasy tunnel.",
+      "videoPrompt": "Slow tilt upward from the dark entrance to the heavy gabled limestone beams, revealing their weight and geometry. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "33a0782f-8f7a-42fb-9add-ceafade7c38c"
+    },
+    {
+      "index": 17,
+      "film": "corridor",
+      "n": 6,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day muon detector installation inside a narrow ancient limestone descending passage. A compact flat panel detector is protected in a plain light wooden case and supported securely on a small frame, a researcher in modern clothing kneels beside it. No glowing lasers or science-fiction screens.",
+      "videoPrompt": "The researcher carefully checks a cable and steps back while the camera moves slowly through the real-scale narrow stone passage. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "76c25525-531a-49a1-bfca-f81f33e4724e"
+    },
+    {
+      "index": 18,
+      "film": "corridor",
+      "n": 7,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Scientific illustration seen from near space: Earth's curved blue atmosphere below, faint high-energy cosmic-ray particle tracks arriving from dark space. Restrained 3D visualization, no explosions, no spacecraft, no disaster, no labels.",
+      "videoPrompt": "A few subtle particle tracks approach the atmosphere as the camera glides along the curved horizon. Clearly illustrative rather than a literal visible event. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0d9c19fc-5475-4af7-82ea-98a46b057366"
+    },
+    {
+      "index": 19,
+      "film": "corridor",
+      "n": 8,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Clean scientific 3D illustration: a few faint incoming particle tracks meet a translucent atmospheric layer, with several thinner tracks continuing downward. Deep blue-to-black background, simple physical visualization, no words, no false numerical data.",
+      "videoPrompt": "Animate a restrained branching particle shower downward through the atmospheric layer, smooth continuous motion, no lightning or destructive impacts. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "f5c9c85f-ec26-47f3-bf29-a3586128d7cb"
+    },
+    {
+      "index": 20,
+      "film": "corridor",
+      "n": 9,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Scientific illustrative cross-section of a thick rough limestone slab with a simple empty rectangular cavity. Thin faint particle tracks approach from above; some trajectories end in stone while others pass through the empty cavity to a detector plane below. No labels or readable data.",
+      "videoPrompt": "Animate sparse particle paths downward through the conceptual stone-and-air section. Keep geometry and line thickness stable; no shifting chambers. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0fd56b13-1d06-4255-9d08-1821f8e075b1"
+    },
+    {
+      "index": 21,
+      "film": "corridor",
+      "n": 10,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day close-up of a compact particle detector panel in a protected wooden case in a bare limestone passage. A thin sensor cable leads to a small battery unit. Documentary engineering detail, no sci-fi glowing interface.",
+      "videoPrompt": "Camera slides slowly past the detector panel as a gloved hand steadies its support. Only restrained real equipment motion, no fake readable figures. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "1436fab7-b57e-4529-9df6-51cfcefa5882"
+    },
+    {
+      "index": 22,
+      "film": "corridor",
+      "n": 11,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern laboratory, a scientist wearing a white coat and blue gloves studies a thin photographic nuclear-emulsion film on a lightbox. Plain instruments and soft monitors in background with unreadable information. No medieval objects or costume.",
+      "videoPrompt": "A gloved hand rotates the film slightly under the light while the camera moves closer to its delicate surface. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0165b020-0735-4192-9097-c6ff2a120865"
+    },
+    {
+      "index": 23,
+      "film": "corridor",
+      "n": 12,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Clean scientific visualization on dark neutral background: a pale block-like silhouette representing stone and a small cluster of bright dots suggesting higher particle counts in one direction. Abstract illustrative map, not authentic measured data. No text, axes or invented numbers.",
+      "videoPrompt": "Dots appear gradually in the same region and fade softly, suggesting a detected excess. Camera remains steady; avoid spurious new geometry. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "ab019bfb-b2c6-4de8-86d5-1a06a50fb54c"
+    },
+    {
+      "index": 24,
+      "film": "corridor",
+      "n": 13,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day two researchers in a conservation laboratory compare a compact detector panel and a nuclear-emulsion film protected in a clear archival holder. White coats, calm practical interaction, monitors out of focus with unreadable charts.",
+      "videoPrompt": "One researcher indicates a feature on the film holder while the other adjusts the small panel. A restrained camera slide connects the two methods. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0f470829-aa0b-4930-9ce3-f21097e73c25"
+    },
+    {
+      "index": 25,
+      "film": "corridor",
+      "n": 14,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day researcher adjusts a compact muon detector in a second position along a narrow limestone passage, another protected sensor case visible farther down. Accurate human scale and realistic supports, no glowing rays or fantasy equipment.",
+      "videoPrompt": "Camera tracks along the passage as the researcher carefully repositions the small support and checks its orientation. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "b68492f6-01c2-425b-822a-d75aa14adce1"
+    },
+    {
+      "index": 27,
+      "film": "corridor",
+      "n": 16,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day exterior close view of the massive north-face chevron beams and a tiny joint between blocks. Fine grains and weathering visible; no giant new doorway, no inscriptions.",
+      "videoPrompt": "A camera moves along the limestone seam and gradually reveals the dark original entrance below; natural changing sunlight. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7eb9af03-4896-47de-aa2e-ff9a2875143b"
+    },
+    {
+      "index": 28,
+      "film": "corridor",
+      "n": 17,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern non-destructive surveying: a researcher passes a compact ground-penetrating radar antenna by hand along a rough limestone surface near the pyramid entrance. Cables and a plain portable recording unit, no drilling or lasers.",
+      "videoPrompt": "The antenna moves slowly along a short straight path on the stone as the camera follows; preserve realistic contact and cable motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "1f91a76e-c8ba-478d-bd93-2b9c106d5c39"
+    },
+    {
+      "index": 29,
+      "film": "corridor",
+      "n": 18,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern ultrasonic testing on rough limestone: two gloved hands place small contact probes onto the stone surface, connected by thin cables to a portable instrument with an unreadable display. Documentary close shot, no medical scanning imagery.",
+      "videoPrompt": "The hands reposition the two probes carefully and pause for a reading while the camera makes a small controlled move. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "477ce3bf-3c25-47d1-a298-67cfdb62c641"
+    },
+    {
+      "index": 30,
+      "film": "corridor",
+      "n": 19,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Macro present-day scientific access: a narrow black guide tube enters a small natural gap between two large limestone blocks. A gloved hand stabilizes the tube; tiny inspection lens in foreground, no drilling.",
+      "videoPrompt": "Follow the endoscope cable as it is gently advanced through the existing gap, no breaking or widening of stones. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "bbca9b40-f7ff-4a3c-8f86-68fd934b48bb"
+    },
+    {
+      "index": 31,
+      "film": "corridor",
+      "n": 20,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Endoscope-like view reconstructed inside a rough limestone cavity: the near stone edge curves out of focus and a small bright light reveals a plain gabled roof and dusty passage beyond. No human can stand inside this view, no treasure.",
+      "videoPrompt": "The inspection view rotates slightly as the light scans upward, then steadies to reveal the empty passage and far wall. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7c517f65-6530-415b-ab8b-b85f291d72e0"
+    },
+    {
+      "index": 33,
+      "film": "corridor",
+      "n": 22,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Photorealistic present-day view of the Great Pyramid's Grand Gallery: a tall narrow corbelled limestone hall with steeply rising floor and a central modern wooden visitor stairway, simple side handrails, no gold, no painted hieroglyphs, no giant doorway beyond. This is a different known internal space from the North Face Corridor.",
+      "videoPrompt": "Slow forward ascent along the visitor stairway with a gentle tilt up the high corbelled walls; steady documentary camera movement. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7c6b960c-f0fc-433b-a62b-e4e262ef90fd"
+    },
+    {
+      "index": 34,
+      "film": "corridor",
+      "n": 23,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Clean explanatory 3D architectural illustration: simplified translucent triangular pyramid shell against a dark background, a small short pale horizontal cavity near one upper side and a second larger softly outlined void above a long slanted internal gallery. Locations and geometry deliberately simplified, no readable labels, no gold, no claimed newly opened tomb.",
+      "videoPrompt": "The two separate illustrated regions brighten one at a time, clearly distinct. Slow controlled orbit of the simplified shell, no added secret tunnels. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7c019784-7de9-4c07-b8f1-5c91f3b38ce9"
+    },
+    {
+      "index": 35,
+      "film": "corridor",
+      "n": 24,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day architectural close-up of heavy angled limestone beams above an entrance, showing contact surfaces and surrounding masonry under raking daylight. No carved hieroglyphs or decorative statues.",
+      "videoPrompt": "Slow tilt and short lateral move across the heavy gabled beam junction, emphasizing load-bearing stone texture without visible bending or movement of blocks. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "940e60d8-da41-436a-a818-92a4c9cc17dd"
+    },
+    {
+      "index": 36,
+      "film": "corridor",
+      "n": 25,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern researcher in neutral field clothes studies a notebook of soft unreadable architectural sketches beside rough pyramid stone. One finger follows an inverted-V roof sketch while an inspection lamp lies nearby. No invented scientific headline or readable data.",
+      "videoPrompt": "Camera moves from the sketch to the stone beam while the researcher gestures between them; natural restrained hand motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "88ab8f22-64b9-4725-94d3-a7722577d915"
+    },
+    {
+      "index": 38,
+      "film": "corridor",
+      "n": 27,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Wide present-day north face of Khufu's Great Pyramid, weathered limestone under warm late light. A few visitors walking at the base provide scale, low dusty desert wind, no ancient construction machinery or white casing.",
+      "videoPrompt": "Slow camera pullback from the huge stone face as small visitors continue along the base, a natural closing reveal of the monument's scale. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a7da51c3-0ecc-4fec-9888-a24440e75831"
+    },
+    {
+      "index": 39,
+      "film": "corridor",
+      "n": 28,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Return to a clean reconstruction of the empty North Face Corridor, about nine metres deep, plain limestone, gabled roof, bare dusty floor and closed far wall, soft pool of inspection light. Quiet factual ending, no gold, no doorway opening.",
+      "videoPrompt": "Inspection light gently settles on the closed far wall, then camera slowly retreats a short distance. End on the real-scale empty passage without revealing anything new. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a14a93a0-14b7-44c1-9e39-b687579dc58e"
+    }
+  ],
+  "quality": {
+    "visualContactSheetsReviewed": true,
+    "voiceASRComparedWithScript": true,
+    "fullDecodePassedForAll": true,
+    "formats": "Pilate and Ark:1080x1920; Corridor:1920x1080",
+    "audioMeasurement": "About -16 LUFS; true peaks below -2 dBTP; no detected long silence",
+    "longFilmLowMotion": "118.333-120.333s approximately. Visually reviewed: a quiet corridor shot with ongoing captions; not a broken export.",
+    "machineAVCompleted": false,
+    "machineAnalysisStates": {
+      "pilate": {
+        "id": "77ab98ea-1326-4fda-bae4-0533f173f2d1",
+        "video_input_id": "43cb58b2-ec97-4348-8125-82048e270104",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "ark": {
+        "id": "f8f88795-5764-4d64-b42e-e5f032f12709",
+        "video_input_id": "41915783-7ef2-4313-9a80-c63663f5f088",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      },
+      "corridor": {
+        "id": "d9488107-67e3-418d-8f89-18b35e0c0940",
+        "video_input_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
+        "youtube_url": null,
+        "status": "queued",
+        "fail_reason": null,
+        "video_s3_url": null,
+        "scenes": null
+      }
+    },
+    "humanFullPlaybackClaimed": false
+  },
+  "nextAction": "Poll the three existing analysis IDs. Review completed scene descriptions and audio transcript for correct narration, music and timing; resolve actual issues without duplicate generations. User asked for films prepared this turn, not immediate publishing."
 }
