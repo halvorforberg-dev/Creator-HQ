@@ -1,0 +1,1624 @@
+{
+  "id": "bizarre-past-sacred-2026-11-19",
+  "channel": "Bizarre Past",
+  "status": "PRODUCTION_IN_PROGRESS",
+  "newUserDirection": [
+    "Jesus",
+    "Bible",
+    "Pyramid secrets",
+    "Ark of the Covenant"
+  ],
+  "openingBalance": 2412.39,
+  "budgetCapCredits": 650,
+  "films": [
+    {
+      "id": "pilate",
+      "title": "A Damaged Stone Preserves the Name of Jesus' Roman Governor",
+      "format": "9:16",
+      "script": "Did you know a damaged stone preserves the name of Jesus' Roman governor? In 1961, excavators at Caesarea uncovered a Latin dedication naming Pontius Pilate, prefect of Judea. Its inscription dates to the first century, when he held office. The Gospels place Pilate in the story of Jesus' trial and crucifixion. This stone never mentions Jesus or describes that trial. It preserves the governor's name and title, giving an official in the biblical accounts a physical anchor.",
+      "sources": [
+        "https://droitromain.univ-grenoble-alpes.fr/Varia/Pontius_Pilatus_AE.htm",
+        "https://www.imj.org.il/en/collections/199042",
+        "https://www.biblegateway.com/passage/?search=Mark%2015&version=KJV"
+      ],
+      "music": "Original restrained historical mystery score, 45 seconds. Soft low strings, muted hand percussion and delicate plucked strings, a gently rising pulse with a clear resolved ending. Respectful and curious, no horror, no bombastic trailer hits, no vocal or choir, no recognisable melody. Keep spacious for clear spoken narration.",
+      "musicDuration": 45,
+      "hooks": [
+        "A reused stone preserved the name of Jesus' Roman governor.",
+        "A damaged Latin inscription names the governor in the Gospel trial story.",
+        "A theatre's reused building stone became evidence about Pontius Pilate."
+      ]
+    },
+    {
+      "id": "ark",
+      "title": "The Ark of the Covenant and the Cave Route No One Could Find",
+      "format": "9:16",
+      "script": "Did you know an ancient text says the Ark of the Covenant was hidden inside a cave? Second Maccabees describes Jeremiah taking the Ark to the mountain where Moses had looked toward the promised land. He placed it in a cave and sealed the entrance. Some followers tried to mark the path, but could not find it. Jeremiah says the place will remain unknown until God gathers his people again. That is the account preserved in this ancient book, rather than a verified excavation. The story preserves a promise, but gives us no recoverable route.",
+      "sources": [
+        "https://www.biblegateway.com/passage/?search=2%20Maccabees%202&version=NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Exodus%2025%3A10-22&version=KJV"
+      ],
+      "music": "Original respectful ancient mystery score, 45 seconds. Low bowed strings, sparse frame drum pulse, faint airy flute texture. Quiet suspense increases as a cave is sealed, then ends with a gentle unresolved curiosity followed by a clean soft final chord. Instrumental only, no chanting, no voices, no horror stabs, no recognisable tune, space for narrator.",
+      "musicDuration": 45,
+      "hooks": [
+        "An ancient text describes the Ark hidden in a cave whose route was lost.",
+        "The Ark's cave story contains a frustrating final clue.",
+        "The followers tried to mark the way to the Ark, but could not find it."
+      ]
+    },
+    {
+      "id": "corridor",
+      "title": "The Hidden Corridor a Tiny Camera Revealed Inside the Great Pyramid",
+      "format": "16:9",
+      "script": "Did you know a tiny camera slipped behind the Great Pyramid's stones and revealed a hidden corridor?\n\nThe view was startlingly simple: bare limestone, a pitched stone ceiling, and a narrow space running into darkness. The discovery was announced in twenty twenty-three, but the first clue had appeared years earlier.\n\nAbove the pyramid's original entrance, huge stone beams form an inverted V. This arrangement is called a chevron. Behind it, researchers suspected a gap that ordinary inspection could not reach.\n\nIn twenty sixteen, the ScanPyramids project reported a signal from inside the masonry. The team was using muons: tiny particles produced when cosmic rays interact with Earth's atmosphere. Many travel through stone. Denser, thicker material stops more of them; an empty space lets more through.\n\nDetectors inside the pyramid recorded the particles arriving from different directions. More arriving than expected suggested that some of the stone was missing. This was a measurement to investigate, rather than a photograph of a room.\n\nResearchers then observed the area from several positions. Independent teams used different kinds of detectors and compared the results. They could narrow down the hollow space's shape and location.\n\nThe resulting corridor was about nine metres long, with a cross-section roughly two metres by two. It lay just behind the north face's chevron blocks, above the original entrance.\n\nRadar and ultrasound provided further ways to test the stone without dismantling it. Then came the moment when measurements could be checked with a camera.\n\nResearchers found a small opening between the chevron stones. They passed a tube through it and guided an endoscope into the space. Its light revealed an empty passage with a gabled roof, matching the hidden corridor indicated by the scans.\n\nThis was the North Face Corridor. It should not be confused with the much larger Big Void reported in twenty seventeen above the Grand Gallery. Those are separate findings in different parts of the pyramid.\n\nSeeing a passage does not explain its purpose. Its dimensions and position are physical evidence. Ideas about how it relates to the entrance or the loads inside the building require archaeological interpretation. An empty space is not automatically a doorway to another room.\n\nThe important change was that researchers could investigate an invisible feature and then check it without tearing open the monument. Several methods had converged on the same hidden space.\n\nFor thousands of years, visitors had stood outside those stones. In twenty twenty-three, a camera finally showed what waited behind them: a corridor.\n\nThe mystery became more precise. Nine metres of space, and a question about why the builders left it there.",
+      "sources": [
+        "https://www.tum.de/en/news-and-events/all-news/press-releases/details/bedeutsamer-fund-in-der-cheops-pyramide-von-gizeh",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9981702/",
+        "https://www.mae.ed.tum.de/en/zfp/forschungsprojekte/scanpyramids-project/",
+        "https://www.sciencedirect.com/science/article/pii/S0963869523000245"
+      ],
+      "music": "Original cinematic archaeology documentary score, 240 seconds. Controlled suspenseful low strings, gentle ticking percussion, spacious warm plucked-string accents and soft evolving orchestral pads. Build gradually through investigation, make room for quiet moments, optimistic scientific discovery feeling, gentle complete resolved finale. No vocals, no choir, no horror jolts, no recognisable copyrighted themes. Narration is the focus.",
+      "musicDuration": 240,
+      "hooks": [
+        "A tiny camera slipped behind the Great Pyramid's stones and revealed a hidden corridor.",
+        "Invisible particles helped locate a corridor behind the pyramid's entrance.",
+        "A stone wall became a testable archaeological question."
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "index": 0,
+      "film": "pilate",
+      "n": 1,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern museum macro: a damaged beige limestone dedication block about 80cm wide, roughly rectangular with a broken irregular upper-left edge. The carved Latin marks are worn, partial and not fully readable. A blue-nitrile-gloved conservator lightly sweeps a soft brush near the letters. Low raking light catches the grooves; background dark and neutral.",
+      "videoPrompt": "Slow macro dolly along the damaged stone while the soft brush gently dislodges a few grains of dust. Keep carved marks stable and fragmentary; no new letters form. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "661e5c17-e235-4779-a5cb-74a2d7ff7a53"
+    },
+    {
+      "index": 1,
+      "film": "pilate",
+      "n": 2,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. A 1961 archaeological excavation at the Roman theatre of Caesarea on the Mediterranean coast. Two archaeologists in plain khaki field clothes kneel beside a partly exposed beige limestone building block in a later masonry stair, with curved ruined theatre seating behind. No staged treasure chest or modern machines.",
+      "videoPrompt": "Track slowly past the shallow excavation as one archaeologist brushes the stone's edge and the other records observations. Wind moves clothing lightly, no artifact lifting. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "ef87c455-fcf3-4339-909a-6c35008a8697"
+    },
+    {
+      "index": 2,
+      "film": "pilate",
+      "n": 3,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. First-century Roman stone workshop reconstruction: a mason's hands hold a small chisel and wooden mallet beside a beige limestone dedication block. The visible Latin-like carving is partial, defocused and not a readable invented document. Practical linen clothing, sunlit stone courtyard.",
+      "videoPrompt": "The mason makes a few controlled small chisel strokes while the camera moves toward the worn-looking stone surface. No gore, no wild flying debris, no growing text. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7f344891-0079-4f9d-bfea-03c5834a2cfd"
+    },
+    {
+      "index": 3,
+      "film": "pilate",
+      "n": 4,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Respectful visual reconstruction of the Gospel setting: first-century Judea, a brown-skinned Middle Eastern man representing Jesus, dark hair and simple off-white linen robe, stands in profile at a distance before a seated Roman provincial official in a restrained stone courtyard. Calm solemn scene, no angry crowd, no ethnic caricatures, no torture, no modern Christian architecture.",
+      "videoPrompt": "Slow lateral camera move through the courtyard; the robed man turns his head slightly toward the seated official while their clothing moves in a light breeze. No dialogue, no overt melodrama, no violence. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "98cfe97a-277b-4b7a-9f0d-eb0367657a50"
+    },
+    {
+      "index": 4,
+      "film": "pilate",
+      "n": 5,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day conservation close-up of the same kind of battered beige Roman limestone inscription, irregular broken upper-left edge, on a dark museum support. Surviving Latin-like marks are worn and only partly visible; no cross, portrait or image of Jesus appears on the block.",
+      "videoPrompt": "Move a raking inspection light slowly across the carved surface; gentle camera slide reveals the physical depth of the fragmentary marks. Do not invent or transform letters. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "661e5c17-e235-4779-a5cb-74a2d7ff7a53"
+    },
+    {
+      "index": 5,
+      "film": "pilate",
+      "n": 6,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern scholarly study, a conservator's gloved hand beside a damaged beige inscription fragment on an archival support, with an open printed Gospel book further back out of focus. Physical object and written source in the same composition, no readable invented text.",
+      "videoPrompt": "Camera travels from the book's soft pages to the inscription fragment while a hand turns one page gently. Preserve realistic artifacts and a quiet, complete closing motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "661e5c17-e235-4779-a5cb-74a2d7ff7a53"
+    },
+    {
+      "index": 6,
+      "film": "ark",
+      "n": 1,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of an ancient textual account: a closed rectangular gold-covered wooden chest, with a plain rim, four side rings, two long gold-covered carrying poles and two small opposing winged cherub sculptures on its lid. Warm lamplight catches gold as it stands just inside a rough limestone cave. The chest is human-portable, about a metre long, not a giant sarcophagus. No supernatural rays, no film-prop replica, no readable writing.",
+      "videoPrompt": "Slow camera approach, flame flickers and soft shadows move over the closed gold chest. Keep the paired wings, lid and carrying poles unchanged. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "b7c799f5-35bc-4064-91f4-4a6cd3df98ea"
+    },
+    {
+      "index": 7,
+      "film": "ark",
+      "n": 2,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day scholar's desk: an open old printed book and a handwritten manuscript facsimile, all text softly defocused and unreadable. A scholar's hand gently holds down a page, a warm desk lamp picks out paper fibers. This illustrates reading an ancient text rather than a newly discovered manuscript.",
+      "videoPrompt": "A hand turns the page slowly and the camera follows its edge, revealing another page without readable captions or invented quotations. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "73a3e512-298e-4643-910a-35a23cdeb775"
+    },
+    {
+      "index": 8,
+      "film": "ark",
+      "n": 3,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of the account in Second Maccabees: rocky ancient Levantine mountain path, an elderly bearded man in a plain beige robe leads several men in simple wool and linen garments carrying a modest closed gold-covered chest on long poles. Small opposing winged figures on its lid, rough dry landscape. No claim of a verified historical location.",
+      "videoPrompt": "The procession advances carefully uphill in one coherent direction. The chest remains level on the carrying poles; camera tracks alongside from a respectful distance. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a34ec781-9d1b-4cb3-9dd4-6025f61f4c05"
+    },
+    {
+      "index": 9,
+      "film": "ark",
+      "n": 4,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of a biblical textual tradition: a portable gold-covered rectangular chest with plain rim, two carrying poles and two opposing winged figures on its lid sits deeper inside a rough limestone cave. At the entrance, the silhouette of an elderly man in a beige robe shifts a loose stone into place. No treasure piles, no magic glow.",
+      "videoPrompt": "Gentle camera pullback while the man slides one loose stone near the entrance and lamplight flickers on the chest. Do not seal the whole cave impossibly in one motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "ce1a3458-6165-4929-a4bf-7a46489125bf"
+    },
+    {
+      "index": 10,
+      "film": "ark",
+      "n": 5,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Illustration of the account's lost route: two ancient travellers in practical beige and brown robes stand at a fork among rocky limestone gullies in the Levant. One looks up an empty path while the other studies the ground. No gold chest or modern excavation tools in this shot.",
+      "videoPrompt": "The travellers walk a few paces, stop and look in different directions as the camera slowly rises to show the confusing branching paths. Natural wind and cloth motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "5f836553-9486-4d70-8908-422c018ea0df"
+    },
+    {
+      "index": 11,
+      "film": "ark",
+      "n": 6,
+      "aspect_ratio": "9:16",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. A secluded limestone cave entrance in a dry rocky hillside, viewed from outside at dusk, no identifiable modern archaeological site, no discovered artifacts visible. A thin branch sways near the entrance and dark cloud shadows move across the rock. Respectful, grounded mystery illustration.",
+      "videoPrompt": "Slow retreat from the dark cave entrance, wind moves scrub and changing dusk light reveals the landscape. Finish with an unobstructed view of the entrance, no opening door or treasure reveal. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": null
+    },
+    {
+      "index": 12,
+      "film": "corridor",
+      "n": 1,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day scientific work on rough limestone: blue-gloved hands guide a very thin black endoscope cable and slender guide tube into a tiny existing gap between massive angled limestone beams on the Great Pyramid's north face. Close realistic scale; no drilling, jackhammer, hieroglyphs or treasure.",
+      "videoPrompt": "Slow close push toward the small gap as the hand carefully advances the endoscope tube a few centimetres, light shifts naturally over rough limestone. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "6ebab6a7-db41-48f2-ad67-d129df91e453"
+    },
+    {
+      "index": 13,
+      "film": "corridor",
+      "n": 2,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Photorealistic reconstruction of the North Face Corridor: an empty narrow limestone passage about two metres wide and two metres high, about nine metres long, with a pitched gabled ceiling formed by rough stone beams, dusty bare stone floor and a closed far wall. A small inspection light illuminates the foreground. No stairs, painted walls, people, doors, statues, gold or inscriptions.",
+      "videoPrompt": "Inspection light sweeps slowly across the pitched ceiling and dusty floor while a small camera glides forward. Keep the closed far wall and plain stone geometry stable. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a14a93a0-14b7-44c1-9e39-b687579dc58e"
+    },
+    {
+      "index": 14,
+      "film": "corridor",
+      "n": 3,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day wide view of Khufu's Great Pyramid at Giza, worn rough tan limestone steps, massive triangular profile in hazy morning light. Visitors stand far away at the base to show scale, contemporary but modest documentary scene, no white ancient casing or invented second entrance in foreground.",
+      "videoPrompt": "Slow lateral aerial-like drift beside the north face; tiny visitors walk near the base and light desert dust moves. Preserve the complete triangular pyramid shape. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "5dc8bb4a-dfc3-410b-ae83-65f1f68e8432"
+    },
+    {
+      "index": 15,
+      "film": "corridor",
+      "n": 4,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Close architectural view of the Great Pyramid's north-face chevron, huge rough pale limestone beams arranged as a double inverted V above a dark original entrance. Modern documentary reconstruction, no decoration, no treasure doorway or smooth fantasy tunnel.",
+      "videoPrompt": "Slow tilt upward from the dark entrance to the heavy gabled limestone beams, revealing their weight and geometry. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "33a0782f-8f7a-42fb-9add-ceafade7c38c"
+    },
+    {
+      "index": 17,
+      "film": "corridor",
+      "n": 6,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day muon detector installation inside a narrow ancient limestone descending passage. A compact flat panel detector is protected in a plain light wooden case and supported securely on a small frame, a researcher in modern clothing kneels beside it. No glowing lasers or science-fiction screens.",
+      "videoPrompt": "The researcher carefully checks a cable and steps back while the camera moves slowly through the real-scale narrow stone passage. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "76c25525-531a-49a1-bfca-f81f33e4724e"
+    },
+    {
+      "index": 18,
+      "film": "corridor",
+      "n": 7,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Scientific illustration seen from near space: Earth's curved blue atmosphere below, faint high-energy cosmic-ray particle tracks arriving from dark space. Restrained 3D visualization, no explosions, no spacecraft, no disaster, no labels.",
+      "videoPrompt": "A few subtle particle tracks approach the atmosphere as the camera glides along the curved horizon. Clearly illustrative rather than a literal visible event. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0d9c19fc-5475-4af7-82ea-98a46b057366"
+    },
+    {
+      "index": 19,
+      "film": "corridor",
+      "n": 8,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Clean scientific 3D illustration: a few faint incoming particle tracks meet a translucent atmospheric layer, with several thinner tracks continuing downward. Deep blue-to-black background, simple physical visualization, no words, no false numerical data.",
+      "videoPrompt": "Animate a restrained branching particle shower downward through the atmospheric layer, smooth continuous motion, no lightning or destructive impacts. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "f5c9c85f-ec26-47f3-bf29-a3586128d7cb"
+    },
+    {
+      "index": 20,
+      "film": "corridor",
+      "n": 9,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Scientific illustrative cross-section of a thick rough limestone slab with a simple empty rectangular cavity. Thin faint particle tracks approach from above; some trajectories end in stone while others pass through the empty cavity to a detector plane below. No labels or readable data.",
+      "videoPrompt": "Animate sparse particle paths downward through the conceptual stone-and-air section. Keep geometry and line thickness stable; no shifting chambers. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0fd56b13-1d06-4255-9d08-1821f8e075b1"
+    },
+    {
+      "index": 21,
+      "film": "corridor",
+      "n": 10,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day close-up of a compact particle detector panel in a protected wooden case in a bare limestone passage. A thin sensor cable leads to a small battery unit. Documentary engineering detail, no sci-fi glowing interface.",
+      "videoPrompt": "Camera slides slowly past the detector panel as a gloved hand steadies its support. Only restrained real equipment motion, no fake readable figures. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "1436fab7-b57e-4529-9df6-51cfcefa5882"
+    },
+    {
+      "index": 22,
+      "film": "corridor",
+      "n": 11,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern laboratory, a scientist wearing a white coat and blue gloves studies a thin photographic nuclear-emulsion film on a lightbox. Plain instruments and soft monitors in background with unreadable information. No medieval objects or costume.",
+      "videoPrompt": "A gloved hand rotates the film slightly under the light while the camera moves closer to its delicate surface. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0165b020-0735-4192-9097-c6ff2a120865"
+    },
+    {
+      "index": 23,
+      "film": "corridor",
+      "n": 12,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Clean scientific visualization on dark neutral background: a pale block-like silhouette representing stone and a small cluster of bright dots suggesting higher particle counts in one direction. Abstract illustrative map, not authentic measured data. No text, axes or invented numbers.",
+      "videoPrompt": "Dots appear gradually in the same region and fade softly, suggesting a detected excess. Camera remains steady; avoid spurious new geometry. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "ab019bfb-b2c6-4de8-86d5-1a06a50fb54c"
+    },
+    {
+      "index": 24,
+      "film": "corridor",
+      "n": 13,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day two researchers in a conservation laboratory compare a compact detector panel and a nuclear-emulsion film protected in a clear archival holder. White coats, calm practical interaction, monitors out of focus with unreadable charts.",
+      "videoPrompt": "One researcher indicates a feature on the film holder while the other adjusts the small panel. A restrained camera slide connects the two methods. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "0f470829-aa0b-4930-9ce3-f21097e73c25"
+    },
+    {
+      "index": 25,
+      "film": "corridor",
+      "n": 14,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day researcher adjusts a compact muon detector in a second position along a narrow limestone passage, another protected sensor case visible farther down. Accurate human scale and realistic supports, no glowing rays or fantasy equipment.",
+      "videoPrompt": "Camera tracks along the passage as the researcher carefully repositions the small support and checks its orientation. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "b68492f6-01c2-425b-822a-d75aa14adce1"
+    },
+    {
+      "index": 27,
+      "film": "corridor",
+      "n": 16,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day exterior close view of the massive north-face chevron beams and a tiny joint between blocks. Fine grains and weathering visible; no giant new doorway, no inscriptions.",
+      "videoPrompt": "A camera moves along the limestone seam and gradually reveals the dark original entrance below; natural changing sunlight. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7eb9af03-4896-47de-aa2e-ff9a2875143b"
+    },
+    {
+      "index": 28,
+      "film": "corridor",
+      "n": 17,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern non-destructive surveying: a researcher passes a compact ground-penetrating radar antenna by hand along a rough limestone surface near the pyramid entrance. Cables and a plain portable recording unit, no drilling or lasers.",
+      "videoPrompt": "The antenna moves slowly along a short straight path on the stone as the camera follows; preserve realistic contact and cable motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "1f91a76e-c8ba-478d-bd93-2b9c106d5c39"
+    },
+    {
+      "index": 29,
+      "film": "corridor",
+      "n": 18,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern ultrasonic testing on rough limestone: two gloved hands place small contact probes onto the stone surface, connected by thin cables to a portable instrument with an unreadable display. Documentary close shot, no medical scanning imagery.",
+      "videoPrompt": "The hands reposition the two probes carefully and pause for a reading while the camera makes a small controlled move. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "477ce3bf-3c25-47d1-a298-67cfdb62c641"
+    },
+    {
+      "index": 30,
+      "film": "corridor",
+      "n": 19,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Macro present-day scientific access: a narrow black guide tube enters a small natural gap between two large limestone blocks. A gloved hand stabilizes the tube; tiny inspection lens in foreground, no drilling.",
+      "videoPrompt": "Follow the endoscope cable as it is gently advanced through the existing gap, no breaking or widening of stones. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "bbca9b40-f7ff-4a3c-8f86-68fd934b48bb"
+    },
+    {
+      "index": 31,
+      "film": "corridor",
+      "n": 20,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Endoscope-like view reconstructed inside a rough limestone cavity: the near stone edge curves out of focus and a small bright light reveals a plain gabled roof and dusty passage beyond. No human can stand inside this view, no treasure.",
+      "videoPrompt": "The inspection view rotates slightly as the light scans upward, then steadies to reveal the empty passage and far wall. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7c517f65-6530-415b-ab8b-b85f291d72e0"
+    },
+    {
+      "index": 33,
+      "film": "corridor",
+      "n": 22,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Photorealistic present-day view of the Great Pyramid's Grand Gallery: a tall narrow corbelled limestone hall with steeply rising floor and a central modern wooden visitor stairway, simple side handrails, no gold, no painted hieroglyphs, no giant doorway beyond. This is a different known internal space from the North Face Corridor.",
+      "videoPrompt": "Slow forward ascent along the visitor stairway with a gentle tilt up the high corbelled walls; steady documentary camera movement. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7c6b960c-f0fc-433b-a62b-e4e262ef90fd"
+    },
+    {
+      "index": 34,
+      "film": "corridor",
+      "n": 23,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Clean explanatory 3D architectural illustration: simplified translucent triangular pyramid shell against a dark background, a small short pale horizontal cavity near one upper side and a second larger softly outlined void above a long slanted internal gallery. Locations and geometry deliberately simplified, no readable labels, no gold, no claimed newly opened tomb.",
+      "videoPrompt": "The two separate illustrated regions brighten one at a time, clearly distinct. Slow controlled orbit of the simplified shell, no added secret tunnels. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "7c019784-7de9-4c07-b8f1-5c91f3b38ce9"
+    },
+    {
+      "index": 35,
+      "film": "corridor",
+      "n": 24,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Present-day architectural close-up of heavy angled limestone beams above an entrance, showing contact surfaces and surrounding masonry under raking daylight. No carved hieroglyphs or decorative statues.",
+      "videoPrompt": "Slow tilt and short lateral move across the heavy gabled beam junction, emphasizing load-bearing stone texture without visible bending or movement of blocks. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "940e60d8-da41-436a-a818-92a4c9cc17dd"
+    },
+    {
+      "index": 36,
+      "film": "corridor",
+      "n": 25,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Modern researcher in neutral field clothes studies a notebook of soft unreadable architectural sketches beside rough pyramid stone. One finger follows an inverted-V roof sketch while an inspection lamp lies nearby. No invented scientific headline or readable data.",
+      "videoPrompt": "Camera moves from the sketch to the stone beam while the researcher gestures between them; natural restrained hand motion. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "88ab8f22-64b9-4725-94d3-a7722577d915"
+    },
+    {
+      "index": 38,
+      "film": "corridor",
+      "n": 27,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Wide present-day north face of Khufu's Great Pyramid, weathered limestone under warm late light. A few visitors walking at the base provide scale, low dusty desert wind, no ancient construction machinery or white casing.",
+      "videoPrompt": "Slow camera pullback from the huge stone face as small visitors continue along the base, a natural closing reveal of the monument's scale. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a7da51c3-0ecc-4fec-9888-a24440e75831"
+    },
+    {
+      "index": 39,
+      "film": "corridor",
+      "n": 28,
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "imagePrompt": "Original documentary illustration. Accurate materials and human scale, clear main subject, natural cinematic composition. No captions, titles, logos, watermarks or readable invented writing. Return to a clean reconstruction of the empty North Face Corridor, about nine metres deep, plain limestone, gabled roof, bare dusty floor and closed far wall, soft pool of inspection light. Quiet factual ending, no gold, no doorway opening.",
+      "videoPrompt": "Inspection light gently settles on the closed far wall, then camera slowly retreats a short distance. End on the real-scale empty passage without revealing anything new. Continuous meaningful movement, stable identities and geometry, realistic physics. No added text, labels, logos or watermarks.",
+      "sourceImageJobId": "a14a93a0-14b7-44c1-9e39-b687579dc58e"
+    }
+  ],
+  "images": [
+    {
+      "index": 0,
+      "job_id": "661e5c17-e235-4779-a5cb-74a2d7ff7a53",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134233_661e5c17-e235-4779-a5cb-74a2d7ff7a53.png"
+    },
+    {
+      "index": 1,
+      "job_id": "ef87c455-fcf3-4339-909a-6c35008a8697",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134234_ef87c455-fcf3-4339-909a-6c35008a8697.png"
+    },
+    {
+      "index": 2,
+      "job_id": "7f344891-0079-4f9d-bfea-03c5834a2cfd",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134233_7f344891-0079-4f9d-bfea-03c5834a2cfd.png"
+    },
+    {
+      "index": 3,
+      "job_id": "98cfe97a-277b-4b7a-9f0d-eb0367657a50",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134232_98cfe97a-277b-4b7a-9f0d-eb0367657a50.png"
+    },
+    {
+      "index": 4,
+      "job_id": "c0582b2f-4d15-457c-bd09-9c33acfc7467",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134232_c0582b2f-4d15-457c-bd09-9c33acfc7467.png"
+    },
+    {
+      "index": 5,
+      "job_id": "b1c3b72e-02fe-4819-a59b-2fe4750014c2",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134231_b1c3b72e-02fe-4819-a59b-2fe4750014c2.png"
+    },
+    {
+      "index": 6,
+      "job_id": "b7c799f5-35bc-4064-91f4-4a6cd3df98ea",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134237_b7c799f5-35bc-4064-91f4-4a6cd3df98ea.png"
+    },
+    {
+      "index": 7,
+      "job_id": "73a3e512-298e-4643-910a-35a23cdeb775",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134236_73a3e512-298e-4643-910a-35a23cdeb775.png"
+    },
+    {
+      "index": 8,
+      "job_id": "a34ec781-9d1b-4cb3-9dd4-6025f61f4c05",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134236_a34ec781-9d1b-4cb3-9dd4-6025f61f4c05.png"
+    },
+    {
+      "index": 9,
+      "job_id": "ce1a3458-6165-4929-a4bf-7a46489125bf",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134239_ce1a3458-6165-4929-a4bf-7a46489125bf.png"
+    },
+    {
+      "index": 10,
+      "job_id": "5f836553-9486-4d70-8908-422c018ea0df",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134237_5f836553-9486-4d70-8908-422c018ea0df.png"
+    },
+    {
+      "index": 11,
+      "job_id": "b7399610-0bf4-46e8-9a59-24fdd81f198a",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134237_b7399610-0bf4-46e8-9a59-24fdd81f198a.png"
+    },
+    {
+      "index": 12,
+      "job_id": "6ebab6a7-db41-48f2-ad67-d129df91e453",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134243_6ebab6a7-db41-48f2-ad67-d129df91e453.png"
+    },
+    {
+      "index": 13,
+      "job_id": "a14a93a0-14b7-44c1-9e39-b687579dc58e",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134243_a14a93a0-14b7-44c1-9e39-b687579dc58e.png"
+    },
+    {
+      "index": 14,
+      "job_id": "5dc8bb4a-dfc3-410b-ae83-65f1f68e8432",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134242_5dc8bb4a-dfc3-410b-ae83-65f1f68e8432.png"
+    },
+    {
+      "index": 15,
+      "job_id": "33a0782f-8f7a-42fb-9add-ceafade7c38c",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134244_33a0782f-8f7a-42fb-9add-ceafade7c38c.png"
+    },
+    {
+      "index": 16,
+      "job_id": "40eea2c6-e603-4146-8703-20731fb5d104",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134242_40eea2c6-e603-4146-8703-20731fb5d104.png"
+    },
+    {
+      "index": 17,
+      "job_id": "76c25525-531a-49a1-bfca-f81f33e4724e",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134242_76c25525-531a-49a1-bfca-f81f33e4724e.png"
+    },
+    {
+      "index": 18,
+      "job_id": "0d9c19fc-5475-4af7-82ea-98a46b057366",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134248_0d9c19fc-5475-4af7-82ea-98a46b057366.png"
+    },
+    {
+      "index": 19,
+      "job_id": "f5c9c85f-ec26-47f3-bf29-a3586128d7cb",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134246_f5c9c85f-ec26-47f3-bf29-a3586128d7cb.png"
+    },
+    {
+      "index": 20,
+      "job_id": "0fd56b13-1d06-4255-9d08-1821f8e075b1",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134247_0fd56b13-1d06-4255-9d08-1821f8e075b1.png"
+    },
+    {
+      "index": 21,
+      "job_id": "1436fab7-b57e-4529-9df6-51cfcefa5882",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134247_1436fab7-b57e-4529-9df6-51cfcefa5882.png"
+    },
+    {
+      "index": 22,
+      "job_id": "0165b020-0735-4192-9097-c6ff2a120865",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134246_0165b020-0735-4192-9097-c6ff2a120865.png"
+    },
+    {
+      "index": 23,
+      "job_id": "ab019bfb-b2c6-4de8-86d5-1a06a50fb54c",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134246_ab019bfb-b2c6-4de8-86d5-1a06a50fb54c.png"
+    },
+    {
+      "index": 24,
+      "job_id": "0f470829-aa0b-4930-9ce3-f21097e73c25",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134253_0f470829-aa0b-4930-9ce3-f21097e73c25.png"
+    },
+    {
+      "index": 25,
+      "job_id": "b68492f6-01c2-425b-822a-d75aa14adce1",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134251_b68492f6-01c2-425b-822a-d75aa14adce1.png"
+    },
+    {
+      "index": 26,
+      "job_id": "5e9ef1cf-361b-4508-92a3-8bd33b34af5a",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134250_5e9ef1cf-361b-4508-92a3-8bd33b34af5a.png"
+    },
+    {
+      "index": 27,
+      "job_id": "7eb9af03-4896-47de-aa2e-ff9a2875143b",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134251_7eb9af03-4896-47de-aa2e-ff9a2875143b.png"
+    },
+    {
+      "index": 28,
+      "job_id": "1f91a76e-c8ba-478d-bd93-2b9c106d5c39",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134251_1f91a76e-c8ba-478d-bd93-2b9c106d5c39.png"
+    },
+    {
+      "index": 29,
+      "job_id": "477ce3bf-3c25-47d1-a298-67cfdb62c641",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134251_477ce3bf-3c25-47d1-a298-67cfdb62c641.png"
+    },
+    {
+      "index": 30,
+      "job_id": "bbca9b40-f7ff-4a3c-8f86-68fd934b48bb",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134257_bbca9b40-f7ff-4a3c-8f86-68fd934b48bb.png"
+    },
+    {
+      "index": 31,
+      "job_id": "7c517f65-6530-415b-ab8b-b85f291d72e0",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134256_7c517f65-6530-415b-ab8b-b85f291d72e0.png"
+    },
+    {
+      "index": 32,
+      "job_id": "b6f41096-8cdb-491f-82c8-d8cd7350b117",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134259_b6f41096-8cdb-491f-82c8-d8cd7350b117.png"
+    },
+    {
+      "index": 33,
+      "job_id": "7c6b960c-f0fc-433b-a62b-e4e262ef90fd",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134256_7c6b960c-f0fc-433b-a62b-e4e262ef90fd.png"
+    },
+    {
+      "index": 34,
+      "job_id": "7c019784-7de9-4c07-b8f1-5c91f3b38ce9",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134255_7c019784-7de9-4c07-b8f1-5c91f3b38ce9.png"
+    },
+    {
+      "index": 35,
+      "job_id": "940e60d8-da41-436a-a818-92a4c9cc17dd",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134256_940e60d8-da41-436a-a818-92a4c9cc17dd.png"
+    },
+    {
+      "index": 36,
+      "job_id": "88ab8f22-64b9-4725-94d3-a7722577d915",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134303_88ab8f22-64b9-4725-94d3-a7722577d915.png"
+    },
+    {
+      "index": 37,
+      "job_id": "e9258849-e290-40b9-9243-00273f23f912",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134301_e9258849-e290-40b9-9243-00273f23f912.png"
+    },
+    {
+      "index": 38,
+      "job_id": "a7da51c3-0ecc-4fec-9888-a24440e75831",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134301_a7da51c3-0ecc-4fec-9888-a24440e75831.png"
+    },
+    {
+      "index": 39,
+      "job_id": "0552d61d-079f-4ed4-a687-4aa18c930528",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_6",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_134301_0552d61d-079f-4ed4-a687-4aa18c930528.png"
+    }
+  ],
+  "audio": [
+    {
+      "index": 0,
+      "job_id": "56c245dd-026a-4e8a-8f15-eff0e1cc248d",
+      "status": "completed",
+      "type": "audio",
+      "model": "elevenlabs_v4_turbo",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_133833_56c245dd-026a-4e8a-8f15-eff0e1cc248d.mp3"
+    },
+    {
+      "index": 1,
+      "job_id": "7e456d9f-6b74-438b-8593-684873fcb284",
+      "status": "completed",
+      "type": "audio",
+      "model": "elevenlabs_v4_turbo",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_133833_7e456d9f-6b74-438b-8593-684873fcb284.mp3"
+    },
+    {
+      "index": 2,
+      "job_id": "ed654ec8-11b2-4efa-b0bc-cc161a5967c8",
+      "status": "completed",
+      "type": "audio",
+      "model": "elevenlabs_v4_turbo",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_133832_ed654ec8-11b2-4efa-b0bc-cc161a5967c8.mp3"
+    },
+    {
+      "index": 3,
+      "job_id": "79cc5a3b-3fa0-4375-b2b7-e9b6f7404609",
+      "status": "completed",
+      "type": "audio",
+      "model": "elevenlabs_music_v2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_133832_79cc5a3b-3fa0-4375-b2b7-e9b6f7404609.mp3"
+    },
+    {
+      "index": 4,
+      "job_id": "e6a171e2-8b3c-4072-87d6-ff1536759199",
+      "status": "completed",
+      "type": "audio",
+      "model": "elevenlabs_music_v2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_133832_e6a171e2-8b3c-4072-87d6-ff1536759199.mp3"
+    },
+    {
+      "index": 5,
+      "job_id": "071b5410-5bc5-41e3-b635-f3d15bea76e3",
+      "status": "completed",
+      "type": "audio",
+      "model": "elevenlabs_music_v2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261119_133832_071b5410-5bc5-41e3-b635-f3d15bea76e3.mp3"
+    }
+  ],
+  "audioRevision": {
+    "index": 6,
+    "job_id": "aaec6a51-826b-4af6-a8d8-f9c01cd810ef",
+    "status": "pending"
+  },
+  "caveImageRevision": {
+    "index": 100,
+    "job_id": "2db4b924-8ee2-44e9-a739-e72a3c27d835",
+    "status": "pending"
+  },
+  "video": [
+    {
+      "index": 0,
+      "job_id": "fdbe5685-cea0-4ea6-b22e-ae3fc69c7900",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "job_id": "d446a064-e364-41aa-ad87-d5661d4d6ebe",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "job_id": "20a8feb0-13fe-48a7-bf3c-b376158a8425",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "job_id": "d366a1b7-bf9d-4609-ab7a-97aa3ea16b74",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "job_id": "64c47b08-5759-4ce5-875d-5aa70bcd4d8d",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "job_id": "bdf4688a-1bda-460c-bc24-628d77e375fc",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "job_id": "9a277207-e85e-4b6a-82f8-2dd312de041b",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "job_id": "606f9459-0029-4112-b590-affc15b3dd94",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "job_id": "56a39e1f-41f8-42f9-978e-5d737cb18959",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "job_id": "141a549a-f9f2-431c-ad81-c6ab447dc968",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "job_id": "ff0c2f2a-490c-4a8d-8451-bcc0b0f97f6f",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "job_id": "002b07bc-084b-457b-9016-434e0accac81",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "job_id": "231e558a-163c-44b2-8454-ee25fab10e2e",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "job_id": "bfa2ac54-e16a-4fdb-9bd8-b0e580768c18",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "job_id": "2d4a83fe-6e61-454f-b482-c03bc994d706",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "job_id": "6e6ad24c-999c-4d2b-ab8f-913b25816b1c",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "job_id": "c62519bd-6810-4d8d-a50b-b88888bcd37f",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "job_id": "a69b2d0c-aa45-4bc3-add1-67da5025d190",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "job_id": "78634bed-0a9b-4ecc-a811-70489f21816a",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "job_id": "4bc02db4-3fb9-45a4-8dce-14323a95efce",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "job_id": "4b561e93-af8a-46e9-84c6-fe64bca08b91",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "job_id": "3b9712d7-3d59-4a66-a174-8ab41747c93d",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "job_id": "1b8edb6f-b540-4c7b-af46-b49f06f84be1",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 25,
+      "job_id": "858b4504-d8bf-4da5-856d-c15f44e666b4",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "job_id": "2622c957-5681-4cdb-8cdd-2b27b927f170",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 28,
+      "job_id": "40869d30-8164-496c-8431-f3749855ce3f",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 29,
+      "job_id": "97ff9319-5120-44c3-8f6f-804f98deb500",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "job_id": "8b0e838b-8752-4049-aa52-285b8bd78a64",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 31,
+      "job_id": "72ef826a-7f22-4182-a9ca-c7eeb9a18280",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 33,
+      "job_id": "6ea6862f-5183-47c8-b368-5713e5e07633",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 34,
+      "job_id": "ee9555a1-46e9-420d-bdee-b691da5e9fec",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 35,
+      "job_id": "f38ce93a-3c0e-45f5-96fa-cd5a9e585428",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 36,
+      "job_id": "5a15ab4d-c559-4aa7-b6a7-13fa9ce735ba",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 38,
+      "job_id": "3def77ba-6fcf-4def-9431-cd0bd43fb97b",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    },
+    {
+      "index": 39,
+      "job_id": "c74782cd-996c-4acd-860a-02f305171e75",
+      "status": "pending",
+      "adjustments": {
+        "params.genre": {
+          "requested": "(unset)",
+          "used": "auto",
+          "reason": "default for model"
+        },
+        "params.multi_shots": {
+          "requested": "(unset)",
+          "used": false,
+          "reason": "default for model"
+        },
+        "params.multi_shot_mode": {
+          "requested": "(unset)",
+          "used": "custom",
+          "reason": "default for model"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "scope": "Competitor title/description and dated view-count samples, not a full playback study or proof of algorithmic causality.",
+    "references": [
+      {
+        "creator": "BBC News",
+        "videoId": "SHHQdK1AtTc",
+        "observedViews": 750286,
+        "published": "2023-03-03",
+        "limitation": "Discovery news spike; not directly comparable to a small creator's ordinary history film."
+      },
+      {
+        "creator": "HISTORY",
+        "videoId": "ze3vShApcD0",
+        "observedViews": 1029929,
+        "published": "2024-08-11",
+        "topic": "Ark of the Covenant"
+      },
+      {
+        "creator": "Smithsonian Channel",
+        "videoId": "zGcdE5RllG0",
+        "observedViews": 161072,
+        "published": "2014-11-14",
+        "topic": "Constructing the Ark from the text"
+      },
+      {
+        "creator": "Le recul nécessaire",
+        "videoId": "h2VD30JkGNI",
+        "observedViews": 11959,
+        "published": "2026-06-21",
+        "topic": "Pilate and Jesus; different language and long format"
+      }
+    ],
+    "editorialChoices": "Concrete object/action in first frame, one source-backed question, clear final payoff; original wording and visuals. No unverified discovered Ark or hidden-treasure claim."
+  },
+  "publication": {
+    "attempted": false,
+    "status": "NOT_SCHEDULED"
+  },
+  "noTelegram": true
+}
