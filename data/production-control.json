@@ -5336,7 +5336,7 @@
   },
   "bizarrePastPreparedBatch20261119": {
     "date": "2026-11-19",
-    "status": "EXPORTED_TECHNICAL_QC_PASS_FINAL_AV_REVIEW_PENDING",
+    "status": "EXPORTED_TECHNICAL_QC_AND_COMPLETED_SCENE_ANALYSIS_FINAL_PERCEPTUAL_AV_REVIEW_PENDING",
     "manifest": "data/bizarre-past-production-batch-2026-11-19.json",
     "publication": "PREPARED_NOT_SCHEDULED",
     "films": [
@@ -5379,7 +5379,8 @@
     ],
     "actualCreditSpend": 620.41,
     "closingBalance": 2412.39,
-    "action": "Review these exact finished exports; do not regenerate them. Technical, source, caption and visual spot checks are complete. Actual perceptual sound and picture review remains before scheduling. Check analysis IDs and destination queue at next agent run; no Telegram."
+    "action": "Review these exact finished exports; do not regenerate them. Technical, source, caption and visual spot checks are complete. Actual perceptual sound and picture review remains before scheduling. Check analysis IDs and destination queue at next agent run; no Telegram.",
+    "qaReview": "data/bizarre-past-av-review-2026-11-19.json"
   },
   "bizarrePastCreativeDirection20261119": {
     "date": "2026-11-19",
@@ -5412,7 +5413,8 @@
     "budgetCapNewBatchCredits": 650,
     "priorCompletedBatch": "Keep the three Nov19 exports; do not regenerate or delete. New thematic direction governs next new subjects.",
     "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure.",
-    "activeBatch": "data/bizarre-past-sacred-batch-2026-11-19.json"
+    "activeBatch": "data/bizarre-past-sacred-batch-2026-11-19.json",
+    "editorialSourceBrief": "data/bizarre-past-next-three-editorial-brief-2026-11-19.md"
   },
   "littleWildAdvertisingCheck20261119": {
     "date": "2026-11-19",
@@ -5472,5 +5474,67 @@
     "generationAccepted": true,
     "duplicateGuard": "The three Jesus/Pilate, Ark cave and pyramid corridor films are already being produced in this conversation. Reuse the accepted jobs and eventual final exports; do not generate duplicates or start a second version.",
     "publication": "No new booking made in this production request. Complete practical AV review of exact exports before any later release."
+  },
+  "bizarrePastAgentCheck20261119": {
+    "date": "2026-11-19",
+    "checkedIn": "Higgsfield Ultra authenticated balance; Metricool live scheduled-only queue; three Higgsfield completed video_analysis results; authenticated Higgsfield video MP4 downloads and ffmpeg frame sampling/audio-structure measurements; primary research sources for next thematic briefs; Creator HQ fresh production manifest",
+    "channelScope": "Bizarre Past only; What If managed separately; Little Wild paused indefinitely",
+    "higgsfield": {
+      "plan": "ultra",
+      "creditsObserved": 1909.13,
+      "priorBatchClosingCredits": 2412.39,
+      "unattributedDelta": -503.26,
+      "deltaAttribution": "UNKNOWN; likely other work or charges, unverified. Check concurrent generation jobs before further spend.",
+      "creditsSpentInThisReview": 0,
+      "freeSuitableVideoGenerations": 0
+    },
+    "metricool": {
+      "brandId": 7296504,
+      "checkedFrom": "2026-11-18T00:00:00+01:00",
+      "checkedThrough": "2026-12-06T23:59:59+01:00",
+      "scheduledOnlyResults": 0,
+      "bookingsCreatedByReview": 0,
+      "limitation": "API returns only currently scheduled items, not a complete published YouTube/TikTok history"
+    },
+    "completedPriorBatch": {
+      "manifest": "data/bizarre-past-production-batch-2026-11-19.json",
+      "qa": "data/bizarre-past-av-review-2026-11-19.json",
+      "filmIDs": [
+        "89ab021b-7063-48cf-abbf-36db3066ea00",
+        "d2c357bf-4bce-4e3a-9929-98789b23a8f8",
+        "15870f3f-ee3f-4889-bb40-590844214cc7"
+      ],
+      "formats": [
+        "9:16 short 36.721s",
+        "9:16 short 39.253s",
+        "16:9 film 177.625s"
+      ],
+      "technicalReview": "PASS: exported media, full decode (prior), audio levels/silence (today), Higgsfield AI video_analysis COMPLETED, decoded contact sheet sampled 16/16/32 frames",
+      "perceptualSoundtrackReview": "NOT COMPLETED",
+      "releaseState": "HOLD_NOT_SCHEDULED_NOT_PUBLISHED",
+      "additionalConcern": "Review Viking furnace/ironworking historical accuracy around 00:52–00:59",
+      "duplicationRule": "Do NOT regenerate completed batch"
+    },
+    "nextSubjectResearch": {
+      "editorialBrief": "data/bizarre-past-next-three-editorial-brief-2026-11-19.md",
+      "topics": [
+        "Pontius Pilate inscription and Jesus context (9:16)",
+        "Great Pyramid North Face Corridor (16:9)",
+        "Ark in 2 Maccabees cave tradition (9:16)"
+      ],
+      "scripts": "DRAFTED_SOURCE_BACKED_NOT_GENERATED",
+      "creditLimit": "No more than 650 additional credits for next new batch without renewed consent; current concurrent jobs must be checked first",
+      "sources": [
+        "https://www.imj.org.il/en/exhibitions/cradle-christianity",
+        "https://www.nature.com/articles/s41467-023-36351-0",
+        "https://www.nature.com/articles/s41598-025-91115-8",
+        "https://www.biblegateway.com/passage/?search=2+Maccabees+2&version=GNT%3BNRSVUE%3BRSVCE"
+      ]
+    },
+    "alertUpdates": "Resolved now obsolete 18-Nov Babylon insufficient credits alert after live Ultra balance; Babylon still ungenerated/unbooked. No new alert. Telegram sending disabled and was not triggered.",
+    "noPaidAdvertising": true,
+    "noTelegram": true,
+    "noSocialEngagement": true,
+    "noPublicationClaimWithoutProviderEvidence": true
   }
 }
