@@ -213,7 +213,39 @@
         "uncertainty": "Do not label editorial misses as operational blockers. Telegram alerts only fresh confirmed production stoppages."
       }
     },
-    "channelPriorityDecision20261117": "New authoritative override: only Bizarre Past (Higgsfield) and What If (AI Tuber) active. Little Wild Adventures is paused; all earlier instructions assigning it content/AI Tuber credits are obsolete."
+    "channelPriorityDecision20261117": "New authoritative override: only Bizarre Past (Higgsfield) and What If (AI Tuber) active. Little Wild Adventures is paused; all earlier instructions assigning it content/AI Tuber credits are obsolete.",
+    "latestBizarrePastSubjectDirection": {
+      "date": "2026-11-19",
+      "latestUserRequest": "jeg vil at de neste filmene skal være om jesus, bibelen og pyramide hemmeligheter. og paktens ark. gjør nalyse og lag spennende filmer.",
+      "prioritySubjects": [
+        "Jesus and the biblical historical setting",
+        "Biblical discoveries and texts",
+        "Pyramid secrets and verified discoveries",
+        "Ark of the Covenant"
+      ],
+      "productionSelection": [
+        {
+          "id": "pilate",
+          "subject": "The reused inscription naming Pontius Pilate; Jesus trial connection attributed to the Gospels",
+          "format": "9:16"
+        },
+        {
+          "id": "corridor",
+          "subject": "The Great Pyramid North Face Corridor: 2023 endoscopic confirmation and what the evidence shows",
+          "format": "16:9"
+        },
+        {
+          "id": "ark",
+          "subject": "Jeremiah, the Ark and the lost cave route in 2 Maccabees 2; presented as an ancient textual account",
+          "format": "9:16"
+        }
+      ],
+      "producer": "Higgsfield",
+      "publication": "PREPARE_ONLY_UNTIL_FINISHED_QC",
+      "budgetCapNewBatchCredits": 650,
+      "priorCompletedBatch": "Keep the three Nov19 exports; do not regenerate or delete. New thematic direction governs next new subjects.",
+      "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure."
+    }
   },
   "channels": {
     "bizarre": {
@@ -5347,5 +5379,84 @@
     "actualCreditSpend": 620.41,
     "closingBalance": 2412.39,
     "action": "Review these exact finished exports; do not regenerate them. Technical, source, caption and visual spot checks are complete. Actual perceptual sound and picture review remains before scheduling. Check analysis IDs and destination queue at next agent run; no Telegram."
+  },
+  "bizarrePastCreativeDirection20261119": {
+    "date": "2026-11-19",
+    "latestUserRequest": "jeg vil at de neste filmene skal være om jesus, bibelen og pyramide hemmeligheter. og paktens ark. gjør nalyse og lag spennende filmer.",
+    "prioritySubjects": [
+      "Jesus and the biblical historical setting",
+      "Biblical discoveries and texts",
+      "Pyramid secrets and verified discoveries",
+      "Ark of the Covenant"
+    ],
+    "productionSelection": [
+      {
+        "id": "pilate",
+        "subject": "The reused inscription naming Pontius Pilate; Jesus trial connection attributed to the Gospels",
+        "format": "9:16"
+      },
+      {
+        "id": "corridor",
+        "subject": "The Great Pyramid North Face Corridor: 2023 endoscopic confirmation and what the evidence shows",
+        "format": "16:9"
+      },
+      {
+        "id": "ark",
+        "subject": "Jeremiah, the Ark and the lost cave route in 2 Maccabees 2; presented as an ancient textual account",
+        "format": "9:16"
+      }
+    ],
+    "producer": "Higgsfield",
+    "publication": "PREPARE_ONLY_UNTIL_FINISHED_QC",
+    "budgetCapNewBatchCredits": 650,
+    "priorCompletedBatch": "Keep the three Nov19 exports; do not regenerate or delete. New thematic direction governs next new subjects.",
+    "factualPolicy": "Distinctly attribute biblical narratives and traditions. No claims that archaeology proves miracles, that the Ark has been found, or that a void contains treasure."
+  },
+  "littleWildAdvertisingCheck20261119": {
+    "date": "2026-11-19",
+    "status": "STOP_NOT_FULLY_CONFIRMED_RECENT_ADVERTISING_TRAFFIC",
+    "emailMilestone": {
+      "sender": "vidIQ",
+      "subject": "You reached 400 subscribers",
+      "channelId": "UCiey2ZXNP7Mb1hjmcKhrjcg",
+      "receivedAt": "2026-11-19T13:10:30Z"
+    },
+    "liveStudioSubscribers": 422,
+    "period": "2026-11-12 through 2026-11-18",
+    "totalViews": 659,
+    "youtubeAdvertisingViews": 640,
+    "youtubeAdvertisingPercent": 97.1,
+    "totalSubscribersGained": 100,
+    "totalSubscribersLost": 4,
+    "totalSubscriberNetChange": 96,
+    "advertisingSubscribersGained": 62,
+    "advertisingSubscribersLost": 1,
+    "advertisingSubscriberNetChange": 61,
+    "veefly": {
+      "verifiedLive": true,
+      "campaignId": 251425,
+      "status": "Completed",
+      "subcampaigns": 5,
+      "allSubcampaignsCompleted": true,
+      "spentUSD": 50,
+      "budgetUSD": 50,
+      "viewsDeliveredDisplayed": "4.6K",
+      "subscribersDeliveredDisplayed": 46,
+      "walletUSD": 2.85
+    },
+    "youtubePromote": {
+      "verifiedLive": true,
+      "channel": "Little Wild Adventures",
+      "existingPromotions": 0,
+      "pageShows": "Kom i gang"
+    },
+    "googleAds": {
+      "status": "CURRENT_CAMPAIGNS_UNVERIFIED_SITE_DENIES_AI_ACCESS",
+      "knownCustomerIdFromPriorContext": "748-968-4543",
+      "siteMessage": "Access by unauthorized AI agents isn't allowed",
+      "automaticApprovalReviewAlsoDeniedFurtherGoogleAdsObservation": true,
+      "noCampaignChanged": true
+    },
+    "conclusion": "Recent advertising views and subscribers are confirmed after VeeFly's stated completion, but the current advertiser/account/payer and live campaign status are unknown. Do not label all traffic organic or assert all advertising stopped. Do not infer charges from these analytics. No new promotions, payments or Telegram messages authorized."
   }
 }
