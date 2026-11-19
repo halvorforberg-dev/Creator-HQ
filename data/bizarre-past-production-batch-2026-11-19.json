@@ -1,0 +1,108 @@
+{
+  "batch": "bizarre-past-2026-11-19",
+  "channel": "Bizarre Past",
+  "status": "SCRIPT_LOCKED_PREFLIGHT",
+  "producer": "Higgsfield",
+  "publication": "PREPARE_ONLY_NO_NEW_BOOKING",
+  "userRequestedCount": "2–3",
+  "selectedOriginalListNumbers": [
+    1,
+    6,
+    11
+  ],
+  "approvedVoice": {
+    "name": "Callum",
+    "voice_type": "preset",
+    "voice_id": "858499d9-fef5-40e1-bc29-b4dc661dc283"
+  },
+  "videoModel": "cinematic_studio_video_v2",
+  "mode": "pro",
+  "openingBalance": 3032.8,
+  "plannedVideoSources": {
+    "vikings": 24,
+    "merer": 6,
+    "scrolls": 6,
+    "secondsEach": 8,
+    "videoCreditsEach": 12,
+    "totalVideoCredits": 432
+  },
+  "budgetCapCredits": 650,
+  "analysis": {
+    "source": "data/competitor-watch.json and Bizarre-Past-analyse-2026-10-30.md",
+    "applied": "Artifact-first action, one concrete historical question, causal progression and source-supported ending. Viking/Paris historic completion data are old and not matched-age. No claim that these methods guarantee views.",
+    "freshPublicLeads": [
+      "https://www.youtube.com/watch?v=UyQpxzbL_BM",
+      "https://www.youtube.com/watch?v=It6B58e8V6U"
+    ],
+    "paidResearch": "vidIQ has 2 remaining; 5-credit request rejected without charge. No further paid research before Nov21."
+  },
+  "duplicateCheck": {
+    "source": "Authenticated Metricool YouTube all-videos rows and current HQ",
+    "result": "No matching Viking America / Merer / Dead Sea Scrolls title in returned 27 rows; Merer is an existing ungenerated script, not duplicate media. Antikythera, Mørstad, Thonis and San Juan excluded.",
+    "limits": "Metricool analytics are an indexed snapshot; no exhaustive private/unlisted library from vidIQ due credits."
+  },
+  "films": [
+    {
+      "id": "merer",
+      "title": "The Great Pyramid's 4,500-Year-Old Shipping Diary",
+      "originalListNumber": 6,
+      "format": "9:16",
+      "script": "Did you know a desert cave hid the Great Pyramid's shipping diary? In 2013, archaeologists found papyrus at Wadi al-Jarf, an ancient Red Sea port. The writer, Inspector Merer, served under Pharaoh Khufu. His crew carried fine limestone from Tura toward Giza by boat. Those white blocks helped form the pyramid's smooth outer casing. His notes record working days and journeys, giving us a rare view from the building crews themselves. A mystery lasting forty-five centuries, answered by a work log.",
+      "sources": [
+        "https://www.orient-mediterranee.com/les-papyrus-de-la-mer-rouge-i-le-journal-de-merer-p-jarf-a-et-b/",
+        "https://egymonuments.gov.eg/en/monuments/the-great-pyramid/"
+      ],
+      "hooks": [
+        "Did you know a desert cave hid the Great Pyramid's shipping diary?",
+        "Did you know the Great Pyramid's white stone came with a work log?",
+        "Did you know an Egyptian inspector recorded his crew's boat journeys?"
+      ],
+      "music": {
+        "duration": 45,
+        "prompt": "Original instrumental archaeological mystery short score. Warm plucked strings, soft wooden percussion, subtle air and water textures. Immediate intriguing opening, gentle investigative movement, one small lift around 25 seconds, satisfying warm final cadence. No vocals, no chanting, no pounding trailer drums. Leave generous space for clear English narration."
+      }
+    },
+    {
+      "id": "scrolls",
+      "title": "The Shepherd Who Found 2,000-Year-Old Bible Texts",
+      "originalListNumber": 11,
+      "format": "9:16",
+      "script": "Did you know a shepherd found ancient Bible texts inside a desert cave? In 1947, a young Bedouin discovered scrolls near Qumran, beside the Dead Sea. Tall clay jars had protected some of the manuscripts. The first seven scrolls included a copy of Isaiah. More caves later yielded thousands of fragments, including biblical books, prayers and community rules. These were writings from around two thousand years ago. The real treasure was the text: ancient words that researchers could finally compare with manuscripts copied centuries later.",
+      "sources": [
+        "https://www.deadseascrolls.org.il/learn-about-the-scrolls/discovery-sites?locale=en_US",
+        "https://www.deadseascrolls.org.il/learn-about-the-scrolls/discovery-and-publication?locale=en_US"
+      ],
+      "hooks": [
+        "Did you know a shepherd found ancient Bible texts inside a desert cave?",
+        "Did you know clay jars protected ancient scrolls near the Dead Sea?",
+        "Did you know seven scrolls opened a window into a two-thousand-year-old world?"
+      ],
+      "music": {
+        "duration": 45,
+        "prompt": "Original instrumental history discovery short score, respectful curious tone. Soft bowed strings, delicate plucked strings and restrained low frame-drum pulse, subtle desert air. Clear mysterious opening grows to a small luminous discovery, then a complete gentle final cadence. No vocals, no choir, no chanting, no bombastic trailer hits. Space for natural English voiceover."
+      }
+    },
+    {
+      "id": "vikings",
+      "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+      "originalListNumber": 1,
+      "format": "16:9",
+      "script": "Did you know Vikings were in America four hundred and seventy-one years before Columbus, and a burst from space helped prove it?\n\nThe crucial evidence was three pieces of wood. They came from L'Anse aux Meadows, on the northern tip of Newfoundland. Each carried marks left by metal tools. The question was when those cuts had been made.\n\nFor centuries, Icelandic sagas told of Norse journeys west, to a place called Vinland. They described voyages associated with Leif Erikson and other explorers. Those stories were written down long after the events. They were clues to investigate, rather than a calendar archaeologists could simply accept.\n\nThen, in 1960, a Norse site was identified in Newfoundland. Excavations revealed turf buildings, iron working and traces of boat repair. Here was physical evidence of Europeans across the Atlantic around the year one thousand.\n\nThe Americas already had Indigenous peoples with histories stretching back thousands of years. This discovery concerned an early European crossing, not the first human arrival.\n\nBut around one thousand leaves a lot of room. Ordinary radiocarbon dating can give a range of years. Researchers wanted a more precise answer, and the wood contained a second kind of record.\n\nA growing tree adds a ring each year. Carbon from the atmosphere becomes part of that new wood. When a strong cosmic radiation event changes atmospheric radiocarbon, trees around the world can preserve the same unusual signal.\n\nOne such signal was already known from the year nine hundred and ninety-three. Think of it as a date stamped inside the tree, invisible until the carbon is measured.\n\nThe team looked for that marker in the Newfoundland wood. Once they found it, they could count the annual rings outward to the tree's final growing edge. That edge mattered: without it, some of the last years could be missing.\n\nThree different trees gave the same result. The wood had been cut in ten twenty-one.\n\nColumbus crossed the Atlantic in fourteen ninety-two. The gap is four hundred and seventy-one years.\n\nThe study does not identify the person holding the axe. It does not prove that Leif Erikson stood at this exact site in ten twenty-one, or tell us the date the first Norse ship arrived. It gives us something narrower, and unusually solid: evidence that Norse people were working in North America in that particular year.\n\nTheir voyage survived in stories. Their presence survived in buildings and tools. And the year survived inside trees, carrying a signal that had travelled from space.\n\nTen twenty-one. The date was there long before anyone knew how to read it.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-021-03972-8",
+        "https://www.rug.nl/news/2021/10/europeans-in-the-americas-1000-years-ago?lang=en",
+        "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?i=80583&id=236",
+        "https://science.nasa.gov/earth/earth-observatory/burst-of-new-evidence-for-viking-travels-149071/"
+      ],
+      "hooks": [
+        "Did you know Vikings were in America four hundred and seventy-one years before Columbus, and a burst from space helped prove it?",
+        "Did you know three pieces of wood pinned Viking activity in America to a single year?",
+        "Did you know a signal from space survived inside wood cut by Vikings?"
+      ],
+      "music": {
+        "duration": 220,
+        "prompt": "Original instrumental investigative historical documentary score about Norse exploration and scientific dating. Opening intimate low strings and a few plucked notes, steady gentle forward pulse, cold North Atlantic air texture. Evolve through curiosity, archival discovery, a more luminous cosmic-science middle, restrained tension during the ring-count investigation, then a warm clear resolution and final cadence. Natural dynamics suitable beneath continuous narration, no vocals or chanting, no heroic battle music, no loud trailer impacts."
+      }
+    }
+  ]
+}
