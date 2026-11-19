@@ -5627,5 +5627,98 @@
     "mode": "What If uses AI Tuber mixed media as scene needs, full-motion not mandatory throughout; 18:00 Europe/Oslo for QC-approved future posts only.",
     "constraints": "Only active channels What If and Bizarre Past; Little Wild indefinitely paused; no Telegram sending, paid ads or credits purchase; no reupload/deletion of past videos without instruction.",
     "source": "Explicit user decision 18 Nov 2026 19:24 Oslo"
+  },
+  "whatIfAgentCheck20261119": {
+    "checkedAtOslo": "2026-11-19 afternoon (approximately 15:33–15:46 Europe/Oslo)",
+    "latestCreativeDecisionSource": "whatIfCreativeDirection20261118; stronger mandatory spoken and visible 'WHAT IF…?' 0–2 s",
+    "existingSunPublication": {
+      "videoId": "6825f860-3fca-449d-9618-8e56a4175aa7",
+      "publicationId": "62bc5af5-18a0-4ec0-b8f0-e38f38917b69",
+      "providerStatus": "published",
+      "providerTimestampUtc": "2026-11-18T17:55:02.770Z",
+      "publishedLocal": "2026-11-18 18:55:02 Europe/Oslo",
+      "publishedUrl": "https://www.youtube.com/watch?v=1jQ_W7GYOoo",
+      "correctChannelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "evidence": "AI Tuber authenticated GET /publications/{id} November 19",
+      "caution": "NO duplicate or reupload; published ~55 minutes after 18:00 target, not scheduled release. Previously unavailable full AV playback/QA is not retroactively approved."
+    },
+    "newFridayCandidate": {
+      "title": "What If Earth's Air Vanished for 60 Seconds?",
+      "brief": "data/whatif-no-air-60-seconds-short-brief-2026-11-18.md (v2 updated Nov19)",
+      "editorialTarget": "2026-11-20 18:00 Europe/Oslo",
+      "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+      "generationStatus": "completed",
+      "actualGeneratedDurationSeconds": 35,
+      "aspectRatio": "9:16",
+      "mediaType": "video",
+      "generatedSceneCount": 6,
+      "voice": "Arthur (energetic American male)",
+      "voiceSpeed": 1,
+      "videoQualityRequested": "max",
+      "export": {
+        "id": "a6e0a76b-ca82-4161-bd22-d34318e8861d",
+        "status": "completed",
+        "resolutionRequested": "1080p",
+        "providerUrlAvailable": true,
+        "actualFileDecodedLocally": false
+      },
+      "qa": {
+        "completeMp4WithSoundWatched": false,
+        "approved": false,
+        "reason": "CDN DNS unavailable in container; authenticated AITuber download_video returned MP4 URL but no stream/bytes; no perception/sync/QC evidence. Need actual full media playback; poster-sized text and voice timing unverified.",
+        "scriptSceneMatchTextOnly": "Six generated speech segments from original 71-word English narration observed through API; 6 video URLs; this is NOT full AV-QC."
+      },
+      "publication": {
+        "status": "NOT_BOOKED",
+        "publicationId": null,
+        "published": false,
+        "reason": "HOLD: full 1080p MP4 audiovisual QC unavailable; What If autopilot unreviewed posting risk unresolved, no proven collision-free YouTube queue"
+      },
+      "creditObservation": {
+        "preGenerationCredits": 4951,
+        "afterGenerationCredits": 3883,
+        "windowDecrease": 1068,
+        "interpretation": "Provider balance delta over processing/export window, not an itemized job cost; no purchases. Asynchronous charges or other account activity cannot be excluded."
+      },
+      "originality": "Latest AI Tuber video list had no identical one-minute atmosphere disappearance. Other previously published Moon/Sun/spinning topics are distinct."
+    },
+    "sourceReads": [
+      "data/production-control.json",
+      "data/creative-prompt-upgrades.json",
+      "data/competitor-watch.json",
+      "data/production-alerts.json",
+      "data/whatif-no-air-60-seconds-short-brief-2026-11-18.md",
+      "Library YouTube-kanalplan.md (Nov1, superseded where conflicting)"
+    ],
+    "ownerAnalytics": {
+      "source": "Metricool authenticated YouTube all videos Nov1–19",
+      "mostRecentReturnedUpload": "2026-11-15",
+      "blackHoleNov15": {
+        "views": 1011,
+        "avgViewSeconds": 15
+      },
+      "sunBrightNov7": {
+        "views": 1079,
+        "avgViewSeconds": 15
+      },
+      "beeLongNov8": {
+        "views": 32,
+        "avgViewSeconds": 44
+      },
+      "caveat": "Different ages and formats; Nov17 and Nov18 public uploads absent in lagging Metricool feed. Zero evidence for retention or first-frame quality."
+    },
+    "externalResearch": "Verified QuirkScience films through Nov14 and xkcd What If Nov17 public listing. No videos watched, no 0–2s competitor timing/retention proof; original science citations in source brief.",
+    "blockingConditions": [
+      "AutoPilot public-publishing setting cannot be verified or disabled with available API; earlier Nov15/17 incidents remain open, only authenticated UI confirms.",
+      "No complete direct MP4 with audio perception available in this runtime, so final QC for new Friday video not passed.",
+      "AI Tuber API supports GET /publications/{id} but no list of all scheduled YouTube posts, so complete independent queue collision check unavailable."
+    ],
+    "nextActions": [
+      "Do not duplicate Sun-Dark or Air-Vanished movie.",
+      "Retain new Air-Vanished as draft until entire finished MP4 sound and first frame are actually inspected, and AutoPilot/YouTube queue is confirmed safe.",
+      "After QC and booking ensure exact 18:00 Europe/Oslo, correct What If channel, education category 27, AI disclosure, MadeForKids false, correct metadata and no duplicate. If unable, HOLD.",
+      "Use less expensive mixed media judiciously next time rather than assuming max AI clip generation for every beat; no purchases."
+    ],
+    "directActions": "Verified Sun publication, re-researched competitors/physics, revised creative governance, preflighted and generated one original 35s What If Short (6 AI video scenes), completed 1080p export, checked provider status and balances, attempted authenticated MP4 URL and local fetch (DNS failed), updated source brief and competitor watch; NO booking or publication of new draft, no Telegram/social engagement, no paid credit purchase or ads. Little Wild remains paused."
   }
 }
