@@ -1,7 +1,7 @@
 {
   "batch": "bizarre-past-2026-11-19",
   "channel": "Bizarre Past",
-  "status": "EXPORTED_TECHNICAL_QC_PASS_FINAL_AV_REVIEW_PENDING",
+  "status": "EXPORTED_TECHNICAL_QC_AND_SCENE_ANALYSIS_PASS_FINAL_PERCEPTUAL_AV_REVIEW_PENDING",
   "producer": "Higgsfield",
   "publication": "PREPARED_ONLY_NOT_SCHEDULED",
   "userRequestedCount": "2–3",
@@ -109,12 +109,22 @@
           "id": "b76842ad-83f2-4370-a877-6ad5254154dc",
           "video_input_id": "89ab021b-7063-48cf-abbf-36db3066ea00",
           "youtube_url": null,
-          "status": "queued",
+          "status": "completed",
           "fail_reason": null,
           "video_s3_url": null,
-          "scenes": null
+          "scenes": null,
+          "sceneCount": 8
         },
-        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff."
+        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff.",
+        "additionalReview20261119": {
+          "reviewPath": "data/bizarre-past-av-review-2026-11-19.json",
+          "sampledDecodedVideoFrames": 16,
+          "audioSignalChecked": true,
+          "analysisNowCompleted": true,
+          "actualSoundtrackPerceptuallyHeardInFull": false,
+          "finalAvApproved": false,
+          "queuedForPublishing": false
+        }
       }
     },
     {
@@ -183,12 +193,22 @@
           "id": "9c4e4c3a-030a-4058-89b9-88c73330575c",
           "video_input_id": "d2c357bf-4bce-4e3a-9929-98789b23a8f8",
           "youtube_url": null,
-          "status": "queued",
+          "status": "completed",
           "fail_reason": null,
           "video_s3_url": null,
-          "scenes": null
+          "scenes": null,
+          "sceneCount": 9
         },
-        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff."
+        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff.",
+        "additionalReview20261119": {
+          "reviewPath": "data/bizarre-past-av-review-2026-11-19.json",
+          "sampledDecodedVideoFrames": 16,
+          "audioSignalChecked": true,
+          "analysisNowCompleted": true,
+          "actualSoundtrackPerceptuallyHeardInFull": false,
+          "finalAvApproved": false,
+          "queuedForPublishing": false
+        }
       }
     },
     {
@@ -259,12 +279,22 @@
           "id": "c595aeab-1b0e-4a89-9d97-3e8dd8875842",
           "video_input_id": "15870f3f-ee3f-4889-bb40-590844214cc7",
           "youtube_url": null,
-          "status": "queued",
+          "status": "completed",
           "fail_reason": null,
           "video_s3_url": null,
-          "scenes": null
+          "scenes": null,
+          "sceneCount": 36
         },
-        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff."
+        "remaining": "Complete actual sound and picture review before any scheduling; automated scene analysis still queued at final production handoff.",
+        "additionalReview20261119": {
+          "reviewPath": "data/bizarre-past-av-review-2026-11-19.json",
+          "sampledDecodedVideoFrames": 32,
+          "audioSignalChecked": true,
+          "analysisNowCompleted": true,
+          "actualSoundtrackPerceptuallyHeardInFull": false,
+          "finalAvApproved": false,
+          "queuedForPublishing": false
+        }
       }
     }
   ],
@@ -504,5 +534,17 @@
       "file_id": "file_000000009f5881fb97d495fed1bf8c53"
     }
   ],
-  "releaseRule": "Use these exact completed MP4 exports. Do not generate duplicates. No booking in this production request. Complete practical final AV review and refresh destination queue before any later release under existing channel rules."
+  "releaseRule": "Use these exact completed MP4 exports. Do not generate duplicates. No booking in this production request. Complete practical final AV review and refresh destination queue before any later release under existing channel rules.",
+  "latestAgentReview20261119": {
+    "status": "FINISHED_MP4S_EXIST_NO_BOOKINGS",
+    "source": "data/bizarre-past-av-review-2026-11-19.json",
+    "currentUltraCredits": 1909.13,
+    "creditsDeltaFromClosingBalance": -503.26,
+    "deltaAttribution": "UNKNOWN",
+    "metricoolScheduledCount20261118to20261206": 0,
+    "nov19NewThematicBrief": "data/bizarre-past-next-three-editorial-brief-2026-11-19.md",
+    "newCreditsSpentByThisReview": 0,
+    "telegram": "DISABLED",
+    "finalPerceptualAudioQc": "NOT DONE"
+  }
 }
