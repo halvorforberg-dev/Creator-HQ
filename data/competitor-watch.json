@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "updatedTimezone": "Europe/Oslo",
   "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
   "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
@@ -2688,5 +2688,99 @@
     ],
     "finance": "AI Tuber existing credits used for one new 9:16 cinematic draft; no credits purchased, no vidIQ paid calls (balance 2).",
     "publishingCaveat": "No booking with open What If AutoPilot direct-publishing alert and unverified final exported MP4 with audible sound. Little Wild work remains paused. Telegram disabled."
+  },
+  "whatifResearchNote20261120Agent": {
+    "checkedAt": "2026-11-20T15:32:00+01:00",
+    "sources": "Verified public creator websites and dated listings; authentic own Metricool all-videos analytics queried 20 Nov. No paid vidIQ credits, competitor full video playback, physical opening observation or retention data.",
+    "ownFormatComparison": {
+      "shorts": [
+        {
+          "title": "Black Hole Passed Our Solar System",
+          "date": "2026-11-15",
+          "views": 1233,
+          "avgViewSeconds": 15,
+          "ageAtCheckDaysApprox": 5
+        },
+        {
+          "title": "Sun 10% Brighter",
+          "date": "2026-11-07",
+          "views": 1080,
+          "avgViewSeconds": 15,
+          "ageAtCheckDaysApprox": 13
+        },
+        {
+          "title": "Octopuses on Land",
+          "date": "2026-11-03",
+          "views": 1025,
+          "avgViewSeconds": 10,
+          "ageAtCheckDaysApprox": 17
+        },
+        {
+          "title": "Atmosphere Twice Thick",
+          "date": "2026-11-17",
+          "views": 4,
+          "avgViewSeconds": 16,
+          "ageAtCheckDaysApprox": 3
+        }
+      ],
+      "ordinary": [
+        {
+          "title": "Bee Vision",
+          "date": "2026-11-08",
+          "views": 35,
+          "avgViewSeconds": 55
+        },
+        {
+          "title": "Sun Went Dark",
+          "date": "2026-11-18",
+          "providerPublished": true,
+          "metricoolReturned": false,
+          "doNotCallZero": true
+        }
+      ],
+      "caveat": "Cumulative snapshots; not same 24h/7d age; no verified organic-only segmentation, viewed/swiped, first-two-second retention, long-form CTR or per-video traffic sources. Do not infer causality."
+    },
+    "competitorContext": [
+      {
+        "source": "https://quirkscience.com/films/",
+        "mostRecentDatedCatalog": "2026-11-14",
+        "note": "About-one-minute science Shorts and 13-min Nov11 solar-storm long film. Specific question and scientifically constrained answer; no observed hooks or retention."
+      },
+      {
+        "source": "https://digitalcreators.jp/en/channel/en/UC6IxnFzHofFJ5X2PycSMsww/videos/",
+        "creator": "xkcd What If?",
+        "date": "2026-10-28",
+        "video": "What if you set off a nuke in the Mariana Trench?",
+        "duration": "3:30",
+        "lifetimeViewsAtPublicSnapshotApprox": 2911262,
+        "note": "Same long-form rough length, vastly larger channel; not a credible views baseline, content not watched."
+      },
+      {
+        "source": "https://natokhd.com/video/what-would-happen-if-an-asteroid-hit-the-mariana-trench/K6BQrCCsySE",
+        "creator": "The Last Day",
+        "date": "2026-11-06",
+        "video": "What Would Happen If an Asteroid Hit the Mariana Trench?",
+        "publicViewsAtListingApprox": 82700,
+        "note": "Recent high-stakes ocean topic competitor, different 1-km body/site versus our 10-km deep-Pacific scenario; no retention or format-equivalence evidence."
+      }
+    ],
+    "editorialSelection": {
+      "target": "2026-11-22 18:00 Europe/Oslo, ordinary 16:9 3–4m editorial NOT booked",
+      "chosen": "What If a 10-Kilometer Asteroid Hit the Pacific?",
+      "alternate": "What If the Ocean Took a Dinosaur-Killer Impact?",
+      "answer": "Deep water fails to stop a 10-km impact, and inland survivors may face profound supply/food consequences; exact wave/climate magnitudes conditional.",
+      "question": "Could the Pacific Ocean shield civilization from a giant asteroid?",
+      "visibleScene": "First frame giant impact plume and WHAT IF…?; final same inland family with supply shortages rather than fake 1000m global wave",
+      "preCreditBrief": "data/whatif-pacific-asteroid-long-brief-2026-11-20.md",
+      "physicalSources": [
+        "https://www.usgs.gov/publications/computer-simulations-large-asteroid-impacts-oceanic-and-continental-sites-preliminary",
+        "https://www.pmel.noaa.gov/news-and-media/highlights/first-global-tsunami-simulation-chicxulub-asteroid-impact-66-million-years-ago",
+        "https://www.nature.com/articles/s43017-022-00283-y",
+        "https://www.jpl.nasa.gov/asteroid-watch/"
+      ],
+      "status": "EDITORIAL_SCRIPT_ONLY_NOT_GENERATED_QC_OR_BOOKED"
+    },
+    "oneTestableHypothesis": "For the next genuine 16:9 film, first-frame giant impact plus legible 'WHAT IF…?' and final inland family answer may improve opening 30-second retention against 18 Nov Sun Dark ordinary 16:9 at same 24h/7d age, once source metrics exist. Do not claim measured effects beforehand.",
+    "operations": "Compared current provider-scheduled Air Short with own same-format cumulative results; checked scientific foundation and competitor topic overlap; created original answer-first 10-scene narration/visual/audio board; retained all existing bookings; no clips rendered, purchases, ads or Telegram."
   }
 }
