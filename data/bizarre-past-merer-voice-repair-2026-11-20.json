@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-20",
+  "channel": "Bizarre Past",
+  "title": "The Great Pyramid's 4,500-Year-Old Shipping Diary",
+  "original": {
+    "mediaId": "89ab021b-7063-48cf-abbf-36db3066ea00",
+    "sha256": "6a515b1ca9c7e98ea714f62a96985b8bb375af1bb70cdce49ca8d581f65e2431",
+    "error": "Two independent ASR runs omitted the original intended discussion of limestone outer casing and logged journeys; original speech ended ~30.6s in a 36.72s video."
+  },
+  "repaired": {
+    "mediaId": "ca5432b6-e05d-4f0e-873a-4ed883fb5ed6",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/ca5432b6-e05d-4f0e-873a-4ed883fb5ed6.mp4",
+    "fileName": "Bizarre_Past_Merer_Diary_VoiceFix_1080x1920.mp4",
+    "sha256": "ce3fee3ff6a15b75892a2f35fb84a1e1c5855a6696ef2166c78b0217008cafb7",
+    "durationSeconds": 36.721,
+    "resolution": "1080x1920",
+    "videoCodec": "H.264",
+    "audioCodec": "AAC",
+    "sourceVideoReused": true,
+    "voice": "Callum, original approved voice preset",
+    "voiceJobId": "1a50ea2c-6000-47f5-8b61-4136e4cf5afe",
+    "voiceLengthSeconds": 32.88,
+    "musicJobId": "bcf30447-a272-477b-8961-bdab5b0d9b85",
+    "musicLengthSeconds": 40.045,
+    "fix": "Replaced incomplete combined original audio with full generated narration and a new low-volume instrumental; new timed captions on opaque lower caption panel obscure stale burned-in captions without modifying moving video scenes."
+  },
+  "factualClaimSources": [
+    "https://www.orient-mediterranee.com/les-papyrus-de-la-mer-rouge-i-le-journal-de-merer-p-jarf-a-et-b/",
+    "https://egymonuments.gov.eg/en/monuments/the-great-pyramid/"
+  ],
+  "qc": {
+    "fullVideoDecode": "PASS; ffmpeg full stream decode exit 0",
+    "transcript": "PASS; small.en readback of final mixed MP4 includes shipping diary, Wadi al-Jarf, Merer under Khufu, limestone Tura-to-Giza transport, outer casing, workdays and final builders payoff through ~33.5s",
+    "measuredSound": "mean -20.5 dBFS, max -1.2 dBFS; no evidence of a major silence or clip at ending",
+    "visual": "Sampled source and new 5x2 full-span contact sheets; lower caption overlay and scene sequence retained; 1080x1920 preserved.",
+    "sceneAudioVideoAnalysisId": "734d26fa-47f1-45a1-8520-14fdab30b4a4",
+    "machineAnalysis": "Completed 8 chronological visual+audio scenes; reconstruction action approximately follows script.",
+    "caveats": [
+      "No direct human-equivalent continuous soundtrack audition was performed; technical+ASR+multimodal scene checks are not a substitute. Do not represent as final unqualified audio QC pass.",
+      "Video analyzer's scene 8 narrative adds an extra older closing sentence which final ASR did not hear; treat as probable model interpretation from visual/legacy subtitles, not proof of speech.",
+      "AI reconstructions (including white casing and a gold-colored pyramid tip) are illustrative, not archival evidence."
+    ],
+    "status": "REPAIRED_EXPORTED_AND_UPLOADED_FINAL_PERCEPTUAL_AUDIO_QC_HOLD",
+    "publishApproval": false,
+    "metricoolPostId": null,
+    "actualBooking": false,
+    "actualPublication": false
+  },
+  "billing": {
+    "subscription": "Ultra",
+    "balanceBefore": 1873.13,
+    "newNarrationCredits": 3.2,
+    "newInstrumentalCredits": 2.56,
+    "totalConsumedCredits": 5.76,
+    "balanceAfter": 1867.37,
+    "creditPurchase": 0,
+    "paidPromotion": 0
+  },
+  "preservesExistingBookings": [
+    {
+      "id": 435481130,
+      "date": "2026-11-20T18:00:00+01:00",
+      "topic": "Ark",
+      "networks": "YouTube/TikTok"
+    },
+    {
+      "id": 435630705,
+      "date": "2026-11-22T18:00:00+01:00",
+      "topic": "Pyramid corridor",
+      "networks": "YouTube/TikTok"
+    },
+    {
+      "id": 435631044,
+      "date": "2026-11-23T18:00:00+01:00",
+      "topic": "Pilate",
+      "networks": "YouTube/TikTok"
+    }
+  ],
+  "notification": "No Telegram. User disabled all Telegram workflows 2026-11-18.",
+  "nextAction": "If full perceptual audio+visual review is verified without discrepancy, schedule only in an unoccupied 18:00 Europe/Oslo slot after checking real Metricool queue. Preserve original and corrected masters for audit; avoid duplicate."
+}
