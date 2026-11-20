@@ -1,6 +1,6 @@
 # What If a 10-Kilometer Asteroid Hit the Pacific? — Sunday long film editorial brief
 
-**Editorial decision:** 20 November 2026, for potential **Sunday 22 November, 18:00 Europe/Oslo**, 16:9 normal YouTube video (aim 3–4 minutes). **STATUS: COMPLETE EDITORIAL CANDIDATE ONLY. NOT generated, rendered, exported, QC-approved, scheduled or published.** Do not change today's separate 20 Nov Air-Vanished Short booking `1d634cb9-78b2-41f4-919a-bd3ebb093268`. AI Tuber production only. Cost/credit safeguards apply.
+**Editorial decision:** 20 November 2026, for potential **Sunday 22 November, 18:00 Europe/Oslo**, 16:9 normal YouTube video (aim 3–4 minutes). **STATUS (20 Nov 15:50 Oslo): GENERATION STARTED in AI Tuber, video `5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438` is `processing`. Not exported, not full-AV-QC-approved, not booked or published.** Do not change today's separate 20 Nov Air-Vanished Short booking `1d634cb9-78b2-41f4-919a-bd3ebb093268`. AI Tuber production only. Cost/credit safeguards apply.
 
 ## Write the answer before the opening
 
@@ -88,3 +88,11 @@ Timecodes show *dramaturgical beats*, not mandated cuts. Match each exact spoken
 - Render actual 16:9 1080p MP4; independently inspect **entire picture and sound**, first 0–2 sec spoken and visible WHAT IF, camera sync, readable scientific qualifiers, music/voice balance, last scene/payoff and thumbnail. Proper AI disclosure, English metadata, category Education 27, `madeForKids=false`.
 - Verify AutoPilot is paused and today's + Sunday's YouTube posting queue is collision-free; only after QC and provider confirmation may schedule Sunday 22 Nov **18:00 Europe/Oslo**. A manuscript is **NOT** a booking.
 - Little Wild paused, no Telegram, ads or unauthorized purchases.
+
+## Production progress — 20 November 2026
+
+- **AI Tuber video ID:** `5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438`; generation job `8aed9d71-3045-405d-972a-b9a79cbd7028`; created 14:50:09 UTC. Do **not** regenerate as duplicate.
+- **Input:** all 10 approved narration beats and explicit visual motion instructions; 16:9 faceless AI moving-video scenes, Good quality (not Max); voice `TtRFBnwQdH1k01vR0hMz`, speed 0.92, cinematic captions. Thumbnail instructions attached: `OCEAN SHIELD?`.
+- **Credits:** 3,707 before generation; 2,383 while processing (1,324 difference could reflect reservation/charge; verify actual final balance). No credit purchase.
+- **Status:** `processing` last verified; 1080p MP4 export and complete picture/sound QA still pending. No provider publication or Sunday booking established.
+- **Next safety gates:** Check this ID again; export/download one MP4; independently inspect full video and audio; verify exact first-frame WHAT IF, factual qualifier visuals, no repetitive segments and final payoff; inspect thumbnail; verify Sunday 22 Nov 18:00 Europe/Oslo provider queue uniqueness. Only after all pass, schedule to What If channel ID `78dcabfb-3657-41ab-89b8-8c04da2f43d5` and read back publication ID. Today's separate Air Vanished Short booking is protected.
