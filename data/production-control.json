@@ -6013,7 +6013,7 @@
       "time": "18:00 Europe/Oslo",
       "aspect": "16:9",
       "targetDuration": "3–4min",
-      "status": "AI_TUBER_GENERATED_PROCESSING_NOT_QC_APPROVED_NOT_BOOKED"
+      "status": "AI_TUBER_COMPLETED_1080P_EXPORT_PROCESSING_QC_HOLD_NOT_BOOKED"
     },
     "selection": {
       "chosenTitle": "What If a 10-Kilometer Asteroid Hit the Pacific?",
@@ -6039,7 +6039,7 @@
       "remainingBeforeProduction": "Confirm full AI Tuber queue and nonduplication; obtain cost quote at desired mixed media quality, then generate if reserve and complete QA permit; only book on 18:00 after final MP4 with audio review",
       "creditsAtCheck": 3707,
       "generationJobId": "8aed9d71-3045-405d-972a-b9a79cbd7028",
-      "status": "PROCESSING",
+      "status": "COMPLETED_EXPORT_PROCESSING",
       "createdAtUtc": "2026-11-20T14:50:09.909Z",
       "mediaType": "video",
       "videoQuality": "good",
@@ -6051,7 +6051,17 @@
       "creditsAtProcessingRead": 2383,
       "creditsReservedOrChargedSoFar": 1324,
       "noNewCreditPurchase": true,
-      "next": "Wait for generation completion; export 1080p, obtain MP4, review full audio and imagery and thumbnail. Book only if QC passed and unique Sunday slot confirmed."
+      "next": "Wait for generation completion; export 1080p, obtain MP4, review full audio and imagery and thumbnail. Book only if QC passed and unique Sunday slot confirmed.",
+      "durationSeconds": 135,
+      "completedAtUtc": "2026-11-20T14:52:10.039Z",
+      "thumbnailStatus": "ready",
+      "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+      "exportResolution": "1080p",
+      "exportStatus": "processing",
+      "creditsAfterGeneration": 2278,
+      "estimatedActualCreditDelta": 1429,
+      "creditDeltaMayIncludeThumbnail": true,
+      "notes": "Source script 373 words results in 135s footage, below 3-4min goal; do not add filler or pay for duplicate. Export processing. Exact 0–2s text/voice and final scenes still unverified in actual MP4; must HOLD if file remains inaccessible."
     },
     "comparativeEvidence": {
       "source": "Metricool authenticated all videos through Nov20; ages not matched",
