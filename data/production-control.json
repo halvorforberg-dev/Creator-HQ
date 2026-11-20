@@ -5970,5 +5970,19 @@
     "telegram": "NONE",
     "littleWild": "PAUSED",
     "next": "After 18:00 check Ark PUBLISHED status. Do not duplicate any of the three queued releases; repair Merer rather than scheduling incomplete audio."
+  },
+  "bizarrePastMererVoiceRepair20261120": {
+    "source": "data/bizarre-past-merer-voice-repair-2026-11-20.json",
+    "repairedMasterUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/ca5432b6-e05d-4f0e-873a-4ed883fb5ed6.mp4",
+    "mediaId": "ca5432b6-e05d-4f0e-873a-4ed883fb5ed6",
+    "correctedSha256": "ce3fee3ff6a15b75892a2f35fb84a1e1c5855a6696ef2166c78b0217008cafb7",
+    "durationSeconds": 36.721,
+    "status": "REPAIRED_EXPORTED_HOLD_PERCEPTUAL_AUDIO_QC_NOT_SCHEDULED",
+    "narrationMissingLinesRepaired": true,
+    "proof": "Full-file ASR and 8-scene multimodal Higgsfield analysis completed; full decode and contact sheet visual review passed; direct continuous audible listening unavailable.",
+    "creditsSpent": 5.76,
+    "creditsAfter": 1867.37,
+    "bookingId": null,
+    "telegram": false
   }
 }
