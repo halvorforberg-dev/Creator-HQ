@@ -6013,7 +6013,7 @@
       "time": "18:00 Europe/Oslo",
       "aspect": "16:9",
       "targetDuration": "3–4min",
-      "status": "AI_TUBER_COMPLETED_1080P_EXPORT_PROCESSING_QC_HOLD_NOT_BOOKED"
+      "status": "COMPLETED_EXPORTED_QC_HOLD_NOT_BOOKED"
     },
     "selection": {
       "chosenTitle": "What If a 10-Kilometer Asteroid Hit the Pacific?",
@@ -6032,14 +6032,14 @@
       "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
       "creditsSpentThisRun": 0,
       "created": true,
-      "exported": false,
+      "exported": true,
       "fullAvQcPassed": false,
       "booked": false,
       "published": false,
       "remainingBeforeProduction": "Confirm full AI Tuber queue and nonduplication; obtain cost quote at desired mixed media quality, then generate if reserve and complete QA permit; only book on 18:00 after final MP4 with audio review",
       "creditsAtCheck": 3707,
       "generationJobId": "8aed9d71-3045-405d-972a-b9a79cbd7028",
-      "status": "COMPLETED_EXPORT_PROCESSING",
+      "status": "COMPLETED_EXPORTED_AV_QC_UNVERIFIED_HOLD",
       "createdAtUtc": "2026-11-20T14:50:09.909Z",
       "mediaType": "video",
       "videoQuality": "good",
@@ -6057,11 +6057,17 @@
       "thumbnailStatus": "ready",
       "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
       "exportResolution": "1080p",
-      "exportStatus": "processing",
+      "exportStatus": "completed",
       "creditsAfterGeneration": 2278,
       "estimatedActualCreditDelta": 1429,
       "creditDeltaMayIncludeThumbnail": true,
-      "notes": "Source script 373 words results in 135s footage, below 3-4min goal; do not add filler or pay for duplicate. Export processing. Exact 0–2s text/voice and final scenes still unverified in actual MP4; must HOLD if file remains inaccessible."
+      "notes": "135-sec high-motion 16:9 AI video finished and exported at 1080p. Quality gate deliberately held, Sunday 22 Nov 18:00 only a target. No duplicate/re-generation.",
+      "mp4ProviderUrl": "https://cdn.aituber.app/exports/org_3KohME0rcpuY4ShttDKq6LmM7mR/d156d978-56fd-4695-873c-55a2b3e13328.mp4",
+      "thumbnailProviderUrl": "https://cdn.aituber.app/88cc4cf2-980b-4710-9ff7-2c7e5b876bcd/image-fal-1795186352088-0.jpg",
+      "qcBlocker": "Authenticated AITuber download_video and api_read /exports/download both returned valid MP4 URL; working container could not resolve cdn.aituber.app DNS. Full AV QA impossible this turn. Do not call ready, publish or book until playback passes.",
+      "alertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
+      "retryAutomationId": "6b006030adb48191b3c21d8918082019",
+      "retryAtOslo": "2026-11-21T12:00:00+01:00"
     },
     "comparativeEvidence": {
       "source": "Metricool authenticated all videos through Nov20; ages not matched",
