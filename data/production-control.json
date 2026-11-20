@@ -6013,7 +6013,7 @@
       "time": "18:00 Europe/Oslo",
       "aspect": "16:9",
       "targetDuration": "3–4min",
-      "status": "EDITORIAL_TARGET_ONLY_NOT_BOOKED"
+      "status": "AI_TUBER_GENERATED_PROCESSING_NOT_QC_APPROVED_NOT_BOOKED"
     },
     "selection": {
       "chosenTitle": "What If a 10-Kilometer Asteroid Hit the Pacific?",
@@ -6029,15 +6029,29 @@
       "facts": "Science bounded by NASA/JPL, USGS impact modeling, NOAA tsunami modeling and geological nontransferability of Chicxulub climate numbers"
     },
     "production": {
-      "videoId": null,
+      "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
       "creditsSpentThisRun": 0,
-      "created": false,
+      "created": true,
       "exported": false,
       "fullAvQcPassed": false,
       "booked": false,
       "published": false,
       "remainingBeforeProduction": "Confirm full AI Tuber queue and nonduplication; obtain cost quote at desired mixed media quality, then generate if reserve and complete QA permit; only book on 18:00 after final MP4 with audio review",
-      "creditsAtCheck": 3707
+      "creditsAtCheck": 3707,
+      "generationJobId": "8aed9d71-3045-405d-972a-b9a79cbd7028",
+      "status": "PROCESSING",
+      "createdAtUtc": "2026-11-20T14:50:09.909Z",
+      "mediaType": "video",
+      "videoQuality": "good",
+      "aspectRatio": "16:9",
+      "voiceId": "TtRFBnwQdH1k01vR0hMz",
+      "voiceSpeed": 0.92,
+      "captionStyleId": "cinematic",
+      "creditsAtStart": 3707,
+      "creditsAtProcessingRead": 2383,
+      "creditsReservedOrChargedSoFar": 1324,
+      "noNewCreditPurchase": true,
+      "next": "Wait for generation completion; export 1080p, obtain MP4, review full audio and imagery and thumbnail. Book only if QC passed and unique Sunday slot confirmed."
     },
     "comparativeEvidence": {
       "source": "Metricool authenticated all videos through Nov20; ages not matched",
