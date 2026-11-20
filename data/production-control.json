@@ -509,7 +509,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-20",
+      "verifiedDate": "2026-11-20T18:20 Europe/Oslo",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -858,15 +858,19 @@
         "providers": [
           {
             "network": "youtube",
-            "status": "PENDING",
-            "detailedStatus": "Pending"
+            "id": "WKL9VDGgi6M",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+            "detailedStatus": "Published"
           }
         ],
         "media": [
           "https://static.metricool.com/planner/202611/7751348-file-11019317693236533034.mp4"
         ],
-        "publicationState": "PENDING",
-        "published": false
+        "publicationState": "PUBLISHED",
+        "published": true,
+        "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+        "verifiedAtUtc": "2026-11-20T17:20:42.099Z"
       }
     },
     "aituber": {
@@ -957,9 +961,13 @@
         "source": "Authenticated Publications UI followed by GET exact publication",
         "autopilotPaused": true,
         "bookingId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
-        "status": "scheduled",
+        "status": "AITUBER_FAILED_METRICOOL_RECOVERY_PUBLISHED",
         "scheduledAt": "2026-11-20T17:00:00.000Z",
-        "existingPostsChanged": false
+        "existingPostsChanged": false,
+        "recoveryPostId": 435850194,
+        "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+        "checkedAtUtc": "2026-11-20T17:20:42.099Z",
+        "doNotRetryFailedAITuberPublication": true
       },
       "littleWildCheck20261108": {
         "videoId": "317c909a-d982-44ea-a60e-488446694d65",
@@ -5885,7 +5893,7 @@
     "timezone": "Europe/Oslo",
     "userInstruction": "Complete and publish as agreed; keep it dramatic.",
     "releaseTime": "2026-11-20T18:00:00+01:00",
-    "status": "BIZARRE_PAST_PUBLISHED_WHATIF_RECOVERY_PENDING",
+    "status": "PUBLISHED_BOTH_FILMS_ALL_THREE_DESTINATIONS",
     "reviewMethod": "Full exported files decoded and assessed using whole-file multimodal visual/audio scene analyses, direct assistant contact-sheet/frame inspection, audio continuity and level measurements, source/metadata checks. No human or real-time subjective listening is claimed.",
     "whatif": {
       "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
@@ -5905,9 +5913,9 @@
       "audioMaxDb": -3.9,
       "publicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
       "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
-      "status": "METRICOOL_RECOVERY_PENDING",
+      "status": "published",
       "scheduledAt": "2026-11-20T17:00:00.000Z",
-      "published": false,
+      "published": true,
       "limitations": "Illustrative AI montage includes stylized cockpit composition and pressure-gauge detail; not literal measured or documentary footage. Accepted as dramatization with description explicitly identifying fictional premise and AI visuals. Scene analyzer is supporting evidence, not assumed infallible; final frames were independently inspected.",
       "originalAITuberPublication": {
         "id": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
@@ -5930,16 +5938,25 @@
         "providers": [
           {
             "network": "youtube",
-            "status": "PENDING",
-            "detailedStatus": "Pending"
+            "id": "WKL9VDGgi6M",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+            "detailedStatus": "Published"
           }
         ],
         "media": [
           "https://static.metricool.com/planner/202611/7751348-file-11019317693236533034.mp4"
         ],
-        "publicationState": "PENDING",
-        "published": false
-      }
+        "publicationState": "PUBLISHED",
+        "published": true,
+        "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+        "verifiedAtUtc": "2026-11-20T17:20:42.099Z"
+      },
+      "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+      "effectivePublicationProvider": "Metricool",
+      "effectivePublicationId": 435850194,
+      "effectivePlatformVideoId": "WKL9VDGgi6M",
+      "providerEvidenceCheckedAtUtc": "2026-11-20T17:20:42.099Z"
     },
     "bizarrePast": {
       "filmId": "ark",
@@ -5994,14 +6011,21 @@
     "noPaidPromotion": true,
     "duplicateGuard": "Do not create or book these films again. Preserve these exact provider bookings; verify publication after 18:00.",
     "postPublicationCheck": {
-      "checkedAtUtc": "2026-11-20T17:17:52.130Z",
+      "checkedAtUtc": "2026-11-20T17:20:42.099Z",
       "bizarrePast": "PUBLISHED_YOUTUBE_AND_TIKTOK",
-      "whatif": "FAILED_AITUBER_QUOTA_RECOVERY_PENDING",
+      "whatif": "PUBLISHED_AFTER_AITUBER_QUOTA_FAILURE_RECOVERED_VIA_METRICOOL",
       "noDuplicateAtRecovery": "Original AITuber status failed, destination ID and URL null; What If Metricool queue empty before recovery",
       "noNewGeneration": true,
       "noPaidPromotion": true,
       "noCreditPurchase": true,
-      "noTelegram": true
+      "noTelegram": true,
+      "allRequiredDestinationsPublished": true,
+      "publicLinks": {
+        "whatifYouTube": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+        "bizarrePastYouTube": "https://www.youtube.com/shorts/l3Bm7AwPFDg",
+        "bizarrePastTikTok": "https://www.tiktok.com/@bizzare.past/video/7710300191986830614"
+      },
+      "interpretation": "Explicit PUBLISHED provider statuses and public URLs, not merely absence from a queue. What If release was delayed from the original 18:00 target; recovery was scheduled 18:19 and confirmed published by 18:20 Oslo. Exact actual publication second not returned."
     }
   },
   "latestCreativeReminder20261120": {
@@ -6194,7 +6218,14 @@
       "scheduledAt": "2026-11-20T17:00:00.000Z",
       "timezone": "Europe/Oslo",
       "qaStatus": "Previously full AV reviewed and approved in latestPublicationCheck20261120",
-      "doNotDuplicate": true
+      "doNotDuplicate": true,
+      "effectiveStatus": "PUBLISHED",
+      "effectiveProvider": "Metricool",
+      "effectivePostId": 435850194,
+      "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+      "sourceAITuberStatus": "failed",
+      "originalError": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
+      "checkedAtUtc": "2026-11-20T17:20:42.099Z"
     },
     "constraints": "Little Wild paused; no Telegram; no ads or purchased credits; never claim editorial target is a provider booking"
   }
