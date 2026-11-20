@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -137,7 +137,7 @@
       "id": "whatif-autopilot-unreviewed-publishing-2026-11-15",
       "channel": "What If in 40 Seconds",
       "category": "quality_gate_blocker",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-15T18:26:43+01:00",
@@ -160,7 +160,7 @@
         "https://app.aituber.app/dashboard/autopilot/dc3364b4-9342-4e44-8ca8-76cac21fd0c5/edit?step=6",
         "https://www.youtube.com/watch?v=Scevz1F9Yz4"
       ],
-      "ownerActionRequired": true,
+      "ownerActionRequired": false,
       "latestOccurrence": {
         "videoId": "b45bfbea-396a-4790-94a7-bc33b7824ed2",
         "title": "What If Earth's Atmosphere Were Twice as Thick? 🌍 #Shorts",
@@ -175,7 +175,10 @@
         "exportStatus": "completed",
         "durationSeconds": 31
       },
-      "lastVerifiedAt": "2026-11-18T15:31:48+01:00"
+      "lastVerifiedAt": "2026-11-18T15:31:48+01:00",
+      "resolvedAt": "2026-11-20",
+      "resolutionSource": "data/publication-review-2026-11-20.json plus data/production-control.json latestPublicationCheck20261120: 'PAUSED_AUTHENTICATED_UI_VERIFIED' for What If AutoPilot, after authentic UI review. Friday 20 Nov reviewed Short booked with exact AI Tuber publicationId 1d634cb9-78b2-41f4-919a-bd3ebb093268; status scheduled. Pause is not proof of future all-series settings; recheck before subsequent booking.",
+      "resolution": "Publiserings-AutoPilot på What If er bekreftet pauset i autentisert AI Tuber-brukergrensesnitt 20.11.2026. Historiske ukontrollerte videoer forblir publisert og skal ikke kopieres eller slettes. Fortsett full QA og kontroll av kø før hver senere publisering. Ingen Telegram-varsler."
     },
     {
       "id": "little-wild-unwanted-generation-after-pause-2026-11-18",
