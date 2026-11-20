@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -57,12 +57,12 @@
     },
     "whatIfDuplicatePrevention": {
       "since": "2026-11-03",
-      "status": "NEW_NOV15_PROVIDER_CONFIRMED_UNREVIEWED_AUTOPILOT_POST_CHECK_REQUIRED",
-      "policy": "2026-11-07 authenticated AI Tuber UI: What If AutoPilot YouTube channel deselected and changes saved. Provider status explicitly says 'Videos are saved to My Videos' / 'Nothing posts'. Generation every two days at 18:00 remains active but drafts only. Agent scheduling/publication may resume ONLY after full finished MP4+audio/factual QC, exact unique ID and current queue check. No existing public videos were changed.",
-      "latestConfirmed": "2026-11-15: AITuber email 18:02 Oslo said new Black Hole video draft only/no channel; provider email 18:26 Oslo confirmed the same titled video was auto-published to YouTube https://www.youtube.com/watch?v=I887Dlx9kRA. Previous 07/08 Nov drafts-only setting cannot be considered current guarantee; verify all series in actual AI Tuber UI before any new agent booking. Open alert whatif-autopilot-unreviewed-publishing-2026-11-15.",
+      "status": "RESOLVED_AUTHENTICATED_UI_WHATIF_PAUSED_2026_11_20",
+      "policy": "Autopilot remains paused. New films are deliberately reviewed and scheduled for 18:00 Europe/Oslo with duplicate checks. Current verified manual booking is publication 1d634cb9-78b2-41f4-919a-bd3ebb093268 for Nov20 18:00; preserve it.",
+      "latestConfirmed": "Authenticated AITuber UI Nov20: only What If autopilot listed and PAUSED; My Videos only / Nothing posts. Connected What If YouTube account refreshed. Complete Publications queue empty before booking the one reviewed Air Vanished Short. Do not re-enable autopilot.",
       "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
       "previousPolicy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
-      "resolvedOn": "2026-11-07"
+      "resolvedOn": "2026-11-20"
     },
     "paidPromotionDecision": {
       "decidedOn": "2026-11-07",
@@ -509,7 +509,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-17 authenticated Metricool: Mørstad Nov15 and San Juan Nov16 PUBLISHED YouTube+TikTok, no future posts through Nov30 in returned scheduled planner records.",
+      "verifiedDate": "2026-11-20",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -743,11 +743,43 @@
           "status": "PUBLISHED",
           "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7708817244570012950",
           "providerPostId": "7708817244570012950"
+        },
+        {
+          "id": 435481130,
+          "uuid": "-4747208831079200148",
+          "network": "youtube",
+          "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+          "date": "2026-11-20",
+          "time": "18:00",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-8380992433133446767.mp4",
+          "statusVerifiedDate": "2026-11-20",
+          "statusSource": "Authenticated Metricool create receipt and scheduled queue readback",
+          "qa": "data/publication-review-2026-11-20.json"
+        },
+        {
+          "id": 435481130,
+          "uuid": "-4747208831079200148",
+          "network": "tiktok",
+          "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+          "date": "2026-11-20",
+          "time": "18:00",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-8380992433133446767.mp4",
+          "statusVerifiedDate": "2026-11-20",
+          "statusSource": "Authenticated Metricool create receipt and scheduled queue readback",
+          "qa": "data/publication-review-2026-11-20.json"
         }
       ]
     },
     "aituber": {
-      "verifiedDate": "2026-11-19",
+      "verifiedDate": "2026-11-20",
       "posts": [
         {
           "id": "16685215-b45e-4254-9c54-83cb7c7166d7",
@@ -797,6 +829,20 @@
           "source": "Authenticated AI Tuber GET /publications/62bc5af5-18a0-4ec0-b8f0-e38f38917b69 checked 2026-11-19",
           "qa": "UNKNOWN_FULL_AV_REVIEW_NOT_VERIFIED; pre-publication notes show blocked CDN download. Uploaded at 18:55, not scheduled for 18:00.",
           "scheduledAt": null
+        },
+        {
+          "id": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+          "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+          "channel": "What If in 40 Seconds",
+          "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+          "title": "What If Earth's Air Vanished for 60 Seconds?",
+          "date": "2026-11-20",
+          "time": "18:00",
+          "status": "scheduled",
+          "scheduledAt": "2026-11-20T17:00:00.000Z",
+          "source": "Authenticated AI Tuber GET /publications/{id}; latest reviewed export",
+          "qa": "data/publication-review-2026-11-20.json",
+          "published": false
         }
       ],
       "unverifiedSeries": [
@@ -813,14 +859,12 @@
         "2026-11-07 19:11 Europe/Oslo: What If AutoPilot automatically generated 34s Sun Grew 10% Brighter? at 18:00, provider email 18:07 confirms PUBLIC YouTube https://www.youtube.com/watch?v=AmoxUPMdCwI. This is a fresh verified quality-gate BLOCKER for future posting: unreviewed AutoPilot direct publishing bypasses mandatory MP4/audio QA and 35–40s/positive-payoff targets. Alert whatif-autopilot-unreviewed-publishing-2026-11-07 OPEN. No agent extra publishing; must set AutoPilot to draft-only via UI."
       ],
       "currentCheck": {
-        "checkedOn": "2026-11-08",
-        "source": "Authenticated Publications UI",
-        "upNext": 0,
-        "message": "Your queue is empty",
-        "beeVideoId": "f3dc9b3c-1001-41ec-9d80-e96246c67bd6",
-        "beePublicationId": null,
-        "beeStatus": "NOT_BOOKED_QC_HOLD",
-        "youtubeStudioIndependentlyChecked": false,
+        "checkedOn": "2026-11-20",
+        "source": "Authenticated Publications UI followed by GET exact publication",
+        "autopilotPaused": true,
+        "bookingId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+        "status": "scheduled",
+        "scheduledAt": "2026-11-20T17:00:00.000Z",
         "existingPostsChanged": false
       },
       "littleWildCheck20261108": {
@@ -5485,7 +5529,7 @@
     "reportLibraryFileId": "libfile_fde3_f-1df93106fb0c8191a737bc7764b14ea3_a051186db4148191abb75d7b8656c8bb"
   },
   "activeBizarrePastProduction20261119": {
-    "status": "EXPORTS_SAVED_QA_PENDING",
+    "status": "ARK_SCHEDULED_PILATE_CORRIDOR_RETAINED",
     "manifest": "data/bizarre-past-sacred-batch-2026-11-19.json",
     "films": [
       "pilate",
@@ -5494,7 +5538,7 @@
     ],
     "generationAccepted": true,
     "duplicateGuard": "39 completed source video generations including 3 cast retakes; final films are exported, confirmed and saved. Do not create another batch or retry accepted jobs to replace these outputs.",
-    "publication": "No new booking made in this production request. Complete practical AV review of exact exports before any later release.",
+    "publication": "Ark reviewed and scheduled Nov20 18:00 on YouTube+TikTok, Metricool 435481130. Pilate and corridor retained and not booked by this check. Do not regenerate.",
     "generationComplete": true,
     "finalOwnedMedia": {
       "ark": {
@@ -5547,7 +5591,8 @@
     "spendCredits": 539.26,
     "closingBalance": 1873.13,
     "nextAction": "Poll the three existing analysis IDs. Review completed scene descriptions and audio transcript for correct narration, music and timing; resolve actual issues without duplicate generations. User asked for films prepared this turn, not immediate publishing.",
-    "noNewPublicationOrScheduleThisTurn": true
+    "noNewPublicationOrScheduleThisTurn": false,
+    "latestReview": "data/publication-review-2026-11-20.json"
   },
   "bizarrePastAgentCheck20261119": {
     "date": "2026-11-19",
@@ -5719,6 +5764,87 @@
       "After QC and booking ensure exact 18:00 Europe/Oslo, correct What If channel, education category 27, AI disclosure, MadeForKids false, correct metadata and no duplicate. If unable, HOLD.",
       "Use less expensive mixed media judiciously next time rather than assuming max AI clip generation for every beat; no purchases."
     ],
-    "directActions": "Verified Sun publication, re-researched competitors/physics, revised creative governance, preflighted and generated one original 35s What If Short (6 AI video scenes), completed 1080p export, checked provider status and balances, attempted authenticated MP4 URL and local fetch (DNS failed), updated source brief and competitor watch; NO booking or publication of new draft, no Telegram/social engagement, no paid credit purchase or ads. Little Wild remains paused."
+    "directActions": "Verified Sun publication, re-researched competitors/physics, revised creative governance, preflighted and generated one original 35s What If Short (6 AI video scenes), completed 1080p export, checked provider status and balances, attempted authenticated MP4 URL and local fetch (DNS failed), updated source brief and competitor watch; NO booking or publication of new draft, no Telegram/social engagement, no paid credit purchase or ads. Little Wild remains paused.",
+    "resolvedByCheck20261120": "Prior dated export/network/Autopilot blockers resolved. See latestPublicationCheck20261120. Keep historical Nov19 QA notes as history, do not treat them as current unbooked state or regenerate the now-scheduled video."
+  },
+  "latestPublicationCheck20261120": {
+    "date": "2026-11-20",
+    "timezone": "Europe/Oslo",
+    "userInstruction": "Complete and publish as agreed; keep it dramatic.",
+    "releaseTime": "2026-11-20T18:00:00+01:00",
+    "status": "PROVIDER_CONFIRMED_SCHEDULED_NOT_YET_PUBLISHED",
+    "reviewMethod": "Full exported files decoded and assessed using whole-file multimodal visual/audio scene analyses, direct assistant contact-sheet/frame inspection, audio continuity and level measurements, source/metadata checks. No human or real-time subjective listening is claimed.",
+    "whatif": {
+      "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+      "title": "What If Earth's Air Vanished for 60 Seconds?",
+      "actualDuration": 34.411,
+      "format": "1080x1920",
+      "studioProjectId": "f577dbdf-c7fb-48cb-8d8e-f075f5e2ae6a",
+      "reviewAnalysisId": "c371bfb2-f871-4312-bcb9-afe32b5ad531",
+      "reviewUploadId": "cd17d2ac-74a8-45ef-b0e3-79e3268f3548",
+      "approved": true,
+      "revision": "Added bold white black-outlined WHAT IF…? / NO AIR • 60s overlay at the beginning using AITuber editor; no regeneration and no extra generation credits.",
+      "finalExportUrl": "https://cdn.aituber.app/exports/org_3KohME0rcpuY4ShttDKq6LmM7mR/ca44af8f-0c6d-46fc-821c-5b959593aec6.mp4",
+      "audioSha256": "71e941c763f12427692eec17f46841ab1f3a66a88b04bfb7ff9676066214cc57",
+      "audioUnchanged": true,
+      "fullDecodePass": true,
+      "audioMeanDb": -22.9,
+      "audioMaxDb": -3.9,
+      "publicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+      "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "status": "scheduled",
+      "scheduledAt": "2026-11-20T17:00:00.000Z",
+      "published": false,
+      "limitations": "Illustrative AI montage includes stylized cockpit composition and pressure-gauge detail; not literal measured or documentary footage. Accepted as dramatization with description explicitly identifying fictional premise and AI visuals. Scene analyzer is supporting evidence, not assumed infallible; final frames were independently inspected."
+    },
+    "bizarrePast": {
+      "filmId": "ark",
+      "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+      "actualDuration": 37.5,
+      "format": "1080x1920",
+      "reviewAnalysisId": "f8f88795-5764-4d64-b42e-e5f032f12709",
+      "mediaId": "41915783-7ef2-4313-9a80-c63663f5f088",
+      "approved": true,
+      "audioMeanDb": -19.2,
+      "audioMaxDb": -2.9,
+      "audioSilenceLongerThanHalfSecond": false,
+      "source": "2 Maccabees 2:4–8; narrative explicitly attributed to ancient text, no claim of archaeological discovery.",
+      "metricoolPostId": 435481130,
+      "uuid": "-4747208831079200148",
+      "brandId": 7296504,
+      "scheduledLocal": "2026-11-20T18:00:00",
+      "timezone": "Europe/Oslo",
+      "providers": [
+        {
+          "network": "youtube",
+          "status": "PENDING"
+        },
+        {
+          "network": "tiktok",
+          "status": "PENDING"
+        }
+      ],
+      "autoPublish": true,
+      "draft": false,
+      "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-8380992433133446767.mp4",
+      "aiLabels": {
+        "youtube": true,
+        "tiktok": true
+      },
+      "madeForKids": false,
+      "published": false
+    },
+    "autopilot": {
+      "whatif": "PAUSED_AUTHENTICATED_UI_VERIFIED",
+      "littleWild": "NO_ACTIVE_AUTOPILOT_LISTED; channel remains stopped",
+      "generationCreditsAddedOrPurchased": 0
+    },
+    "noTelegram": true,
+    "noPaidPromotion": true,
+    "duplicateGuard": "Do not create or book these films again. Preserve these exact provider bookings; verify publication after 18:00."
+  },
+  "latestCreativeReminder20261120": {
+    "source": "User: husk det må være dramtisk",
+    "instruction": "Keep strong immediate WHAT IF…? premise, escalating concrete physical consequences and satisfying payoff. Bizarre Past builds cinematic suspense from sourced historical or textual mysteries. Do not invent discoveries or overstate biblical narratives."
   }
 }
