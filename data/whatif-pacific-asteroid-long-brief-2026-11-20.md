@@ -1,6 +1,6 @@
 # What If a 10-Kilometer Asteroid Hit the Pacific? — Sunday long film editorial brief
 
-**Editorial decision:** 20 November 2026, for potential **Sunday 22 November, 18:00 Europe/Oslo**, 16:9 normal YouTube video (aim 3–4 minutes). **STATUS (20 Nov 15:50 Oslo): GENERATION STARTED in AI Tuber, video `5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438` is `processing`. Not exported, not full-AV-QC-approved, not booked or published.** Do not change today's separate 20 Nov Air-Vanished Short booking `1d634cb9-78b2-41f4-919a-bd3ebb093268`. AI Tuber production only. Cost/credit safeguards apply.
+**Editorial decision:** 20 November 2026, for potential **Sunday 22 November, 18:00 Europe/Oslo**, 16:9 normal YouTube video (aim 3–4 minutes). **STATUS (20 Nov 16:00 Oslo): AI Tuber video `5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438` is COMPLETED, 135 sec, 16:9, 1080p MP4 export COMPLETED. Full AV QC HOLD due to CDN DNS access; NOT scheduled or published.** Do not change today's separate 20 Nov Air-Vanished Short booking `1d634cb9-78b2-41f4-919a-bd3ebb093268`. AI Tuber production only. Cost/credit safeguards apply.
 
 ## Write the answer before the opening
 
@@ -96,3 +96,10 @@ Timecodes show *dramaturgical beats*, not mandated cuts. Match each exact spoken
 - **Credits:** 3,707 before generation; 2,383 while processing (1,324 difference could reflect reservation/charge; verify actual final balance). No credit purchase.
 - **Status:** `processing` last verified; 1080p MP4 export and complete picture/sound QA still pending. No provider publication or Sunday booking established.
 - **Next safety gates:** Check this ID again; export/download one MP4; independently inspect full video and audio; verify exact first-frame WHAT IF, factual qualifier visuals, no repetitive segments and final payoff; inspect thumbnail; verify Sunday 22 Nov 18:00 Europe/Oslo provider queue uniqueness. Only after all pass, schedule to What If channel ID `78dcabfb-3657-41ab-89b8-8c04da2f43d5` and read back publication ID. Today's separate Air Vanished Short booking is protected.
+
+### QC hold / autonomous follow-up
+
+- 1080p MP4 export `d156d978-56fd-4695-873c-55a2b3e13328` completed. Provider MP4: https://cdn.aituber.app/exports/org_3KohME0rcpuY4ShttDKq6LmM7mR/d156d978-56fd-4695-873c-55a2b3e13328.mp4
+- Thumbnail ready: https://cdn.aituber.app/88cc4cf2-980b-4710-9ff7-2c7e5b876bcd/image-fal-1795186352088-0.jpg ; not visually inspected in this environment.
+- Two authenticated provider retrievals gave valid CDN URL (`download_video` and `GET /exports/download`) but working container direct fetch hit `NameResolutionError cdn.aituber.app`. Thus no full independent AV playback completed. Do not confuse provider export success with quality approval. Blocker logged in `data/production-alerts.json` as `whatif-pacific-impact-full-av-qc-blocked-2026-11-20` WITHOUT Telegram.
+- Separate one-time QA retry is enabled Saturday 21 Nov 12:00 Oslo; will book Sunday 22 Nov 18:00 **only if** whole-media QA and duplicate/AutoPilot checks pass. Existing What If daily agent remains active. No regeneration and no further credit purchases.
