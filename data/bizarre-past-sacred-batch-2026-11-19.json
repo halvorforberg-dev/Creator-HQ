@@ -1,7 +1,7 @@
 {
   "id": "bizarre-past-sacred-2026-11-19",
   "channel": "Bizarre Past",
-  "status": "EXPORTED_AND_SAVED_AWAITING_MACHINE_AV_REVIEW",
+  "status": "ALL_THREE_SCHEDULED_PENDING_PROVIDER_PUBLICATION",
   "newUserDirection": [
     "Jesus",
     "Bible",
@@ -1849,11 +1849,65 @@
     "editorialChoices": "Concrete object/action in first frame, one source-backed question, clear final payoff; original wording and visuals. No unverified discovered Ark or hidden-treasure claim."
   },
   "publication": {
-    "attempted": false,
-    "status": "NOT_PUBLISHED",
-    "newScheduleCreated": false,
-    "eligibleForPublication": false,
-    "holdReason": "Machine scene/audio analyses are still queued. Read their actual audio and scene outputs, then review before any publication. Do not regenerate."
+    "attempted": true,
+    "status": "ALL_THREE_BOOKED_NOT_YET_PUBLISHED",
+    "newScheduleCreated": true,
+    "eligibleForPublication": true,
+    "dateOfBooking": "2026-11-20",
+    "bookedProvider": "Metricool",
+    "timezone": "Europe/Oslo",
+    "bookings": [
+      {
+        "id": "ark",
+        "postId": 435481130,
+        "date": "2026-11-20",
+        "time": "18:00",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "providerStatuses": [
+          "PENDING",
+          "PENDING"
+        ],
+        "createdBy": "separate prior same-day publication review",
+        "sourceQA": "data/publication-review-2026-11-20.json"
+      },
+      {
+        "id": "corridor",
+        "postId": 435630705,
+        "date": "2026-11-22",
+        "time": "18:00",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "providerStatuses": [
+          "PENDING",
+          "PENDING"
+        ],
+        "createdBy": "Bizarre Past channel review 2026-11-20",
+        "sourceQA": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+      },
+      {
+        "id": "pilate",
+        "postId": 435631044,
+        "date": "2026-11-23",
+        "time": "18:00",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "providerStatuses": [
+          "PENDING",
+          "PENDING"
+        ],
+        "createdBy": "Bizarre Past channel review 2026-11-20",
+        "sourceQA": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+      }
+    ],
+    "readback": "Authenticated Metricool getScheduledPosts brand 7296504 on 2026-11-20, media present, autoPublish true, draft false, YouTube AI disclosure on, TikTok AIGC on. All 3 posts PENDING (not published).",
+    "releaseVerification": "Future after 18:00 required: confirm independent YouTube/TikTok PUBLISHED and public links for each post. Do not schedule duplicate."
   },
   "noTelegram": true,
   "videoJobs": [
@@ -2913,7 +2967,14 @@
         "detectionFindings": [],
         "bytes": 16843404,
         "sha256": "960fc62356db88dab6c13957a3b45d279b72f7ccbf8c4ba88d85fa5f4cf04cd0"
-      }
+      },
+      "publicationStatus": "PENDING_SCHEDULED",
+      "metricoolPostId": 435631044,
+      "scheduledAtOslo": "2026-11-23T18:00:00+01:00",
+      "networks": [
+        "youtube",
+        "tiktok"
+      ]
     },
     "ark": {
       "media_id": "41915783-7ef2-4313-9a80-c63663f5f088",
@@ -2965,7 +3026,14 @@
         "detectionFindings": [],
         "bytes": 31137329,
         "sha256": "e25d8ae11c3c03bbee11b24a7f5373bc7f9385514a40553e5de7050cabb09b5f"
-      }
+      },
+      "publicationStatus": "PENDING_SCHEDULED",
+      "metricoolPostId": 435481130,
+      "scheduledAtOslo": "2026-11-20T18:00:00+01:00",
+      "networks": [
+        "youtube",
+        "tiktok"
+      ]
     },
     "corridor": {
       "media_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
@@ -3021,7 +3089,14 @@
         ],
         "bytes": 110871240,
         "sha256": "f79d37570dd2ed870013e44ebaa003656a0a8244814270a9e6d1942cdb461ce4"
-      }
+      },
+      "publicationStatus": "PENDING_SCHEDULED",
+      "metricoolPostId": 435630705,
+      "scheduledAtOslo": "2026-11-22T18:00:00+01:00",
+      "networks": [
+        "youtube",
+        "tiktok"
+      ]
     }
   },
   "excludedSources": {
@@ -3048,7 +3123,7 @@
     "changes": "AI-animated, reframed, resized and captioned",
     "disclosure": "Animated museum cast; not original excavation footage"
   },
-  "noPublicationScheduled": true,
+  "noPublicationScheduled": false,
   "duplicateGuard": "39 completed source video generations including 3 cast retakes; final films are exported, confirmed and saved. Do not create another batch or retry accepted jobs to replace these outputs.",
   "generationComplete": true,
   "savedFiles": [
@@ -3488,37 +3563,41 @@
     "formats": "Pilate and Ark:1080x1920; Corridor:1920x1080",
     "audioMeasurement": "About -16 LUFS; true peaks below -2 dBTP; no detected long silence",
     "longFilmLowMotion": "118.333-120.333s approximately. Visually reviewed: a quiet corridor shot with ongoing captions; not a broken export.",
-    "machineAVCompleted": false,
+    "machineAVCompleted": true,
     "machineAnalysisStates": {
       "pilate": {
         "id": "77ab98ea-1326-4fda-bae4-0533f173f2d1",
         "video_input_id": "43cb58b2-ec97-4348-8125-82048e270104",
         "youtube_url": null,
-        "status": "queued",
+        "status": "completed",
         "fail_reason": null,
         "video_s3_url": null,
-        "scenes": null
+        "scenes": null,
+        "sceneCount": 6
       },
       "ark": {
         "id": "f8f88795-5764-4d64-b42e-e5f032f12709",
         "video_input_id": "41915783-7ef2-4313-9a80-c63663f5f088",
         "youtube_url": null,
-        "status": "queued",
+        "status": "completed",
         "fail_reason": null,
         "video_s3_url": null,
-        "scenes": null
+        "scenes": null,
+        "sceneCount": 8
       },
       "corridor": {
         "id": "d9488107-67e3-418d-8f89-18b35e0c0940",
         "video_input_id": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
         "youtube_url": null,
-        "status": "queued",
+        "status": "completed",
         "fail_reason": null,
         "video_s3_url": null,
-        "scenes": null
+        "scenes": null,
+        "sceneCount": 28
       }
     },
-    "humanFullPlaybackClaimed": false
+    "humanFullPlaybackClaimed": false,
+    "newReview20261120": "End-to-end automated ASR and full video decode, machine multimodal scene/audio analysis completed; manuscript/scene facts checked against primary sources; no direct subjective human listening claimed. See data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json."
   },
-  "nextAction": "Poll the three existing analysis IDs. Review completed scene descriptions and audio transcript for correct narration, music and timing; resolve actual issues without duplicate generations. User asked for films prepared this turn, not immediate publishing."
+  "nextAction": "Preserve existing three Metricool bookings; after their 18:00 releases verify actual per-provider published status and URLs. Never regenerate/duplicate. Keep unrelated Merer film on QA HOLD for missing narration."
 }
