@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-20",
+  "channel": "Bizarre Past",
+  "scope": "Review available completed Higgsfield exports; verify existing Metricool queue; book source-checked release slots only once",
+  "governance": [
+    "data/creative-prompt-upgrades.json",
+    "data/production-control.json",
+    "data/bizarre-past-sacred-batch-2026-11-19.json",
+    "data/bizarre-past-production-batch-2026-11-19.json",
+    "data/bizarre-past-av-review-2026-11-19.json"
+  ],
+  "reviewMethod": "Downloaded exact five final MP4s into authenticated Higgsfield sandbox; verified SHA256 against source manifests, ffmpeg decoded entire files without errors, used existing completed Higgsfield full-file multimodal video/audio scene analyses, executed complete faster-whisper English transcription (small.en for Ark/Pilate/Corridor/Merer; base.en for Ark/Merer/Dead Sea Scrolls); prior batch visual contact sheets had been reviewed. Verified historical primary/research sources and checked authenticated Metricool source queue before writing and after publication booking. Complete subjective real-time human audio audition was not available and is not claimed.",
+  "publicationVerdicts": [
+    {
+      "id": "ark",
+      "status": "PRESERVE_EXISTING_BOOKING",
+      "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+      "durationSeconds": 37.5,
+      "sha256": "e25d8ae11c3c03bbee11b24a7f5373bc7f9385514a40553e5de7050cabb09b5f",
+      "qa": "Prior same-day QA file data/publication-review-2026-11-20.json approved; our independent small.en transcription reproduces narrative end to end, with actual ending 36.48s and no missing claims. No additional booking created.",
+      "metricoolPostId": 435481130,
+      "slotOslo": "2026-11-20 18:00",
+      "youtube": "PENDING",
+      "tiktok": "PENDING",
+      "source": "2 Maccabees 2:4–8"
+    },
+    {
+      "id": "corridor",
+      "status": "MACHINE_AV_APPROVED_AND_SCHEDULED",
+      "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
+      "durationSeconds": 182.6,
+      "format": "1920x1080",
+      "sha256": "f79d37570dd2ed870013e44ebaa003656a0a8244814270a9e6d1942cdb461ce4",
+      "qa": "Full-decode pass, no long audio silence; small.en full word sequence reaches final closing line at ~181.38s. Completed multimodal scene/audio analysis id d9488107-67e3-418d-8f89-18b35e0c0940 has 28 scene beats, relevant movement and clear physical corridor ending. Documentary claims independently match 2023 muon study and 2023/2025 non-destructive testing research. All footage disclosed as AI reconstruction. Prior image contact sheets inspected. Human subjective full-length listening not claimed.",
+      "sourceUrls": [
+        "https://www.nature.com/articles/s41467-023-36351-0",
+        "https://www.nature.com/articles/s41598-025-91115-8"
+      ],
+      "metricoolPostId": 435630705,
+      "metricoolUuid": "-3003291507968815159",
+      "slotOslo": "2026-11-22 18:00",
+      "providers": [
+        "youtube:PENDING",
+        "tiktok:PENDING"
+      ],
+      "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1613294865251495229.mp4",
+      "youtubeType": "video",
+      "autoPublish": true,
+      "aiDisclosure": true,
+      "madeForKids": false
+    },
+    {
+      "id": "pilate",
+      "status": "MACHINE_AV_APPROVED_AND_SCHEDULED",
+      "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+      "durationSeconds": 35.75,
+      "format": "1080x1920",
+      "sha256": "960fc62356db88dab6c13957a3b45d279b72f7ccbf8c4ba88d85fa5f4cf04cd0",
+      "qa": "Full-decode pass; small.en complete 7-segment narration ends ~34.8s; machine scene/audio analysis id 77ab98ea-1326-4fda-bae4-0533f173f2d1 with 6 visual scenes covers opening-to-factual-payoff. Static stone evidence shots with varied excavations and reenactment; no claimed real footage. Historical caveat explicitly says inscription does not name Jesus or prove trial. Prior image contact sheets inspected. Human subjective full-length listening not claimed.",
+      "sourceUrls": [
+        "https://www.imj.org.il/en/collections/199042",
+        "https://thejesusarchive.com/archaeology/pilate-inscription"
+      ],
+      "metricoolPostId": 435631044,
+      "metricoolUuid": "6480021750437266006",
+      "slotOslo": "2026-11-23 18:00",
+      "providers": [
+        "youtube:PENDING",
+        "tiktok:PENDING"
+      ],
+      "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-5108672293973701727.mp4",
+      "youtubeType": "short",
+      "autoPublish": true,
+      "aiDisclosure": true,
+      "madeForKids": false
+    }
+  ],
+  "heldFilms": [
+    {
+      "id": "merer",
+      "status": "QC_HOLD_NARRATION_MISSING_LINES",
+      "durationSeconds": 36.721,
+      "sha256": "6a515b1ca9c7e98ea714f62a96985b8bb375af1bb70cdce49ca8d581f65e2431",
+      "evidence": "Independent faster-whisper base.en and small.en transcriptions both jump from 'His crew carried fine limestone from Tura toward Giza by boat' directly to 'smooth outer casing' then 'giving us a rare view...' without expected 'Those white blocks helped form the pyramid's...' and 'His notes record working days and journeys'. Narration ends near 30.6s though export runs 36.72s. May be missing or masked lines, not a proven edit without direct playback. Do not schedule until original audio is checked and repaired, then re-reviewed. No duplicate generation."
+    },
+    {
+      "id": "scrolls",
+      "status": "QC_HOLD_FINAL_PERCEPTUAL_CHECK",
+      "durationSeconds": 39.254,
+      "evidence": "Full small-video decoding and base.en spoken transcript match planned story to closing line at ~38.06s. Completed video_analysis has 9 scene beats, but direct human-equivalent perceptual listening not performed by this review, so no scheduling."
+    },
+    {
+      "id": "vikings",
+      "status": "QC_HOLD_PRIOR_REVIEW_OPEN",
+      "durationSeconds": 177.625,
+      "evidence": "Prior report data/bizarre-past-av-review-2026-11-19.json flagged possible molten metal pouring imagery at 0:52–0:59 inconsistent with narrated Norse ironworking; no repeat export or scheduling."
+    }
+  ],
+  "verifiedMetricoolQueue": [
+    {
+      "id": 435481130,
+      "slotOslo": "2026-11-20T18:00:00",
+      "networks": "YouTube+TikTok",
+      "status": "PENDING"
+    },
+    {
+      "id": 435630705,
+      "slotOslo": "2026-11-22T18:00:00",
+      "networks": "YouTube+TikTok",
+      "status": "PENDING"
+    },
+    {
+      "id": 435631044,
+      "slotOslo": "2026-11-23T18:00:00",
+      "networks": "YouTube+TikTok",
+      "status": "PENDING"
+    }
+  ],
+  "providerReadback": "Authenticated Metricool getScheduledPosts of brand 7296504, 2026-11-20 through 2026-11-30, all 3 posts media-present, autoPublish=true, draft=false, AI/synthetic labels true, Youtube madeForKids=false, exact local 18:00. All PENDING at read; do not call them PUBLISHED before after-release check.",
+  "billing": "Higgsfield Ultra balance authenticated 1873.13 at start of this run, versus previous report 1909.13. Difference -36 credits unattributed to this agent. No new generations, music/voice purchases, ad spend, subscriptions or promotions by this review.",
+  "telegram": "None; user explicitly disabled all Telegram sends and notifications.",
+  "littleWild": "Paused; no work performed.",
+  "nextSteps": "Check 20 Nov Ark provider publication after 18:00; preserve all three bookings; before making any additional 25 Nov/27 Nov booking resolve remaining held media issues. Do not auto-duplicate releases."
+}
