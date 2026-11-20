@@ -275,6 +275,37 @@
         "noNewGeneration": "This status review did not spend credits.",
         "telegram": "DISABLED BY USER; no send or push triggered."
       }
+    },
+    {
+      "id": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
+      "channel": "What If in 40 Seconds",
+      "category": "finished_mp4_not_accessible_for_complete_av_quality_review",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-20",
+      "notificationRevision": 1,
+      "source": {
+        "type": "authenticated_aituber_and_container_network",
+        "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+        "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+        "providerVideoStatus": "completed",
+        "providerExportStatus": "completed",
+        "providerResolution": "1080p",
+        "downloadMethods": [
+          "AITuber download_video returned MP4 URL",
+          "AITuber authenticated api_read GET /exports/download returned same MP4 URL",
+          "working container requests to cdn.aituber.app failed with DNS NameResolutionError"
+        ],
+        "releaseTarget": "2026-11-22T18:00:00+01:00"
+      },
+      "summary": "Ferdig 135 sek 16:9 asteroidefilm er generert og 1080p-eksportert, men MP4 kan ikke leses/avspilles for obligatorisk helhetlig bilde-/lydkontroll via tilgjengelig miljø. Det er derfor ikke dokumentert at åpning, fortellerstemme, scener og siste payoff faktisk består QA. Søndagspublisering er ikke booket.",
+      "action": "Prøv tilgang gjennom autentisert AI Tuber UI / arbeidsøkt som kan spille hele eksporten, med uavhengig bilde- og lydkontroll. Kontroller thumbnail, bokstavstor WHAT IF fra første 0–2 s, full tale, feil/synk og siste scene. Sjekk søndagskø og autopilot. Bare ved bestått QA: book søndag 22.11 kl. 18:00 Oslo og verifiser provider-ID. Ingen regenerering/duplikat eller nye kredittkjøp.",
+      "ownerActionRequired": false,
+      "relatedLinks": [
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-pacific-asteroid-long-brief-2026-11-20.md"
+      ],
+      "notificationPolicy": "NO TELEGRAM — user decision 2026-11-18; internal log only."
     }
   ]
 }
