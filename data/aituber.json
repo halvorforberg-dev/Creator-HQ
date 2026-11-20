@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-19T08:36:40.075Z",
+  "updatedAt": "2026-11-20T08:33:29.265Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "2ce27992-c21b-4375-ad62-abc694b8fa76",
+      "title": "What If a Day Lasted 48 Hours?",
+      "status": "completed",
+      "createdAt": "2026-11-19T17:00:48.388Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+      "title": "What if Earth's air vanished? For sixty seconds. The sky",
+      "status": "completed",
+      "createdAt": "2026-11-19T14:38:34.204Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "9f155822-7e05-41ac-a40a-deb234843e74",
       "title": "Pip’s Rainbow Color Hunt",
