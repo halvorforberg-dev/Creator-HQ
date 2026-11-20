@@ -3136,7 +3136,7 @@
     "disabledBy": "Explicit user request: no more Telegram messages"
   },
   "nextLongFormEditorial": {
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-20",
     "timezone": "Europe/Oslo",
     "releaseTime": "18:00",
     "state": "WHAT_IF_NOV8_TARGET_ELAPSED_BEE_QC_HOLD_NOT_BOOKED",
@@ -3411,6 +3411,25 @@
           "status": "NOT_BOOKED"
         },
         "caution": "Prepared for user Nov19. Final AV approval remains pending; use exact completed export and do not duplicate. Duration fits Wednesday 2–4 min; no Sunday booking implied."
+      },
+      {
+        "channel": "What If in 40 Seconds",
+        "date": "2026-11-22",
+        "time": "18:00 Europe/Oslo",
+        "length": "3–4 minutes editorial target",
+        "aspect": "16:9 ordinary public",
+        "title": "What If a 10-Kilometer Asteroid Hit the Pacific?",
+        "subject": "Could a deep Pacific Ocean absorb a dinosaur-killer-sized impact? Near and far consequences for a person inland.",
+        "brief": "data/whatif-pacific-asteroid-long-brief-2026-11-20.md",
+        "producer": "AI Tuber",
+        "publisher": "AI Tuber",
+        "stage": "EDITORIAL_SCRIPT_APPROVED_PRE_CREDIT_NO_GENERATION_NO_EXPORT_NO_QC_NO_BOOKING",
+        "publication": {
+          "attempted": false,
+          "status": "NOT_BOOKED",
+          "publicationId": null
+        },
+        "caution": "New proposed 22 Nov slot is NOT a confirmed AI Tuber booking. Verify account queue, budget, full exported MP4 AV QA and AutoPilot pause before any publication."
       }
     ],
     "existingBookings": "Existing posts preserved. Bizarre Past Mørstad long-form is now verified booked on both YouTube and TikTok for 2026-11-15 18:00 Europe/Oslo; booking is not proof of publication.",
@@ -5984,5 +6003,91 @@
     "creditsAfter": 1867.37,
     "bookingId": null,
     "telegram": false
+  },
+  "whatIfNextLongFormEditorial20261120": {
+    "checkedAtOslo": "2026-11-20T15:32:00+01:00",
+    "source": "Redaksjonelt tillegg 20.11.2026, pre-credit review of current What If plan and own/competitor evidence",
+    "channel": "What If in 40 Seconds",
+    "slot": {
+      "date": "2026-11-22",
+      "time": "18:00 Europe/Oslo",
+      "aspect": "16:9",
+      "targetDuration": "3–4min",
+      "status": "EDITORIAL_TARGET_ONLY_NOT_BOOKED"
+    },
+    "selection": {
+      "chosenTitle": "What If a 10-Kilometer Asteroid Hit the Pacific?",
+      "alternativeTitle": "What If the Ocean Took a Dinosaur-Killer Impact?",
+      "finalAnswer": "A 10-km asteroid is not safely absorbed by deep water. Human danger extends beyond coastal impacts to potential food and supply disruption inland, with exact effects model-dependent.",
+      "opening": "WHAT IF…? both spoken and visible in first 0–2 seconds on immediate impact shot",
+      "finalScene": "Same inland family confronting prolonged supply disruption; THE OCEAN IS NOT A SHIELD",
+      "brief": "data/whatif-pacific-asteroid-long-brief-2026-11-20.md",
+      "scriptWordCount": 373,
+      "sceneCount": 10,
+      "hookOptionsConsidered": 5,
+      "editorialQuality": "SCRIPT_APPROVED_PRE_CREDIT_GATE",
+      "facts": "Science bounded by NASA/JPL, USGS impact modeling, NOAA tsunami modeling and geological nontransferability of Chicxulub climate numbers"
+    },
+    "production": {
+      "videoId": null,
+      "creditsSpentThisRun": 0,
+      "created": false,
+      "exported": false,
+      "fullAvQcPassed": false,
+      "booked": false,
+      "published": false,
+      "remainingBeforeProduction": "Confirm full AI Tuber queue and nonduplication; obtain cost quote at desired mixed media quality, then generate if reserve and complete QA permit; only book on 18:00 after final MP4 with audio review",
+      "creditsAtCheck": 3707
+    },
+    "comparativeEvidence": {
+      "source": "Metricool authenticated all videos through Nov20; ages not matched",
+      "shorts": [
+        {
+          "title": "Black Hole Nov15",
+          "views": 1233,
+          "averageViewSeconds": 15
+        },
+        {
+          "title": "Sun Brighter Nov7",
+          "views": 1080,
+          "averageViewSeconds": 15
+        },
+        {
+          "title": "Octopuses Nov3",
+          "views": 1025,
+          "averageViewSeconds": 10
+        }
+      ],
+      "ordinary": [
+        {
+          "title": "Bee Nov8",
+          "views": 35,
+          "averageViewSeconds": 55
+        },
+        {
+          "title": "Sun Dark Nov18",
+          "metricsAvailable": false,
+          "publishedProviderConfirmed": true
+        }
+      ],
+      "limits": "No matched-age organic retention, swipe rate, CTR or traffic source; no causal inference",
+      "competitors": [
+        "QuirkScience Nov14 catalog",
+        "xkcd What If Oct28 ocean nuke ~3:30 public listing, large creator, not comparable",
+        "The Last Day Nov6 asteroid Mariana impact different scale"
+      ],
+      "test": "First-frame visible WHAT IF…? / giant Pacific impact; compare CTR, traffic source, first 30s retention with Sun Dark 16:9 at matched 24h/7d ages if available"
+    },
+    "currentFriday": {
+      "title": "What If Earth's Air Vanished for 60 Seconds?",
+      "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+      "publicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+      "providerStatusCheckedThisRun": "scheduled",
+      "scheduledAt": "2026-11-20T17:00:00.000Z",
+      "timezone": "Europe/Oslo",
+      "qaStatus": "Previously full AV reviewed and approved in latestPublicationCheck20261120",
+      "doNotDuplicate": true
+    },
+    "constraints": "Little Wild paused; no Telegram; no ads or purchased credits; never claim editorial target is a provider booking"
   }
 }
