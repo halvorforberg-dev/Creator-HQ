@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Europe/Oslo",
+  "userInstruction": "Complete and publish as agreed; keep it dramatic.",
+  "releaseTime": "2026-11-20T18:00:00+01:00",
+  "status": "PROVIDER_CONFIRMED_SCHEDULED_NOT_YET_PUBLISHED",
+  "reviewMethod": "Full exported files decoded and assessed using whole-file multimodal visual/audio scene analyses, direct assistant contact-sheet/frame inspection, audio continuity and level measurements, source/metadata checks. No human or real-time subjective listening is claimed.",
+  "whatif": {
+    "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+    "title": "What If Earth's Air Vanished for 60 Seconds?",
+    "actualDuration": 34.411,
+    "format": "1080x1920",
+    "studioProjectId": "f577dbdf-c7fb-48cb-8d8e-f075f5e2ae6a",
+    "reviewAnalysisId": "c371bfb2-f871-4312-bcb9-afe32b5ad531",
+    "reviewUploadId": "cd17d2ac-74a8-45ef-b0e3-79e3268f3548",
+    "approved": true,
+    "revision": "Added bold white black-outlined WHAT IF…? / NO AIR • 60s overlay at the beginning using AITuber editor; no regeneration and no extra generation credits.",
+    "finalExportUrl": "https://cdn.aituber.app/exports/org_3KohME0rcpuY4ShttDKq6LmM7mR/ca44af8f-0c6d-46fc-821c-5b959593aec6.mp4",
+    "audioSha256": "71e941c763f12427692eec17f46841ab1f3a66a88b04bfb7ff9676066214cc57",
+    "audioUnchanged": true,
+    "fullDecodePass": true,
+    "audioMeanDb": -22.9,
+    "audioMaxDb": -3.9,
+    "publicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+    "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+    "status": "scheduled",
+    "scheduledAt": "2026-11-20T17:00:00.000Z",
+    "published": false,
+    "limitations": "Illustrative AI montage includes stylized cockpit composition and pressure-gauge detail; not literal measured or documentary footage. Accepted as dramatization with description explicitly identifying fictional premise and AI visuals. Scene analyzer is supporting evidence, not assumed infallible; final frames were independently inspected."
+  },
+  "bizarrePast": {
+    "filmId": "ark",
+    "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+    "actualDuration": 37.5,
+    "format": "1080x1920",
+    "reviewAnalysisId": "f8f88795-5764-4d64-b42e-e5f032f12709",
+    "mediaId": "41915783-7ef2-4313-9a80-c63663f5f088",
+    "approved": true,
+    "audioMeanDb": -19.2,
+    "audioMaxDb": -2.9,
+    "audioSilenceLongerThanHalfSecond": false,
+    "source": "2 Maccabees 2:4–8; narrative explicitly attributed to ancient text, no claim of archaeological discovery.",
+    "metricoolPostId": 435481130,
+    "uuid": "-4747208831079200148",
+    "brandId": 7296504,
+    "scheduledLocal": "2026-11-20T18:00:00",
+    "timezone": "Europe/Oslo",
+    "providers": [
+      {
+        "network": "youtube",
+        "status": "PENDING"
+      },
+      {
+        "network": "tiktok",
+        "status": "PENDING"
+      }
+    ],
+    "autoPublish": true,
+    "draft": false,
+    "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-8380992433133446767.mp4",
+    "aiLabels": {
+      "youtube": true,
+      "tiktok": true
+    },
+    "madeForKids": false,
+    "published": false
+  },
+  "autopilot": {
+    "whatif": "PAUSED_AUTHENTICATED_UI_VERIFIED",
+    "littleWild": "NO_ACTIVE_AUTOPILOT_LISTED; channel remains stopped",
+    "generationCreditsAddedOrPurchased": 0
+  },
+  "noTelegram": true,
+  "noPaidPromotion": true,
+  "duplicateGuard": "Do not create or book these films again. Preserve these exact provider bookings; verify publication after 18:00."
+}
