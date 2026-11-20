@@ -775,6 +775,70 @@
           "statusVerifiedDate": "2026-11-20",
           "statusSource": "Authenticated Metricool create receipt and scheduled queue readback",
           "qa": "data/publication-review-2026-11-20.json"
+        },
+        {
+          "id": 435630705,
+          "uuid": "-3003291507968815159",
+          "date": "2026-11-22",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
+          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1613294865251495229.mp4",
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+        },
+        {
+          "id": 435630705,
+          "uuid": "-3003291507968815159",
+          "date": "2026-11-22",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
+          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1613294865251495229.mp4",
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+        },
+        {
+          "id": 435631044,
+          "uuid": "6480021750437266006",
+          "date": "2026-11-23",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
+          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-5108672293973701727.mp4",
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+        },
+        {
+          "id": 435631044,
+          "uuid": "6480021750437266006",
+          "date": "2026-11-23",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
+          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-5108672293973701727.mp4",
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
         }
       ]
     },
@@ -3354,7 +3418,7 @@
   },
   "nextShortEditorial": {
     "bizarrePast": {
-      "status": "EXPORTED_TECHNICAL_QC_PASS_FINAL_AV_REVIEW_PENDING",
+      "status": "QC_HOLD_POTENTIALLY_MISSING_NARRATION",
       "subject": "Merer's 4,500-year-old shipping diary: white limestone for the Great Pyramid by boat",
       "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳 | #Shorts",
       "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
@@ -3375,8 +3439,8 @@
         "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
       },
       "slotUpdate": "Produced Nov19 as part of user's 3-film request; not newly booked by this request.",
-      "latestRecheck": "2026-11-19",
-      "productionDecision": "No longer a credit hold or ungenerated brief. Use completed export, finish actual AV review before booking.",
+      "latestRecheck": "2026-11-20",
+      "productionDecision": "Do not book Merer. Full-film independent ASR models omit material explanatory lines and leave about 6 seconds after last spoken line; inspect and repair narration before further QC. Source report data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
       "productionBatch": "data/bizarre-past-production-batch-2026-11-19.json",
       "productionExport": {
         "id": "merer",
@@ -5846,5 +5910,65 @@
   "latestCreativeReminder20261120": {
     "source": "User: husk det må være dramtisk",
     "instruction": "Keep strong immediate WHAT IF…? premise, escalating concrete physical consequences and satisfying payoff. Bizarre Past builds cinematic suspense from sourced historical or textual mysteries. Do not invent discoveries or overstate biblical narratives."
+  },
+  "bizarrePastAgentCheck20261120": {
+    "date": "2026-11-20",
+    "status": "TWO_NEW_SCHEDULED_POSTS_WITH_DUAL_NETWORKS",
+    "report": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+    "metricoolBrandId": 7296504,
+    "existingArkPreserved": {
+      "postId": 435481130,
+      "date": "2026-11-20",
+      "time": "18:00",
+      "networks": [
+        "youtube",
+        "tiktok"
+      ],
+      "status": "PENDING",
+      "published": false
+    },
+    "newBookings": [
+      {
+        "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
+        "id": 435630705,
+        "date": "2026-11-22",
+        "time": "18:00",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "status": "PENDING",
+        "durationSeconds": 182.6
+      },
+      {
+        "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+        "id": 435631044,
+        "date": "2026-11-23",
+        "time": "18:00",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "status": "PENDING",
+        "durationSeconds": 35.75
+      }
+    ],
+    "qaMethod": "Complete original MP4 decoding plus small.en full voice transcription, existing visual contact sheets and full-file multimodal audio/video scene analysis; no live human subjective listening claimed. Primary/research sources fact-checked and AI labels set.",
+    "mererHold": {
+      "id": "89ab021b-7063-48cf-abbf-36db3066ea00",
+      "status": "QC_HOLD_POTENTIALLY_MISSING_NARRATION",
+      "evidence": "base.en and small.en independent full-film transcriptions both omit complete expected narration about white casing and recorded working days, and finish the spoken script at ~30.6s of 36.721s. Do not book until audio repaired and independently checked."
+    },
+    "otherHeld": [
+      "Dead Sea Scrolls Nov19 (perceptual final QA pending)",
+      "Vikings Nov19 (source imagery + final AV QA pending)"
+    ],
+    "higgsfieldBalance": 1873.13,
+    "spentInThisReview": 0,
+    "purchasedCredits": 0,
+    "paidPromotion": 0,
+    "telegram": "NONE",
+    "littleWild": "PAUSED",
+    "next": "After 18:00 check Ark PUBLISHED status. Do not duplicate any of the three queued releases; repair Merer rather than scheduling incomplete audio."
   }
 }
