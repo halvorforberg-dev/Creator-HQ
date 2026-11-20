@@ -3,7 +3,7 @@
   "timezone": "Europe/Oslo",
   "userInstruction": "Complete and publish as agreed; keep it dramatic.",
   "releaseTime": "2026-11-20T18:00:00+01:00",
-  "status": "PROVIDER_CONFIRMED_SCHEDULED_NOT_YET_PUBLISHED",
+  "status": "BIZARRE_PAST_PUBLISHED_WHATIF_RECOVERY_PENDING",
   "reviewMethod": "Full exported files decoded and assessed using whole-file multimodal visual/audio scene analyses, direct assistant contact-sheet/frame inspection, audio continuity and level measurements, source/metadata checks. No human or real-time subjective listening is claimed.",
   "whatif": {
     "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
@@ -23,10 +23,41 @@
     "audioMaxDb": -3.9,
     "publicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
     "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
-    "status": "scheduled",
+    "status": "METRICOOL_RECOVERY_PENDING",
     "scheduledAt": "2026-11-20T17:00:00.000Z",
     "published": false,
-    "limitations": "Illustrative AI montage includes stylized cockpit composition and pressure-gauge detail; not literal measured or documentary footage. Accepted as dramatization with description explicitly identifying fictional premise and AI visuals. Scene analyzer is supporting evidence, not assumed infallible; final frames were independently inspected."
+    "limitations": "Illustrative AI montage includes stylized cockpit composition and pressure-gauge detail; not literal measured or documentary footage. Accepted as dramatization with description explicitly identifying fictional premise and AI visuals. Scene analyzer is supporting evidence, not assumed infallible; final frames were independently inspected.",
+    "originalAITuberPublication": {
+      "id": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+      "status": "failed",
+      "errorMessage": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
+      "platformVideoId": null,
+      "platformVideoUrl": null,
+      "doNotRetry": true
+    },
+    "recovery": {
+      "reason": "Confirmed AITuber daily YouTube upload limit, failed with no destination video ID. Original completed reviewed export reused through the already-connected same What If YouTube channel in Metricool; no new generation or credit purchase.",
+      "brandId": 7751348,
+      "channelYouTubeId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "postId": 435850194,
+      "uuid": "6244535074678394350",
+      "scheduledLocal": {
+        "dateTime": "2026-11-20T18:19:00",
+        "timezone": "Europe/Oslo"
+      },
+      "providers": [
+        {
+          "network": "youtube",
+          "status": "PENDING",
+          "detailedStatus": "Pending"
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202611/7751348-file-11019317693236533034.mp4"
+      ],
+      "publicationState": "PENDING",
+      "published": false
+    }
   },
   "bizarrePast": {
     "filmId": "ark",
@@ -47,12 +78,18 @@
     "timezone": "Europe/Oslo",
     "providers": [
       {
-        "network": "youtube",
-        "status": "PENDING"
+        "network": "tiktok",
+        "id": "7710300191986830614",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7710300191986830614",
+        "detailedStatus": "Published"
       },
       {
-        "network": "tiktok",
-        "status": "PENDING"
+        "network": "youtube",
+        "id": "l3Bm7AwPFDg",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.youtube.com/shorts/l3Bm7AwPFDg",
+        "detailedStatus": "Published"
       }
     ],
     "autoPublish": true,
@@ -63,7 +100,8 @@
       "tiktok": true
     },
     "madeForKids": false,
-    "published": false
+    "published": true,
+    "providerEvidenceCheckedAtUtc": "2026-11-20T17:17:52.130Z"
   },
   "autopilot": {
     "whatif": "PAUSED_AUTHENTICATED_UI_VERIFIED",
@@ -72,5 +110,15 @@
   },
   "noTelegram": true,
   "noPaidPromotion": true,
-  "duplicateGuard": "Do not create or book these films again. Preserve these exact provider bookings; verify publication after 18:00."
+  "duplicateGuard": "Do not create or book these films again. Preserve these exact provider bookings; verify publication after 18:00.",
+  "postPublicationCheck": {
+    "checkedAtUtc": "2026-11-20T17:17:52.130Z",
+    "bizarrePast": "PUBLISHED_YOUTUBE_AND_TIKTOK",
+    "whatif": "FAILED_AITUBER_QUOTA_RECOVERY_PENDING",
+    "noDuplicateAtRecovery": "Original AITuber status failed, destination ID and URL null; What If Metricool queue empty before recovery",
+    "noNewGeneration": true,
+    "noPaidPromotion": true,
+    "noCreditPurchase": true,
+    "noTelegram": true
+  }
 }
