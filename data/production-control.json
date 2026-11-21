@@ -6115,7 +6115,7 @@
       "time": "18:00 Europe/Oslo",
       "aspect": "16:9",
       "targetDuration": "3–4min",
-      "status": "COMPLETED_EXPORTED_QC_HOLD_NOT_BOOKED"
+      "status": "HOLD_EDITORIAL_GATE_AND_FULL_AV_QA_BLOCKED_NOT_BOOKED"
     },
     "selection": {
       "chosenTitle": "What If a 10-Kilometer Asteroid Hit the Pacific?",
@@ -6141,7 +6141,7 @@
       "remainingBeforeProduction": "Confirm full AI Tuber queue and nonduplication; obtain cost quote at desired mixed media quality, then generate if reserve and complete QA permit; only book on 18:00 after final MP4 with audio review",
       "creditsAtCheck": 3707,
       "generationJobId": "8aed9d71-3045-405d-972a-b9a79cbd7028",
-      "status": "COMPLETED_EXPORTED_AV_QC_UNVERIFIED_HOLD",
+      "status": "COMPLETED_1080P_EXPORT_EDITORIAL_AND_AV_QA_HOLD",
       "createdAtUtc": "2026-11-20T14:50:09.909Z",
       "mediaType": "video",
       "videoQuality": "good",
@@ -6163,13 +6163,30 @@
       "creditsAfterGeneration": 2278,
       "estimatedActualCreditDelta": 1429,
       "creditDeltaMayIncludeThumbnail": true,
-      "notes": "135-sec high-motion 16:9 AI video finished and exported at 1080p. Quality gate deliberately held, Sunday 22 Nov 18:00 only a target. No duplicate/re-generation.",
+      "notes": "User's 21 Nov editorial quality gate found serious story-level risk in approved script: short runtime vs original 3–4m depth goal; repetitive last three beats; weak new WOW/payoff. MP4 access still blocked so actual visual/audio quality not assessed. Sunday booking prohibited. Do not regenerate, spend, or alter existing bookings.",
       "mp4ProviderUrl": "https://cdn.aituber.app/exports/org_3KohME0rcpuY4ShttDKq6LmM7mR/d156d978-56fd-4695-873c-55a2b3e13328.mp4",
       "thumbnailProviderUrl": "https://cdn.aituber.app/88cc4cf2-980b-4710-9ff7-2c7e5b876bcd/image-fal-1795186352088-0.jpg",
       "qcBlocker": "Authenticated AITuber download_video and api_read /exports/download both returned valid MP4 URL; working container could not resolve cdn.aituber.app DNS. Full AV QA impossible this turn. Do not call ready, publish or book until playback passes.",
       "alertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
       "retryAutomationId": "6b006030adb48191b3c21d8918082019",
-      "retryAtOslo": "2026-11-21T12:00:00+01:00"
+      "retryAtOslo": "2026-11-21T12:00:00+01:00",
+      "qualityGate20261121": {
+        "checkedAtOslo": "2026-11-21T12:01:11+01:00",
+        "providerVideoStatus": "completed",
+        "durationSeconds": 135,
+        "providerExportStatus": "completed",
+        "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+        "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+        "mediaAcquisition": "Retry failed: container curl DNS could not resolve cdn.aituber.app; web fetch inaccessible; authenticated AITuber download API gives URL only, not binary. No full perceptual audio-video review possible.",
+        "scriptEditorialFinding": "HOLD: Ten-beat 373-word script is condensed to 135 sec, which cannot be treated as a deep 3-4m exploration. Scenes 8-10 largely repeat inland food delivery/survival point; ending repeats 'ocean is not a shield' rather than adding a distinct vivid WOW discovery. Impact mechanics and regional tsunami physics lack concrete illuminating detail. It may be visually dramatic, but that cannot be verified from MP4.",
+        "novelWowPayoff": false,
+        "detailedEscalation": "NOT_APPROVED_AT_SCRIPT_LEVEL",
+        "firstTwoSecondAV": "UNVERIFIED",
+        "fullAudioVisualQA": "NOT_PASSED",
+        "thumbnailVisualQA": "UNVERIFIED",
+        "beforeRelease": "Do not schedule even if MP4 becomes accessible until storyline offers stronger scientific depth, nonrepeating progression, memorable surprising human payoff, and whole-file AV QA. Do not regenerate or buy credits without new approval.",
+        "scheduledAt": null
+      }
     },
     "comparativeEvidence": {
       "source": "Metricool authenticated all videos through Nov20; ages not matched",
@@ -6219,13 +6236,17 @@
       "timezone": "Europe/Oslo",
       "qaStatus": "Previously full AV reviewed and approved in latestPublicationCheck20261120",
       "doNotDuplicate": true,
-      "effectiveStatus": "PUBLISHED",
+      "effectiveStatus": "FAILED_PROVIDER_VERIFIED_2026_11_21",
       "effectiveProvider": "Metricool",
       "effectivePostId": 435850194,
       "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
       "sourceAITuberStatus": "failed",
       "originalError": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
-      "checkedAtUtc": "2026-11-20T17:20:42.099Z"
+      "checkedAtUtc": "2026-11-20T17:20:42.099Z",
+      "latestProviderStatus": "failed",
+      "providerStatusCheckedAt": "2026-11-21",
+      "providerError": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
+      "published": false
     },
     "constraints": "Little Wild paused; no Telegram; no ads or purchased credits; never claim editorial target is a provider booking"
   },
@@ -6237,5 +6258,43 @@
     "productionRule": "Use the exact earlier approved voice preset/reference when available; do not substitute a merely similar voice without verification.",
     "qualityGate": "Listen to the complete final MP4 and compare voice character, pacing and warmth with the earlier approved reference before calling QC passed or scheduling.",
     "conflictRule": "This requirement overrides older generic voice choices, while existing confirmed bookings remain protected unless their own quality control fails or the user explicitly requests replacement."
+  },
+  "whatIfAsteroidFinalQa20261121": {
+    "checkedAtOslo": "2026-11-21T12:01:11+01:00",
+    "filmTitle": "What If a 10-Kilometer Asteroid Hit the Pacific?",
+    "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+    "originalReleaseTarget": "2026-11-22T18:00:00+01:00",
+    "status": "HOLD_NOT_BOOKED",
+    "reason": "Cannot access complete MP4 for sound/visual playback, and source script also fails stricter 21-Nov dramatic WOW payoff/depth gate. Do not publish, duplicate or regenerate.",
+    "providerExport": {
+      "resolution": "1080p",
+      "status": "completed",
+      "durationSeconds": 135,
+      "exportId": "d156d978-56fd-4695-873c-55a2b3e13328"
+    },
+    "qcEvidence": {
+      "sourceScriptReviewed": true,
+      "fullMp4Decoded": false,
+      "entireAudioReviewed": false,
+      "first2SecondsVerified": false,
+      "finalHumanWowVerified": false,
+      "releaseApproved": false
+    },
+    "noSpend": true,
+    "noTelegram": true,
+    "quote": "Water changes the disaster. It does not erase it.",
+    "fixNote": "Ending primarily restates premise; insufficient new memorable reveal. Last inland family / supply beats repeat same idea. Need stronger scientifically grounded surprising consequences and human stakes before any future generation or re-edit authorization.",
+    "relatedIncident": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20"
+  },
+  "whatIfFridayPublicationRecheck20261121": {
+    "publicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+    "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+    "scheduledFor": "2026-11-20T18:00:00+01:00",
+    "latestProviderStatus": "failed",
+    "providerError": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
+    "platformVideoId": null,
+    "platformVideoUrl": null,
+    "action": "Preserve failed record, no automatic retry/republication or duplicate; verify upload quota/channel and current provider queue before any manual action.",
+    "source": "Authenticated AI Tuber GET /publications/{publicationId} on 2026-11-21."
   }
 }
