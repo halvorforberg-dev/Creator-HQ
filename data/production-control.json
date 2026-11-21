@@ -3475,7 +3475,7 @@
   },
   "nextShortEditorial": {
     "bizarrePast": {
-      "status": "QC_HOLD_POTENTIALLY_MISSING_NARRATION",
+      "status": "LEGACY_VOICE_RESTORED_TECHNICAL_QA_PASS_PERCEPTUAL_VOICE_STYLE_HOLD_NOT_BOOKED",
       "subject": "Merer's 4,500-year-old shipping diary: white limestone for the Great Pyramid by boat",
       "title": "A Pyramid Worker's 4,500-Year-Old Diary 😳 | #Shorts",
       "brief": "data/bizarre-past-merer-diary-short-brief-2026-11-10.md",
@@ -3496,8 +3496,8 @@
         "bookingNow": "Metricool YT 423027641 / TikTok 423027976 PENDING on Nov13 18:00"
       },
       "slotUpdate": "Produced Nov19 as part of user's 3-film request; not newly booked by this request.",
-      "latestRecheck": "2026-11-20",
-      "productionDecision": "Do not book Merer. Full-film independent ASR models omit material explanatory lines and leave about 6 seconds after last spoken line; inspect and repair narration before further QC. Source report data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+      "latestRecheck": "2026-11-21",
+      "productionDecision": "Legacy v4 Turbo original reference/preset verified from Herculaneum Nov8; Merer new full 36.721s master exported Nov21, not yet booked because final voice warmth/mirth A/B audition not performed. See data/bizarre-past-legacy-voice-restoration-2026-11-21.json",
       "productionBatch": "data/bizarre-past-production-batch-2026-11-19.json",
       "productionExport": {
         "id": "merer",
@@ -3510,7 +3510,8 @@
         "libraryFileId": "libfile_fde3_f-13d42c83824c8191a352a73ceb5d7ac3_a051186db4148191abb75d7b8656c8bb",
         "finalAVApproved": false,
         "analysisId": "b76842ad-83f2-4370-a877-6ad5254154dc"
-      }
+      },
+      "latestLegacyMasterUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/8c682f40-282f-4eac-8c75-3bf360175dbf.mp4"
     },
     "littleWild": {
       "status": "EDITORIAL_DRAFT_ONLY",
@@ -6104,7 +6105,18 @@
     "creditsSpent": 5.76,
     "creditsAfter": 1867.37,
     "bookingId": null,
-    "telegram": false
+    "telegram": false,
+    "supersededBy": "data/bizarre-past-legacy-voice-restoration-2026-11-21.json",
+    "priorSeedAudioRepair": "REJECTED_AS_EXACT_LEGACY_VOICE_MATCH_ENGINE_CHANGED",
+    "correctedLegacyMasterMediaId": "8c682f40-282f-4eac-8c75-3bf360175dbf",
+    "correctedLegacyMasterUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/8c682f40-282f-4eac-8c75-3bf360175dbf.mp4",
+    "correctedLegacyMasterSha256": "b654917fecde467babd648938d3964667bbdd2ddbf5142a80d507fa655cc7fb5",
+    "exactOlderVoiceIdVerified": true,
+    "olderModelVerified": true,
+    "updatedStatus": "LEGACY_VOICE_TTS_RESTORED_EXPORTED_AND_ANALYZED_PERCEPTUAL_WARMTH_COMPARISON_HOLD_NOT_SCHEDULED",
+    "correctedLegacyVoiceCostCredits": 1.5,
+    "lastBalanceCredits": 1865.87,
+    "published": false
   },
   "whatIfNextLongFormEditorial20261120": {
     "checkedAtOslo": "2026-11-20T15:32:00+01:00",
@@ -6257,7 +6269,28 @@
     "requirement": "Return to the previously approved lighter, more upbeat, natural conversational Bizarre Past narrator voice used in earlier successful films. Do not use the recently changed darker or more solemn voice.",
     "productionRule": "Use the exact earlier approved voice preset/reference when available; do not substitute a merely similar voice without verification.",
     "qualityGate": "Listen to the complete final MP4 and compare voice character, pacing and warmth with the earlier approved reference before calling QC passed or scheduling.",
-    "conflictRule": "This requirement overrides older generic voice choices, while existing confirmed bookings remain protected unless their own quality control fails or the user explicitly requests replacement."
+    "conflictRule": "This requirement overrides older generic voice choices, while existing confirmed bookings remain protected unless their own quality control fails or the user explicitly requests replacement.",
+    "verifiedLegacySource": {
+      "referenceFilm": "Herculaneum Nov8 (published Nov9)",
+      "generationJobId": "8121b809-6be2-4ae9-8bfc-6a2d1596cd22",
+      "voiceName": "Callum",
+      "voiceType": "preset",
+      "exactVoiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "engine": "elevenlabs_v4_turbo",
+      "stability": "provider default/omitted",
+      "similarityBoost": "provider default/omitted",
+      "referenceAudioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261108_162619_8121b809-6be2-4ae9-8bfc-6a2d1596cd22.mp3",
+      "evidence": "Higgsfield generation job verified with exact preset and default audio-model controls"
+    },
+    "recentMismatch": {
+      "nov19Pilate": "Same voice ID but explicit stability=0.55; user says recent delivery too dark/serious.",
+      "nov20MererRepair": "Used seed_audio, not historic elevenlabs_v4_turbo voice engine; cannot claim that was exact legacy sound.",
+      "note": "No proven acoustic causal explanation; restore full reference configuration, not pitch-shift by guess."
+    },
+    "futureGenerationPolicy": "Default to source-verified elevenlabs_v4_turbo + preset Callum ID 858499d9-fef5-40e1-bc29-b4dc661dc283 and provider-default tuning for Bizarre Past. No new deep/cinematic somber voice style, pitch-shifts, or alternative TTS. If preset/model changes, HOLD and verify reference again. Match natural warm lightly upbeat varied delivery to an older approved reference by complete audio audition before releasing.",
+    "explicitVoiceQAGate": "MUST PASS: (1) voice ID+engine+settings match historic source job; (2) full output audio with music compared perceptually to Herculaneum older reference for warmth, conversational lightness, natural rhythm (not only spectrogram/pitch); (3) full dialogue + final line present; (4) per-scene story and mobile captions; (5) one-sentence truthful WOW payoff clear. If direct listening not possible, do not call perceptual style approved; HOLD new booking.",
+    "report": "data/bizarre-past-legacy-voice-restoration-2026-11-21.json",
+    "latestVerified": "2026-11-21"
   },
   "whatIfAsteroidFinalQa20261121": {
     "checkedAtOslo": "2026-11-21T12:01:11+01:00",
@@ -6296,5 +6329,43 @@
     "platformVideoUrl": null,
     "action": "Preserve failed record, no automatic retry/republication or duplicate; verify upload quota/channel and current provider queue before any manual action.",
     "source": "Authenticated AI Tuber GET /publications/{publicationId} on 2026-11-21."
+  },
+  "bizarrePastAgentCheck20261121": {
+    "date": "2026-11-21",
+    "task": "Identify legacy narrator and restore voice to Merer instead of guessing; inspect live queue and add explicit voice gate; protect booked entries.",
+    "verifiedOldReference": "Herculaneum Higgsfield job 8121b809-6be2-4ae9-8bfc-6a2d1596cd22: Eleven v4 Turbo preset Callum voice ID 858499d9-fef5-40e1-bc29-b4dc661dc283, provider default stability/similarity.",
+    "voiceAction": "Generated one legacy-engine Callum Merer narration job e3ced87f-29cc-4212-9a32-eb84f269fd54, restored existing video scenes/music, uploaded 1080x1920 36.721s master Higgsfield media 8c682f40-282f-4eac-8c75-3bf360175dbf.",
+    "generatedCredits": 1.5,
+    "balanceCredits": 1865.87,
+    "technicalAndMachineQC": "Full decode PASS; ASR PASS complete 0-34.56s; audio peak -1.3dBFS, visual contact frames reviewed; external Higgsfield video analysis ID f38991b8-71f7-44b1-94a6-37197d0fc0bc completed in 11 scenes, full opening to ending.",
+    "subjectiveVoiceStyleQC": "HOLD; no direct human-equivalent auditory A/B audition against Nov8 reference, so warmth/mirth not yet certified. Job ID and same engine/settings confirmed, no pitch alteration.",
+    "booked": false,
+    "published": false,
+    "currentQueue": [
+      {
+        "id": 435630705,
+        "date": "2026-11-22 18:00 Europe/Oslo",
+        "status": "PENDING",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ]
+      },
+      {
+        "id": 435631044,
+        "date": "2026-11-23 18:00 Europe/Oslo",
+        "status": "PENDING",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ]
+      }
+    ],
+    "currentQueuePreserved": true,
+    "littleWild": "PAUSED",
+    "telegram": "DISABLED",
+    "promotions": "NONE",
+    "next": "Complete voice-style comparative audition of legacy and restored full MP4, then re-check live queue and schedule at first suitable unoccupied 18:00 editorial slot. Do not treat an exported file as published.",
+    "report": "data/bizarre-past-legacy-voice-restoration-2026-11-21.json"
   }
 }
