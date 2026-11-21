@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -6228,5 +6228,14 @@
       "checkedAtUtc": "2026-11-20T17:20:42.099Z"
     },
     "constraints": "Little Wild paused; no Telegram; no ads or purchased credits; never claim editorial target is a provider booking"
+  },
+  "bizarrePastVoiceRequirement20261121": {
+    "decidedOn": "2026-11-21",
+    "status": "ACTIVE_CANONICAL_FOR_NEW_AND_REPAIRED_NARRATION",
+    "scope": "All newly generated or repaired Bizarre Past narration. Do not automatically alter, regenerate or rebook protected existing scheduled posts solely to retrofit this voice.",
+    "requirement": "Return to the previously approved lighter, more upbeat, natural conversational Bizarre Past narrator voice used in earlier successful films. Do not use the recently changed darker or more solemn voice.",
+    "productionRule": "Use the exact earlier approved voice preset/reference when available; do not substitute a merely similar voice without verification.",
+    "qualityGate": "Listen to the complete final MP4 and compare voice character, pacing and warmth with the earlier approved reference before calling QC passed or scheduling.",
+    "conflictRule": "This requirement overrides older generic voice choices, while existing confirmed bookings remain protected unless their own quality control fails or the user explicitly requests replacement."
   }
 }
