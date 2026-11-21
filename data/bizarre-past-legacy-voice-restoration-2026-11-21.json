@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-21",
+  "channel": "Bizarre Past",
+  "runScope": "Voice rollback evidence + corrected Merer master + review of existing Metricool queue, no automatic release without full voice-perception QA.",
+  "verifiedLegacyNarrator": {
+    "referenceFilm": "They Read a 2,000-Year-Old Scroll Without Opening It (Herculaneum), produced 2026-11-08 for 2026-11-09 release",
+    "sourceManifest": "data/bizarre-past-herculaneum-qc-2026-11-08.json",
+    "sourceAudioGenerationId": "8121b809-6be2-4ae9-8bfc-6a2d1596cd22",
+    "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261108_162619_8121b809-6be2-4ae9-8bfc-6a2d1596cd22.mp3",
+    "voiceName": "Callum",
+    "voiceType": "preset",
+    "exactVoicePresetId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "oldSpeechEngine": "elevenlabs_v4_turbo",
+    "oldGeneratorTuning": {
+      "stability": null,
+      "similarity_boost": null
+    },
+    "proof": "Higgsfield job_display of 2026-11-08 generation returns exact voice_id, provider engine and default tuning, not merely a guessed brand name.",
+    "caution": "This is an objectively verified older production configuration, not direct proof that every earlier Bizarre Past video used it nor a guarantee that subjective warmth is identical across scripts."
+  },
+  "changeExplainingAudibleDifference": {
+    "sourceNov19PilateJob": "56c245dd-026a-4e8a-8f15-eff0e1cc248d",
+    "recentPilateVoicePresetId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "recentPilateEngine": "elevenlabs_v4_turbo",
+    "recentPilateStability": 0.55,
+    "sourceNov20MererRepairJob": "1a50ea2c-6000-47f5-8b61-4136e4cf5afe",
+    "repairedNov20Engine": "seed_audio",
+    "repairedNov20VoicePresetId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "finding": "Preset ID stayed the same in sampled older/recent jobs, but generator/voice controls changed. The Nov20 Seed Audio repair did NOT exactly recreate older Eleven v4 Turbo delivery; do not call that the old voice. Cause of perceived deeper/serious quality not subjectively established."
+  },
+  "newMererVoice": {
+    "generationJobId": "e3ced87f-29cc-4212-9a32-eb84f269fd54",
+    "model": "elevenlabs_v4_turbo",
+    "voiceType": "preset",
+    "exactVoicePresetId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "defaultStability": true,
+    "voiceAudioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261121_135855_e3ced87f-29cc-4212-9a32-eb84f269fd54.mp3",
+    "lengthSeconds": 34.351,
+    "newCreditCost": 1.5,
+    "sourceScript": "Nov20 voice repair script; complete Merer explanation."
+  },
+  "correctedMererMaster": {
+    "mediaId": "8c682f40-282f-4eac-8c75-3bf360175dbf",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/8c682f40-282f-4eac-8c75-3bf360175dbf.mp4",
+    "fileName": "Bizarre_Past_Merer_Diary_Restored_Legacy_Voice_1080x1920.mp4",
+    "sha256": "b654917fecde467babd648938d3964667bbdd2ddbf5142a80d507fa655cc7fb5",
+    "durationSeconds": 36.721,
+    "resolution": "1080x1920",
+    "sourceVisualsReused": true,
+    "captions": "Re-timed for new narration and lower opaque strip covers mismatched older burnt-in subtitle text",
+    "soundtrack": "Existing Nov20 original instrumental reused; no new music job",
+    "playbackReview": {
+      "wholeFileDecode": "PASS",
+      "independentASR": "PASS, final mixed file spoken transcript starts Did you know and runs to 34.56s, including all facts and last words.",
+      "visualFrameContactSheet": "Sampled 10 full-span frames; scenes match spoken beats; older moving visuals retained.",
+      "fullFileMultimodalAnalysis": "PASS in 11 ordered scenes; all relevant speaking lines and music heard in the model scene descriptions, 0–36s.",
+      "videoAnalysisId": "f38991b8-71f7-44b1-94a6-37197d0fc0bc",
+      "audioMeanVolumeDBFS": -18,
+      "audioPeakDBFS": -1.3,
+      "sampledVoiceF0MedianHz": {
+        "olderHerculaneum": 137,
+        "newMerer": 134.3,
+        "recentPilate": 135.5
+      },
+      "pitchInterpretation": "No artificial pitch lowering applied. Median f0 values are only rough, language- and content-dependent indicators, not a reliable test of smile, timbre or voice identity.",
+      "wowPayoffOneSentence": "A real 4,500-year-old inspector's day-by-day shipping log documents limestone boat journeys to the Great Pyramid, making a mysterious construction project tangible through a worker's own records.",
+      "sourceVerification": [
+        "https://www.ifao.egnet.net/recherche/archeologie/ouadi-el-jarf/",
+        "https://www.orient-mediterranee.com/les-papyrus-de-la-mer-rouge-i-le-journal-de-merer-p-jarf-a-et-b/"
+      ],
+      "remainingVoiceGate": "Subjective full audio audition and qualitative warmth/brightness comparison with the 2026-11-08 Herculaneum reference are not available within connected tools; documentary reference+engine match and waveform features verified. Treat no user voice preference as confirmed from measurements alone.",
+      "status": "TECHNICAL_AND_MULTIMODAL_QC_PASS_PERCEPTUAL_VOICE_STYLE_QA_HOLD"
+    }
+  },
+  "publishing": {
+    "metricoolBrandId": 7296504,
+    "protectedQueueReadDate": "2026-11-21",
+    "protectedUpcoming": [
+      {
+        "id": 435630705,
+        "title": "Great Pyramid Hidden Corridor",
+        "date": "2026-11-22",
+        "time": "18:00 Europe/Oslo",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "status": "PENDING"
+      },
+      {
+        "id": 435631044,
+        "title": "Pilate Stone",
+        "date": "2026-11-23",
+        "time": "18:00 Europe/Oslo",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "status": "PENDING"
+      }
+    ],
+    "mererBooked": false,
+    "mererPublished": false,
+    "publicationSlotSuggestion": "2026-11-27T18:00:00+01:00 ONLY if voice-style QA passed and fresh queue check no conflict; not promised, no provider ID",
+    "userNotice": "No Telegram; communicate substantial change through ChatGPT only."
+  },
+  "balance": {
+    "higgsfieldUltraCreditsAfter": 1865.87,
+    "creditsSpentThisRun": 1.5,
+    "purchases": 0,
+    "promotions": 0
+  },
+  "redaction": "No user secrets included.",
+  "furtherRules": {
+    "exactPresetAndEngine": "Use source-job-verified Eleven v4 Turbo + preset 858499d9-fef5-40e1-bc29-b4dc661dc283 with provider default stability/similarity to approximate Nov8 approved voice; do not silently change audio engine or tune pitch.",
+    "qaEveryNewVideo": "Full final MP4 with speech + picture, voice matched to older sample by comparing sample/whole output, not just parameter IDs, and truthful one-sentence WOW payoff before release.",
+    "preservation": "Keep current confirmed Metricool releases unchanged. Other new generations held where voice identity/perceptual gate unverified."
+  }
+}
