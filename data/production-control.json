@@ -6248,7 +6248,7 @@
       "timezone": "Europe/Oslo",
       "qaStatus": "Previously full AV reviewed and approved in latestPublicationCheck20261120",
       "doNotDuplicate": true,
-      "effectiveStatus": "FAILED_PROVIDER_VERIFIED_2026_11_21",
+      "effectiveStatus": "PUBLISHED_METRICOOL_VERIFIED_2026_11_21",
       "effectiveProvider": "Metricool",
       "effectivePostId": 435850194,
       "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
@@ -6258,7 +6258,9 @@
       "latestProviderStatus": "failed",
       "providerStatusCheckedAt": "2026-11-21",
       "providerError": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
-      "published": false
+      "published": true,
+      "actualPublishedAtLocal": "2026-11-20T18:19:00+01:00",
+      "statusNote": "AITuber original booking failed, but Metricool recovery of identical vetted MP4 published to correct channel; avoid duplicate."
     },
     "constraints": "Little Wild paused; no Telegram; no ads or purchased credits; never claim editorial target is a provider booking"
   },
@@ -6367,5 +6369,71 @@
     "promotions": "NONE",
     "next": "Complete voice-style comparative audition of legacy and restored full MP4, then re-check live queue and schedule at first suitable unoccupied 18:00 editorial slot. Do not treat an exported file as published.",
     "report": "data/bizarre-past-legacy-voice-restoration-2026-11-21.json"
+  },
+  "whatIfAgentCheck20261121": {
+    "checkedAtOslo": "2026-11-21 afternoon Europe/Oslo",
+    "channel": "What If in 40 Seconds",
+    "asteroid": {
+      "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+      "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+      "videoStatus": "completed",
+      "exportStatus": "completed",
+      "durationSeconds": 135,
+      "creditBalance": 2278,
+      "qa": "HOLD_EDITORIAL_WOW_GATE_FAILED_AND_FULL_AV_UNVERIFIED",
+      "booked": false,
+      "sundayTarget": "2026-11-22T18:00:00+01:00",
+      "reason": "Script 8–10 repeats food supply risk without new insight; last line lacks fresh WOW. Prior CDN DNS blocker remains unresolved; no full audio/video QC. Do not publish, alter, regenerate or spend credits."
+    },
+    "fridayShort": {
+      "videoId": "1687e5c0-15e1-4b24-942a-bd75b9f5ce06",
+      "aituberPublicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+      "aituberStatus": "failed",
+      "metricoolBrandId": 7751348,
+      "metricoolPostId": 435850194,
+      "metricoolStatus": "PUBLISHED",
+      "actualPublishedAtLocal": "2026-11-20T18:19:00+01:00",
+      "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+      "verification": "Authenticated Metricool getScheduledPosts returned youtube provider PUBLISHED on 2026-11-21",
+      "doNotDuplicate": true
+    },
+    "analytics": {
+      "source": "Metricool authenticated Youtube all videos query 2026-11-01 through Nov21, provider may lag",
+      "longVideos": [
+        {
+          "title": "What If the Sun Went Dark for 7 Days?",
+          "videoId": "1jQ_W7GYOoo",
+          "published": "2026-11-18",
+          "views": 8,
+          "avgViewSeconds": 39
+        },
+        {
+          "title": "What If You Could See Flowers Like a Bee?",
+          "videoId": "kYiWk0WUrLM",
+          "published": "2026-11-08",
+          "views": 35,
+          "avgViewSeconds": 55
+        }
+      ],
+      "shortsExamples": [
+        {
+          "title": "What If a Black Hole Passed Our Solar System?",
+          "published": "2026-11-15",
+          "views": 1236,
+          "avgViewSeconds": 15
+        },
+        {
+          "title": "What If Earth's Atmosphere Were Twice as Thick?",
+          "published": "2026-11-17",
+          "views": 6,
+          "avgViewSeconds": 11
+        }
+      ],
+      "limits": "Different ages; CTR, matched-age retention, stayed-to-watch and traffic sources unavailable; no performance causality claims",
+      "oneHypothesis": "A single surprising, mechanism-specific payoff, not repeated disaster consequences, should improve retention; untested until future matched-age data."
+    },
+    "autopilot": "Last authenticated UI check 2026-11-20 paused, API cannot independently read current UI settings; no new publishing attempted.",
+    "noSpend": true,
+    "noTelegram": true
   }
 }
