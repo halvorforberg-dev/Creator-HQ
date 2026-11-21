@@ -1,8 +1,17 @@
 {
-  "updatedAt": "2026-11-20T08:33:29.265Z",
+  "updatedAt": "2026-11-21T15:27:39.618Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+      "title": "What if a ten-kilometre asteroid struck the Pacific tomorrow? Look",
+      "status": "completed",
+      "createdAt": "2026-11-20T14:50:09.909Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "2ce27992-c21b-4375-ad62-abc694b8fa76",
       "title": "What If a Day Lasted 48 Hours?",
