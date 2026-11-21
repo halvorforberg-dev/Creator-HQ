@@ -6435,5 +6435,31 @@
     "autopilot": "Last authenticated UI check 2026-11-20 paused, API cannot independently read current UI settings; no new publishing attempted.",
     "noSpend": true,
     "noTelegram": true
+  },
+  "sharedCreativeQualityGate20261121": {
+    "decidedOn": "2026-11-21",
+    "appliesTo": [
+      "Bizarre Past",
+      "What If in 40 Seconds"
+    ],
+    "highestEditorialPriority": "Interest and knowledge first: every film must reveal a concrete compelling fact/consequence, maintain logical escalation and end with a specific visible WOW answer; attractive visuals alone do not qualify.",
+    "beforeAnyCredits": [
+      "Compare applicable same-format owned films at similar ages and competitor angles only when real evidence exists. Do not infer results from unmatched-age raw views.",
+      "Write exactly one sentence saying what a viewer actually learns or experiences in the final frame BEFORE writing the opening. Reject the concept if no clear distinctive truth-based payoff exists.",
+      "Pick between two honest English title candidates and match selected title with Shorts first frame or long-form thumbnail.",
+      "Evaluate 3–5 first-two-second truthful hooks, then select the strongest. What If must visibly AND audibly start 'WHAT IF…?' immediately; Bizarre Past must clearly begin 'Did you know…?'.",
+      "Write scene-by-scene narrated original script with literal visual actions, causally linked new revelations and appropriate audio cues; remove scenes that merely repeat the same idea.",
+      "Check physical/historical/source premises, flag hypotheses and uncertainties; no fabricated WOW.",
+      "Long-film runtime follows the amount of genuinely compelling detail, not a rigid 3–4 minute limit; sufficiently deep connected escalation and memorable closing are mandatory.",
+      "Shorts must focus on exactly one question and one clear remarkable payoff; no generic CTA in place of the answer."
+    ],
+    "postExportGates": [
+      "Complete actual full exported MP4 video and audio playback, inspect 0–2 sec first frame/mobile captions/voice, motion/visual correctness, sound mix, complete closing scene/payoff and metadata before provider booking.",
+      "If story is shallow, lacks WOW, repeats information or media cannot be observed, HOLD and log exact deficiency. Do not label source script or export as release-approved.",
+      "Compare Shorts stayed-to-watch/viewed-versus-swiped and retention dropout, and long-form impressions CTR, traffic source, first-30-second retention on own content at comparable post ages when data suffice.",
+      "When data support a hypothesis, choose exactly one testable editorial variable for the following film and record the evidence, not a causal guarantee."
+    ],
+    "constraints": "Do not change existing bookings; only book after QA at 18:00 Europe/Oslo. No new ads, credits purchases, duplicate generations, Telegram or Little Wild production. Bizarre uses Higgsfield/Metricool, What If uses AI Tuber. Never regenerate old videos solely due to this policy.",
+    "immediateAsteroidCase": "Nov20 asteroid 135sec export on HOLD due 21Nov script editorial failure (repetitive final scenes/weak surprise) and inaccessible full AV, no Sunday booking."
   }
 }
