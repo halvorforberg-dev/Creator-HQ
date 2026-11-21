@@ -314,7 +314,7 @@
       "id": "whatif-air-vanished-scheduled-youtube-upload-failed-2026-11-20",
       "channel": "What If in 40 Seconds",
       "category": "scheduled_provider_upload_failed",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-21",
@@ -329,12 +329,24 @@
         "publicVideoUrl": null
       },
       "summary": "Fredagens planlagte What If-short 20.11 kl. 18:00 ble IKKE publisert ifølge AI Tuber; publiseringsstatus er 'failed' pga YouTube API upload limit. Den oppgitte grensen 150/dag er plattformens feilmelding, ikke dokumentasjon på at brukeren selv har lastet opp 150 videoer.",
-      "action": "Ikke post umiddelbart eller lag en duplikat. Kontroller at problem med provider quota er løst, at den opprinnelige oppføringen ikke er publisert via annen vei, og sjekk planlagt kø og AutoPilot før eventuell egen trygg ny 18:00 booking ved senere beslutning.",
+      "action": "No recovery action required. Preserve public upload and do not resend video; continue ordinary performance measurement when metrics become available.",
       "ownerActionRequired": false,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/production-control.json"
       ],
-      "notificationPolicy": "NO TELEGRAM — internal logs only"
+      "notificationPolicy": "NO TELEGRAM — internal logs only",
+      "resolvedAt": "2026-11-21",
+      "resolution": {
+        "provider": "Metricool",
+        "brandId": 7751348,
+        "postId": 435850194,
+        "providerStatus": "PUBLISHED",
+        "platformVideoId": "WKL9VDGgi6M",
+        "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+        "publicationLocal": "2026-11-20T18:19:00+01:00",
+        "verification": "Metricool authenticated getScheduledPosts queried 2026-11-21 for Nov20–24 returns provider youtube status PUBLISHED and exact public URL. Original AITuber attempt remains failed, but same reviewed export went live via the separate Metricool recovery entry. No new upload or credits used on this check.",
+        "noTelegram": true
+      }
     }
   ]
 }
