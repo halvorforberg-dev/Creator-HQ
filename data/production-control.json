@@ -6688,17 +6688,17 @@
       "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
       "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
       "target": "2026-11-22T18:00:00+01:00",
-      "targetType": "EDITORIAL_GOAL_NOT_PROVIDER_BOOKING",
-      "provider": "AI Tuber",
+      "targetType": "USER_OVERRIDE_BOOKING_AT_21_23",
+      "provider": "Metricool",
       "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
-      "videoStatus": "completed",
+      "videoStatus": "original_master_completed_not_uploaded",
       "exportStatus": "completed",
       "resolution": "1080p",
-      "durationSeconds": 135,
+      "durationSeconds": 79.659,
       "metricoolScheduleAndPublishedPostsToday": 0,
-      "providerBookingId": null,
-      "published": false,
-      "status": "HOLD_NOT_BOOKED_FULL_AV_QC_AND_STORY_GATE_FAILED",
+      "providerBookingId": 437920292,
+      "published": true,
+      "status": "PUBLISHED_REVISED_79_659S_VIA_METRICOOL",
       "qualityReasons": [
         "Pre-existing storyboard repeats inland shortages and lacks a fresh WOW payoff",
         "Full MP4 with audio cannot be independently reviewed; authenticated CDN URL available but local network DNS fails"
@@ -6707,12 +6707,16 @@
         "Authenticated AITuber list_videos latest 2026-11-20, asteroid completed and exported",
         "Authenticated AITuber download_video returned expected MP4 CDN URL 2026-11-22",
         "Authenticated Metricool getScheduledPosts What If brand returned empty for Nov22-23",
-        "Existing 2026-11-22 channel-agent and 2026-11-21 editorial QA in production-control"
+        "Existing 2026-11-22 channel-agent and 2026-11-21 editorial QA in production-control",
+        "Authenticated Metricool getScheduledPosts on 2026-11-22 21:38 Europe/Oslo; exact post 437920292 / UUID 6208457711710913738, providers[0] youtube status PUBLISHED with publicUrl and id."
       ],
       "alertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
       "newGeneration": false,
       "newCreditsPurchased": false,
-      "action": "Do not publish or create another variant without corrected story and full AV quality verification; original provider ID preserved."
+      "action": "Publication complete. Never publish old original 135 sec master, no duplicate.",
+      "metricoolPostUuid": "6208457711710913738",
+      "providerYouTubeId": "-ki5IDO6Nbg",
+      "publicUrl": "https://www.youtube.com/watch?v=-ki5IDO6Nbg"
     },
     "tomorrow": {
       "bizarrePastPostId": 435631044,
@@ -6730,7 +6734,7 @@
   },
   "whatIfAsteroidEdited20261122": {
     "approvedByUser": "Kjør – shorten and make the held Pacific asteroid film more exciting",
-    "checkedAtOslo": "2026-11-22 evening Europe/Oslo",
+    "checkedAtOslo": "2026-11-22T21:38:41+01:00",
     "channel": "What If in 40 Seconds",
     "baseVideoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
     "originalProviderExportId": "d156d978-56fd-4695-873c-55a2b3e13328",
@@ -6763,10 +6767,10 @@
       "fullHumanAudioAuditionPassed": false,
       "completeSceneBySceneVisualAuditPassed": false,
       "editorialClaim": "Narrative re-cut completed; no claim of end-to-end subjective audiovisual approval",
-      "releaseDecision": "USER_OVERRIDE_TO_PUBLISH_2026-11-22; SCHEDULE_CONFIRMED; PROVIDER_PUBLICATION_NOT_YET_CONFIRMED"
+      "releaseDecision": "USER_DIRECTED_PUBLICATION_AND_METRICOOL_CONFIRMED_PUBLISHED; technical QC passed, complete subjective AV review not claimed"
     },
-    "status": "METRICOOL_BOOKED_PENDING_NOT_YET_PUBLISHED",
-    "publish": "User explicitly approved publication; the externally edited 79.659s video was uploaded to Metricool and confirmed PENDING at 21:23 on 2026-11-22. Do not publish the original 135s AI Tuber videoId. Verify Metricool provider status after 21:23 and capture actual YouTube link before claiming PUBLISHED.",
+    "status": "METRICOOL_PROVIDER_CONFIRMED_PUBLISHED",
+    "publish": "VERIFIED: externally edited 79.659 sec video (NOT original 135 sec AI Tuber video) published to What If YouTube through exact Metricool post 437920292. Public video ID -ki5IDO6Nbg. Do not repost.",
     "cost": {
       "newGenerations": 0,
       "newCreditsPurchased": 0,
@@ -6781,7 +6785,7 @@
       "uuid": "6208457711710913738",
       "scheduledAt": "2026-11-22T21:23:00+01:00",
       "provider": "youtube",
-      "status": "PENDING",
+      "status": "PUBLISHED",
       "autoPublish": true,
       "postType": "video",
       "isAiGeneratedContent": true,
@@ -6789,7 +6793,11 @@
       "privacy": "public",
       "confirmedBy": "authenticated Metricool createScheduledPost 2026-11-22",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7751348&openWithPostUuid=6208457711710913738",
-      "mediaUrl": "https://static.metricool.com/planner/202611/7751348-file-6856521189741278288.mp4"
+      "mediaUrl": "https://static.metricool.com/planner/202611/7751348-file-6856521189741278288.mp4",
+      "providerVideoId": "-ki5IDO6Nbg",
+      "publicUrl": "https://www.youtube.com/watch?v=-ki5IDO6Nbg",
+      "verifiedAtOslo": "2026-11-22T21:38:41+01:00",
+      "verifiedBy": "Authenticated Metricool getScheduledPosts on 2026-11-22 21:38 Europe/Oslo; exact post 437920292 / UUID 6208457711710913738, providers[0] youtube status PUBLISHED with publicUrl and id."
     }
   }
 }
