@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -284,7 +284,7 @@
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-20",
-      "notificationRevision": 2,
+      "notificationRevision": 3,
       "source": {
         "type": "authenticated_aituber_and_container_network",
         "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
@@ -301,14 +301,34 @@
         "currentOutcome": "provider MP4 completed 1080p 135s; downloaded only as a link; container retry error curl (6) Could not resolve cdn.aituber.app; web URL fetch also inaccessible; full movie not examined",
         "editorialGate20261121": "HOLD — last 3 of 10 locked narrative beats return to the same inland food-supply idea; lack of a fresh WOW revelation; condensed 135s falls short of intended substantive 3–4min story"
       },
-      "summary": "Asteroidefilmen finnes som fullført 1080p MP4 (2:15), men tilgjengelig miljø kan fortsatt ikke åpne MP4 via CDN (DNS-feil), så første 0–2 sek, bilder, synk, lyd og siste scene er ikke faktisk kontrollert. Manus avslutter dessuten med å gjenta «havet er ikke et skjold», og de tre siste delene gjentar stort sett mat-/forsyningsmangel. Den nye kvalitetsporten om dramatisk progresjon og eksplisitt WOW-payoff er dermed ikke bestått. IKKE book/publiser søndag 22.11.",
-      "action": "HOLD uendret. Ikke regenerer, rediger, book, send Telegram eller bruk flere kreditter. Gjør full audit av original MP4 med lyd når autentisert avspilling faktisk er mulig; trengs en endret video, avklar/rediger historien uten å løpe fra nyeste redaksjonelle krav. Først senere etter forbedret dramatisk/konkret faglig payoff og dokumentert full AV-QA kan ny booking vurderes.",
+      "summary": "SØNDAG 22.11 KL 18:00: What If-lengdefilmen «What If a 10-Kilometer Asteroid Hit the Pacific?» (videoId 5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438) ble ikke publisert. Den er generert og eksportert 1080p 2:15, men er IKKE booket eller godkjent: manusets siste scener gjentar forsyningsrisiko uten nytt WOW-poeng, og faktisk full bilde-/lyd-QA mangler fordi CDNs MP4 ikke kan åpnes i kontrollmiljøet. Dagens providerlesning fant ingen What If-post i Metricool. Redaksjonell 18:00-målplass var ikke en providerbooking. Hold originalfilen og unngå dobbelpublisering. Bizarre Past-pyramidefilmen ble bekreftet PUBLISHED på både YouTube og TikTok i separat Metricool-post 435630705.",
+      "action": "HOLD What If-asteroidefilmen. Forbedre avslutning/detaljer/eskalering for tydelig vitenskapelig WOW, få full original MP4-lyd/bilde-kontroll til å bestå, og kontroller AI Tuber-/YouTube-kø før eventuell senere 18:00-booking av den samme godkjente masteren. Ikke publiser uverifisert eksport eller lage en ny kopi. Ikke kjøp credits, annonser eller send Telegram.",
       "ownerActionRequired": false,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-pacific-asteroid-long-brief-2026-11-20.md"
       ],
       "notificationPolicy": "NO TELEGRAM — user decision 2026-11-18; internal log only.",
-      "lastCheckedAt": "2026-11-21T12:01:11+01:00"
+      "lastCheckedAt": "2026-11-21T12:01:11+01:00",
+      "latestProgressAt": "2026-11-22 evening after 18:00 Europe/Oslo",
+      "latestOccurrence": {
+        "date": "2026-11-22",
+        "slot": "18:00 Europe/Oslo",
+        "slotType": "EDITORIAL_GOAL_NOT_AITUBER_BOOKING",
+        "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+        "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+        "generation": "completed",
+        "mp4Export": "completed_1080p",
+        "providerBookingId": null,
+        "published": false,
+        "verifiedOn": "authenticated AITuber list_videos/download_video; Metricool What If no Nov22 posts; Creator HQ source plan and QC",
+        "remainingBlockers": [
+          "failed editorial WOW payoff and repetitive ending",
+          "full AV/audio inspection unavailable due to CDN DNS resolution"
+        ],
+        "status": "BLOCKED_NOT_BOOKED_NO_PUBLISH_ACTION",
+        "noCreditPurchase": true,
+        "noTelegram": true
+      }
     },
     {
       "id": "whatif-air-vanished-scheduled-youtube-upload-failed-2026-11-20",
