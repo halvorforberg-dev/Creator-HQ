@@ -437,7 +437,7 @@
       "producer": "AI Tuber",
       "publisher": "AI Tuber",
       "firstWords": "What if…",
-      "mandatory": "Dramatic, high-stakes and visually spectacular science-based 'What if…' scenarios with an immediate consequential hook, rising tension and a memorable truthful payoff. Avoid bland small-change explainers. Keep varied tone and scientific accuracy; no false certainty.",
+      "mandatory": "Every new What If has a strong visible and spoken WHAT IF in 0–2 sec; specific exciting question, causal escalation and visible surprise at the end. Catastrophe videos must show the destructive consequences ON SCREEN, not only describe them. Example for ocean asteroid: actual tsunami wave impacting coast with distinctive damage, plausible recognisable locations/landmarks as explicitly fictional scenarios, changing cause/effect and a strong aftermath. No random still-image collage, repetitive narration, vague global map, unsupported landmark damage forecasts, or weak generic ending. Final MP4 must pass a documented visual beat-by-beat audit before booking.",
       "weeklyTarget": {
         "shorts": 2,
         "regularLongForm": 2,
@@ -453,7 +453,7 @@
         "effectiveFrom": "2026-11-09",
         "existingBookings": "Keep unchanged; only apply to new not-yet-booked uploads"
       },
-      "visualPolicy": "Keep current video look/style and energetic storytelling. Mixed visuals acceptable: well-chosen images, motion graphics, stock footage and moving AI clips. No requirement for 100% full-motion; strong hook and satisfying payoff remain non-negotiable.",
+      "visualPolicy": "Priority: show the SPECIFIC impact/consequence explicitly, not generic narration over space/ocean imagery. For high-stakes disaster scenarios, script and storyboard must show the shock event, physical cascade, affected coastline/city, actual visible damage, human-scale aftermath and distinctive evidence-based payoff. Use purposeful continuous animated video for pivotal action; graphics/stills only for short factual bridges. Locations/landmarks may be used as clearly hypothetical visualizations when geographically plausible; do not assert exact flooding heights/destruction as a forecast. Keep story/audio cohesive and avoid montage confusion; the existing mixed-media format remains permissible in supporting scenes.",
       "productionCreditPolicy": "Prefer current AI Tuber setup and choose efficient visual type/clip mixes by topic. Do not force costly Max/Premium full-motion for all scenes. Confirm costs before generating and inspect finished MP4.",
       "priority": "PRIMARY channel for shared AITuber production budget and agent focus",
       "nextGrowthTest20261114": {
@@ -6461,7 +6461,8 @@
       "Complete actual full exported MP4 video and audio playback, inspect 0–2 sec first frame/mobile captions/voice, motion/visual correctness, sound mix, complete closing scene/payoff and metadata before provider booking.",
       "If story is shallow, lacks WOW, repeats information or media cannot be observed, HOLD and log exact deficiency. Do not label source script or export as release-approved.",
       "Compare Shorts stayed-to-watch/viewed-versus-swiped and retention dropout, and long-form impressions CTR, traffic source, first-30-second retention on own content at comparable post ages when data suffice.",
-      "When data support a hypothesis, choose exactly one testable editorial variable for the following film and record the evidence, not a causal guarantee."
+      "When data support a hypothesis, choose exactly one testable editorial variable for the following film and record the evidence, not a causal guarantee.",
+      "WHAT IF disaster genre-specific audit: visually verify at least two waves/forces actually impacting a relevant location with specific damage when story calls for it, a plausible recognisable landmark or skyline, and shown not merely narrated aftermath. Missing planned shots = FAILED QA; do not release. Do not overstate real-world predictions."
     ],
     "constraints": "Do not change existing bookings; only book after QA at 18:00 Europe/Oslo. No new ads, credits purchases, duplicate generations, Telegram or Little Wild production. Bizarre uses Higgsfield/Metricool, What If uses AI Tuber. Never regenerate old videos solely due to this policy.",
     "immediateAsteroidCase": "Nov20 asteroid 135sec export on HOLD due 21Nov script editorial failure (repetitive final scenes/weak surprise) and inaccessible full AV, no Sunday booking."
@@ -6799,5 +6800,25 @@
       "verifiedAtOslo": "2026-11-22T21:38:41+01:00",
       "verifiedBy": "Authenticated Metricool getScheduledPosts on 2026-11-22 21:38 Europe/Oslo; exact post 437920292 / UUID 6208457711710913738, providers[0] youtube status PUBLISHED with publicUrl and id."
     }
+  },
+  "whatIfDisasterVisualQualityGate20261122": {
+    "effectiveDate": "2026-11-22",
+    "source": "Explicit user review of newly published shortened 79.659-second Pacific asteroid What If; too chaotic and not dramatic enough: waves did not clearly crash ashore, little destruction, missing recognisable landmarks.",
+    "editorialPriority": "VISUAL SHOW-DONT-TELL for disaster/science extremes; showing the actual event and damage is essential. This is a change in the PRODUCTION PLAN, not permission to fabricate science.",
+    "governedChannels": [
+      "What If in 40 Seconds"
+    ],
+    "precedence": "Overrides weaker legacy positive/mild curiosity and generic mixed-visual narrative instructions for disaster scenarios; keep research rigor, real-world geographic consistency, 18:00 Europe/Oslo, QA, budget, other channels inactive, no duplicate posting.",
+    "fiveStepWorkflow": [
+      "1. CHOOSE VISUALLY FILMABLE CONCEPT: name the exact consequences viewers will see in the first two seconds, middle, and end; reject if the idea cannot be depicted persuasively within available credits.",
+      "2. BEAT-BY-BEAT STORYBOARD BEFORE ANY GENERATION: write actual prompt for each pivotal full-motion action. For an ocean asteroid include (a) asteroid and ocean impact, (b) moving ocean surge traveling toward coast, (c) at least two distinct locations where waves visibly hit land and cause specific structural destruction, (d) one recognizable geographically appropriate landmark or coastal skyline to communicate scale, (e) aftermath with a fresh scientifically grounded surprise. No stock/image substitute for a required impact beat.",
+      "3. VOICE AND PICTURE LOCK: each spoken claim has a corresponding visible consequence; alternate local human perspective and wide context without random scene changes. Use coherent geography, consistent scale, continuous movement and one narrative thread. Keep cinematic tension, natural expressive voice and good sound design.",
+      "4. HONEST SCIENCE: landmark devastation is a clearly speculative dramatisation, not a guaranteed prediction. Exact wave size and impact effects depend on impact site/bathymetry/shore shape. Do not imply a distant non-Pacific landmark would necessarily be hit. Don't invent event dates or precise destruction figures.",
+      "5. ACTUAL MP4 AUDIT BEFORE PUBLISHING: compare every required pivotal scene in script/storyboard with rendered images, watch with sound from beginning to end, inspect the first two seconds, voices/captions, scene continuity, at least two coast-impact destruction shots, relevant landmark and a distinctive non-repetitive payoff. If any required scene is missing or is just a static map/illustration, mark FAIL and hold the video; don't call it approved because generation/export succeeded."
+    ],
+    "productionSafeguards": "Do not buy credits or start paid campaigns; avoid wasting generation credits through preflight/shot list; use existing shared production credits within approved plan. If provider AutoPilot could publish unchecked material, report that path and verify controls rather than promising quality-gated publication.",
+    "seriesApplication": "Applies disaster-specific gates only to scenarios where coastal impacts are physically relevant; for other What If videos replace the specific impact scenes with equally concrete mechanism/action/aftermath shots. Never require destruction just for shock value when scenario does not support it.",
+    "releaseRule": "Story + storyboard + visual requirements + actual full MP4 perception + right-channel/duplicate guard are all required before auto publishing. Work is not complete when a file merely exists.",
+    "priorPublishedFilm": "22 Nov Pacific asteroid 79.659 sec version published earlier. Do not silently delete, reupload or generate a replacement just from feedback; apply these rules to NEXT productions."
   }
 }
