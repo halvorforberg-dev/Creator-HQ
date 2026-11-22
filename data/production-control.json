@@ -6763,10 +6763,10 @@
       "fullHumanAudioAuditionPassed": false,
       "completeSceneBySceneVisualAuditPassed": false,
       "editorialClaim": "Narrative re-cut completed; no claim of end-to-end subjective audiovisual approval",
-      "releaseDecision": "HOLD_PENDING_FINAL_PERCEPTUAL_AV_REVIEW_AND_DUPLICATE_CHECK"
+      "releaseDecision": "USER_OVERRIDE_TO_PUBLISH_2026-11-22; SCHEDULE_CONFIRMED; PROVIDER_PUBLICATION_NOT_YET_CONFIRMED"
     },
-    "status": "EDITED_MASTER_AVAILABLE_NOT_BOOKED_NOT_PUBLISHED",
-    "publish": "Do not publish or book automatically based only on media upload. Verify full AV first, provider queue/AutoPilot and correct What If channel. Since this video was externally recut, AI Tuber's original video ID still points to unedited 135s master; do NOT call AI Tuber publish_video with original ID. Use supported publication flow for confirmed final asset URL only after QA.",
+    "status": "METRICOOL_BOOKED_PENDING_NOT_YET_PUBLISHED",
+    "publish": "User explicitly approved publication; the externally edited 79.659s video was uploaded to Metricool and confirmed PENDING at 21:23 on 2026-11-22. Do not publish the original 135s AI Tuber videoId. Verify Metricool provider status after 21:23 and capture actual YouTube link before claiming PUBLISHED.",
     "cost": {
       "newGenerations": 0,
       "newCreditsPurchased": 0,
@@ -6774,6 +6774,22 @@
     },
     "littleWildActions": 0,
     "telegramActions": 0,
-    "existingAlertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20"
+    "existingAlertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
+    "publisher": "Metricool (What If brand 7751348; YouTube channel UCUZ1h_XukdY1IQvwwuEnW0Q)",
+    "metricoolBooking": {
+      "id": 437920292,
+      "uuid": "6208457711710913738",
+      "scheduledAt": "2026-11-22T21:23:00+01:00",
+      "provider": "youtube",
+      "status": "PENDING",
+      "autoPublish": true,
+      "postType": "video",
+      "isAiGeneratedContent": true,
+      "madeForKids": false,
+      "privacy": "public",
+      "confirmedBy": "authenticated Metricool createScheduledPost 2026-11-22",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7751348&openWithPostUuid=6208457711710913738",
+      "mediaUrl": "https://static.metricool.com/planner/202611/7751348-file-6856521189741278288.mp4"
+    }
   }
 }
