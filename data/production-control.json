@@ -6540,5 +6540,116 @@
     "publicationTruth": "PENDING means scheduled, not published. Recheck Metricool provider status and public URLs after 18:00 Europe/Oslo.",
     "alertDecision": "No new confirmed platform blocker requiring user action. No Telegram action; Telegram remains disabled.",
     "userActionRequiredNow": false
+  },
+  "whatIfAgentCheck20261122": {
+    "checkedAtOslo": "2026-11-22 afternoon, before 18:00 Europe/Oslo",
+    "channel": "What If in 40 Seconds",
+    "providerIdentity": {
+      "aituberYouTubeChannelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "platformYouTubeId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "connected": true
+    },
+    "asteroid": {
+      "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+      "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+      "generationStatus": "completed",
+      "exportStatus": "completed",
+      "providerResolution": "1080p",
+      "durationSeconds": 135,
+      "releaseTarget": "2026-11-22T18:00:00+01:00",
+      "status": "HOLD_QA_FAILED_NOT_BOOKED_BY_AGENT",
+      "scriptGate": "FAILED — repetitive late sequences and no surprising mechanism-specific WOW in final scene; earlier 21 Nov reviewer finding remains in force",
+      "freshProviderAvAttempt": "Authenticated AI Tuber download_video returned valid CDN MP4 URL on 22 Nov; current container HTTP access failed DNS NameResolutionError for cdn.aituber.app; external web retriever could not open MP4 either. Full picture/audio/captions/voice/last shot unverified.",
+      "fullAvQaPassed": false,
+      "booked": false,
+      "newGeneration": false,
+      "creditsSpentInThisRun": 0,
+      "published": false,
+      "alertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
+      "remediation": "Do not regenerate, edit, book or publish held master without separately addressed editorial shortcomings and complete real AV-QA."
+    },
+    "queueCrossCheck": {
+      "metricoolBrandId": 7751348,
+      "metricoolScheduledRange": "2026-11-21 through 2026-11-25",
+      "metricoolScheduledResultCount": 0,
+      "aituberPublicationListAvailable": "NOT_IN_CONNECTED_API; exact known publication IDs only",
+      "uniqueSlotConfirmed": false,
+      "autoPilot": "Last UI-based pause confirmation 2026-11-20; no current authenticated UI verification in this run; API video list newest generation 2026-11-20; cannot establish present UI setting",
+      "action": "No booking or new provider action because QA already failed and full queue/AutoPilot remains unverifiable."
+    },
+    "knownProviderPublications": {
+      "sunDark": {
+        "publicationId": "62bc5af5-18a0-4ec0-b8f0-e38f38917b69",
+        "status": "published",
+        "platformVideoUrl": "https://www.youtube.com/watch?v=1jQ_W7GYOoo",
+        "publishedAtUtc": "2026-11-18T17:55:02.770Z",
+        "warning": "Published 18:55 Oslo, late vs 18:00 goal; do not duplicate."
+      },
+      "airVanished": {
+        "aituberPublicationId": "1d634cb9-78b2-41f4-919a-bd3ebb093268",
+        "status": "failed",
+        "error": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
+        "recoveredViaMetricool": "PUBLISHED 2026-11-20T18:19:00+01:00",
+        "metricoolPostId": 435850194,
+        "publicUrl": "https://www.youtube.com/shorts/WKL9VDGgi6M",
+        "doNotRetry": true
+      }
+    },
+    "aiTuberCreditsReadOnly": 2278,
+    "latestOwnAnalytics": {
+      "source": "Authenticated Metricool all-videos, 2026-11-22 before 18:00, cumulative counts, not same age",
+      "longForm": [
+        {
+          "title": "What If the Sun Went Dark for 7 Days?",
+          "youtubeId": "1jQ_W7GYOoo",
+          "views": 12,
+          "meanWatchSeconds": 26
+        },
+        {
+          "title": "What If You Could See Flowers Like a Bee?",
+          "youtubeId": "kYiWk0WUrLM",
+          "views": 37,
+          "meanWatchSeconds": 52
+        }
+      ],
+      "shortExamples": [
+        {
+          "title": "What If a Black Hole Passed Our Solar System?",
+          "youtubeId": "I887Dlx9kRA",
+          "views": 1230,
+          "meanWatchSeconds": 15
+        },
+        {
+          "title": "What If Earth's Atmosphere Were Twice as Thick?",
+          "youtubeId": "Scevz1F9Yz4",
+          "views": 6,
+          "meanWatchSeconds": 11
+        }
+      ],
+      "limits": "Insufficient date-matched impressions CTR, watch curve, Shorts chose-to-view and video-level paid/organic split; cannot infer cause. Metricool traffic-source totals are channel-wide, not per-video."
+    },
+    "futureResearchOnly": {
+      "path": "data/whatif-mars-moon-short-brief-2026-11-22.md",
+      "titleA": "What If Mars Replaced Our Moon Tonight?",
+      "titleB": "What If Mars Became Earth's Moon?",
+      "oneSentencePayoff": "At the same Earth-Moon distance, Mars appears ~2x the Moon's width but generates ~8.7x its tide-raising force; the resulting coastal impacts depend on local geography and take tidal cycles, not an instant tsunami.",
+      "status": "SOURCE_CHECKED_5_HOOKS_SCRIPT_STORYBOARD_ONLY_NO_GENERATION_OR_BOOKING",
+      "reason": "New factual quantified WOW reveal with a vulnerable coastal household, no unsupported global flood heights",
+      "priorOwnMoonVideo": "What If the Moon Disappeared Tonight? (18 Oct), different experiment, 4 cumulative views, not matched retention",
+      "comparison": "NASA Moon+Mars masses, NOAA tidal inverse-cube, and AstroKobi public 2022 topical video; cannot infer YouTube algorithm or retention."
+    },
+    "compliance": {
+      "newGenerations": 0,
+      "newExports": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "newCreditsSpent": 0,
+      "purchases": 0,
+      "existingBookingsChanged": false,
+      "littleWildActions": 0,
+      "telegramActions": 0,
+      "paidPromotions": 0,
+      "existingBlockerAlertUnchanged": true
+    }
   }
 }
