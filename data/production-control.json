@@ -787,14 +787,16 @@
           "network": "youtube",
           "time": "18:00",
           "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
-          "status": "PENDING",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
-          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "status": "PUBLISHED",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-22 after 18:00 Europe/Oslo",
+          "statusSource": "Fresh authenticated Metricool getScheduledPosts 2026-11-22 returned PUBLISHED for each provider with live publicUrl; exact posting second not supplied",
           "autoPublish": true,
           "mediaPresent": true,
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1613294865251495229.mp4",
-          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+          "publicUrl": "https://www.youtube.com/watch?v=JHiBDTVdpSw",
+          "providerPostId": "JHiBDTVdpSw"
         },
         {
           "id": 435630705,
@@ -803,14 +805,16 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
-          "status": "PENDING",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
-          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "status": "PUBLISHED",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-22 after 18:00 Europe/Oslo",
+          "statusSource": "Fresh authenticated Metricool getScheduledPosts 2026-11-22 returned PUBLISHED for each provider with live publicUrl; exact posting second not supplied",
           "autoPublish": true,
           "mediaPresent": true,
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1613294865251495229.mp4",
-          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7711043932540521750",
+          "providerPostId": "7711043932540521750"
         },
         {
           "id": 435631044,
@@ -6651,5 +6655,77 @@
       "paidPromotions": 0,
       "existingBlockerAlertUnchanged": true
     }
+  },
+  "latestPublicationCheck20261122": {
+    "checkedAtOslo": "2026-11-22 evening, after 18:00 Europe/Oslo",
+    "timezone": "Europe/Oslo",
+    "scheduleSource": "goalSchedule + authenticated provider reads",
+    "bizarrePast": {
+      "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
+      "metricoolBrandId": "7296504",
+      "postId": 435630705,
+      "scheduledFor": "2026-11-22T18:00:00+01:00",
+      "providers": [
+        {
+          "network": "youtube",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.youtube.com/watch?v=JHiBDTVdpSw",
+          "providerId": "JHiBDTVdpSw"
+        },
+        {
+          "network": "tiktok",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7711043932540521750",
+          "providerId": "7711043932540521750"
+        }
+      ],
+      "source": "Authenticated Metricool getScheduledPosts; exact release second not available",
+      "actualPostedAtExactSecond": "UNVERIFIED",
+      "duplicateCreated": false
+    },
+    "whatIf": {
+      "title": "What If a 10-Kilometer Asteroid Hit the Pacific?",
+      "videoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+      "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
+      "target": "2026-11-22T18:00:00+01:00",
+      "targetType": "EDITORIAL_GOAL_NOT_PROVIDER_BOOKING",
+      "provider": "AI Tuber",
+      "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "videoStatus": "completed",
+      "exportStatus": "completed",
+      "resolution": "1080p",
+      "durationSeconds": 135,
+      "metricoolScheduleAndPublishedPostsToday": 0,
+      "providerBookingId": null,
+      "published": false,
+      "status": "HOLD_NOT_BOOKED_FULL_AV_QC_AND_STORY_GATE_FAILED",
+      "qualityReasons": [
+        "Pre-existing storyboard repeats inland shortages and lacks a fresh WOW payoff",
+        "Full MP4 with audio cannot be independently reviewed; authenticated CDN URL available but local network DNS fails"
+      ],
+      "verification": [
+        "Authenticated AITuber list_videos latest 2026-11-20, asteroid completed and exported",
+        "Authenticated AITuber download_video returned expected MP4 CDN URL 2026-11-22",
+        "Authenticated Metricool getScheduledPosts What If brand returned empty for Nov22-23",
+        "Existing 2026-11-22 channel-agent and 2026-11-21 editorial QA in production-control"
+      ],
+      "alertId": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
+      "newGeneration": false,
+      "newCreditsPurchased": false,
+      "action": "Do not publish or create another variant without corrected story and full AV quality verification; original provider ID preserved."
+    },
+    "tomorrow": {
+      "bizarrePastPostId": 435631044,
+      "networks": [
+        "youtube",
+        "tiktok"
+      ],
+      "status": "PENDING",
+      "time": "2026-11-23T18:00:00+01:00"
+    },
+    "littleWild": "PAUSED_NO_ACTION",
+    "telegram": "NONE",
+    "newPaidPromotion": false,
+    "notes": "Metricool reports provider PUBLISHED but independent public-page web retrieval was unavailable; rely on authenticated provider URLs and statuses. No YouTube upload initiated."
   }
 }
