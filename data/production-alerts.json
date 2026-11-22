@@ -301,15 +301,15 @@
         "currentOutcome": "provider MP4 completed 1080p 135s; downloaded only as a link; container retry error curl (6) Could not resolve cdn.aituber.app; web URL fetch also inaccessible; full movie not examined",
         "editorialGate20261121": "HOLD — last 3 of 10 locked narrative beats return to the same inland food-supply idea; lack of a fresh WOW revelation; condensed 135s falls short of intended substantive 3–4min story"
       },
-      "summary": "SØNDAG 22.11 KL 18:00: What If-lengdefilmen «What If a 10-Kilometer Asteroid Hit the Pacific?» (videoId 5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438) ble ikke publisert. Den er generert og eksportert 1080p 2:15, men er IKKE booket eller godkjent: manusets siste scener gjentar forsyningsrisiko uten nytt WOW-poeng, og faktisk full bilde-/lyd-QA mangler fordi CDNs MP4 ikke kan åpnes i kontrollmiljøet. Dagens providerlesning fant ingen What If-post i Metricool. Redaksjonell 18:00-målplass var ikke en providerbooking. Hold originalfilen og unngå dobbelpublisering. Bizarre Past-pyramidefilmen ble bekreftet PUBLISHED på både YouTube og TikTok i separat Metricool-post 435630705.",
-      "action": "HOLD What If-asteroidefilmen. Forbedre avslutning/detaljer/eskalering for tydelig vitenskapelig WOW, få full original MP4-lyd/bilde-kontroll til å bestå, og kontroller AI Tuber-/YouTube-kø før eventuell senere 18:00-booking av den samme godkjente masteren. Ikke publiser uverifisert eksport eller lage en ny kopi. Ikke kjøp credits, annonser eller send Telegram.",
+      "summary": "New 79.659-second recut of Pacific asteroid What If was made and uploaded after explicit user approval on 2026-11-22. Full decode, sample frame checks and ASR passed, but subjective full audiovisual QC and unique provider queue check remain pending. Film remains NOT BOOKED / NOT PUBLISHED.",
+      "action": "Use the new 79.659s recut asset, not original 135s AI Tuber master. Full perceptual AV/QC and queue/AutoPilot verification are required before booking or publishing. Original AI Tuber video ID remains linked to unedited export, so do NOT publish that ID by mistake. No duplicate generation, no purchases, no Telegram.",
       "ownerActionRequired": false,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-pacific-asteroid-long-brief-2026-11-20.md"
       ],
       "notificationPolicy": "NO TELEGRAM — user decision 2026-11-18; internal log only.",
-      "lastCheckedAt": "2026-11-21T12:01:11+01:00",
-      "latestProgressAt": "2026-11-22 evening after 18:00 Europe/Oslo",
+      "lastCheckedAt": "2026-11-22 evening Europe/Oslo",
+      "latestProgressAt": "2026-11-22 evening Europe/Oslo: approved re-edit produced",
       "latestOccurrence": {
         "date": "2026-11-22",
         "slot": "18:00 Europe/Oslo",
@@ -328,6 +328,20 @@
         "status": "BLOCKED_NOT_BOOKED_NO_PUBLISH_ACTION",
         "noCreditPurchase": true,
         "noTelegram": true
+      },
+      "latestRecut": {
+        "status": "CUT_COMPLETE_HIGGSFIELD_MEDIA_CONFIRMED_NOT_PUBLISHED",
+        "assetMediaId": "e0596be9-b9b6-4a80-a09e-0c24d7be0ed4",
+        "assetUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/e0596be9-b9b6-4a80-a09e-0c24d7be0ed4.mp4",
+        "durationSeconds": 79.659,
+        "resolution": "1920x1080",
+        "sourceOriginalVideoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
+        "mediaAccess": "RESOLVED using Higgsfield media sandbox (original MP4 retrieved, FFmpeg decode), earlier container DNS issue bypassed",
+        "technicalValidation": "Complete MP4 decode, audio stream, ASR speech opening/ending, sampled visual frames and upload confirmation passed",
+        "remainingBlocker": "Full perceptual audiovisual QC and provider queue collision verification have NOT passed",
+        "publication": "NONE",
+        "creditsPurchased": 0,
+        "telegram": "NONE"
       }
     },
     {
