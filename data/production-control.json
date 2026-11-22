@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -6461,5 +6461,84 @@
     ],
     "constraints": "Do not change existing bookings; only book after QA at 18:00 Europe/Oslo. No new ads, credits purchases, duplicate generations, Telegram or Little Wild production. Bizarre uses Higgsfield/Metricool, What If uses AI Tuber. Never regenerate old videos solely due to this policy.",
     "immediateAsteroidCase": "Nov20 asteroid 135sec export on HOLD due 21Nov script editorial failure (repetitive final scenes/weak surprise) and inaccessible full AV, no Sunday booking."
+  },
+  "bizarrePastSundayAgentCheck20261122": {
+    "checkedAtOslo": "2026-11-22T09:14:00+01:00",
+    "task": "Sunday Bizarre Past queue and release-control check",
+    "canonicalFilesRead": [
+      "data/production-control.json",
+      "data/creative-prompt-upgrades.json",
+      "YouTube-kanalplan.md (Library libfile_4c651a7414a88191ba834a4ddd276281)"
+    ],
+    "metricool": {
+      "brandId": 7296504,
+      "timezone": "Europe/Oslo",
+      "connectedYouTubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "connectedTikTokAccount": "bizzare.past",
+      "today": {
+        "postId": 435630705,
+        "title": "The Great Pyramid's Hidden Corridor — What Scans Really Found",
+        "scheduledAt": "2026-11-22T18:00:00+01:00",
+        "providers": {
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        },
+        "autoPublish": true,
+        "format": "16:9 ordinary public film",
+        "durationSeconds": 182.6,
+        "aiDisclosure": true,
+        "madeForKids": false
+      },
+      "nextProtected": {
+        "postId": 435631044,
+        "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+        "scheduledAt": "2026-11-23T18:00:00+01:00",
+        "providers": {
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        }
+      },
+      "action": "Preserved both confirmed bookings unchanged; no duplicate or replacement created."
+    },
+    "todaysVoiceEvidence": {
+      "generationJobId": "ed654ec8-11b2-4efa-b0bc-cc161a5967c8",
+      "model": "elevenlabs_v4_turbo",
+      "voiceName": "Callum",
+      "exactVoiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "stability": 0.55,
+      "similarityBoost": null,
+      "historicApprovedReference": {
+        "generationJobId": "8121b809-6be2-4ae9-8bfc-6a2d1596cd22",
+        "model": "elevenlabs_v4_turbo",
+        "exactVoiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+        "stability": null,
+        "similarityBoost": null
+      },
+      "finding": "Exact preset and engine match the approved Herculaneum reference, but the booked corridor used explicit stability 0.55 rather than historic provider-default tuning. Prior release QA did not include direct subjective full-length voice audition, so warmth/mirth equivalence is not certified.",
+      "releaseDecision": "KEEP_EXISTING_CONFIRMED_BOOKING_UNCHANGED under the explicit preservation rule; do not treat this as approval to use stability 0.55 for any new narration. All future or repaired narration remains blocked unless exact legacy default tuning and perceptual voice-match gate pass."
+    },
+    "qualityEvidence": {
+      "report": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+      "finalMediaId": "6f62e429-6b91-4aee-aa04-dbc6f350b1f7",
+      "fullDecode": "PASS",
+      "completeASR": "PASS through final line at approximately 181.38s",
+      "technicalAudio": "Approximately -16 LUFS, peaks below -2 dBTP, no long silence",
+      "machineMultimodalAnalysisId": "d9488107-67e3-418d-8f89-18b35e0c0940",
+      "factCheck": "Primary/research sources support the 2023 corridor observation, approximately nine-metre passage, muon detection and evidence limits; metadata explicitly distinguishes the North Face Corridor from the Big Void.",
+      "subjectiveVoiceAudition": "NOT_AVAILABLE_NOT_CLAIMED"
+    },
+    "productionAccess": {
+      "higgsfieldPlan": "ultra",
+      "higgsfieldCredits": 1865.87,
+      "activeGenerationJobs": 0,
+      "activeVideoAnalysisJobs": 0,
+      "vidiqCredits": 2002,
+      "activeVidiqJobs": 0,
+      "spendThisRun": 0,
+      "newGenerationThisRun": false
+    },
+    "publicationTruth": "PENDING means scheduled, not published. Recheck Metricool provider status and public URLs after 18:00 Europe/Oslo.",
+    "alertDecision": "No new confirmed platform blocker requiring user action. No Telegram action; Telegram remains disabled.",
+    "userActionRequiredNow": false
   }
 }
