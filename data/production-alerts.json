@@ -280,7 +280,7 @@
       "id": "whatif-pacific-impact-full-av-qc-blocked-2026-11-20",
       "channel": "What If in 40 Seconds",
       "category": "finished_mp4_not_accessible_for_complete_av_quality_review",
-      "state": "open",
+      "state": "resolved",
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-20",
@@ -301,15 +301,16 @@
         "currentOutcome": "provider MP4 completed 1080p 135s; downloaded only as a link; container retry error curl (6) Could not resolve cdn.aituber.app; web URL fetch also inaccessible; full movie not examined",
         "editorialGate20261121": "HOLD — last 3 of 10 locked narrative beats return to the same inland food-supply idea; lack of a fresh WOW revelation; condensed 135s falls short of intended substantive 3–4min story"
       },
-      "summary": "User explicitly directed publication on 2026-11-22. The REVISED 79.659-sec master, not the original 135-sec video, was uploaded to Metricool What If brand 7751348 and booked via post 437920292 for 21:23 local time, confirmed PENDING. Automatic confirmation set for 21:34. Not yet confirmed public.",
-      "action": "Do NOT upload or schedule another version. Watch exact Metricool post 437920292; after confirmed PUBLISHED record YouTube URL and close original hold. If FAILED, record specific blocker. No Telegram.",
+      "summary": "RESOLVED. The 79.659-second shortened Pacific asteroid video was published by Metricool to What If YouTube on 2026-11-22. Exact post 437920292 / uuid 6208457711710913738 now reports PUBLISHED and actual public video ID -ki5IDO6Nbg. Original 135-second version not posted through this booking.",
+      "action": "No further release action; do not book/upload original 135-second video or duplicate shortened version. Editorial and subjective QC comments retained as historical lessons, not a prospective block on this published film.",
       "ownerActionRequired": false,
       "relatedLinks": [
-        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-pacific-asteroid-long-brief-2026-11-20.md"
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-pacific-asteroid-long-brief-2026-11-20.md",
+        "https://www.youtube.com/watch?v=-ki5IDO6Nbg"
       ],
       "notificationPolicy": "NO TELEGRAM — user decision 2026-11-18; internal log only.",
-      "lastCheckedAt": "2026-11-22 21:17 Europe/Oslo",
-      "latestProgressAt": "2026-11-22 evening: short edited film booked in Metricool after explicit user publication approval",
+      "lastCheckedAt": "2026-11-22T21:38:41+01:00",
+      "latestProgressAt": "2026-11-22 21:38 Europe/Oslo: Metricool provider confirmed PUBLISHED",
       "latestOccurrence": {
         "date": "2026-11-22",
         "slot": "18:00 Europe/Oslo",
@@ -318,19 +319,18 @@
         "exportId": "d156d978-56fd-4695-873c-55a2b3e13328",
         "generation": "completed",
         "mp4Export": "completed_1080p",
-        "providerBookingId": null,
-        "published": false,
-        "verifiedOn": "authenticated AITuber list_videos/download_video; Metricool What If no Nov22 posts; Creator HQ source plan and QC",
-        "remainingBlockers": [
-          "failed editorial WOW payoff and repetitive ending",
-          "full AV/audio inspection unavailable due to CDN DNS resolution"
-        ],
-        "status": "BLOCKED_NOT_BOOKED_NO_PUBLISH_ACTION",
+        "providerBookingId": 437920292,
+        "published": true,
+        "verifiedOn": "Authenticated Metricool getScheduledPosts on 2026-11-22 21:38 Europe/Oslo; exact post 437920292 / UUID 6208457711710913738, providers[0] youtube status PUBLISHED with publicUrl and id.",
+        "remainingBlockers": [],
+        "status": "PUBLISHED_REVISED_SHORT_BY_METRICOOL",
         "noCreditPurchase": true,
-        "noTelegram": true
+        "noTelegram": true,
+        "publishedUrl": "https://www.youtube.com/watch?v=-ki5IDO6Nbg",
+        "platformVideoId": "-ki5IDO6Nbg"
       },
       "latestRecut": {
-        "status": "CUT_COMPLETE_HIGGSFIELD_MEDIA_CONFIRMED_NOT_PUBLISHED",
+        "status": "METRICOOL_PROVIDER_PUBLISHED",
         "assetMediaId": "e0596be9-b9b6-4a80-a09e-0c24d7be0ed4",
         "assetUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/e0596be9-b9b6-4a80-a09e-0c24d7be0ed4.mp4",
         "durationSeconds": 79.659,
@@ -338,19 +338,23 @@
         "sourceOriginalVideoId": "5d5f2c5c-5bd9-4dc6-b6b9-f4d1dab89438",
         "mediaAccess": "RESOLVED using Higgsfield media sandbox (original MP4 retrieved, FFmpeg decode), earlier container DNS issue bypassed",
         "technicalValidation": "Complete MP4 decode, audio stream, ASR speech opening/ending, sampled visual frames and upload confirmation passed",
-        "remainingBlocker": "Full perceptual audiovisual QC and provider queue collision verification have NOT passed",
-        "publication": "NONE",
+        "remainingBlocker": "No release blocker remaining; subjective full AV review remains unverified but user instructed publication.",
+        "publication": "PUBLISHED",
         "creditsPurchased": 0,
         "telegram": "NONE",
         "latestBookingId": 437920292,
         "scheduledFor": "2026-11-22T21:23:00+01:00",
-        "metricoolProviderStatus": "PENDING",
+        "metricoolProviderStatus": "PUBLISHED",
         "metricoolBrandId": 7751348,
         "provider": "youtube",
         "autoPublish": true,
-        "liveLink": null,
-        "confirmationAutomationId": "6b034d9e33b48191bec777cff9b4d201"
-      }
+        "liveLink": "https://www.youtube.com/watch?v=-ki5IDO6Nbg",
+        "confirmationAutomationId": "6b034d9e33b48191bec777cff9b4d201",
+        "platformVideoId": "-ki5IDO6Nbg"
+      },
+      "resolvedAt": "2026-11-22T21:38:41+01:00",
+      "resolution": "User instructed immediate release on 2026-11-22 after shortened re-cut was created. EXACT revised 79.659s export, not old 135s master, was auto-published by Metricool post 437920292 at its 21:23 slot. Authenticated Metricool getScheduledPosts at 21:38 Europe/Oslo confirms PUBLISHED with YouTube video ID -ki5IDO6Nbg and publicUrl https://www.youtube.com/watch?v=-ki5IDO6Nbg. Original technical/delivery blocker cleared for this video; full subjective end-to-end audiovisual QA still NOT claimed. Never duplicate upload. No Telegram.",
+      "resolutionSource": "Authenticated Metricool getScheduledPosts on 2026-11-22 21:38 Europe/Oslo; exact post 437920292 / UUID 6208457711710913738, providers[0] youtube status PUBLISHED with publicUrl and id."
     },
     {
       "id": "whatif-air-vanished-scheduled-youtube-upload-failed-2026-11-20",
