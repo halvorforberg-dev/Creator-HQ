@@ -301,15 +301,15 @@
         "currentOutcome": "provider MP4 completed 1080p 135s; downloaded only as a link; container retry error curl (6) Could not resolve cdn.aituber.app; web URL fetch also inaccessible; full movie not examined",
         "editorialGate20261121": "HOLD — last 3 of 10 locked narrative beats return to the same inland food-supply idea; lack of a fresh WOW revelation; condensed 135s falls short of intended substantive 3–4min story"
       },
-      "summary": "New 79.659-second recut of Pacific asteroid What If was made and uploaded after explicit user approval on 2026-11-22. Full decode, sample frame checks and ASR passed, but subjective full audiovisual QC and unique provider queue check remain pending. Film remains NOT BOOKED / NOT PUBLISHED.",
-      "action": "Use the new 79.659s recut asset, not original 135s AI Tuber master. Full perceptual AV/QC and queue/AutoPilot verification are required before booking or publishing. Original AI Tuber video ID remains linked to unedited export, so do NOT publish that ID by mistake. No duplicate generation, no purchases, no Telegram.",
+      "summary": "User explicitly directed publication on 2026-11-22. The REVISED 79.659-sec master, not the original 135-sec video, was uploaded to Metricool What If brand 7751348 and booked via post 437920292 for 21:23 local time, confirmed PENDING. Automatic confirmation set for 21:34. Not yet confirmed public.",
+      "action": "Do NOT upload or schedule another version. Watch exact Metricool post 437920292; after confirmed PUBLISHED record YouTube URL and close original hold. If FAILED, record specific blocker. No Telegram.",
       "ownerActionRequired": false,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-pacific-asteroid-long-brief-2026-11-20.md"
       ],
       "notificationPolicy": "NO TELEGRAM — user decision 2026-11-18; internal log only.",
-      "lastCheckedAt": "2026-11-22 evening Europe/Oslo",
-      "latestProgressAt": "2026-11-22 evening Europe/Oslo: approved re-edit produced",
+      "lastCheckedAt": "2026-11-22 21:17 Europe/Oslo",
+      "latestProgressAt": "2026-11-22 evening: short edited film booked in Metricool after explicit user publication approval",
       "latestOccurrence": {
         "date": "2026-11-22",
         "slot": "18:00 Europe/Oslo",
@@ -341,7 +341,15 @@
         "remainingBlocker": "Full perceptual audiovisual QC and provider queue collision verification have NOT passed",
         "publication": "NONE",
         "creditsPurchased": 0,
-        "telegram": "NONE"
+        "telegram": "NONE",
+        "latestBookingId": 437920292,
+        "scheduledFor": "2026-11-22T21:23:00+01:00",
+        "metricoolProviderStatus": "PENDING",
+        "metricoolBrandId": 7751348,
+        "provider": "youtube",
+        "autoPublish": true,
+        "liveLink": null,
+        "confirmationAutomationId": "6b034d9e33b48191bec777cff9b4d201"
       }
     },
     {
