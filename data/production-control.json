@@ -6981,5 +6981,55 @@
       "oldAsteroidReposts": 0
     },
     "note": "Fresh provider status check is authoritative for Bizarre success. Short Mars is exported but fails mandatory documented perceptual QA; missing target is a quality hold, NOT a provider failed upload. Prior Pacific asteroid 79.659s was already PUBLISHED 2026-11-22 and not resubmitted."
+  },
+  "bizarrePastSundayJesusEditorial20261129": {
+    "target": "2026-11-29T18:00:00+01:00",
+    "status": "EDITORIAL_BRIEF_ONLY_NOT_GENERATED_NOT_BOOKED",
+    "userDirection": "2–3 minutes, compelling and exciting throughout; capture attention immediately; no filler.",
+    "title": "They Opened Jesus' Tomb – What Did They Find?",
+    "durationSecondsTarget": 160,
+    "durationSecondsRange": [
+      120,
+      180
+    ],
+    "format": "16:9 1080p",
+    "producer": "Higgsfield",
+    "publisher": "Metricool after verified final quality review and duplicate guard",
+    "hook": "Did you know that in 2016, researchers lifted the marble covering what is believed to be Jesus' tomb?",
+    "storyBeats": [
+      {
+        "seconds": "0–5",
+        "visual": "Immediate cinematic close-up of lifting marble in the shrine, clearly labelled AI reconstruction."
+      },
+      {
+        "seconds": "5–30",
+        "visual": "Ancient Jerusalem and Roman rule; distinguish Gospel account from independent archaeological evidence."
+      },
+      {
+        "seconds": "30–60",
+        "visual": "Reveal the first-century Yehohanan heel bone and iron nail, explicitly not Jesus' remains; non-graphic."
+      },
+      {
+        "seconds": "60–100",
+        "visual": "Trace the traditional tomb identification in the fourth century and survival through rebuilding."
+      },
+      {
+        "seconds": "100–140",
+        "visual": "Return to the October 2016 removal of marble and reveal the limestone burial bench, then mortar sample dating to around AD 345."
+      },
+      {
+        "seconds": "140–160",
+        "visual": "Payoff: material evidence links the shrine to the fourth-century tradition, but cannot establish Jesus' burial or resurrection."
+      }
+    ],
+    "voice": "Exact previously approved lighter, cheerful and natural Callum voice configuration per canonical 2026-11-21 requirement; no deep solemn substitute.",
+    "pacing": "Each scene adds a fresh discovery or question; cinematic moving scenes, natural delivery, suspenseful sound without sensational false claims; no static filler; no generic CTA before payoff.",
+    "thumbnailText": "JESUS' TOMB OPENED",
+    "sources": [
+      "https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre",
+      "https://www.nationalgeographic.com/premium/article/jesus-tomb-archaeology-jerusalem-christianity-rome",
+      "https://pacmusee.qc.ca/en/exhibitions/detail/crucifixion-unique-archaeological-evidence-from-jerusalem/"
+    ],
+    "releaseGuard": "Check available credits and existing queue first, source-check complete script and scenes before any new generation, actual full AV and voice match QA required; no new credit purchases or duplicate generation. Target only, not a booking."
   }
 }
