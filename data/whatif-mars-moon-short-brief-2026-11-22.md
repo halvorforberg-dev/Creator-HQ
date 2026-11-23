@@ -1,6 +1,6 @@
 # What If — Mars replaces the Moon | editorial Short candidate, 22 Nov 2026
 
-**STATUS: SOURCE-CHECKED SCRIPT/BOARD ONLY. NOT GENERATED, EXPORTED, QC-APPROVED, SCHEDULED OR PUBLISHED.** This is a future **candidate** after duplicate, provider queue, credit and full AV-QA can be verified. Do not change any prior bookings or publish the held Pacific asteroid film. No Little Wild, Telegram, ads or purchases.
+**STATUS 23 NOV: PRODUCED 36s, AI Tuber videoId `6042810a-3820-4eeb-bcd3-06e68aca2d6f`, exported 1080p exportId `f4881faa-d19a-47d7-9a20-3f4942c08629`. **HOLD** — full MP4 video/audio cannot be independently accessed and visually reviewed. **NOT QA APPROVED, NOT SCHEDULED, NOT PUBLISHED.** This is a future **candidate** after duplicate, provider queue, credit and full AV-QA can be verified. Do not change any prior bookings or publish the held Pacific asteroid film. No Little Wild, Telegram, ads or purchases.
 
 ## Answer FIRST, before the hook
 
@@ -88,3 +88,13 @@ No video generation or credits spent on this candidate during 22 Nov review. Run
 **Pre-publish QA contract:** Check 100% of exported MP4 with audio, count five distinguishable physically moving beats, verify rendered true visual water-on-land in C and E, opening first 0–2 s both speech/text, caption accuracy, consistent house/landscape, realistic ~2× apparent disc, final shot and full final voice, appropriate hypothetical disclosure, 9:16 1080p, channel @whatifin35seconds, no duplicate and no AutoPilot conflict. HOLD if any shot or complete end-to-end audio/video viewing fails; do not pretend that AI script instructions guarantee generated visual shots.
 
 **Work note 23 Nov:** AI Tuber provider balance 2,278 (read-only), channel connected, most recent provider-generated video Nov 20; authenticated Metricool What If brand 7751348 shows no future booked video Nov 23–30. The earlier 22 Nov recut asteroid is provider-confirmed published via Metricool at https://www.youtube.com/watch?v=-ki5IDO6Nbg, and its original 135-second AITuber master must **never** be uploaded. Today's authenticated AI Tuber MP4 link still points to cdn.aituber.app; the working environment could not resolve that hostname, and authenticated alternative GET /exports/download returned the same inaccessible URL. **Provider's complete unlisted publication inventory and current AutoPilot toggle remain unverified; therefore no release can be represented as confidently unique or QA-passed yet.** This note does not book any slot.
+
+
+## Completed provider action — 23 Nov 2026
+
+- A SINGLE original What If video generation was executed after pre-credit story and 5-shot lock: \`6042810a-3820-4eeb-bcd3-06e68aca2d6f\`. Authenticated AITuber get_video confirms **completed, 36 seconds, 9:16, mediaType video, thumbnail ready**. Video quality request was **premium**. This is not a claim that all five visuals rendered as instructed.
+- A single **1080p MP4 export** was completed with ID \`f4881faa-d19a-47d7-9a20-3f4942c08629\`, completed per authenticated provider. No need to export or generate a duplicate.
+- Shared account credit balance was **2,278 → 1,445**, a measured **833-credit generation cost**. No credit purchase or repeat generation.
+- Authenticated \`download_video\` returned the MP4 address on **cdn.aituber.app**. The environment's direct transfer failed with **curl (6): Could not resolve host**. External URL retrieval failed too. We have **NOT watched or listened to the entire rendered MP4**. No verification of the promised water-on-land clips, mobile opening, readable ~8.7× overlay, actual voice mix or final spoken line. **FULL AV QA = FAIL/BLOCKED, not simply pending pass.**
+- AI Tuber's full unlisted publication inventory and live AutoPilot UI were not exposed by these API reads. Metricool What If brand had no upcoming confirmed booking Nov 23–30. That absence alone does not prove the AI Tuber pipeline has no queue conflict.
+- **RELEASE DECISION: HOLD**. Do not book or publish at Mon **23 Nov 18:00 Europe/Oslo** because full audiovisual quality gate and complete queue/AutoPilot checks are missing. Keep generated 36s export as an existing asset for review; do not retry generation, publish, re-cut or buy credits without a new documented decision. Stable internal alert: \`whatif-mars-moon-final-av-qc-blocked-2026-11-23\`.
