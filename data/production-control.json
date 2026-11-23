@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -6820,5 +6820,81 @@
     "seriesApplication": "Applies disaster-specific gates only to scenarios where coastal impacts are physically relevant; for other What If videos replace the specific impact scenes with equally concrete mechanism/action/aftermath shots. Never require destruction just for shock value when scenario does not support it.",
     "releaseRule": "Story + storyboard + visual requirements + actual full MP4 perception + right-channel/duplicate guard are all required before auto publishing. Work is not complete when a file merely exists.",
     "priorPublishedFilm": "22 Nov Pacific asteroid 79.659 sec version published earlier. Do not silently delete, reupload or generate a replacement just from feedback; apply these rules to NEXT productions."
+  },
+  "whatIfAgentCheck20261123": {
+    "checkedAtOslo": "2026-11-23 ~15:36 Europe/Oslo",
+    "purpose": "Proactive Monday What If Short production; latest 22-Nov physical visual gate applied before spending credits",
+    "slot": {
+      "day": "Monday",
+      "type": "9:16 Short",
+      "target": "2026-11-23T18:00:00+01:00",
+      "status": "EDITORIAL_TARGET_ONLY_UNBOOKED"
+    },
+    "existingPublication": {
+      "asteroidRecut22Nov": "Metricool post 437920292 PUBLISHED https://www.youtube.com/watch?v=-ki5IDO6Nbg; NEVER upload old original 135s export",
+      "sunDark18Nov": "https://www.youtube.com/watch?v=1jQ_W7GYOoo",
+      "airVanished20Nov": "https://www.youtube.com/shorts/WKL9VDGgi6M; DO NOT retry failed AI Tuber job"
+    },
+    "production": {
+      "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+      "title": "What If Mars Replaced Our Moon Tonight?",
+      "scriptAndVisualBrief": "data/whatif-mars-moon-short-brief-2026-11-22.md",
+      "mediaType": "video",
+      "quality": "premium",
+      "aspectRatio": "9:16",
+      "latestStatus": "processing",
+      "exportStatus": "NOT_STARTED",
+      "fullAvQaPassed": false,
+      "scheduled": false,
+      "published": false,
+      "oneSentencePayoff": "At lunar distance Mars would be ~2x Moon's apparent width and exert ~8.74x tide-raising force, with locally variable coastal effects shown over tides at a fictional home.",
+      "fiveMandatoryMovingShots": [
+        "Moon replaced by physically ~2x-looking Mars over same estuary home",
+        "Live water climbs seawall over labeled tidal cycles",
+        "Live high tide water moves onto curb as residents carry belongings",
+        "Dynamic accurate ~8.7x force explainer, NOT ninefold wave height",
+        "Actual rising high-tide water reaches same fictional family's front step"
+      ],
+      "duplicateGuard": "AI Tuber newest list had no existing Mars-replaces-Moon video before production; older Moon-Disappears Short is a DIFFERENT question.",
+      "releaseGate": "HOLD until video completed, exported to 1080p, full MP4 + synchronized natural voice and five moving beats inspected, exact AutoPilot/current AI Tuber queue checked, then only book 18:00 if slot still future and fully free."
+    },
+    "credits": {
+      "before": 2278,
+      "afterObserved": 1445,
+      "spentThisRun": 833,
+      "source": "Authenticated AITuber get_subscription directly before and after single premium creation",
+      "newPurchases": 0,
+      "otherGenerationAttempts": 0
+    },
+    "queue": {
+      "metricoolBrandId": 7751348,
+      "metricoolNov22to30": "Only already-published Nov22 asteroid found. No future scheduled What If posts.",
+      "aiTuberExistingVideoList": "Latest was 20 Nov prior to this one; no unlisted publication inventory endpoint",
+      "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "connected": true,
+      "autopilot": "Previously UI paused on 20 Nov; not independently rechecked current toggle today.",
+      "confirmedUniqueAcrossAllProviders": false
+    },
+    "technical": {
+      "todayCdnTest": "curl: (6) Could not resolve host cdn.aituber.app when re-testing previously exported MP4; authenticated download_video and api_read GET /exports/download returned same host.",
+      "alternativeAccess": "Authenticated API alternative attempted; returned same inaccessible CDN URL; no Cloud Browser UI in this run.",
+      "fullNewMp4Audition": "NOT ATTEMPTED; new render still processing",
+      "action": "Do not approve or publish based on generation API status alone."
+    },
+    "analytics": {
+      "provider": "Metricool authenticated YouTube all videos queried Nov 1-Nov23",
+      "observations": "Black Hole Short Nov15 1230 views avg 15s, Air Vanished Nov20 227 avg 13s, Octopuses Nov3 1025 avg 10s; previously Moon Disappeared Oct18 4 views avg 19s, across unequal post ages. 22 Nov asteroid not yet in all-videos index.",
+      "missing": "Shorts viewed-vs-swiped, 0–2s retention, equal-age metrics; no causal conclusions.",
+      "singleProposedTest": "One verified ~8.7x tide-raising FORCE takeaway paired with actual human-scale moving flood image."
+    },
+    "compliance": {
+      "littleWildActions": 0,
+      "telegramActions": 0,
+      "paidAds": 0,
+      "otherChannelActions": 0,
+      "existingBookingsChanged": false,
+      "newBookings": 0,
+      "newPublications": 0
+    }
   }
 }
