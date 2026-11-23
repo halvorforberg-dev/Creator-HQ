@@ -6822,13 +6822,15 @@
     "priorPublishedFilm": "22 Nov Pacific asteroid 79.659 sec version published earlier. Do not silently delete, reupload or generate a replacement just from feedback; apply these rules to NEXT productions."
   },
   "whatIfAgentCheck20261123": {
-    "checkedAtOslo": "2026-11-23 ~15:36 Europe/Oslo",
+    "checkedAtOslo": "2026-11-23 afternoon Europe/Oslo (post-export)",
     "purpose": "Proactive Monday What If Short production; latest 22-Nov physical visual gate applied before spending credits",
     "slot": {
       "day": "Monday",
       "type": "9:16 Short",
       "target": "2026-11-23T18:00:00+01:00",
-      "status": "EDITORIAL_TARGET_ONLY_UNBOOKED"
+      "status": "EDITORIAL_TARGET_NO_ACTUAL_BOOKING",
+      "bookingId": null,
+      "passedQA": false
     },
     "existingPublication": {
       "asteroidRecut22Nov": "Metricool post 437920292 PUBLISHED https://www.youtube.com/watch?v=-ki5IDO6Nbg; NEVER upload old original 135s export",
@@ -6842,8 +6844,8 @@
       "mediaType": "video",
       "quality": "premium",
       "aspectRatio": "9:16",
-      "latestStatus": "processing",
-      "exportStatus": "NOT_STARTED",
+      "latestStatus": "completed",
+      "exportStatus": "completed",
       "fullAvQaPassed": false,
       "scheduled": false,
       "published": false,
@@ -6856,7 +6858,13 @@
         "Actual rising high-tide water reaches same fictional family's front step"
       ],
       "duplicateGuard": "AI Tuber newest list had no existing Mars-replaces-Moon video before production; older Moon-Disappears Short is a DIFFERENT question.",
-      "releaseGate": "HOLD until video completed, exported to 1080p, full MP4 + synchronized natural voice and five moving beats inspected, exact AutoPilot/current AI Tuber queue checked, then only book 18:00 if slot still future and fully free."
+      "releaseGate": "HOLD until video completed, exported to 1080p, full MP4 + synchronized natural voice and five moving beats inspected, exact AutoPilot/current AI Tuber queue checked, then only book 18:00 if slot still future and fully free.",
+      "durationSeconds": 36,
+      "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+      "exportResolution": "1080p",
+      "thumbnailStatus": "ready",
+      "qaVerdict": "HOLD_MANDATORY_MP4_AUDIO_VISUAL_REVIEW_UNAVAILABLE",
+      "providerBookingId": null
     },
     "credits": {
       "before": 2278,
@@ -6878,8 +6886,12 @@
     "technical": {
       "todayCdnTest": "curl: (6) Could not resolve host cdn.aituber.app when re-testing previously exported MP4; authenticated download_video and api_read GET /exports/download returned same host.",
       "alternativeAccess": "Authenticated API alternative attempted; returned same inaccessible CDN URL; no Cloud Browser UI in this run.",
-      "fullNewMp4Audition": "NOT ATTEMPTED; new render still processing",
-      "action": "Do not approve or publish based on generation API status alone."
+      "fullNewMp4Audition": "BLOCKED_NOT_PERFORMED",
+      "action": "HOLD/NO_BOOK/NO_PUBLISH; prevent duplicating video 6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+      "newExportSource": "AITuber get_video confirms completed MP4 1080p export",
+      "newMp4Fetch": "2026-11-23 direct curl (6) Could not resolve host: cdn.aituber.app",
+      "newMp4WebFetch": "External web open returned media inaccessible",
+      "remainingNeeded": "Actually view/listen entire 36s MP4, verify 5 required live video beats, caption accuracy, 0–2sec WHAT IF, natural audio and final line; current AutoPilot and complete provider queue unverified"
     },
     "analytics": {
       "provider": "Metricool authenticated YouTube all videos queried Nov 1-Nov23",
@@ -6894,7 +6906,10 @@
       "otherChannelActions": 0,
       "existingBookingsChanged": false,
       "newBookings": 0,
-      "newPublications": 0
-    }
+      "newPublications": 0,
+      "newExports": 1,
+      "qaApprovals": 0
+    },
+    "alertId": "whatif-mars-moon-final-av-qc-blocked-2026-11-23"
   }
 }
