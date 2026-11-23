@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23T15:38:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -393,6 +393,42 @@
         "verification": "Metricool authenticated getScheduledPosts queried 2026-11-21 for Nov20–24 returns provider youtube status PUBLISHED and exact public URL. Original AITuber attempt remains failed, but same reviewed export went live via the separate Metricool recovery entry. No new upload or credits used on this check.",
         "noTelegram": true
       }
+    },
+    {
+      "id": "whatif-mars-moon-final-av-qc-blocked-2026-11-23",
+      "channel": "What If in 40 Seconds",
+      "category": "quality_gate_blocker",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-23T15:38:00+01:00",
+      "notificationRevision": 1,
+      "source": {
+        "type": "authenticated_AITuber_and_direct_container_network_test",
+        "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+        "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+        "videoStatus": "completed",
+        "durationSeconds": 36,
+        "videoAspect": "9:16",
+        "exportStatus": "completed",
+        "exportResolution": "1080p",
+        "downloadEndpoint": "AITuber download_video returned CDN MP4 link",
+        "containerError": "curl: (6) Could not resolve host: cdn.aituber.app (2026-11-23)",
+        "otherRead": "External web video URL retriever could not open MP4; alternative authenticated GET /exports/download for prior export returned same inaccessible CDN host."
+      },
+      "summary": "NY What If Monday Short er ferdiggenerert og eksportert (Mars replaces Moon, 36s, 1080p), men hele MP4-en kan ikke faktisk ses eller høres fordi cdn.aituber.app ikke kan nås i dette miljøet. Den ufravikelige 0–2s, fem bevegelige konsekvensbilder, fortellerstemme og slutt-WOW-QA er derfor IKKE bestått. Ingen booking for 23.11 kl.18.",
+      "action": "HOLD. Gjør avspillbar full MP4 tilgjengelig gjennom én fungerende autentisert visnings-/nedlastingsvei (for eksempel innlogget AI Tuber UI/Work eller sikker medieoverføring), se OG lytt til HELE 36-sekundersfilmen, dokumenter frame-zero WHAT IF, faktiske bevegelige tidevann over land, stemme/tekst/landskap og komplett payoff. Sjekk AutoPilot og unik provider-kø før ny 18:00-booking ved en fremtidig ledig slot. Ikke regenerer, kjøp credits, eller last opp denne filmen ukontrollert.",
+      "ownerActionRequired": false,
+      "relatedLinks": [
+        "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-mars-moon-short-brief-2026-11-22.md"
+      ],
+      "releaseTarget": "2026-11-23T18:00:00+01:00",
+      "targetType": "EDITORIAL_GOAL_NOT_BOOKED",
+      "notificationPolicy": "NO TELEGRAM. GitHub validation workflow checked 2026-11-23 and contains no send step.",
+      "creditSpendThisRun": 833,
+      "additionalPurchases": 0,
+      "noTelegram": true,
+      "noLittleWild": true
     }
   ]
 }
