@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T15:38:00+01:00",
+  "updatedAt": "2026-11-23T18:40:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -417,7 +417,7 @@
         "otherRead": "External web video URL retriever could not open MP4; alternative authenticated GET /exports/download for prior export returned same inaccessible CDN host."
       },
       "summary": "NY What If Monday Short er ferdiggenerert og eksportert (Mars replaces Moon, 36s, 1080p), men hele MP4-en kan ikke faktisk ses eller høres fordi cdn.aituber.app ikke kan nås i dette miljøet. Den ufravikelige 0–2s, fem bevegelige konsekvensbilder, fortellerstemme og slutt-WOW-QA er derfor IKKE bestått. Ingen booking for 23.11 kl.18.",
-      "action": "HOLD. Gjør avspillbar full MP4 tilgjengelig gjennom én fungerende autentisert visnings-/nedlastingsvei (for eksempel innlogget AI Tuber UI/Work eller sikker medieoverføring), se OG lytt til HELE 36-sekundersfilmen, dokumenter frame-zero WHAT IF, faktiske bevegelige tidevann over land, stemme/tekst/landskap og komplett payoff. Sjekk AutoPilot og unik provider-kø før ny 18:00-booking ved en fremtidig ledig slot. Ikke regenerer, kjøp credits, eller last opp denne filmen ukontrollert.",
+      "action": "Ikke publiser Mars Short bare fordi eksport er ferdig. Skaff autorisert faktisk full MP4- og lydgjennomgang (0–2 sek, fem krevde bevegelige scener, captions/voice/synk, visuell hendelse og sterk ærlig payoff), kontroller AutoPilot og hele kanalens kø; deretter book kun en ledig fremtidig 18:00-slot hvis QA består. Ingen nye kjøp, generering, annonser eller duplikater.",
       "ownerActionRequired": false,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-mars-moon-short-brief-2026-11-22.md"
@@ -428,7 +428,19 @@
       "creditSpendThisRun": 833,
       "additionalPurchases": 0,
       "noTelegram": true,
-      "noLittleWild": true
+      "noLittleWild": true,
+      "latestProgressAt": "2026-11-23T18:40:00+01:00",
+      "latestStatus": "HOLD: completed/exported 36s 1080p AI Tuber video; no verified full AV review, no scheduled What If post today in Metricool, no AI Tuber publicationId; 18:00 editorial target elapsed, not an actual failed provider booking.",
+      "latestSource": {
+        "type": "fresh_authenticated_provider_read",
+        "checkedAt": "2026-11-23T18:40:00+01:00",
+        "aituberVideoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+        "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+        "metricoolBrandId": 7751348,
+        "metricoolResult": "Only yesterday's asteroid PUBLISHED; Nov23 no booking",
+        "networkConstraint": "cdn.aituber.app DNS inaccessible to local review",
+        "youtubeStatus": "NOT_VERIFIED_PUBLISHED"
+      }
     }
   ]
 }
