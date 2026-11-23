@@ -823,14 +823,16 @@
           "network": "youtube",
           "time": "18:00",
           "title": "The Stone That Named Pontius Pilate — What It Really Proves",
-          "status": "PENDING",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
-          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "status": "PUBLISHED",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-23 after 18:40 Europe/Oslo",
+          "statusSource": "Authenticated Metricool provider result, status PUBLISHED, checked 2026-11-23",
           "autoPublish": true,
           "mediaPresent": true,
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-5108672293973701727.mp4",
-          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+          "publicUrl": "https://www.youtube.com/shorts/9dbl4f4jlnw",
+          "providerPostId": "9dbl4f4jlnw"
         },
         {
           "id": 435631044,
@@ -839,14 +841,16 @@
           "network": "tiktok",
           "time": "18:00",
           "title": "The Stone That Named Pontius Pilate — What It Really Proves",
-          "status": "PENDING",
-          "lastVerifiedStatus": "PENDING",
-          "statusVerifiedDate": "2026-11-20 after 15:14 Europe/Oslo",
-          "statusSource": "Authenticated Metricool createScheduledPost and getScheduledPosts readback",
+          "status": "PUBLISHED",
+          "lastVerifiedStatus": "PUBLISHED",
+          "statusVerifiedDate": "2026-11-23 after 18:40 Europe/Oslo",
+          "statusSource": "Authenticated Metricool provider result, status PUBLISHED, checked 2026-11-23",
           "autoPublish": true,
           "mediaPresent": true,
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-5108672293973701727.mp4",
-          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json"
+          "qa": "data/bizarre-past-kanalagent-qa-bookings-2026-11-20.json",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7711414720963644694",
+          "providerPostId": "7711414720963644694"
         }
       ],
       "whatIfRecovery20261120": {
@@ -6828,7 +6832,7 @@
       "day": "Monday",
       "type": "9:16 Short",
       "target": "2026-11-23T18:00:00+01:00",
-      "status": "EDITORIAL_TARGET_NO_ACTUAL_BOOKING",
+      "status": "18_00_MISSED_QUALITY_HOLD_NO_BOOKING",
       "bookingId": null,
       "passedQA": false
     },
@@ -6863,7 +6867,7 @@
       "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
       "exportResolution": "1080p",
       "thumbnailStatus": "ready",
-      "qaVerdict": "HOLD_MANDATORY_MP4_AUDIO_VISUAL_REVIEW_UNAVAILABLE",
+      "qaVerdict": "HOLD_UNVERIFIED_MP4_AND_AUDIO_AS_OF_18_40_NOV23",
       "providerBookingId": null
     },
     "credits": {
@@ -6911,5 +6915,71 @@
       "qaApprovals": 0
     },
     "alertId": "whatif-mars-moon-final-av-qc-blocked-2026-11-23"
+  },
+  "latestPublicationCheck20261123": {
+    "checkedAtOslo": "2026-11-23T18:40:00+01:00",
+    "timezone": "Europe/Oslo",
+    "source": "Fresh authenticated Metricool getScheduledPosts (Bizarre and What If, 2026-11-22 to 2026-11-25); AI Tuber list_videos/get_video/download_video/list_channels; Gmail latest notification search.",
+    "goal": "Monday 2026-11-23 at 18:00 Oslo: Bizarre Past Short YouTube+TikTok; What If Short YouTube; Little Wild paused",
+    "bizarrePast": {
+      "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+      "metricoolBrandId": 7296504,
+      "postId": 435631044,
+      "scheduledFor": "2026-11-23T18:00:00+01:00",
+      "providers": [
+        {
+          "network": "youtube",
+          "status": "PUBLISHED",
+          "providerId": "9dbl4f4jlnw",
+          "publicUrl": "https://www.youtube.com/shorts/9dbl4f4jlnw"
+        },
+        {
+          "network": "tiktok",
+          "status": "PUBLISHED",
+          "providerId": "7711414720963644694",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7711414720963644694"
+        }
+      ],
+      "verified": true,
+      "provider": "Metricool",
+      "bookingChanged": false,
+      "duplicateCreated": false,
+      "exactActualPublicationSecond": "NOT_SUPPLIED"
+    },
+    "whatIf": {
+      "target": "2026-11-23T18:00:00+01:00",
+      "targetType": "EDITORIAL_GOAL_NOT_PROVIDER_BOOKING",
+      "title": "What If Mars Replaced Our Moon Tonight?",
+      "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+      "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+      "durationSeconds": 36,
+      "aspectRatio": "9:16",
+      "resolution": "1080p",
+      "generationStatus": "completed",
+      "exportStatus": "completed",
+      "fullAvQaPassed": false,
+      "visualImpactAudit": "NOT_VERIFIED: actual exported MP4 and audio still unavailable for direct review because cdn.aituber.app DNS inaccessible in local execution; five required moving consequence shots not established. Manus/storyboard is not evidence of visual QA.",
+      "booked": false,
+      "bookedId": null,
+      "providerVerifiedPublication": "NONE_FOUND",
+      "published": false,
+      "status": "HOLD_QA_NOT_APPROVED_NOT_BOOKED_NOT_CONFIRMED_PUBLISHED",
+      "verified": "AI Tuber get_video/list_videos and export metadata completed; Metricool What If brand only returned previously published Nov22 asteroid post and no Nov23 scheduled or published entry. No AI Tuber GET /publications listing available; unpublished status cannot be asserted absolutely without direct YT channel publication read; no AI Tuber publicationId exists in current production record.",
+      "channelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "correctiveAction": "Keep original 36s export on HOLD without spending more credits. Acquire authorized full MP4+audio inspection, verify planned motion and honest factual payoff plus current AI Tuber AutoPilot and publication queue before any future booking. Do not silently shift/publish without QC.",
+      "alertId": "whatif-mars-moon-final-av-qc-blocked-2026-11-23"
+    },
+    "noActions": {
+      "newGenerations": 0,
+      "newExports": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "newCreditsPurchases": 0,
+      "newAds": 0,
+      "littleWild": 0,
+      "telegram": 0,
+      "oldAsteroidReposts": 0
+    },
+    "note": "Fresh provider status check is authoritative for Bizarre success. Short Mars is exported but fails mandatory documented perceptual QA; missing target is a quality hold, NOT a provider failed upload. Prior Pacific asteroid 79.659s was already PUBLISHED 2026-11-22 and not resubmitted."
   }
 }
