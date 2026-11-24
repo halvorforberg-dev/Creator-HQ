@@ -1,0 +1,38 @@
+# What If Earth’s Gravity Doubled for 24 Hours?
+Editorial candidate for Wednesday 25 Nov 2026, 18:00 Oslo; NOT generated, approved for spend, booked or published. 16:9, approximately 2–3 minutes of substance; exact length follows narration. No new credits while access to final exports remains blocked.
+
+## Payoff first
+Even the seemingly empty air above your head has weight: if gravity doubles with atmospheric mass and surface area unchanged, settled sea-level pressure approaches two atmospheres, so a person has twice their normal weight AND lives under a much heavier atmosphere without gaining mass.
+
+Premise: fictional external change to near-Earth gravitational acceleration, from about 9.8 to 19.6 m/s² for one day, fixed Earth radius and initial mass distribution, no added material. Illustrative conditional physics, not a prediction; no exact global structural failures or atmospheric transient timetable. Ignore orbital consequences to focus on near-surface effects. The atmosphere adjusts over time, not instant doubling of surface pressure. The underwater example is gauge pressure at fixed depth, not absolute pressure. No exact claim about human survival or all planes crashing.
+
+## Packaging and hooks
+Title A (chosen): What If Earth's Gravity Doubled for 24 Hours?
+Title B: What If Everything on Earth Suddenly Weighed Twice as Much?
+Thumbnail: same commuter in a station, gripping rail as heavy luggage slams down; clear small “2× GRAVITY” text, not an invented real landmark collapse.
+Hook choices (audible What if starts immediately in each, large WHAT IF...? text):
+1. “What if gravity doubled?” (chosen; immediate bag slams down and commuter catches rail)
+2. “What if Earth's gravity doubled overnight?” (falling objects and scale)
+3. “What if gravity doubled for a day?” (aircraft loses vertical force balance)
+4. “What if your entire world weighed twice as much?” (scale and bridge)
+Choose 1 for immediate clarity; title supplies duration, second spoken sentence clarifies.
+
+## Original narration + mandatory motion beats
+Timing is indicative; preserve natural voice and causally motivated cuts. Use original generic fictional coastal city, same commuter and companion, same station/bridge silhouette, no real disaster footage. Every major consequence is visible, graphics only for short explanatory bridges. Keep illustrative label visible in dramatic scenes.
+
+1. 0–12s — Eye-level station shot, slow tracking beside adult commuter in dark jacket, hand suddenly drops wheeled suitcase and grips railing, another commuter braces. Audible bag thud, not explosion. Narration: “What if gravity doubled? For the next twenty-four hours, the planet pulls twice as hard. Your suitcase crashes to the floor, your knees bend, and the stairs you climbed yesterday suddenly feel like a mountain.”
+2. 12–31s — Same person on robust bathroom scale, before 75 kg-equivalent and after 150 kg-equivalent, mass unchanged. Insert moving split-screen of a dropped ball falling faster, not sped-up footage masquerading as a real measurement. Quiet ticking. “If your mass is seventy-five kilograms, it stays seventy-five. But your weight is now the same as a hundred-and-fifty-kilogram person under normal gravity. A ten-kilogram bag feels like twenty. Even standing still takes more effort. A fall becomes more dangerous, because the ground pulls you down faster.”
+3. 31–55s — Wide fictional bridge/road scene; parked delivery truck compresses suspension; overloaded rack sags and boxes visibly fall to floor in a station service area; no guaranteed bridge collapse. Metal creak, cut back to commuter behind safety barrier. “Now scale that up to a city. Trucks carry twice their usual gravitational load. Bridges and buildings must bear more of their own weight as well as their cargo. Some structures have spare capacity. Others could fail. The dangerous part is that you cannot unload the weight of the bridge itself.”
+4. 55–79s — Moving exterior of generic airliner already cruising, initially descending relative to level horizon, cabin occupants press into seats, force arrows brief and accurately unequal; no crash claim. Engine rumble. “Above the city, an airliner that was flying level has a new problem. Its weight has doubled, but its wings do not instantly produce twice the lift. It initially accelerates downward until the forces change. How aircraft respond depends on their speed, altitude, available lift and the changing atmosphere.”
+5. 79–103s — Underwater moving comparison: pressure gauge in unmanned tank at ten metres depth, gauge increment about one normal atmosphere at 1g versus two at 2g, not total absolute pressure; water and gauges visibly moving. Low underwater sound. “And the same thing happens below the sea. Ten metres of water normally adds nearly one atmosphere of pressure. Double gravity and, at that same depth, the water's contribution is nearly two. Submersibles would face loads they were never designed for at some depths.”
+6. 103–130s — Atmospheric cross-section animated with same number of air molecules settling into a thinner column over city; pressure gauge trends from one to about two atmospheres after adjustment, not instantaneous; return to same commuter at home, holding an ordinary empty-looking glass of air, with window view of same city. Music resolves. “But here's the strangest part. Even the air around you has weight. Above every square metre of ground sits roughly ten tonnes of atmosphere. If that air remains on Earth, and gravity doubles, its settled pressure near sea level would approach two atmospheres. You would not have gained a single kilogram of mass. Yet even the invisible sky above your head would be pressing down twice as hard.”
+
+## Scientific sources and constraints
+- NASA Glenn, weight W=mg: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/thrust-to-weight-ratio/
+- NASA Glenn, level flight lift balances weight: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/airplane-cruise-balanced-forces/
+- San Diego State, hydrostatic pressure P=g rho h: https://aty.sdsu.edu/explain/thermal/hydrostatic.html
+- Purdue atmospheric science, surface pressure equals column weight: https://web.ics.purdue.edu/~dchavas/teaching/interactive/hydrostatic.html
+- Competitive angle reference only: xkcd What If's group-jump question https://www.youtube.com/watch?v=Ny9m2l6h478 (public listing shows 2.14m cumulative views; very different channel size, age and format; no opening or retention inspected). Distinct script, no copied clips, no claims of causal success. Own October half-gravity Short is a different premise/format; no double-gravity title in full AI Tuber list checked 24 Nov. Prior regular films: Sun Dark 9 views/16s average, Bee Vision 37 views/52s average, unequal ages and lengths. Asteroid not in analytics index despite confirmed publication; no age-matched CTR or retention. Test one change: clear human-scale recurring visual anchor, not a montage of unrelated destruction.
+
+## Production and release gate
+All six required moving beats, physical continuity, large WHAT IF within 0–2 seconds, natural English narration, cinematic sound with clear voice, end line complete, 1080p final MP4 audio + image full review required. Explicit fictional illustration, no invented landmarks, no unnecessary new credits. 1,313 remaining credits observed 24 Nov; cost not quoted or committed. Prior 36s premium cost 833, so no assumption this full video is affordable. No generation until AV access and credible cost/shot feasibility verified; no booking without actual QA and full duplicate/AutoPilot clearance. Wednesday slot is editorial target only.
