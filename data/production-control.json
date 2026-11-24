@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-24T15:28:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7063,5 +7063,79 @@
     "publication": "NOT_BOOKED_NOT_PUBLISHED",
     "userAction": "A/B-listen to the old approved Herculaneum reference and the new Siloam voice sample; confirm match or reject it.",
     "telegram": "DISABLED_AND_NOT_TRIGGERED"
+  },
+  "whatIfAgentCheck20261124": {
+    "checkedAtOslo": "2026-11-24T15:28:00+01:00",
+    "today": "Tuesday; no regular What If publication slot",
+    "nextSlot": {
+      "date": "2026-11-25",
+      "time": "18:00 Europe/Oslo",
+      "format": "16:9 long-form",
+      "status": "EDITORIAL_TARGET_NOT_BOOKED"
+    },
+    "existingMars": {
+      "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+      "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+      "durationSeconds": 36,
+      "resolution": "1080p",
+      "status": "completed",
+      "exportStatus": "completed",
+      "qa": "HOLD",
+      "reason": "Both authenticated download endpoints yield same CDN; direct curl error 6 DNS; timeline metadata is not AV inspection",
+      "bookingId": null,
+      "publication": "No verified publication found",
+      "alertId": "whatif-mars-moon-final-av-qc-blocked-2026-11-23"
+    },
+    "queue": {
+      "metricoolBrandId": 7751348,
+      "period": "2026-11-22–30",
+      "result": "Only already published Nov22 asteroid https://www.youtube.com/watch?v=-ki5IDO6Nbg; no new entries or future booking returned",
+      "aiTuber": "Full list newest Mars Nov23; no subsequent video creation shown; connected correct YouTube channel 78dcabfb-3657-41ab-89b8-8c04da2f43d5; current AutoPilot UI and full publications inventory unavailable, so uniqueness not fully established"
+    },
+    "credits": {
+      "current": 1313,
+      "previousObserved": 1445,
+      "change": -132,
+      "reason": "Unexplained by available read; no new generation or credit expenditure initiated in this run",
+      "purchase": 0
+    },
+    "analytics": {
+      "source": "Metricool all videos Nov1–24",
+      "sunDark": {
+        "views": 9,
+        "averageViewSeconds": 16
+      },
+      "beeVision": {
+        "views": 37,
+        "averageViewSeconds": 52
+      },
+      "airVanished": {
+        "views": 227,
+        "averageViewSeconds": 13
+      },
+      "blackHole": {
+        "views": 1230,
+        "averageViewSeconds": 15
+      },
+      "limitations": "Unequal ages and formats; asteroid not in analytics results, no CTR/retention curves or age-matched metrics. No causal conclusions."
+    },
+    "nextEditorial": {
+      "title": "What If Earth's Gravity Doubled for 24 Hours?",
+      "brief": "data/whatif-double-gravity-long-brief-2026-11-24.md",
+      "status": "SOURCE_CHECKED_SCRIPT_AND_BEATS_ONLY_NOT_GENERATED_OR_BOOKED",
+      "payoff": "With unchanged atmospheric mass and area, settled air pressure near sea level approaches twice normal as gravity doubles; not instantaneous.",
+      "hypothesis": "Recurring human-scale scene anchor instead of unrelated montage",
+      "spendDecision": "No new generation pending access to final AV and credible cost feasibility; 36s prior premium production cost 833, current balance 1313."
+    },
+    "compliance": {
+      "newGenerations": 0,
+      "newExports": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "newPurchases": 0,
+      "existingBookingsChanged": false,
+      "telegram": 0,
+      "littleWild": 0
+    }
   }
 }
