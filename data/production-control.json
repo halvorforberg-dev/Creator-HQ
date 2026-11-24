@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T15:28:00+01:00",
+  "updatedAt": "2026-11-24",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7136,6 +7136,70 @@
       "existingBookingsChanged": false,
       "telegram": 0,
       "littleWild": 0
+    }
+  },
+  "latestPublicationCheck20261124": {
+    "checkedAtOslo": "2026-11-24T18:33:10+01:00",
+    "day": "Tuesday; neither active channel has a regular release today",
+    "goal": "Next editorial release Wed Nov25 18:00: long-form each channel; not verified bookings",
+    "sources": [
+      "authenticated Metricool getScheduledPosts for brands 7296504 and 7751348 Nov23–26",
+      "AI Tuber list_videos/list_channels/download_video",
+      "actual downloaded MP4 ffprobe, FFmpeg full decode, one-second sampled frame strips"
+    ],
+    "bizarrePast": {
+      "todayExpected": false,
+      "lastPublished": {
+        "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+        "date": "2026-11-23",
+        "youtube": "https://www.youtube.com/shorts/9dbl4f4jlnw",
+        "tiktok": "https://www.tiktok.com/@bizzare.past/video/7711414720963644694",
+        "status": "PUBLISHED provider confirmed"
+      },
+      "nextSlot": "2026-11-25T18:00:00+01:00",
+      "nextBooking": "NONE_RETURNED"
+    },
+    "whatIf": {
+      "todayExpected": false,
+      "overdueMars": {
+        "checkedAtOslo": "2026-11-24T18:33:10+01:00",
+        "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+        "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+        "mediaAccess": "RESOLVED: fresh authorized signed AI Tuber export URL successfully downloaded in Higgsfield media sandbox; local-container DNS workaround.",
+        "durationSeconds": 36.139,
+        "resolution": "1080x1920",
+        "bytes": 27887424,
+        "videoAndAudioStreamsPresent": true,
+        "fullDecodePassed": true,
+        "audioPeakDb": -4.8,
+        "visualInspection": "Actual rendered frames sampled at one-second intervals across the entire 36-second export, compared with locked Nov23 storyboard. Not equivalent to continuous playback.",
+        "findings": [
+          "Opening sampled frames show coast and Moon transitioning to Mars, but no required large WHAT IF title visible in first sampled frames; exact spoken opening not audited.",
+          "Shoreline and submerged walkway/yard visible; images revisit similar house and water. Required clearly labelled tidal-cycle time lapse, readable tide gauge and distinct observable advancing-water action are not established by reviewed frames.",
+          "Planet comparison/tidal graphics appear around 18–25 sec; readable ~8.7x tide-raising force and size labels not established by inspected frames.",
+          "Ending returns to human-scale flooded coastal home; visible Mars and water are relevant, but complete narrated payoff and timing not verified."
+        ],
+        "fullContinuousAvReviewPassed": false,
+        "verdict": "HOLD_QA_NOT_APPROVED: access repaired, visual samples do not establish all mandatory shots or opening title, full real-time video and audio review remains unverified.",
+        "booked": false,
+        "providerPublication": "NOT_CONFIRMED",
+        "newGeneration": 0,
+        "newCreditPurchases": 0,
+        "telegram": 0
+      },
+      "nextSlot": "2026-11-25T18:00:00+01:00",
+      "nextLongForm": "What If Earth's Gravity Doubled for 24 Hours? — editorial brief only per earlier agent check; no new video found",
+      "nextBooking": "NONE_RETURNED_METRICOOL; AI Tuber full publication inventory not available; no provider booking confirmed"
+    },
+    "actions": {
+      "newPublications": 0,
+      "newBookings": 0,
+      "newGenerations": 0,
+      "newCreditPurchases": 0,
+      "newAds": 0,
+      "littleWild": 0,
+      "telegram": 0,
+      "asteroidReposts": 0
     }
   }
 }
