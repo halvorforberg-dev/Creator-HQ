@@ -1,0 +1,95 @@
+{
+  "reportVersion": 1,
+  "checkedAt": "2026-11-24T08:55:00+01:00",
+  "channel": "Bizarre Past",
+  "deliverable": "35–40 second 9:16 Short for next open Friday slot",
+  "targetSlot": "2026-11-27T18:00:00+01:00",
+  "status": "HOLD_VOICE_PERCEPTUAL_MATCH_NOT_VERIFIED_NO_VIDEO_GENERATION_NO_BOOKING",
+  "queueEvidence": {
+    "metricoolBrandId": "7296504",
+    "checkedRange": "2026-11-24 through 2026-12-01 Europe/Oslo",
+    "futureScheduledPosts": 0,
+    "note": "The only returned item was the already-published Pontius Pilate post from 2026-11-23; no future post was booked."
+  },
+  "selection": {
+    "concept": "The Pool of Siloam uncovered during sewer works",
+    "audienceQuestion": "What did archaeologists actually find at the place John 9 connects with Jesus healing a blind man?",
+    "payoff": "Archaeology recovered the monumental late-Second-Temple setting of the story, but does not prove the miracle.",
+    "titleOptions": [
+      "Sewer Repairs Uncovered the Pool of Siloam",
+      "They Found the Pool Named in John—What Does It Prove?"
+    ],
+    "selectedTitle": "They Found the Pool Named in John—What Does It Prove?",
+    "whySelected": "The channel's two newest evidence-bounded Bible/archaeology Shorts were its strongest recent breakouts; competitor outliers also show demand for physical finds connected to biblical places. This angle keeps one concrete find and an explicit evidence limit."
+  },
+  "evidence": {
+    "ownChannel": [
+      {
+        "videoId": "l3Bm7AwPFDg",
+        "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+        "sameAgePerformance": "2,118 Studio views, 1,131 engaged views, 103.24% average viewed, 5 subscribers in the 2026-10-27 to 2026-11-23 report"
+      },
+      {
+        "videoId": "9dbl4f4jlnw",
+        "title": "The Stone That Named Pontius Pilate — What It Really Proves",
+        "publicSnapshot": "1,500 views and 11.87x breakout score when checked 2026-11-24"
+      }
+    ],
+    "searchDemand": "vidIQ estimated 16,539 monthly searches for 'pool of siloam'; broader 'biblical archaeology' estimated 63,685.",
+    "competitorSignal": "Relevant breakout Shorts about biblical archaeology and sites were found, including a 52.3K-view Pool of Bethesda Short and a 135.1K-view recent biblical-discoveries Short. Their stronger sensational claims were not copied.",
+    "primarySources": [
+      "https://hadashot.iaa.org.il/Report_Detail_Eng.aspx?id=26253",
+      "https://www.degruyterbrill.com/document/doi/10.1515/9781575066592-015/html",
+      "https://publications.iaa.org.il/atiqot/vol101/iss1/6/"
+    ],
+    "factualBoundary": "The excavated stepped pool is dated to the late Second Temple period and has been identified by excavators with the Pool of Siloam mentioned in John 9. The physical site does not establish the miracle."
+  },
+  "script": {
+    "measuredWords": 98,
+    "estimatedSecondsAt150Wpm": 39.2,
+    "generatedVoiceDurationSeconds": 39.471,
+    "spokenText": "Did you know sewer repairs uncovered a pool named in John’s Gospel? In 2004, workers exposed stone steps south of Jerusalem’s Old City. Archaeologists uncovered a huge stepped pool dated to the late Second Temple period. John chapter nine places Jesus healing a blind man at the Pool of Siloam. The pool likely served the city’s pilgrims. Here is the surprising part: archaeology recovered the setting of the story, not proof of the miracle. It shows a monumental pool stood in the right place and era. The evidence reaches the pool. The miracle remains a matter of faith."
+  },
+  "voice": {
+    "requiredReferenceJobId": "8121b809-6be2-4ae9-8bfc-6a2d1596cd22",
+    "requiredReferenceAudioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261108_162619_8121b809-6be2-4ae9-8bfc-6a2d1596cd22.mp3",
+    "newJobId": "c1ac198e-fa9d-4f34-b8af-ab56ce326ad8",
+    "newAudioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/hf_20261124_075203_c1ac198e-fa9d-4f34-b8af-ab56ce326ad8.mp3",
+    "exactPreset": {
+      "name": "Callum",
+      "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "voiceType": "preset",
+      "engine": "elevenlabs_v4_turbo",
+      "tuning": "provider defaults; no stability override; no pitch shift"
+    },
+    "configurationMatch": "PASS",
+    "completeSpeechAndDuration": "PASS",
+    "perceptualWarmthAndStyleMatch": "NOT_VERIFIED",
+    "blocker": "The current execution environment cannot perceive audio input, so it cannot truthfully perform the mandated A/B listening comparison against the approved Herculaneum reference."
+  },
+  "visuals": {
+    "status": "FIVE_STATIC_STORYBOARD_FRAMES_GENERATED_NOT_ANIMATED",
+    "jobs": [
+      "0988d309-efc2-41b4-9915-82ab2df75d82",
+      "eb86f718-6092-49df-b47d-f367a92e028d",
+      "04fd3f71-6a61-4bd9-9391-2d904db27073",
+      "c9e9a7bf-884e-489c-b0a1-37199f7967f9",
+      "52436dda-0383-4c4b-a97a-d2eb29ed9d1a"
+    ],
+    "preliminaryVisualReview": "Strong coherent excavation/pool/reconstruction sequence; no obvious text, logo or watermark. This is not final video QC."
+  },
+  "credits": {
+    "higgsfieldBalanceBefore": 1865.87,
+    "estimatedSpentThisRun": 5.55,
+    "videoCreditsNotSpent": "Five 8-second animations were not submitted; approximately 60 credits preserved.",
+    "sundayReserveProtected": true
+  },
+  "publishing": {
+    "finalMp4Exists": false,
+    "fullAvQaPassed": false,
+    "metricoolBookingCreated": false,
+    "publicationClaim": false
+  },
+  "resolutionRequired": "A human must A/B-listen to the two linked audio files and confirm the new sample matches the older approved brighter, warmer, conversational voice. Only then may animation, final MP4 assembly, full AV QA and Metricool booking continue.",
+  "telegram": "No Telegram action, message, workflow or alert was triggered."
+}
