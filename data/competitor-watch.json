@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-24",
   "updatedTimezone": "Europe/Oslo",
-  "mission": "Ongoing original and copyright-respecting competitive research for Bizarre Past, What If in 40 Seconds and Little Wild Adventures. Grow views, engaged views, retention, subscribers and monetization eligibility through stronger content; never replicate third-party scripts/scenes/characters/music.",
-  "cadence": "Weekly cross-channel research plus micro-research in each channel agent before preparing videos.",
+  "mission": "Ongoing original, copyright-respecting competitive research for ACTIVE Bizarre Past and What If in 40 Seconds only. Little Wild paused indefinitely since Nov17; historical records retained but no new research. Organic views, retention and qualifying watch time.",
+  "cadence": "Weekly two-active-channel research plus active channel agent micro-research; no Telegram.",
   "confidenceGuidelines": [
     "Use dated primary channel videos where possible; label third-party counts as dated estimates.",
     "Compare views at similar video ages and by format; don't confuse correlation with causation.",
@@ -314,26 +314,316 @@
     }
   ],
   "lastResearch": {
-    "date": "2026-11-03",
-    "scope": [
-      "Six dated video metadata case studies, including three Shorts verified by direct vertical cover or publisher list, one long history film, one long preschool episode and one ambiguous-duration speculative film.",
-      "All six thumbnails/covers directly visually inspected with the free vidIQ image tool; QuirkScience full transcript analyzed for dramatic script sequence and payoff, no playback claims.",
-      "One new independently-sourced original test concept per channel; internal Metricool comparisons with clear missing age-matched metrics."
-    ],
-    "sourcesReviewed": 6,
-    "accessNotes": "All six thumbnails were directly inspected on 2026-11-03 via zero-credit vidIQ images. Public YouTube video playback and first 2s audio/video were not accessible; only QuirkScience full script text available and read. Third-party view snapshots as-of dates stated; age-matched 24h/7d/28d video analytics missing.",
-    "limitations": "Third-party video counters are public snapshots, not owners' YouTube Studio analytics. AgeDays=calendar days at snapshot; not actual 24h/7d curves. Actual video/audio playback of six public competitor videos was unavailable (YouTube fetch throttled); first 2 seconds, soundtrack, shot pacing and exact motion were NOT inspected. Thumbnails/covers of all six were directly inspected with free vidIQ images. QuirkScience full publisher transcript WAS inspected for story order and ending. Inferred storytelling structures above are hypotheses based on public titles and publishers' self-descriptions, not firsthand observations. No apples-to-apples comparison between large established channels, small 2026 channels and new owned channels with different publishing age/length. Do not copy others' scripts, characters, copyrighted footage, music or thumbnail designs, and do not imitate unverifiable 'solved mystery' certainty. No video was created, scheduled, published, liked or commented on during this research run. The canonical 18:00 Oslo schedule remains untouched. No vidIQ paid credits were consumed in connector calls for this run.",
-    "littleWildInternalReview": "Watched actual owned exported 1080x1920 MP4s with audio: Brush Along with Milo (34s), Cozy Bedtime Countdown (37s), Sharing Is More Fun (34s). Strongest approved production reference Brush; recent narration often describes rather than dramatizes, and refers to supporting cast as generic Bird/Meerkat."
+    "id": "weekly-competitor-analysis-2026-11-24",
+    "researchedOn": "2026-11-24",
+    "evidenceStatus": "PUBLIC_TRACKER_METADATA_AND_AUTHENTICATED_METRICOOL_NO_PLAYBACK",
+    "method": "Read production-control and competitor-watch first; public web tracker searches, no paid vidIQ API; Metricool daily and all-video plus traffic sources. Two active channels only.",
+    "sourceAccounting": "Four competitor cases; rotate toward smaller emerging peers next week; this week's smallest is established 393K, not a new small channel. Snapshot age in calendar days not exact release-window views.",
+    "cost": {
+      "vidiqCreditsSpent": 0,
+      "newAIProductionCreditsSpent": 0,
+      "paidPromotionsStarted": false
+    },
+    "sampleVideos": {
+      "bizarre": [
+        {
+          "channel": "Dan Davis History",
+          "size": "mid-sized niche 393K",
+          "title": "Why Did Stone Age People Start Burying Their Dogs? #archaeology #history",
+          "publishedUTC": "2026-11-19",
+          "snapshotDate": "2026-11-22",
+          "snapshotViewsApprox": 6470,
+          "daysSinceUploadCalendar": 3,
+          "format": null,
+          "duration": null,
+          "youtube": "https://www.youtube.com/watch?v=JM_VoACxxGs",
+          "source": "https://vidiq.com/youtube-stats/channel/@dandavishistory/",
+          "additionalSource": "https://vidiq.com/youtube-stats/channel/@dandavishistory/videos/JM_VoACxxGs/",
+          "observed": "Detail records earlier title about when ancient humans began burying dogs and later why-question. Humanly relatable historical puzzle; title change causal effect unknown.",
+          "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+          "hypothesis": "Ask a specific question with human stakes and show evidence instead of generic mysterious scenery."
+        },
+        {
+          "channel": "Odyssey - Ancient History Documentaries",
+          "size": "established 1.06M",
+          "title": "Archeologists Investigate A 4,000-Year-Old Ancient British Settlement",
+          "publishedUTC": "2026-11-18",
+          "snapshotDate": "2026-11-20",
+          "snapshotViewsApprox": 11310,
+          "daysSinceUploadCalendar": 2,
+          "format": null,
+          "duration": null,
+          "youtube": "https://www.youtube.com/watch?v=2gdADLZPAMQ",
+          "source": "https://vidiq.com/youtube-stats/channel/@odyssey/",
+          "additionalSource": "https://vidiq.com/youtube-stats/channel/@odyssey/videos/2gdADLZPAMQ/",
+          "observed": "Dated archaeological evidence and a concrete investigation are title-visible; older dated snapshot used because the later overview lists a different latest upload.",
+          "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+          "hypothesis": "Evidence-first reveals can make an ancient mystery feel like an unfolding investigation."
+        }
+      ],
+      "whatif": [
+        {
+          "channel": "xkcd's What If?",
+          "size": "established 1.38M",
+          "title": "What if we tried to eat the sun?",
+          "publishedUTC": "2026-11-17",
+          "snapshotDate": "2026-11-24",
+          "snapshotViewsApprox": 949501,
+          "daysSinceUploadCalendar": 7,
+          "format": "long-form",
+          "duration": "3:33",
+          "youtube": "https://www.youtube.com/watch?v=Aony69nO5kI",
+          "source": "https://vidiq.com/youtube-stats/channel/@xkcd_whatif/videos/",
+          "additionalSource": "https://vidiq.com/youtube-stats/channel/@xkcd_whatif/videos/Aony69nO5kI/",
+          "observed": "Concrete impossible action involving a familiar object; tracker detail records earlier title 'How many calories are in the sun?' and later question framing. Detail and list counters differ; use dated list only.",
+          "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+          "hypothesis": "A concrete action or visually measurable outcome may be easier to understand than an abstract science headline; title change effect unknown."
+        },
+        {
+          "channel": "What If (@whatifscienceshow)",
+          "size": "established 9M",
+          "title": "What If We Swapped Our Moon With Other Moons in the Solar System? #Shorts #Moon #SolarSystem #Space",
+          "publishedUTC": "2026-11-21",
+          "snapshotDate": "2026-11-24",
+          "snapshotViewsApprox": 50139,
+          "daysSinceUploadCalendar": 3,
+          "format": "Short (tracker)",
+          "duration": "2:53",
+          "youtube": "https://www.youtube.com/watch?v=BHPGOw-QeuM",
+          "source": "https://vidiq.com/youtube-stats/channel/@whatifscienceshow/videos/",
+          "observed": "Title promises a change to a familiar object and a comparison. Overlaps our existing Mars/Moon draft; do not make another copy or borrow footage.",
+          "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+          "hypothesis": "Use familiar landmarks/human-scale objects and a single clearly depicted cause-consequence sequence, not additional loosely connected space scenes."
+        }
+      ]
+    },
+    "analyticalLimits": {
+      "first2Seconds": "Not watched",
+      "tempo": "Not inspected",
+      "fullMotion": "Not inspected",
+      "storyAndPayoff": "Not inspected",
+      "thumbnail": "Composition not inspected, title changes recorded only from tracker",
+      "causality": "No causal claim from views or title changes"
+    },
+    "ownedChannelComparison": {
+      "asOf": "2026-11-24",
+      "source": "Authenticated Metricool YouTube evolution/all videos/traffic source; daily rows fetched 2026-10-27 through 2026-11-23. Video data are returned snapshots, not release age cohorts.",
+      "bizarre": {
+        "subscribers": 41,
+        "subscriberDate": "2026-11-23",
+        "week": {
+          "views": 2227,
+          "daysWithViews": 5,
+          "missing": [
+            "2026-11-22",
+            "2026-11-23"
+          ],
+          "gained": 6,
+          "lost": 2,
+          "grossSubsPer1000": 2.69
+        },
+        "priorWeek": {
+          "views": 459,
+          "daysWithViews": 7
+        },
+        "priorComparableFiveDays": {
+          "views": 187,
+          "dates": "Nov10–14"
+        },
+        "month": {
+          "views": 4879,
+          "daysWithViews": 26,
+          "gained": 15,
+          "lost": 3,
+          "grossSubsPer1000": 3.07
+        },
+        "recentUploads": [
+          {
+            "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+            "published": "2026-11-20",
+            "views": 1816,
+            "averageViewDurationSeconds": 20
+          },
+          {
+            "title": "Why Rival Armies Raced Horses on the Same Island",
+            "published": "2026-11-16",
+            "views": 295,
+            "averageViewDurationSeconds": 7
+          }
+        ],
+        "trafficSourceReported": {
+          "SHORTS": 5879,
+          "ADVERTISING": 9,
+          "YT_SEARCH": 328
+        }
+      },
+      "whatif": {
+        "subscribers": 50,
+        "subscriberDate": "2026-11-22",
+        "week": {
+          "views": 415,
+          "daysWithViews": 5,
+          "missing": [
+            "2026-11-22",
+            "2026-11-23"
+          ],
+          "gained": 2,
+          "lost": 1,
+          "grossSubsPer1000": 4.82
+        },
+        "priorWeek": {
+          "views": 1109,
+          "daysWithViews": 7
+        },
+        "priorComparableFiveDays": {
+          "views": 25,
+          "dates": "Nov10–14"
+        },
+        "month": {
+          "views": 6684,
+          "daysWithViews": 26,
+          "gained": 50,
+          "lost": 7,
+          "grossSubsPer1000": 7.48
+        },
+        "recentUploads": [
+          {
+            "title": "What If Earth's Air Vanished for 60 Seconds?",
+            "published": "2026-11-20",
+            "views": 227,
+            "averageViewDurationSeconds": 13
+          },
+          {
+            "title": "What If a Black Hole Passed Our Solar System?",
+            "published": "2026-11-15",
+            "views": 1230,
+            "averageViewDurationSeconds": 15
+          },
+          {
+            "title": "What If the Sun Went Dark for 7 Days?",
+            "published": "2026-11-18",
+            "views": 9,
+            "averageViewDurationSeconds": 16
+          }
+        ],
+        "trafficSourceReported": {
+          "SHORTS": 5427,
+          "ADVERTISING": 723,
+          "YT_SEARCH": 280
+        }
+      },
+      "unavailableMetrics": [
+        "true per-upload 24h/7d/28d cohorts",
+        "engaged views",
+        "retention curve",
+        "viewed vs swiped",
+        "longform impressions CTR",
+        "qualifying public watch hours",
+        "clean organic attribution"
+      ],
+      "limits": "Traffic-source totals do not reconcile directly with evolution totals; cannot subtract and claim organic views. Channel-wide windows not release cohorts. Recent upload data lag and omit Nov22 asteroid and Nov23 Pilate. Average duration not retention curve; no causality inferred."
+    },
+    "top3OriginalTestsPerChannel": {
+      "whatif": [
+        {
+          "rank": 1,
+          "title": "What If Earth Had a 12-Hour Day?",
+          "format": "original ordinary public 16:9, roughly 2–4 minutes only as story warrants",
+          "idea": "Set explicit assumption: Earth already rotates twice as fast, not an instantaneous spin-up. Open with familiar city sunrise-to-sunset time-lapse; follow one person through shortened light-dark cycle, moving global atmosphere and a human-scale equator-versus-pole scale comparison. Weather visualizations illustrative, not deterministic. No unsupported guaranteed disaster.",
+          "payoff": "At fixed radius, doubling angular velocity quadruples rotational centrifugal acceleration; apparent weight changes modestly at equator, not weightlessness; Coriolis changes circulation. Verify exact numerical claims before scripting.",
+          "testVariable": "Opening with visible real-world change versus generic space establishing shot; measure comparable longform first 30s and CTR.",
+          "thumbnail": "Original half-day clock above recognizable skyline; 12-HOUR DAY",
+          "sources": [
+            "https://science.nasa.gov/earth/facts/",
+            "https://pwg.gsfc.nasa.gov/stargaze/Srotfram1.htm",
+            "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-coriolis-effect"
+          ],
+          "effort": "medium-high AI Tuber, pivotal motion plus original simulation-style graphics; storyboard before credits",
+          "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED; check prior library for overlap"
+        },
+        {
+          "rank": 2,
+          "title": "What If Mars Replaced Our Moon Tonight?",
+          "format": "existing 36s Short",
+          "idea": "Only inspect existing export, no regeneration; verify all five planned moving consequence shots and payoff before considering unique booking. Similar external video is not permission to copy.",
+          "sources": [
+            "data/production-control.json",
+            "https://vidiq.com/youtube-stats/channel/@whatifscienceshow/videos/"
+          ],
+          "effort": "QC only; no additional credits authorized by this research",
+          "status": "EXISTING_EXPORT_HOLD_QA"
+        },
+        {
+          "rank": 3,
+          "title": "What If Humans Had a Third Eyelid?",
+          "format": "ordinary public 16:9 2–4 min if warranted",
+          "idea": "Previously recorded original backup; moving protective membrane comparison and human anatomical remnant, no new generation now.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/15255295/"
+          ],
+          "effort": "medium",
+          "status": "PRIOR_RESEARCH_ONLY"
+        }
+      ],
+      "bizarre": [
+        {
+          "rank": 1,
+          "title": "They Opened Jesus' Tomb – What Did They Find?",
+          "format": "existing Sunday 29 Nov editorial brief; 2–3 min",
+          "idea": "Use existing brief, not new duplicate; open on the moving marble slab, build each discovery toward material evidence of fourth-century tradition, distinguish tradition from proof of burial or resurrection. Exact approved lighter Callum voice.",
+          "testVariable": "Evidence revealed in first frame versus generic historical scenery; compare first 30s in similar 16:9 releases.",
+          "sources": [
+            "data/production-control.json",
+            "https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre"
+          ],
+          "effort": "medium-high Higgsfield; preserve approved plan",
+          "status": "EXISTING_EDITORIAL_BRIEF_NOT_BOOKED"
+        },
+        {
+          "rank": 2,
+          "title": "Did You Know Scientists Unwrapped a Pharaoh Without Touching His Bandages?",
+          "format": "new original 16:9 2–3 min or as story warrants",
+          "idea": "Open on a wrapped royal mummy moving into scanner, reveal virtual layers and 30 amulets/jewelry items; conclude with evidence that later ancient embalmers repaired damage, not a claim to know cause of death. Label reconstructed CT visuals and avoid graphic injury.",
+          "payoff": "CT revealed details and evidence of ancient repairs without physically unwrapping Amenhotep I; no cause of death established.",
+          "testVariable": "Physical reveal as first frame versus abstract mystery opening.",
+          "thumbnail": "Original mask next to a stylized CT slice, no borrowed image; UNWRAPPED?",
+          "sources": [
+            "https://doi.org/10.3389/FMED.2021.778498",
+            "https://www.frontiersin.org/news/2021/12/28/frontiers-medicine-pharaoh-amenhotep-mummy-digitally-unwrapped"
+          ],
+          "effort": "medium-high original Higgsfield motion and factual review",
+          "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED; check library for overlap"
+        },
+        {
+          "rank": 3,
+          "title": "Did You Know a Roman Cup Could Change Color?",
+          "format": "prior 16:9 2–4min candidate",
+          "idea": "Previously researched visible green-to-red change; distinguish optical materials evidence from conjecture about Roman knowledge.",
+          "sources": [
+            "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass"
+          ],
+          "effort": "medium-high",
+          "status": "PRIOR_RESEARCH_ONLY"
+        }
+      ]
+    },
+    "prioritizedWhatIf": "New candidate is a research proposal only; Mars existing export on HOLD, asteroid already published no reupload. Follow Nov22 show-don't-tell disaster rules and actual final audio/video QC. No schedule changes.",
+    "measurementPlan": "Repeat at 24h/7d/28d per release when real YouTube Studio data accessible; test one creative variable, use matched format and age. Track engaged views, stayed-to-watch, first 30s retention, CTR and qualified hours. Monthly assess repeat/improve/stop, only organic growth, no paid boost. No viral guarantees.",
+    "policyPreserved": "Only Bizarre Past and What If active. Little Wild paused, no analysis. No Telegram. No posts, comments, bookings, production, ads or credit purchases. 18:00 Oslo remains. Existing canonical production-control rules preserved.",
+    "summary": [
+      "Bizarre Ark video 1816 reported views; concrete evidence-first test",
+      "What If Air 227 and Black Hole 1230 snapshot; visual cause-and-effect test",
+      "Five reported days each, no complete cohort or causal conclusions"
+    ]
   },
   "weeklyResearchOutput": {
     "requirements": [
-      "3 to 6 verified niche-matched channel or video examples total, rotating across our channels",
-      "Record source link, observation date, upload date, format/duration and views as available",
-      "Identify hook in first 2 seconds only if actually watched, not based on title",
-      "Summarize narrative pattern, visual pacing and concrete learning point",
-      "Provide 1-2 non-copying tests per owned channel, rank using evidence/effort/credit cost",
-      "After publishing compare own channel metrics at 24h/7d/28d",
-      "Update this JSON and production-control.json only with durable decisions; link to HQ and feed Telegram weekly summary"
+      "1–2 verified videos per active channel, rotate smaller and established peers",
+      "Record dated sources, format, duration, view snapshots and age, note missing fields",
+      "Only describe actual observed first 2s, pacing, motion, story, ending and thumbnails; label data gaps",
+      "Rank original tests, one variable each, with evidence and effort; no copying",
+      "Compare owned 24h/7d/28d matched results if accessible; distinguish organic and paid",
+      "Update competitor-watch.json; production-control only if already-approved durable rule absent. ChatGPT report only, NO Telegram. Little Wild remains paused."
     ]
   },
   "researchRuns": [
@@ -1624,44 +1914,336 @@
       "prioritizedWhatIf": "What If is first priority for AI Tuber editorial resources; three-eyelid proposal is optional, does NOT displace user-selected What If the Sun Went Dark for a Week (brief at data/whatif-sun-dark-week-long-brief-2026-11-15.md), and no extra publishing while AutoPilot unverified.",
       "measurementPlan": "For each new video only AFTER verified unique video ID, actual approved final MP4 with sound, provider 18:00 Oslo booking and public release, collect 24h,7d,28d comparable format+age engaged views, avg percentage viewed, 0–2s curve, viewed-vs-swiped, organic qualified public watch minutes, gross subs /1k, long-form CTR where owners' Studio provides. Log missing metrics as null and compare one creative variable per test. Don't infer causal drivers from title/popularity alone.",
       "policyPreserved": "NO production-control changes. No promotion, no use of wallet, no vidIQ credit usage, no AI Tuber/Higgsfield generation, no queue changes, no comments/likes or Telegram sent. All new target posts are 18:00 Europe/Oslo. Bizarre Higgsfield+Metricool; What If+Little Wild AI Tuber; What If mixed media, Little Wild full-motion cast Milo/Miko/blue Pip; 7 Shorts +5 16:9 films/week canonical goal, existing bookings preserved, whatif AutoPilot duplication risk upheld."
+    },
+    {
+      "id": "weekly-competitor-analysis-2026-11-24",
+      "researchedOn": "2026-11-24",
+      "evidenceStatus": "PUBLIC_TRACKER_METADATA_AND_AUTHENTICATED_METRICOOL_NO_PLAYBACK",
+      "method": "Read production-control and competitor-watch first; public web tracker searches, no paid vidIQ API; Metricool daily and all-video plus traffic sources. Two active channels only.",
+      "sourceAccounting": "Four competitor cases; rotate toward smaller emerging peers next week; this week's smallest is established 393K, not a new small channel. Snapshot age in calendar days not exact release-window views.",
+      "cost": {
+        "vidiqCreditsSpent": 0,
+        "newAIProductionCreditsSpent": 0,
+        "paidPromotionsStarted": false
+      },
+      "sampleVideos": {
+        "bizarre": [
+          {
+            "channel": "Dan Davis History",
+            "size": "mid-sized niche 393K",
+            "title": "Why Did Stone Age People Start Burying Their Dogs? #archaeology #history",
+            "publishedUTC": "2026-11-19",
+            "snapshotDate": "2026-11-22",
+            "snapshotViewsApprox": 6470,
+            "daysSinceUploadCalendar": 3,
+            "format": null,
+            "duration": null,
+            "youtube": "https://www.youtube.com/watch?v=JM_VoACxxGs",
+            "source": "https://vidiq.com/youtube-stats/channel/@dandavishistory/",
+            "additionalSource": "https://vidiq.com/youtube-stats/channel/@dandavishistory/videos/JM_VoACxxGs/",
+            "observed": "Detail records earlier title about when ancient humans began burying dogs and later why-question. Humanly relatable historical puzzle; title change causal effect unknown.",
+            "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+            "hypothesis": "Ask a specific question with human stakes and show evidence instead of generic mysterious scenery."
+          },
+          {
+            "channel": "Odyssey - Ancient History Documentaries",
+            "size": "established 1.06M",
+            "title": "Archeologists Investigate A 4,000-Year-Old Ancient British Settlement",
+            "publishedUTC": "2026-11-18",
+            "snapshotDate": "2026-11-20",
+            "snapshotViewsApprox": 11310,
+            "daysSinceUploadCalendar": 2,
+            "format": null,
+            "duration": null,
+            "youtube": "https://www.youtube.com/watch?v=2gdADLZPAMQ",
+            "source": "https://vidiq.com/youtube-stats/channel/@odyssey/",
+            "additionalSource": "https://vidiq.com/youtube-stats/channel/@odyssey/videos/2gdADLZPAMQ/",
+            "observed": "Dated archaeological evidence and a concrete investigation are title-visible; older dated snapshot used because the later overview lists a different latest upload.",
+            "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+            "hypothesis": "Evidence-first reveals can make an ancient mystery feel like an unfolding investigation."
+          }
+        ],
+        "whatif": [
+          {
+            "channel": "xkcd's What If?",
+            "size": "established 1.38M",
+            "title": "What if we tried to eat the sun?",
+            "publishedUTC": "2026-11-17",
+            "snapshotDate": "2026-11-24",
+            "snapshotViewsApprox": 949501,
+            "daysSinceUploadCalendar": 7,
+            "format": "long-form",
+            "duration": "3:33",
+            "youtube": "https://www.youtube.com/watch?v=Aony69nO5kI",
+            "source": "https://vidiq.com/youtube-stats/channel/@xkcd_whatif/videos/",
+            "additionalSource": "https://vidiq.com/youtube-stats/channel/@xkcd_whatif/videos/Aony69nO5kI/",
+            "observed": "Concrete impossible action involving a familiar object; tracker detail records earlier title 'How many calories are in the sun?' and later question framing. Detail and list counters differ; use dated list only.",
+            "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+            "hypothesis": "A concrete action or visually measurable outcome may be easier to understand than an abstract science headline; title change effect unknown."
+          },
+          {
+            "channel": "What If (@whatifscienceshow)",
+            "size": "established 9M",
+            "title": "What If We Swapped Our Moon With Other Moons in the Solar System? #Shorts #Moon #SolarSystem #Space",
+            "publishedUTC": "2026-11-21",
+            "snapshotDate": "2026-11-24",
+            "snapshotViewsApprox": 50139,
+            "daysSinceUploadCalendar": 3,
+            "format": "Short (tracker)",
+            "duration": "2:53",
+            "youtube": "https://www.youtube.com/watch?v=BHPGOw-QeuM",
+            "source": "https://vidiq.com/youtube-stats/channel/@whatifscienceshow/videos/",
+            "observed": "Title promises a change to a familiar object and a comparison. Overlaps our existing Mars/Moon draft; do not make another copy or borrow footage.",
+            "unknown": "Actual 0–2s audio/video, shot rhythm, full-motion, narrative beats, ending, thumbnail pixels and audience retention were not independently inspected. Title observations only; no causal inference.",
+            "hypothesis": "Use familiar landmarks/human-scale objects and a single clearly depicted cause-consequence sequence, not additional loosely connected space scenes."
+          }
+        ]
+      },
+      "analyticalLimits": {
+        "first2Seconds": "Not watched",
+        "tempo": "Not inspected",
+        "fullMotion": "Not inspected",
+        "storyAndPayoff": "Not inspected",
+        "thumbnail": "Composition not inspected, title changes recorded only from tracker",
+        "causality": "No causal claim from views or title changes"
+      },
+      "ownedChannelComparison": {
+        "asOf": "2026-11-24",
+        "source": "Authenticated Metricool YouTube evolution/all videos/traffic source; daily rows fetched 2026-10-27 through 2026-11-23. Video data are returned snapshots, not release age cohorts.",
+        "bizarre": {
+          "subscribers": 41,
+          "subscriberDate": "2026-11-23",
+          "week": {
+            "views": 2227,
+            "daysWithViews": 5,
+            "missing": [
+              "2026-11-22",
+              "2026-11-23"
+            ],
+            "gained": 6,
+            "lost": 2,
+            "grossSubsPer1000": 2.69
+          },
+          "priorWeek": {
+            "views": 459,
+            "daysWithViews": 7
+          },
+          "priorComparableFiveDays": {
+            "views": 187,
+            "dates": "Nov10–14"
+          },
+          "month": {
+            "views": 4879,
+            "daysWithViews": 26,
+            "gained": 15,
+            "lost": 3,
+            "grossSubsPer1000": 3.07
+          },
+          "recentUploads": [
+            {
+              "title": "The Lost Ark's Cave: Why No One Could Find the Way Back",
+              "published": "2026-11-20",
+              "views": 1816,
+              "averageViewDurationSeconds": 20
+            },
+            {
+              "title": "Why Rival Armies Raced Horses on the Same Island",
+              "published": "2026-11-16",
+              "views": 295,
+              "averageViewDurationSeconds": 7
+            }
+          ],
+          "trafficSourceReported": {
+            "SHORTS": 5879,
+            "ADVERTISING": 9,
+            "YT_SEARCH": 328
+          }
+        },
+        "whatif": {
+          "subscribers": 50,
+          "subscriberDate": "2026-11-22",
+          "week": {
+            "views": 415,
+            "daysWithViews": 5,
+            "missing": [
+              "2026-11-22",
+              "2026-11-23"
+            ],
+            "gained": 2,
+            "lost": 1,
+            "grossSubsPer1000": 4.82
+          },
+          "priorWeek": {
+            "views": 1109,
+            "daysWithViews": 7
+          },
+          "priorComparableFiveDays": {
+            "views": 25,
+            "dates": "Nov10–14"
+          },
+          "month": {
+            "views": 6684,
+            "daysWithViews": 26,
+            "gained": 50,
+            "lost": 7,
+            "grossSubsPer1000": 7.48
+          },
+          "recentUploads": [
+            {
+              "title": "What If Earth's Air Vanished for 60 Seconds?",
+              "published": "2026-11-20",
+              "views": 227,
+              "averageViewDurationSeconds": 13
+            },
+            {
+              "title": "What If a Black Hole Passed Our Solar System?",
+              "published": "2026-11-15",
+              "views": 1230,
+              "averageViewDurationSeconds": 15
+            },
+            {
+              "title": "What If the Sun Went Dark for 7 Days?",
+              "published": "2026-11-18",
+              "views": 9,
+              "averageViewDurationSeconds": 16
+            }
+          ],
+          "trafficSourceReported": {
+            "SHORTS": 5427,
+            "ADVERTISING": 723,
+            "YT_SEARCH": 280
+          }
+        },
+        "unavailableMetrics": [
+          "true per-upload 24h/7d/28d cohorts",
+          "engaged views",
+          "retention curve",
+          "viewed vs swiped",
+          "longform impressions CTR",
+          "qualifying public watch hours",
+          "clean organic attribution"
+        ],
+        "limits": "Traffic-source totals do not reconcile directly with evolution totals; cannot subtract and claim organic views. Channel-wide windows not release cohorts. Recent upload data lag and omit Nov22 asteroid and Nov23 Pilate. Average duration not retention curve; no causality inferred."
+      },
+      "top3OriginalTestsPerChannel": {
+        "whatif": [
+          {
+            "rank": 1,
+            "title": "What If Earth Had a 12-Hour Day?",
+            "format": "original ordinary public 16:9, roughly 2–4 minutes only as story warrants",
+            "idea": "Set explicit assumption: Earth already rotates twice as fast, not an instantaneous spin-up. Open with familiar city sunrise-to-sunset time-lapse; follow one person through shortened light-dark cycle, moving global atmosphere and a human-scale equator-versus-pole scale comparison. Weather visualizations illustrative, not deterministic. No unsupported guaranteed disaster.",
+            "payoff": "At fixed radius, doubling angular velocity quadruples rotational centrifugal acceleration; apparent weight changes modestly at equator, not weightlessness; Coriolis changes circulation. Verify exact numerical claims before scripting.",
+            "testVariable": "Opening with visible real-world change versus generic space establishing shot; measure comparable longform first 30s and CTR.",
+            "thumbnail": "Original half-day clock above recognizable skyline; 12-HOUR DAY",
+            "sources": [
+              "https://science.nasa.gov/earth/facts/",
+              "https://pwg.gsfc.nasa.gov/stargaze/Srotfram1.htm",
+              "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-coriolis-effect"
+            ],
+            "effort": "medium-high AI Tuber, pivotal motion plus original simulation-style graphics; storyboard before credits",
+            "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED; check prior library for overlap"
+          },
+          {
+            "rank": 2,
+            "title": "What If Mars Replaced Our Moon Tonight?",
+            "format": "existing 36s Short",
+            "idea": "Only inspect existing export, no regeneration; verify all five planned moving consequence shots and payoff before considering unique booking. Similar external video is not permission to copy.",
+            "sources": [
+              "data/production-control.json",
+              "https://vidiq.com/youtube-stats/channel/@whatifscienceshow/videos/"
+            ],
+            "effort": "QC only; no additional credits authorized by this research",
+            "status": "EXISTING_EXPORT_HOLD_QA"
+          },
+          {
+            "rank": 3,
+            "title": "What If Humans Had a Third Eyelid?",
+            "format": "ordinary public 16:9 2–4 min if warranted",
+            "idea": "Previously recorded original backup; moving protective membrane comparison and human anatomical remnant, no new generation now.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/15255295/"
+            ],
+            "effort": "medium",
+            "status": "PRIOR_RESEARCH_ONLY"
+          }
+        ],
+        "bizarre": [
+          {
+            "rank": 1,
+            "title": "They Opened Jesus' Tomb – What Did They Find?",
+            "format": "existing Sunday 29 Nov editorial brief; 2–3 min",
+            "idea": "Use existing brief, not new duplicate; open on the moving marble slab, build each discovery toward material evidence of fourth-century tradition, distinguish tradition from proof of burial or resurrection. Exact approved lighter Callum voice.",
+            "testVariable": "Evidence revealed in first frame versus generic historical scenery; compare first 30s in similar 16:9 releases.",
+            "sources": [
+              "data/production-control.json",
+              "https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre"
+            ],
+            "effort": "medium-high Higgsfield; preserve approved plan",
+            "status": "EXISTING_EDITORIAL_BRIEF_NOT_BOOKED"
+          },
+          {
+            "rank": 2,
+            "title": "Did You Know Scientists Unwrapped a Pharaoh Without Touching His Bandages?",
+            "format": "new original 16:9 2–3 min or as story warrants",
+            "idea": "Open on a wrapped royal mummy moving into scanner, reveal virtual layers and 30 amulets/jewelry items; conclude with evidence that later ancient embalmers repaired damage, not a claim to know cause of death. Label reconstructed CT visuals and avoid graphic injury.",
+            "payoff": "CT revealed details and evidence of ancient repairs without physically unwrapping Amenhotep I; no cause of death established.",
+            "testVariable": "Physical reveal as first frame versus abstract mystery opening.",
+            "thumbnail": "Original mask next to a stylized CT slice, no borrowed image; UNWRAPPED?",
+            "sources": [
+              "https://doi.org/10.3389/FMED.2021.778498",
+              "https://www.frontiersin.org/news/2021/12/28/frontiers-medicine-pharaoh-amenhotep-mummy-digitally-unwrapped"
+            ],
+            "effort": "medium-high original Higgsfield motion and factual review",
+            "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED; check library for overlap"
+          },
+          {
+            "rank": 3,
+            "title": "Did You Know a Roman Cup Could Change Color?",
+            "format": "prior 16:9 2–4min candidate",
+            "idea": "Previously researched visible green-to-red change; distinguish optical materials evidence from conjecture about Roman knowledge.",
+            "sources": [
+              "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass"
+            ],
+            "effort": "medium-high",
+            "status": "PRIOR_RESEARCH_ONLY"
+          }
+        ]
+      },
+      "prioritizedWhatIf": "New candidate is a research proposal only; Mars existing export on HOLD, asteroid already published no reupload. Follow Nov22 show-don't-tell disaster rules and actual final audio/video QC. No schedule changes.",
+      "measurementPlan": "Repeat at 24h/7d/28d per release when real YouTube Studio data accessible; test one creative variable, use matched format and age. Track engaged views, stayed-to-watch, first 30s retention, CTR and qualified hours. Monthly assess repeat/improve/stop, only organic growth, no paid boost. No viral guarantees.",
+      "policyPreserved": "Only Bizarre Past and What If active. Little Wild paused, no analysis. No Telegram. No posts, comments, bookings, production, ads or credit purchases. 18:00 Oslo remains. Existing canonical production-control rules preserved."
     }
   ],
   "latestRecommendations": {
     "bizarre": {
-      "dated": "2026-11-17",
-      "insight": "Two recent historical titles frame an artifact or high-stakes evidence question; real first 2 seconds and video playback not inspected; newer own Bizarre 16:9 remains weak in cumulative views.",
-      "action": "Did You Know a Roman Cup Could Change Color?",
-      "format": "Wednesday public 16:9 2–4min (or Sunday 3–6min if editorially justified)",
+      "dated": "2026-11-24",
+      "insight": "Own Ark story strong relative to recent snapshots; keep Jesus Sunday brief and evidence-first reveal.",
+      "action": "They Opened Jesus' Tomb – What Did They Find?",
+      "format": "existing Sunday 29 Nov editorial brief; 2–3 min",
       "sourceLinks": [
-        "https://www.theguardian.com/science/2026/oct/25/scientists-rediscover-ancient-roman-colour-changing-glass",
-        "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
+        "data/production-control.json",
+        "https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre"
       ],
-      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
-      "competitorRunId": "weekly-competitor-analysis-2026-11-17"
+      "status": "EXISTING_EDITORIAL_BRIEF_NOT_BOOKED",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-24"
     },
     "whatif": {
-      "dated": "2026-11-17",
-      "insight": "Same-day MinuteEarth questions reached very different public view snapshots, but formats/durations differ and no cause can be inferred; own paid-influenced metrics remain incomplete. Prioritize user-selected Sun-Dark story over any new production.",
-      "action": "What If Humans Had a Third Eyelid?",
-      "format": "ordinary public 16:9 3–4min",
+      "dated": "2026-11-24",
+      "insight": "Concrete familiar-object consequences worth testing; no competitor playback; own recent longform sparse.",
+      "action": "What If Earth Had a 12-Hour Day?",
+      "format": "original ordinary public 16:9, roughly 2–4 minutes only as story warrants",
       "sourceLinks": [
-        "https://pubmed.ncbi.nlm.nih.gov/15255295/",
-        "https://en.wikipedia.org/wiki/Nictitating_membrane"
+        "https://science.nasa.gov/earth/facts/",
+        "https://pwg.gsfc.nasa.gov/stargaze/Srotfram1.htm",
+        "https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-the-coriolis-effect"
       ],
-      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED_AUTO_PILOT_BLOCK",
-      "competitorRunId": "weekly-competitor-analysis-2026-11-17"
+      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED; check prior library for overlap",
+      "competitorRunId": "weekly-competitor-analysis-2026-11-24"
     },
     "wild": {
       "dated": "2026-11-17",
-      "insight": "Preschool titles make a simple action or character problem explicit. Little Wild public subscriber snapshot moved 250->363 in one week, but causality and owner retention are not available.",
-      "action": "Milo, Miko & Pip: The Boat That Wouldn't Float!",
-      "format": "35–40s full-motion 9:16 Short; possible original longer 16:9 follow-up only after tested",
-      "sourceLinks": [
-        "https://www.pbs.org/parents/crafts-and-experiments/sink-or-float-experiment",
-        "https://www.pbs.org/parents/crafts-and-experiments/float-diy-water-bottle-boats"
-      ],
-      "status": "RESEARCH_ONLY_NOT_GENERATED_NOT_BOOKED",
-      "competitorRunId": "weekly-competitor-analysis-2026-11-17"
+      "status": "PAUSED_INDEFINITELY_NO_RESEARCH_OR_ACTION",
+      "action": "None"
     }
   },
   "whatifIdeas": [
@@ -1868,7 +2450,7 @@
     "releaseStatus": "NOT_GENERATED_NOT_BOOKED",
     "ownFreshAnalytics": "No retention or paid/organic breakdown available. Only 250 subscribers / 7,386 views / 17 public videos from free connected vidIQ on Nov9."
   },
-  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-17",
+  "latestWeeklyResearchId": "weekly-competitor-analysis-2026-11-24",
   "bizarreResearchNote20261110Agent": {
     "checkedAt": "2026-11-10T16:08:43Z",
     "previousWeeklyResearch": "2026-11-10 weekly competitor analysis exists; not rerun or charged vidIQ for this concept",
@@ -2782,5 +3364,30 @@
     },
     "oneTestableHypothesis": "For the next genuine 16:9 film, first-frame giant impact plus legible 'WHAT IF…?' and final inland family answer may improve opening 30-second retention against 18 Nov Sun Dark ordinary 16:9 at same 24h/7d age, once source metrics exist. Do not claim measured effects beforehand.",
     "operations": "Compared current provider-scheduled Air Short with own same-format cumulative results; checked scientific foundation and competitor topic overlap; created original answer-first 10-scene narration/visual/audio board; retained all existing bookings; no clips rendered, purchases, ads or Telegram."
-  }
+  },
+  "activeResearchScope": {
+    "decidedOn": "2026-11-17",
+    "active": [
+      "bizarre",
+      "whatif"
+    ],
+    "paused": [
+      "wild"
+    ],
+    "telegram": "DISABLED_2026-11-18"
+  },
+  "currentActionableHypotheses20261124": [
+    {
+      "channel": "whatif",
+      "test": "Opening with visible real-world change versus generic space establishing shot; measure comparable longform first 30s and CTR.",
+      "status": "proposed",
+      "sourceRun": "weekly-competitor-analysis-2026-11-24"
+    },
+    {
+      "channel": "bizarre",
+      "test": "Evidence revealed in first frame versus generic historical scenery; compare first 30s in similar 16:9 releases.",
+      "status": "proposed",
+      "sourceRun": "weekly-competitor-analysis-2026-11-24"
+    }
+  ]
 }
