@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T18:55:00+01:00",
+  "updatedAt": "2026-11-25T18:57:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7338,7 +7338,7 @@
     },
     "vidiq": {
       "access": true,
-      "credits": 1832,
+      "credits": 1817,
       "activeJobs": 0,
       "channel": {
         "title": "Bizarre Past",
@@ -7367,8 +7367,8 @@
       "target": "2026-11-29T18:00:00+01:00",
       "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_READY_VOICE_QA_HOLD_NOT_GENERATED_NOT_EXPORTED_NOT_BOOKED",
       "report": "data/bizarre-past-jesus-tomb-preproduction-2026-11-25.json",
-      "creditsSpentThisRun": 10,
-      "creditNote": "Only vidIQ research/transcript calls used 10 credits; no Higgsfield media credits and no purchases.",
+      "creditsSpentThisRun": 15,
+      "creditNote": "15 vidIQ credits used for one recent long-form list and two owned-video transcripts; no Higgsfield media credits and no purchases.",
       "nextGate": "Human perceptual voice A/B, then cost quote, generation, full AV QA, duplicate check and Metricool booking."
     },
     "blockers": [
