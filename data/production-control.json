@@ -7401,5 +7401,27 @@
       "paidPromotion": 0
     },
     "notificationDecision": "SKIP_NO_NEW_USER_ACTION; exact voice A/B request was already reported and remains unchanged."
+  },
+  "oneOffCatchup20261126": {
+    "userAuthorized": "Lag filmene i dag og publiser i morgen da",
+    "productionDate": "2026-11-25",
+    "releaseDate": "2026-11-26",
+    "time": "18:00 Europe/Oslo",
+    "exception": "Move missed Wednesday 25 November long-form slots to Thursday 26 November only. No change to Friday 27 or Sunday 29 regular targets. Do not duplicate existing uploads.",
+    "bizarre": {
+      "format": "16:9 long-form 2–4 min, story-driven",
+      "producer": "Higgsfield",
+      "publisher": "Metricool",
+      "status": "PRODUCTION_REQUESTED_NOT_BOOKED",
+      "voice": "Previously approved bright natural Callum voice, exact prior settings; do not use unverified new voice."
+    },
+    "whatif": {
+      "format": "16:9 long-form, substance determines length",
+      "title": "What If Earth's Gravity Doubled for 24 Hours?",
+      "brief": "data/whatif-double-gravity-long-brief-2026-11-24.md",
+      "producer": "AI Tuber",
+      "status": "PRODUCTION_REQUESTED_NOT_BOOKED"
+    },
+    "priority": "Start production today within existing credit balances; verify cost and use efficient motion for key consequences. Full QA and actual booking required before release. Do not treat editorial date as provider booking. If blocked report exact reason; no purchases, no ads, no Telegram, no Little Wild."
   }
 }
