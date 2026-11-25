@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T15:30:25+01:00",
+  "updatedAt": "2026-11-25T18:55:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -6984,9 +6984,9 @@
   },
   "bizarrePastSundayJesusEditorial20261129": {
     "target": "2026-11-29T18:00:00+01:00",
-    "status": "EDITORIAL_BRIEF_ONLY_NOT_GENERATED_NOT_BOOKED",
+    "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_READY_VOICE_QA_HOLD_NOT_GENERATED_NOT_EXPORTED_NOT_BOOKED",
     "userDirection": "2–3 minutes, compelling and exciting throughout; capture attention immediately; no filler.",
-    "title": "They Opened Jesus' Tomb – What Did They Find?",
+    "title": "They Opened Jesus’ Tomb—What Did They Find?",
     "durationSecondsTarget": 160,
     "durationSecondsRange": [
       120,
@@ -7030,7 +7030,20 @@
       "https://www.nationalgeographic.com/premium/article/jesus-tomb-archaeology-jerusalem-christianity-rome",
       "https://pacmusee.qc.ca/en/exhibitions/detail/crucifixion-unique-archaeological-evidence-from-jerusalem/"
     ],
-    "releaseGuard": "Check available credits and existing queue first, source-check complete script and scenes before any new generation, actual full AV and voice match QA required; no new credit purchases or duplicate generation. Target only, not a booking."
+    "releaseGuard": "Check available credits and existing queue first, source-check complete script and scenes before any new generation, actual full AV and voice match QA required; no new credit purchases or duplicate generation. Target only, not a booking.",
+    "alternateTitle": "Inside Jesus’ Traditional Tomb: What Survived?",
+    "narrationWords": 383,
+    "estimatedNarrationSecondsAt150Wpm": 153.2,
+    "narrationMeasurement": "PASS_APPROXIMATE_160_SECONDS_WITHIN_10_PERCENT",
+    "narrationSha256": "d9b73dfd0d9467c1e2deb85933ec8da04af9f78b4cd772456673f842068167ef",
+    "editorialPayoff": "Researchers exposed a surviving limestone burial bench and dated construction material linking its protection to the fourth-century Constantine-era shrine; this does not identify the occupant or test the resurrection.",
+    "report": "data/bizarre-past-jesus-tomb-preproduction-2026-11-25.json",
+    "sourceCheckedAtOslo": "2026-11-25T18:55:00+01:00",
+    "generatedAssets": [],
+    "finalMp4": null,
+    "bookingId": null,
+    "voiceStatus": "EXACT_ID_ENGINE_SETTINGS_DOCUMENTED_BUT_PERCEPTUAL_A_B_NOT_VERIFIED_HOLD",
+    "nextFeasibleAction": "After human perceptual A/B confirmation of the Siloam exact-config sample against the approved Herculaneum reference, cost-quote Sunday production, generate only if budget covers full film plus retakes, then perform complete AV QA before Metricool booking."
   },
   "bizarrePastPoolOfSiloamShort20261127": {
     "target": "2026-11-27T18:00:00+01:00",
@@ -7295,7 +7308,9 @@
     "reserve": {
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
-      "currentVerifiedCount": "UNVERIFIED; do not imply reserve exists."
+      "currentVerifiedCount": 0,
+      "lastVerifiedAtOslo": "2026-11-25T18:55:00+01:00",
+      "evidence": "Metricool has no future Bizarre Past posts through 2026-12-03; no unpublished final MP4 with documented full AV QA is present in the current production record."
     },
     "execution": "Look ahead at least seven days on each run. Act on earliest unready slot, not just today's slot; if a deadline is missed, diagnose and perform a feasible correction in that run, check reserve and report remaining blocker. Use cost-estimated efficient mixed media where appropriate; do not let uncertainty about an old failed film halt a separately feasible new production. Never fake full QA, voice match or booking. If exact old Bizarre Past voice cannot be recovered from approved references, isolate voice blocker and continue safe script/storyboard work; do not silently change voice. Preserve existing bookings and all quality, credits, no-Telegram, no-ads, paused Little Wild constraints.",
     "todayRecovery": {
@@ -7304,5 +7319,87 @@
       "bizarre": "Voice match not verified; no confirmed booking.",
       "status": "NO VERIFIED QA-PASSED BACKUP OR NEW RELEASE AT TIME OF CHANGE"
     }
+  },
+  "bizarrePastAgentCheck20261125": {
+    "checkedAtOslo": "2026-11-25T18:55:00+01:00",
+    "governingSource": "data/production-control.json plus data/creative-prompt-upgrades.json",
+    "connections": {
+      "metricoolBrandId": 7296504,
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "tiktokAccount": "bizzare.past",
+      "youtubeConnected": true,
+      "tiktokConnected": true
+    },
+    "metricool": {
+      "period": "2026-11-25 through 2026-12-03 Europe/Oslo",
+      "scheduledPosts": 0,
+      "nextBooking": null,
+      "result": "NO_FUTURE_POSTS_RETURNED"
+    },
+    "vidiq": {
+      "access": true,
+      "credits": 1832,
+      "activeJobs": 0,
+      "channel": {
+        "title": "Bizarre Past",
+        "handle": "@bizarrepast69",
+        "subscribers": 46,
+        "lifetimeViews": 12610,
+        "publicVideos": 30
+      },
+      "blocked": false
+    },
+    "higgsfield": {
+      "access": true,
+      "plan": "ultra",
+      "credits": 1860.32,
+      "activeJobs": 0,
+      "latestGeneration": "Siloam exact-config Callum audio completed 2026-11-24",
+      "blockedByCredits": false
+    },
+    "poolOfSiloam": {
+      "target": "2026-11-27T18:00:00+01:00",
+      "status": "HOLD_VOICE_PERCEPTUAL_MATCH_NOT_VERIFIED_NO_FINAL_MP4_NOT_BOOKED",
+      "changedThisRun": false,
+      "userActionAlreadyReported": "A/B-listen to approved Herculaneum reference and Siloam sample; do not repeat unchanged alert."
+    },
+    "jesusTombSunday": {
+      "target": "2026-11-29T18:00:00+01:00",
+      "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_READY_VOICE_QA_HOLD_NOT_GENERATED_NOT_EXPORTED_NOT_BOOKED",
+      "report": "data/bizarre-past-jesus-tomb-preproduction-2026-11-25.json",
+      "creditsSpentThisRun": 10,
+      "creditNote": "Only vidIQ research/transcript calls used 10 credits; no Higgsfield media credits and no purchases.",
+      "nextGate": "Human perceptual voice A/B, then cost quote, generation, full AV QA, duplicate check and Metricool booking."
+    },
+    "blockers": [
+      {
+        "id": "bizarre-legacy-voice-perceptual-match",
+        "state": "open",
+        "type": "quality_gate",
+        "requiresUserAction": true,
+        "alreadyNotified": true,
+        "detail": "Exact old voice ID/engine/default settings are recovered, but the new sample has not been perceptually confirmed against the approved older reference."
+      },
+      {
+        "id": "bizarre-no-qa-reserve",
+        "state": "open",
+        "type": "operational_risk",
+        "requiresUserAction": false,
+        "detail": "No verified QA-passed unpublished reserve exists; safe preproduction continues without inventing a backup."
+      }
+    ],
+    "actions": {
+      "newVoiceGenerations": 0,
+      "newImageGenerations": 0,
+      "newVideoGenerations": 0,
+      "newExports": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "creditPurchases": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "paidPromotion": 0
+    },
+    "notificationDecision": "SKIP_NO_NEW_USER_ACTION; exact voice A/B request was already reported and remains unchanged."
   }
 }
