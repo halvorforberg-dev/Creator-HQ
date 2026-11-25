@@ -138,12 +138,13 @@
       "activeJobs": 0
     },
     "vidiq": {
-      "credits": 1832,
+      "credits": 1817,
       "activeJobs": 0,
       "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
       "subscribers": 46,
       "lifetimeViews": 12610,
-      "publicVideos": 30
+      "publicVideos": 30,
+      "creditsSpentThisRun": 15
     }
   }
 }
