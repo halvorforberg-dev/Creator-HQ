@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T15:28:00+01:00",
+  "updatedAt": "2026-11-25T15:30:25+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -416,8 +416,8 @@
         "containerError": "curl: (6) Could not resolve host: cdn.aituber.app (2026-11-23)",
         "otherRead": "External web video URL retriever could not open MP4; alternative authenticated GET /exports/download for prior export returned same inaccessible CDN host."
       },
-      "summary": "Mars-short 36.139s, 1080p, completed/exported. CDN access issue bypassed; actual frames sampled throughout. Required bold opening title not visible in sampled opening, clear tidal-cycle time-lapse/tide gauge and advancing-water shot not established; full sound and motion review incomplete. QA NOT approved; not booked. This is not a provider upload failure.",
-      "action": "Keep existing export on HOLD. Before any booking, complete real-time picture and sound review and resolve the specific storyboard discrepancies (visible WHAT IF title, observable tidal cycle/rising water, readable numerical payoff); verify correct channel, current AutoPilot and duplicate guard. No automatic regeneration or new credit purchases. No asteroid repost.",
+      "summary": "Mars Short export is accessible via authorized media sandbox; actual first sampled frame shows WHAT IF and actual audio ASR confirms opening and complete final sentence. Required tidal-cycle/gauge shots and full continuous AV review still unverified. HOLD, no verified publication.",
+      "action": "Keep existing export. Before booking verify full picture and sound, intended tidal-cycle and gauge beats, and current AutoPilot and queue. API catalog does not expose safe scene-edit or quote workflow. No duplicate generation or credit purchase; no Telegram.",
       "ownerActionRequired": false,
       "relatedLinks": [
         "https://github.com/halvorforberg-dev/Creator-HQ/blob/main/data/whatif-mars-moon-short-brief-2026-11-22.md"
@@ -429,36 +429,19 @@
       "additionalPurchases": 0,
       "noTelegram": true,
       "noLittleWild": true,
-      "latestProgressAt": "2026-11-24T18:33:10+01:00",
-      "latestStatus": "HOLD: original MP4 access now RESOLVED via Higgsfield media sandbox. Technical decode passes. Actual visual samples reveal missing/unverified key planned details; continuous perceptual AV QA not passed. No booking/publication confirmed.",
+      "latestProgressAt": "2026-11-25T15:30:25+01:00",
+      "latestStatus": "HOLD: repeat download succeeded, full technical decode passed. Actual audio ASR confirms complete opening and payoff. Fresh half-second opening frames show WHAT IF title; correct earlier uncertainty. Tide-cycle time lapse and readable gauge not established; no full perceptual AV QA or current AutoPilot/queue clearance. No booking or generation.",
       "latestSource": {
-        "checkedAtOslo": "2026-11-24T18:33:10+01:00",
-        "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
-        "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
-        "mediaAccess": "RESOLVED: fresh authorized signed AI Tuber export URL successfully downloaded in Higgsfield media sandbox; local-container DNS workaround.",
+        "checkedAtOslo": "2026-11-25T15:30:25+01:00",
+        "type": "fresh_authenticated_export_download_ffmpeg_decode_asr_and_sampled_visual_review",
         "durationSeconds": 36.139,
         "resolution": "1080x1920",
-        "bytes": 27887424,
-        "videoAndAudioStreamsPresent": true,
-        "fullDecodePassed": true,
-        "audioPeakDb": -4.8,
-        "visualInspection": "Actual rendered frames sampled at one-second intervals across the entire 36-second export, compared with locked Nov23 storyboard. Not equivalent to continuous playback.",
-        "findings": [
-          "Opening sampled frames show coast and Moon transitioning to Mars, but no required large WHAT IF title visible in first sampled frames; exact spoken opening not audited.",
-          "Shoreline and submerged walkway/yard visible; images revisit similar house and water. Required clearly labelled tidal-cycle time lapse, readable tide gauge and distinct observable advancing-water action are not established by reviewed frames.",
-          "Planet comparison/tidal graphics appear around 18–25 sec; readable ~8.7x tide-raising force and size labels not established by inspected frames.",
-          "Ending returns to human-scale flooded coastal home; visible Mars and water are relevant, but complete narrated payoff and timing not verified."
-        ],
-        "fullContinuousAvReviewPassed": false,
-        "verdict": "HOLD_QA_NOT_APPROVED: access repaired, visual samples do not establish all mandatory shots or opening title, full real-time video and audio review remains unverified.",
-        "booked": false,
-        "providerPublication": "NOT_CONFIRMED",
-        "newGeneration": 0,
-        "newCreditPurchases": 0,
-        "telegram": 0,
-        "type": "fresh_authenticated_provider_export_and_actual_rendered_frame_review"
+        "openingTitleVisible": true,
+        "spokenOpeningAndClosingConfirmedByASR": true,
+        "fullPerceptualAVPassed": false,
+        "remaining": "Tidal cycle time lapse, gauge, continuous AV and current AutoPilot clearance"
       },
-      "lastCheckedAt": "2026-11-24T18:33:10+01:00"
+      "lastCheckedAt": "2026-11-25T15:30:25+01:00"
     }
   ]
 }
