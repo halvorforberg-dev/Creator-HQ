@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24",
+  "updatedAt": "2026-11-25T15:30:25+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7200,6 +7200,82 @@
       "littleWild": 0,
       "telegram": 0,
       "asteroidReposts": 0
+    }
+  },
+  "whatIfAgentCheck20261125": {
+    "checkedAtOslo": "2026-11-25T15:30:25+01:00",
+    "todaySlot": {
+      "date": "2026-11-25",
+      "time": "18:00 Europe/Oslo",
+      "format": "16:9 long-form",
+      "status": "NO_VERIFIED_BOOKING; GRAVITY BRIEF ONLY"
+    },
+    "nextSlot": {
+      "date": "2026-11-27",
+      "time": "18:00 Europe/Oslo",
+      "format": "Short",
+      "status": "EDITORIAL_TARGET_ONLY"
+    },
+    "credits": {
+      "plan": "Studio active",
+      "current": 1313,
+      "monthly": 10000,
+      "changeSinceNov24": 0,
+      "newSpendThisRun": 0
+    },
+    "queue": {
+      "aiTuber": "Newest existing video Mars Nov23, completed export; no gravity production or newer generation in latest 20 videos. What If YouTube channel 78dcabfb-3657-41ab-89b8-8c04da2f43d5 connected. Catalog supports per-publication lookup but not current all-publications listing or current AutoPilot settings; do not claim full clearance.",
+      "metricool": "Brand 7751348 scheduled posts Nov24–30 returned empty."
+    },
+    "mars": {
+      "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+      "exportId": "f4881faa-d19a-47d7-9a20-3f4942c08629",
+      "download": "Successful fresh authorized MP4 download in media sandbox, 27887424 bytes, 36.139 seconds, 1080x1920, video and audio streams, full FFmpeg decode passed.",
+      "audio": "Actual audio machine transcription: 0.00–2.00 What if Mars replaced our moon tonight? 16.88–20.70 At the same distance, that's nearly nine times the tide-raising force. 30.26–35.62 final sentence ends 'not the red planet falling from the sky.' Complete spoken payoff confirmed by ASR; no claim to have listened to real-time audio.",
+      "visual": "Fresh sampled half-second frames 0–4, 8–12, 16–20, 24–28, 32–36. Opening DOES show readable WHAT IF in first sampled frame; previous sampled-title uncertainty corrected. Mars replaces Moon visibly; water around coastal houses and a person stepping through water shown; moving tidal-cycle time lapse and readable tide gauge not demonstrated, planetary comparison supports spoken nearly-nine-times force but no explicit 8.7x gauge. No continuous perceptual AV review or full scene compliance. HOLD, no verified booking.",
+      "repair": "No supported scene edit / price quotation or current AutoPilot control discovered in API catalog. Do not create a duplicate or spend on speculative repair. Keep existing export for later review."
+    },
+    "gravity": {
+      "brief": "data/whatif-double-gravity-long-brief-2026-11-24.md",
+      "status": "NOT_GENERATED_NOT_BOOKED",
+      "decision": "Full AV perception/scene verification workflow still not established; available 1313 credits and no reliable quote for required six moving beats. Prior 36s premium generation cost 833. Do not spend on a new long film without feasible quoted cost and inspection path; not a confirmed provider credit failure."
+    },
+    "analytics": {
+      "source": "Authenticated Metricool all videos, Nov1–25 query, cumulative reporting values",
+      "asteroid": {
+        "url": "https://www.youtube.com/watch?v=-ki5IDO6Nbg",
+        "views": 13,
+        "averageViewSeconds": 28,
+        "watchMinutes": 6.127366666666667,
+        "actualDurationSeconds": 79.659
+      },
+      "sunDark": {
+        "views": 11,
+        "averageViewSeconds": 14
+      },
+      "beeVision": {
+        "views": 37,
+        "averageViewSeconds": 52
+      },
+      "airVanished": {
+        "views": 232,
+        "averageViewSeconds": 13
+      },
+      "blackHole": {
+        "views": 1230,
+        "averageViewSeconds": 15
+      },
+      "limits": "Asteroid now appears in analytics; different publication ages, no retention curve, CTR or traffic-source attribution. About 35% average duration for asteroid, not retention curve. Small sample, no causal inference. Retain next human-scale recurring anchor test."
+    },
+    "compliance": {
+      "newGenerations": 0,
+      "newExports": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "newPurchases": 0,
+      "existingBookingsChanged": false,
+      "telegram": 0,
+      "littleWild": 0
     }
   }
 }
