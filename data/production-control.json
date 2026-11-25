@@ -7412,16 +7412,31 @@
       "format": "16:9 long-form 2–4 min, story-driven",
       "producer": "Higgsfield",
       "publisher": "Metricool",
-      "status": "PRODUCTION_REQUESTED_NOT_BOOKED",
-      "voice": "Previously approved bright natural Callum voice, exact prior settings; do not use unverified new voice."
+      "status": "EXISTING_177S_EXPORT_REPAIR_CLIP_SUBMITTED_NOT_BOOKED",
+      "voice": "Previously approved bright natural Callum voice, exact prior settings; do not use unverified new voice.",
+      "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+      "existingMediaId": "15870f3f-ee3f-4889-bb40-590844214cc7",
+      "existingMediaUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/15870f3f-ee3f-4889-bb40-590844214cc7.mp4",
+      "repairJobId": "010fa42f-5de2-49b7-9a20-44235289576f",
+      "repairQuotedCredits": 20,
+      "repair": "Replace historically questionable molten iron pouring around 00:52–00:59 with new solid iron hammering scene, preserve timing and narration mix. Verify exact legacy voice and complete AV; rework voice only if required, exact old model/voice/default controls. Do not create another Viking film. Source batch and QA data/bizarre-past-production-batch-2026-11-19.json and data/bizarre-past-av-review-2026-11-19.json."
     },
     "whatif": {
-      "format": "16:9 long-form, substance determines length",
+      "format": "16:9 regular, tightened source-checked narration, length determined by final audio",
       "title": "What If Earth's Gravity Doubled for 24 Hours?",
       "brief": "data/whatif-double-gravity-long-brief-2026-11-24.md",
       "producer": "AI Tuber",
-      "status": "PRODUCTION_REQUESTED_NOT_BOOKED"
+      "status": "GENERATION_PROCESSING_NOT_BOOKED",
+      "videoId": "a75bde1d-5eb2-4eff-863b-6190b520a5cd",
+      "jobId": "cc053ef5-5283-4d6b-9517-08f3ff4359e6",
+      "quality": "good",
+      "creditsBefore": 1313,
+      "creditsAfterObserved": 640,
+      "observedDifference": 673,
+      "next": "Poll this exact video, no duplicate; export 1080p when completed, use known authorized media-sandbox download workaround, verify entire AV and six beats, book for Nov26 18:00 only after QA and duplicate check."
     },
-    "priority": "Start production today within existing credit balances; verify cost and use efficient motion for key consequences. Full QA and actual booking required before release. Do not treat editorial date as provider booking. If blocked report exact reason; no purchases, no ads, no Telegram, no Little Wild."
+    "priority": "Start production today within existing credit balances; verify cost and use efficient motion for key consequences. Full QA and actual booking required before release. Do not treat editorial date as provider booking. If blocked report exact reason; no purchases, no ads, no Telegram, no Little Wild.",
+    "bookingStatus": "NO PROVIDER BOOKING YET",
+    "agentInstructions": "Nov26 morning agents prioritize this exceptional Thursday catch-up before Friday. Poll exact accepted jobs, finish repair/assembly and exports, independently verify quality and voice, and schedule for 18:00 if PASS. 16:35 publication control validates both bookings and 18:35 verifies live. Never duplicate or silently bypass QA. If blocked, report specific blocker."
   }
 }
