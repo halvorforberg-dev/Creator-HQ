@@ -7277,5 +7277,32 @@
       "telegram": 0,
       "littleWild": 0
     }
+  },
+  "productionReliability20261125": {
+    "effectiveDate": "2026-11-25",
+    "userApproved": "Fiks — implement earlier production, QA, reserve and pre-release checks",
+    "appliesTo": [
+      "bizarre",
+      "whatif"
+    ],
+    "releaseTime": "18:00 Europe/Oslo",
+    "deadlines": {
+      "production": "Complete export at least 48 hours before each planned slot; for existing overdue slots treat as recovery, never invent completion.",
+      "qa": "Full documented audiovisual QA and booking by 18:00 the preceding day; verify booking ID, channel, date/time and no duplicates.",
+      "preflight": "16:35 Europe/Oslo on release days: check provider booking, media and status; recover safely before 18:00 using approved reserve if needed.",
+      "postflight": "18:35 Europe/Oslo: verify provider publication and live URL; report concrete unresolved deviation."
+    },
+    "reserve": {
+      "minimumPerActiveChannel": 1,
+      "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
+      "currentVerifiedCount": "UNVERIFIED; do not imply reserve exists."
+    },
+    "execution": "Look ahead at least seven days on each run. Act on earliest unready slot, not just today's slot; if a deadline is missed, diagnose and perform a feasible correction in that run, check reserve and report remaining blocker. Use cost-estimated efficient mixed media where appropriate; do not let uncertainty about an old failed film halt a separately feasible new production. Never fake full QA, voice match or booking. If exact old Bizarre Past voice cannot be recovered from approved references, isolate voice blocker and continue safe script/storyboard work; do not silently change voice. Preserve existing bookings and all quality, credits, no-Telegram, no-ads, paused Little Wild constraints.",
+    "todayRecovery": {
+      "date": "2026-11-25",
+      "whatIf": "Gravity brief only, Mars HOLD; 1313 credits observed, cost feasibility for long film unresolved (not confirmed credit exhaustion).",
+      "bizarre": "Voice match not verified; no confirmed booking.",
+      "status": "NO VERIFIED QA-PASSED BACKUP OR NEW RELEASE AT TIME OF CHANGE"
+    }
   }
 }
