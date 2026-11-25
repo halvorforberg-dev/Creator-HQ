@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "checkedAtOslo": "2026-11-25T18:55:00+01:00",
+  "channel": "Bizarre Past",
+  "target": "2026-11-29T18:00:00+01:00",
+  "format": "16:9 1080p ordinary public film",
+  "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_READY_VOICE_QA_HOLD_NOT_GENERATED_NOT_EXPORTED_NOT_BOOKED",
+  "titles": {
+    "selected": "They Opened Jesus’ Tomb—What Did They Find?",
+    "alternate": "Inside Jesus’ Traditional Tomb: What Survived?",
+    "alignment": "Thumbnail/first frame shows the lifted marble cover and exposed limestone bench; no body, resurrection, or treasure imagery."
+  },
+  "answerWrittenBeforeOpening": "Researchers exposed a surviving limestone burial bench and dated construction material linking its protection to the fourth-century Constantine-era shrine; this does not identify the occupant or test the resurrection.",
+  "viewerPayoff": "The viewer learns that the 2016 opening confirmed an ancient limestone burial place survived beneath the shrine and that fourth-century mortar supports early veneration, while the identification with Jesus remains historical tradition and faith.",
+  "hookCandidates": [
+    "Did you know researchers opened Jesus’ traditional tomb—and found the original rock beneath the marble?",
+    "Did you know a slab lifted in 2016 revealed what survived inside Jesus’ traditional tomb?",
+    "Did you know mortar beneath Jesus’ traditional tomb carried a fourth-century date?",
+    "Did you know centuries of rebuilding failed to erase the rock inside Jesus’ traditional tomb?",
+    "Did you know scientists found a burial bench beneath the marble covering Jesus’ traditional tomb?"
+  ],
+  "selectedHook": "Did you know researchers opened Jesus’ traditional tomb—and found the original rock beneath the marble?",
+  "narration": {
+    "language": "English",
+    "words": 383,
+    "estimatedSecondsAt150Wpm": 153.2,
+    "targetSeconds": 160,
+    "measurementVerdict": "deliver",
+    "sha256": "d9b73dfd0d9467c1e2deb85933ec8da04af9f78b4cd772456673f842068167ef",
+    "script": "Did you know that in 2016, researchers lifted the marble covering what many Christians believe is Jesus’ tomb—and found a much older surface beneath it?\n\nInside Jerusalem’s Church of the Holy Sepulchre, a small shrine called the Edicule surrounds a rock-cut burial place. For centuries, marble slabs had protected the shelf traditionally identified as Jesus’ burial bed. But repeated fires, destruction, and rebuilding left a difficult question: had any part of the original tomb survived?\n\nDuring restoration in October 2016, workers carefully removed the upper marble covering. Beneath it lay fill material, then another marble slab marked with a cross. Below that, researchers reached the pale limestone surface of the burial bench itself—the rock shelf cut from the original cave.\n\nThat discovery settled one mystery. The shrine was not hiding only a medieval imitation. A substantial part of the limestone burial place had survived beneath centuries of protective layers.\n\nThen the mortar offered a second clue. Scientists sampled material trapped between the stone and later construction. Using optically stimulated luminescence, they identified building phases from the fourth, eleventh, sixteenth, and nineteenth centuries. The earliest samples centered on the fourth century, including material dated around A.D. 335 to 345.\n\nThat matters because historical tradition says the Roman emperor Constantine ordered a church built here in the fourth century, after the location was identified as Christ’s tomb. The mortar does not take us back to the crucifixion itself. It does show that the burial bench was already being enclosed and protected in Constantine’s era—far earlier than some researchers once suspected.\n\nThe later mortar layers tell another story. The shrine was damaged, rebuilt, covered again, and restored across many centuries. Instead of erasing the earlier surface, those layers helped seal it inside a structure that kept changing around it.\n\nSo what did researchers actually find when the tomb was opened? They found a surviving limestone burial bench and construction material linking its protection to the fourth century. Archaeology can trace the cave, the bench, and the shrine’s history. It cannot identify whose body was placed there, or test the resurrection.\n\nThe evidence reaches a real ancient burial place, preserved beneath the church and venerated by Constantine’s time. The final step—from that rock to Jesus—still rests on historical tradition and faith."
+  },
+  "storyboard": [
+    {
+      "beat": "0–12s",
+      "visual": "Tight 16:9 reconstruction of restorers raising the marble cover inside the Edicule; immediate real motion, labelled 'AI reconstruction'. On-screen text: 'DID YOU KNOW… WHAT SURVIVED?' No bodies or sacred-event reenactment.",
+      "audio": "Exact selected hook; restrained curious music begins."
+    },
+    {
+      "beat": "12–30s",
+      "visual": "Move from the Holy Sepulchre exterior into a clear cutaway of the Edicule and rock-cut burial shelf; distinguish current shrine from the ancient cave.",
+      "audio": "Establish location, the protected burial bed and the survival question."
+    },
+    {
+      "beat": "30–52s",
+      "visual": "Restoration sequence: upper marble removed, fill material documented, second gray slab with cross revealed; tools and hands behave naturally.",
+      "audio": "Describe the October 2016 opening without invented dialogue."
+    },
+    {
+      "beat": "52–72s",
+      "visual": "Camera descends to the pale limestone burial bench; slow raking light reveals texture and surviving rock.",
+      "audio": "First payoff step: original burial surface survived."
+    },
+    {
+      "beat": "72–94s",
+      "visual": "Layered timeline of damage and rebuilding around a stable central rock shelf; no fantasy destruction spectacle.",
+      "audio": "Explain why survival was uncertain and why the bench mattered."
+    },
+    {
+      "beat": "94–118s",
+      "visual": "Researchers take small mortar samples; OSL concept shown as grains last exposed to light, clearly illustrative rather than archival.",
+      "audio": "Explain the dating method and multiple construction phases."
+    },
+    {
+      "beat": "118–137s",
+      "visual": "Clean timeline highlights 4th, 11th, 16th and 19th centuries, then centers on A.D. 335–345.",
+      "audio": "Connect earliest mortar to Constantine-era construction, not to the crucifixion date."
+    },
+    {
+      "beat": "137–153s",
+      "visual": "Return to the limestone bench. Split graphic: 'Documented: ancient bench + 4th-century enclosure' / 'Not established: occupant + resurrection'. End on the real limits of the evidence.",
+      "audio": "Deliver exact evidence boundary and final line; clean ending, no generic CTA."
+    }
+  ],
+  "sources": [
+    {
+      "title": "OSL mortar dating to elucidate the construction history of the Tomb Chamber of the Holy Aedicule",
+      "publisher": "Journal of Archaeological Science: Reports",
+      "year": 2018,
+      "doi": "10.1016/j.jasrep.2018.02.024",
+      "supports": [
+        "four construction phases",
+        "fourth-century mortar",
+        "marble covering in Constantinean era"
+      ]
+    },
+    {
+      "title": "Christ’s Burial Place Exposed for First Time in Centuries",
+      "publisher": "National Geographic",
+      "date": "2016-10-26",
+      "url": "https://www.nationalgeographic.com/culture/article/jesus-tomb-opened-church-holy-sepulchre",
+      "supports": [
+        "2016 removal of marble covering",
+        "fill material",
+        "exposed original limestone surface"
+      ]
+    },
+    {
+      "title": "Unsealing of Christ’s reputed tomb turns up new revelations",
+      "publisher": "National Geographic",
+      "date": "2016-10-31",
+      "url": "https://www.nationalgeographic.com/premium/article/jesus-christ-tomb-burial-church-holy-sepulchre",
+      "supports": [
+        "limestone burial bed",
+        "brief examination",
+        "surviving portions of tomb"
+      ]
+    },
+    {
+      "title": "Age of Jesus Christ’s purported tomb revealed",
+      "publisher": "National Geographic",
+      "url": "https://www.nationalgeographic.com/premium/article/jesus-tomb-archaeology-jerusalem-christianity-rome",
+      "supports": [
+        "archaeological inability to identify Jesus as occupant",
+        "Constantine-era construction context"
+      ]
+    }
+  ],
+  "productionGates": {
+    "duplicateCheck": "Metricool brand 7296504 returned no scheduled posts from 2026-11-25 through 2026-12-03; absence of a booking is not permission to publish without remaining QA.",
+    "voice": "HOLD: exact Callum ID and elevenlabs_v4_turbo configuration are documented, but human perceptual A/B match to the approved Herculaneum reference is still unverified.",
+    "media": "No new voice, image, animation, music, export or final MP4 generated in this recovery step.",
+    "audiovisualQa": "NOT POSSIBLE until a final exported MP4 exists; do not call QA passed.",
+    "booking": "NOT_BOOKED",
+    "creditsPurchased": false,
+    "telegram": false
+  },
+  "platformSnapshot": {
+    "metricool": {
+      "brandId": 7296504,
+      "youtube": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "tiktok": "bizzare.past",
+      "futurePostsThrough": "2026-12-03",
+      "scheduledPosts": 0
+    },
+    "higgsfield": {
+      "plan": "ultra",
+      "credits": 1860.32,
+      "activeJobs": 0
+    },
+    "vidiq": {
+      "credits": 1832,
+      "activeJobs": 0,
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "subscribers": 46,
+      "lifetimeViews": 12610,
+      "publicVideos": 30
+    }
+  }
+}
