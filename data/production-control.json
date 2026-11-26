@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T19:06:00+01:00",
+  "updatedAt": "2026-11-26T22:59:48+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -510,7 +510,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-26T19:06:00+01:00",
+      "verifiedDate": "2026-11-26T22:59:48+01:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -7592,8 +7592,8 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 0,
-      "lastVerifiedAtOslo": "2026-11-26T19:06:00+01:00",
-      "evidence": "Vikings published; Siloam, Jesus and Merer are allocated to verified provider bookings. No separate unallocated fully QA-approved Bizarre reserve remains.",
+      "lastVerifiedAtOslo": "2026-11-26T22:59:48+01:00",
+      "evidence": "Fresh queue and full Higgsfield history check: Siloam, Jesus and Merer are allocated to verified provider bookings; no separate unallocated fully QA-approved Bizarre reserve exists.",
       "whatIfVerifiedCount": 0,
       "whatIfLastVerifiedAtOslo": "2026-11-26T18:35:00+01:00",
       "whatIfEvidence": "Gravity revised master published; Volcano, GPS, Mars QA holds; no verified unallocated reserve.",
@@ -7809,28 +7809,28 @@
     "agentInstructions": "Nov26 morning agents prioritize this exceptional Thursday catch-up before Friday. Poll exact accepted jobs, finish repair/assembly and exports, independently verify quality and voice, and schedule for 18:00 if PASS. 16:35 publication control validates both bookings and 18:35 verifies live. Never duplicate or silently bypass QA. If blocked, report specific blocker."
   },
   "workflowVerification20261126": {
-    "checkedAt": "2026-11-26T09:09:07+01:00",
+    "checkedAt": "2026-11-26T22:59:48+01:00",
     "metricool": {
       "brandId": 7296504,
       "timezone": "Europe/Oslo",
       "connectedYouTube": "UCBO7keO3jYYoXbc_TtkXiTA",
       "connectedTikTok": "bizzare.past",
-      "scheduledPostsThrough": "2026-12-04T23:59:59+01:00",
-      "scheduledCount": 0,
-      "blocker": "createScheduledPost INVALID_ARGUMENT; browser fallback requires authenticated Metricool session",
-      "duplicateCheck": "PASS_EMPTY_QUEUE",
-      "browserSession": "SIGNED_IN_VERIFIED",
-      "browserBlocker": "Updated Metricool Terms and conditions require explicit user acceptance; no longer a sign-in blocker."
+      "scheduledPostsThrough": "2026-12-06T23:59:59+01:00",
+      "futureScheduledCount": 3,
+      "publishedInRangeCount": 1,
+      "duplicateCheck": "PASS",
+      "blocker": null
     },
     "higgsfield": {
       "plan": "ultra",
-      "credits": 1704.1,
+      "credits": 1229.21,
       "activeJobs": 0,
+      "historyItemsChecked": 545,
       "nextProductionBlockedByCredits": false
     },
     "vidiq": {
-      "credits": 1817,
-      "renewableCredits": 1815,
+      "credits": 1807,
+      "renewableCredits": 1805,
       "addonCredits": 2,
       "resetsAt": "2026-12-21T20:09:10Z",
       "activeJobs": 0,
@@ -7843,10 +7843,10 @@
       },
       "nextProductionBlockedByCredits": false
     },
-    "userActionRequired": "Metricool updated terms are user-approved, but automated acceptance was rejected; user must perform the click in prepared browser. AI Tuber limited upload+read-only OAuth returned insufficient_scopes; explicit broader access decision requested. No purchase required.",
+    "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T19:06:00+01:00",
+  "lastUpdatedAt": "2026-11-26T22:59:48+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -8313,8 +8313,8 @@
     "littleWild": 0
   },
   "publicationPostflight20261126": {
-    "checkedAt": "2026-11-26T19:06:00+01:00",
-    "source": "Fresh authenticated Metricool queue for Nov26–Dec6; provider statuses, IDs and links verified.",
+    "checkedAt": "2026-11-26T22:59:48+01:00",
+    "source": "Fresh authenticated Metricool read through Dec 6 plus fresh vidIQ/Higgsfield status checks.",
     "today": {
       "bizarre": {
         "id": 443297043,
@@ -8499,14 +8499,14 @@
       "bizarreNext": "Prepare the Dec 2 16:9 film and a separate QA-passed reserve; Monday Merer is already booked and must not be duplicated."
     },
     "actions": {
-      "newUploads": 1,
-      "newBookings": 1,
+      "newUploads": 0,
+      "newBookings": 0,
       "newGenerations": 0,
       "creditPurchases": 0,
       "ads": 0,
       "telegram": 0,
       "littleWild": 0,
-      "scheduledProviderDestinations": 2
+      "scheduledProviderDestinations": 0
     },
     "reserveCounts": {
       "bizarre": 0,
@@ -8514,14 +8514,16 @@
     }
   },
   "bizarrePastAgentCheck20261126": {
-    "checkedAtOslo": "2026-11-26T19:06:00+01:00",
+    "checkedAtOslo": "2026-11-26T22:59:48+01:00",
     "governingSource": "productionReliability20261125 plus latest voice/editorial gates",
     "lookaheadThrough": "2026-12-06T23:59:59+01:00",
     "connections": {
       "metricoolBrandId": 7296504,
+      "metricoolInternalLabel": "BIZZARE PAST",
       "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
       "tiktokHandle": "bizzare.past",
       "tiktokDisplayName": "BIZARRE PAST",
+      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; direct public page was robots-blocked in this run. Internal Metricool label remains misspelled but is not the public display name.",
       "youtubeConnected": true,
       "tiktokConnected": true,
       "tiktokRenameRequired": false
@@ -8570,7 +8572,7 @@
           "tiktok": "PENDING"
         }
       ],
-      "duplicateCheck": "PASS: exactly one post per booked slot in authenticated readback",
+      "duplicateCheck": "PASS: authenticated readback returned one post per booked slot; each future post has exactly one YouTube and one TikTok provider row.",
       "nextUnreadySlot": "2026-12-02 18:00 16:9 2–4 minute film"
     },
     "merer": {
@@ -8604,9 +8606,11 @@
     "higgsfield": {
       "access": true,
       "plan": "Ultra",
-      "credits": 1229.68,
+      "credits": 1229.21,
       "activeJobs": 0,
-      "latestKnownSceneJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0 COMPLETED",
+      "historyCheckedItems": 545,
+      "historyCheckedAllPages": true,
+      "terminalNonCompletedOnly": "Historic failed/nsfw/ip-detected jobs; no pending or in-progress job",
       "nextProductionBlockedByCredits": false
     },
     "vidiq": {
@@ -8618,25 +8622,42 @@
       "activeJobs": 0,
       "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
       "handle": "@bizarrepast69",
+      "subscribers": 46,
+      "lifetimeViews": 12654,
+      "publicVideos": 30,
+      "connectionActive": true,
       "canPublish": true,
-      "productionBlockedByCredits": false
+      "productionBlockedByCredits": false,
+      "tiktokViaVidiq": "No TikTok row returned; Bizarre TikTok publishing remains connected and verified through Metricool, which is the canonical publisher."
     },
     "reserve": {
       "required": 1,
       "verifiedUnallocated": 0,
-      "reason": "Merer was assigned to the earliest unfinished Monday slot after full QA; no other unallocated QA-passed Bizarre master exists.",
-      "nextAction": "Produce and QA the earliest feasible separate reserve while preparing the unready Dec 2 long-form; do not spend credits on the wrong voice or duplicate Sunday work."
+      "reason": "All three QA-passed unpublished masters are assigned to Nov 27, Nov 29 and Nov 30 provider bookings.",
+      "nextAction": "Prepare the Dec 2 long-form and a separate QA-passed reserve without duplicating booked posts or spending on an unverified voice."
     },
     "actions": {
       "newGenerations": 0,
-      "newBookings": 1,
-      "scheduledProviderDestinations": 2,
+      "newBookings": 0,
+      "newPublications": 0,
       "creditPurchases": 0,
       "ads": 0,
       "telegram": 0,
       "littleWild": 0
     },
     "blockersRequiringUserAction": [],
-    "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED"
+    "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED",
+    "operationalRisks": [
+      {
+        "id": "bizarre-no-unallocated-reserve",
+        "requiresUserAction": false,
+        "detail": "Reserve target is not met; no separate QA-passed unallocated master exists."
+      },
+      {
+        "id": "bizarre-dec2-unready",
+        "requiresUserAction": false,
+        "detail": "Dec 2 16:9 slot has no verified export or provider booking yet; it remains the next internal production priority."
+      }
+    ]
   }
 }
