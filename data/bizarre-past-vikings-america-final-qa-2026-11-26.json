@@ -1,0 +1,66 @@
+{
+  "channel": "Bizarre Past",
+  "checkedAt": "2026-11-26T03:11:00+01:00",
+  "releaseTarget": "2026-11-26T18:00:00+01:00",
+  "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+  "status": "QA_PASS_NOT_BOOKED",
+  "finalMaster": {
+    "higgsfieldMediaId": "781f682c-410e-45b2-87bb-cdad173d41f5",
+    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/781f682c-410e-45b2-87bb-cdad173d41f5.mp4",
+    "durationSeconds": 177.625,
+    "width": 1920,
+    "height": 1080,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "sha256": "f1abf564300c6f2cd17bd52ff480fc6691bde0c3dfa382a4cc2d109dfbe62b7f",
+    "fullDecode": "PASS"
+  },
+  "voice": {
+    "model": "elevenlabs_v4_turbo",
+    "preset": "Callum",
+    "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "settings": "provider defaults; stability null; no pitch change",
+    "comparisonReference": "older user-approved Bizarre Past narration",
+    "analysisId": "dac31f17-4baa-4f9c-8130-653bb1ef4a49",
+    "result": "MATCH",
+    "evidence": "Same warm, bright British voice; natural upbeat curiosity; no heavy documentary gravitas."
+  },
+  "audiovisualQa": {
+    "analysisId": "949b4efc-2bd7-4279-9b96-1f3b4fc753c2",
+    "result": "PASS",
+    "checks": {
+      "spokenAndWrittenDidYouKnowWithinTwoSeconds": "PASS",
+      "completeNarrationAndEnding": "PASS",
+      "captionSync": "PASS",
+      "fullMotionAndSceneMatching": "PASS",
+      "moltenMetalRemoved": "PASS — 00:52-01:00 shows solid red-hot iron bloom/bar hammered",
+      "factualBoundaries": "PASS — AD 1021 tree-ring evidence, Indigenous history, and evidentiary limits stated",
+      "audioMix": "PASS",
+      "payoff": "PASS",
+      "finalFade": "PASS"
+    }
+  },
+  "publishing": {
+    "metricoolBrandId": 7296504,
+    "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+    "tiktokAccount": "bizzare.past",
+    "duplicateCheck": "PASS — no scheduled posts 2026-11-26 through 2026-12-03",
+    "bookingStatus": "NOT_BOOKED",
+    "attempts": [
+      "141 MB master via local file: INVALID_ARGUMENT",
+      "89 MB 1080p publishing master via local file: INVALID_ARGUMENT",
+      "29.5 MB QA copy via local file: INVALID_ARGUMENT",
+      "Higgsfield CDN media URL: INVALID_ARGUMENT"
+    ],
+    "blocker": "Metricool scheduling mutation fails; authenticated browser fallback requires user sign-in.",
+    "requiredUserAction": "Sign in to the prepared Metricool browser tab and return control."
+  },
+  "credits": {
+    "higgsfield": 1827.17,
+    "vidiq": 1817,
+    "purchaseRequired": false
+  },
+  "telegram": "No Telegram message or action triggered."
+}
