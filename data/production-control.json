@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T16:35:00+01:00",
+  "updatedAt": "2026-11-26T19:06:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -510,7 +510,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-26T18:35:00+01:00",
+      "verifiedDate": "2026-11-26T19:06:00+01:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -959,6 +959,40 @@
           "qa": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
           "aiGeneratedDeclared": true,
           "network": "tiktok"
+        },
+        {
+          "id": 443469705,
+          "uuid": "-483800662805034080",
+          "date": "2026-11-30",
+          "network": "youtube",
+          "time": "18:00",
+          "title": "The Great Pyramid Left a Shipping Diary",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-26T19:06:00+01:00",
+          "statusSource": "Authenticated Metricool createScheduledPost plus getScheduledPosts readback; exactly one post with both provider rows PENDING.",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-7050905223074206703.mp4",
+          "qa": "data/bizarre-past-merer-final-qa-2026-11-26.json",
+          "aiGeneratedDeclared": true
+        },
+        {
+          "id": 443469705,
+          "uuid": "-483800662805034080",
+          "date": "2026-11-30",
+          "network": "tiktok",
+          "time": "18:00",
+          "title": "The Great Pyramid Left a Shipping Diary",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-26T19:06:00+01:00",
+          "statusSource": "Authenticated Metricool createScheduledPost plus getScheduledPosts readback; exactly one post with both provider rows PENDING.",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-7050905223074206703.mp4",
+          "qa": "data/bizarre-past-merer-final-qa-2026-11-26.json",
+          "aiGeneratedDeclared": true
         }
       ],
       "whatIfRecovery20261120": {
@@ -6215,12 +6249,12 @@
     "mediaId": "ca5432b6-e05d-4f0e-873a-4ed883fb5ed6",
     "correctedSha256": "ce3fee3ff6a15b75892a2f35fb84a1e1c5855a6696ef2166c78b0217008cafb7",
     "durationSeconds": 36.721,
-    "status": "REPAIRED_EXPORTED_HOLD_PERCEPTUAL_AUDIO_QC_NOT_SCHEDULED",
+    "status": "FINAL_AV_QA_PASS_PROVIDER_VERIFIED_PENDING",
     "narrationMissingLinesRepaired": true,
     "proof": "Full-file ASR and 8-scene multimodal Higgsfield analysis completed; full decode and contact sheet visual review passed; direct continuous audible listening unavailable.",
     "creditsSpent": 5.76,
     "creditsAfter": 1867.37,
-    "bookingId": null,
+    "bookingId": 443469705,
     "telegram": false,
     "supersededBy": "data/bizarre-past-legacy-voice-restoration-2026-11-21.json",
     "priorSeedAudioRepair": "REJECTED_AS_EXACT_LEGACY_VOICE_MATCH_ENGINE_CHANGED",
@@ -6229,10 +6263,18 @@
     "correctedLegacyMasterSha256": "b654917fecde467babd648938d3964667bbdd2ddbf5142a80d507fa655cc7fb5",
     "exactOlderVoiceIdVerified": true,
     "olderModelVerified": true,
-    "updatedStatus": "LEGACY_VOICE_TTS_RESTORED_EXPORTED_AND_ANALYZED_PERCEPTUAL_WARMTH_COMPARISON_HOLD_NOT_SCHEDULED",
+    "updatedStatus": "EXACT_LEGACY_CALLUM_VOICE_VERIFIED_DEEP_AV_QA_PASS_AND_BOOKED",
     "correctedLegacyVoiceCostCredits": 1.5,
     "lastBalanceCredits": 1865.87,
-    "published": false
+    "published": false,
+    "finalQaReport": "data/bizarre-past-merer-final-qa-2026-11-26.json",
+    "finalDeepAnalysisId": "a8711bc3-bad1-481f-a931-56db75b4545f",
+    "finalDeepAnalysisResult": "PASS",
+    "bookingUuid": "-483800662805034080",
+    "bookingDate": "2026-11-30",
+    "bookingTime": "18:00",
+    "providerStatus": "PENDING_YOUTUBE_AND_TIKTOK",
+    "lastVerifiedAtOslo": "2026-11-26T19:06:00+01:00"
   },
   "whatIfNextLongFormEditorial20261120": {
     "checkedAtOslo": "2026-11-20T15:32:00+01:00",
@@ -7550,8 +7592,8 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 0,
-      "lastVerifiedAtOslo": "2026-11-26T18:35:00+01:00",
-      "evidence": "Viking published; Siloam and Jesus allocated to confirmed bookings. Merer restored master has full AV analysis but its own voice match is still not verified. Zero unallocated verified reserves.",
+      "lastVerifiedAtOslo": "2026-11-26T19:06:00+01:00",
+      "evidence": "Vikings published; Siloam, Jesus and Merer are allocated to verified provider bookings. No separate unallocated fully QA-approved Bizarre reserve remains.",
       "whatIfVerifiedCount": 0,
       "whatIfLastVerifiedAtOslo": "2026-11-26T18:35:00+01:00",
       "whatIfEvidence": "Gravity revised master published; Volcano, GPS, Mars QA holds; no verified unallocated reserve.",
@@ -7804,7 +7846,7 @@
     "userActionRequired": "Metricool updated terms are user-approved, but automated acceptance was rejected; user must perform the click in prepared browser. AI Tuber limited upload+read-only OAuth returned insufficient_scopes; explicit broader access decision requested. No purchase required.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T18:35:00+01:00",
+  "lastUpdatedAt": "2026-11-26T19:06:00+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -8271,8 +8313,8 @@
     "littleWild": 0
   },
   "publicationPostflight20261126": {
-    "checkedAt": "2026-11-26T18:35:00+01:00",
-    "source": "Fresh authenticated Metricool queue for Nov26–Dec3; direct public webpage retrieval unavailable; provider PUBLISHED, IDs and links confirmed. AI Tuber lists exact projects, channel connected status is not reconnect proof.",
+    "checkedAt": "2026-11-26T19:06:00+01:00",
+    "source": "Fresh authenticated Metricool queue for Nov26–Dec6; provider statuses, IDs and links verified.",
     "today": {
       "bizarre": {
         "id": 443297043,
@@ -8389,7 +8431,32 @@
       },
       {
         "date": "2026-11-30",
-        "bizarre": "Merer candidate, restored export but own voice A/B missing; no provider booking",
+        "bizarre": {
+          "id": 443469705,
+          "uuid": "-483800662805034080",
+          "title": "The Great Pyramid Left a Shipping Diary",
+          "publicationDate": {
+            "dateTime": "2026-11-30T18:00:00",
+            "timezone": "Europe/Oslo"
+          },
+          "providers": [
+            {
+              "network": "tiktok",
+              "status": "PENDING",
+              "detailedStatus": "Pending"
+            },
+            {
+              "network": "youtube",
+              "status": "PENDING",
+              "detailedStatus": "Pending"
+            }
+          ],
+          "media": [
+            "https://static.metricool.com/planner/202611/7296504-file-7050905223074206703.mp4"
+          ],
+          "autoPublish": true,
+          "qa": "data/bizarre-past-merer-final-qa-2026-11-26.json"
+        },
         "whatif": "Short not booked; no verified export/reserve"
       },
       {
@@ -8429,20 +8496,147 @@
       ],
       "source": "Authenticated AI Tuber actual project timeline and export 7c72ab30-aa2c-4998-99ca-6131cb37342e; API search exposed generation/export/individual read, no supported in-place scene mutation endpoint.",
       "remaining": "Replacement of actual missing motion footage and restored narration, cost estimate, final full AV QA and booking. No safe existing approved substitute; 394 AI Tuber credits observed. No speculative duplicate generation.",
-      "bizarreNext": "Merer voice A/B against approved reference; existing master 8c682f40-282f-4eac-8c75-3bf360175dbf should be independently reviewed, no regenerate until evidence requires."
+      "bizarreNext": "Prepare the Dec 2 16:9 film and a separate QA-passed reserve; Monday Merer is already booked and must not be duplicated."
     },
     "actions": {
-      "newUploads": 0,
-      "newBookings": 0,
+      "newUploads": 1,
+      "newBookings": 1,
       "newGenerations": 0,
       "creditPurchases": 0,
       "ads": 0,
       "telegram": 0,
-      "littleWild": 0
+      "littleWild": 0,
+      "scheduledProviderDestinations": 2
     },
     "reserveCounts": {
       "bizarre": 0,
       "whatif": 0
     }
+  },
+  "bizarrePastAgentCheck20261126": {
+    "checkedAtOslo": "2026-11-26T19:06:00+01:00",
+    "governingSource": "productionReliability20261125 plus latest voice/editorial gates",
+    "lookaheadThrough": "2026-12-06T23:59:59+01:00",
+    "connections": {
+      "metricoolBrandId": 7296504,
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "tiktokHandle": "bizzare.past",
+      "tiktokDisplayName": "BIZARRE PAST",
+      "youtubeConnected": true,
+      "tiktokConnected": true,
+      "tiktokRenameRequired": false
+    },
+    "metricool": {
+      "publishedToday": {
+        "id": 443297043,
+        "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+        "youtube": {
+          "status": "PUBLISHED",
+          "id": "aT7X0EkjC6Q",
+          "url": "https://www.youtube.com/watch?v=aT7X0EkjC6Q"
+        },
+        "tiktok": {
+          "status": "PUBLISHED",
+          "id": "7712528998215011606",
+          "url": "https://www.tiktok.com/@bizzare.past/video/7712528998215011606"
+        }
+      },
+      "futureBookings": [
+        {
+          "id": 443297110,
+          "uuid": "-1414575147247844227",
+          "date": "2026-11-27",
+          "time": "18:00",
+          "title": "They Found the Pool Named in John—What Does It Prove?",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        },
+        {
+          "id": 443204423,
+          "uuid": "6713892857688049338",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "title": "They Opened Jesus’ Tomb—What Did They Find?",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        },
+        {
+          "id": 443469705,
+          "uuid": "-483800662805034080",
+          "date": "2026-11-30",
+          "time": "18:00",
+          "title": "The Great Pyramid Left a Shipping Diary",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        }
+      ],
+      "duplicateCheck": "PASS: exactly one post per booked slot in authenticated readback",
+      "nextUnreadySlot": "2026-12-02 18:00 16:9 2–4 minute film"
+    },
+    "merer": {
+      "masterMediaId": "8c682f40-282f-4eac-8c75-3bf360175dbf",
+      "durationSeconds": 36.721,
+      "resolution": "1080x1920",
+      "exactVoice": {
+        "engine": "elevenlabs_v4_turbo",
+        "preset": "Callum",
+        "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+        "pitchShift": false
+      },
+      "userABApproved": "2026-11-26",
+      "localTechnicalQa": "PASS",
+      "deepAvQa": {
+        "status": "PASS",
+        "score": 7,
+        "analysisId": "a8711bc3-bad1-481f-a931-56db75b4545f",
+        "blockers": []
+      },
+      "report": "data/bizarre-past-merer-final-qa-2026-11-26.json",
+      "booking": {
+        "id": 443469705,
+        "uuid": "-483800662805034080",
+        "date": "2026-11-30",
+        "time": "18:00",
+        "youtube": "PENDING",
+        "tiktok": "PENDING"
+      }
+    },
+    "higgsfield": {
+      "access": true,
+      "plan": "Ultra",
+      "credits": 1229.68,
+      "activeJobs": 0,
+      "latestKnownSceneJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0 COMPLETED",
+      "nextProductionBlockedByCredits": false
+    },
+    "vidiq": {
+      "access": true,
+      "credits": 1807,
+      "renewableCredits": 1805,
+      "addonCredits": 2,
+      "renewsAt": "2026-12-21T20:09:10Z",
+      "activeJobs": 0,
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "handle": "@bizarrepast69",
+      "canPublish": true,
+      "productionBlockedByCredits": false
+    },
+    "reserve": {
+      "required": 1,
+      "verifiedUnallocated": 0,
+      "reason": "Merer was assigned to the earliest unfinished Monday slot after full QA; no other unallocated QA-passed Bizarre master exists.",
+      "nextAction": "Produce and QA the earliest feasible separate reserve while preparing the unready Dec 2 long-form; do not spend credits on the wrong voice or duplicate Sunday work."
+    },
+    "actions": {
+      "newGenerations": 0,
+      "newBookings": 1,
+      "scheduledProviderDestinations": 2,
+      "creditPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0
+    },
+    "blockersRequiringUserAction": [],
+    "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED"
   }
 }
