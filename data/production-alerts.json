@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T16:35:00+01:00",
+  "updatedAt": "2026-11-26T18:35:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -445,8 +445,8 @@
     },
     {
       "id": "whatif-gravity-final-av-qc-2026-11-26",
-      "summary": "Gravity: final MP4 downloaded and decoded (69.973s 1920x1080 AAC). Actual sampled frame audit shows WHAT IF at early frame but no concrete physical consequence until ~3s, warehouse boxes/rack damage not demonstrated, numerical gauge/atmosphere payoff visuals unclear. ASR includes ending but timestamp exceeds probed duration; full perceptual sound and continuous motion not confirmed. No booking.",
-      "action": "No safe QA-approved reserve available. Repair specific visual defects in the existing project and repeat complete final-export QA; do not book or duplicate until PASS and current provider queue verified.",
+      "summary": "Revised 69.973s Gravity master is PUBLISHED via Metricool 443341376; technical review documents revised hook/load/pressure graphics and complete ASR, but no full continuous audiovisual PASS found for this exact master. Original HOLD is not a verified pass. This is a post-release QA evidence gap, not a missing publication.",
+      "action": "Do not duplicate or delete published master. Verify exact revised master AV separately; require full documented QA for future films. Record provider receipt separately from QA.",
       "source": {
         "type": "provider_export_and_actual_sampled_frames_asr",
         "videoId": "a75bde1d-5eb2-4eff-863b-6190b520a5cd",
@@ -460,13 +460,20 @@
       "confirmedAt": "2026-11-26T08:41:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
-      "lastCheckedAt": "2026-11-26T16:35:00+01:00",
-      "latestPreflight": "No Metricool booking for What If; existing QA HOLD, no eligible reserve. AI Tuber full live publication queue not exposed by current connector."
+      "lastCheckedAt": "2026-11-26T18:35:00+01:00",
+      "latestPreflight": "No Metricool booking for What If; existing QA HOLD, no eligible reserve. AI Tuber full live publication queue not exposed by current connector.",
+      "latestPostflight": {
+        "status": "PUBLISHED",
+        "postId": 443341376,
+        "videoId": "2OldLaPls1Y",
+        "publicUrl": "https://www.youtube.com/watch?v=2OldLaPls1Y",
+        "quality": "UNVERIFIED_FULL_AV"
+      }
     },
     {
       "id": "whatif-volcano-glacier-final-av-qc-2026-11-26",
       "summary": "New stock Short exported (24.875s 1080x1920) and actual frames/ASR inspected. Required glacier/volcanic heat sequence missing: generic water under a concrete structure used during melting/trapped-water explanation; flooding shown, but no visual ice/volcanic mechanism; shorter than target. Full perceptual AV not passed.",
-      "action": "No safe QA-approved reserve available. Repair specific visual defects in the existing project and repeat complete final-export QA; do not book or duplicate until PASS and current provider queue verified.",
+      "action": "Correct missing causal narration and moving glacier/heat/storage shots; exact timestamp repair plan in production-control; no duplicate generation or booking without final full QA.",
       "source": {
         "type": "provider_export_and_actual_sampled_frames_asr",
         "videoId": "0c215c2a-0f34-4f5a-a820-e090e7323379",
@@ -480,8 +487,9 @@
       "confirmedAt": "2026-11-26T08:41:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
-      "lastCheckedAt": "2026-11-26T16:35:00+01:00",
-      "latestPreflight": "No Metricool booking for What If; existing QA HOLD, no eligible reserve. AI Tuber full live publication queue not exposed by current connector."
+      "lastCheckedAt": "2026-11-26T18:35:00+01:00",
+      "latestPreflight": "No Metricool booking for What If; existing QA HOLD, no eligible reserve. AI Tuber full live publication queue not exposed by current connector.",
+      "latestPostflight": "No Friday What If booking in authenticated Metricool; no approved reserve. AI Tuber full current queue unavailable; last known paused. 394 credits. Actual project timeline repeats flood beat and omits causal heat/storage visualization. Repair shot plan recorded in publicationPostflight20261126.nextRecovery; no supported in-place scene edit endpoint found."
     },
     {
       "id": "metricool-terms-update-publishing-2026-11-26",
@@ -498,11 +506,11 @@
         "brandId": 7296504,
         "evidence": "Signed-in Metricool displays mandatory updated Terms and conditions dialog with acceptance unchecked and Continue disabled. Connector queue Nov26-Dec4 empty."
       },
-      "summary": "Scheduling blocker recovered via authenticated Metricool connector; Viking 443297043 and Siloam 443297110 read back with both networks PENDING at intended 18:00 slots. Sunday 443204423 preserved. Earlier browser terms acceptance remains unverified; this is booking recovery, not proof of terms acceptance or public release.",
-      "action": "Do not rebook. Confirm public provider IDs after each slot; revisit browser terms only if a fresh blocker occurs.",
+      "summary": "Authenticated Metricool confirms Viking on YouTube and TikTok PUBLISHED, Friday Siloam and Sunday Jesus PENDING on both. What If Gravity revised master PUBLISHED via Metricool. Browser terms acceptance itself not verified.",
+      "action": "Keep existing bookings; check publication after scheduled times; no duplicate or unnecessary reconnection.",
       "ownerActionRequired": false,
       "notificationPolicy": "NO TELEGRAM",
-      "lastCheckedAt": "2026-11-26T16:35:00+01:00",
+      "lastCheckedAt": "2026-11-26T18:35:00+01:00",
       "userApprovalReceived": true,
       "resolvedAt": "2026-11-26T16:35:00+01:00"
     },
@@ -544,7 +552,7 @@
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-26T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-26T16:35:00+01:00",
+      "lastCheckedAt": "2026-11-26T18:35:00+01:00",
       "notificationRevision": 1,
       "source": {
         "type": "actual_export_deep_av_analysis",
@@ -555,7 +563,8 @@
       "summary": "Actual 95.168s completed 1080p export deep QA HOLD: 0–2s no actual navigation failure; 5–8s deicing footage during road navigation; 9–14s normal navigation; 57–64s generic racks without clock comparison; 77–81s irrelevant battery charger; ending/payoff not demonstrated in full.",
       "action": "Correct actual visual sequences and clock payoff on same project if supported, then deep AV QA, queue and cost check; do not duplicate or book this export.",
       "ownerActionRequired": false,
-      "notificationPolicy": "NO TELEGRAM"
+      "notificationPolicy": "NO TELEGRAM",
+      "latestPostflight": "No Sunday booking for What If; deep QA HOLD unchanged. Export exists, not a reserve."
     }
   ]
 }
