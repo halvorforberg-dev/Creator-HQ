@@ -7047,7 +7047,7 @@
   },
   "bizarrePastPoolOfSiloamShort20261127": {
     "target": "2026-11-27T18:00:00+01:00",
-    "status": "HOLD_FOUR_OF_FIVE_VIDEO_RENDERS_COMPLETE_ONE_STILL_IN_PROGRESS_NO_FINAL_MP4_NOT_BOOKED",
+    "status": "FINAL_MASTER_QA_PASS_NOT_BOOKED_METRICOOL_INVALID_ARGUMENT",
     "selectedTitle": "They Found the Pool Named in John—What Does It Prove?",
     "alternateTitle": "Sewer Repairs Uncovered the Pool of Siloam",
     "editorialPayoff": "Archaeology recovered the monumental late-Second-Temple setting of John 9, not proof of the miracle.",
@@ -7058,7 +7058,7 @@
       "configurationMatch": "PASS",
       "fullAudioGenerated": "PASS_39.471_SECONDS",
       "perceptualA_B_match": "PASS_USER_APPROVED_2026-11-26",
-      "rule": "Exact legacy Callum voice sample approved by the user; final MP4 still requires explicit voice-match and full audiovisual QA before booking."
+      "finalMasterVoiceTone": "PASS_DEEP_AV_ANALYSIS"
     },
     "generatedAssets": {
       "storyboardImageJobs": [
@@ -7075,32 +7075,53 @@
         "b338fefe-ed9f-492b-9c7d-97e7abc7ade3",
         "48cb6a68-a2af-4d42-a905-4ba36bdc463c"
       ],
-      "finalMp4": null,
-      "completedVideoJobs": [
+      "finalUsedVideoJobs": [
         "3672bd83-6008-4b9b-9966-e651f3ec69af",
         "d69566fb-5d24-4251-8656-edb72ee12fea",
         "b338fefe-ed9f-492b-9c7d-97e7abc7ade3",
         "48cb6a68-a2af-4d42-a905-4ba36bdc463c"
       ],
-      "activeVideoJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0"
+      "excludedActiveJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0",
+      "finalMp4": {
+        "mediaId": "d1453d29-74d7-4731-9e76-9b7cf1b6793a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/d1453d29-74d7-4731-9e76-9b7cf1b6793a.mp4",
+        "durationSeconds": 39.471,
+        "resolution": "1080x1920",
+        "sha256": "5656dc262a7bddb4422ad4bf3a1fcfb7de4196d7ffe6f41b0f7898cd3fb5f5dc",
+        "sizeBytes": 34053548
+      }
     },
     "queueCheck": "Metricool brand 7296504 had no future posts after the published 2026-11-23 Pilate Short when checked 2026-11-24.",
     "report": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
     "publication": "NOT_BOOKED_NOT_PUBLISHED",
-    "userAction": null,
+    "userAction": "Open Metricool Planner for Bizarre Past brand 7296504, upload final master media d1453d29-74d7-4731-9e76-9b7cf1b6793a, schedule YouTube and TikTok at the next safe 18:00 Europe/Oslo slot, and verify both provider IDs are PENDING. Do not duplicate if the post appears meanwhile.",
     "telegram": "DISABLED_AND_NOT_TRIGGERED",
     "productionCost": {
       "model": "magi_2",
       "resolution": "1080p",
-      "scenes": 5,
-      "secondsPerScene": 8,
-      "quotedCreditsTotal": 100,
+      "scenesSubmitted": 5,
+      "quotedAndSpentCredits": 100,
       "balanceBefore": 1827.17,
       "estimatedBalanceAfter": 1727.17,
       "sundayReserveProtected": true
     },
-    "lastUpdatedAtOslo": "2026-11-26T08:33:00+01:00",
-    "renderBlocker": "Scene 2 remains in_progress after the other four scenes completed. Do not resubmit while state is active; this would risk duplicate spend."
+    "lastUpdatedAtOslo": "2026-11-26T08:51:00+01:00",
+    "renderBlocker": "Scene 2 remains in_progress after the other four scenes completed. Do not resubmit while state is active; this would risk duplicate spend.",
+    "finalQa": {
+      "status": "PASS",
+      "analysisId": "abdf0611-91aa-41f2-bec2-e9cfa5af5c52",
+      "technicalDecode": "PASS",
+      "integratedLoudnessLUFS": -18.1,
+      "truePeakDBFS": -1.8,
+      "report": "data/bizarre-past-pool-siloam-qc-2026-11-24.json"
+    },
+    "bookingAttempt": {
+      "target": "2026-11-27T18:00:00+01:00",
+      "result": "INVALID_ARGUMENT",
+      "readbackFuturePosts": 0,
+      "providerIds": [],
+      "providerStatus": "NOT_BOOKED"
+    }
   },
   "whatIfAgentCheck20261124": {
     "checkedAtOslo": "2026-11-24T15:28:00+01:00",
@@ -7333,12 +7354,17 @@
     "reserve": {
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
-      "currentVerifiedCount": 0,
-      "lastVerifiedAtOslo": "2026-11-26T08:33:00+01:00",
-      "evidence": "Siloam has four completed scene renders but no final MP4 or AV-QA pass; it is not a verified reserve.",
+      "currentVerifiedCount": 1,
+      "lastVerifiedAtOslo": "2026-11-26T08:51:00+01:00",
+      "evidence": "Bizarre Past has one unpublished fully QA-approved 39.471s Siloam Short master (media d1453d29-74d7-4731-9e76-9b7cf1b6793a, deep QA PASS). It is not booked because Metricool returned INVALID_ARGUMENT. What If reserve is not verified by this task.",
       "whatIfVerifiedCount": 0,
       "whatIfLastVerifiedAtOslo": "2026-11-26T08:41:00+01:00",
-      "whatIfEvidence": "Gravity and glacier Short actual QA HOLD; GPS export processing, Mars HOLD. No approved reserve."
+      "whatIfEvidence": "Gravity and glacier Short actual QA HOLD; GPS export processing, Mars HOLD. No approved reserve.",
+      "verifiedByChannel": {
+        "bizarre": 1,
+        "whatif": 0
+      },
+      "allActiveChannelsMeetMinimum": false
     },
     "execution": "Look ahead at least seven days on each run. Act on earliest unready slot, not just today's slot; if a deadline is missed, diagnose and perform a feasible correction in that run, check reserve and report remaining blocker. Use cost-estimated efficient mixed media where appropriate; do not let uncertainty about an old failed film halt a separately feasible new production. Never fake full QA, voice match or booking. If exact old Bizarre Past voice cannot be recovered from approved references, isolate voice blocker and continue safe script/storyboard work; do not silently change voice. Preserve existing bookings and all quality, credits, no-Telegram, no-ads, paused Little Wild constraints.",
     "todayRecovery": {
@@ -7528,7 +7554,7 @@
     "userActionRequired": "UNCHANGED: Sign in to Metricool browser handoff and return control; no purchase, reconnect, or credit upgrade is required.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T08:38:00+01:00",
+  "lastUpdatedAt": "2026-11-26T08:51:00+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
