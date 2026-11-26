@@ -8008,6 +8008,33 @@
       "telegram": 0,
       "littleWild": 0,
       "paidPromotion": 0
+    },
+    "vidiq": {
+      "status": "CONNECTED",
+      "totalCredits": 1812,
+      "renewableCredits": 1810,
+      "addonCredits": 2,
+      "resetDate": "2026-12-21",
+      "activeJobs": 0,
+      "productionBlockedByCredits": false,
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "handle": "@bizarrepast69",
+      "subscribers": 46,
+      "lifetimeViews": 12654,
+      "publicVideos": 30
+    },
+    "channels": {
+      "youtube": {
+        "connected": true,
+        "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+        "handle": "@bizarrepast69"
+      },
+      "tiktok": {
+        "connected": true,
+        "handle": "@bizzare.past",
+        "displayName": "BIZARRE PAST",
+        "renameRequired": false
+      }
     }
   }
 }
