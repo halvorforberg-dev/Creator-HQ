@@ -7460,9 +7460,10 @@
       "fullAvQaVerdict": "PASS",
       "correction": "Molten-metal shot fully removed; 00:52-01:00 now shows solid red-hot iron bloom/bar hammered.",
       "bookingStatus": "NOT_BOOKED",
-      "bookingBlocker": "Metricool createScheduledPost returned INVALID_ARGUMENT for the full 141 MB master, an 89 MB 1080p publishing master, and the 29.5 MB QA copy; readback confirmed no scheduled posts for 2026-11-26 through 2026-12-03.",
-      "requiredAction": "User must sign in to the prepared Metricool browser session and return control so the verified master can be booked manually for YouTube and TikTok at 2026-11-26 18:00 Europe/Oslo.",
-      "qaEvidence": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json"
+      "bookingBlocker": "Metricool createScheduledPost still returned INVALID_ARGUMENT on 2026-11-26 after fresh queue readback showed no future posts. Retried with the actual local 141 MB QA-passed master, combined YouTube+TikTok and YouTube-only; all failed and readback stayed empty.",
+      "requiredAction": "Open Metricool Planner for brand 7296504 and manually upload the verified Viking master from Creator HQ evidence, schedule YouTube and TikTok for the next safe 18:00 Europe/Oslo slot, then verify both provider IDs are PENDING. Do not duplicate if a post appears meanwhile.",
+      "qaEvidence": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
+      "lastBookingAttemptAtOslo": "2026-11-26T08:38:00+01:00"
     },
     "whatif": {
       "format": "16:9 regular, tightened source-checked narration, length determined by final audio",
@@ -7517,5 +7518,6 @@
     },
     "userActionRequired": "UNCHANGED: Sign in to Metricool browser handoff and return control; no purchase, reconnect, or credit upgrade is required.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
-  }
+  },
+  "lastUpdatedAt": "2026-11-26T08:38:00+01:00"
 }
