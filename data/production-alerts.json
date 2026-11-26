@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T08:41:00+01:00",
+  "updatedAt": "2026-11-26T09:09:07+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -478,6 +478,45 @@
       "confirmedAt": "2026-11-26T08:41:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false
+    },
+    {
+      "id": "metricool-terms-update-publishing-2026-11-26",
+      "channel": "Bizarre Past",
+      "category": "publishing_failed",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-26T09:09:07+01:00",
+      "notificationRevision": 1,
+      "source": {
+        "type": "authenticated_metricool_browser_plus_connected_queue",
+        "url": "https://app.metricool.com/evolution/tiktok?blogId=7296504&userId=5657233",
+        "brandId": 7296504,
+        "evidence": "Signed-in Metricool displays mandatory updated Terms and conditions dialog with acceptance unchecked and Continue disabled. Connector queue Nov26-Dec4 empty."
+      },
+      "summary": "Metricool browser login has been restored. Browser scheduling is blocked by mandatory acceptance of updated Terms and conditions. The earlier API INVALID_ARGUMENT cause is still unproven; no new booking exists.",
+      "action": "Await the requested explicit decision on updated terms. If approved, accept them, inspect Planner, then book the existing full-QA-passed Viking master at Nov26 18:00 Europe/Oslo for YouTube and TikTok after fresh duplicate checks. Verify actual provider IDs/status.",
+      "ownerActionRequired": true,
+      "notificationPolicy": "NO TELEGRAM"
+    },
+    {
+      "id": "whatif-youtube-reconnect-required-2026-11-26",
+      "channel": "What If in 40 Seconds",
+      "category": "provider_auth_lost",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-26T09:09:07+01:00",
+      "notificationRevision": 1,
+      "source": {
+        "type": "authenticated_aituber_publish_and_autopilot_ui",
+        "url": "https://app.aituber.app/dashboard/publish",
+        "evidence": "Banner says Some YouTube videos did not post / Reconnect your channel once. Publications shows 0 up next; Mars and Air Vanished failed with provider daily upload limit message. API channel status connected; this does not prove working uploads."
+      },
+      "summary": "AI Tuber requests YouTube reconnection after failed uploads although its channel API says connected. AutoPilot is confirmed Paused, My Videos only, Nothing posts; no Little Wild series is shown. No reconnection or retry executed.",
+      "action": "Await requested explicit approval to reconnect only the existing What If YouTube channel @whatifin35seconds, then inspect and renew the existing intended publishing permissions. Keep AutoPilot paused. Do not retry the already-published Air Vanished Metricool recovery or publish Mars before full QA.",
+      "ownerActionRequired": true,
+      "notificationPolicy": "NO TELEGRAM"
     }
   ]
 }
