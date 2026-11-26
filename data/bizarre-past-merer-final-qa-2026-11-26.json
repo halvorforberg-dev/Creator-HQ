@@ -1,0 +1,108 @@
+{
+  "reportVersion": 1,
+  "channel": "Bizarre Past",
+  "title": "The Great Pyramid Left a Shipping Diary",
+  "alternateTitle": "The Builder’s Diary That Reached the Great Pyramid",
+  "checkedAtOslo": "2026-11-26T19:05:00+01:00",
+  "targetPublication": "2026-11-30T18:00:00+01:00",
+  "editorial": {
+    "format": "9:16 Short",
+    "durationSeconds": 36.721,
+    "question": "What can the Great Pyramid’s surviving shipping diary reveal about how its casing stone reached Giza?",
+    "payoff": "Merer’s contemporary log records his crew transporting fine Tura limestone toward Giza during Khufu’s reign; it documents real work and journeys but not every construction method.",
+    "hook": "Spoken and written “Did you know…” begins at 00:00.",
+    "evidenceBoundary": "The closing line states that the diary reveals journeys and working days rather than every building secret."
+  },
+  "master": {
+    "higgsfieldMediaId": "8c682f40-282f-4eac-8c75-3bf360175dbf",
+    "sourceUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/8c682f40-282f-4eac-8c75-3bf360175dbf.mp4",
+    "localFile": "merer-master.mp4",
+    "resolution": "1080x1920",
+    "frameRate": 24,
+    "videoCodec": "H.264",
+    "audioCodec": "AAC mono 96 kHz",
+    "fileBytes": 19786404
+  },
+  "voice": {
+    "status": "PASS",
+    "generationJobId": "e3ced87f-29cc-4212-9a32-eb84f269fd54",
+    "engine": "elevenlabs_v4_turbo",
+    "preset": "Callum",
+    "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "settings": "Provider defaults; no pitch shift",
+    "userABApprovedDate": "2026-11-26",
+    "externalAudibleQa": "PASS",
+    "note": "This run did not claim direct model listening. Higgsfield deep analysis evaluated the audible final master and reported the approved Callum profile, natural pacing, clear balance and consistent tone."
+  },
+  "technicalQa": {
+    "fullDecode": "PASS",
+    "blackFrames": "NONE_DETECTED",
+    "frozenFramesOver1_5s": "NONE_DETECTED",
+    "silenceOver1s": "NONE_DETECTED",
+    "integratedLoudnessLUFS": -17.7,
+    "loudnessRangeLU": 3.5,
+    "truePeakDbTP": -1.3
+  },
+  "visualQa": {
+    "contactSheetReviewed": true,
+    "mobileOpening": "PASS",
+    "captions": "PASS: readable lower-third captions",
+    "fullMotion": "PASS",
+    "aiDisclosure": "PASS: BIZARRE PAST / AI RECONSTRUCTION label",
+    "sceneMatch": "PASS: Wadi al-Jarf discovery, Merer writing, limestone transport, casing-stone payoff",
+    "anatomyPhysics": "PASS in external deep review"
+  },
+  "deepAvQa": {
+    "provider": "Higgsfield",
+    "analysisId": "a8711bc3-bad1-481f-a931-56db75b4545f",
+    "mode": "deep",
+    "status": "PASS",
+    "score": 7,
+    "blockers": [],
+    "verified": [
+      "Spoken and written Did you know starts at 00:00",
+      "Approved warm natural Callum voice remains clear and consistent",
+      "Clear question and factual payoff without repetition",
+      "Complete final sentence and evidence boundary",
+      "Readable synchronized captions",
+      "Relevant full-motion historical reconstruction",
+      "Balanced music under narration",
+      "AI reconstruction disclosure"
+    ]
+  },
+  "duplicateCheck": {
+    "checkedRange": "2026-11-26 through 2026-12-06 Europe/Oslo",
+    "result": "PASS",
+    "note": "No existing Merer booking was present before scheduling."
+  },
+  "booking": {
+    "metricoolBrandId": 7296504,
+    "id": 443469705,
+    "uuid": "-483800662805034080",
+    "publicationDate": {
+      "dateTime": "2026-11-30T18:00:00",
+      "timezone": "Europe/Oslo"
+    },
+    "youtube": {
+      "status": "PENDING",
+      "type": "short",
+      "privacy": "public",
+      "madeForKids": false,
+      "isAiGeneratedContent": true
+    },
+    "tiktok": {
+      "status": "PENDING",
+      "privacy": "PUBLIC_TO_EVERYONE",
+      "isAigc": true
+    },
+    "autoPublish": true,
+    "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-7050905223074206703.mp4",
+    "readbackVerified": true,
+    "duplicateCount": 1
+  },
+  "decision": "PASS_AND_PROVIDER_BOOKED_PENDING",
+  "purchases": 0,
+  "ads": 0,
+  "telegram": 0,
+  "littleWild": 0
+}
