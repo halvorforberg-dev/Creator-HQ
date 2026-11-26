@@ -1,10 +1,10 @@
 {
   "reportVersion": 1,
-  "checkedAt": "2026-11-26T08:09:00+01:00",
+  "checkedAt": "2026-11-26T08:33:00+01:00",
   "channel": "Bizarre Past",
   "deliverable": "35–40 second 9:16 Short for next open Friday slot",
   "targetSlot": "2026-11-27T18:00:00+01:00",
-  "status": "IN_PRODUCTION_VOICE_APPROVED_FIVE_VIDEO_RENDERS_PENDING",
+  "status": "HOLD_FOUR_OF_FIVE_VIDEO_RENDERS_COMPLETE_ONE_STILL_IN_PROGRESS_NO_FINAL_MP4_NOT_BOOKED",
   "queueEvidence": {
     "metricoolBrandId": "7296504",
     "checkedRange": "2026-11-24 through 2026-12-01 Europe/Oslo",
@@ -68,7 +68,7 @@
     "blocker": null
   },
   "visuals": {
-    "status": "FIVE_STATIC_STORYBOARD_FRAMES_COMPLETE_FIVE_1080P_VIDEO_RENDERS_PENDING",
+    "status": "FOUR_1080P_RENDERS_COMPLETE_ONE_RENDER_IN_PROGRESS",
     "jobs": [
       "0988d309-efc2-41b4-9915-82ab2df75d82",
       "eb86f718-6092-49df-b47d-f367a92e028d",
@@ -83,7 +83,15 @@
       "d69566fb-5d24-4251-8656-edb72ee12fea",
       "b338fefe-ed9f-492b-9c7d-97e7abc7ade3",
       "48cb6a68-a2af-4d42-a905-4ba36bdc463c"
-    ]
+    ],
+    "completedJobs": [
+      "3672bd83-6008-4b9b-9966-e651f3ec69af",
+      "d69566fb-5d24-4251-8656-edb72ee12fea",
+      "b338fefe-ed9f-492b-9c7d-97e7abc7ade3",
+      "48cb6a68-a2af-4d42-a905-4ba36bdc463c"
+    ],
+    "activeJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0",
+    "review": "Four completed clips are 1080x1920 and passed preliminary contact-sheet review. The modern excavation scene remains active; no duplicate was submitted."
   },
   "credits": {
     "higgsfieldBalanceBefore": 1865.87,
@@ -100,6 +108,6 @@
     "metricoolBookingCreated": false,
     "publicationClaim": false
   },
-  "resolutionRequired": "Wait for the five submitted Higgsfield renders, assemble the 39.471-second 9:16 master with the approved Callum voice, perform full audiovisual QA including voice-match, then book YouTube and TikTok for 2026-11-27 18:00 Europe/Oslo only if all gates pass.",
+  "resolutionRequired": "Wait for active scene 2 job d25a5316-e8ba-402c-8902-6ccef47bc0e0 to reach terminal state. If completed, assemble and run full AV-QA; if failed, quote one replacement before resubmission. Do not count this as a reserve or booking.",
   "telegram": "No Telegram action, message, workflow or alert was triggered."
 }
