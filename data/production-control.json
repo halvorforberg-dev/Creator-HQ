@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T09:32:37+01:00",
+  "updatedAt": "2026-11-26T11:32:57+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7820,12 +7820,12 @@
     }
   },
   "bizarrePastSundayAgentCheck20261126": {
-    "checkedAtOslo": "2026-11-26T09:16:42+01:00",
+    "checkedAtOslo": "2026-11-26T11:32:57+01:00",
     "governingSource": "productionReliability20261125 plus creative-prompt-upgrades.json",
     "target": "2026-11-29T18:00:00+01:00",
     "metricool": {
       "brandId": 7296504,
-      "period": "2026-11-26 through 2026-12-04 Europe/Oslo",
+      "period": "2026-11-26 through 2026-12-05 Europe/Oslo",
       "scheduledPosts": 0,
       "sundayBooking": null,
       "providerVerified": true
@@ -7844,40 +7844,53 @@
       "selectedTitle": "They Opened Jesus’ Tomb—What Did They Find?",
       "alternateTitle": "Inside Jesus’ Traditional Tomb: What Survived?",
       "payoff": "Surviving limestone burial bench and fourth-century protection are documented; occupant and resurrection are not established.",
-      "storyboardImagesCompleted": 20,
+      "storyboardImagesCompleted": 22,
       "motionModel": "magi_2",
-      "motionJobsAccepted": 20,
-      "motionStatus": "WAITING",
+      "originalMotionJobsCompleted": 20,
+      "replacementMotionJobsAccepted": 2,
+      "replacementMotionStatus": "WAITING",
       "musicCompleted": true,
-      "finalExport": null,
-      "avQa": "NOT_POSSIBLE_NO_FINAL_MP4",
+      "firstExport": {
+        "status": "REJECTED_DEEP_QA",
+        "mediaId": "39f5d5c1-1f3f-4832-b1b8-81dfbdbef8a5",
+        "durationSeconds": 170.736,
+        "analysisId": "30fdb13e-c2b0-4849-a61f-07d28478ca0d",
+        "failedScenes": [
+          8,
+          17
+        ]
+      },
+      "revisedExport": null,
+      "avQa": "WAITING_FOR_TWO_CORRECTION_CLIPS; FIRST_EXPORT_TECHNICAL_PASS_BUT_HISTORICAL_VISUAL_QA_FAIL",
       "booking": "NOT_BOOKED"
     },
     "budget": {
       "balanceBefore": 1726.6,
-      "balanceAfterAcceptedJobs": 1277.94,
+      "balanceAfterOriginalAcceptedJobs": 1277.94,
+      "balanceAfterReplacementSubmission": 1232.99,
       "newPurchases": 0,
-      "motionCredits": 400,
+      "originalMotionCredits": 400,
       "voiceCredits": 7.5,
       "musicCredits": 26.16,
-      "imageCreditsApprox": 15.75
+      "imageCreditsApprox": 18.75,
+      "replacementVideoCredits": 40
     },
     "blocker": {
-      "id": "bizarre-sunday-magi2-provider-wait-2026-11-26",
+      "id": "bizarre-sunday-qa-replacement-provider-wait-2026-11-26",
       "state": "active_wait",
       "requiresUserAction": false,
-      "detail": "All 20 paid MAGI-2 jobs are accepted but remain in provider WAITING state; do not resubmit or switch provider/model."
+      "detail": "First export was rejected for two misleading scenes. Corrected images passed visual inspection; replacement MAGI-2 jobs 422b1fac-9217-4deb-8554-192c52a7b19d and d6a49b59-2c74-4a91-8949-f6a4a77dad5f are accepted and waiting. Do not resubmit."
     },
     "reserve": {
       "bizarreVerifiedCount": 1,
-      "evidence": "Separate Siloam Short remains unpublished QA-approved reserve; Sunday long-form is not a reserve until final AV QA passes."
+      "evidence": "Separate Siloam Short remains unpublished QA-approved reserve; it cannot silently replace Sunday long-form."
     },
     "actions": {
       "newVoiceGenerations": 1,
-      "newImageGenerations": 21,
-      "newVideoGenerations": 20,
+      "newImageGenerations": 23,
+      "newVideoGenerations": 22,
       "newMusicGenerations": 1,
-      "newExports": 0,
+      "newExports": 1,
       "newBookings": 0,
       "newPublications": 0,
       "creditPurchases": 0,
