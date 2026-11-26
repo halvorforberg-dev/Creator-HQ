@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T03:11:00+01:00",
+  "updatedAt": "2026-11-26T07:21:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7458,7 +7458,7 @@
     "agentInstructions": "Nov26 morning agents prioritize this exceptional Thursday catch-up before Friday. Poll exact accepted jobs, finish repair/assembly and exports, independently verify quality and voice, and schedule for 18:00 if PASS. 16:35 publication control validates both bookings and 18:35 verifies live. Never duplicate or silently bypass QA. If blocked, report specific blocker."
   },
   "workflowVerification20261126": {
-    "checkedAt": "2026-11-26T03:11:00+01:00",
+    "checkedAt": "2026-11-26T07:21:00+01:00",
     "metricool": {
       "brandId": 7296504,
       "timezone": "Europe/Oslo",
@@ -7485,12 +7485,12 @@
         "id": "UCBO7keO3jYYoXbc_TtkXiTA",
         "title": "Bizarre Past",
         "subscribers": 46,
-        "lifetimeViews": 12610,
+        "lifetimeViews": 12654,
         "publicVideos": 30
       },
       "nextProductionBlockedByCredits": false
     },
-    "userActionRequired": "Sign in to Metricool browser handoff and return control; no purchase, reconnect, or credit upgrade is required.",
+    "userActionRequired": "UNCHANGED: Sign in to Metricool browser handoff and return control; no purchase, reconnect, or credit upgrade is required.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   }
 }
