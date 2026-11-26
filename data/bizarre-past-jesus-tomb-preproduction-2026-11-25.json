@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "checkedAtOslo": "2026-11-26T09:16:42+01:00",
+  "checkedAtOslo": "2026-11-26T11:32:11+01:00",
   "channel": "Bizarre Past",
   "target": "2026-11-29T18:00:00+01:00",
   "format": "16:9 1080p ordinary public film",
-  "status": "PRODUCTION_IN_PROGRESS_VOICE_IMAGES_MUSIC_COMPLETE_20_VIDEO_JOBS_WAITING_NO_EXPORT_NOT_BOOKED",
+  "status": "REVISED_EXPORT_PENDING_TWO_REPLACEMENT_VIDEO_JOBS_ACTIVE_PROVIDER_WAIT_NOT_BOOKED",
   "titles": {
     "selected": "They Opened Jesus’ Tomb—What Did They Find?",
     "alternate": "Inside Jesus’ Traditional Tomb: What Survived?",
@@ -118,9 +118,9 @@
   "productionGates": {
     "duplicateCheck": "Metricool brand 7296504 returned no scheduled posts from 2026-11-25 through 2026-12-03; absence of a booking is not permission to publish without remaining QA.",
     "voice": "PASS: exact previously approved Callum preset 858499d9-fef5-40e1-bc29-b4dc661dc283, elevenlabs_v4_turbo, provider defaults, no pitch shift; user A/B approved 2026-11-26.",
-    "media": "Voice job af35b9be-d991-44e9-9299-209f99ab7765 completed (170.736s); music job 2ee99ab9-7423-4771-a61d-291bbf3e7f5d completed (180.036s); 20 storyboard image jobs completed; 20 MAGI-2 1080p video jobs accepted and remain WAITING at latest provider poll. Do not resubmit while active.",
-    "audiovisualQa": "NOT POSSIBLE until all motion jobs complete and a final exported MP4 exists; no QA or booking claim.",
-    "booking": "NOT_BOOKED; fresh Metricool readback 2026-11-26 returned zero future posts through 2026-12-04.",
+    "media": "Original Callum voice, music, 20 storyboard images and all 20 original MAGI-2 1080p motion clips completed. First full 170.736s MP4 exported. Deep AV-QA rejected two historically misleading scenes. Corrected start images completed and two paid MAGI-2 replacement jobs are accepted and remain WAITING; do not resubmit while active.",
+    "audiovisualQa": "FIRST_EXPORT_FAIL: deep analysis 30fdb13e-c2b0-4849-a61f-07d28478ca0d identified Egyptian sarcophagus/hieroglyphic context at about 01:00–01:10 and Kaaba-like black cube/minaret imagery at about 02:18–02:26. Both are being replaced with source-aligned Jerusalem limestone scenes. Revised MP4 must pass full local and provider AV-QA before booking.",
+    "booking": "NOT_BOOKED; Metricool readback returned zero future posts through 2026-12-05. Booking remains prohibited until revised MP4 passes.",
     "creditsPurchased": false,
     "telegram": false
   },
@@ -134,8 +134,8 @@
     },
     "higgsfield": {
       "plan": "ultra",
-      "credits": 1277.94,
-      "activeJobs": 20,
+      "credits": 1232.99,
+      "activeJobs": 2,
       "voiceJobId": "af35b9be-d991-44e9-9299-209f99ab7765",
       "musicJobId": "2ee99ab9-7423-4771-a61d-291bbf3e7f5d"
     },
@@ -210,13 +210,21 @@
     ],
     "motionModel": "magi_2",
     "motionSpec": "20 x 8s, 16:9, 1080p, silent full-motion",
-    "motionStatus": "20_WAITING_PROVIDER_QUEUE",
+    "motionStatus": "20_ORIGINAL_COMPLETED; 2_QA_REPLACEMENTS_WAITING_PROVIDER_QUEUE",
     "localPreassembly": [
       "script.txt",
       "captions.srt",
       "thumbnail.jpg"
     ],
-    "finalMp4": null
+    "finalMp4": {
+      "status": "first_export_rejected_by_deep_qa",
+      "mediaId": "39f5d5c1-1f3f-4832-b1b8-81dfbdbef8a5",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/39f5d5c1-1f3f-4832-b1b8-81dfbdbef8a5.mp4",
+      "durationSeconds": 170.736,
+      "resolution": "1920x1080",
+      "qaAnalysisId": "30fdb13e-c2b0-4849-a61f-07d28478ca0d",
+      "qaResult": "FAIL_TWO_SCENES"
+    }
   },
   "cost": {
     "startingBalance": 1726.6,
@@ -226,7 +234,45 @@
     "motionCredits": 400,
     "musicCredits": 26.16,
     "balanceAfterAcceptedJobs": 1277.94,
-    "purchases": 0
+    "purchases": 0,
+    "replacementCreditsEstimated": 43,
+    "balanceAfterReplacementSubmission": 1232.99
   },
-  "nextAction": "Keep all 20 unique MAGI-2 job IDs; poll without resubmitting. When terminal, assemble to the exact 170.736s narration, mix instrumental under voice, burn readable captions and AI-reconstruction label, render 1920x1080, perform full end-to-end AV/voice/fact/payoff QA, then attempt Metricool booking for 2026-11-29 18:00 Europe/Oslo and verify provider IDs/status."
+  "nextAction": "Keep the two replacement job IDs and poll without resubmitting. When both complete, replace only scenes 8 and 17, preserve exact approved Callum audio, render revised 170.736s 1920x1080 MP4, perform complete local and provider AV-QA, then book YouTube+TikTok in Metricool for 2026-11-29 18:00 Europe/Oslo only on PASS and read back provider IDs/status.",
+  "qaCorrection": {
+    "detectedAtOslo": "2026-11-26T11:32:11+01:00",
+    "firstExportTechnicalQa": {
+      "fullDecode": "PASS",
+      "blackFrames": "NONE_DETECTED",
+      "frozenFrames": "NONE_DETECTED",
+      "silenceOverOneSecond": "NONE_DETECTED",
+      "integratedLoudnessLUFS": -16.4,
+      "truePeakDbTP": -0.7,
+      "ending": "PASS_COMPLETE_FINAL_LINE"
+    },
+    "failedScenes": [
+      {
+        "scene": 8,
+        "window": "00:59.758–01:08.295",
+        "issue": "Egyptian painted sarcophagus/hieroglyphic context",
+        "replacementImageJobId": "a979c7aa-8372-4ab6-9891-4dbf6aeec6aa",
+        "replacementVideoJobId": "422b1fac-9217-4deb-8554-192c52a7b19d",
+        "replacementVideoStatus": "WAITING"
+      },
+      {
+        "scene": 17,
+        "window": "02:16.589–02:25.126",
+        "issue": "Kaaba-like black cube and minaret imagery",
+        "replacementImageJobId": "de118113-7c75-49c4-b0c5-5f8fda23f201",
+        "replacementVideoJobId": "d6a49b59-2c74-4a91-8949-f6a4a77dad5f",
+        "replacementVideoStatus": "WAITING"
+      }
+    ],
+    "correctionCostCredits": {
+      "images": 3,
+      "videos": 40,
+      "totalEstimated": 43
+    },
+    "purchases": 0
+  }
 }
