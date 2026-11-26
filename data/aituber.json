@@ -1,8 +1,35 @@
 {
-  "updatedAt": "2026-11-25T18:02:00.352Z",
+  "updatedAt": "2026-11-26T17:48:01.483Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "c928875a-4187-4185-ad66-563e900a26b6",
+      "title": "What if GPS went silent for twenty-four hours? Your phone",
+      "status": "completed",
+      "createdAt": "2026-11-26T07:37:34.463Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "0c215c2a-0f34-4f5a-a820-e090e7323379",
+      "title": "What if a volcano erupted beneath a glacier? The lava",
+      "status": "completed",
+      "createdAt": "2026-11-26T07:36:34.429Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "a75bde1d-5eb2-4eff-863b-6190b520a5cd",
+      "title": "What if gravity doubled? For one day, Earth pulls twice",
+      "status": "completed",
+      "createdAt": "2026-11-25T18:02:52.573Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
       "title": "What if Mars replaced our Moon tonight? It would look",
@@ -422,24 +449,6 @@
       "title": "What If Earth Stopped Spinning for One Second?",
       "status": "completed",
       "createdAt": "2026-10-19T16:00:43.088Z",
-      "scheduledAt": null,
-      "channelName": null,
-      "channelId": null
-    },
-    {
-      "id": "57578ee7-f22f-4136-bd7a-29eb9245636f",
-      "title": "The Wobbly Waterwheel",
-      "status": "completed",
-      "createdAt": "2026-10-19T14:00:53.875Z",
-      "scheduledAt": null,
-      "channelName": null,
-      "channelId": null
-    },
-    {
-      "id": "f8fa1675-0a8d-4f92-a210-f8a65fc93293",
-      "title": "What If the Moon Disappeared? — What if in 35 seconds",
-      "status": "completed",
-      "createdAt": "2026-10-18T16:45:18.091Z",
       "scheduledAt": null,
       "channelName": null,
       "channelId": null
