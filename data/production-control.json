@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T15:30:00+01:00",
+  "updatedAt": "2026-11-26T16:35:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -510,7 +510,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-26T15:30:00+01:00",
+      "verifiedDate": "2026-11-26T16:35:00+01:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -887,6 +887,74 @@
           "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-10866225596140443698.mp4",
           "qa": "data/bizarre-past-jesus-tomb-preproduction-2026-11-25.json",
           "aiGeneratedDeclared": true
+        },
+        {
+          "id": 443297043,
+          "uuid": "-7428491052574555295",
+          "date": "2026-11-26",
+          "time": "18:00",
+          "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+          "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1615958245076900473.mp4",
+          "qa": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
+          "aiGeneratedDeclared": true,
+          "network": "youtube"
+        },
+        {
+          "id": 443297043,
+          "uuid": "-7428491052574555295",
+          "date": "2026-11-26",
+          "time": "18:00",
+          "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+          "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1615958245076900473.mp4",
+          "qa": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
+          "aiGeneratedDeclared": true,
+          "network": "tiktok"
+        },
+        {
+          "id": 443297110,
+          "uuid": "-1414575147247844227",
+          "date": "2026-11-27",
+          "time": "18:00",
+          "title": "They Found the Pool Named in John—What Does It Prove?",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+          "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-14269725156292196694.mp4",
+          "qa": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
+          "aiGeneratedDeclared": true,
+          "network": "youtube"
+        },
+        {
+          "id": 443297110,
+          "uuid": "-1414575147247844227",
+          "date": "2026-11-27",
+          "time": "18:00",
+          "title": "They Found the Pool Named in John—What Does It Prove?",
+          "status": "PENDING",
+          "lastVerifiedStatus": "PENDING",
+          "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+          "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+          "autoPublish": true,
+          "mediaPresent": true,
+          "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-14269725156292196694.mp4",
+          "qa": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
+          "aiGeneratedDeclared": true,
+          "network": "tiktok"
         }
       ],
       "whatIfRecovery20261120": {
@@ -7154,7 +7222,7 @@
   },
   "bizarrePastPoolOfSiloamShort20261127": {
     "target": "2026-11-27T18:00:00+01:00",
-    "status": "FINAL_MASTER_QA_PASS_NOT_BOOKED_METRICOOL_INVALID_ARGUMENT",
+    "status": "QA_PASS_PROVIDER_VERIFIED_PENDING",
     "selectedTitle": "They Found the Pool Named in John—What Does It Prove?",
     "alternateTitle": "Sewer Repairs Uncovered the Pool of Siloam",
     "editorialPayoff": "Archaeology recovered the monumental late-Second-Temple setting of John 9, not proof of the miracle.",
@@ -7198,10 +7266,10 @@
         "sizeBytes": 34053548
       }
     },
-    "queueCheck": "Metricool brand 7296504 had no future posts after the published 2026-11-23 Pilate Short when checked 2026-11-24.",
+    "queueCheck": "Verified three Bizarre posts for Nov26, Nov27, Nov29; each has YouTube and TikTok PENDING.",
     "report": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
-    "publication": "NOT_BOOKED_NOT_PUBLISHED",
-    "userAction": "Open Metricool Planner for Bizarre Past brand 7296504, upload final master media d1453d29-74d7-4731-9e76-9b7cf1b6793a, schedule YouTube and TikTok at the next safe 18:00 Europe/Oslo slot, and verify both provider IDs are PENDING. Do not duplicate if the post appears meanwhile.",
+    "publication": "BOOKED_PENDING_NOT_PUBLISHED",
+    "userAction": "Do not rebook; verify both provider results after Friday slot.",
     "telegram": "DISABLED_AND_NOT_TRIGGERED",
     "productionCost": {
       "model": "magi_2",
@@ -7212,7 +7280,7 @@
       "estimatedBalanceAfter": 1727.17,
       "sundayReserveProtected": true
     },
-    "lastUpdatedAtOslo": "2026-11-26T08:51:00+01:00",
+    "lastUpdatedAtOslo": "2026-11-26T16:35:00+01:00",
     "renderBlocker": "Scene 2 remains in_progress after the other four scenes completed. Do not resubmit while state is active; this would risk duplicate spend.",
     "finalQa": {
       "status": "PASS",
@@ -7223,11 +7291,27 @@
       "report": "data/bizarre-past-pool-siloam-qc-2026-11-24.json"
     },
     "bookingAttempt": {
-      "target": "2026-11-27T18:00:00+01:00",
-      "result": "INVALID_ARGUMENT",
-      "readbackFuturePosts": 0,
-      "providerIds": [],
-      "providerStatus": "NOT_BOOKED"
+      "id": 443297110,
+      "uuid": "-1414575147247844227",
+      "date": "2026-11-27",
+      "time": "18:00",
+      "title": "They Found the Pool Named in John—What Does It Prove?",
+      "status": "PENDING",
+      "lastVerifiedStatus": "PENDING",
+      "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+      "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+      "autoPublish": true,
+      "mediaPresent": true,
+      "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-14269725156292196694.mp4",
+      "qa": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
+      "aiGeneratedDeclared": true,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-1414575147247844227",
+      "networks": [
+        "youtube",
+        "tiktok"
+      ],
+      "result": "SUCCESS_READBACK_VERIFIED",
+      "providerStatus": "PENDING"
     }
   },
   "whatIfAgentCheck20261124": {
@@ -7461,14 +7545,14 @@
     "reserve": {
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
-      "currentVerifiedCount": 1,
-      "lastVerifiedAtOslo": "2026-11-26T08:51:00+01:00",
-      "evidence": "Bizarre Past has one unpublished fully QA-approved 39.471s Siloam Short master (media d1453d29-74d7-4731-9e76-9b7cf1b6793a, deep QA PASS). It is not booked because Metricool returned INVALID_ARGUMENT. What If reserve is not verified by this task.",
+      "currentVerifiedCount": 0,
+      "lastVerifiedAtOslo": "2026-11-26T16:35:00+01:00",
+      "evidence": "Siloam QA-pass reserve allocated to Friday verified booking; Viking and Jesus allocated too. No unallocated Bizarre QA-approved reserve verified.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-26T08:41:00+01:00",
-      "whatIfEvidence": "Gravity and glacier Short actual QA HOLD; GPS export processing, Mars HOLD. No approved reserve.",
+      "whatIfLastVerifiedAtOslo": "2026-11-26T16:35:00+01:00",
+      "whatIfEvidence": "Gravity, volcano, Mars and GPS QA HOLD. No unallocated QA-approved reserve verified.",
       "verifiedByChannel": {
-        "bizarre": 1,
+        "bizarre": 0,
         "whatif": 0
       },
       "allActiveChannelsMeetMinimum": false
@@ -7573,7 +7657,7 @@
       "format": "16:9 long-form 2–4 min, story-driven",
       "producer": "Higgsfield",
       "publisher": "Metricool",
-      "status": "FINAL_MASTER_QA_PASS_NOT_BOOKED_METRICOOL_INVALID_ARGUMENT",
+      "status": "QA_PASS_PROVIDER_VERIFIED_PENDING",
       "voice": "Previously approved bright natural Callum voice, exact prior settings; do not use unverified new voice.",
       "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
       "existingMediaId": "15870f3f-ee3f-4889-bb40-590844214cc7",
@@ -7595,11 +7679,32 @@
       "fullAvQaAnalysisId": "949b4efc-2bd7-4279-9b96-1f3b4fc753c2",
       "fullAvQaVerdict": "PASS",
       "correction": "Molten-metal shot fully removed; 00:52-01:00 now shows solid red-hot iron bloom/bar hammered.",
-      "bookingStatus": "NOT_BOOKED",
-      "bookingBlocker": "Metricool createScheduledPost still returned INVALID_ARGUMENT on 2026-11-26 after fresh queue readback showed no future posts. Retried with the actual local 141 MB QA-passed master, combined YouTube+TikTok and YouTube-only; all failed and readback stayed empty.",
-      "requiredAction": "Use already-approved manual acceptance of updated Metricool terms; no repeat consent request. Viking master is staged and exact SHA verified in current shared workspace. When user returns browser control, inspect Planner/queue, then schedule exact QA-passed final master Nov26 at 18:00 Europe/Oslo for YouTube+TikTok if clear, and verify provider IDs/time/status.",
+      "bookingStatus": "PENDING",
+      "bookingBlocker": null,
+      "requiredAction": "Do not rebook; verify provider/public IDs after slot.",
       "qaEvidence": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
-      "lastBookingAttemptAtOslo": "2026-11-26T08:38:00+01:00"
+      "lastBookingAttemptAtOslo": "2026-11-26T16:35:00+01:00",
+      "booking": {
+        "id": 443297043,
+        "uuid": "-7428491052574555295",
+        "date": "2026-11-26",
+        "time": "18:00",
+        "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+        "status": "PENDING",
+        "lastVerifiedStatus": "PENDING",
+        "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+        "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+        "autoPublish": true,
+        "mediaPresent": true,
+        "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1615958245076900473.mp4",
+        "qa": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
+        "aiGeneratedDeclared": true,
+        "networks": [
+          "youtube",
+          "tiktok"
+        ],
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-7428491052574555295"
+      }
     },
     "whatif": {
       "format": "16:9 regular, tightened source-checked narration, length determined by final audio",
@@ -7622,7 +7727,7 @@
       "visual": "Actual 1s frame contact sheets cover full duration; 0–2s 4fps sheet shows WHAT IF caption briefly but commuter is only walking, physical consequence first appears ~3s. Consistent commuter visible, suitcase/rail, stairs, scale, truck, bridge, airliner and underwater scenes visible. Warehouse shot shows rack/boxes but no clear collapse or dropped boxes in inspected frames. No readable 2x underwater/atmospheric pressure comparison confirmed; final graphic generic. No full continuous perceptual AV pass."
     },
     "priority": "Start production today within existing credit balances; verify cost and use efficient motion for key consequences. Full QA and actual booking required before release. Do not treat editorial date as provider booking. If blocked report exact reason; no purchases, no ads, no Telegram, no Little Wild.",
-    "bookingStatus": "BIZARRE_QA_PASS_BUT_METRICOOL_NOT_BOOKED; WHATIF_STATUS_REQUIRES_SEPARATE_VERIFICATION",
+    "bookingStatus": "BIZARRE_BOOKED_PENDING_BOTH; WHATIF_QA_HOLD_NOT_BOOKED",
     "agentInstructions": "Nov26 morning agents prioritize this exceptional Thursday catch-up before Friday. Poll exact accepted jobs, finish repair/assembly and exports, independently verify quality and voice, and schedule for 18:00 if PASS. 16:35 publication control validates both bookings and 18:35 verifies live. Never duplicate or silently bypass QA. If blocked, report specific blocker."
   },
   "workflowVerification20261126": {
@@ -7663,7 +7768,7 @@
     "userActionRequired": "Metricool updated terms are user-approved, but automated acceptance was rejected; user must perform the click in prepared browser. AI Tuber limited upload+read-only OAuth returned insufficient_scopes; explicit broader access decision requested. No purchase required.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T15:30:00+01:00",
+  "lastUpdatedAt": "2026-11-26T16:35:00+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -7734,11 +7839,26 @@
       "videoId": "c928875a-4187-4185-ad66-563e900a26b6",
       "jobId": "d07fe2fd-a00a-472c-989c-d947cf63c063",
       "exportId": "7471340c-bc89-46fb-9986-37079bb9eed2",
-      "status": "GENERATION_COMPLETED_EXPORT_PROCESSING_NOT_BOOKED",
+      "status": "EXPORTED_QA_HOLD_NOT_BOOKED",
       "brief": "data/whatif-gps-silent-long-brief-2026-11-26.md",
-      "durationSeconds": 96,
+      "durationSeconds": 95.168,
       "thumbnail": "ready per provider",
-      "next": "Poll this exact export and inspect actual AV; no duplicate."
+      "next": "Replace mismatched sequences and rebuild clear visual payoff; repeat full export AV QA, verify cost and fresh queue before booking. No duplicate or unverified release.",
+      "actualMediaId": "c881953f-32ae-4638-a777-0f3f98ce9aed",
+      "actualSha256": "99634578bee133281b4ed59a160ff8e9fc6fed23fbe839f1c7337a14d933289d",
+      "technical": "Actual MP4 downloaded, H264/AAC 1920x1080, full decode PASS.",
+      "deepQa": {
+        "id": "a52ecbc7-9639-4afb-a437-6b2d68ed2abf",
+        "verdict": "HOLD",
+        "findings": [
+          "0–2s static dashboard title; no actual GPS failure/drift visible",
+          "5–8s aircraft deicing during navigation narration",
+          "9–14s normal live navigation, no safe stopped vehicle",
+          "57–64s generic server racks, no timing comparison",
+          "77–81s battery charger during clock holdover narration",
+          "Ending on static clock; complete payoff/ending not demonstrated"
+        ]
+      }
     },
     "mars": {
       "status": "UNCHANGED HOLD, not reserve",
@@ -8036,5 +8156,82 @@
         "renameRequired": false
       }
     }
+  },
+  "publicationPreflight20261126": {
+    "checkedAt": "2026-11-26T16:35:00+01:00",
+    "window": "2026-11-26 through 2026-12-03",
+    "booked": [
+      {
+        "id": 443297043,
+        "uuid": "-7428491052574555295",
+        "date": "2026-11-26",
+        "time": "18:00",
+        "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
+        "status": "PENDING",
+        "lastVerifiedStatus": "PENDING",
+        "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+        "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+        "autoPublish": true,
+        "mediaPresent": true,
+        "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-1615958245076900473.mp4",
+        "qa": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
+        "aiGeneratedDeclared": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-7428491052574555295"
+      },
+      {
+        "id": 443297110,
+        "uuid": "-1414575147247844227",
+        "date": "2026-11-27",
+        "time": "18:00",
+        "title": "They Found the Pool Named in John—What Does It Prove?",
+        "status": "PENDING",
+        "lastVerifiedStatus": "PENDING",
+        "statusVerifiedDate": "2026-11-26T16:35:00+01:00",
+        "statusSource": "Authenticated Metricool createScheduledPost succeeded and getScheduledPosts readback verified both provider rows; not yet public.",
+        "autoPublish": true,
+        "mediaPresent": true,
+        "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-14269725156292196694.mp4",
+        "qa": "data/bizarre-past-pool-siloam-qc-2026-11-24.json",
+        "aiGeneratedDeclared": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-1414575147247844227"
+      },
+      {
+        "id": 443204423,
+        "uuid": "6713892857688049338",
+        "date": "2026-11-29",
+        "time": "18:00",
+        "title": "They Opened Jesus’ Tomb—What Did They Find?",
+        "status": "PENDING",
+        "networks": [
+          "youtube",
+          "tiktok"
+        ]
+      }
+    ],
+    "whatIf": {
+      "metricool": "No bookings returned",
+      "aiTuber": "Morning verified pause/zero up next; current API has no full publication queue. No new publication action.",
+      "today": "Gravity export QA HOLD (late physical hook, missing visual damage/pressure payoff)",
+      "tomorrow": "Volcano glacier export QA HOLD (missing heat/ice/trapped-water mechanism, 24.875s)",
+      "sunday": "GPS export deep QA HOLD; findings in whatIfAgentCheck20261126.gps"
+    },
+    "lookahead": [
+      {
+        "date": "2026-11-30",
+        "bizarre": "Short unbooked",
+        "whatIf": "Short unbooked"
+      },
+      {
+        "date": "2026-12-02",
+        "bizarre": "Long form unbooked",
+        "whatIf": "Long form unbooked"
+      }
+    ],
+    "reserve": "0 verified unallocated per channel",
+    "metricoolRecovery": "Actual scheduling recovered for both masters. Earlier terms UI acceptance not independently verified; no claim of full repair.",
+    "creditPurchases": 0,
+    "ads": 0,
+    "telegram": 0,
+    "littleWild": 0
   }
 }
