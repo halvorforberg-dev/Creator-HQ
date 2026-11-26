@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T09:09:07+01:00",
+  "updatedAt": "2026-11-26T09:16:42+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -6985,7 +6985,7 @@
   },
   "bizarrePastSundayJesusEditorial20261129": {
     "target": "2026-11-29T18:00:00+01:00",
-    "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_READY_VOICE_QA_HOLD_NOT_GENERATED_NOT_EXPORTED_NOT_BOOKED",
+    "status": "PRODUCTION_IN_PROGRESS_VOICE_IMAGES_MUSIC_COMPLETE_20_VIDEO_JOBS_WAITING_NO_EXPORT_NOT_BOOKED",
     "userDirection": "2–3 minutes, compelling and exciting throughout; capture attention immediately; no filler.",
     "title": "They Opened Jesus’ Tomb—What Did They Find?",
     "durationSecondsTarget": 160,
@@ -7040,11 +7040,61 @@
     "editorialPayoff": "Researchers exposed a surviving limestone burial bench and dated construction material linking its protection to the fourth-century Constantine-era shrine; this does not identify the occupant or test the resurrection.",
     "report": "data/bizarre-past-jesus-tomb-preproduction-2026-11-25.json",
     "sourceCheckedAtOslo": "2026-11-25T18:55:00+01:00",
-    "generatedAssets": [],
+    "generatedAssets": {
+      "voiceJobId": "af35b9be-d991-44e9-9299-209f99ab7765",
+      "musicJobId": "2ee99ab9-7423-4771-a61d-291bbf3e7f5d",
+      "storyboardImageJobs": [
+        "22ab58d2-9c74-4759-879a-93640b4ccea5",
+        "32bf3ac1-45bc-417d-8abc-cd188884e241",
+        "6619a195-dfe3-48a4-a6c6-a27348dfaf6d",
+        "5ae310b5-4301-4eb3-ad0b-af4709d9dea5",
+        "1a177512-e0ec-4017-9d2f-e6ce0d883e37",
+        "2264318a-11bb-46a4-996c-85c7ed4ed99f",
+        "8f01ad21-925c-49eb-b1d8-1f014285c985",
+        "75fbe7b2-6049-4c99-9dcd-10fd7be06d5d",
+        "a56a9f12-f025-4442-8896-b66d696efbb1",
+        "c53d8e58-8a42-40f6-859a-52b6ab2b9506",
+        "ab5e4b7b-b6b3-4c7d-8c11-d8fa03f83843",
+        "bc9ec14d-f57a-4b6c-b4e2-31803f9201e1",
+        "aeef935f-eb7c-4ad5-a71c-761b085d7bf4",
+        "ab6e5c24-14c4-4f20-ad93-a3d83c379420",
+        "c35ccd27-f3f4-4ff2-b58f-53bd9582b36b",
+        "263142c3-34be-4cec-b2b8-523732d39994",
+        "926300d9-516e-48b3-b506-e3e77eacf436",
+        "d50d48fa-31fd-489c-bcb4-64d397bb4c4a",
+        "39974a94-a2cb-4d76-8337-ab3901a9550f",
+        "7903f75d-4590-4dcf-8be4-453c5d3b8ad1"
+      ],
+      "motionVideoJobs": [
+        "ed8effb3-ae22-407d-81e8-2ace33e1269a",
+        "02d22472-a46c-41a0-bf52-b18216adaecc",
+        "55869497-e5fe-480e-b84d-a4af203fe4df",
+        "8ce5f01e-6a8b-4be3-9a78-7f7bed848aa0",
+        "bae71325-7a8b-4057-83b2-fe5b863495c9",
+        "665a62bc-4a44-4995-a4e0-e9d8ffd929b6",
+        "afe9511f-db16-4dc5-ac7f-c555a9160ed0",
+        "5529b74f-4508-4dba-9321-468f14830ec6",
+        "30de3fce-7a20-4abb-b40c-8c764259f3b2",
+        "df671fb2-6b30-43eb-9579-e269c9ee38f6",
+        "e267dd06-1adc-494b-90db-0cf0778d23b5",
+        "8f526ecd-f007-4517-a8ef-2452b1440ea5",
+        "306c4b7a-77f3-4b2b-971d-085531f96d29",
+        "e7d9db85-85b9-4915-91d8-0e1dfec4b698",
+        "13893057-1208-4e3d-9fb6-90fe0a33700c",
+        "5caf4a20-0f3d-4336-be0a-2faec6160e28",
+        "25266a2e-ba53-468a-92f7-58e544b0ad8e",
+        "119f7587-6e14-44eb-a8b3-7fdc81533383",
+        "40ef2562-4fc8-4e58-ae6c-6217d9aed192",
+        "b827267d-5eb5-43aa-a41e-fd19c264a68e"
+      ],
+      "motionStatus": "20_WAITING_PROVIDER_QUEUE",
+      "finalMp4": null
+    },
     "finalMp4": null,
     "bookingId": null,
-    "voiceStatus": "EXACT_ID_ENGINE_SETTINGS_DOCUMENTED_BUT_PERCEPTUAL_A_B_NOT_VERIFIED_HOLD",
-    "nextFeasibleAction": "After human perceptual A/B confirmation of the Siloam exact-config sample against the approved Herculaneum reference, cost-quote Sunday production, generate only if budget covers full film plus retakes, then perform complete AV QA before Metricool booking."
+    "voiceStatus": "PASS_EXACT_CALLUM_USER_AB_APPROVED_FULL_NARRATION_COMPLETED",
+    "nextFeasibleAction": "Poll the 20 already accepted MAGI-2 jobs without resubmitting; then assemble 170.736s final, full AV/voice/fact/payoff QA, and only after PASS attempt Metricool booking for 2026-11-29 18:00 Europe/Oslo with provider readback.",
+    "lastUpdatedAtOslo": "2026-11-26T09:16:42+01:00"
   },
   "bizarrePastPoolOfSiloamShort20261127": {
     "target": "2026-11-27T18:00:00+01:00",
@@ -7737,5 +7787,72 @@
     "newGenerations": 0,
     "creditPurchases": 0,
     "telegramSent": 0
+  },
+  "bizarrePastSundayAgentCheck20261126": {
+    "checkedAtOslo": "2026-11-26T09:16:42+01:00",
+    "governingSource": "productionReliability20261125 plus creative-prompt-upgrades.json",
+    "target": "2026-11-29T18:00:00+01:00",
+    "metricool": {
+      "brandId": 7296504,
+      "period": "2026-11-26 through 2026-12-04 Europe/Oslo",
+      "scheduledPosts": 0,
+      "sundayBooking": null,
+      "providerVerified": true
+    },
+    "voice": {
+      "status": "PASS",
+      "jobId": "af35b9be-d991-44e9-9299-209f99ab7765",
+      "model": "elevenlabs_v4_turbo",
+      "preset": "Callum",
+      "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "durationSeconds": 170.736327,
+      "userABApproved": "2026-11-26",
+      "pitchShift": false
+    },
+    "production": {
+      "selectedTitle": "They Opened Jesus’ Tomb—What Did They Find?",
+      "alternateTitle": "Inside Jesus’ Traditional Tomb: What Survived?",
+      "payoff": "Surviving limestone burial bench and fourth-century protection are documented; occupant and resurrection are not established.",
+      "storyboardImagesCompleted": 20,
+      "motionModel": "magi_2",
+      "motionJobsAccepted": 20,
+      "motionStatus": "WAITING",
+      "musicCompleted": true,
+      "finalExport": null,
+      "avQa": "NOT_POSSIBLE_NO_FINAL_MP4",
+      "booking": "NOT_BOOKED"
+    },
+    "budget": {
+      "balanceBefore": 1726.6,
+      "balanceAfterAcceptedJobs": 1277.94,
+      "newPurchases": 0,
+      "motionCredits": 400,
+      "voiceCredits": 7.5,
+      "musicCredits": 26.16,
+      "imageCreditsApprox": 15.75
+    },
+    "blocker": {
+      "id": "bizarre-sunday-magi2-provider-wait-2026-11-26",
+      "state": "active_wait",
+      "requiresUserAction": false,
+      "detail": "All 20 paid MAGI-2 jobs are accepted but remain in provider WAITING state; do not resubmit or switch provider/model."
+    },
+    "reserve": {
+      "bizarreVerifiedCount": 1,
+      "evidence": "Separate Siloam Short remains unpublished QA-approved reserve; Sunday long-form is not a reserve until final AV QA passes."
+    },
+    "actions": {
+      "newVoiceGenerations": 1,
+      "newImageGenerations": 21,
+      "newVideoGenerations": 20,
+      "newMusicGenerations": 1,
+      "newExports": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "creditPurchases": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "paidPromotion": 0
+    }
   }
 }
