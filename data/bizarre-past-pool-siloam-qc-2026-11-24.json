@@ -1,10 +1,10 @@
 {
   "reportVersion": 1,
-  "checkedAt": "2026-11-24T08:55:00+01:00",
+  "checkedAt": "2026-11-26T08:09:00+01:00",
   "channel": "Bizarre Past",
   "deliverable": "35–40 second 9:16 Short for next open Friday slot",
   "targetSlot": "2026-11-27T18:00:00+01:00",
-  "status": "HOLD_VOICE_PERCEPTUAL_MATCH_NOT_VERIFIED_NO_VIDEO_GENERATION_NO_BOOKING",
+  "status": "IN_PRODUCTION_VOICE_APPROVED_FIVE_VIDEO_RENDERS_PENDING",
   "queueEvidence": {
     "metricoolBrandId": "7296504",
     "checkedRange": "2026-11-24 through 2026-12-01 Europe/Oslo",
@@ -64,11 +64,11 @@
     },
     "configurationMatch": "PASS",
     "completeSpeechAndDuration": "PASS",
-    "perceptualWarmthAndStyleMatch": "NOT_VERIFIED",
-    "blocker": "The current execution environment cannot perceive audio input, so it cannot truthfully perform the mandated A/B listening comparison against the approved Herculaneum reference."
+    "perceptualWarmthAndStyleMatch": "PASS_USER_APPROVED_2026-11-26",
+    "blocker": null
   },
   "visuals": {
-    "status": "FIVE_STATIC_STORYBOARD_FRAMES_GENERATED_NOT_ANIMATED",
+    "status": "FIVE_STATIC_STORYBOARD_FRAMES_COMPLETE_FIVE_1080P_VIDEO_RENDERS_PENDING",
     "jobs": [
       "0988d309-efc2-41b4-9915-82ab2df75d82",
       "eb86f718-6092-49df-b47d-f367a92e028d",
@@ -76,13 +76,23 @@
       "c9e9a7bf-884e-489c-b0a1-37199f7967f9",
       "52436dda-0383-4c4b-a97a-d2eb29ed9d1a"
     ],
-    "preliminaryVisualReview": "Strong coherent excavation/pool/reconstruction sequence; no obvious text, logo or watermark. This is not final video QC."
+    "preliminaryVisualReview": "Strong coherent excavation/pool/reconstruction sequence; no obvious text, logo or watermark. This is not final video QC.",
+    "animatedJobs": [
+      "3672bd83-6008-4b9b-9966-e651f3ec69af",
+      "d25a5316-e8ba-402c-8902-6ccef47bc0e0",
+      "d69566fb-5d24-4251-8656-edb72ee12fea",
+      "b338fefe-ed9f-492b-9c7d-97e7abc7ade3",
+      "48cb6a68-a2af-4d42-a905-4ba36bdc463c"
+    ]
   },
   "credits": {
     "higgsfieldBalanceBefore": 1865.87,
     "estimatedSpentThisRun": 5.55,
-    "videoCreditsNotSpent": "Five 8-second animations were not submitted; approximately 60 credits preserved.",
-    "sundayReserveProtected": true
+    "videoCreditsNotSpent": null,
+    "sundayReserveProtected": true,
+    "higgsfieldBalanceBeforeVideoSubmission": 1827.17,
+    "quotedVideoCredits": 100,
+    "estimatedBalanceAfter": 1727.17
   },
   "publishing": {
     "finalMp4Exists": false,
@@ -90,6 +100,6 @@
     "metricoolBookingCreated": false,
     "publicationClaim": false
   },
-  "resolutionRequired": "A human must A/B-listen to the two linked audio files and confirm the new sample matches the older approved brighter, warmer, conversational voice. Only then may animation, final MP4 assembly, full AV QA and Metricool booking continue.",
+  "resolutionRequired": "Wait for the five submitted Higgsfield renders, assemble the 39.471-second 9:16 master with the approved Callum voice, perform full audiovisual QA including voice-match, then book YouTube and TikTok for 2026-11-27 18:00 Europe/Oslo only if all gates pass.",
   "telegram": "No Telegram action, message, workflow or alert was triggered."
 }
