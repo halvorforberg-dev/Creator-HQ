@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T15:30:25+01:00",
+  "updatedAt": "2026-11-26T08:41:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -442,6 +442,42 @@
         "remaining": "Tidal cycle time lapse, gauge, continuous AV and current AutoPilot clearance"
       },
       "lastCheckedAt": "2026-11-25T15:30:25+01:00"
+    },
+    {
+      "id": "whatif-gravity-final-av-qc-2026-11-26",
+      "summary": "Gravity: final MP4 downloaded and decoded (69.973s 1920x1080 AAC). Actual sampled frame audit shows WHAT IF at early frame but no concrete physical consequence until ~3s, warehouse boxes/rack damage not demonstrated, numerical gauge/atmosphere payoff visuals unclear. ASR includes ending but timestamp exceeds probed duration; full perceptual sound and continuous motion not confirmed. No booking.",
+      "action": "Keep exact export; correct initial visual beat and missing physical/gauge evidence with supported scene-level editing only; verify final full AV, queue and AutoPilot before booking. No duplicate or speculative paid regeneration.",
+      "source": {
+        "type": "provider_export_and_actual_sampled_frames_asr",
+        "videoId": "a75bde1d-5eb2-4eff-863b-6190b520a5cd",
+        "exportId": "15a17739-2ed8-4adb-a4e3-5b296c035887"
+      },
+      "channel": "What If in 40 Seconds",
+      "category": "quality_gate_blocker",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-26T08:41:00+01:00",
+      "notificationRevision": 1,
+      "ownerActionRequired": false
+    },
+    {
+      "id": "whatif-volcano-glacier-final-av-qc-2026-11-26",
+      "summary": "New stock Short exported (24.875s 1080x1920) and actual frames/ASR inspected. Required glacier/volcanic heat sequence missing: generic water under a concrete structure used during melting/trapped-water explanation; flooding shown, but no visual ice/volcanic mechanism; shorter than target. Full perceptual AV not passed.",
+      "action": "Do not publish. Preserve existing export; replace mismatched opening/mechanism footage using supported scene editing if available; verify first 2s, causal shots, full AV and queue before booking. No duplicate or credit purchase.",
+      "source": {
+        "type": "provider_export_and_actual_sampled_frames_asr",
+        "videoId": "0c215c2a-0f34-4f5a-a820-e090e7323379",
+        "exportId": "7c72ab30-aa2c-4998-99ca-6131cb37342e"
+      },
+      "channel": "What If in 40 Seconds",
+      "category": "quality_gate_blocker",
+      "state": "open",
+      "severity": "blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-26T08:41:00+01:00",
+      "notificationRevision": 1,
+      "ownerActionRequired": false
     }
   ]
 }
