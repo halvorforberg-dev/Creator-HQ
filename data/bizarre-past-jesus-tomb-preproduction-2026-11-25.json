@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "checkedAtOslo": "2026-11-26T11:32:11+01:00",
+  "checkedAtOslo": "2026-11-26T15:30:00+01:00",
   "channel": "Bizarre Past",
   "target": "2026-11-29T18:00:00+01:00",
   "format": "16:9 1080p ordinary public film",
-  "status": "REVISED_EXPORT_PENDING_TWO_REPLACEMENT_VIDEO_JOBS_ACTIVE_PROVIDER_WAIT_NOT_BOOKED",
+  "status": "REVISED_EXPORT_FULL_AV_QA_PASS_METRICOOL_PENDING_YOUTUBE_TIKTOK",
   "titles": {
     "selected": "They Opened Jesus’ Tomb—What Did They Find?",
     "alternate": "Inside Jesus’ Traditional Tomb: What Survived?",
@@ -118,9 +118,9 @@
   "productionGates": {
     "duplicateCheck": "Metricool brand 7296504 returned no scheduled posts from 2026-11-25 through 2026-12-03; absence of a booking is not permission to publish without remaining QA.",
     "voice": "PASS: exact previously approved Callum preset 858499d9-fef5-40e1-bc29-b4dc661dc283, elevenlabs_v4_turbo, provider defaults, no pitch shift; user A/B approved 2026-11-26.",
-    "media": "Original Callum voice, music, 20 storyboard images and all 20 original MAGI-2 1080p motion clips completed. First full 170.736s MP4 exported. Deep AV-QA rejected two historically misleading scenes. Corrected start images completed and two paid MAGI-2 replacement jobs are accepted and remain WAITING; do not resubmit while active.",
-    "audiovisualQa": "FIRST_EXPORT_FAIL: deep analysis 30fdb13e-c2b0-4849-a61f-07d28478ca0d identified Egyptian sarcophagus/hieroglyphic context at about 01:00–01:10 and Kaaba-like black cube/minaret imagery at about 02:18–02:26. Both are being replaced with source-aligned Jerusalem limestone scenes. Revised MP4 must pass full local and provider AV-QA before booking.",
-    "booking": "NOT_BOOKED; Metricool readback returned zero future posts through 2026-12-05. Booking remains prohibited until revised MP4 passes.",
+    "media": "PASS: both QA replacement MAGI-2 clips completed and were inserted only in scenes 8 and 17; exact approved Callum narration and music preserved.",
+    "audiovisualQa": "PASS: local full decode, black/freeze/silence and loudness checks passed; Higgsfield deep analysis 51c72b0d-b5ce-4117-abbe-cca3844a7277 returned explicit PASS for the full film with sound.",
+    "booking": "PASS: Metricool post id 443204423 / uuid 6713892857688049338 is PENDING on both YouTube and TikTok for 2026-11-29 18:00 Europe/Oslo; provider readback returned exactly one scheduled post.",
     "creditsPurchased": false,
     "telegram": false
   },
@@ -129,15 +129,31 @@
       "brandId": 7296504,
       "youtube": "UCBO7keO3jYYoXbc_TtkXiTA",
       "tiktok": "bizzare.past",
-      "futurePostsThrough": "2026-12-04",
-      "scheduledPosts": 0
+      "checkedRange": "2026-11-26 through 2026-12-05 Europe/Oslo",
+      "scheduledPosts": 1,
+      "postId": 443204423,
+      "uuid": "6713892857688049338",
+      "publicationDate": "2026-11-29T18:00:00+01:00",
+      "youtubeStatus": "PENDING",
+      "tiktokStatus": "PENDING",
+      "autoPublish": true,
+      "youtubeMadeForKids": false,
+      "youtubeAiGenerated": true,
+      "tiktokAiGenerated": true,
+      "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-10866225596140443698.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=6713892857688049338"
     },
     "higgsfield": {
       "plan": "ultra",
       "credits": 1232.99,
-      "activeJobs": 2,
+      "activeJobs": 0,
       "voiceJobId": "af35b9be-d991-44e9-9299-209f99ab7765",
-      "musicJobId": "2ee99ab9-7423-4771-a61d-291bbf3e7f5d"
+      "musicJobId": "2ee99ab9-7423-4771-a61d-291bbf3e7f5d",
+      "replacementVideoJobIds": [
+        "422b1fac-9217-4deb-8554-192c52a7b19d",
+        "d6a49b59-2c74-4a91-8949-f6a4a77dad5f"
+      ],
+      "finalAnalysisId": "51c72b0d-b5ce-4117-abbe-cca3844a7277"
     },
     "vidiq": {
       "credits": 1817,
@@ -210,21 +226,39 @@
     ],
     "motionModel": "magi_2",
     "motionSpec": "20 x 8s, 16:9, 1080p, silent full-motion",
-    "motionStatus": "20_ORIGINAL_COMPLETED; 2_QA_REPLACEMENTS_WAITING_PROVIDER_QUEUE",
+    "motionStatus": "20_ORIGINAL_COMPLETED; 2_QA_REPLACEMENTS_COMPLETED",
     "localPreassembly": [
       "script.txt",
       "captions.srt",
       "thumbnail.jpg"
     ],
     "finalMp4": {
-      "status": "first_export_rejected_by_deep_qa",
-      "mediaId": "39f5d5c1-1f3f-4832-b1b8-81dfbdbef8a5",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/39f5d5c1-1f3f-4832-b1b8-81dfbdbef8a5.mp4",
-      "durationSeconds": 170.736,
+      "status": "PASS",
+      "mediaId": "30cd6bc2-5d0b-456f-80fb-663606bbe4dc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/30cd6bc2-5d0b-456f-80fb-663606bbe4dc.mp4",
+      "durationSeconds": 170.72,
       "resolution": "1920x1080",
-      "qaAnalysisId": "30fdb13e-c2b0-4849-a61f-07d28478ca0d",
-      "qaResult": "FAIL_TWO_SCENES"
-    }
+      "frameRate": 25,
+      "fileBytes": 93339430,
+      "qaAnalysisId": "51c72b0d-b5ce-4117-abbe-cca3844a7277",
+      "qaResult": "PASS"
+    },
+    "replacementMotionVideoJobs": [
+      {
+        "scene": 8,
+        "jobId": "422b1fac-9217-4deb-8554-192c52a7b19d",
+        "status": "completed",
+        "resolution": "1920x1080",
+        "durationSeconds": 8.08
+      },
+      {
+        "scene": 17,
+        "jobId": "d6a49b59-2c74-4a91-8949-f6a4a77dad5f",
+        "status": "completed",
+        "resolution": "1920x1080",
+        "durationSeconds": 8.08
+      }
+    ]
   },
   "cost": {
     "startingBalance": 1726.6,
@@ -238,7 +272,7 @@
     "replacementCreditsEstimated": 43,
     "balanceAfterReplacementSubmission": 1232.99
   },
-  "nextAction": "Keep the two replacement job IDs and poll without resubmitting. When both complete, replace only scenes 8 and 17, preserve exact approved Callum audio, render revised 170.736s 1920x1080 MP4, perform complete local and provider AV-QA, then book YouTube+TikTok in Metricool for 2026-11-29 18:00 Europe/Oslo only on PASS and read back provider IDs/status.",
+  "nextAction": "After 2026-11-29 18:00 Europe/Oslo, verify PUBLISHED status and publicUrl for both YouTube and TikTok. Preserve this booking; do not duplicate or reschedule.",
   "qaCorrection": {
     "detectedAtOslo": "2026-11-26T11:32:11+01:00",
     "firstExportTechnicalQa": {
@@ -257,7 +291,7 @@
         "issue": "Egyptian painted sarcophagus/hieroglyphic context",
         "replacementImageJobId": "a979c7aa-8372-4ab6-9891-4dbf6aeec6aa",
         "replacementVideoJobId": "422b1fac-9217-4deb-8554-192c52a7b19d",
-        "replacementVideoStatus": "WAITING"
+        "replacementVideoStatus": "COMPLETED"
       },
       {
         "scene": 17,
@@ -265,7 +299,7 @@
         "issue": "Kaaba-like black cube and minaret imagery",
         "replacementImageJobId": "de118113-7c75-49c4-b0c5-5f8fda23f201",
         "replacementVideoJobId": "d6a49b59-2c74-4a91-8949-f6a4a77dad5f",
-        "replacementVideoStatus": "WAITING"
+        "replacementVideoStatus": "COMPLETED"
       }
     ],
     "correctionCostCredits": {
@@ -273,6 +307,84 @@
       "videos": 40,
       "totalEstimated": 43
     },
-    "purchases": 0
+    "purchases": 0,
+    "resolvedAtOslo": "2026-11-26T15:30:00+01:00",
+    "revisedExportStatus": "PASS",
+    "finalAnalysisId": "51c72b0d-b5ce-4117-abbe-cca3844a7277",
+    "bookingId": 443204423,
+    "bookingUuid": "6713892857688049338",
+    "providerStatuses": {
+      "youtube": "PENDING",
+      "tiktok": "PENDING"
+    }
+  },
+  "finalQa": {
+    "checkedAtOslo": "2026-11-26T15:30:00+01:00",
+    "local": {
+      "fullDecode": "PASS",
+      "blackFrames": "NONE_DETECTED",
+      "frozenFramesOver1_5s": "NONE_DETECTED",
+      "silenceOver1s": "NONE_DETECTED",
+      "integratedLoudnessLUFS": -16.4,
+      "loudnessRangeLU": 3.5,
+      "truePeakDbTP": -0.7,
+      "exactApprovedCallumAudioPreserved": true
+    },
+    "providerDeepAnalysis": {
+      "id": "51c72b0d-b5ce-4117-abbe-cca3844a7277",
+      "status": "completed",
+      "verdict": "PASS",
+      "confirmed": [
+        "Did you know spoken and written within first two seconds",
+        "Continuous relevant full-motion",
+        "Readable synchronized captions",
+        "Natural warm Callum-style voice without pitch shift",
+        "Balanced sound and complete final sentence",
+        "No Egyptian sarcophagus or hieroglyphic imagery at 00:59–01:09",
+        "No Kaaba, mosque, minaret or Islamic imagery at 02:16–02:26",
+        "Documented evidence separated from tradition and faith"
+      ]
+    }
+  },
+  "metricoolBooking": {
+    "id": 443204423,
+    "uuid": "6713892857688049338",
+    "title": "They Opened Jesus’ Tomb—What Did They Find?",
+    "publicationDate": {
+      "dateTime": "2026-11-29T18:00:00",
+      "timezone": "Europe/Oslo"
+    },
+    "providers": [
+      {
+        "network": "youtube",
+        "status": "PENDING",
+        "detailedStatus": "Pending"
+      },
+      {
+        "network": "tiktok",
+        "status": "PENDING",
+        "detailedStatus": "Pending"
+      }
+    ],
+    "autoPublish": true,
+    "youtubeData": {
+      "type": "video",
+      "privacy": "public",
+      "madeForKids": false,
+      "isAiGeneratedContent": true,
+      "notifySubscribers": true
+    },
+    "tiktokData": {
+      "privacyOption": "PUBLIC_TO_EVERYONE",
+      "isAigc": true
+    },
+    "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-10866225596140443698.mp4",
+    "duplicateCheck": "PASS: exactly one scheduled post in authenticated readback."
+  },
+  "blocker": {
+    "id": "bizarre-sunday-qa-replacement-provider-wait-2026-11-26",
+    "state": "resolved",
+    "resolvedAtOslo": "2026-11-26T15:30:00+01:00",
+    "requiresUserAction": false
   }
 }
