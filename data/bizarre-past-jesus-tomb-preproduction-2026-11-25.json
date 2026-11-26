@@ -156,13 +156,18 @@
       "finalAnalysisId": "51c72b0d-b5ce-4117-abbe-cca3844a7277"
     },
     "vidiq": {
-      "credits": 1817,
+      "totalCredits": 1812,
+      "renewableCredits": 1810,
+      "addonCredits": 2,
+      "resetDate": "2026-12-21",
       "activeJobs": 0,
       "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "channelHandle": "@bizarrepast69",
       "subscribers": 46,
-      "lifetimeViews": 12610,
+      "lifetimeViews": 12654,
       "publicVideos": 30,
-      "creditsSpentThisRun": 15
+      "authenticatedAccount": "halvorforberg@gmail.com",
+      "productionBlockedByCredits": false
     }
   },
   "generatedAssets": {
