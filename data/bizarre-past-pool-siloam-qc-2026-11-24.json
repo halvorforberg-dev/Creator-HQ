@@ -1,10 +1,10 @@
 {
   "reportVersion": 1,
-  "checkedAt": "2026-11-26T08:33:00+01:00",
+  "checkedAt": "2026-11-26T08:51:00+01:00",
   "channel": "Bizarre Past",
   "deliverable": "35–40 second 9:16 Short for next open Friday slot",
   "targetSlot": "2026-11-27T18:00:00+01:00",
-  "status": "HOLD_FOUR_OF_FIVE_VIDEO_RENDERS_COMPLETE_ONE_STILL_IN_PROGRESS_NO_FINAL_MP4_NOT_BOOKED",
+  "status": "FINAL_MASTER_QA_PASS_NOT_BOOKED_METRICOOL_INVALID_ARGUMENT",
   "queueEvidence": {
     "metricoolBrandId": "7296504",
     "checkedRange": "2026-11-24 through 2026-12-01 Europe/Oslo",
@@ -64,11 +64,11 @@
     },
     "configurationMatch": "PASS",
     "completeSpeechAndDuration": "PASS",
-    "perceptualWarmthAndStyleMatch": "PASS_USER_APPROVED_2026-11-26",
+    "perceptualWarmthAndStyleMatch": "PASS_USER_APPROVED_AND_FINAL_AV_ANALYSIS",
     "blocker": null
   },
   "visuals": {
-    "status": "FOUR_1080P_RENDERS_COMPLETE_ONE_RENDER_IN_PROGRESS",
+    "status": "FOUR_DISTINCT_1080P_FULL_MOTION_SCENES_IN_FINAL_MASTER",
     "jobs": [
       "0988d309-efc2-41b4-9915-82ab2df75d82",
       "eb86f718-6092-49df-b47d-f367a92e028d",
@@ -91,7 +91,31 @@
       "48cb6a68-a2af-4d42-a905-4ba36bdc463c"
     ],
     "activeJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0",
-    "review": "Four completed clips are 1080x1920 and passed preliminary contact-sheet review. The modern excavation scene remains active; no duplicate was submitted."
+    "review": "Four completed clips are 1080x1920 and passed preliminary contact-sheet review. The modern excavation scene remains active; no duplicate was submitted.",
+    "finalSceneOrder": [
+      {
+        "order": 1,
+        "sourceJob": "3672bd83-6008-4b9b-9966-e651f3ec69af",
+        "purpose": "2004 sewer-work discovery and exposed steps"
+      },
+      {
+        "order": 2,
+        "sourceJob": "d69566fb-5d24-4251-8656-edb72ee12fea",
+        "purpose": "late-Second-Temple pool scale and pilgrim use"
+      },
+      {
+        "order": 3,
+        "sourceJob": "b338fefe-ed9f-492b-9c7d-97e7abc7ade3",
+        "purpose": "respectful visualization of John 9 tradition"
+      },
+      {
+        "order": 4,
+        "sourceJob": "48cb6a68-a2af-4d42-a905-4ba36bdc463c",
+        "purpose": "modern archaeology and evidence limit"
+      }
+    ],
+    "excludedActiveJob": "d25a5316-e8ba-402c-8902-6ccef47bc0e0",
+    "exclusionReason": "Scene 2 duplicated the discovery beat and remained in_progress. The final used four distinct scenes without additional credit spend; no resubmission."
   },
   "credits": {
     "higgsfieldBalanceBefore": 1865.87,
@@ -100,14 +124,38 @@
     "sundayReserveProtected": true,
     "higgsfieldBalanceBeforeVideoSubmission": 1827.17,
     "quotedVideoCredits": 100,
-    "estimatedBalanceAfter": 1727.17
+    "estimatedBalanceAfter": 1727.17,
+    "actualVideoCredits": 100
   },
   "publishing": {
-    "finalMp4Exists": false,
-    "fullAvQaPassed": false,
+    "finalMp4Exists": true,
+    "fullAvQaPassed": true,
     "metricoolBookingCreated": false,
-    "publicationClaim": false
+    "publicationClaim": false,
+    "finalMaster": {
+      "mediaId": "d1453d29-74d7-4731-9e76-9b7cf1b6793a",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/d1453d29-74d7-4731-9e76-9b7cf1b6793a.mp4",
+      "durationSeconds": 39.471,
+      "resolution": "1080x1920",
+      "codec": "H.264/AAC",
+      "sizeBytes": 34053548,
+      "sha256": "5656dc262a7bddb4422ad4bf3a1fcfb7de4196d7ffe6f41b0f7898cd3fb5f5dc",
+      "integratedLoudnessLUFS": -18.1,
+      "truePeakDBFS": -1.8
+    },
+    "avQa": {
+      "analysisId": "abdf0611-91aa-41f2-bec2-e9cfa5af5c52",
+      "verdict": "PASS",
+      "verified": "hook 0-2s, narrative/factual boundary, scene progression, full motion, captions, exact approved voice character, music balance, payoff, duration and ending"
+    },
+    "bookingAttempt": {
+      "target": "2026-11-27T18:00:00+01:00",
+      "result": "INVALID_ARGUMENT",
+      "readbackFuturePosts": 0,
+      "providerIds": [],
+      "status": "NOT_BOOKED"
+    }
   },
-  "resolutionRequired": "Wait for active scene 2 job d25a5316-e8ba-402c-8902-6ccef47bc0e0 to reach terminal state. If completed, assemble and run full AV-QA; if failed, quote one replacement before resubmission. Do not count this as a reserve or booking.",
+  "resolutionRequired": "Metricool createScheduledPost returned INVALID_ARGUMENT for the actual local 34.1 MB QA-passed master. Fresh readback confirmed zero future posts, so no duplicate exists. User action: use Metricool Planner manually to upload this verified master to YouTube and TikTok at the next safe 18:00 Europe/Oslo slot and confirm both provider IDs are PENDING.",
   "telegram": "No Telegram action, message, workflow or alert was triggered."
 }
