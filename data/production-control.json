@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T07:21:00+01:00",
+  "updatedAt": "2026-11-26T09:09:07+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -59,10 +59,11 @@
       "since": "2026-11-03",
       "status": "RESOLVED_AUTHENTICATED_UI_WHATIF_PAUSED_2026_11_20",
       "policy": "Autopilot remains paused. New films are deliberately reviewed and scheduled for 18:00 Europe/Oslo with duplicate checks. Current verified manual booking is publication 1d634cb9-78b2-41f4-919a-bd3ebb093268 for Nov20 18:00; preserve it.",
-      "latestConfirmed": "Authenticated AITuber UI Nov20: only What If autopilot listed and PAUSED; My Videos only / Nothing posts. Connected What If YouTube account refreshed. Complete Publications queue empty before booking the one reviewed Air Vanished Short. Do not re-enable autopilot.",
+      "latestConfirmed": "Authenticated AITuber UI Nov26: only What If AutoPilot listed, Paused; My Videos only / Nothing posts. No Little Wild series displayed. Publications All Channels/All Status shows 0 up next. What If channel remains connected in API, but browser explicitly requests YouTube reconnect after failed uploads; reconnection is not yet executed.",
       "alertId": "whatif-autopilot-unreviewed-publishing-2026-11-07",
       "previousPolicy": "DOUBLE-PUBLISH GUARD (2026-11-03): What If has an independently scheduled extra short 'What If the Ocean Glowed Like Stars?' created 08:25 and published 18:01 Europe/Oslo (AI Tuber publication 16685215-b45e-4254-9c54-83cb7c7166d7; video ID 20ccbd04-f4e2-4959-8ea8-0d4daef25c85; YouTube https://www.youtube.com/watch?v=l_eoxyfvfRM) while the separate apparently automated 'What If Octopuses Lived on Land?' video ID 97fbc25c-2c26-47ea-86e1-6900322870fc was created at 18:00 local. Octopus was confirmed public by Metricool Nov 6. AutoPilot recurring schedule cannot currently be read/changed via connected API. Do not schedule/publish ANY extra What If video from agents until AutoPilot settings are verified and conflicting daily schedule disabled/adjusted in AI Tuber. Do not claim AutoPilot disabled. Before each post, check actual queue and exact video IDs; never assume a new editorial schedule overrides provider automation. Keep all existing published posts and bookings unless user explicitly asks otherwise.",
-      "resolvedOn": "2026-11-20"
+      "resolvedOn": "2026-11-20",
+      "lastVerifiedAt": "2026-11-26T09:09:07+01:00"
     },
     "paidPromotionDecision": {
       "decidedOn": "2026-11-07",
@@ -7490,7 +7491,7 @@
       "correction": "Molten-metal shot fully removed; 00:52-01:00 now shows solid red-hot iron bloom/bar hammered.",
       "bookingStatus": "NOT_BOOKED",
       "bookingBlocker": "Metricool createScheduledPost still returned INVALID_ARGUMENT on 2026-11-26 after fresh queue readback showed no future posts. Retried with the actual local 141 MB QA-passed master, combined YouTube+TikTok and YouTube-only; all failed and readback stayed empty.",
-      "requiredAction": "Open Metricool Planner for brand 7296504 and manually upload the verified Viking master from Creator HQ evidence, schedule YouTube and TikTok for the next safe 18:00 Europe/Oslo slot, then verify both provider IDs are PENDING. Do not duplicate if a post appears meanwhile.",
+      "requiredAction": "Metricool browser is now signed in. Obtain explicit approval of updated terms, then use Planner to schedule the existing verified Viking master on Nov26 at 18:00 Europe/Oslo, only after fresh queue/duplicate checks, and verify YouTube and TikTok provider IDs/status.",
       "qaEvidence": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
       "lastBookingAttemptAtOslo": "2026-11-26T08:38:00+01:00"
     },
@@ -7519,20 +7520,22 @@
     "agentInstructions": "Nov26 morning agents prioritize this exceptional Thursday catch-up before Friday. Poll exact accepted jobs, finish repair/assembly and exports, independently verify quality and voice, and schedule for 18:00 if PASS. 16:35 publication control validates both bookings and 18:35 verifies live. Never duplicate or silently bypass QA. If blocked, report specific blocker."
   },
   "workflowVerification20261126": {
-    "checkedAt": "2026-11-26T07:21:00+01:00",
+    "checkedAt": "2026-11-26T09:09:07+01:00",
     "metricool": {
       "brandId": 7296504,
       "timezone": "Europe/Oslo",
       "connectedYouTube": "UCBO7keO3jYYoXbc_TtkXiTA",
       "connectedTikTok": "bizzare.past",
-      "scheduledPostsThrough": "2026-12-03T23:59:59+01:00",
+      "scheduledPostsThrough": "2026-12-04T23:59:59+01:00",
       "scheduledCount": 0,
       "blocker": "createScheduledPost INVALID_ARGUMENT; browser fallback requires authenticated Metricool session",
-      "duplicateCheck": "PASS_EMPTY_QUEUE"
+      "duplicateCheck": "PASS_EMPTY_QUEUE",
+      "browserSession": "SIGNED_IN_VERIFIED",
+      "browserBlocker": "Updated Metricool Terms and conditions require explicit user acceptance; no longer a sign-in blocker."
     },
     "higgsfield": {
       "plan": "ultra",
-      "credits": 1827.17,
+      "credits": 1704.1,
       "activeJobs": 0,
       "nextProductionBlockedByCredits": false
     },
@@ -7551,10 +7554,10 @@
       },
       "nextProductionBlockedByCredits": false
     },
-    "userActionRequired": "UNCHANGED: Sign in to Metricool browser handoff and return control; no purchase, reconnect, or credit upgrade is required.",
+    "userActionRequired": "Explicit decision on accepting Metricool updated Terms and conditions; explicit approval to reconnect the existing What If YouTube channel to AI Tuber. Both requested in chat. No new purchase required for connection repair.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T08:51:00+01:00",
+  "lastUpdatedAt": "2026-11-26T09:09:07+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -7661,5 +7664,78 @@
       "existingBookingsChanged": false,
       "littleWild": 0
     }
+  },
+  "workflowRepair20261126": {
+    "checkedAtOslo": "2026-11-26T09:09:07+01:00",
+    "request": "gjør det du må for å få metricool og andre ting til å virke",
+    "metricool": {
+      "apiConnection": "OK",
+      "browserSession": "SIGNED_IN_VERIFIED",
+      "brandId": 7296504,
+      "timezone": "Europe/Oslo",
+      "queue": "0 scheduled posts Nov26 through Dec4 from authenticated connector",
+      "browserBlocker": "Mandatory updated Terms and conditions dialog; acceptance checkbox unchecked and Continue disabled.",
+      "termsUrl": "https://metricool.com/legal-terms/",
+      "termsAcceptance": "PENDING_EXPLICIT_USER_DECISION",
+      "causality": "The terms dialog is a confirmed browser blocker; it has not been proven to cause the earlier createScheduledPost INVALID_ARGUMENT errors.",
+      "next": "After explicit acceptance approval, accept updated terms, inspect Planner and current queue, schedule the existing QA-passed Viking final master for Nov26 18:00 Europe/Oslo to YouTube and TikTok if no conflict, and verify returned post IDs/time/status. Retest booking support without duplicate submissions."
+    },
+    "aiTuber": {
+      "apiConnection": "OK",
+      "plan": "Studio",
+      "planStatus": "active",
+      "credits": 394,
+      "creditRefillShown": "3 Dec 2026; 10000 credits",
+      "whatIfChannelId": "78dcabfb-3657-41ab-89b8-8c04da2f43d5",
+      "youtubeChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "apiChannelStatus": "connected",
+      "browserSession": "SIGNED_IN_VERIFIED",
+      "browserWarning": "Some YouTube videos did not post. Reconnect your channel once, and your next videos post on time.",
+      "reconnect": "NOT_EXECUTED_PENDING_EXPLICIT_USER_APPROVAL",
+      "queue": {
+        "source": "Authenticated AI Tuber Publish > Publications, All Channels / All Status",
+        "upNext": 0,
+        "publishedAllTimeDisplayed": 30,
+        "visibleFailures": [
+          "What If Mars Replaced Our Moon Tonight?",
+          "What If Earth's Air Vanished for 60 Seconds?"
+        ],
+        "providerError": "Daily YouTube upload limit reached (150 per day). Resets at midnight Pacific.",
+        "interpretation": "Provider's reported error, not proof that this user uploaded 150 videos. Do not retry Air Vanished because Metricool recovery is already published."
+      },
+      "autopilot": {
+        "source": "Authenticated AutoPilot overview",
+        "listedSeries": 1,
+        "whatIf": "Paused; My Videos only; Nothing posts",
+        "littleWildSeriesVisible": 0,
+        "resumed": false
+      },
+      "gpsExport": {
+        "videoId": "c928875a-4187-4185-ad66-563e900a26b6",
+        "exportId": "7471340c-bc89-46fb-9986-37079bb9eed2",
+        "status": "completed",
+        "qa": "NOT_CHECKED_THIS_REPAIR_RUN",
+        "booking": "NOT_BOOKED"
+      },
+      "next": "On explicit reconnection approval, reconnect only the existing What If YouTube channel, review actual OAuth scope and avoid adding unrelated channels. Keep AutoPilot paused. Fresh full QA and duplicate checks remain required before any publication."
+    },
+    "higgsfield": {
+      "authenticatedProfileId": "user_3KEwZ8d6kIJfqfz4KULWre5pMv8",
+      "apiConnection": "OK",
+      "plan": "ultra",
+      "credits": 1704.1,
+      "productionCreditBlocker": false
+    },
+    "telegram": {
+      "workflow": ".github/workflows/creator-hq-telegram.yml",
+      "status": "MANUAL_VALIDATION_ONLY_NO_SEND_NO_SCHEDULE",
+      "checkedThisRun": true
+    },
+    "result": "PARTIALLY_REPAIRED_METRICOOL_LOGIN_RESTORED; TERMS_ACCEPTANCE_AND_WHATIF_YOUTUBE_RECONNECT_AWAIT_USER_DECISIONS",
+    "newBookings": 0,
+    "newPublications": 0,
+    "newGenerations": 0,
+    "creditPurchases": 0,
+    "telegramSent": 0
   }
 }
