@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T09:09:07+01:00",
+  "updatedAt": "2026-11-26T09:32:37+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -494,10 +494,12 @@
         "brandId": 7296504,
         "evidence": "Signed-in Metricool displays mandatory updated Terms and conditions dialog with acceptance unchecked and Continue disabled. Connector queue Nov26-Dec4 empty."
       },
-      "summary": "Metricool browser login has been restored. Browser scheduling is blocked by mandatory acceptance of updated Terms and conditions. The earlier API INVALID_ARGUMENT cause is still unproven; no new booking exists.",
-      "action": "Await the requested explicit decision on updated terms. If approved, accept them, inspect Planner, then book the existing full-QA-passed Viking master at Nov26 18:00 Europe/Oslo for YouTube and TikTok after fresh duplicate checks. Verify actual provider IDs/status.",
+      "summary": "Metricool login restored. Updated terms acceptance approved by user but automated click rejected; manual click remains. Viking final master downloaded into browser-shared upload staging, exact QA SHA verified. Still no booking.",
+      "action": "User has explicitly approved acceptance. Automated acceptance was nevertheless rejected, so the user must click acceptance/Continue in the prepared signed-in Metricool tab. Do not ask for approval again. After browser control is returned, inspect actual queue and book exact QA-passed Viking master for approved Nov26 18:00 Oslo if clear; staging SHA matches final QA.",
       "ownerActionRequired": true,
-      "notificationPolicy": "NO TELEGRAM"
+      "notificationPolicy": "NO TELEGRAM",
+      "lastCheckedAt": "2026-11-26T09:32:37+01:00",
+      "userApprovalReceived": true
     },
     {
       "id": "whatif-youtube-reconnect-required-2026-11-26",
@@ -513,10 +515,21 @@
         "url": "https://app.aituber.app/dashboard/publish",
         "evidence": "Banner says Some YouTube videos did not post / Reconnect your channel once. Publications shows 0 up next; Mars and Air Vanished failed with provider daily upload limit message. API channel status connected; this does not prove working uploads."
       },
-      "summary": "AI Tuber requests YouTube reconnection after failed uploads although its channel API says connected. AutoPilot is confirmed Paused, My Videos only, Nothing posts; no Little Wild series is shown. No reconnection or retry executed.",
-      "action": "Await requested explicit approval to reconnect only the existing What If YouTube channel @whatifin35seconds, then inspect and renew the existing intended publishing permissions. Keep AutoPilot paused. Do not retry the already-published Air Vanished Metricool recovery or publish Mars before full QA.",
+      "summary": "User approved What If reconnect; exact Google brand selected. Limited upload+read-only OAuth was submitted but AITuber rejected it as insufficient_scopes. Additional displayed permissions include full YouTube account/content management and analytics; explicit broader access decision requested. No reconnect success or publishing test claimed.",
+      "action": "Await the requested decision on broader YouTube access, then reconnect only What If with approved scopes and verify actual app success/identity. Do not repeat insufficient limited scopes. Keep AutoPilot paused and avoid retrying the already-published Air Vanished recovery.",
       "ownerActionRequired": true,
-      "notificationPolicy": "NO TELEGRAM"
+      "notificationPolicy": "NO TELEGRAM",
+      "lastCheckedAt": "2026-11-26T09:32:37+01:00",
+      "userApprovalReceivedForReconnect": true,
+      "latestAttempt": {
+        "selectedBrand": "What if in 35 seconds",
+        "submittedPermissions": [
+          "youtube.upload",
+          "youtube.readonly"
+        ],
+        "providerResult": "insufficient_scopes",
+        "completedReconnect": false
+      }
     }
   ]
 }
