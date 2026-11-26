@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T09:16:42+01:00",
+  "updatedAt": "2026-11-26T09:32:37+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7541,7 +7541,7 @@
       "correction": "Molten-metal shot fully removed; 00:52-01:00 now shows solid red-hot iron bloom/bar hammered.",
       "bookingStatus": "NOT_BOOKED",
       "bookingBlocker": "Metricool createScheduledPost still returned INVALID_ARGUMENT on 2026-11-26 after fresh queue readback showed no future posts. Retried with the actual local 141 MB QA-passed master, combined YouTube+TikTok and YouTube-only; all failed and readback stayed empty.",
-      "requiredAction": "Metricool browser is now signed in. Obtain explicit approval of updated terms, then use Planner to schedule the existing verified Viking master on Nov26 at 18:00 Europe/Oslo, only after fresh queue/duplicate checks, and verify YouTube and TikTok provider IDs/status.",
+      "requiredAction": "Use already-approved manual acceptance of updated Metricool terms; no repeat consent request. Viking master is staged and exact SHA verified in current shared workspace. When user returns browser control, inspect Planner/queue, then schedule exact QA-passed final master Nov26 at 18:00 Europe/Oslo for YouTube+TikTok if clear, and verify provider IDs/time/status.",
       "qaEvidence": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json",
       "lastBookingAttemptAtOslo": "2026-11-26T08:38:00+01:00"
     },
@@ -7604,10 +7604,10 @@
       },
       "nextProductionBlockedByCredits": false
     },
-    "userActionRequired": "Explicit decision on accepting Metricool updated Terms and conditions; explicit approval to reconnect the existing What If YouTube channel to AI Tuber. Both requested in chat. No new purchase required for connection repair.",
+    "userActionRequired": "Metricool updated terms are user-approved, but automated acceptance was rejected; user must perform the click in prepared browser. AI Tuber limited upload+read-only OAuth returned insufficient_scopes; explicit broader access decision requested. No purchase required.",
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T09:09:07+01:00",
+  "lastUpdatedAt": "2026-11-26T09:32:37+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -7716,7 +7716,7 @@
     }
   },
   "workflowRepair20261126": {
-    "checkedAtOslo": "2026-11-26T09:09:07+01:00",
+    "checkedAtOslo": "2026-11-26T09:32:37+01:00",
     "request": "gjør det du må for å få metricool og andre ting til å virke",
     "metricool": {
       "apiConnection": "OK",
@@ -7726,9 +7726,15 @@
       "queue": "0 scheduled posts Nov26 through Dec4 from authenticated connector",
       "browserBlocker": "Mandatory updated Terms and conditions dialog; acceptance checkbox unchecked and Continue disabled.",
       "termsUrl": "https://metricool.com/legal-terms/",
-      "termsAcceptance": "PENDING_EXPLICIT_USER_DECISION",
+      "termsAcceptance": "USER_APPROVED_BUT_AUTOMATED_ACCEPTANCE_REJECTED_REQUIRES_MANUAL_UI",
       "causality": "The terms dialog is a confirmed browser blocker; it has not been proven to cause the earlier createScheduledPost INVALID_ARGUMENT errors.",
-      "next": "After explicit acceptance approval, accept updated terms, inspect Planner and current queue, schedule the existing QA-passed Viking final master for Nov26 18:00 Europe/Oslo to YouTube and TikTok if no conflict, and verify returned post IDs/time/status. Retest booking support without duplicate submissions."
+      "next": "User must manually accept the visible updated terms in the prepared Metricool tab; approval has already been provided, do not request it again. After user returns browser control, inspect Planner/queue and book existing Viking final at approved 18:00 slot if clear.",
+      "stagedMaster": {
+        "path": "/workspace/shared/Bizarre_Past_Vikings_America_Final.mp4",
+        "sha256": "f1abf564300c6f2cd17bd52ff480fc6691bde0c3dfa382a4cc2d109dfbe62b7f",
+        "verified": true,
+        "note": "Temporary upload staging in current workspace, exact existing QA-passed final master downloaded from finalMasterUrl; no new render."
+      }
     },
     "aiTuber": {
       "apiConnection": "OK",
@@ -7741,7 +7747,7 @@
       "apiChannelStatus": "connected",
       "browserSession": "SIGNED_IN_VERIFIED",
       "browserWarning": "Some YouTube videos did not post. Reconnect your channel once, and your next videos post on time.",
-      "reconnect": "NOT_EXECUTED_PENDING_EXPLICIT_USER_APPROVAL",
+      "reconnect": "ATTEMPTED_NOT_COMPLETED_INSUFFICIENT_SCOPES",
       "queue": {
         "source": "Authenticated AI Tuber Publish > Publications, All Channels / All Status",
         "upNext": 0,
@@ -7767,7 +7773,23 @@
         "qa": "NOT_CHECKED_THIS_REPAIR_RUN",
         "booking": "NOT_BOOKED"
       },
-      "next": "On explicit reconnection approval, reconnect only the existing What If YouTube channel, review actual OAuth scope and avoid adding unrelated channels. Keep AutoPilot paused. Fresh full QA and duplicate checks remain required before any publication."
+      "next": "Await explicit decision on broader required YouTube access. Do not repeat the limited-scope attempt. If approved, reconnect the same What If brand with required scopes, verify authenticated application success and channel identity. Keep AutoPilot paused; do not retry already-recovered Air Vanished or publish QA-held Mars.",
+      "oauth": {
+        "selectedGoogleAccount": "halvorforberg@gmail.com",
+        "selectedBrand": "What if in 35 seconds",
+        "submittedScopes": [
+          "youtube.upload",
+          "youtube.readonly"
+        ],
+        "providerReturn": "/dashboard/publish?error=insufficient_scopes",
+        "result": "AITuber still displays reconnect banner; no completed reconnect claimed.",
+        "additionalScopesShown": [
+          "youtube.force-ssl (edit/delete videos, ratings, comments, subtitles)",
+          "yt-analytics.readonly",
+          "youtube (manage YouTube account)"
+        ],
+        "additionalScopeApproval": "PENDING_USER_DECISION_REQUESTED_IN_CHAT"
+      }
     },
     "higgsfield": {
       "authenticatedProfileId": "user_3KEwZ8d6kIJfqfz4KULWre5pMv8",
@@ -7781,12 +7803,21 @@
       "status": "MANUAL_VALIDATION_ONLY_NO_SEND_NO_SCHEDULE",
       "checkedThisRun": true
     },
-    "result": "PARTIALLY_REPAIRED_METRICOOL_LOGIN_RESTORED; TERMS_ACCEPTANCE_AND_WHATIF_YOUTUBE_RECONNECT_AWAIT_USER_DECISIONS",
+    "result": "METRICOOL_LOGIN_RESTORED; MANUAL_TERMS_ACCEPTANCE_AND_BROADER_AITUBER_SCOPE_DECISION_STILL_REQUIRED",
     "newBookings": 0,
     "newPublications": 0,
     "newGenerations": 0,
     "creditPurchases": 0,
-    "telegramSent": 0
+    "telegramSent": 0,
+    "userApproval": {
+      "received": true,
+      "scope": [
+        "Metricool updated terms acceptance",
+        "Reconnect existing What If YouTube channel to AI Tuber"
+      ],
+      "wording": "godkjenner",
+      "date": "2026-11-26"
+    }
   },
   "bizarrePastSundayAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T09:16:42+01:00",
