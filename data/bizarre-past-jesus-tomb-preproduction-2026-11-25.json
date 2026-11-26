@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "checkedAtOslo": "2026-11-25T18:55:00+01:00",
+  "checkedAtOslo": "2026-11-26T09:16:42+01:00",
   "channel": "Bizarre Past",
   "target": "2026-11-29T18:00:00+01:00",
   "format": "16:9 1080p ordinary public film",
-  "status": "SOURCE_CHECKED_SCRIPT_AND_STORYBOARD_READY_VOICE_QA_HOLD_NOT_GENERATED_NOT_EXPORTED_NOT_BOOKED",
+  "status": "PRODUCTION_IN_PROGRESS_VOICE_IMAGES_MUSIC_COMPLETE_20_VIDEO_JOBS_WAITING_NO_EXPORT_NOT_BOOKED",
   "titles": {
     "selected": "They Opened Jesus’ Tomb—What Did They Find?",
     "alternate": "Inside Jesus’ Traditional Tomb: What Survived?",
@@ -117,10 +117,10 @@
   ],
   "productionGates": {
     "duplicateCheck": "Metricool brand 7296504 returned no scheduled posts from 2026-11-25 through 2026-12-03; absence of a booking is not permission to publish without remaining QA.",
-    "voice": "HOLD: exact Callum ID and elevenlabs_v4_turbo configuration are documented, but human perceptual A/B match to the approved Herculaneum reference is still unverified.",
-    "media": "No new voice, image, animation, music, export or final MP4 generated in this recovery step.",
-    "audiovisualQa": "NOT POSSIBLE until a final exported MP4 exists; do not call QA passed.",
-    "booking": "NOT_BOOKED",
+    "voice": "PASS: exact previously approved Callum preset 858499d9-fef5-40e1-bc29-b4dc661dc283, elevenlabs_v4_turbo, provider defaults, no pitch shift; user A/B approved 2026-11-26.",
+    "media": "Voice job af35b9be-d991-44e9-9299-209f99ab7765 completed (170.736s); music job 2ee99ab9-7423-4771-a61d-291bbf3e7f5d completed (180.036s); 20 storyboard image jobs completed; 20 MAGI-2 1080p video jobs accepted and remain WAITING at latest provider poll. Do not resubmit while active.",
+    "audiovisualQa": "NOT POSSIBLE until all motion jobs complete and a final exported MP4 exists; no QA or booking claim.",
+    "booking": "NOT_BOOKED; fresh Metricool readback 2026-11-26 returned zero future posts through 2026-12-04.",
     "creditsPurchased": false,
     "telegram": false
   },
@@ -129,13 +129,15 @@
       "brandId": 7296504,
       "youtube": "UCBO7keO3jYYoXbc_TtkXiTA",
       "tiktok": "bizzare.past",
-      "futurePostsThrough": "2026-12-03",
+      "futurePostsThrough": "2026-12-04",
       "scheduledPosts": 0
     },
     "higgsfield": {
       "plan": "ultra",
-      "credits": 1860.32,
-      "activeJobs": 0
+      "credits": 1277.94,
+      "activeJobs": 20,
+      "voiceJobId": "af35b9be-d991-44e9-9299-209f99ab7765",
+      "musicJobId": "2ee99ab9-7423-4771-a61d-291bbf3e7f5d"
     },
     "vidiq": {
       "credits": 1817,
@@ -146,5 +148,85 @@
       "publicVideos": 30,
       "creditsSpentThisRun": 15
     }
-  }
+  },
+  "generatedAssets": {
+    "voice": {
+      "jobId": "af35b9be-d991-44e9-9299-209f99ab7765",
+      "model": "elevenlabs_v4_turbo",
+      "voicePreset": "Callum",
+      "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "durationSeconds": 170.736327,
+      "status": "completed"
+    },
+    "music": {
+      "jobId": "2ee99ab9-7423-4771-a61d-291bbf3e7f5d",
+      "model": "elevenlabs_music_v2_5",
+      "durationSeconds": 180.035875,
+      "status": "completed"
+    },
+    "storyboardImageJobs": [
+      "22ab58d2-9c74-4759-879a-93640b4ccea5",
+      "32bf3ac1-45bc-417d-8abc-cd188884e241",
+      "6619a195-dfe3-48a4-a6c6-a27348dfaf6d",
+      "5ae310b5-4301-4eb3-ad0b-af4709d9dea5",
+      "1a177512-e0ec-4017-9d2f-e6ce0d883e37",
+      "2264318a-11bb-46a4-996c-85c7ed4ed99f",
+      "8f01ad21-925c-49eb-b1d8-1f014285c985",
+      "75fbe7b2-6049-4c99-9dcd-10fd7be06d5d",
+      "a56a9f12-f025-4442-8896-b66d696efbb1",
+      "c53d8e58-8a42-40f6-859a-52b6ab2b9506",
+      "ab5e4b7b-b6b3-4c7d-8c11-d8fa03f83843",
+      "bc9ec14d-f57a-4b6c-b4e2-31803f9201e1",
+      "aeef935f-eb7c-4ad5-a71c-761b085d7bf4",
+      "ab6e5c24-14c4-4f20-ad93-a3d83c379420",
+      "c35ccd27-f3f4-4ff2-b58f-53bd9582b36b",
+      "263142c3-34be-4cec-b2b8-523732d39994",
+      "926300d9-516e-48b3-b506-e3e77eacf436",
+      "d50d48fa-31fd-489c-bcb4-64d397bb4c4a",
+      "39974a94-a2cb-4d76-8337-ab3901a9550f",
+      "7903f75d-4590-4dcf-8be4-453c5d3b8ad1"
+    ],
+    "motionVideoJobs": [
+      "ed8effb3-ae22-407d-81e8-2ace33e1269a",
+      "02d22472-a46c-41a0-bf52-b18216adaecc",
+      "55869497-e5fe-480e-b84d-a4af203fe4df",
+      "8ce5f01e-6a8b-4be3-9a78-7f7bed848aa0",
+      "bae71325-7a8b-4057-83b2-fe5b863495c9",
+      "665a62bc-4a44-4995-a4e0-e9d8ffd929b6",
+      "afe9511f-db16-4dc5-ac7f-c555a9160ed0",
+      "5529b74f-4508-4dba-9321-468f14830ec6",
+      "30de3fce-7a20-4abb-b40c-8c764259f3b2",
+      "df671fb2-6b30-43eb-9579-e269c9ee38f6",
+      "e267dd06-1adc-494b-90db-0cf0778d23b5",
+      "8f526ecd-f007-4517-a8ef-2452b1440ea5",
+      "306c4b7a-77f3-4b2b-971d-085531f96d29",
+      "e7d9db85-85b9-4915-91d8-0e1dfec4b698",
+      "13893057-1208-4e3d-9fb6-90fe0a33700c",
+      "5caf4a20-0f3d-4336-be0a-2faec6160e28",
+      "25266a2e-ba53-468a-92f7-58e544b0ad8e",
+      "119f7587-6e14-44eb-a8b3-7fdc81533383",
+      "40ef2562-4fc8-4e58-ae6c-6217d9aed192",
+      "b827267d-5eb5-43aa-a41e-fd19c264a68e"
+    ],
+    "motionModel": "magi_2",
+    "motionSpec": "20 x 8s, 16:9, 1080p, silent full-motion",
+    "motionStatus": "20_WAITING_PROVIDER_QUEUE",
+    "localPreassembly": [
+      "script.txt",
+      "captions.srt",
+      "thumbnail.jpg"
+    ],
+    "finalMp4": null
+  },
+  "cost": {
+    "startingBalance": 1726.6,
+    "voiceCredits": 7.5,
+    "imageJobsCharged": 21,
+    "imageCreditsApprox": 15.75,
+    "motionCredits": 400,
+    "musicCredits": 26.16,
+    "balanceAfterAcceptedJobs": 1277.94,
+    "purchases": 0
+  },
+  "nextAction": "Keep all 20 unique MAGI-2 job IDs; poll without resubmitting. When terminal, assemble to the exact 170.736s narration, mix instrumental under voice, burn readable captions and AI-reconstruction label, render 1920x1080, perform full end-to-end AV/voice/fact/payoff QA, then attempt Metricool booking for 2026-11-29 18:00 Europe/Oslo and verify provider IDs/status."
 }
