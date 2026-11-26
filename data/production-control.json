@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T18:57:00+01:00",
+  "updatedAt": "2026-11-26T03:11:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -7412,14 +7412,32 @@
       "format": "16:9 long-form 2–4 min, story-driven",
       "producer": "Higgsfield",
       "publisher": "Metricool",
-      "status": "EXISTING_177S_EXPORT_REPAIR_CLIP_SUBMITTED_NOT_BOOKED",
+      "status": "FINAL_MASTER_QA_PASS_NOT_BOOKED_METRICOOL_INVALID_ARGUMENT",
       "voice": "Previously approved bright natural Callum voice, exact prior settings; do not use unverified new voice.",
       "title": "Vikings Were in America 471 Years Before Columbus — The Proof in the Wood",
       "existingMediaId": "15870f3f-ee3f-4889-bb40-590844214cc7",
       "existingMediaUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/15870f3f-ee3f-4889-bb40-590844214cc7.mp4",
       "repairJobId": "010fa42f-5de2-49b7-9a20-44235289576f",
       "repairQuotedCredits": 20,
-      "repair": "Replace historically questionable molten iron pouring around 00:52–00:59 with new solid iron hammering scene, preserve timing and narration mix. Verify exact legacy voice and complete AV; rework voice only if required, exact old model/voice/default controls. Do not create another Viking film. Source batch and QA data/bizarre-past-production-batch-2026-11-19.json and data/bizarre-past-av-review-2026-11-19.json."
+      "repair": "Replace historically questionable molten iron pouring around 00:52–00:59 with new solid iron hammering scene, preserve timing and narration mix. Verify exact legacy voice and complete AV; rework voice only if required, exact old model/voice/default controls. Do not create another Viking film. Source batch and QA data/bizarre-past-production-batch-2026-11-19.json and data/bizarre-past-av-review-2026-11-19.json.",
+      "finalMasterMediaId": "781f682c-410e-45b2-87bb-cdad173d41f5",
+      "finalMasterUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/781f682c-410e-45b2-87bb-cdad173d41f5.mp4",
+      "finalMasterDurationSeconds": 177.625,
+      "finalMasterResolution": "1920x1080",
+      "finalMasterSha256": "f1abf564300c6f2cd17bd52ff480fc6691bde0c3dfa382a4cc2d109dfbe62b7f",
+      "voiceModel": "elevenlabs_v4_turbo",
+      "voicePreset": "Callum",
+      "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "voiceSettings": "Exact older approved provider defaults; no pitch change and no stability override.",
+      "voiceMatchAnalysisId": "dac31f17-4baa-4f9c-8130-653bb1ef4a49",
+      "voiceMatchVerdict": "MATCH",
+      "fullAvQaAnalysisId": "949b4efc-2bd7-4279-9b96-1f3b4fc753c2",
+      "fullAvQaVerdict": "PASS",
+      "correction": "Molten-metal shot fully removed; 00:52-01:00 now shows solid red-hot iron bloom/bar hammered.",
+      "bookingStatus": "NOT_BOOKED",
+      "bookingBlocker": "Metricool createScheduledPost returned INVALID_ARGUMENT for the full 141 MB master, an 89 MB 1080p publishing master, and the 29.5 MB QA copy; readback confirmed no scheduled posts for 2026-11-26 through 2026-12-03.",
+      "requiredAction": "User must sign in to the prepared Metricool browser session and return control so the verified master can be booked manually for YouTube and TikTok at 2026-11-26 18:00 Europe/Oslo.",
+      "qaEvidence": "data/bizarre-past-vikings-america-final-qa-2026-11-26.json"
     },
     "whatif": {
       "format": "16:9 regular, tightened source-checked narration, length determined by final audio",
@@ -7436,7 +7454,43 @@
       "next": "Poll this exact video, no duplicate; export 1080p when completed, use known authorized media-sandbox download workaround, verify entire AV and six beats, book for Nov26 18:00 only after QA and duplicate check."
     },
     "priority": "Start production today within existing credit balances; verify cost and use efficient motion for key consequences. Full QA and actual booking required before release. Do not treat editorial date as provider booking. If blocked report exact reason; no purchases, no ads, no Telegram, no Little Wild.",
-    "bookingStatus": "NO PROVIDER BOOKING YET",
+    "bookingStatus": "BIZARRE_QA_PASS_BUT_METRICOOL_NOT_BOOKED; WHATIF_STATUS_REQUIRES_SEPARATE_VERIFICATION",
     "agentInstructions": "Nov26 morning agents prioritize this exceptional Thursday catch-up before Friday. Poll exact accepted jobs, finish repair/assembly and exports, independently verify quality and voice, and schedule for 18:00 if PASS. 16:35 publication control validates both bookings and 18:35 verifies live. Never duplicate or silently bypass QA. If blocked, report specific blocker."
+  },
+  "workflowVerification20261126": {
+    "checkedAt": "2026-11-26T03:11:00+01:00",
+    "metricool": {
+      "brandId": 7296504,
+      "timezone": "Europe/Oslo",
+      "connectedYouTube": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "connectedTikTok": "bizzare.past",
+      "scheduledPostsThrough": "2026-12-03T23:59:59+01:00",
+      "scheduledCount": 0,
+      "blocker": "createScheduledPost INVALID_ARGUMENT; browser fallback requires authenticated Metricool session",
+      "duplicateCheck": "PASS_EMPTY_QUEUE"
+    },
+    "higgsfield": {
+      "plan": "ultra",
+      "credits": 1827.17,
+      "activeJobs": 0,
+      "nextProductionBlockedByCredits": false
+    },
+    "vidiq": {
+      "credits": 1817,
+      "renewableCredits": 1815,
+      "addonCredits": 2,
+      "resetsAt": "2026-12-21T20:09:10Z",
+      "activeJobs": 0,
+      "channel": {
+        "id": "UCBO7keO3jYYoXbc_TtkXiTA",
+        "title": "Bizarre Past",
+        "subscribers": 46,
+        "lifetimeViews": 12610,
+        "publicVideos": 30
+      },
+      "nextProductionBlockedByCredits": false
+    },
+    "userActionRequired": "Sign in to Metricool browser handoff and return control; no purchase, reconnect, or credit upgrade is required.",
+    "telegram": "DISABLED_NO_MESSAGES_SENT"
   }
 }
