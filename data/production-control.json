@@ -9009,6 +9009,15 @@
     "exportResolution": "1080p",
     "exportStatus": "processing",
     "thumbnailStatus": "ready",
-    "lastObserved": "2026-11-27 09:15 Europe/Oslo"
+    "lastObserved": "2026-11-27 09:15 Europe/Oslo",
+    "creditsObservedAfterCompletedGenerationAndThumbnail": 125,
+    "latestObservedCreditDelta": 227,
+    "finalLineItemCostUnverified": true,
+    "qaStatus": "NOT_STARTED_FINISHED_MP4_UNAVAILABLE",
+    "bookingStatus": "NOT_BOOKED",
+    "publishStatus": "NOT_PUBLISHED",
+    "lastChecked": "2026-11-27 09:19 Europe/Oslo",
+    "source": "AI Tuber authenticated get_video and get_subscription",
+    "next": "When export completes, acquire finished MP4 and perform 10-beat actual visual and full-audio review. If preview fails or scenes mismatch, HOLD and log blocker; Sunday booking only after pass and actual provider slot verification."
   }
 }
