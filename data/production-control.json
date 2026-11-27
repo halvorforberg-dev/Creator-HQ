@@ -7591,14 +7591,14 @@
     "reserve": {
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
-      "currentVerifiedCount": 0,
-      "lastVerifiedAtOslo": "2026-11-27T07:21:44+01:00",
-      "evidence": "Fresh Nov 27 07:21 provider queue and complete 545-item Higgsfield history check: all QA-passed masters are assigned to bookings; no unallocated verified reserve.",
+      "currentVerifiedCount": 1,
+      "lastVerifiedAtOslo": "2026-11-27T11:32:39+01:00",
+      "evidence": "Bizarre Past: Roman Concrete Could Heal Its Own Cracks is an unpublished 37.407s 1080x1920 QA-passed master, media ID 59cbf763-c0c2-4031-9e52-86a785ee9cb4, with completed deep analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531 and no provider booking. What If remains at 0 verified reserve.",
       "whatIfVerifiedCount": 0,
       "whatIfLastVerifiedAtOslo": "2026-11-27T08:33:00+01:00",
       "whatIfEvidence": "No unpublished QA-passed export; new Rogue Wave candidate not passed.",
       "verifiedByChannel": {
-        "bizarre": 0,
+        "bizarre": 1,
         "whatif": 0
       },
       "allActiveChannelsMeetMinimum": false
@@ -8661,7 +8661,7 @@
     ]
   },
   "bizarrePastAgentCheck20261127": {
-    "checkedAtOslo": "2026-11-27T09:23:00+01:00",
+    "checkedAtOslo": "2026-11-27T11:32:39+01:00",
     "governingSource": "productionReliability20261125 plus latest exact-voice and editorial gates",
     "lookaheadThrough": "2026-12-07T23:59:59+01:00",
     "connections": {
@@ -8680,7 +8680,9 @@
         "displayName": "BIZARRE PAST",
         "displayNameEvidence": "Platform-verified 2026-11-26; no contrary public/provider evidence. Metricool internal label remains misspelled but is not the public display name.",
         "renameRequired": false
-      }
+      },
+      "metricoolVerifiedAt": "2026-11-27T11:32:39+01:00",
+      "metricoolEvidence": "Brand 7296504 fresh settings: timezone Europe/Oslo; youtubeData UCBO7keO3jYYoXbc_TtkXiTA; tiktokData bizzare.past."
     },
     "metricool": {
       "scheduledPosts": [
@@ -8734,14 +8736,14 @@
           "qa": "data/bizarre-past-ketef-hinnom-qc-2026-11-27.json"
         }
       ],
-      "duplicateCheck": "PASS: fresh authenticated readback 2026-11-27 09:23 Europe/Oslo shows exactly four future posts, each with one YouTube and one TikTok PENDING provider row; protected bookings unchanged and no duplicate Roman-concrete reserve booking.",
+      "duplicateCheck": "PASS: fresh authenticated readback 2026-11-27 11:32 Europe/Oslo shows exactly four future posts, each with one YouTube and one TikTok PENDING provider row, one media file, and no Roman-concrete reserve booking.",
       "earliestRelease": "2026-11-27T18:00:00+01:00",
       "nextUnreadySlot": "2026-12-04T18:00:00+01:00 Short"
     },
     "vidiq": {
       "access": true,
-      "credits": 1807,
-      "renewableCredits": 1805,
+      "credits": 1772,
+      "renewableCredits": 1770,
       "addonCredits": 2,
       "renewsAt": "2026-12-21T20:09:10Z",
       "activeJobs": 0,
@@ -8760,10 +8762,12 @@
     "higgsfield": {
       "access": true,
       "plan": "Ultra",
-      "credits": 574.01,
+      "credits": 573.38,
       "activeJobs": 0,
       "latestBatch": "Ketef Hinnom production completed and booked; separate Roman-concrete reserve completed with 5 stills, 6 Magi-2 video jobs (one rejected and replaced), exact Callum narration, final master upload, and deep provider analysis.",
-      "productionBlockedByCredits": false
+      "productionBlockedByCredits": false,
+      "liveFeedVerifiedAt": "2026-11-27T11:32:39+01:00",
+      "liveFeed": "No active generation jobs among the 50 most recent generations."
     },
     "reserve": {
       "required": 1,
@@ -8782,7 +8786,7 @@
       "nextAction": "Keep unallocated. Use only after a fresh queue/duplicate check and only for a slot whose assigned film cannot meet QA or provider-booking deadline."
     },
     "deadlineStatus": {
-      "siloam": "Fresh Metricool readback 2026-11-27 09:23 Europe/Oslo: YouTube PENDING and TikTok PENDING for Nov 27 18:00; media present and AI declared.",
+      "siloam": "Fresh Metricool readback 2026-11-27 11:32 Europe/Oslo: YouTube PENDING and TikTok PENDING for Nov 27 18:00; media present, auto-publish enabled and AI declared.",
       "jesus": "QA PASS and provider-booked for Nov 29 18:00.",
       "merer": "QA PASS and provider-booked for Nov 30 18:00.",
       "dec2": "Export complete and AV-QA passed on Nov 27; Metricool booking verified PENDING on YouTube and TikTok for Dec 2 18:00. Export and booking deadlines met early.",
