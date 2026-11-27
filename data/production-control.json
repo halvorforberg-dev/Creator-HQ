@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T08:49:00+01:00",
+  "updatedAt": "2026-11-27",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -8958,6 +8958,51 @@
       "telegram": 0,
       "littleWild": 0,
       "existingBookingsChanged": false
-    }
+    },
+    "noteAdditionalUserRequest": "User requested next 16:9 long form about worldwide grid blackout/doomsday and societal cascade. Original new VIDEO accepted 08:13Z Nov27. No prior booking altered.",
+    "nextSundayEditorialOverrideUnbooked": "World Lost Power for 30 Days candidate video 74b3bc0d-1e52-42f2-86a8-5c94e623023d processing; GPS HOLD untouched.",
+    "creditsAfterBlackoutSubmitObserved": 165,
+    "noteNoQAOrBooking": "Do not claim done, QA, published or scheduled from provider processing alone."
+  },
+  "whatIfGlobalBlackoutNextLong20261127": {
+    "initiatedByUserAt": "2026-11-27T09:11:00+01:00",
+    "editorialPriority": "NEXT UNBOOKED WHAT IF ORDINARY LONG FORM — fictional worldwide public power grid outage for thirty days",
+    "title": "What If the Entire World Lost Power for 30 Days?",
+    "alternativeTitle": "What If Every Power Grid Failed for a Month?",
+    "storyline": "Day 0 all public power grids cease simultaneously, backup batteries/generators initially help, cell service deteriorates with backups, manufacturing/fuel/food logistics stall, urban water pumping and medical supply risk, day 30 electrical grid restored but water/food/hospital systems do not instantly recover.",
+    "surprisePayoff": "The city lights return yet same family's tap is dry; 'The lights could come back in a second. But the systems that keep your family alive may take much longer.'",
+    "scriptWords": 395,
+    "visualBeats": 10,
+    "brief": "data/whatif-global-blackout-30-days-long-brief-2026-11-27.md",
+    "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+    "aiTuberJobId": "f24a1109-ee3b-40fc-b945-89ea620b70df",
+    "mediaType": "stock",
+    "aspectRatio": "16:9",
+    "voiceId": "nPczCjzI2devNBz1zQrb",
+    "voiceSpeed": 0.96,
+    "createdAtUtc": "2026-11-27T08:13:11.153Z",
+    "videoStatus": "processing",
+    "targetSlotOslo": "2026-11-29T18:00:00+01:00",
+    "productionDeadlineOslo": "2026-11-27T18:00:00+01:00",
+    "qaBookingDeadlineOslo": "2026-11-28T18:00:00+01:00",
+    "gridFailureIsHypothetical": true,
+    "beforeGenerationCredits": 352,
+    "creditsObservedAfterSubmit": 165,
+    "interimDifference": 187,
+    "finalCostUnconfirmed": true,
+    "currentStage": "PROVIDER_ACCEPTED_GENERATION_IN_PROGRESS_NOT_EXPORTED_NOT_QA_PASSED_NOT_BOOKED_NOT_PUBLISHED",
+    "recentGPSProject": "c928875a-4187-4185-ad66-563e900a26b6 EXPORTED QA HOLD, preserved and not re-generated; no confirmed Sunday booking; user's new requested subject gets editorial priority",
+    "visualAuditMandatory": [
+      "Immediate real moving city electrical blackout 0–2s with spoken and readable WHAT IF…?",
+      "Same human-scale family continuity",
+      "Factory machines visibly stopping",
+      "Fuel pumps fail and food deliveries slow",
+      "Running tap dwindles, physically shown at high-rise",
+      "Hospital generator works initially but depends on fuel",
+      "Actual aid/recovery",
+      "On day 30 lights restored but tap STILL dry",
+      "Clean end payoff about lifeline systems recovery"
+    ],
+    "constraints": "No credits purchase. No ads or Telegram or Little Wild. Full audio+video must be independently QA-assessed; stock-only footage likely needs strong checking for generic montage; if any critical action absent HOLD. No booking without QA and authenticated provider queue/AutoPilot read-back."
   }
 }
