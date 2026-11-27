@@ -7592,10 +7592,10 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 1,
-      "lastVerifiedAtOslo": "2026-11-27T16:35:00+01:00",
+      "lastVerifiedAtOslo": "2026-11-27T18:35:46+01:00",
       "evidence": "Bizarre Roman Concrete 37.407s 1080x1920, QA report and completed provider analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531, no matching future booking in fresh Metricool queue. What If Rogue Wave and Blackout exact exported masters independently deep AV FAIL; no eligible reserve.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-27T16:35:00+01:00",
+      "whatIfLastVerifiedAtOslo": "2026-11-27T18:35:46+01:00",
       "whatIfEvidence": "No verified unpublished QA-passed export; existing Mars/Volcano/GPS held; new Rogue Wave and Blackout deep AV FAILED.",
       "verifiedByChannel": {
         "bizarre": 1,
@@ -9078,7 +9078,7 @@
     "creditsObservedAfterSubmit": 165,
     "interimDifference": 187,
     "finalCostUnconfirmed": true,
-    "currentStage": "EXPORTED_FULL_AI_AV_QA_FAILED_NOT_BOOKED",
+    "currentStage": "ORIGINAL_EXPORTED_QA_FAIL_TARGETED_REPAIR_CLIP_PROCESSING",
     "recentGPSProject": "c928875a-4187-4185-ad66-563e900a26b6 EXPORTED QA HOLD, preserved and not re-generated; no confirmed Sunday booking; user's new requested subject gets editorial priority",
     "visualAuditMandatory": [
       "Immediate real moving city electrical blackout 0–2s with spoken and readable WHAT IF…?",
@@ -9104,7 +9104,7 @@
     "qaStatus": "FAIL_HOLD",
     "bookingStatus": "NO_METRICOOL_BOOKING_AI_TUBER_QUEUE_UNVERIFIED",
     "publishStatus": "NOT_PUBLISHED",
-    "lastChecked": "2026-11-27T16:35:00+01:00",
+    "lastChecked": "2026-11-27T18:35:46+01:00",
     "source": "AI Tuber authenticated get_video and get_subscription",
     "next": "Prioritize Sunday. Source/generate 4 missing linked motion beats: skyline blackout, visible stopped conveyor, neighbors organizing instead of turtle, same kitchen/person water pressure failure and dry tap after power restored. Check remaining narration/scene alignment. Reuse approved voice/audio where feasible; do not create superficially trimmed duplicate without source shots or book QA-failed export.",
     "qaReport": {
@@ -9130,6 +9130,25 @@
       ],
       "repair": "Prioritize Sunday. Source/generate 4 missing linked motion beats: skyline blackout, visible stopped conveyor, neighbors organizing instead of turtle, same kitchen/person water pressure failure and dry tap after power restored. Check remaining narration/scene alignment. Reuse approved voice/audio where feasible; do not create superficially trimmed duplicate without source shots or book QA-failed export.",
       "booking": "NOT_VERIFIED_NO_METRICOOL_BOOKING"
+    },
+    "targetedRepair20261127": {
+      "clipId": "d76b7063-d0fa-4919-8caf-13c0547575d1",
+      "model": "KLING_2_6_PRO",
+      "resolution": "1080p",
+      "durationSeconds": 5,
+      "target": "Opening Manhattan night skyline visibly losing electrical power, replace 0:00–0:08 missing action; explicit single continuous shot, no daylight",
+      "providerStatus": "processing",
+      "outputUrl": null,
+      "catalogEstimateCredits": 35,
+      "providerSubmittedEstimateCredits": 70,
+      "balanceBefore": 125,
+      "balanceAfter": 55,
+      "observedDelta": 70,
+      "costDiscrepancy": "Stop further paid generations until actual provider cost is reconciled. Listed 7 credits/sec and provider estimated 70 for 5 sec; account balance dropped 70. Do not purchase credits.",
+      "originalMediaVerifiedSha256": "00ddae157a924cb9ad9e5ff0cd99150d7480a0c5df02e7c974f70e30c9fcbe39",
+      "originalDurationSeconds": 160.683,
+      "originalPreserved": true,
+      "remaining": "Review actual returned moving clip, do not treat raw clip as completed edit. Need factory stop, community replacing turtle, same dry-tap thread; remaining 55 credits, source existing/licensed footage and evaluate zero-credit edits before additional spend. Exact final MP4 AV QA required."
     }
   },
   "publicationPreflight20261127": {
@@ -9281,6 +9300,105 @@
       "newBookings": 0,
       "publications": 0,
       "deepVideoAnalyses": 2,
+      "existingBookingsPreserved": true
+    }
+  },
+  "publicationPostflight20261127": {
+    "checkedAt": "2026-11-27T18:35:46+01:00",
+    "source": "Authenticated Metricool queues both brands Nov27–Dec4; AI Tuber channel, video catalog, live subscription and new targeted clip job; Higgsfield analysis status readback on existing exact exports and reserve; vidIQ owned-channel list returned authorization error; direct public web verification unavailable.",
+    "today": {
+      "bizarre": {
+        "id": 443297110,
+        "uuid": "-1414575147247844227",
+        "title": "They Found the Pool Named in John—What Does It Prove?",
+        "publicationDate": {
+          "dateTime": "2026-11-27T18:00:00",
+          "timezone": "Europe/Oslo"
+        },
+        "providers": [
+          {
+            "network": "tiktok",
+            "id": "7712900940889656598",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7712900940889656598"
+          },
+          {
+            "network": "youtube",
+            "id": "DRiXTFNvu7I",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.youtube.com/shorts/DRiXTFNvu7I"
+          }
+        ]
+      },
+      "whatif": {
+        "status": "NO_VERIFIED_PUBLICATION",
+        "metricool": "No rows in period",
+        "aiTuber": "Correct channel connected; no comprehensive publication listing available; no known Friday publication ID",
+        "ownerYouTube": "vidIQ authorization expired/revoked/missing permission; cannot verify complete live library",
+        "recovery": "Rogue Wave and Volcano not QA-approved; no matching verified reserve. No upload initiated."
+      }
+    },
+    "tomorrow": {
+      "date": "2026-11-28",
+      "regularSlot": false,
+      "metricool": "No bookings in either brand; Saturday 18:00 QA/booking deadline for Sunday"
+    },
+    "lookahead": [
+      {
+        "date": "2026-11-29",
+        "bizarre": "443204423 both PENDING at 18:00",
+        "whatif": "Blackout master exported, QA FAIL; targeted corrective clip processing; no booking"
+      },
+      {
+        "date": "2026-11-30",
+        "bizarre": "443469705 both PENDING 18:00",
+        "whatif": "No verified booking or approved Short"
+      },
+      {
+        "date": "2026-12-02",
+        "bizarre": "444027305 both PENDING 18:00",
+        "whatif": "No verified booking or approved long export"
+      },
+      {
+        "date": "2026-12-04",
+        "bizarre": "Unbooked; Roman reserve available, retain until needed; export deadline Dec2",
+        "whatif": "No verified booking or approved export"
+      }
+    ],
+    "reserve": {
+      "bizarre": 1,
+      "whatif": 0,
+      "bizarreEvidence": "Reserve QA report and provider deep analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531 match media 59cbf763-c0c2-4031-9e52-86a785ee9cb4; no matching future queue row; no allocation.",
+      "whatIfEvidence": "Latest exported candidates previously failed actual deep AV; no newly approved export"
+    },
+    "repair": {
+      "clipId": "d76b7063-d0fa-4919-8caf-13c0547575d1",
+      "model": "KLING_2_6_PRO",
+      "resolution": "1080p",
+      "durationSeconds": 5,
+      "target": "Opening Manhattan night skyline visibly losing electrical power, replace 0:00–0:08 missing action; explicit single continuous shot, no daylight",
+      "providerStatus": "processing",
+      "outputUrl": null,
+      "catalogEstimateCredits": 35,
+      "providerSubmittedEstimateCredits": 70,
+      "balanceBefore": 125,
+      "balanceAfter": 55,
+      "observedDelta": 70,
+      "costDiscrepancy": "Stop further paid generations until actual provider cost is reconciled. Listed 7 credits/sec and provider estimated 70 for 5 sec; account balance dropped 70. Do not purchase credits.",
+      "originalMediaVerifiedSha256": "00ddae157a924cb9ad9e5ff0cd99150d7480a0c5df02e7c974f70e30c9fcbe39",
+      "originalDurationSeconds": 160.683,
+      "originalPreserved": true,
+      "remaining": "Review actual returned moving clip, do not treat raw clip as completed edit. Need factory stop, community replacing turtle, same dry-tap thread; remaining 55 credits, source existing/licensed footage and evaluate zero-credit edits before additional spend. Exact final MP4 AV QA required."
+    },
+    "actions": {
+      "newTargetedRawClips": 1,
+      "newFullVideoGenerations": 0,
+      "newBookings": 0,
+      "publicationsInitiated": 0,
+      "creditPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0,
       "existingBookingsPreserved": true
     }
   }
