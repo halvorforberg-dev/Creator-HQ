@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-26T17:48:01.483Z",
+  "updatedAt": "2026-11-27T17:32:06.763Z",
   "source": "AITuber API read-only",
   "mappingStatus": "Channel mapping pending verification",
   "items": [
+    {
+      "id": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+      "title": "What if every power grid on Earth went dark for",
+      "status": "completed",
+      "createdAt": "2026-11-27T08:13:11.153Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
+    {
+      "id": "659c739d-c111-491e-aaf9-ecdde8f44cea",
+      "title": "What if a rogue wave hit your ship? Imagine a",
+      "status": "completed",
+      "createdAt": "2026-11-27T07:31:56.628Z",
+      "scheduledAt": null,
+      "channelName": null,
+      "channelId": null
+    },
     {
       "id": "c928875a-4187-4185-ad66-563e900a26b6",
       "title": "What if GPS went silent for twenty-four hours? Your phone",
@@ -431,24 +449,6 @@
       "title": "The Upside-Down Backpack",
       "status": "completed",
       "createdAt": "2026-10-21T14:01:23.054Z",
-      "scheduledAt": null,
-      "channelName": null,
-      "channelId": null
-    },
-    {
-      "id": "bab2d29e-12d6-4a54-a43c-f1e89ab36807",
-      "title": "What If Earth’s Gravity Became Half as Strong?",
-      "status": "completed",
-      "createdAt": "2026-10-20T16:00:51.805Z",
-      "scheduledAt": null,
-      "channelName": null,
-      "channelId": null
-    },
-    {
-      "id": "9ab157e5-7e93-4a81-850b-b7d47a60bbb8",
-      "title": "What If Earth Stopped Spinning for One Second?",
-      "status": "completed",
-      "createdAt": "2026-10-19T16:00:43.088Z",
       "scheduledAt": null,
       "channelName": null,
       "channelId": null
