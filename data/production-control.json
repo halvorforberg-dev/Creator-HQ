@@ -7592,11 +7592,11 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 1,
-      "lastVerifiedAtOslo": "2026-11-27T11:32:39+01:00",
-      "evidence": "Bizarre Past: Roman Concrete Could Heal Its Own Cracks is an unpublished 37.407s 1080x1920 QA-passed master, media ID 59cbf763-c0c2-4031-9e52-86a785ee9cb4, with completed deep analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531 and no provider booking. What If remains at 0 verified reserve.",
+      "lastVerifiedAtOslo": "2026-11-27T16:35:00+01:00",
+      "evidence": "Bizarre Roman Concrete 37.407s 1080x1920, QA report and completed provider analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531, no matching future booking in fresh Metricool queue. What If Rogue Wave and Blackout exact exported masters independently deep AV FAIL; no eligible reserve.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-27T08:33:00+01:00",
-      "whatIfEvidence": "No unpublished QA-passed export; new Rogue Wave candidate not passed.",
+      "whatIfLastVerifiedAtOslo": "2026-11-27T16:35:00+01:00",
+      "whatIfEvidence": "No verified unpublished QA-passed export; existing Mars/Volcano/GPS held; new Rogue Wave and Blackout deep AV FAILED.",
       "verifiedByChannel": {
         "bizarre": 1,
         "whatif": 0
@@ -8937,14 +8937,42 @@
         "videoId": "659c739d-c111-491e-aaf9-ecdde8f44cea",
         "jobId": "36c4b6be-1f65-4c4d-aa9a-541466f80bad",
         "exportId": "45a12b76-2adc-41cc-84d5-4017a2bcce3e",
-        "status": "GENERATION_COMPLETED_EXPORT_PROCESSING_NOT_BOOKED",
+        "status": "EXPORTED_FULL_AI_AV_QA_FAILED_NOT_BOOKED",
         "durationSeconds": 31,
         "scenes": 6,
         "format": "9:16",
         "resolutionRequested": "1080p",
         "voiceId": "nPczCjzI2devNBz1zQrb",
         "source": "NOAA documented 18.3m wave struck ship in relatively light wind; stock footage illustrative. Bracketed storyboard and four hooks documented before spend. Duration below 35–40 target; assess natural substance, actual final AV and opening, no padding.",
-        "next": "Finish exact export, inspect actual continuous full AV and visible bow/deck strike, final insight, captions, metadata and fresh queue/AutoPilot. If fail HOLD; no duplication."
+        "next": "Replace actual motion shots with coherent rogue-wave formation, ship strike and aftermath, then specific wave-profile contrast or ship recovery as closing visual; source footage before further credits. Current stock export lacks those source actions; merely trimming or overlaying text cannot fix. Preserve original.",
+        "qaReport": {
+          "title": "What If a Rogue Wave Hit Your Ship?",
+          "videoId": "659c739d-c111-491e-aaf9-ecdde8f44cea",
+          "exportId": "45a12b76-2adc-41cc-84d5-4017a2bcce3e",
+          "mediaId": "6bbfd342-c586-413c-be0c-de633de27773",
+          "sha256": "204bf7059e465dd79d1aa85b83737cfaffccf5c438639ebea30f3c027af4f416",
+          "duration": 30.677,
+          "resolution": "1080x1920",
+          "exportStatus": "completed",
+          "fullDecode": "PASS",
+          "audioMeanDb": -19.7,
+          "audioMaxDb": -3.2,
+          "analysisId": "ff535130-c959-4e78-945e-d723e9985b54",
+          "analysisStatus": "completed",
+          "qa": "FAIL_HOLD",
+          "failures": [
+            "00:05–00:17 generic turbulent water then calm ferry; no rogue wave forming/striking bow/deck or resulting impact",
+            "00:17–00:25 irrelevant calm ocean and harbor stock during historical encounter",
+            "00:25–00:30 peaceful passengers looking at wake/phone instead of WOW visual",
+            "30.677s below target; ending abstract; no padding"
+          ],
+          "passes": [
+            "Spoken and written WHAT IF in 0–2s",
+            "Narration intelligible and captions synchronized"
+          ],
+          "repair": "Replace actual motion shots with coherent rogue-wave formation, ship strike and aftermath, then specific wave-profile contrast or ship recovery as closing visual; source footage before further credits. Current stock export lacks those source actions; merely trimming or overlaying text cannot fix. Preserve original.",
+          "booking": "NOT_VERIFIED_NO_METRICOOL_BOOKING"
+        }
       }
     },
     "nextSevenDays": [
@@ -9050,7 +9078,7 @@
     "creditsObservedAfterSubmit": 165,
     "interimDifference": 187,
     "finalCostUnconfirmed": true,
-    "currentStage": "COMPLETED_GENERATION_1080P_EXPORT_PROCESSING_NOT_FULL_AV_QA_APPROVED_NOT_BOOKED",
+    "currentStage": "EXPORTED_FULL_AI_AV_QA_FAILED_NOT_BOOKED",
     "recentGPSProject": "c928875a-4187-4185-ad66-563e900a26b6 EXPORTED QA HOLD, preserved and not re-generated; no confirmed Sunday booking; user's new requested subject gets editorial priority",
     "visualAuditMandatory": [
       "Immediate real moving city electrical blackout 0–2s with spoken and readable WHAT IF…?",
@@ -9064,20 +9092,196 @@
       "Clean end payoff about lifeline systems recovery"
     ],
     "constraints": "No credits purchase. No ads or Telegram or Little Wild. Full audio+video must be independently QA-assessed; stock-only footage likely needs strong checking for generic montage; if any critical action absent HOLD. No booking without QA and authenticated provider queue/AutoPilot read-back.",
-    "actualDurationSeconds": 161,
+    "actualDurationSeconds": 160.683,
     "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
     "exportResolution": "1080p",
-    "exportStatus": "processing",
+    "exportStatus": "completed",
     "thumbnailStatus": "ready",
     "lastObserved": "2026-11-27 09:15 Europe/Oslo",
     "creditsObservedAfterCompletedGenerationAndThumbnail": 125,
     "latestObservedCreditDelta": 227,
     "finalLineItemCostUnverified": true,
-    "qaStatus": "NOT_STARTED_FINISHED_MP4_UNAVAILABLE",
-    "bookingStatus": "NOT_BOOKED",
+    "qaStatus": "FAIL_HOLD",
+    "bookingStatus": "NO_METRICOOL_BOOKING_AI_TUBER_QUEUE_UNVERIFIED",
     "publishStatus": "NOT_PUBLISHED",
-    "lastChecked": "2026-11-27 09:19 Europe/Oslo",
+    "lastChecked": "2026-11-27T16:35:00+01:00",
     "source": "AI Tuber authenticated get_video and get_subscription",
-    "next": "When export completes, acquire finished MP4 and perform 10-beat actual visual and full-audio review. If preview fails or scenes mismatch, HOLD and log blocker; Sunday booking only after pass and actual provider slot verification."
+    "next": "Prioritize Sunday. Source/generate 4 missing linked motion beats: skyline blackout, visible stopped conveyor, neighbors organizing instead of turtle, same kitchen/person water pressure failure and dry tap after power restored. Check remaining narration/scene alignment. Reuse approved voice/audio where feasible; do not create superficially trimmed duplicate without source shots or book QA-failed export.",
+    "qaReport": {
+      "title": "What If the Entire World Lost Power for 30 Days?",
+      "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+      "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+      "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
+      "sha256": "00ddae157a924cb9ad9e5ff0cd99150d7480a0c5df02e7c974f70e30c9fcbe39",
+      "duration": 160.683,
+      "resolution": "1920x1080",
+      "exportStatus": "completed",
+      "fullDecode": "PASS",
+      "audioMeanDb": -19.5,
+      "audioMaxDb": -2.8,
+      "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83",
+      "analysisStatus": "completed",
+      "qa": "FAIL_HOLD",
+      "failures": [
+        "00:00–00:08 static lit buildings/daytime traffic rather than actual moving blackout",
+        "00:31–00:36 conveyor keeps operating while narrator claims it stops",
+        "01:52–01:56 unrelated underwater sea turtle",
+        "02:08–02:36 no coherent recurring family; running faucet contradicts dry tap payoff"
+      ],
+      "repair": "Prioritize Sunday. Source/generate 4 missing linked motion beats: skyline blackout, visible stopped conveyor, neighbors organizing instead of turtle, same kitchen/person water pressure failure and dry tap after power restored. Check remaining narration/scene alignment. Reuse approved voice/audio where feasible; do not create superficially trimmed duplicate without source shots or book QA-failed export.",
+      "booking": "NOT_VERIFIED_NO_METRICOOL_BOOKING"
+    }
+  },
+  "publicationPreflight20261127": {
+    "checkedAt": "2026-11-27T16:35:00+01:00",
+    "source": "Authenticated Metricool brand settings/queues Nov26–Dec4; AI Tuber latest completed exports/channel/credit balance; two exact downloaded and decoded MP4s, Higgsfield uploaded media and completed deep audiovisual assessments; Roman reserve report and provider analysis readback.",
+    "today": {
+      "bizarre": {
+        "title": "They Found the Pool Named in John—What Does It Prove?",
+        "postId": 443297110,
+        "uuid": "-1414575147247844227",
+        "scheduledAt": "2026-11-27T18:00:00+01:00",
+        "youtube": "PENDING",
+        "tiktok": "PENDING",
+        "mediaPresent": true,
+        "autoPublish": true,
+        "aiDeclaration": "Previously recorded",
+        "correctBrandVerified": true,
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=-1414575147247844227"
+      },
+      "whatif": {
+        "scheduledGoal": "Short",
+        "volcano": "HOLD",
+        "recoveryCandidate": {
+          "title": "What If a Rogue Wave Hit Your Ship?",
+          "videoId": "659c739d-c111-491e-aaf9-ecdde8f44cea",
+          "exportId": "45a12b76-2adc-41cc-84d5-4017a2bcce3e",
+          "mediaId": "6bbfd342-c586-413c-be0c-de633de27773",
+          "sha256": "204bf7059e465dd79d1aa85b83737cfaffccf5c438639ebea30f3c027af4f416",
+          "duration": 30.677,
+          "resolution": "1080x1920",
+          "exportStatus": "completed",
+          "fullDecode": "PASS",
+          "audioMeanDb": -19.7,
+          "audioMaxDb": -3.2,
+          "analysisId": "ff535130-c959-4e78-945e-d723e9985b54",
+          "analysisStatus": "completed",
+          "qa": "FAIL_HOLD",
+          "failures": [
+            "00:05–00:17 generic turbulent water then calm ferry; no rogue wave forming/striking bow/deck or resulting impact",
+            "00:17–00:25 irrelevant calm ocean and harbor stock during historical encounter",
+            "00:25–00:30 peaceful passengers looking at wake/phone instead of WOW visual",
+            "30.677s below target; ending abstract; no padding"
+          ],
+          "passes": [
+            "Spoken and written WHAT IF in 0–2s",
+            "Narration intelligible and captions synchronized"
+          ],
+          "repair": "Replace actual motion shots with coherent rogue-wave formation, ship strike and aftermath, then specific wave-profile contrast or ship recovery as closing visual; source footage before further credits. Current stock export lacks those source actions; merely trimming or overlaying text cannot fix. Preserve original.",
+          "booking": "NOT_VERIFIED_NO_METRICOOL_BOOKING"
+        },
+        "status": "NO_CONFIRMED_BOOKING_NO_QA_PASSED_RESERVE",
+        "actualQueue": "No pending Metricool row; AI Tuber full publication list unavailable; connected channel verified, last UI evidence paused/empty but not current queue verification."
+      }
+    },
+    "tomorrow": {
+      "date": "2026-11-28",
+      "regularSlot": false,
+      "metricool": "No booking in either brand"
+    },
+    "lookahead": [
+      {
+        "date": "2026-11-29",
+        "bizarre": "Jesus tomb 443204423 both PENDING 18:00",
+        "whatif": "User-priority blackout export complete before export deadline; FAIL QA, no confirmed booking; GPS HOLD",
+        "qaBookingDeadline": "2026-11-28T18:00:00+01:00"
+      },
+      {
+        "date": "2026-11-30",
+        "bizarre": "Merer 443469705 both PENDING",
+        "whatif": "Short unbooked; no approved export or reserve"
+      },
+      {
+        "date": "2026-12-02",
+        "bizarre": "Silver scrolls 444027305 both PENDING",
+        "whatif": "Long unbooked; no verified export"
+      },
+      {
+        "date": "2026-12-04",
+        "bizarre": "Short unbooked; verified Roman reserve available but retain until needed; export deadline Dec 2",
+        "whatif": "Short unbooked; no verified export"
+      }
+    ],
+    "recovery": {
+      "rogue": {
+        "title": "What If a Rogue Wave Hit Your Ship?",
+        "videoId": "659c739d-c111-491e-aaf9-ecdde8f44cea",
+        "exportId": "45a12b76-2adc-41cc-84d5-4017a2bcce3e",
+        "mediaId": "6bbfd342-c586-413c-be0c-de633de27773",
+        "sha256": "204bf7059e465dd79d1aa85b83737cfaffccf5c438639ebea30f3c027af4f416",
+        "duration": 30.677,
+        "resolution": "1080x1920",
+        "exportStatus": "completed",
+        "fullDecode": "PASS",
+        "audioMeanDb": -19.7,
+        "audioMaxDb": -3.2,
+        "analysisId": "ff535130-c959-4e78-945e-d723e9985b54",
+        "analysisStatus": "completed",
+        "qa": "FAIL_HOLD",
+        "failures": [
+          "00:05–00:17 generic turbulent water then calm ferry; no rogue wave forming/striking bow/deck or resulting impact",
+          "00:17–00:25 irrelevant calm ocean and harbor stock during historical encounter",
+          "00:25–00:30 peaceful passengers looking at wake/phone instead of WOW visual",
+          "30.677s below target; ending abstract; no padding"
+        ],
+        "passes": [
+          "Spoken and written WHAT IF in 0–2s",
+          "Narration intelligible and captions synchronized"
+        ],
+        "repair": "Replace actual motion shots with coherent rogue-wave formation, ship strike and aftermath, then specific wave-profile contrast or ship recovery as closing visual; source footage before further credits. Current stock export lacks those source actions; merely trimming or overlaying text cannot fix. Preserve original.",
+        "booking": "NOT_VERIFIED_NO_METRICOOL_BOOKING"
+      },
+      "blackout": {
+        "title": "What If the Entire World Lost Power for 30 Days?",
+        "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+        "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+        "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
+        "sha256": "00ddae157a924cb9ad9e5ff0cd99150d7480a0c5df02e7c974f70e30c9fcbe39",
+        "duration": 160.683,
+        "resolution": "1920x1080",
+        "exportStatus": "completed",
+        "fullDecode": "PASS",
+        "audioMeanDb": -19.5,
+        "audioMaxDb": -2.8,
+        "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83",
+        "analysisStatus": "completed",
+        "qa": "FAIL_HOLD",
+        "failures": [
+          "00:00–00:08 static lit buildings/daytime traffic rather than actual moving blackout",
+          "00:31–00:36 conveyor keeps operating while narrator claims it stops",
+          "01:52–01:56 unrelated underwater sea turtle",
+          "02:08–02:36 no coherent recurring family; running faucet contradicts dry tap payoff"
+        ],
+        "repair": "Prioritize Sunday. Source/generate 4 missing linked motion beats: skyline blackout, visible stopped conveyor, neighbors organizing instead of turtle, same kitchen/person water pressure failure and dry tap after power restored. Check remaining narration/scene alignment. Reuse approved voice/audio where feasible; do not create superficially trimmed duplicate without source shots or book QA-failed export.",
+        "booking": "NOT_VERIFIED_NO_METRICOOL_BOOKING"
+      },
+      "action": "Retrieved both finished files, preserved and transferred exact exports for full automated AV review, completed both reviews, identified specific replacement shots. No safe corrected release because missing pivotal moving source footage; no supported in-place AI Tuber scene replacement confirmed, no approved reserve. Do not spend remaining 125 AI Tuber credits on speculative new generic stock export. Focus recovery on exact visual beats with preflight and cost check."
+    },
+    "reserveCounts": {
+      "bizarre": 1,
+      "whatif": 0
+    },
+    "aiTuberCreditsObserved": 125,
+    "actions": {
+      "newGenerations": 0,
+      "newCreditPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "newBookings": 0,
+      "publications": 0,
+      "deepVideoAnalyses": 2,
+      "existingBookingsPreserved": true
+    }
   }
 }
