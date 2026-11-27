@@ -7595,8 +7595,8 @@
       "lastVerifiedAtOslo": "2026-11-27T07:21:44+01:00",
       "evidence": "Fresh Nov 27 07:21 provider queue and complete 545-item Higgsfield history check: all QA-passed masters are assigned to bookings; no unallocated verified reserve.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-26T18:35:00+01:00",
-      "whatIfEvidence": "Gravity revised master published; Volcano, GPS, Mars QA holds; no verified unallocated reserve.",
+      "whatIfLastVerifiedAtOslo": "2026-11-27T08:33:00+01:00",
+      "whatIfEvidence": "No unpublished QA-passed export; new Rogue Wave candidate not passed.",
       "verifiedByChannel": {
         "bizarre": 0,
         "whatif": 0
@@ -7846,7 +7846,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-27T07:21:44+01:00",
+  "lastUpdatedAt": "2026-11-27T08:33:00+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -8789,5 +8789,123 @@
       }
     ],
     "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED"
+  },
+  "whatIfAgentCheck20261127": {
+    "checkedAtOslo": "2026-11-27T08:33:00+01:00",
+    "earliestSlot": "Fri Nov27 Short, overdue export and booking deadlines; existing Volcano cannot be approved, no verified reserve",
+    "queue": {
+      "metricool": "Authenticated brand 7751348 Nov26–Dec4 only Gravity PUBLISHED, no pending rows; no Friday/Sunday/Monday booking visible",
+      "gravity": {
+        "postId": 443341376,
+        "status": "PUBLISHED",
+        "url": "https://www.youtube.com/watch?v=2OldLaPls1Y",
+        "fullAvQa": "Not established; do not duplicate"
+      },
+      "aiTuber": "Connected exact What If channel 78dcabfb-3657-41ab-89b8-8c04da2f43d5, entire account catalog 52 before new job. Full live publication list and AutoPilot UI not exposed by API; last browser evidence paused/draft-only Nov26, reconnect scopes unresolved. Not cleared for publishing."
+    },
+    "recovery": {
+      "volcano": {
+        "videoId": "0c215c2a-0f34-4f5a-a820-e090e7323379",
+        "status": "EXPORTED_QA_HOLD",
+        "freshTimeline": "Provider actual scene list duplicates flood narration and omits heat/water storage beat visually; 25s. Narrow API search returns no in-place scene replacement/narration timeline mutation. No speculative duplicate."
+      },
+      "gps": {
+        "videoId": "c928875a-4187-4185-ad66-563e900a26b6",
+        "status": "EXPORTED_QA_HOLD",
+        "reason": "Previous deep QA findings stand; no supported scene mutation found."
+      },
+      "mars": {
+        "videoId": "6042810a-3820-4eeb-bcd3-06e68aca2d6f",
+        "status": "EXPORTED_QA_HOLD",
+        "reason": "Tidal cycle and gauge not verified; not reserve."
+      },
+      "independentShort": {
+        "title": "What If a Rogue Wave Hit Your Ship?",
+        "brief": "data/whatif-rogue-wave-short-brief-2026-11-27.md",
+        "videoId": "659c739d-c111-491e-aaf9-ecdde8f44cea",
+        "jobId": "36c4b6be-1f65-4c4d-aa9a-541466f80bad",
+        "exportId": "45a12b76-2adc-41cc-84d5-4017a2bcce3e",
+        "status": "GENERATION_COMPLETED_EXPORT_PROCESSING_NOT_BOOKED",
+        "durationSeconds": 31,
+        "scenes": 6,
+        "format": "9:16",
+        "resolutionRequested": "1080p",
+        "voiceId": "nPczCjzI2devNBz1zQrb",
+        "source": "NOAA documented 18.3m wave struck ship in relatively light wind; stock footage illustrative. Bracketed storyboard and four hooks documented before spend. Duration below 35–40 target; assess natural substance, actual final AV and opening, no padding.",
+        "next": "Finish exact export, inspect actual continuous full AV and visible bow/deck strike, final insight, captions, metadata and fresh queue/AutoPilot. If fail HOLD; no duplication."
+      }
+    },
+    "nextSevenDays": [
+      {
+        "date": "2026-11-27",
+        "format": "Short",
+        "exportDeadline": "2026-11-25 18:00",
+        "qaBookingDeadline": "2026-11-26 18:00",
+        "status": "OVERDUE; Volcano HOLD; independent Rogue Wave candidate in export; no confirmed booking"
+      },
+      {
+        "date": "2026-11-29",
+        "format": "16:9",
+        "exportDeadline": "2026-11-27 18:00",
+        "qaBookingDeadline": "2026-11-28 18:00",
+        "status": "GPS export exists but QA HOLD, no booking; repair if supported, no reserve"
+      },
+      {
+        "date": "2026-11-30",
+        "format": "Short",
+        "exportDeadline": "2026-11-28 18:00",
+        "qaBookingDeadline": "2026-11-29 18:00",
+        "status": "Rogue Wave candidate if not used Friday and passes; otherwise select new distinct stock-feasible concept"
+      },
+      {
+        "date": "2026-12-02",
+        "format": "16:9",
+        "exportDeadline": "2026-11-30 18:00",
+        "qaBookingDeadline": "2026-12-01 18:00",
+        "status": "Unbooked; candidate original story pending editorial QC, cost plan 160–240 credits for 2–3 min stock, not binding"
+      },
+      {
+        "date": "2026-12-04",
+        "format": "Short",
+        "exportDeadline": "2026-12-02 18:00",
+        "qaBookingDeadline": "2026-12-03 18:00",
+        "status": "Unbooked; candidate lightning strikes car, source NOAA/NWS, needs feasible impact and current-path visuals before spend; 47–67 estimated credits."
+      }
+    ],
+    "reserve": {
+      "verifiedCount": 0,
+      "reason": "No unpublished QA-passed export; new Rogue Wave candidate not passed."
+    },
+    "credits": {
+      "before": 394,
+      "after": 352,
+      "observedDifference": 42,
+      "stockEstimate": "47–67 for 35–40s; actual generation 31s. No purchases."
+    },
+    "analytics": {
+      "source": "Authenticated Metricool all videos checked Nov27, most recent visible data Nov22; Gravity provider confirms published but analytics not visible yet.",
+      "blackHole": {
+        "views": 1230,
+        "avgViewSeconds": 15
+      },
+      "airVanished": {
+        "views": 232,
+        "avgViewSeconds": 13
+      },
+      "asteroid": {
+        "views": 13,
+        "avgViewSeconds": 28
+      },
+      "test": "Actual physical impact from first frame; no matched-age retention, CTR or causality claim."
+    },
+    "compliance": {
+      "newGenerations": 1,
+      "newExports": 1,
+      "bookings": 0,
+      "purchases": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "existingBookingsChanged": false
+    }
   }
 }
