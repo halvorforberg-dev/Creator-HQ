@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T08:33:00+01:00",
+  "updatedAt": "2026-11-27T16:35:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -487,8 +487,8 @@
       "confirmedAt": "2026-11-26T08:41:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
-      "lastCheckedAt": "2026-11-27T08:33:00+01:00",
-      "latestPreflight": "No Metricool booking for What If; existing QA HOLD, no eligible reserve. AI Tuber full live publication queue not exposed by current connector.",
+      "lastCheckedAt": "2026-11-27T16:35:00+01:00",
+      "latestPreflight": "No Friday Metricool booking; exact new Rogue Wave recovery export failed independent deep AV QA, no eligible What If reserve. Existing Volcano held for missing physical glacier mechanism; no duplicate uploads.",
       "latestPostflight": "No Friday What If booking in authenticated Metricool; no approved reserve. AI Tuber full current queue unavailable; last known paused. 394 credits. Actual project timeline repeats flood beat and omits causal heat/storage visualization. Repair shot plan recorded in publicationPostflight20261126.nextRecovery; no supported in-place scene edit endpoint found.",
       "latestStatus": "Friday booking deadline missed; authenticated Metricool only shows Gravity published, no Friday slot. Fresh AI Tuber timeline review confirms missing causal glacier/heat scene; supported API search found no in-place mutation. No approved reserve. Independent new Rogue Wave Short generated (659c739d-c111-491e-aaf9-ecdde8f44cea), 1080p export processing (45a12b76-2adc-41cc-84d5-4017a2bcce3e); not booking-eligible before actual AV and queue clearance. 42 credits balance decrease, 352 remain."
     },
@@ -567,6 +567,50 @@
       "notificationPolicy": "NO TELEGRAM",
       "latestPostflight": "No Sunday booking for What If; deep QA HOLD unchanged. Export exists, not a reserve.",
       "latestStatus": "Sunday export exists, earlier deep QA hold remains; no supported in-place scene mutation endpoint identified and no verified reserve. Sunday booking absent in fresh Metricool queue."
+    },
+    {
+      "id": "whatif-rogue-wave-final-av-qc-2026-11-27",
+      "source": {
+        "type": "full_export_deep_ai_av_analysis",
+        "videoId": "659c739d-c111-491e-aaf9-ecdde8f44cea",
+        "exportId": "45a12b76-2adc-41cc-84d5-4017a2bcce3e",
+        "mediaId": "6bbfd342-c586-413c-be0c-de633de27773",
+        "analysisId": "ff535130-c959-4e78-945e-d723e9985b54"
+      },
+      "summary": "Friday recovery Short exported and deep AV QA FAILED: 00:05–00:17 no wave actually strikes ship; generic water and calm ferry, 00:17–00:25 unrelated calm harbor, 00:25–00:30 no visual payoff. 30.677s, no provider booking or eligible reserve.",
+      "action": "Source appropriate moving wave/ship-impact, aftermath and scientifically coherent ending shots first; re-edit within approved budget, then full actual MP4 QA and fresh duplicate check. No speculative regeneration or publication.",
+      "channel": "What If in 40 Seconds",
+      "state": "open",
+      "severity": "blocker",
+      "category": "quality_gate_blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-27T16:35:00+01:00",
+      "lastCheckedAt": "2026-11-27T16:35:00+01:00",
+      "notificationRevision": 1,
+      "ownerActionRequired": false,
+      "notificationPolicy": "NO TELEGRAM"
+    },
+    {
+      "id": "whatif-global-blackout-final-av-qc-2026-11-27",
+      "source": {
+        "type": "full_export_deep_ai_av_analysis",
+        "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+        "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+        "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
+        "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83"
+      },
+      "summary": "Sunday priority user-requested 30-day blackout long film complete 160.683s, full deep AV QA FAILED: no actual moving blackout 00:00–00:08, conveyor keeps moving 00:31–00:36, unrelated sea turtle 01:52–01:56, working tap instead of dry tap payoff and no family continuity 02:08–02:36. No verified booking. Export deadline met; QA/booking due Saturday 18:00.",
+      "action": "Replace four missing or contradictory motion beats; preserve coherent same-family water thread and verified narration, no unrelated clips. Full AV review and booking only if PASS. Source shots/cost estimate first; 125 AI Tuber credits observed.",
+      "channel": "What If in 40 Seconds",
+      "state": "open",
+      "severity": "blocker",
+      "category": "quality_gate_blocker",
+      "confirmed": true,
+      "confirmedAt": "2026-11-27T16:35:00+01:00",
+      "lastCheckedAt": "2026-11-27T16:35:00+01:00",
+      "notificationRevision": 1,
+      "ownerActionRequired": false,
+      "notificationPolicy": "NO TELEGRAM"
     }
   ]
 }
