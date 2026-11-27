@@ -9453,5 +9453,124 @@
       "Before scheduling, inspect the actual FINAL 9:16 or 16:9 MP4 across opening, middle, payoff with real mobile safe-zone context and full audio. If text masks important visuals or is visually dominant, HOLD and adjust overlays on original master; do not regenerate or spend credits for caption-only issues."
     ],
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
+  },
+  "bizarrePastWorkflowCheckLatest": {
+    "checkedAt": "2026-11-27T22:55:00+01:00",
+    "timezone": "Europe/Oslo",
+    "source": "Authenticated Metricool brand settings and queue; Metricool TikTok post analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
+    "connections": {
+      "metricoolBrandId": 7296504,
+      "metricoolInternalLabel": "BIZZARE PAST",
+      "youtubeChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "youtubeChannelTitle": "Bizarre Past",
+      "youtubeHandle": "@bizarrepast69",
+      "youtubeConnected": true,
+      "tiktokAccount": "bizzare.past",
+      "tiktokConnected": true,
+      "tiktokDisplayName": "BIZARRE PAST",
+      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; current Metricool internal brand label remains misspelled but is not the public display name.",
+      "userActionRequired": false
+    },
+    "metricool": {
+      "publishedToday": {
+        "title": "They Found the Pool Named in John—What Does It Prove?",
+        "postId": 443297110,
+        "uuid": "-1414575147247844227",
+        "targetAt": "2026-11-27T18:00:00+01:00",
+        "youtube": {
+          "status": "PUBLISHED",
+          "id": "DRiXTFNvu7I",
+          "publicUrl": "https://www.youtube.com/shorts/DRiXTFNvu7I",
+          "providerPublishedAt": "2026-11-27T18:15:26+01:00"
+        },
+        "tiktok": {
+          "status": "PUBLISHED",
+          "id": "7712900940889656598",
+          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7712900940889656598"
+        }
+      },
+      "futureQueue": [
+        {
+          "date": "2026-11-29T18:00:00+01:00",
+          "title": "They Opened Jesus’ Tomb—What Did They Find?",
+          "postId": 443204423,
+          "uuid": "6713892857688049338",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        },
+        {
+          "date": "2026-11-30T18:00:00+01:00",
+          "title": "The Great Pyramid Left a Shipping Diary",
+          "postId": 443469705,
+          "uuid": "-483800662805034080",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        },
+        {
+          "date": "2026-12-02T18:00:00+01:00",
+          "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+          "postId": 444027305,
+          "uuid": "-6247129281501248812",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
+        }
+      ],
+      "tiktokAnalytics": "No post analytics rows returned yet for 2026-11-27; reporting lag, not a verified failure.",
+      "existingBookingsPreserved": true
+    },
+    "vidiq": {
+      "access": "CONNECTED",
+      "authenticatedAs": "halvorforberg@gmail.com",
+      "totalCredits": 1752,
+      "renewableCredits": 1750,
+      "addOnCredits": 2,
+      "renewalAt": "2026-12-21T20:09:10Z",
+      "activeJobs": 0,
+      "productionBlockedByCredits": false,
+      "latestOwnedVideo": {
+        "id": "DRiXTFNvu7I",
+        "title": "They Found the Pool Named in John—What Does It Prove?",
+        "status": "public_processed",
+        "duration": "PT40S",
+        "views": 69,
+        "likes": 4,
+        "comments": 0,
+        "observedAt": "2026-11-27T22:55:00+01:00"
+      }
+    },
+    "higgsfield": {
+      "access": "CONNECTED",
+      "plan": "ultra",
+      "credits": 570.83,
+      "activeJobsAmongLatest50": 0,
+      "generationBlockedByCredits": false,
+      "approvedVoice": {
+        "model": "elevenlabs_v4_turbo",
+        "preset": "Callum",
+        "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+        "pitchShift": false
+      }
+    },
+    "reliability": {
+      "lookaheadThrough": "2026-12-07",
+      "nextUnfinishedRegularBizarreSlot": "2026-12-04T18:00:00+01:00",
+      "exportDeadline": "2026-12-02T18:00:00+01:00",
+      "qaBookingDeadline": "2026-12-03T18:00:00+01:00",
+      "deadlineMissed": false,
+      "verifiedUnpublishedQaPassedReserveCount": 1,
+      "reserveTitle": "Roman Concrete Could Heal Its Own Cracks",
+      "reserveAllocated": false,
+      "userActionRequired": false,
+      "blockers": []
+    },
+    "actions": {
+      "newBookings": 0,
+      "bookingChanges": 0,
+      "generations": 0,
+      "creditPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0
+    }
   }
 }
