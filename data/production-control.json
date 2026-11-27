@@ -8661,7 +8661,7 @@
     ]
   },
   "bizarrePastAgentCheck20261127": {
-    "checkedAtOslo": "2026-11-27T08:49:00+01:00",
+    "checkedAtOslo": "2026-11-27T09:22:43+01:00",
     "governingSource": "productionReliability20261125 plus latest exact-voice and editorial gates",
     "lookaheadThrough": "2026-12-07T23:59:59+01:00",
     "connections": {
@@ -8760,17 +8760,26 @@
     "higgsfield": {
       "access": true,
       "plan": "Ultra",
-      "credits": 702.25,
+      "credits": 574.01,
       "activeJobs": 0,
-      "latestBatch": "Ketef Hinnom: 33 still-image generations, 23 Magi-2 video generations, exact Callum narration and music all terminal completed.",
+      "latestBatch": "Ketef Hinnom production completed and booked; separate Roman-concrete reserve completed with 5 stills, 6 Magi-2 video jobs (one rejected and replaced), exact Callum narration, final master upload, and deep provider analysis.",
       "productionBlockedByCredits": false
     },
     "reserve": {
       "required": 1,
-      "verifiedUnallocated": 0,
-      "targetMet": false,
+      "verifiedUnallocated": 1,
+      "targetMet": true,
       "requiresUserAction": false,
-      "nextAction": "Produce a separate QA-passed unallocated Bizarre master inside the remaining 702.25 credits; Dec 2 master is allocated and cannot count as reserve."
+      "title": "Roman Concrete Could Heal Its Own Cracks",
+      "status": "QA_PASS_RESERVE_UNALLOCATED",
+      "durationSeconds": 37.407,
+      "resolution": "1080x1920",
+      "mediaId": "59cbf763-c0c2-4031-9e52-86a785ee9cb4",
+      "sha256": "f4ab3d4078b21b0244a626996db86227b716945ca4d87ae475ef5e8866c3e691",
+      "qaReport": "data/bizarre-past-roman-concrete-reserve-qc-2026-11-27.json",
+      "deepAnalysisId": "dfe85f36-6b37-4dc0-a0d0-7e5161623531",
+      "booking": null,
+      "nextAction": "Keep unallocated. Use only after a fresh queue/duplicate check and only for a slot whose assigned film cannot meet QA or provider-booking deadline."
     },
     "deadlineStatus": {
       "siloam": "Provider PENDING for Nov 27 18:00; release-day preflight remains due.",
@@ -8780,9 +8789,9 @@
       "dec4": "No verified export or booking yet; export deadline Dec 2 18:00, booking deadline Dec 3 18:00."
     },
     "actions": {
-      "newImageGenerations": 33,
-      "newVideoGenerations": 23,
-      "newAudioGenerations": 2,
+      "newImageGenerations": 38,
+      "newVideoGenerations": 29,
+      "newAudioGenerations": 3,
       "newBookings": 1,
       "newPublications": 0,
       "creditPurchases": 0,
@@ -8792,10 +8801,6 @@
     },
     "blockersRequiringUserAction": [],
     "operationalRisks": [
-      {
-        "id": "bizarre-no-unallocated-reserve",
-        "detail": "Reserve target remains unmet; Dec 2 film is assigned to a provider booking and does not count. No user action required."
-      },
       {
         "id": "bizarre-dec4-unready",
         "detail": "Dec 4 Short is the next unfinished regular slot. Its deadlines have not yet passed."
@@ -8840,6 +8845,45 @@
         "tiktok": "PENDING",
         "verifiedAt": "2026-11-27T08:46:00+01:00"
       }
+    },
+    "romanConcreteReserve": {
+      "status": "QA_PASS_RESERVE_UNALLOCATED",
+      "title": "Roman Concrete Could Heal Its Own Cracks",
+      "alternateTitle": "The 'Mistakes' That Made Roman Concrete Stronger",
+      "question": "How could ancient Roman concrete seal its own cracks?",
+      "endingLearning": "Reactive lime clasts from proposed hot mixing could dissolve when water entered a crack and recrystallize as calcium carbonate; Roman-inspired test samples healed cracks up to 0.5 mm within two weeks while controls did not.",
+      "evidenceLimit": "The study and modern test do not establish that every Roman structure used the same recipe or self-healed under every condition.",
+      "exactVoice": {
+        "engine": "elevenlabs_v4_turbo",
+        "preset": "Callum",
+        "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+        "generationJobId": "b51b3343-470e-41dd-a013-dc97f175ac5b",
+        "pitchShift": false,
+        "userABApprovedOn": "2026-11-26"
+      },
+      "master": {
+        "durationSeconds": 37.407,
+        "resolution": "1080x1920",
+        "mediaId": "59cbf763-c0c2-4031-9e52-86a785ee9cb4",
+        "bytes": 43807780,
+        "sha256": "f4ab3d4078b21b0244a626996db86227b716945ca4d87ae475ef5e8866c3e691"
+      },
+      "avQa": {
+        "status": "PASS",
+        "report": "data/bizarre-past-roman-concrete-reserve-qc-2026-11-27.json",
+        "deepAnalysisId": "dfe85f36-6b37-4dc0-a0d0-7e5161623531",
+        "scenesDetected": 5,
+        "providerTranscriptBeginsWithDidYouKnow": true,
+        "fullDecode": "PASS",
+        "noSilenceOverOneSecond": true,
+        "noBlackIntervalOverHalfSecond": true,
+        "audioMeanDb": -18.4,
+        "audioMaxDb": -0.8,
+        "rejectedMagicalEffectReplaced": true,
+        "finalComparisonReviewed": true
+      },
+      "allocation": null,
+      "booking": null
     }
   },
   "whatIfAgentCheck20261127": {
