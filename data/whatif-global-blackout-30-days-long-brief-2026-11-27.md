@@ -65,3 +65,7 @@
 - Latest provider stage at 27 Nov ~09:14 Oslo: `processing` with `durationSeconds=0`. Not yet exported or ready for release.
 - Critical 0–2 sec New York electric-grid cut, stopped factory conveyer and fuel pump, water tap dwindling and dry, hospital backup generator, 30-day restoration of LIGHTS but not WATER are mandatory to be VERIFIED IN ACTUAL MOVING VIDEO. Audio intelligibility, spoken and readable WHAT IF, final line, science, continuity and thumbnail require **full 1080p MP4 audiovisual check**. **Stock footage may not match custom disaster action, so FAIL/HOLD if any required shots missing.**
 - Target next unbooked 16:9 slot Sunday 29 November at 18:00 Europe/Oslo; requires export by 27 Nov 18:00 and actual full AV QA and provider booking by Sat 28 Nov 18:00. An earlier GPS video remains HOLD, not deleted or modified.
+
+## Latest provider update — 2026-11-27 ~09:19 Oslo
+
+AITuber reports `completed` generated video of **161 seconds** (2m41s) for id `74b3bc0d-1e52-42f2-86a8-5c94e623023d`. Exact export `a7374259-3498-44e7-a03c-2c35e3e1d097` to 1080p **processing**, not confirmed finished. Thumbnail generated, URL returned. Current credit balance **125**; observed reduction **227 credits** from 352 at start, provider did not itemize. No buying. Working container attempted to download the thumbnail from AITuber CDN, encountered DNS NameResolutionError; final MP4 cannot yet be inspected because export processing. **No finished AV QC or booking, hence Sunday remains editorial target only.**
