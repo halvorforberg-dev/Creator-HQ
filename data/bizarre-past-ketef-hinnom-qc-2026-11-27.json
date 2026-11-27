@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "checkedAt": "2026-11-27T08:47:00+01:00",
+  "channel": "Bizarre Past",
+  "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+  "alternateTitle": "Two Silver Amulets Hid Words Older Than the Dead Sea Scrolls",
+  "format": "ordinary public 16:9 film",
+  "targetSlot": "2026-12-02T18:00:00+01:00",
+  "editorial": {
+    "question": "What exactly did the Ketef Hinnom silver amulets preserve, and how far can the evidence take us?",
+    "endingLearning": "The viewer learns that the amulets are an early written witness to blessing language also found in Numbers, while the objects do not date the whole book or prove a miracle.",
+    "didYouKnowSpokenAtStart": true,
+    "didYouKnowWrittenBySeconds": 0.5,
+    "hookOptionsCreated": 5,
+    "selectedHook": "Did you know two pieces of silver, each smaller than a finger, preserved words also found in the Bible centuries before the Dead Sea Scrolls?",
+    "twoTitlesCompared": true,
+    "repetitionReview": "PASS",
+    "evidenceBoundaryInEnding": true
+  },
+  "factualSources": [
+    {
+      "name": "Israel Museum via Google Arts & Culture",
+      "url": "https://artsandculture.google.com/asset/ketef-hinnom-amulets-unknown/mQH7ITmZtkmfbA",
+      "supports": "Two rolled silver amulets from a burial cave; ancient Hebrew; lower inscription parallels Numbers 6:24–26; museum sixth-century BCE dating and comparison with Dead Sea Scrolls."
+    },
+    {
+      "name": "Barkay et al., BASOR 334 (2004)",
+      "doi": "10.2307/4150106",
+      "supports": "1979 discovery, high-resolution imaging, late preexilic argument, apotropaic amulet context and early biblical parallels."
+    },
+    {
+      "name": "Nadav Na’aman, Tel Aviv 38 (2011)",
+      "url": "https://cris.tau.ac.il/en/publications/a-new-appraisal-of-the-silver-amulets-from-ketef-hinnom",
+      "supports": "Alternative early Second Temple dating interpretation."
+    },
+    {
+      "name": "Hebrew University Corpus of Inscriptions of Ancient Israel",
+      "url": "https://library.biblicalarchaeology.org/article/the-ketef-hinnom-amulets/",
+      "supports": "Object context, dimensions and dating record used as a cross-check."
+    }
+  ],
+  "master": {
+    "localFile": "ketef_hinnom_master_final.mp4",
+    "sha256": "8c599ff89b0ffd854e60ac440c3b696c8b11b56d3414d52eaab9401994050bda",
+    "higgsfieldMediaId": "9bcc6164-3b8b-4d0f-ade1-a15c3d5e61cd",
+    "durationSeconds": 182.3,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "fileSizeBytes": 82342702,
+    "decodeCheck": "PASS"
+  },
+  "voiceMatch": {
+    "status": "PASS_EXACT_PROVIDER_ID",
+    "engine": "elevenlabs_v4_turbo",
+    "preset": "Callum",
+    "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "pitchShift": false,
+    "userABApprovedOn": "2026-11-26",
+    "generationJobId": "e9ecadfd-148f-421a-aa67-245671f79e7a",
+    "note": "Exact approved provider voice reused with provider defaults and no post-generation pitch processing."
+  },
+  "audiovisualQa": {
+    "overall": "PASS",
+    "fullTimelineReviewed": true,
+    "contactSheetReviewed": true,
+    "firstFrameReviewed": true,
+    "lastFrameReviewed": true,
+    "captionsReadable": true,
+    "captionsComplete": true,
+    "aiReconstructionLabelPersistent": true,
+    "sceneNarrationMatch": "PASS",
+    "openingMotionEvidence": {
+      "ssimBetween0_5sAnd7_5s": 0.561118,
+      "interpretation": "Substantial frame change confirms moving opening rather than a still."
+    },
+    "meanVolumeDb": -16.1,
+    "maxVolumeDb": -0.3,
+    "silenceOverOneSecond": false,
+    "blackFramesOverHalfSecond": false,
+    "finalSentenceComplete": true,
+    "finalFrameNoFabricatedReadableInscription": true,
+    "deepAnalysis": {
+      "status": "completed",
+      "analysisId": "c44f0b61-dd90-4b51-8bfc-fad5146c5c21",
+      "mode": "deep",
+      "scenesDetected": 20,
+      "coverage": "0:00–3:03",
+      "result": "All narration beats were detected with corresponding artifact, excavation, imaging, dating-debate, evidence-limit and final-payoff visuals."
+    }
+  },
+  "metricoolBooking": {
+    "status": "PENDING",
+    "postId": 444027305,
+    "uuid": "-6247129281501248812",
+    "publicationDate": "2026-12-02T18:00:00",
+    "timezone": "Europe/Oslo",
+    "youtubeStatus": "PENDING",
+    "tiktokStatus": "PENDING",
+    "youtubeType": "video",
+    "privacy": "public",
+    "madeForKids": false,
+    "youtubeAiDeclared": true,
+    "tiktokAiDeclared": true,
+    "providerReadbackVerifiedAt": "2026-11-27T08:46:00+01:00"
+  },
+  "budget": {
+    "purchases": 0,
+    "ads": 0,
+    "telegram": 0,
+    "littleWild": 0,
+    "higgsfieldBalanceAfterProduction": 702.25,
+    "blockedByCredits": false
+  },
+  "reserve": {
+    "verifiedUnallocatedQaPassed": 0,
+    "targetMet": false,
+    "note": "This master is allocated to the Dec 2 booking and therefore does not count as reserve. Reserve production remains an internal follow-up; no user action is required."
+  }
+}
