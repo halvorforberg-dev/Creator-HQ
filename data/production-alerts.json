@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T18:35:00+01:00",
+  "updatedAt": "2026-11-27T08:33:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -487,9 +487,10 @@
       "confirmedAt": "2026-11-26T08:41:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
-      "lastCheckedAt": "2026-11-26T18:35:00+01:00",
+      "lastCheckedAt": "2026-11-27T08:33:00+01:00",
       "latestPreflight": "No Metricool booking for What If; existing QA HOLD, no eligible reserve. AI Tuber full live publication queue not exposed by current connector.",
-      "latestPostflight": "No Friday What If booking in authenticated Metricool; no approved reserve. AI Tuber full current queue unavailable; last known paused. 394 credits. Actual project timeline repeats flood beat and omits causal heat/storage visualization. Repair shot plan recorded in publicationPostflight20261126.nextRecovery; no supported in-place scene edit endpoint found."
+      "latestPostflight": "No Friday What If booking in authenticated Metricool; no approved reserve. AI Tuber full current queue unavailable; last known paused. 394 credits. Actual project timeline repeats flood beat and omits causal heat/storage visualization. Repair shot plan recorded in publicationPostflight20261126.nextRecovery; no supported in-place scene edit endpoint found.",
+      "latestStatus": "Friday booking deadline missed; authenticated Metricool only shows Gravity published, no Friday slot. Fresh AI Tuber timeline review confirms missing causal glacier/heat scene; supported API search found no in-place mutation. No approved reserve. Independent new Rogue Wave Short generated (659c739d-c111-491e-aaf9-ecdde8f44cea), 1080p export processing (45a12b76-2adc-41cc-84d5-4017a2bcce3e); not booking-eligible before actual AV and queue clearance. 42 credits balance decrease, 352 remain."
     },
     {
       "id": "metricool-terms-update-publishing-2026-11-26",
@@ -552,7 +553,7 @@
       "severity": "blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-26T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-26T18:35:00+01:00",
+      "lastCheckedAt": "2026-11-27T08:33:00+01:00",
       "notificationRevision": 1,
       "source": {
         "type": "actual_export_deep_av_analysis",
@@ -564,7 +565,8 @@
       "action": "Correct actual visual sequences and clock payoff on same project if supported, then deep AV QA, queue and cost check; do not duplicate or book this export.",
       "ownerActionRequired": false,
       "notificationPolicy": "NO TELEGRAM",
-      "latestPostflight": "No Sunday booking for What If; deep QA HOLD unchanged. Export exists, not a reserve."
+      "latestPostflight": "No Sunday booking for What If; deep QA HOLD unchanged. Export exists, not a reserve.",
+      "latestStatus": "Sunday export exists, earlier deep QA hold remains; no supported in-place scene mutation endpoint identified and no verified reserve. Sunday booking absent in fresh Metricool queue."
     }
   ]
 }
