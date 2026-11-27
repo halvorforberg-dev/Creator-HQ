@@ -8661,7 +8661,7 @@
     ]
   },
   "bizarrePastAgentCheck20261127": {
-    "checkedAtOslo": "2026-11-27T09:22:43+01:00",
+    "checkedAtOslo": "2026-11-27T09:23:00+01:00",
     "governingSource": "productionReliability20261125 plus latest exact-voice and editorial gates",
     "lookaheadThrough": "2026-12-07T23:59:59+01:00",
     "connections": {
@@ -8734,7 +8734,7 @@
           "qa": "data/bizarre-past-ketef-hinnom-qc-2026-11-27.json"
         }
       ],
-      "duplicateCheck": "PASS: authenticated readback shows one booking for Dec 2 with exactly one YouTube and one TikTok provider row; protected earlier bookings remain unchanged.",
+      "duplicateCheck": "PASS: fresh authenticated readback 2026-11-27 09:23 Europe/Oslo shows exactly four future posts, each with one YouTube and one TikTok PENDING provider row; protected bookings unchanged and no duplicate Roman-concrete reserve booking.",
       "earliestRelease": "2026-11-27T18:00:00+01:00",
       "nextUnreadySlot": "2026-12-04T18:00:00+01:00 Short"
     },
@@ -8782,7 +8782,7 @@
       "nextAction": "Keep unallocated. Use only after a fresh queue/duplicate check and only for a slot whose assigned film cannot meet QA or provider-booking deadline."
     },
     "deadlineStatus": {
-      "siloam": "Provider PENDING for Nov 27 18:00; release-day preflight remains due.",
+      "siloam": "Fresh Metricool readback 2026-11-27 09:23 Europe/Oslo: YouTube PENDING and TikTok PENDING for Nov 27 18:00; media present and AI declared.",
       "jesus": "QA PASS and provider-booked for Nov 29 18:00.",
       "merer": "QA PASS and provider-booked for Nov 30 18:00.",
       "dec2": "Export complete and AV-QA passed on Nov 27; Metricool booking verified PENDING on YouTube and TikTok for Dec 2 18:00. Export and booking deadlines met early.",
@@ -8843,7 +8843,7 @@
         "uuid": "-6247129281501248812",
         "youtube": "PENDING",
         "tiktok": "PENDING",
-        "verifiedAt": "2026-11-27T08:46:00+01:00"
+        "verifiedAt": "2026-11-27T09:23:00+01:00"
       }
     },
     "romanConcreteReserve": {
