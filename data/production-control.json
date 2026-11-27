@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T22:59:48+01:00",
+  "updatedAt": "2026-11-27T02:47:11+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -510,7 +510,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-26T22:59:48+01:00",
+      "verifiedDate": "2026-11-27T02:47:11+01:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -7592,8 +7592,8 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 0,
-      "lastVerifiedAtOslo": "2026-11-26T22:59:48+01:00",
-      "evidence": "Fresh queue and full Higgsfield history check: Siloam, Jesus and Merer are allocated to verified provider bookings; no separate unallocated fully QA-approved Bizarre reserve exists.",
+      "lastVerifiedAtOslo": "2026-11-27T02:47:11+01:00",
+      "evidence": "Fresh Nov 27 queue and full 545-item Higgsfield history check: Siloam, Jesus and Merer remain allocated to verified bookings; no separate unallocated QA-approved Bizarre reserve exists.",
       "whatIfVerifiedCount": 0,
       "whatIfLastVerifiedAtOslo": "2026-11-26T18:35:00+01:00",
       "whatIfEvidence": "Gravity revised master published; Volcano, GPS, Mars QA holds; no verified unallocated reserve.",
@@ -7846,7 +7846,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-26T22:59:48+01:00",
+  "lastUpdatedAt": "2026-11-27T02:47:11+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -8659,5 +8659,135 @@
         "detail": "Dec 2 16:9 slot has no verified export or provider booking yet; it remains the next internal production priority."
       }
     ]
+  },
+  "bizarrePastAgentCheck20261127": {
+    "checkedAtOslo": "2026-11-27T02:47:11+01:00",
+    "governingSource": "productionReliability20261125 plus latest voice/editorial gates",
+    "lookaheadThrough": "2026-12-07T23:59:59+01:00",
+    "connections": {
+      "metricoolBrandId": 7296504,
+      "metricoolInternalLabel": "BIZZARE PAST",
+      "youtube": {
+        "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+        "handle": "@bizarrepast69",
+        "connected": true,
+        "canPublish": true
+      },
+      "tiktok": {
+        "handle": "bizzare.past",
+        "connected": true,
+        "canonicalPublisher": "Metricool",
+        "displayName": "BIZARRE PAST",
+        "displayNameEvidence": "Platform-verified 2026-11-26; no contrary public/provider evidence. Metricool internal label remains misspelled but is not the public display name.",
+        "renameRequired": false
+      }
+    },
+    "metricool": {
+      "scheduledPosts": [
+        {
+          "id": 443297110,
+          "uuid": "-1414575147247844227",
+          "date": "2026-11-27",
+          "time": "18:00",
+          "title": "They Found the Pool Named in John—What Does It Prove?",
+          "format": "short",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "mediaPresent": true,
+          "aiDeclared": true
+        },
+        {
+          "id": 443204423,
+          "uuid": "6713892857688049338",
+          "date": "2026-11-29",
+          "time": "18:00",
+          "title": "They Opened Jesus’ Tomb—What Did They Find?",
+          "format": "video",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "mediaPresent": true,
+          "aiDeclared": true
+        },
+        {
+          "id": 443469705,
+          "uuid": "-483800662805034080",
+          "date": "2026-11-30",
+          "time": "18:00",
+          "title": "The Great Pyramid Left a Shipping Diary",
+          "format": "short",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "mediaPresent": true,
+          "aiDeclared": true
+        }
+      ],
+      "duplicateCheck": "PASS: one booking per date/slot; each has one YouTube and one TikTok provider row.",
+      "earliestRelease": "2026-11-27T18:00:00+01:00",
+      "nextUnreadySlot": "2026-12-02T18:00:00+01:00 16:9 2–4 minute film"
+    },
+    "vidiq": {
+      "access": true,
+      "credits": 1807,
+      "renewableCredits": 1805,
+      "addonCredits": 2,
+      "renewsAt": "2026-12-21T20:09:10Z",
+      "activeJobs": 0,
+      "channel": {
+        "id": "UCBO7keO3jYYoXbc_TtkXiTA",
+        "handle": "@bizarrepast69",
+        "subscribers": 46,
+        "lifetimeViews": 12663,
+        "publicVideos": 31
+      },
+      "connectionActive": true,
+      "canPublish": true,
+      "productionBlockedByCredits": false,
+      "tiktokNote": "No TikTok row in vidIQ; Bizarre TikTok remains connected through Metricool, the required publishing path."
+    },
+    "higgsfield": {
+      "access": true,
+      "plan": "Ultra",
+      "credits": 1229.21,
+      "activeJobs": 0,
+      "historyItemsChecked": 545,
+      "historyPagesChecked": 11,
+      "fullHistoryChecked": true,
+      "onlyNonCompletedStates": "Historic failed/nsfw/ip-detected terminal jobs; no pending, queued or in-progress job.",
+      "productionBlockedByCredits": false
+    },
+    "reserve": {
+      "required": 1,
+      "verifiedUnallocated": 0,
+      "targetMet": false,
+      "requiresUserAction": false,
+      "nextAction": "Prepare the Dec 2 long-form and one separate QA-passed reserve inside the existing balance; do not duplicate booked work or change the approved Callum voice."
+    },
+    "deadlineStatus": {
+      "siloam": "QA PASS and provider-booked before release day; PENDING for Nov 27 18:00.",
+      "jesus": "QA PASS and provider-booked for Nov 29 18:00.",
+      "merer": "QA PASS and provider-booked for Nov 30 18:00.",
+      "dec2": "No export/booking yet; 48-hour export deadline is Nov 30 18:00 and booking deadline is Dec 1 18:00."
+    },
+    "actions": {
+      "newGenerations": 0,
+      "newBookings": 0,
+      "newPublications": 0,
+      "creditPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0
+    },
+    "blockersRequiringUserAction": [],
+    "operationalRisks": [
+      {
+        "id": "bizarre-no-unallocated-reserve",
+        "detail": "Reserve target remains unmet; no unallocated QA-passed master exists."
+      },
+      {
+        "id": "bizarre-dec2-unready",
+        "detail": "Dec 2 long-form is not yet exported or booked; deadlines have not yet passed."
+      }
+    ],
+    "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED"
   }
 }
