@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T16:35:00+01:00",
+  "updatedAt": "2026-11-27T18:35:46+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -529,11 +529,11 @@
         "url": "https://app.aituber.app/dashboard/publish",
         "evidence": "Banner says Some YouTube videos did not post / Reconnect your channel once. Publications shows 0 up next; Mars and Air Vanished failed with provider daily upload limit message. API channel status connected; this does not prove working uploads."
       },
-      "summary": "User approved What If reconnect; exact Google brand selected. Limited upload+read-only OAuth was submitted but AITuber rejected it as insufficient_scopes. Additional displayed permissions include full YouTube account/content management and analytics; explicit broader access decision requested. No reconnect success or publishing test claimed.",
-      "action": "Await the requested decision on broader YouTube access, then reconnect only What If with approved scopes and verify actual app success/identity. Do not repeat insufficient limited scopes. Keep AutoPilot paused and avoid retrying the already-published Air Vanished recovery.",
+      "summary": "AITuber reports connected channel but cannot list all publications; fresh vidIQ owner-channel upload list fails due to expired, revoked or missing YouTube permission. Existing limited OAuth attempt was rejected. Metricool queue is readable and no rows Nov27–Dec4; complete direct YouTube library not verified.",
+      "action": "Reconnect exact What If channel with necessary authorization if user chooses; avoid repeated reconnect prompts or any unauthorized scope changes. No duplicate upload or bypass of QA.",
       "ownerActionRequired": true,
       "notificationPolicy": "NO TELEGRAM",
-      "lastCheckedAt": "2026-11-26T09:32:37+01:00",
+      "lastCheckedAt": "2026-11-27T18:35:46+01:00",
       "userApprovalReceivedForReconnect": true,
       "latestAttempt": {
         "selectedBrand": "What if in 35 seconds",
@@ -577,15 +577,15 @@
         "mediaId": "6bbfd342-c586-413c-be0c-de633de27773",
         "analysisId": "ff535130-c959-4e78-945e-d723e9985b54"
       },
-      "summary": "Friday recovery Short exported and deep AV QA FAILED: 00:05–00:17 no wave actually strikes ship; generic water and calm ferry, 00:17–00:25 unrelated calm harbor, 00:25–00:30 no visual payoff. 30.677s, no provider booking or eligible reserve.",
-      "action": "Source appropriate moving wave/ship-impact, aftermath and scientifically coherent ending shots first; re-edit within approved budget, then full actual MP4 QA and fresh duplicate check. No speculative regeneration or publication.",
+      "summary": "Friday recovery Short remains QA FAILED; 00:05–00:17 no actual wave strike, 00:17–00:25 calm unrelated harbor, 00:25–00:30 no visual payoff. Friday 18:35 no Metricool post, no verified eligible reserve, no AITuber publication ID; no independently verified release. Do not publish unchecked.",
+      "action": "Find licensed or existing moving wave/ship-impact footage, verify actual final master and duplication status before future booking. Preserve original; prioritize user-requested Sunday blackout repair.",
       "channel": "What If in 40 Seconds",
       "state": "open",
       "severity": "blocker",
       "category": "quality_gate_blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-27T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-27T16:35:00+01:00",
+      "lastCheckedAt": "2026-11-27T18:35:46+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
       "notificationPolicy": "NO TELEGRAM"
@@ -599,15 +599,15 @@
         "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
         "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83"
       },
-      "summary": "Sunday priority user-requested 30-day blackout long film complete 160.683s, full deep AV QA FAILED: no actual moving blackout 00:00–00:08, conveyor keeps moving 00:31–00:36, unrelated sea turtle 01:52–01:56, working tap instead of dry tap payoff and no family continuity 02:08–02:36. No verified booking. Export deadline met; QA/booking due Saturday 18:00.",
-      "action": "Replace four missing or contradictory motion beats; preserve coherent same-family water thread and verified narration, no unrelated clips. Full AV review and booking only if PASS. Source shots/cost estimate first; 125 AI Tuber credits observed.",
+      "summary": "Original 160.683s completed export remains full AV QA FAILED, no booking. Corrective 5s 1080p Manhattan skyline blackout clip submitted, provider processing, d76b7063-d0fa-4919-8caf-13c0547575d1. Actual balance 125 to 55 (70 credits, catalog suggested 35). No new purchases. Remaining factory stop, community/turtle and family/dry tap scenes need repair; no final QA pass.",
+      "action": "Inspect completed targeted clip; reconcile quote discrepancy and use existing/licensed footage or verified zero-credit edits for remaining beats before any further spending. Preserve original. Final AV pass and confirmed duplicate-free provider booking by Nov28 18:00 if feasible. Do not claim recovery from raw clip alone.",
       "channel": "What If in 40 Seconds",
       "state": "open",
       "severity": "blocker",
       "category": "quality_gate_blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-27T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-27T16:35:00+01:00",
+      "lastCheckedAt": "2026-11-27T18:35:46+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
       "notificationPolicy": "NO TELEGRAM"
