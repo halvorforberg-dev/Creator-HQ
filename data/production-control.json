@@ -8661,7 +8661,7 @@
     ]
   },
   "bizarrePastAgentCheck20261127": {
-    "checkedAtOslo": "2026-11-27T14:47:27+01:00",
+    "checkedAtOslo": "2026-11-27T19:10:11+01:00",
     "governingSource": "productionReliability20261125 plus latest exact-voice and editorial gates",
     "lookaheadThrough": "2026-12-07T23:59:59+01:00",
     "connections": {
@@ -8693,10 +8693,15 @@
           "time": "18:00",
           "title": "They Found the Pool Named in John—What Does It Prove?",
           "format": "short",
-          "youtube": "PENDING",
-          "tiktok": "PENDING",
+          "youtube": "PUBLISHED",
+          "tiktok": "PUBLISHED",
           "mediaPresent": true,
-          "aiDeclared": true
+          "aiDeclared": true,
+          "verifiedAt": "2026-11-27T19:10:11+01:00",
+          "youtubeId": "DRiXTFNvu7I",
+          "youtubePublicUrl": "https://www.youtube.com/shorts/DRiXTFNvu7I",
+          "tiktokId": "7712900940889656598",
+          "tiktokPublicUrl": "https://www.tiktok.com/@bizzare.past/video/7712900940889656598"
         },
         {
           "id": 443204423,
@@ -8736,14 +8741,14 @@
           "qa": "data/bizarre-past-ketef-hinnom-qc-2026-11-27.json"
         }
       ],
-      "duplicateCheck": "PASS: fresh authenticated readback 2026-11-27 14:47 Europe/Oslo shows exactly four future posts, one YouTube and one TikTok PENDING row per post, one media file per post, and no duplicate reserve booking.",
-      "earliestRelease": "2026-11-27T18:00:00+01:00",
+      "duplicateCheck": "PASS: postflight 2026-11-27 19:10 Europe/Oslo shows Siloam published once on YouTube and once on TikTok; remaining Nov 29, Nov 30 and Dec 2 posts are PENDING with one media file each; reserve remains unbooked.",
+      "earliestRelease": "2026-11-29T18:00:00+01:00",
       "nextUnreadySlot": "2026-12-04T18:00:00+01:00 Short"
     },
     "vidiq": {
       "access": true,
-      "credits": 1772,
-      "renewableCredits": 1770,
+      "credits": 1767,
+      "renewableCredits": 1765,
       "addonCredits": 2,
       "renewsAt": "2026-12-21T20:09:10Z",
       "activeJobs": 0,
@@ -8762,11 +8767,11 @@
     "higgsfield": {
       "access": true,
       "plan": "Ultra",
-      "credits": 573.38,
+      "credits": 570.83,
       "activeJobs": 0,
       "latestBatch": "Ketef Hinnom production completed and booked; separate Roman-concrete reserve completed with 5 stills, 6 Magi-2 video jobs (one rejected and replaced), exact Callum narration, final master upload, and deep provider analysis.",
       "productionBlockedByCredits": false,
-      "liveFeedVerifiedAt": "2026-11-27T14:47:27+01:00",
+      "liveFeedVerifiedAt": "2026-11-27T19:10:11+01:00",
       "liveFeed": "No active generation jobs among the 50 most recent generations."
     },
     "reserve": {
@@ -8786,7 +8791,7 @@
       "nextAction": "Keep unallocated. Use only after a fresh queue/duplicate check and only for a slot whose assigned film cannot meet QA or provider-booking deadline."
     },
     "deadlineStatus": {
-      "siloam": "Fresh Metricool readback 2026-11-27 14:47 Europe/Oslo: YouTube PENDING and TikTok PENDING for Nov 27 18:00; media present, auto-publish enabled and AI declared. PENDING is expected before release; formal 16:35 preflight still due.",
+      "siloam": "PUBLISHED on both providers. Metricool proof at 2026-11-27 19:10 Europe/Oslo: YouTube ID DRiXTFNvu7I and TikTok ID 7712900940889656598. YouTube owned-channel readback is public/processed and reports publishedAt 2026-11-27T17:15:26Z (18:15:26 Europe/Oslo), 15m26s after the planned 18:00 slot.",
       "jesus": "QA PASS and provider-booked for Nov 29 18:00.",
       "merer": "QA PASS and provider-booked for Nov 30 18:00.",
       "dec2": "Export complete and AV-QA passed on Nov 27; Metricool booking verified PENDING on YouTube and TikTok for Dec 2 18:00. Export and booking deadlines met early.",
@@ -8797,11 +8802,12 @@
       "newVideoGenerations": 29,
       "newAudioGenerations": 3,
       "newBookings": 1,
-      "newPublications": 0,
+      "newPublications": 1,
       "creditPurchases": 0,
       "ads": 0,
       "telegram": 0,
-      "littleWild": 0
+      "littleWild": 0,
+      "providerPublications": 2
     },
     "blockersRequiringUserAction": [],
     "operationalRisks": [
@@ -8892,14 +8898,42 @@
     "releaseDayStatus": {
       "target": "2026-11-27T18:00:00+01:00",
       "postId": 443297110,
-      "youtube": "PENDING",
-      "tiktok": "PENDING",
-      "mediaPresent": true,
-      "autoPublish": true,
-      "aiDeclared": true,
-      "preflightDue": "2026-11-27T16:35:00+01:00",
-      "state": "READY_PENDING_EXPECTED",
+      "state": "PUBLISHED_PROVIDER_CONFIRMED",
+      "youtube": {
+        "status": "PUBLISHED",
+        "id": "DRiXTFNvu7I",
+        "url": "https://www.youtube.com/shorts/DRiXTFNvu7I",
+        "privacy": "public",
+        "uploadStatus": "processed",
+        "publishedAt": "2026-11-27T18:15:26+01:00"
+      },
+      "tiktok": {
+        "status": "PUBLISHED",
+        "id": "7712900940889656598",
+        "url": "https://www.tiktok.com/@bizzare.past/video/7712900940889656598"
+      },
+      "providerVerifiedAt": "2026-11-27T19:10:11+01:00",
+      "analytics": {
+        "youtubeViews": 0,
+        "youtubeLikes": 0,
+        "youtubeComments": 0,
+        "tiktok": "Metricool post analytics not populated yet; expected reporting lag."
+      },
       "requiresUserAction": false
+    },
+    "lastPublished": {
+      "title": "They Found the Pool Named in John—What Does It Prove?",
+      "scheduledAt": "2026-11-27T18:00:00+01:00",
+      "youtube": {
+        "id": "DRiXTFNvu7I",
+        "url": "https://www.youtube.com/shorts/DRiXTFNvu7I",
+        "publishedAt": "2026-11-27T18:15:26+01:00"
+      },
+      "tiktok": {
+        "id": "7712900940889656598",
+        "url": "https://www.tiktok.com/@bizzare.past/video/7712900940889656598"
+      },
+      "verifiedAt": "2026-11-27T19:10:11+01:00"
     }
   },
   "whatIfAgentCheck20261127": {
