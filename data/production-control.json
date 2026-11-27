@@ -268,7 +268,8 @@
           "Previously approved engaging narration (avoid rejected deeper voice), balanced suspenseful music, crisp captions, smooth cuts and 1080p",
           "Review full MP4 including spoken and visual first two seconds, mid-video pacing, all historical claims and final sentence; rework weak film",
           "Strong accurate searchable title and thumbnail (especially for long-form), description, useful hashtags and proper AI/synthetic disclosure",
-          "Confirm correct channel(s), single publication per destination, no duplicate upload and 18:00 Europe/Oslo booked time"
+          "Confirm correct channel(s), single publication per destination, no duplicate upload and 18:00 Europe/Oslo booked time",
+          "Text-overlay QA: restrained one-line/subtle two-line subtitles, no dense overlays or repeated giant headlines obscuring archaeological finds, faces, moving scenes or film action; check phone-sized 9:16 preview with YouTube/TikTok UI safe zones; see bizarrePastTextOverlayQualityGate20261127."
         ],
         "monitorAfterRelease": {
           "periods": [
@@ -9435,5 +9436,22 @@
       "littleWild": 0,
       "existingBookingsPreserved": true
     }
+  },
+  "bizarrePastTextOverlayQualityGate20261127": {
+    "decidedOn": "2026-11-27",
+    "source": "Direct user feedback after recent Bizarre Past film: Too much on-screen text covering too much of footage.",
+    "precedence": "New mandatory Bizarre Past visual and caption QA rule; supersedes earlier prompts that encouraged big dense text or persistent banners. Preserve spoken Did you know and legible restrained opening caption, approved voice and published/queued posts.",
+    "appliesTo": "All newly edited/exported Bizarre Past films; review upcoming existing masters only without automatically replacing, duplicating, or moving scheduled posts.",
+    "directives": [
+      "Prioritize the underlying cinematic footage. Show ONLY brief purposeful captions, not simultaneous title + full subtitles + emphasis banners.",
+      "Use 'Did you know…' clearly within opening two seconds in audio and small/brief readable text, then remove it promptly; no large persistent opening header.",
+      "Keep captions compact: ordinarily one short line, at most two short lines at once. Avoid paragraph blocks, word-cloud effects, large outlined all-caps overlays and extraneous fact banners.",
+      "Use an appropriately sized high-contrast but unobtrusive font with safe mobile margins. Ensure YouTube Shorts/TikTok controls will not obscure captions; center-lower safe placement only when it does not hide the focal point.",
+      "Keep faces, artifacts, historic inscriptions, archaeological objects, and major cinematic action completely visible; place or omit captions based on the actual shot. Relocate captions dynamically as necessary.",
+      "Visual guide: avoid overlay text occupying more than about one fifth of the visible image at any time; this is a QC heuristic, not a substitute for actual full-frame review.",
+      "Do NOT repeat spoken narration as separate giant headline overlay. Allow intentional caption-free moments during pivotal visual reveals.",
+      "Before scheduling, inspect the actual FINAL 9:16 or 16:9 MP4 across opening, middle, payoff with real mobile safe-zone context and full audio. If text masks important visuals or is visually dominant, HOLD and adjust overlays on original master; do not regenerate or spend credits for caption-only issues."
+    ],
+    "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   }
 }
