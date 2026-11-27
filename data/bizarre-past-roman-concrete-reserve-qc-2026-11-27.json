@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0",
+  "channel": "Bizarre Past",
+  "assetRole": "unallocated_reserve",
+  "allocation": null,
+  "titleSelected": "Roman Concrete Could Heal Its Own Cracks",
+  "titleAlternate": "The 'Mistakes' That Made Roman Concrete Stronger",
+  "createdAt": "2026-11-27T09:20:00+01:00",
+  "master": {
+    "localFilename": "roman_concrete_reserve_final.mp4",
+    "higgsfieldMediaId": "59cbf763-c0c2-4031-9e52-86a785ee9cb4",
+    "sha256": "f4ab3d4078b21b0244a626996db86227b716945ca4d87ae475ef5e8866c3e691",
+    "bytes": 43807780,
+    "durationSeconds": 37.407,
+    "width": 1080,
+    "height": 1920,
+    "frameRate": 30,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRateHz": 48000,
+    "audioChannels": 2
+  },
+  "editorial": {
+    "viewerQuestion": "How could ancient Roman concrete seal its own cracks?",
+    "finalLesson": "Researchers propose that reactive lime clasts created by hot mixing could dissolve when water entered a crack and recrystallize as calcium carbonate; Roman-inspired laboratory samples healed cracks up to 0.5 millimetres within two weeks while controls did not.",
+    "evidenceLimit": "The mechanism is supported by material analysis and a modern Roman-inspired test, but it does not show that every Roman structure used the same recipe or that all Roman concrete literally self-healed in every condition.",
+    "hook": "Did you know Roman concrete may have repaired its own cracks?",
+    "payoff": "The features once dismissed as sloppy white 'mistakes' may have been part of the durable hot-mixing design.",
+    "duplicateCheck": "No matching topic or title found in the inspected Bizarre Past future Metricool queue or current Creator HQ control record.",
+    "scriptWordCount": 83
+  },
+  "voice": {
+    "provider": "ElevenLabs via Higgsfield",
+    "model": "v4 Turbo",
+    "name": "Callum",
+    "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "generationJobId": "b51b3343-470e-41dd-a013-dc97f175ac5b",
+    "pitchShift": false,
+    "matchGate": "PASS — exact documented user-approved legacy preset; no pitch processing"
+  },
+  "generation": {
+    "platform": "Higgsfield",
+    "imageGenerations": 5,
+    "videoGenerations": 6,
+    "acceptedVideoJobs": [
+      "7f1ef51f-cfa1-44ad-b0c7-1711a5eb596e",
+      "4bdcd5b6-92b2-4cc0-954a-ecc35a233340",
+      "85ad445d-468d-493a-ab67-18f3194950c7",
+      "0949ae0f-11f4-4e1f-bff7-e8141f3155ae",
+      "910ca9f6-3f0a-4292-874b-7e46348cf6d5"
+    ],
+    "rejectedVideoJob": {
+      "jobId": "ccfa02d1-eeec-464b-82bb-2da9fce8f01e",
+      "reason": "Artificial lightning/glow made the laboratory comparison look magical rather than physical; replaced before export."
+    },
+    "persistentDisclosure": "AI RECONSTRUCTION"
+  },
+  "sources": [
+    {
+      "title": "Hot mixing: Mechanistic insights into the durability of ancient Roman concrete",
+      "publisher": "Science Advances",
+      "doi": "10.1126/sciadv.add1602",
+      "url": "https://www.science.org/doi/10.1126/sciadv.add1602"
+    },
+    {
+      "title": "Riddle solved: Why was Roman concrete so durable?",
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106"
+    }
+  ],
+  "qa": {
+    "fullDecode": "PASS",
+    "dimensionsAndFormat": "PASS — 1080x1920, H.264, 30 fps, AAC stereo 48 kHz",
+    "duration": "PASS — 37.407 seconds",
+    "hookWrittenWithinTwoSeconds": "PASS — visible at 0.5 seconds",
+    "hookSpokenWithinTwoSeconds": "PASS — narration begins with exact hook",
+    "fullMotion": "PASS — five Higgsfield motion scenes; no still-image zoom substitute",
+    "sceneScriptMatch": "PASS — crack/water, Privernum mortar, hot mixing, recrystallization, and controlled comparison follow the narration",
+    "visualArtifacts": "PASS — rejected glowing/lightning variant replaced; accepted comparison contains no magical effect",
+    "captions": "PASS — burned-in mobile-readable captions, checked at first, middle, and final scenes",
+    "aiDisclosure": "PASS — persistent AI RECONSTRUCTION label",
+    "audio": "PASS — complete narration, subtle instrumental bed, no silence of 1 second or longer, mean -18.4 dB, peak -0.8 dB",
+    "blackFrames": "PASS — no black interval of 0.5 seconds or longer",
+    "ending": "PASS — final scene visibly contrasts sealed hot-mixed sample with open control crack",
+    "factuality": "PASS WITH LIMITATION — claims match the 2023 material study and modern test; script uses 'may' and 'proposed' and does not generalize to every Roman structure",
+    "providerAnalysis": {
+      "id": "dfe85f36-6b37-4dc0-a0d0-7e5161623531",
+      "mode": "deep",
+      "status": "completed",
+      "sceneCount": 5,
+      "coverage": "0:00–0:36",
+      "result": "PASS — provider transcript begins with the exact Did you know hook and describes matching crack, hot-mixing, dissolution/recrystallization, crystal bridging, and controlled comparison scenes."
+    }
+  },
+  "decision": "QA_PASS_RESERVE_UNALLOCATED",
+  "booking": null,
+  "userActionRequired": false
+}
