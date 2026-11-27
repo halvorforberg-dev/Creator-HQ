@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T02:47:11+01:00",
+  "updatedAt": "2026-11-27T07:21:44+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -510,7 +510,7 @@
   },
   "verifiedQueue": {
     "metricool": {
-      "verifiedDate": "2026-11-27T02:47:11+01:00",
+      "verifiedDate": "2026-11-27T07:21:44+01:00",
       "bizarrePast": [
         {
           "id": 395308671,
@@ -7592,8 +7592,8 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 0,
-      "lastVerifiedAtOslo": "2026-11-27T02:47:11+01:00",
-      "evidence": "Fresh Nov 27 queue and full 545-item Higgsfield history check: Siloam, Jesus and Merer remain allocated to verified bookings; no separate unallocated QA-approved Bizarre reserve exists.",
+      "lastVerifiedAtOslo": "2026-11-27T07:21:44+01:00",
+      "evidence": "Fresh Nov 27 07:21 provider queue and complete 545-item Higgsfield history check: all QA-passed masters are assigned to bookings; no unallocated verified reserve.",
       "whatIfVerifiedCount": 0,
       "whatIfLastVerifiedAtOslo": "2026-11-26T18:35:00+01:00",
       "whatIfEvidence": "Gravity revised master published; Volcano, GPS, Mars QA holds; no verified unallocated reserve.",
@@ -7846,7 +7846,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-27T02:47:11+01:00",
+  "lastUpdatedAt": "2026-11-27T07:21:44+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -8661,7 +8661,7 @@
     ]
   },
   "bizarrePastAgentCheck20261127": {
-    "checkedAtOslo": "2026-11-27T02:47:11+01:00",
+    "checkedAtOslo": "2026-11-27T07:21:44+01:00",
     "governingSource": "productionReliability20261125 plus latest voice/editorial gates",
     "lookaheadThrough": "2026-12-07T23:59:59+01:00",
     "connections": {
@@ -8721,7 +8721,7 @@
           "aiDeclared": true
         }
       ],
-      "duplicateCheck": "PASS: one booking per date/slot; each has one YouTube and one TikTok provider row.",
+      "duplicateCheck": "PASS: one booking per date/slot; one YouTube and one TikTok provider row each.",
       "earliestRelease": "2026-11-27T18:00:00+01:00",
       "nextUnreadySlot": "2026-12-02T18:00:00+01:00 16:9 2–4 minute film"
     },
@@ -8736,7 +8736,7 @@
         "id": "UCBO7keO3jYYoXbc_TtkXiTA",
         "handle": "@bizarrepast69",
         "subscribers": 46,
-        "lifetimeViews": 12663,
+        "lifetimeViews": 12672,
         "publicVideos": 31
       },
       "connectionActive": true,
@@ -8760,10 +8760,10 @@
       "verifiedUnallocated": 0,
       "targetMet": false,
       "requiresUserAction": false,
-      "nextAction": "Prepare the Dec 2 long-form and one separate QA-passed reserve inside the existing balance; do not duplicate booked work or change the approved Callum voice."
+      "nextAction": "Prepare Dec 2 long-form and a separate reserve inside the existing balance; preserve booked posts and approved Callum voice."
     },
     "deadlineStatus": {
-      "siloam": "QA PASS and provider-booked before release day; PENDING for Nov 27 18:00.",
+      "siloam": "QA PASS, media present and provider PENDING for Nov 27 18:00; formal release-day preflight remains due at 16:35.",
       "jesus": "QA PASS and provider-booked for Nov 29 18:00.",
       "merer": "QA PASS and provider-booked for Nov 30 18:00.",
       "dec2": "No export/booking yet; 48-hour export deadline is Nov 30 18:00 and booking deadline is Dec 1 18:00."
