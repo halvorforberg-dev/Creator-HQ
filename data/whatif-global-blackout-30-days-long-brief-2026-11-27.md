@@ -1,6 +1,6 @@
 # What If the Entire World Lost Power for 30 Days? — What If long-form brief
 
-**Created:** 2026-11-27 Europe/Oslo. **Status:** PRE-CREDIT EDITORIAL SCRIPT + VISUAL BEATS; NOT GENERATED / EXPORTED / QA-PASSED / BOOKED / PUBLISHED. Keep preexisting bookings. Intended next unbooked long-form slot Sun 2026-11-29 18:00 Oslo, superseding only previous **unbooked** GPS editorial target; GPS existing export remains on HOLD, never delete or duplicate. Agent channel @whatifin35seconds. This is an original impossible synchronized worldwide public-grid failure scenario, not a prediction.
+**Created:** 2026-11-27 Europe/Oslo. **Status:** USER-REQUESTED VIDEO GENERATION ACCEPTED BY AI TUBER, 2026-11-27 09:13 Europe/Oslo, **processing**. Not exported, full AV-QA-passed, booked or published. Keep preexisting bookings. Intended next unbooked long-form slot Sun 2026-11-29 18:00 Oslo, superseding only previous **unbooked** GPS editorial target; GPS existing export remains on HOLD, never delete or duplicate. Agent channel @whatifin35seconds. This is an original impossible synchronized worldwide public-grid failure scenario, not a prediction.
 
 ## Write the answer FIRST
 **One-sentence WOW answer:** **Even when electricity comes back after thirty days, clean water, safe medicine, food deliveries and functioning institutions cannot be restored by flipping one switch.** Last frame shows the same New York family at a dry kitchen tap while the skyline has power; neighbors arrive with safe drinking water.
@@ -56,3 +56,12 @@
 - GPS Went Silent 24 Hours (video c928875a-4187-4185-ad66-563e900a26b6) remains independently exported on QA HOLD and not booked; preservation required, no cancellation.
 - The 22 Nov Pacific asteroid film is already public and poorly rated; do not re-edit it to satisfy this new request.
 - Latest analytics record for other long forms is sparse and not age-matched; do not attribute viewer response to any hook absent 24h/7d retention/CTR data.
+
+## Actual production check — 2026-11-27
+
+- Accepted **AI Tuber original video ID**: `74b3bc0d-1e52-42f2-86a8-5c94e623023d`; job ID `f24a1109-ee3b-40fc-b945-89ea620b70df`; created 2026-11-27T08:13:11.153Z. **Never retry create_video with same concept without investigating this exact ID**.
+- Input script mode original 395 spoken words + 10 precise bracketed film beats, `mediaType=stock`, `aspectRatio=16:9`, voice `nPczCjzI2devNBz1zQrb` speed 0.96, cinematic captions; dedicated 30 DAYS DARK thumbnail.
+- Credits 352 before request; 165 read shortly afterward. **Observed balance delta 187 credits, final bill / reserved charge not independently itemized.** No new credits purchased. Cost planning was based on earlier stock + voice observed rates, with uncertainty; reserve remains unfilled.
+- Latest provider stage at 27 Nov ~09:14 Oslo: `processing` with `durationSeconds=0`. Not yet exported or ready for release.
+- Critical 0–2 sec New York electric-grid cut, stopped factory conveyer and fuel pump, water tap dwindling and dry, hospital backup generator, 30-day restoration of LIGHTS but not WATER are mandatory to be VERIFIED IN ACTUAL MOVING VIDEO. Audio intelligibility, spoken and readable WHAT IF, final line, science, continuity and thumbnail require **full 1080p MP4 audiovisual check**. **Stock footage may not match custom disaster action, so FAIL/HOLD if any required shots missing.**
+- Target next unbooked 16:9 slot Sunday 29 November at 18:00 Europe/Oslo; requires export by 27 Nov 18:00 and actual full AV QA and provider booking by Sat 28 Nov 18:00. An earlier GPS video remains HOLD, not deleted or modified.
