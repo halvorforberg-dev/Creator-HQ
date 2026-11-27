@@ -8981,7 +8981,7 @@
     "voiceId": "nPczCjzI2devNBz1zQrb",
     "voiceSpeed": 0.96,
     "createdAtUtc": "2026-11-27T08:13:11.153Z",
-    "videoStatus": "processing",
+    "videoStatus": "completed",
     "targetSlotOslo": "2026-11-29T18:00:00+01:00",
     "productionDeadlineOslo": "2026-11-27T18:00:00+01:00",
     "qaBookingDeadlineOslo": "2026-11-28T18:00:00+01:00",
@@ -8990,7 +8990,7 @@
     "creditsObservedAfterSubmit": 165,
     "interimDifference": 187,
     "finalCostUnconfirmed": true,
-    "currentStage": "PROVIDER_ACCEPTED_GENERATION_IN_PROGRESS_NOT_EXPORTED_NOT_QA_PASSED_NOT_BOOKED_NOT_PUBLISHED",
+    "currentStage": "COMPLETED_GENERATION_1080P_EXPORT_PROCESSING_NOT_FULL_AV_QA_APPROVED_NOT_BOOKED",
     "recentGPSProject": "c928875a-4187-4185-ad66-563e900a26b6 EXPORTED QA HOLD, preserved and not re-generated; no confirmed Sunday booking; user's new requested subject gets editorial priority",
     "visualAuditMandatory": [
       "Immediate real moving city electrical blackout 0–2s with spoken and readable WHAT IF…?",
@@ -9003,6 +9003,12 @@
       "On day 30 lights restored but tap STILL dry",
       "Clean end payoff about lifeline systems recovery"
     ],
-    "constraints": "No credits purchase. No ads or Telegram or Little Wild. Full audio+video must be independently QA-assessed; stock-only footage likely needs strong checking for generic montage; if any critical action absent HOLD. No booking without QA and authenticated provider queue/AutoPilot read-back."
+    "constraints": "No credits purchase. No ads or Telegram or Little Wild. Full audio+video must be independently QA-assessed; stock-only footage likely needs strong checking for generic montage; if any critical action absent HOLD. No booking without QA and authenticated provider queue/AutoPilot read-back.",
+    "actualDurationSeconds": 161,
+    "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+    "exportResolution": "1080p",
+    "exportStatus": "processing",
+    "thumbnailStatus": "ready",
+    "lastObserved": "2026-11-27 09:15 Europe/Oslo"
   }
 }
