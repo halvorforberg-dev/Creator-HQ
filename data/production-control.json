@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T07:21:44+01:00",
+  "updatedAt": "2026-11-27T08:49:00+01:00",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -8661,8 +8661,8 @@
     ]
   },
   "bizarrePastAgentCheck20261127": {
-    "checkedAtOslo": "2026-11-27T07:21:44+01:00",
-    "governingSource": "productionReliability20261125 plus latest voice/editorial gates",
+    "checkedAtOslo": "2026-11-27T08:49:00+01:00",
+    "governingSource": "productionReliability20261125 plus latest exact-voice and editorial gates",
     "lookaheadThrough": "2026-12-07T23:59:59+01:00",
     "connections": {
       "metricoolBrandId": 7296504,
@@ -8719,11 +8719,24 @@
           "tiktok": "PENDING",
           "mediaPresent": true,
           "aiDeclared": true
+        },
+        {
+          "id": 444027305,
+          "uuid": "-6247129281501248812",
+          "date": "2026-12-02",
+          "time": "18:00",
+          "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+          "format": "video",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "mediaPresent": true,
+          "aiDeclared": true,
+          "qa": "data/bizarre-past-ketef-hinnom-qc-2026-11-27.json"
         }
       ],
-      "duplicateCheck": "PASS: one booking per date/slot; one YouTube and one TikTok provider row each.",
+      "duplicateCheck": "PASS: authenticated readback shows one booking for Dec 2 with exactly one YouTube and one TikTok provider row; protected earlier bookings remain unchanged.",
       "earliestRelease": "2026-11-27T18:00:00+01:00",
-      "nextUnreadySlot": "2026-12-02T18:00:00+01:00 16:9 2–4 minute film"
+      "nextUnreadySlot": "2026-12-04T18:00:00+01:00 Short"
     },
     "vidiq": {
       "access": true,
@@ -8747,12 +8760,9 @@
     "higgsfield": {
       "access": true,
       "plan": "Ultra",
-      "credits": 1229.21,
+      "credits": 702.25,
       "activeJobs": 0,
-      "historyItemsChecked": 545,
-      "historyPagesChecked": 11,
-      "fullHistoryChecked": true,
-      "onlyNonCompletedStates": "Historic failed/nsfw/ip-detected terminal jobs; no pending, queued or in-progress job.",
+      "latestBatch": "Ketef Hinnom: 33 still-image generations, 23 Magi-2 video generations, exact Callum narration and music all terminal completed.",
       "productionBlockedByCredits": false
     },
     "reserve": {
@@ -8760,17 +8770,20 @@
       "verifiedUnallocated": 0,
       "targetMet": false,
       "requiresUserAction": false,
-      "nextAction": "Prepare Dec 2 long-form and a separate reserve inside the existing balance; preserve booked posts and approved Callum voice."
+      "nextAction": "Produce a separate QA-passed unallocated Bizarre master inside the remaining 702.25 credits; Dec 2 master is allocated and cannot count as reserve."
     },
     "deadlineStatus": {
-      "siloam": "QA PASS, media present and provider PENDING for Nov 27 18:00; formal release-day preflight remains due at 16:35.",
+      "siloam": "Provider PENDING for Nov 27 18:00; release-day preflight remains due.",
       "jesus": "QA PASS and provider-booked for Nov 29 18:00.",
       "merer": "QA PASS and provider-booked for Nov 30 18:00.",
-      "dec2": "No export/booking yet; 48-hour export deadline is Nov 30 18:00 and booking deadline is Dec 1 18:00."
+      "dec2": "Export complete and AV-QA passed on Nov 27; Metricool booking verified PENDING on YouTube and TikTok for Dec 2 18:00. Export and booking deadlines met early.",
+      "dec4": "No verified export or booking yet; export deadline Dec 2 18:00, booking deadline Dec 3 18:00."
     },
     "actions": {
-      "newGenerations": 0,
-      "newBookings": 0,
+      "newImageGenerations": 33,
+      "newVideoGenerations": 23,
+      "newAudioGenerations": 2,
+      "newBookings": 1,
       "newPublications": 0,
       "creditPurchases": 0,
       "ads": 0,
@@ -8781,14 +8794,53 @@
     "operationalRisks": [
       {
         "id": "bizarre-no-unallocated-reserve",
-        "detail": "Reserve target remains unmet; no unallocated QA-passed master exists."
+        "detail": "Reserve target remains unmet; Dec 2 film is assigned to a provider booking and does not count. No user action required."
       },
       {
-        "id": "bizarre-dec2-unready",
-        "detail": "Dec 2 long-form is not yet exported or booked; deadlines have not yet passed."
+        "id": "bizarre-dec4-unready",
+        "detail": "Dec 4 Short is the next unfinished regular slot. Its deadlines have not yet passed."
       }
     ],
-    "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED"
+    "notificationDecision": "SKIP_NO_USER_ACTION_REQUIRED",
+    "ketefHinnom": {
+      "status": "QA_PASS_PROVIDER_BOOKED_PENDING",
+      "target": "2026-12-02T18:00:00+01:00",
+      "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+      "question": "What exactly did the Ketef Hinnom silver amulets preserve, and how far can the evidence take us?",
+      "endingLearning": "The amulets are an early written witness to blessing language also found in Numbers; they do not date the whole book or prove a miracle.",
+      "master": {
+        "durationSeconds": 182.3,
+        "resolution": "1920x1080",
+        "mediaId": "9bcc6164-3b8b-4d0f-ade1-a15c3d5e61cd",
+        "sha256": "8c599ff89b0ffd854e60ac440c3b696c8b11b56d3414d52eaab9401994050bda"
+      },
+      "exactVoice": {
+        "engine": "elevenlabs_v4_turbo",
+        "preset": "Callum",
+        "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+        "pitchShift": false,
+        "userABApprovedOn": "2026-11-26"
+      },
+      "avQa": {
+        "status": "PASS",
+        "report": "data/bizarre-past-ketef-hinnom-qc-2026-11-27.json",
+        "deepAnalysisId": "c44f0b61-dd90-4b51-8bfc-fad5146c5c21",
+        "scenesDetected": 20,
+        "firstFrameAndFinalFrameReviewed": true,
+        "sceneNarrationMatch": "PASS",
+        "audioMeanDb": -16.1,
+        "audioMaxDb": -0.3,
+        "silenceOverOneSecond": false,
+        "decodeCheck": "PASS"
+      },
+      "booking": {
+        "id": 444027305,
+        "uuid": "-6247129281501248812",
+        "youtube": "PENDING",
+        "tiktok": "PENDING",
+        "verifiedAt": "2026-11-27T08:46:00+01:00"
+      }
+    }
   },
   "whatIfAgentCheck20261127": {
     "checkedAtOslo": "2026-11-27T08:33:00+01:00",
