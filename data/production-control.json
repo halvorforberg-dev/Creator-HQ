@@ -7847,7 +7847,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-28T10:53:08+01:00",
+  "lastUpdatedAt": "2026-11-28T15:27:25+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -9498,7 +9498,7 @@
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   },
   "bizarrePastWorkflowCheckLatest": {
-    "checkedAt": "2026-11-28T10:53:08+01:00",
+    "checkedAt": "2026-11-28T15:27:25+01:00",
     "timezone": "Europe/Oslo",
     "source": "Fresh authenticated GitHub production control, Metricool brand settings and queue, vidIQ owned-channel/balance/active-jobs, Higgsfield balance and live generation feed.",
     "connections": {
@@ -9570,7 +9570,8 @@
         }
       ],
       "duplicateCheck": "PASS — one distinct post per listed slot; no duplicate Dec 6 post.",
-      "existingBookingsPreserved": true
+      "existingBookingsPreserved": true,
+      "freshProviderReadAt": "2026-11-28T15:27:25+01:00"
     },
     "vidiq": {
       "access": "CONNECTED",
