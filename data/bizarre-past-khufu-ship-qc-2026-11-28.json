@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-28T09:54:00+01:00",
+  "channel": "Bizarre Past",
+  "slot": {
+    "date": "2026-12-06",
+    "time": "18:00",
+    "timezone": "Europe/Oslo",
+    "format": "16:9 Sunday long-form",
+    "coordination": "Sunday slot kept separate from Mon/Wed/Fri queue"
+  },
+  "editorial": {
+    "selectedTitle": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+    "alternateTitle": "The 1,224-Piece Ship Buried Beside the Great Pyramid",
+    "viewerQuestion": "Why was a full-size ship dismantled and buried beside Khufu's pyramid?",
+    "payoff": "The placement securely ties the vessel to Khufu's funerary world, while its exact role—funeral transport, ritual journey with Re, or another symbolic function—remains disputed.",
+    "endLearningSentence": "The viewer learns that the 42.32-metre vessel is a documented archaeological object tied to Khufu, but the evidence does not prove its exact final voyage.",
+    "opening": "Spoken and written “Did you know…” at 00:00 with active excavation imagery.",
+    "flow": "Each scene adds discovery, deliberate dismantling, reconstruction, full scale, joinery, broader boat-pit context, competing interpretations, second boat, and an evidence-bounded ending.",
+    "factSources": [
+      {
+        "source": "Grand Egyptian Museum",
+        "claims": [
+          "Khufu boats and museum context"
+        ]
+      },
+      {
+        "source": "JICA",
+        "claims": [
+          "Second Khufu boat conservation and reconstruction"
+        ]
+      },
+      {
+        "source": "Harvard Giza Project",
+        "claims": [
+          "Boat pits and pyramid-complex context"
+        ]
+      },
+      {
+        "source": "Wiley",
+        "claims": [
+          "Construction and archaeological interpretation"
+        ]
+      },
+      {
+        "source": "PBS/NOVA",
+        "claims": [
+          "Discovery, 1,224 pieces, reassembly context"
+        ]
+      }
+    ]
+  },
+  "voice": {
+    "gate": "PASS",
+    "engine": "elevenlabs_v4_turbo",
+    "providerPreset": "Callum",
+    "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+    "pitchShift": false,
+    "delivery": "warm, curious, conversational, naturally varied, mildly upbeat",
+    "generationJobId": "8354b719-2b1e-4ec4-a88b-dbe7a9f7d9d3",
+    "referenceComparison": "Exact documented legacy voice ID; final perceptual full-film analysis PASS",
+    "rejectedInitialGenerationJobId": "5ddc2173-0106-47ec-ad0e-6d795d81ea9a",
+    "deepQaEvidence": "614a58fe-718d-4506-94eb-1cd3a50f932f"
+  },
+  "production": {
+    "provider": "Higgsfield",
+    "projectFolderId": "de4bebfe-cc26-4012-80ef-0f795de007ab",
+    "workspaceId": "5dddcec3-0d40-43b3-b844-a6a3e1fc1b4d",
+    "finalMediaId": "43545c5d-6450-43d6-9c4d-4b0f6f19e6b3",
+    "finalMediaUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/43545c5d-6450-43d6-9c4d-4b0f6f19e6b3.mp4",
+    "musicJobId": "f972f268-7470-4835-a727-5d1521676e14",
+    "replacementJobs": {
+      "images": [
+        "79faa923-a3da-4d67-891f-d2dfdda4a73d",
+        "4bf6de14-64be-483e-bf5d-7e78c1508ee2",
+        "df58eea0-eebc-4c3c-9b53-30ff55a1b18f",
+        "ef8a5403-486f-4750-ac84-f0b0f1c6bbf5"
+      ],
+      "videos": [
+        "ea4a6a08-5f61-4775-a6bd-4a8f8221fa73",
+        "60afb937-55f0-472e-b8df-7621a07b071d",
+        "c0542069-83d2-453b-b8d1-7e9faab81e4b"
+      ],
+      "rejectedNoChargeCandidate": {
+        "jobId": "945d4046-5ba2-43ca-9b9d-046260c6f623",
+        "status": "ip_detected",
+        "used": false
+      }
+    },
+    "credits": {
+      "observedStart": 447.2,
+      "observedFinal": 146.59,
+      "purchases": 0,
+      "remainingEnoughForApproxOneTypicalShort": true
+    }
+  },
+  "corrections": {
+    "initialDeepQaId": "87646e2d-bf20-46e1-82a0-91cfdb5452ac",
+    "initialVerdict": "FAIL",
+    "issues": [
+      "0–16s celebrity/movie likeness",
+      "17–32s anatomy/sand artifacts",
+      "49–64s hand/timber morphing",
+      "orphaned .32 caption",
+      "voice too formal/somber"
+    ],
+    "applied": [
+      "Replaced scenes 1, 2 and 4 with original artifact-free motion clips",
+      "Regenerated narration with exact Callum ID and warmer v4 delivery",
+      "Rebuilt captions so “42.32 metres” remains in one card",
+      "Retained explicit reconstruction labels and evidence-bounded ending"
+    ]
+  },
+  "avQa": {
+    "result": "PASS",
+    "finalDeepAnalysisId": "614a58fe-718d-4506-94eb-1cd3a50f932f",
+    "durationSeconds": 175.348,
+    "video": {
+      "codec": "H.264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "aspect": "16:9"
+    },
+    "audio": {
+      "codec": "AAC",
+      "sampleRateHz": 48000,
+      "channels": 1,
+      "integratedLufs": -16.4,
+      "lraLu": 3.8,
+      "truePeakDbfs": -0.1
+    },
+    "sha256": "a48f4470844c9624aaba735095c93801b8713c96447137cd8a042d5a6102919a",
+    "fullDecodeErrors": 0,
+    "blackFrames": "none detected",
+    "freezes": "none detected",
+    "silence": "none detected",
+    "finalAsr": "A real vessel transformed into royal equipment for death and perhaps the journey beyond it. The ship survived. Its exact final voyage remains unproven.",
+    "captionNumericGate": "PASS: “42.32 metres” together",
+    "reconstructionLabels": [
+      "ARTISTIC RECONSTRUCTION",
+      "POSSIBLE FUNERARY USE — RECONSTRUCTION",
+      "RELIGIOUS INTERPRETATION — RECONSTRUCTION"
+    ]
+  },
+  "booking": {
+    "provider": "Metricool",
+    "brandId": "7296504",
+    "postId": 445256438,
+    "uuid": "3396284480668780621",
+    "scheduledAt": "2026-12-06T18:00:00+01:00",
+    "timezone": "Europe/Oslo",
+    "youtube": {
+      "status": "PENDING",
+      "detailedStatus": "Pending",
+      "title": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+      "type": "video",
+      "privacy": "public",
+      "madeForKids": false,
+      "isAiGeneratedContent": true
+    },
+    "tiktok": {
+      "status": "PENDING",
+      "detailedStatus": "Pending",
+      "title": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+      "privacyOption": "PUBLIC_TO_EVERYONE",
+      "isAigc": true
+    },
+    "metricoolMedia": "https://static.metricool.com/planner/202611/7296504-file-12890558814309459556.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=3396284480668780621",
+    "duplicateCheck": "Fresh Dec 6 range contained exactly this one post after booking"
+  },
+  "reserve": {
+    "verified": true,
+    "title": "Roman Concrete",
+    "status": "unpublished, unallocated, finished and deep-QA PASS",
+    "durationSeconds": 37.407,
+    "resolution": "1080x1920",
+    "higgsfieldMediaId": "59cbf...",
+    "deepQaAnalysisId": "dfe85f36...",
+    "consumedForThisSlot": false
+  },
+  "deadlines": {
+    "exportCompletedAt": "2026-11-28T09:40:00+01:00",
+    "publishAt": "2026-12-06T18:00:00+01:00",
+    "exportLeadTimeHours": 200.33,
+    "qaAndBookingCompletedAt": "2026-11-28T09:54:00+01:00",
+    "qaAndBookingDeadline": "2026-12-05T18:00:00+01:00",
+    "exportDeadline": "2026-12-04T18:00:00+01:00",
+    "compliance": "PASS"
+  },
+  "userActionRequired": false,
+  "notifications": {
+    "telegram": false
+  }
+}
