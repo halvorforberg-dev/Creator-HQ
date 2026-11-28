@@ -7847,7 +7847,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-28T09:54:00+01:00",
+  "lastUpdatedAt": "2026-11-28T10:53:08+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -9498,9 +9498,9 @@
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   },
   "bizarrePastWorkflowCheckLatest": {
-    "checkedAt": "2026-11-28T08:28:00+01:00",
+    "checkedAt": "2026-11-28T10:53:08+01:00",
     "timezone": "Europe/Oslo",
-    "source": "Authenticated Metricool brand settings/queue and TikTok analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
+    "source": "Fresh authenticated GitHub production control, Metricool brand settings and queue, vidIQ owned-channel/balance/active-jobs, Higgsfield balance and live generation feed.",
     "connections": {
       "metricoolBrandId": 7296504,
       "metricoolInternalLabel": "BIZZARE PAST",
@@ -9511,26 +9511,21 @@
       "tiktokAccount": "bizzare.past",
       "tiktokConnected": true,
       "tiktokDisplayName": "BIZARRE PAST",
-      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; Metricool's internal brand label is not the public display name.",
+      "tiktokDisplayNameEvidence": "Platform-verified 2026-11-26 in current control; fresh Metricool still exposes the older internal brand label, which is not the public TikTok display name.",
       "userActionRequired": false
     },
     "metricool": {
-      "latestPublished": {
+      "latestObservedPublication": {
         "title": "They Found the Pool Named in John—What Does It Prove?",
-        "postId": 443297110,
-        "uuid": "-1414575147247844227",
-        "targetAt": "2026-11-27T18:00:00+01:00",
+        "postId": 445219000,
+        "uuid": "-6338584802692214944",
+        "targetAt": "2026-11-28T08:45:00+01:00",
         "youtube": {
           "status": "PUBLISHED",
-          "id": "DRiXTFNvu7I",
-          "publicUrl": "https://www.youtube.com/shorts/DRiXTFNvu7I",
-          "providerPublishedAt": "2026-11-27T18:15:26+01:00"
+          "id": "y-N6IlVyNtQ",
+          "publicUrl": "https://www.youtube.com/shorts/y-N6IlVyNtQ"
         },
-        "tiktok": {
-          "status": "PUBLISHED",
-          "id": "7712900940889656598",
-          "publicUrl": "https://www.tiktok.com/@bizzare.past/video/7712900940889656598"
-        }
+        "tiktok": "Not included in this clean corrective reupload; the previously scheduled Nov 27 original already has verified TikTok publication in the preceding workflow check."
       },
       "futureQueue": [
         {
@@ -9543,8 +9538,8 @@
         },
         {
           "date": "2026-11-30T18:00:00+01:00",
-          "title": "The Great Pyramid Left a Shipping Diary",
-          "postId": 443469705,
+          "title": "This 4,500-Year-Old Diary Reveals How Stone Reached the Great Pyramid",
+          "postId": 445221926,
           "uuid": "-483800662805034080",
           "youtube": "PENDING",
           "tiktok": "PENDING"
@@ -9564,53 +9559,45 @@
           "uuid": "1078325573965465939",
           "youtube": "PENDING",
           "tiktok": "PENDING"
+        },
+        {
+          "date": "2026-12-06T18:00:00+01:00",
+          "title": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+          "postId": 445256438,
+          "uuid": "3396284480668780621",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
         }
       ],
-      "tiktokEarlyMetricRow": {
-        "observedAt": "2026-11-28T06:33:40+01:00",
-        "publishedDate": "2026-11-27",
-        "durationSeconds": 39,
-        "requestedMetricValues": {
-          "TKPO01": 39,
-          "TKPO02": 235,
-          "TKPO03": 1,
-          "TKPO05": 0,
-          "TKPO06": 0,
-          "TKPO07": null,
-          "TKPO08": null,
-          "TKPO09": null,
-          "TKPO10": null
-        },
-        "limitation": "Metricool returned a partial row; retention, viewed-versus-swiped and subscriber conversion are not yet available and are not inferred."
-      },
+      "duplicateCheck": "PASS — one distinct post per listed slot; no duplicate Dec 6 post.",
       "existingBookingsPreserved": true
     },
     "vidiq": {
       "access": "CONNECTED",
       "authenticatedAs": "halvorforberg@gmail.com",
-      "totalCredits": 1737,
-      "renewableCredits": 1735,
+      "authorizedBizarreChannelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "totalCredits": 1717,
+      "renewableCredits": 1715,
+      "maxRenewableCredits": 2000,
       "addOnCredits": 2,
       "renewalAt": "2026-12-21T20:09:10Z",
       "activeJobs": 0,
-      "productionBlockedByCredits": false,
-      "latestOwnedVideo": {
-        "id": "DRiXTFNvu7I",
-        "title": "They Found the Pool Named in John—What Does It Prove?",
-        "status": "public_processed",
-        "duration": "PT40S",
-        "views": 97,
-        "likes": 4,
-        "comments": 0,
-        "observedAt": "2026-11-28T06:33:40+01:00"
-      }
+      "productionBlockedByCredits": false
     },
     "higgsfield": {
       "access": "CONNECTED",
       "plan": "ultra",
-      "credits": 447.2,
-      "activeJobsAmongLatest50": 0,
+      "credits": 146.59,
+      "activeJobsAmongLatest24": 0,
+      "failedOrRejectedJobs": [
+        {
+          "jobId": "945d4046-5ba2-43ca-9b9d-046260c6f623",
+          "status": "ip_detected",
+          "resolvedByReplacement": "c0542069-83d2-453b-b8d1-7e9faab81e4b"
+        }
+      ],
       "generationBlockedByCredits": false,
+      "capacityNote": "Current balance exceeds the most recent fully documented Short cost of 123.63 credits; no long-form capacity beyond the already completed Dec 6 master is claimed.",
       "approvedVoice": {
         "model": "elevenlabs_v4_turbo",
         "preset": "Callum",
@@ -9619,21 +9606,22 @@
       }
     },
     "reliability": {
-      "lookaheadThrough": "2026-12-07",
+      "lookaheadThrough": "2026-12-07T23:59:59+01:00",
       "nextUnfinishedRegularBizarreSlot": "2026-12-07T18:00:00+01:00",
       "exportDeadline": "2026-12-05T18:00:00+01:00",
       "qaBookingDeadline": "2026-12-06T18:00:00+01:00",
       "deadlineMissed": false,
       "verifiedUnpublishedQaPassedReserveCount": 1,
       "reserveTitle": "Roman Concrete Could Heal Its Own Cracks",
+      "reserveStatus": "unpublished, unallocated, final MP4 and deep-QA PASS",
       "reserveAllocated": false,
       "userActionRequired": false,
       "blockers": []
     },
     "actions": {
-      "newBookings": 1,
+      "newBookings": 0,
       "bookingChanges": 0,
-      "generations": 15,
+      "generations": 0,
       "creditPurchases": 0,
       "ads": 0,
       "telegram": 0,
