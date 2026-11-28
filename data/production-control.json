@@ -9588,5 +9588,66 @@
       "telegram": 0,
       "littleWild": 0
     }
+  },
+  "bizarrePastShortProduction20261128": {
+    "checkedAt": "2026-11-28T07:59:21+01:00",
+    "targetSlot": "2026-12-04T18:00:00+01:00",
+    "coordination": "Friday Short only; Sunday agent scope untouched; no duplicate in fresh Metricool queue through 2026-12-07.",
+    "project": {
+      "provider": "Higgsfield",
+      "projectId": "8caddf5b-fbea-4b22-8e09-2cbaae20ca6a",
+      "folderId": "8caddf5b-fbea-4b22-8e09-2cbaae20ca6a",
+      "status": "SCRIPT_AND_COST_PREFLIGHT"
+    },
+    "topic": "Functional ancient Egyptian prosthetic toe",
+    "angle": "Was the 3,000-year-old toe only burial decoration, or could it actually help a living person walk?",
+    "titleOptions": [
+      "This 3,000-Year-Old Toe Could Walk",
+      "Ancient Egypt Built a Toe That Worked"
+    ],
+    "selectedTitle": "This 3,000-Year-Old Toe Could Walk",
+    "answerBeforeOpening": "Replica gait tests with two volunteers missing a right big toe showed both ancient designs could assist walking; the wooden-and-leather design achieved nearly 78% of normal toe flexion for one volunteer, supporting intended prosthetic function.",
+    "viewerLearnsAtEnd": "A three-part ancient Egyptian wooden-and-leather toe was probably a functional prosthesis worn in life, not merely a burial decoration.",
+    "hookOptions": [
+      "Did you know archaeologists found a wooden toe still attached to an Egyptian mummy?",
+      "Did you know this 3,000-year-old wooden toe may have helped someone walk?",
+      "Did you know ancient Egypt may have built one of the first working prostheses?",
+      "Did you know this tiny hinge could rewrite medical history?"
+    ],
+    "selectedHook": "Did you know archaeologists found a wooden toe still attached to an Egyptian mummy?",
+    "narration": "Did you know archaeologists found a wooden toe still attached to an Egyptian mummy? But was it only for the tomb—or could it actually work? The three-part toe had leather fittings, a simple hinge, and a flattened underside. It also showed signs of wear. Researchers built exact replicas. Two volunteers missing their right big toe wore them with Egyptian-style sandals. Both could walk. One achieved nearly seventy-eight percent of normal toe flexion in the wooden design. So this wasn’t just burial decoration. Ancient Egypt may have created one of history’s earliest working prostheses.",
+    "facts": [
+      "Cairo toe dated 950–710 BC; three-part wood and leather.",
+      "One artificial toe was found attached to a female mummy; both studied designs showed significant wear/design evidence.",
+      "Exact replicas were tested on two volunteers missing the right big toe with replica Egyptian sandals.",
+      "One volunteer achieved nearly 78% of normal flexion with the three-part wood-and-leather design; both volunteers could walk in the replicas.",
+      "Evidence supports intended functional prosthetic use but does not prove every detail of original use."
+    ],
+    "sources": [
+      "University of Manchester, 14 Feb 2011: Mummies’ false toes helped ancient Egyptians walk.",
+      "University of Manchester, 2 Oct 2012: Egyptian toes likely to be the world’s oldest prosthetics.",
+      "University of Basel LHTT project: wooden toe prosthesis found on a female mummy at TT95."
+    ],
+    "competitorEvidence": "vidIQ search found a 24-second Nov26 visualization at roughly 12.6k views and 4.92 outlier score; new film differentiates by answering the functional walking question with quantified replica-test evidence.",
+    "voice": {
+      "model": "elevenlabs_v4_turbo",
+      "voiceName": "Callum",
+      "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "settings": "provider defaults; no pitch shift",
+      "qaGate": "Full perceptual comparison with approved Herculaneum reference before booking."
+    },
+    "costPreflight": {
+      "balance": 570.83,
+      "plannedModel": "magi_2",
+      "plannedVideoSeconds": 40,
+      "estimatedVideoCredits": 100,
+      "estimatedImagesCredits": 8.75,
+      "estimatedVoiceCredits": 1.8,
+      "newPurchase": 0
+    },
+    "reserve": "Roman Concrete reserve remains unallocated and QA-passed.",
+    "booking": "NOT_BOOKED",
+    "qa": "NOT_STARTED",
+    "blocker": null
   }
 }
