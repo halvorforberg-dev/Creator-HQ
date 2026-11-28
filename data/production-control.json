@@ -9455,7 +9455,7 @@
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   },
   "bizarrePastWorkflowCheckLatest": {
-    "checkedAt": "2026-11-28T06:33:40+01:00",
+    "checkedAt": "2026-11-28T08:27:00+01:00",
     "timezone": "Europe/Oslo",
     "source": "Authenticated Metricool brand settings/queue and TikTok analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
     "connections": {
@@ -9513,6 +9513,14 @@
           "uuid": "-6247129281501248812",
           "youtube": "PENDING",
           "tiktok": "PENDING"
+        },
+        {
+          "date": "2026-12-04T18:00:00+01:00",
+          "title": "This 3,000-Year-Old Toe Could Walk",
+          "postId": 445210364,
+          "uuid": "1078325573965465939",
+          "youtube": "PENDING",
+          "tiktok": "PENDING"
         }
       ],
       "tiktokEarlyMetricRow": {
@@ -9557,7 +9565,7 @@
     "higgsfield": {
       "access": "CONNECTED",
       "plan": "ultra",
-      "credits": 570.83,
+      "credits": 447.2,
       "activeJobsAmongLatest50": 0,
       "generationBlockedByCredits": false,
       "approvedVoice": {
@@ -9569,9 +9577,9 @@
     },
     "reliability": {
       "lookaheadThrough": "2026-12-07",
-      "nextUnfinishedRegularBizarreSlot": "2026-12-04T18:00:00+01:00",
-      "exportDeadline": "2026-12-02T18:00:00+01:00",
-      "qaBookingDeadline": "2026-12-03T18:00:00+01:00",
+      "nextUnfinishedRegularBizarreSlot": "2026-12-07T18:00:00+01:00",
+      "exportDeadline": "2026-12-05T18:00:00+01:00",
+      "qaBookingDeadline": "2026-12-06T18:00:00+01:00",
       "deadlineMissed": false,
       "verifiedUnpublishedQaPassedReserveCount": 1,
       "reserveTitle": "Roman Concrete Could Heal Its Own Cracks",
@@ -9580,9 +9588,9 @@
       "blockers": []
     },
     "actions": {
-      "newBookings": 0,
+      "newBookings": 1,
       "bookingChanges": 0,
-      "generations": 0,
+      "generations": 15,
       "creditPurchases": 0,
       "ads": 0,
       "telegram": 0,
@@ -9590,14 +9598,16 @@
     }
   },
   "bizarrePastShortProduction20261128": {
-    "checkedAt": "2026-11-28T07:59:21+01:00",
+    "checkedAt": "2026-11-28T08:27:00+01:00",
     "targetSlot": "2026-12-04T18:00:00+01:00",
-    "coordination": "Friday Short only; Sunday agent scope untouched; no duplicate in fresh Metricool queue through 2026-12-07.",
+    "coordination": "Friday Short only; Sunday agent scope untouched. Fresh Metricool queue read before and after booking; no duplicate.",
     "project": {
       "provider": "Higgsfield",
       "projectId": "8caddf5b-fbea-4b22-8e09-2cbaae20ca6a",
       "folderId": "8caddf5b-fbea-4b22-8e09-2cbaae20ca6a",
-      "status": "SCRIPT_AND_COST_PREFLIGHT"
+      "finalMediaId": "0c5b7331-8e7f-4f64-bbcd-4afc3016d87e",
+      "finalUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/0c5b7331-8e7f-4f64-bbcd-4afc3016d87e.mp4",
+      "status": "QA_PASSED_BOOKED_PENDING"
     },
     "topic": "Functional ancient Egyptian prosthetic toe",
     "angle": "Was the 3,000-year-old toe only burial decoration, or could it actually help a living person walk?",
@@ -9634,7 +9644,8 @@
       "voiceName": "Callum",
       "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
       "settings": "provider defaults; no pitch shift",
-      "qaGate": "Full perceptual comparison with approved Herculaneum reference before booking."
+      "jobId": "680c2649-d5b8-4573-a056-09e59f611add",
+      "qaGate": "PASS — exact approved model/preset/voice ID; deep AV review found conversational, clear, curious, naturally paced delivery without pitch lowering."
     },
     "costPreflight": {
       "balance": 570.83,
@@ -9645,9 +9656,68 @@
       "estimatedVoiceCredits": 1.8,
       "newPurchase": 0
     },
-    "reserve": "Roman Concrete reserve remains unallocated and QA-passed.",
-    "booking": "NOT_BOOKED",
-    "qa": "NOT_STARTED",
-    "blocker": null
+    "reserve": "Roman Concrete reserve remains unallocated, unpublished and QA-passed; verified reserve count remains 1.",
+    "booking": {
+      "provider": "Metricool",
+      "brandId": 7296504,
+      "postId": 445210364,
+      "uuid": "1078325573965465939",
+      "publicationDate": {
+        "dateTime": "2026-12-04T18:00:00",
+        "timezone": "Europe/Oslo"
+      },
+      "youtube": "PENDING",
+      "tiktok": "PENDING",
+      "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-18266601322664221974.mp4",
+      "status": "VERIFIED_PENDING"
+    },
+    "qa": {
+      "status": "PASS",
+      "report": "data/bizarre-past-prosthetic-toe-qc-2026-11-28.json",
+      "deepAnalysisId": "6a2d2be6-e371-46ca-ad07-49667b4d5a92",
+      "providerRating": "7/10",
+      "gates": [
+        "Opening hook PASS",
+        "Approved voice style PASS",
+        "Complete narration PASS",
+        "Audio mix PASS",
+        "Scene match PASS",
+        "Coherent payoff PASS",
+        "Full-motion/anatomy PASS",
+        "Minimal text PASS",
+        "Claim precision PASS"
+      ]
+    },
+    "blocker": null,
+    "finalMaster": {
+      "durationSeconds": 37.08,
+      "resolution": "1080x1920",
+      "frameRate": 30,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "integratedLoudnessLUFS": -14.2,
+      "sha256": "65da40df7bf5682f9ff93e20c9251a4d45557f612cb7b0fc8bb05bec1935d18c",
+      "fullDecode": "PASS",
+      "textOverlay": "PASS — only small top opening DID YOU KNOW...?; no running captions or obstructive overlays."
+    },
+    "providerJobs": {
+      "audioVoice": "680c2649-d5b8-4573-a056-09e59f611add",
+      "music": "e68e7c95-7c87-4992-a87c-a553f1238df3",
+      "video": [
+        "646b88ed-b80a-46d5-9c3d-faf0c9626382",
+        "8fdf4675-64cf-42d5-990f-eea2ca57c7e9",
+        "ddcf898f-66db-407d-abdf-368b3268a8ba",
+        "4525192c-a7b1-4827-a0da-18df41455756",
+        "c84d490c-d816-4963-b2b7-10c77b764f95"
+      ]
+    },
+    "costActual": {
+      "balanceBefore": 570.83,
+      "balanceAfter": 447.2,
+      "creditsUsed": 123.63,
+      "videoCredits": 100,
+      "musicCredits": 5.53,
+      "newPurchase": 0
+    }
   }
 }
