@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T08:34:00+01:00",
+  "updatedAt": "2026-11-28T16:40:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -598,19 +598,21 @@
         "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
         "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
         "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83",
-        "latestEvidence": "Authenticated AI Tuber clip status completed, matching original SHA, sandbox frame inspection and FFmpeg full decode, confirmed private draft media ID 3d64c17d-c33b-476e-b060-5097ffa32430, live Metricool 7751348 empty Nov27–Dec6",
-        "control": "data/production-control.json#whatIfAgentCheck20261128",
-        "draftSha256": "ce52bbe065c540f0db135ddb2bd526ad07c4f6cc089c233f5167bea992462850"
+        "latestEvidence": "Private v2 confirmed by Higgsfield upload and media_confirm, actual FFmpeg full decode and sampled edited frames, identical audio stream SHA256, fresh authenticated Metricool queue and AI Tuber account/list.",
+        "control": "data/production-control.json#publicationPreflight20261128",
+        "draftSha256": "ce52bbe065c540f0db135ddb2bd526ad07c4f6cc089c233f5167bea992462850",
+        "latestDraftMediaId": "d18ca246-1afc-4ab4-8e04-aa0e8193aa5e",
+        "latestDraftSha256": "b5802517471e7f5439a59917b7a399346d2a998996e696aaafd65c6c0aa69c48"
       },
-      "summary": "Original blackout master remains QA FAILED. Previously paid 5s Manhattan clip completed and actual frames show a cascading loss of light. A private 160.683s partial repair draft has been rendered and stored: actual blackout opening and licensed volunteer footage replacing the unrelated turtle. Full decode PASS, unchanged audio stream hash, 1080p; no complete AV pass or booking. Factory stop, same-family dry tap/payoff and opening motion/captions still need work. Current AITuber balance 55; earlier 70-credit cost mismatch unresolved. Metricool Nov27–Dec6 queue empty.",
-      "action": "Use the persisted partial draft, not the failed original or a duplicate upload. Source actual stopping machinery and water-failure/recovery shots, resolve remaining opening pacing and full AV, verify exact final master before any scheduling. No further paid generation until cost established; no purchases. Keep existing bookings intact.",
+      "summary": "Sunday blackout remains HOLD, no verified booking. Private 160.683s v2 has been rendered, full technical decode passed and original audio SHA256 unchanged. The conveyor shot now uses retimed footage illustrating a stop and small reconstruction label; sampled frames verified. It is not a full perceptual AV pass. Remaining dry tap/ending contradiction, continuity, opening/caption pacing and full AV QA. AI Tuber balance 55; no new credits used in preflight. Fresh Metricool Nov28–Dec6 What If queue empty; no direct publication receipt; no eligible reserve.",
+      "action": "Use persisted v2 media d18ca246-1afc-4ab4-8e04-aa0e8193aa5e for further editing, not the old failed original. Replace contradictory running-water ending with a verified dry-tap visual; verify opening and captions, factory stop plausibility and full AV perceptual QA before booking. Do not duplicate or purchase credits; preserve all bookings.",
       "channel": "What If in 40 Seconds",
       "state": "open",
       "severity": "blocker",
       "category": "quality_gate_blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-27T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-28T08:34:00+01:00",
+      "lastCheckedAt": "2026-11-28T16:40:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
       "notificationPolicy": "NO TELEGRAM"
