@@ -7593,11 +7593,11 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 1,
-      "lastVerifiedAtOslo": "2026-11-28T16:40:00+01:00",
-      "evidence": "Fresh Metricool Nov28–Dec6 queue and completed Higgsfield analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531 matching reserve media 59cbf763-c0c2-4031-9e52-86a785ee9cb4; no allocation or matching future booking.",
+      "lastVerifiedAtOslo": "2026-11-28T18:36:11+01:00",
+      "evidence": "Fresh Metricool 28 Nov–6 Dec five scheduled rows; reserve deep analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531 completed, exact media match 59cbf763-c0c2-4031-9e52-86a785ee9cb4, no allocation.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-28T16:40:00+01:00",
-      "whatIfEvidence": "Partial Blackout v2 exported and private media confirmed, not full QA PASS. No verified eligible reserve or booking; balance 55.",
+      "whatIfLastVerifiedAtOslo": "2026-11-28T18:36:11+01:00",
+      "whatIfEvidence": "Fresh AI Tuber list and original blackout export; no approved revised master or reserve, empty Metricool queue. 55 credits. Direct owner upload authorization failed.",
       "verifiedByChannel": {
         "bizarre": 1,
         "whatif": 0
@@ -7847,7 +7847,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-28T15:27:25+01:00",
+  "lastUpdatedAt": "2026-11-28T18:36:11+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -10118,5 +10118,194 @@
       "littleWild": 0,
       "existingBookingsChanged": false
     }
+  },
+  "publicationPostflight20261128": {
+    "checkedAtOslo": "2026-11-28T18:36:11+01:00",
+    "horizonThrough": "2026-12-06",
+    "ordinarySaturdayReleaseExpected": false,
+    "bizarre": {
+      "provider": "Metricool authenticated brand settings and getScheduledPosts",
+      "brandId": 7296504,
+      "channelId": "UCBO7keO3jYYoXbc_TtkXiTA",
+      "todayCorrectiveYouTube": {
+        "postId": 445219000,
+        "providerStatus": "PUBLISHED",
+        "videoId": "y-N6IlVyNtQ",
+        "publicUrl": "https://www.youtube.com/shorts/y-N6IlVyNtQ",
+        "time": "08:45",
+        "tiktok": "Not included in corrective upload; original Friday TikTok already published."
+      },
+      "future": [
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "title": "They Opened Jesus’ Tomb—What Did They Find?",
+          "postId": 443204423,
+          "uuid": "6713892857688049338",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-11-30",
+          "time": "18:00",
+          "title": "This 4,500-Year-Old Diary Reveals How Stone Reached the Great Pyramid",
+          "postId": 445221926,
+          "uuid": "-483800662805034080",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-12-02",
+          "time": "18:00",
+          "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+          "postId": 444027305,
+          "uuid": "-6247129281501248812",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-12-04",
+          "time": "18:00",
+          "title": "This 3,000-Year-Old Toe Could Walk",
+          "postId": 445210364,
+          "uuid": "1078325573965465939",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-12-06",
+          "time": "18:00",
+          "title": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+          "postId": 445256438,
+          "uuid": "3396284480668780621",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        }
+      ],
+      "reserve": {
+        "count": 1,
+        "mediaId": "59cbf763-c0c2-4031-9e52-86a785ee9cb4",
+        "analysisId": "dfe85f36-6b37-4dc0-a0d0-7e5161623531",
+        "analysisStatus": "completed",
+        "mediaMatch": true,
+        "notInFreshQueue": true,
+        "priorDocumentedQa": "PASS",
+        "allocated": false,
+        "verification": "Fresh completed deep analysis matches exact media ID; prior documented QA PASS and no matching allocation in fresh 28 Nov–6 Dec Metricool queue."
+      },
+      "publicWatchPage": "Direct public YouTube web fetch disabled; PUBLISHED and URL confirmed by authenticated Metricool, not an independent watch-page test."
+    },
+    "whatif": {
+      "brandId": 7751348,
+      "channelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "channelConnected": true,
+      "metricoolRows": 0,
+      "aiTuberDirectPublicationQueue": "No global GET publications endpoint in API catalog; no publication ID supplied for blackout; owner YouTube lookup rejected for expired/revoked/missing authorization. Public YouTube channel fetch disabled. No complete duplicate clearance or verified booking.",
+      "creditsObserved": 55,
+      "reserveCount": 0,
+      "earliestSlot": "2026-11-29T18:00:00+01:00",
+      "deadline": "MISSED: 2026-11-28 18:00 QA and actual booking deadline",
+      "blackout": {
+        "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+        "originalExportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+        "originalProviderStatus": "completed / exported; earlier QA FAIL",
+        "privateMasterMediaId": "d18ca246-1afc-4ab4-8e04-aa0e8193aa5e",
+        "privateMasterSha256": "b5802517471e7f5439a59917b7a399346d2a998996e696aaafd65c6c0aa69c48",
+        "qa": "HOLD; no exact v2 full AV pass",
+        "booking": "NOT VERIFIED",
+        "repairAttempt": "Tried retrieval of private v2 for zero-credit edit; local DNS failure and alternate downloader inaccessible. No re-render or new master produced in this run.",
+        "candidateSources": [
+          {
+            "url": "https://www.pexels.com/video/filling-a-glass-of-water-4484511/",
+            "description": "Stock listing describes a glass beneath a tap with no visible flow, title suggests filling; candidate only. Must inspect temporal motion and verify attempted opening plus no water, not certify from page description."
+          },
+          {
+            "url": "https://www.pexels.com/video/slow-drip-metal-faucet-close-up-30615532/",
+            "description": "20s 16:9 slow dripping faucet; possible interim dwindling-water beat, not a verified dry tap or same kitchen."
+          }
+        ],
+        "repairAcceptance": "For final shot, hand visibly opens tap, holds empty glass below, no water flows for several seconds; same kitchen/person or clearly labeled coherent dramatization. Match existing narration/voice; do not substitute tap being turned off. Recheck revised opening, conveyor, complete visual and sound continuity; cannot claim pass from source listing or frame samples."
+      },
+      "mondayIndependentPreproduction": {
+        "title": "What If Both Engines Failed at 35,000 Feet?",
+        "alternative": "What If a Passenger Jet Lost Both Engines?",
+        "finalPayoff": "An unpowered jet can continue flying forward as it descends: altitude is its stored energy, and a safe landing is possible but never guaranteed.",
+        "hooks": [
+          "What if BOTH engines stopped at 35,000 feet?",
+          "What if your jet suddenly lost all thrust?",
+          "What if the engine noise went silent midflight?",
+          "What if a passenger plane became a glider?"
+        ],
+        "selected": "first; use visible fictional engine thrust indicator change and moving aircraft, not fabricated real crash.",
+        "script": "What if both engines stopped at thirty-five thousand feet? The cabin goes quiet, but the plane does not drop out of the sky. Its wings still generate lift as it moves forward. The aircraft trades altitude for airspeed, becoming a giant glider. Depending on the weather, height and aircraft, it may still reach a runway. A landing is never guaranteed. Here's the surprise: the engines weren't holding the plane up. Its wings were. Now every metre of altitude is stored energy.",
+        "beats": [
+          "0–2s aircraft in flight moving over clouds, original clear simulated thrust indicators falling, WHAT IF on screen and audio; no explosion.",
+          "2–9s wing and moving horizon, no thrust, wind sound replaces engine hum, fictional illustrative footage.",
+          "9–20s animated cross-section of jet with lift and descending flight path; actual moving aircraft intercut, no instructional cockpit settings.",
+          "20–29s real plane descending towards runway, not claimed footage of failed engines.",
+          "29–38s actual rolling touchdown, end with animated descending altitude-energy graphic and aircraft wings as the payoff; no guarantee."
+        ],
+        "sources": [
+          "https://www.faa.gov/lessonslearned/transportairplane/accidents/N160US",
+          "https://www.pexels.com/video/a-passenger-airplane-descending-for-the-landing-3620476/",
+          "https://www.pexels.com/video/passenger-airplane-touchdown-on-airport-runway-37773542/"
+        ],
+        "status": "Source listing preflight completed, not actual shot QA; no export. No new generation with 55 credits and unresolved provider price discrepancy; exact voice must be preserved.",
+        "sourcePreflight": [
+          {
+            "url": "https://www.pexels.com/video/a-wing-of-an-airplane-flying-over-clouds-18516198/",
+            "format": "native 9:16 4K 5s",
+            "use": "candidate for initial visible moving wing; simulate thrust loss via clearly fictional graphic/audio, no claim stock depicts actual failure"
+          },
+          {
+            "url": "https://www.pexels.com/video/a-passenger-airplane-descending-for-the-landing-3620476/",
+            "format": "16:9 1080p 37s",
+            "use": "candidate descending action, verify vertical crop and aircraft continuity"
+          },
+          {
+            "url": "https://www.pexels.com/video/passenger-airplane-touchdown-on-airport-runway-37773542/",
+            "format": "16:9 4K 29s",
+            "use": "candidate runway touchdown with visible tyre smoke; must label illustrative and match aircraft or avoid continuity implication"
+          }
+        ]
+      },
+      "lookahead": [
+        {
+          "date": "2026-11-29",
+          "status": "QA/booking deadline missed; partial v2 HOLD, no approved reserve"
+        },
+        {
+          "date": "2026-11-30",
+          "status": "Export deadline missed; source listings checked, script/beat list only, no verified export or booking"
+        },
+        {
+          "date": "2026-12-02",
+          "status": "No verified booking"
+        },
+        {
+          "date": "2026-12-04",
+          "status": "No verified booking"
+        },
+        {
+          "date": "2026-12-06",
+          "status": "No verified booking"
+        }
+      ]
+    },
+    "compliance": {
+      "newGenerations": 0,
+      "creditsPurchased": 0,
+      "AI_TuberBalanceUnchanged": 55,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "existingBookingsChanged": false
+    },
+    "editorialRule": "User 28 Nov: title sparks concrete question; first two seconds visual curiosity; every scene a new clue, consequence or twist; ending answers title; historical evidence vs hypothetical causal escalation. No old asteroid repost."
   }
 }
