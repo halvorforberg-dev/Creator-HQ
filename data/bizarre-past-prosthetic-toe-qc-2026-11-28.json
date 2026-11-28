@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "channel": "Bizarre Past",
+  "title": "This 3,000-Year-Old Toe Could Walk",
+  "slot": "2026-12-04T18:00:00+01:00",
+  "checkedAt": "2026-11-28T08:26:00+01:00",
+  "decision": "PASS_BOOKED_PENDING",
+  "viewerLearnsAtEnd": "A three-part ancient Egyptian wooden-and-leather toe was probably a functional prosthesis worn in life, not merely a burial decoration.",
+  "factualQa": {
+    "pass": true,
+    "claims": [
+      "Cairo toe dated 950–710 BC; three-part wood and leather.",
+      "Replica gait tests used two volunteers missing the right big toe and replica Egyptian sandals.",
+      "Both volunteers could walk; one achieved nearly 78% of normal toe flexion with the wooden design.",
+      "Conclusion remains qualified as one of history's earliest working prostheses."
+    ],
+    "sources": [
+      "University of Manchester, 14 Feb 2011: Mummies’ false toes helped ancient Egyptians walk.",
+      "University of Manchester, 2 Oct 2012: Egyptian toes likely to be the world’s oldest prosthetics.",
+      "University of Basel LHTT: Wooden toe prosthesis from TT95."
+    ]
+  },
+  "provider": {
+    "projectId": "8caddf5b-fbea-4b22-8e09-2cbaae20ca6a",
+    "finalMediaId": "0c5b7331-8e7f-4f64-bbcd-4afc3016d87e",
+    "finalUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/0c5b7331-8e7f-4f64-bbcd-4afc3016d87e.mp4",
+    "voiceJobId": "680c2649-d5b8-4573-a056-09e59f611add",
+    "voice": {
+      "model": "elevenlabs_v4_turbo",
+      "preset": "Callum",
+      "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+      "pitchShift": false,
+      "settings": "provider defaults"
+    },
+    "musicJobId": "e68e7c95-7c87-4992-a87c-a553f1238df3",
+    "videoJobIds": [
+      "646b88ed-b80a-46d5-9c3d-faf0c9626382",
+      "8fdf4675-64cf-42d5-990f-eea2ca57c7e9",
+      "ddcf898f-66db-407d-abdf-368b3268a8ba",
+      "4525192c-a7b1-4827-a0da-18df41455756",
+      "c84d490c-d816-4963-b2b7-10c77b764f95"
+    ]
+  },
+  "technicalQa": {
+    "decode": "PASS",
+    "durationSeconds": 37.08,
+    "resolution": "1080x1920",
+    "frameRate": 30,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioChannels": 2,
+    "integratedLoudnessLUFS": -14.2,
+    "sha256": "65da40df7bf5682f9ff93e20c9251a4d45557f612cb7b0fc8bb05bec1935d18c"
+  },
+  "audiovisualQa": {
+    "deepAnalysisId": "6a2d2be6-e371-46ca-ad07-49667b4d5a92",
+    "providerDecision": "PASS",
+    "providerRating": "7/10",
+    "gates": {
+      "openingHook": "PASS — spoken and written Did you know within 0–2s",
+      "narrationTone": "PASS — conversational, curious, naturally paced; no pitch lowering",
+      "narrationCompleteness": "PASS — full final sentence completes cleanly",
+      "audioMix": "PASS — intelligible voice, subtle ambience/music, no clipping",
+      "sceneMatch": "PASS — artifact, construction, gait trial and payoff match narration",
+      "narrativeArc": "PASS — question-to-evidence arc with qualified conclusion",
+      "motionAndAnatomy": "PASS — full motion; stable hands/feet; five correct toe positions",
+      "textOverlay": "PASS — only small opening header; imagery unobstructed",
+      "claimPrecision": "PASS — no unsupported certainty"
+    }
+  },
+  "metricool": {
+    "brandId": 7296504,
+    "postId": 445210364,
+    "uuid": "1078325573965465939",
+    "publicationDate": {
+      "dateTime": "2026-12-04T18:00:00",
+      "timezone": "Europe/Oslo"
+    },
+    "youtubeStatus": "PENDING",
+    "tiktokStatus": "PENDING",
+    "youtubeTitle": "This 3,000-Year-Old Toe Could Walk",
+    "youtubeType": "short",
+    "madeForKids": false,
+    "aiGenerated": true,
+    "mediaUrl": "https://static.metricool.com/planner/202611/7296504-file-18266601322664221974.mp4"
+  },
+  "duplicateCheck": "PASS — fresh Metricool readback showed Dec 4 slot contained only this new post; Nov 29, Nov 30 and Dec 2 existing posts preserved.",
+  "reserve": {
+    "verifiedUnpublishedQaPassedCount": 1,
+    "title": "Roman Concrete Could Heal Its Own Cracks",
+    "allocated": false
+  },
+  "spending": {
+    "creditPurchase": 0,
+    "ads": 0,
+    "telegram": 0,
+    "littleWild": 0
+  },
+  "notes": "No Sunday slot changed. PENDING means scheduled, not published."
+}
