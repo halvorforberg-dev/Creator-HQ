@@ -7596,8 +7596,8 @@
       "lastVerifiedAtOslo": "2026-11-27T18:35:46+01:00",
       "evidence": "Bizarre Roman Concrete 37.407s 1080x1920, QA report and completed provider analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531, no matching future booking in fresh Metricool queue. What If Rogue Wave and Blackout exact exported masters independently deep AV FAIL; no eligible reserve.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-27T18:35:46+01:00",
-      "whatIfEvidence": "No verified unpublished QA-passed export; existing Mars/Volcano/GPS held; new Rogue Wave and Blackout deep AV FAILED.",
+      "whatIfLastVerifiedAtOslo": "2026-11-28T08:34:00+01:00",
+      "whatIfEvidence": "Blackout partial repaired draft still fails full QA; Rogue Wave, GPS, Volcano, Mars on hold, no approved reserve. 54 video record inventory and live Metricool queue checked.",
       "verifiedByChannel": {
         "bizarre": 1,
         "whatif": 0
@@ -9113,7 +9113,7 @@
     "creditsObservedAfterSubmit": 165,
     "interimDifference": 187,
     "finalCostUnconfirmed": true,
-    "currentStage": "ORIGINAL_EXPORTED_QA_FAIL_TARGETED_REPAIR_CLIP_PROCESSING",
+    "currentStage": "PARTIAL_REPAIR_DRAFT_EXPORTED_QA_HOLD_NOT_BOOKED",
     "recentGPSProject": "c928875a-4187-4185-ad66-563e900a26b6 EXPORTED QA HOLD, preserved and not re-generated; no confirmed Sunday booking; user's new requested subject gets editorial priority",
     "visualAuditMandatory": [
       "Immediate real moving city electrical blackout 0–2s with spoken and readable WHAT IF…?",
@@ -9141,7 +9141,7 @@
     "publishStatus": "NOT_PUBLISHED",
     "lastChecked": "2026-11-27T18:35:46+01:00",
     "source": "AI Tuber authenticated get_video and get_subscription",
-    "next": "Prioritize Sunday. Source/generate 4 missing linked motion beats: skyline blackout, visible stopped conveyor, neighbors organizing instead of turtle, same kitchen/person water pressure failure and dry tap after power restored. Check remaining narration/scene alignment. Reuse approved voice/audio where feasible; do not create superficially trimmed duplicate without source shots or book QA-failed export.",
+    "next": "Use persisted repair draft as non-approved intermediate; source actual factory-stop and same-faucet water-failure and recovery motion, then correct opening hold/captions and complete full audio/video QA; no new spend without verified cost and no new credit purchases.",
     "qaReport": {
       "title": "What If the Entire World Lost Power for 30 Days?",
       "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
@@ -9172,8 +9172,8 @@
       "resolution": "1080p",
       "durationSeconds": 5,
       "target": "Opening Manhattan night skyline visibly losing electrical power, replace 0:00–0:08 missing action; explicit single continuous shot, no daylight",
-      "providerStatus": "processing",
-      "outputUrl": null,
+      "providerStatus": "completed",
+      "outputUrl": "https://cdn.aituber.app/video-clips/org_3KohME0rcpuY4ShttDKq6LmM7mR/d76b7063-d0fa-4919-8caf-13c0547575d1/fal-kling-2-6-pro-1795801294324.mp4",
       "catalogEstimateCredits": 35,
       "providerSubmittedEstimateCredits": 70,
       "balanceBefore": 125,
@@ -9184,6 +9184,49 @@
       "originalDurationSeconds": 160.683,
       "originalPreserved": true,
       "remaining": "Review actual returned moving clip, do not treat raw clip as completed edit. Need factory stop, community replacing turtle, same dry-tap thread; remaining 55 credits, source existing/licensed footage and evaluate zero-credit edits before additional spend. Exact final MP4 AV QA required."
+    },
+    "repairDraft20261128": {
+      "title": "What If the Entire World Lost Power for 30 Days?",
+      "status": "PARTIAL_REPAIR_DRAFT_EXPORTED_NOT_QA_APPROVED",
+      "originalVideoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+      "originalExportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+      "originalSha256": "00ddae157a924cb9ad9e5ff0cd99150d7480a0c5df02e7c974f70e30c9fcbe39",
+      "openingClipId": "d76b7063-d0fa-4919-8caf-13c0547575d1",
+      "openingClipStatus": "completed; verified downloaded and visual frames show real cascading light loss",
+      "openingSha256": "f7df18ade718179c3acede49dcfd4feac7ef7b6fe10ec46da3f100a305101e51",
+      "draftMediaId": "3d64c17d-c33b-476e-b060-5097ffa32430",
+      "draftUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/3d64c17d-c33b-476e-b060-5097ffa32430.mp4",
+      "sha256": "ce52bbe065c540f0db135ddb2bd526ad07c4f6cc089c233f5167bea992462850",
+      "durationSeconds": 160.683,
+      "resolution": "1920x1080",
+      "bytes": 243008080,
+      "fullDecode": "PASS",
+      "originalAndDraftAudioStreamHash": "05ff9202611f58f92fb51772fe55a8cb4ce1630785759cab05367f7823b09c16",
+      "repairs": [
+        "0–7.8s: replaced wrong day footage with actual generated Manhattan blackout action starting immediately; visible WHAT IF...? and hypothetical reconstruction label; final dark shot held to match narration, needs more true motion and corrected dynamic captions before PASS.",
+        "110.9–115.1s: replaced unrelated underwater turtle with verified moving licensed volunteer distributing bottled water (Pexels 6646727); checked frames of draft. Audio retained bit-identically."
+      ],
+      "remaining": [
+        "Factory conveyor still runs during line 'The conveyor stops'. Need actual credible moving stop shot.",
+        "Family/kitchen continuity and final dry tap after restoration still not depicted; running water contradicts payoff. Candidate Pexels 4061892 hand turning faucet off is not proof of turning on without water. No use until visual test.",
+        "New opening still holds static dark frame after cascading motion; opening captions changed, check lip/narration/text timing and geographic continuity. Other existing weak scenes require review.",
+        "Full perceptual AV QA of revised exact master not passed; full decode and sample visual frames and unchanged audio stream are technical evidence, not full QA.",
+        "AI Tuber editor mutation not exposed by API; this draft is a private persisted media asset, not original project export replacement or provider booking. Complete direct publications/AutoPilot view unavailable."
+      ],
+      "sourceLicenses": [
+        {
+          "url": "https://www.pexels.com/video/elderly-man-receiving-donations-6646727/",
+          "used": true
+        },
+        {
+          "url": "https://www.pexels.com/video/a-person-turning-the-faucet-on-and-off-4061892/",
+          "used": false,
+          "reason": "does not conclusively depict the required dry tap"
+        }
+      ],
+      "booking": "NO BOOKING; do not schedule draft",
+      "published": false,
+      "newAITuberCreditsSpentThisRun": 0
     }
   },
   "publicationPreflight20261127": {
@@ -9718,6 +9761,142 @@
       "videoCredits": 100,
       "musicCredits": 5.53,
       "newPurchase": 0
+    }
+  },
+  "whatIfAgentCheck20261128": {
+    "checkedAtOslo": "2026-11-28T08:34:00+01:00",
+    "earliestSlot": "Sunday 29 Nov 18:00 16:9 blackout, export deadline passed, booking deadline Saturday 28 Nov 18:00; Friday Nov27 missed, no retroactive booking",
+    "queue": {
+      "metricool": "Authenticated What If brand 7751348, Nov27–Dec6: zero rows. No verified booking or new published receipt.",
+      "lastVerifiedPublic": "Gravity 26 Nov https://www.youtube.com/watch?v=2OldLaPls1Y; previous public vidIQ check Nov27 evening. Owned access expired; do not duplicate.",
+      "aiTuber": "54 video records; exact What If channel connected 78dcabfb-3657-41ab-89b8-8c04da2f43d5; no API for global publication list, AutoPilot or project scene mutation; latest browser evidence Nov26 paused/draft-only, no fresh UI readback.",
+      "storage": "Original exact hash downloaded; partial draft confirmed uploaded and stored (not public posting)."
+    },
+    "repair": {
+      "title": "What If the Entire World Lost Power for 30 Days?",
+      "status": "PARTIAL_REPAIR_DRAFT_EXPORTED_NOT_QA_APPROVED",
+      "originalVideoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
+      "originalExportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
+      "originalSha256": "00ddae157a924cb9ad9e5ff0cd99150d7480a0c5df02e7c974f70e30c9fcbe39",
+      "openingClipId": "d76b7063-d0fa-4919-8caf-13c0547575d1",
+      "openingClipStatus": "completed; verified downloaded and visual frames show real cascading light loss",
+      "openingSha256": "f7df18ade718179c3acede49dcfd4feac7ef7b6fe10ec46da3f100a305101e51",
+      "draftMediaId": "3d64c17d-c33b-476e-b060-5097ffa32430",
+      "draftUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/3d64c17d-c33b-476e-b060-5097ffa32430.mp4",
+      "sha256": "ce52bbe065c540f0db135ddb2bd526ad07c4f6cc089c233f5167bea992462850",
+      "durationSeconds": 160.683,
+      "resolution": "1920x1080",
+      "bytes": 243008080,
+      "fullDecode": "PASS",
+      "originalAndDraftAudioStreamHash": "05ff9202611f58f92fb51772fe55a8cb4ce1630785759cab05367f7823b09c16",
+      "repairs": [
+        "0–7.8s: replaced wrong day footage with actual generated Manhattan blackout action starting immediately; visible WHAT IF...? and hypothetical reconstruction label; final dark shot held to match narration, needs more true motion and corrected dynamic captions before PASS.",
+        "110.9–115.1s: replaced unrelated underwater turtle with verified moving licensed volunteer distributing bottled water (Pexels 6646727); checked frames of draft. Audio retained bit-identically."
+      ],
+      "remaining": [
+        "Factory conveyor still runs during line 'The conveyor stops'. Need actual credible moving stop shot.",
+        "Family/kitchen continuity and final dry tap after restoration still not depicted; running water contradicts payoff. Candidate Pexels 4061892 hand turning faucet off is not proof of turning on without water. No use until visual test.",
+        "New opening still holds static dark frame after cascading motion; opening captions changed, check lip/narration/text timing and geographic continuity. Other existing weak scenes require review.",
+        "Full perceptual AV QA of revised exact master not passed; full decode and sample visual frames and unchanged audio stream are technical evidence, not full QA.",
+        "AI Tuber editor mutation not exposed by API; this draft is a private persisted media asset, not original project export replacement or provider booking. Complete direct publications/AutoPilot view unavailable."
+      ],
+      "sourceLicenses": [
+        {
+          "url": "https://www.pexels.com/video/elderly-man-receiving-donations-6646727/",
+          "used": true
+        },
+        {
+          "url": "https://www.pexels.com/video/a-person-turning-the-faucet-on-and-off-4061892/",
+          "used": false,
+          "reason": "does not conclusively depict the required dry tap"
+        }
+      ],
+      "booking": "NO BOOKING; do not schedule draft",
+      "published": false,
+      "newAITuberCreditsSpentThisRun": 0
+    },
+    "creditControl": {
+      "observedBalance": 55,
+      "plan": "Studio 10000 included monthly",
+      "thisRunNewGeneration": 0,
+      "previousCostDiscrepancy": "KLING 2.6 PRO 5s 1080p catalog 35 vs provider 70; previous balance 125→55. Current balance 55, exact future binding quote absent. Stock 31s cost 42 observed; 35–40s estimated 47–67 exceeds balance at upper bound. No purchase."
+    },
+    "reserve": {
+      "verifiedCount": 0,
+      "reason": "Blackout repaired draft not passed, Rogue Wave, GPS, Volcano, Mars held; 48-hour day older unexported 32s script ends generic CTA, no strong surprise; not a QA reserve."
+    },
+    "independentShortPreproduction": {
+      "title": "What If Both Engines Failed at 35,000 Feet?",
+      "alternative": "What If a Passenger Jet Lost Both Engines?",
+      "finalPayoff": "An unpowered jet can continue flying forward as it descends: altitude is its stored energy, and a safe landing is possible but never guaranteed.",
+      "hooks": [
+        "What if BOTH engines stopped at 35,000 feet?",
+        "What if your jet suddenly lost all thrust?",
+        "What if the engine noise went silent midflight?",
+        "What if a passenger plane became a glider?"
+      ],
+      "selected": "first; use visible fictional engine thrust indicator change and moving aircraft, not fabricated real crash.",
+      "script": "What if both engines stopped at thirty-five thousand feet? The cabin goes quiet, but the plane does not drop out of the sky. Its wings still generate lift as it moves forward. The aircraft trades altitude for airspeed, becoming a giant glider. Depending on the weather, height and aircraft, it may still reach a runway. A landing is never guaranteed. Here's the surprise: the engines weren't holding the plane up. Its wings were. Now every metre of altitude is stored energy.",
+      "beats": [
+        "0–2s aircraft in flight moving over clouds, original clear simulated thrust indicators falling, WHAT IF on screen and audio; no explosion.",
+        "2–9s wing and moving horizon, no thrust, wind sound replaces engine hum, fictional illustrative footage.",
+        "9–20s animated cross-section of jet with lift and descending flight path; actual moving aircraft intercut, no instructional cockpit settings.",
+        "20–29s real plane descending towards runway, not claimed footage of failed engines.",
+        "29–38s actual rolling touchdown, end with animated descending altitude-energy graphic and aircraft wings as the payoff; no guarantee."
+      ],
+      "sources": [
+        "https://www.faa.gov/lessonslearned/transportairplane/accidents/N160US",
+        "https://www.pexels.com/video/a-passenger-airplane-descending-for-the-landing-3620476/",
+        "https://www.pexels.com/video/passenger-airplane-touchdown-on-airport-runway-37773542/"
+      ],
+      "status": "SCRIPT_AND_BEAT_LIST_ONLY; no duplicate title in 54 video records; source shot candidates not tested as full vertical master; do not spend until cost and actual controllable motion feasible. Monday candidate, not reserve."
+    },
+    "lookahead": [
+      {
+        "date": "2026-11-29",
+        "format": "16:9",
+        "exportDeadline": "2026-11-27 18:00",
+        "bookingDeadline": "2026-11-28 18:00",
+        "status": "Partial draft, QA HOLD, no booking"
+      },
+      {
+        "date": "2026-11-30",
+        "format": "Short",
+        "exportDeadline": "2026-11-28 18:00",
+        "bookingDeadline": "2026-11-29 18:00",
+        "status": "No approved reserve, separate aviation short brief; no confirmed affordable generation"
+      },
+      {
+        "date": "2026-12-02",
+        "format": "16:9",
+        "exportDeadline": "2026-11-30 18:00",
+        "bookingDeadline": "2026-12-01 18:00",
+        "status": "Unbooked; no verified reserve, prioritize after user-requested blackout"
+      },
+      {
+        "date": "2026-12-04",
+        "format": "Short",
+        "exportDeadline": "2026-12-02 18:00",
+        "bookingDeadline": "2026-12-03 18:00",
+        "status": "Unbooked; previous lightning-car brief pending feasible sources/cost"
+      },
+      {
+        "date": "2026-12-06",
+        "format": "16:9",
+        "exportDeadline": "2026-12-04 18:00",
+        "bookingDeadline": "2026-12-05 18:00",
+        "status": "Unbooked; no verified approved long-form reserve"
+      }
+    ],
+    "compliance": {
+      "newGenerations": 0,
+      "partialEditedDrafts": 1,
+      "bookings": 0,
+      "newPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "existingBookingsChanged": false
     }
   }
 }
