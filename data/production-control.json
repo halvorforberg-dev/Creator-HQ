@@ -7593,11 +7593,11 @@
       "minimumPerActiveChannel": 1,
       "definition": "Unpublished, fully QA-approved export, metadata ready, correct channel, appropriate format; prefer matching long-form/Short, never publish wrong format silently or duplicate. Maintain as budget allows; no credit purchases. Replenish after use.",
       "currentVerifiedCount": 1,
-      "lastVerifiedAtOslo": "2026-11-27T18:35:46+01:00",
-      "evidence": "Bizarre Roman Concrete 37.407s 1080x1920, QA report and completed provider analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531, no matching future booking in fresh Metricool queue. What If Rogue Wave and Blackout exact exported masters independently deep AV FAIL; no eligible reserve.",
+      "lastVerifiedAtOslo": "2026-11-28T16:40:00+01:00",
+      "evidence": "Fresh Metricool Nov28–Dec6 queue and completed Higgsfield analysis dfe85f36-6b37-4dc0-a0d0-7e5161623531 matching reserve media 59cbf763-c0c2-4031-9e52-86a785ee9cb4; no allocation or matching future booking.",
       "whatIfVerifiedCount": 0,
-      "whatIfLastVerifiedAtOslo": "2026-11-28T08:34:00+01:00",
-      "whatIfEvidence": "Blackout partial repaired draft still fails full QA; Rogue Wave, GPS, Volcano, Mars on hold, no approved reserve. 54 video record inventory and live Metricool queue checked.",
+      "whatIfLastVerifiedAtOslo": "2026-11-28T16:40:00+01:00",
+      "whatIfEvidence": "Partial Blackout v2 exported and private media confirmed, not full QA PASS. No verified eligible reserve or booking; balance 55.",
       "verifiedByChannel": {
         "bizarre": 1,
         "whatif": 0
@@ -9886,6 +9886,30 @@
       "telegram": 0,
       "littleWild": 0,
       "existingBookingsChanged": false
+    },
+    "publicationPreflightRepairV2": {
+      "status": "PARTIAL_REPAIR_V2_EXPORTED_NOT_QA_APPROVED",
+      "previousDraftMediaId": "3d64c17d-c33b-476e-b060-5097ffa32430",
+      "candidateShotMediaId": "a6dd7d9f-5e08-4002-88f1-005accaade90",
+      "candidateShotSha256": "0f2a6ba0a21c053fa4ec3a7b7271d3da2db45e7962e2778f7fdf3ec1700293ab",
+      "privateMasterMediaId": "d18ca246-1afc-4ab4-8e04-aa0e8193aa5e",
+      "privateMasterUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/d18ca246-1afc-4ab4-8e04-aa0e8193aa5e.mp4",
+      "sha256": "b5802517471e7f5439a59917b7a399346d2a998996e696aaafd65c6c0aa69c48",
+      "durationSeconds": 160.683,
+      "bytes": 242722980,
+      "fullDecode": "PASS",
+      "audioStreamSha256": "05ff9202611f58f92fb51772fe55a8cb4ce1630785759cab05367f7823b09c16",
+      "audioUnchanged": true,
+      "repair": "Reused actual moving conveyor footage at 30.700–35.133s; cropped burned captions, time-remapped motion to decelerate then hold stationary for approximately 1.43s, darkened modestly, labeled simulated power failure, added restrained replacement captions; rendered full private v2. Inspected sampled final frames. This is an edited illustration, not an independently filmed real factory blackout; stop hold is not a new full-motion generation. Caption timing and convincing perceptual effect still require full review.",
+      "remaining": [
+        "Dry-tap/same-family continuity and water restoration payoff remain uncorrected; running water contradicts the ending.",
+        "Opening dark hold and caption pacing remain; other scenes need full perceptual AV review.",
+        "Factory repair is a retimed simulation with a brief still ending; not a certified cinematic scene pass.",
+        "Exact full v2 has not passed full audiovisual QA. Technical decode, unchanged audio hash, and frame samples alone do not qualify.",
+        "AI Tuber has no global publication-list endpoint found; connected channel is verified, but no publication ID or direct booking for blackout exists in records. Fresh Metricool queue empty."
+      ],
+      "providerEvidence": "Higgsfield upload HTTP 200, media_confirm status uploaded, no YouTube publication",
+      "creditsSpentThisRun": 0
     }
   },
   "bizarrePastSundayProduction20261128": {
@@ -9952,5 +9976,147 @@
     "blocker": null,
     "userActionRequired": false,
     "telegramTriggered": false
+  },
+  "publicationPreflight20261128": {
+    "checkedAtOslo": "2026-11-28T16:40:00+01:00",
+    "horizonThrough": "2026-12-06",
+    "ordinarySaturdayReleaseExpected": false,
+    "bizarre": {
+      "todayCorrectiveYouTube": {
+        "postId": 445219000,
+        "providerStatus": "PUBLISHED",
+        "videoId": "y-N6IlVyNtQ",
+        "publicUrl": "https://www.youtube.com/shorts/y-N6IlVyNtQ",
+        "time": "08:45",
+        "tiktok": "Not included in corrective upload; original Friday TikTok already published."
+      },
+      "future": [
+        {
+          "date": "2026-11-29",
+          "time": "18:00",
+          "title": "They Opened Jesus’ Tomb—What Did They Find?",
+          "postId": 443204423,
+          "uuid": "6713892857688049338",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-11-30",
+          "time": "18:00",
+          "title": "This 4,500-Year-Old Diary Reveals How Stone Reached the Great Pyramid",
+          "postId": 445221926,
+          "uuid": "-483800662805034080",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-12-02",
+          "time": "18:00",
+          "title": "The Ancient Blessing Hidden Inside Two Silver Scrolls",
+          "postId": 444027305,
+          "uuid": "-6247129281501248812",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-12-04",
+          "time": "18:00",
+          "title": "This 3,000-Year-Old Toe Could Walk",
+          "postId": 445210364,
+          "uuid": "1078325573965465939",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        },
+        {
+          "date": "2026-12-06",
+          "time": "18:00",
+          "title": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+          "postId": 445256438,
+          "uuid": "3396284480668780621",
+          "youtube": "PENDING",
+          "tiktok": "PENDING",
+          "autoPublish": true
+        }
+      ],
+      "reserve": {
+        "count": 1,
+        "mediaId": "59cbf763-c0c2-4031-9e52-86a785ee9cb4",
+        "analysisId": "dfe85f36-6b37-4dc0-a0d0-7e5161623531",
+        "analysisStatus": "completed",
+        "mediaMatch": true,
+        "notInFreshQueue": true,
+        "priorDocumentedQa": "PASS",
+        "allocated": false
+      }
+    },
+    "whatif": {
+      "futureMetricoolRows": 0,
+      "aiTuberExactChannelId": "UCUZ1h_XukdY1IQvwwuEnW0Q",
+      "aiTuberConnected": true,
+      "globalDirectQueue": "Unavailable via documented API; no publication ID in current records",
+      "currentCredits": 55,
+      "reserveCount": 0,
+      "earliestSlot": "2026-11-29 18:00",
+      "bookingDeadline": "2026-11-28 18:00",
+      "repair": {
+        "status": "PARTIAL_REPAIR_V2_EXPORTED_NOT_QA_APPROVED",
+        "previousDraftMediaId": "3d64c17d-c33b-476e-b060-5097ffa32430",
+        "candidateShotMediaId": "a6dd7d9f-5e08-4002-88f1-005accaade90",
+        "candidateShotSha256": "0f2a6ba0a21c053fa4ec3a7b7271d3da2db45e7962e2778f7fdf3ec1700293ab",
+        "privateMasterMediaId": "d18ca246-1afc-4ab4-8e04-aa0e8193aa5e",
+        "privateMasterUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/d18ca246-1afc-4ab4-8e04-aa0e8193aa5e.mp4",
+        "sha256": "b5802517471e7f5439a59917b7a399346d2a998996e696aaafd65c6c0aa69c48",
+        "durationSeconds": 160.683,
+        "bytes": 242722980,
+        "fullDecode": "PASS",
+        "audioStreamSha256": "05ff9202611f58f92fb51772fe55a8cb4ce1630785759cab05367f7823b09c16",
+        "audioUnchanged": true,
+        "repair": "Reused actual moving conveyor footage at 30.700–35.133s; cropped burned captions, time-remapped motion to decelerate then hold stationary for approximately 1.43s, darkened modestly, labeled simulated power failure, added restrained replacement captions; rendered full private v2. Inspected sampled final frames. This is an edited illustration, not an independently filmed real factory blackout; stop hold is not a new full-motion generation. Caption timing and convincing perceptual effect still require full review.",
+        "remaining": [
+          "Dry-tap/same-family continuity and water restoration payoff remain uncorrected; running water contradicts the ending.",
+          "Opening dark hold and caption pacing remain; other scenes need full perceptual AV review.",
+          "Factory repair is a retimed simulation with a brief still ending; not a certified cinematic scene pass.",
+          "Exact full v2 has not passed full audiovisual QA. Technical decode, unchanged audio hash, and frame samples alone do not qualify.",
+          "AI Tuber has no global publication-list endpoint found; connected channel is verified, but no publication ID or direct booking for blackout exists in records. Fresh Metricool queue empty."
+        ],
+        "providerEvidence": "Higgsfield upload HTTP 200, media_confirm status uploaded, no YouTube publication",
+        "creditsSpentThisRun": 0
+      },
+      "lookahead": [
+        {
+          "date": "2026-11-29",
+          "status": "Partial v2 export, QA HOLD, no confirmed booking"
+        },
+        {
+          "date": "2026-11-30",
+          "status": "Aviation Short preproduction only, no verified export; deadline today 18:00"
+        },
+        {
+          "date": "2026-12-02",
+          "status": "No verified booking"
+        },
+        {
+          "date": "2026-12-04",
+          "status": "No verified booking"
+        },
+        {
+          "date": "2026-12-06",
+          "status": "No verified booking"
+        }
+      ]
+    },
+    "editorialRule": "User 28 Nov: title sparks concrete question; first two seconds visual curiosity; every scene a new clue, consequence or twist; ending answers title; historical evidence vs hypothetical causal escalation. No old asteroid repost.",
+    "compliance": {
+      "newPaidGeneration": 0,
+      "newPurchases": 0,
+      "ads": 0,
+      "telegram": 0,
+      "littleWild": 0,
+      "existingBookingsChanged": false
+    }
   }
 }
