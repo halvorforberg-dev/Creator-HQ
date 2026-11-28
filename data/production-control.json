@@ -9455,7 +9455,7 @@
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   },
   "bizarrePastWorkflowCheckLatest": {
-    "checkedAt": "2026-11-28T03:22:22+01:00",
+    "checkedAt": "2026-11-28T06:33:40+01:00",
     "timezone": "Europe/Oslo",
     "source": "Authenticated Metricool brand settings/queue and TikTok analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
     "connections": {
@@ -9468,7 +9468,7 @@
       "tiktokAccount": "bizzare.past",
       "tiktokConnected": true,
       "tiktokDisplayName": "BIZARRE PAST",
-      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; the Metricool internal brand label remains misspelled but is not the public display name.",
+      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; Metricool's internal brand label is not the public display name.",
       "userActionRequired": false
     },
     "metricool": {
@@ -9516,7 +9516,7 @@
         }
       ],
       "tiktokEarlyMetricRow": {
-        "observedAt": "2026-11-28T03:22:22+01:00",
+        "observedAt": "2026-11-28T06:33:40+01:00",
         "publishedDate": "2026-11-27",
         "durationSeconds": 39,
         "requestedMetricValues": {
@@ -9537,8 +9537,8 @@
     "vidiq": {
       "access": "CONNECTED",
       "authenticatedAs": "halvorforberg@gmail.com",
-      "totalCredits": 1752,
-      "renewableCredits": 1750,
+      "totalCredits": 1742,
+      "renewableCredits": 1740,
       "addOnCredits": 2,
       "renewalAt": "2026-12-21T20:09:10Z",
       "activeJobs": 0,
@@ -9548,10 +9548,10 @@
         "title": "They Found the Pool Named in John—What Does It Prove?",
         "status": "public_processed",
         "duration": "PT40S",
-        "views": 93,
+        "views": 97,
         "likes": 4,
         "comments": 0,
-        "observedAt": "2026-11-28T03:22:22+01:00"
+        "observedAt": "2026-11-28T06:33:40+01:00"
       }
     },
     "higgsfield": {
