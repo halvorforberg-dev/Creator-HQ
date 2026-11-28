@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27",
+  "updatedAt": "2026-11-28",
   "timezone": "Europe/Oslo",
   "governingRules": {
     "publishTime": "18:00",
@@ -9455,9 +9455,9 @@
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   },
   "bizarrePastWorkflowCheckLatest": {
-    "checkedAt": "2026-11-27T22:55:00+01:00",
+    "checkedAt": "2026-11-28T03:22:22+01:00",
     "timezone": "Europe/Oslo",
-    "source": "Authenticated Metricool brand settings and queue; Metricool TikTok post analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
+    "source": "Authenticated Metricool brand settings/queue and TikTok analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
     "connections": {
       "metricoolBrandId": 7296504,
       "metricoolInternalLabel": "BIZZARE PAST",
@@ -9468,11 +9468,11 @@
       "tiktokAccount": "bizzare.past",
       "tiktokConnected": true,
       "tiktokDisplayName": "BIZARRE PAST",
-      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; current Metricool internal brand label remains misspelled but is not the public display name.",
+      "tiktokDisplayNameEvidence": "Previously platform-verified 2026-11-26; the Metricool internal brand label remains misspelled but is not the public display name.",
       "userActionRequired": false
     },
     "metricool": {
-      "publishedToday": {
+      "latestPublished": {
         "title": "They Found the Pool Named in John—What Does It Prove?",
         "postId": 443297110,
         "uuid": "-1414575147247844227",
@@ -9515,7 +9515,23 @@
           "tiktok": "PENDING"
         }
       ],
-      "tiktokAnalytics": "No post analytics rows returned yet for 2026-11-27; reporting lag, not a verified failure.",
+      "tiktokEarlyMetricRow": {
+        "observedAt": "2026-11-28T03:22:22+01:00",
+        "publishedDate": "2026-11-27",
+        "durationSeconds": 39,
+        "requestedMetricValues": {
+          "TKPO01": 39,
+          "TKPO02": 235,
+          "TKPO03": 1,
+          "TKPO05": 0,
+          "TKPO06": 0,
+          "TKPO07": null,
+          "TKPO08": null,
+          "TKPO09": null,
+          "TKPO10": null
+        },
+        "limitation": "Metricool returned a partial row; retention, viewed-versus-swiped and subscriber conversion are not yet available and are not inferred."
+      },
       "existingBookingsPreserved": true
     },
     "vidiq": {
@@ -9532,10 +9548,10 @@
         "title": "They Found the Pool Named in John—What Does It Prove?",
         "status": "public_processed",
         "duration": "PT40S",
-        "views": 69,
+        "views": 93,
         "likes": 4,
         "comments": 0,
-        "observedAt": "2026-11-27T22:55:00+01:00"
+        "observedAt": "2026-11-28T03:22:22+01:00"
       }
     },
     "higgsfield": {
