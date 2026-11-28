@@ -7847,7 +7847,7 @@
     "userActionRequired": null,
     "telegram": "DISABLED_NO_MESSAGES_SENT"
   },
-  "lastUpdatedAt": "2026-11-27T08:33:00+01:00",
+  "lastUpdatedAt": "2026-11-28T09:54:00+01:00",
   "whatIfAgentCheck20261126": {
     "checkedAtOslo": "2026-11-26T08:41:00+01:00",
     "earliestSlot": "Exceptional Thu Nov26 18:00 Gravity catch-up, export done but QA failure",
@@ -9898,5 +9898,70 @@
       "littleWild": 0,
       "existingBookingsChanged": false
     }
+  },
+  "bizarrePastSundayProduction20261128": {
+    "checkedAt": "2026-11-28T09:54:00+01:00",
+    "scope": "Bizarre Past Sunday only; kept separate from Mon/Wed/Fri agent",
+    "horizonCheckedThrough": "2026-12-06T23:59:59+01:00",
+    "slot": {
+      "scheduledAt": "2026-12-06T18:00:00+01:00",
+      "title": "They Buried a 42-Metre Ship Beside the Great Pyramid—Why?",
+      "format": "16:9 long-form",
+      "status": "BOOKED_PENDING",
+      "existingBookingsPreserved": true
+    },
+    "providerEvidence": {
+      "productionProvider": "Higgsfield",
+      "finalMediaId": "43545c5d-6450-43d6-9c4d-4b0f6f19e6b3",
+      "finalMediaUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3KEwZ8d6kIJfqfz4KULWre5pMv8/43545c5d-6450-43d6-9c4d-4b0f6f19e6b3.mp4",
+      "metricoolPostId": 445256438,
+      "metricoolUuid": "3396284480668780621",
+      "metricoolPlannerUrl": "https://app.metricool.com/planner/calendar?blogId=7296504&openWithPostUuid=3396284480668780621",
+      "youtubeStatus": "PENDING",
+      "tiktokStatus": "PENDING",
+      "verifiedScheduledTime": "2026-12-06T18:00:00 Europe/Oslo"
+    },
+    "qa": {
+      "result": "PASS",
+      "documentedAt": "data/bizarre-past-khufu-ship-qc-2026-11-28.json",
+      "deepAnalysisId": "614a58fe-718d-4506-94eb-1cd3a50f932f",
+      "exactLegacyVoice": {
+        "engine": "elevenlabs_v4_turbo",
+        "preset": "Callum",
+        "voiceId": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+        "pitchShift": false,
+        "perceptualGate": "PASS"
+      },
+      "durationSeconds": 175.348,
+      "dimensions": "1920x1080",
+      "fps": 30,
+      "sha256": "a48f4470844c9624aaba735095c93801b8713c96447137cd8a042d5a6102919a",
+      "completeEndingVerified": true,
+      "numericCaptionGate": "PASS: 42.32 metres together",
+      "reconstructionLabelsVerified": true
+    },
+    "reliability": {
+      "exportCompletedAt": "2026-11-28T09:40:00+01:00",
+      "exportDeadline": "2026-12-04T18:00:00+01:00",
+      "qaAndBookingCompletedAt": "2026-11-28T09:54:00+01:00",
+      "qaAndBookingDeadline": "2026-12-05T18:00:00+01:00",
+      "deadlineCompliance": "PASS"
+    },
+    "budget": {
+      "higgsfieldCreditsObservedAfterCompletion": 146.59,
+      "newPurchases": 0,
+      "enoughForApproxOneTypicalShortAtObservedRecentCost": true
+    },
+    "reserve": {
+      "verified": true,
+      "title": "Roman Concrete",
+      "status": "unpublished, unallocated, final MP4 and deep-QA PASS",
+      "durationSeconds": 37.407,
+      "resolution": "1080x1920",
+      "consumed": false
+    },
+    "blocker": null,
+    "userActionRequired": false,
+    "telegramTriggered": false
   }
 }
