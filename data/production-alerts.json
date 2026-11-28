@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T16:40:00+01:00",
+  "updatedAt": "2026-11-28T18:36:11+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -598,24 +598,34 @@
         "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
         "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
         "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83",
-        "latestEvidence": "Private v2 confirmed by Higgsfield upload and media_confirm, actual FFmpeg full decode and sampled edited frames, identical audio stream SHA256, fresh authenticated Metricool queue and AI Tuber account/list.",
-        "control": "data/production-control.json#publicationPreflight20261128",
+        "latestEvidence": "Authenticated Metricool brand settings/getScheduledPosts, AI Tuber get_video/list_videos/list_channels/get_subscription, video-analysis reserve status; local DNS download failure; public web player unavailable; vidIQ owner access rejected.",
+        "control": "data/production-control.json#publicationPostflight20261128",
         "draftSha256": "ce52bbe065c540f0db135ddb2bd526ad07c4f6cc089c233f5167bea992462850",
         "latestDraftMediaId": "d18ca246-1afc-4ab4-8e04-aa0e8193aa5e",
         "latestDraftSha256": "b5802517471e7f5439a59917b7a399346d2a998996e696aaafd65c6c0aa69c48"
       },
-      "summary": "Sunday blackout remains HOLD, no verified booking. Private 160.683s v2 has been rendered, full technical decode passed and original audio SHA256 unchanged. The conveyor shot now uses retimed footage illustrating a stop and small reconstruction label; sampled frames verified. It is not a full perceptual AV pass. Remaining dry tap/ending contradiction, continuity, opening/caption pacing and full AV QA. AI Tuber balance 55; no new credits used in preflight. Fresh Metricool Nov28–Dec6 What If queue empty; no direct publication receipt; no eligible reserve.",
-      "action": "Use persisted v2 media d18ca246-1afc-4ab4-8e04-aa0e8193aa5e for further editing, not the old failed original. Replace contradictory running-water ending with a verified dry-tap visual; verify opening and captions, factory stop plausibility and full AV perceptual QA before booking. Do not duplicate or purchase credits; preserve all bookings.",
+      "summary": "Sunday 29 Nov blackout missed Saturday 18:00 QA/booking deadline. Metricool authenticated 28 Nov–6 Dec queue empty; AI Tuber original 161s generated/exported, private repaired v2 not full AV PASS. Tried fetching v2 for zero-credit revision; DNS failure and alternative download inaccessible. Found candidate faucet footage listings, but not verified actual action; no new master. Dry tap and coherent payoff, opening/caption pacing, convincing factory stop and full exact-master AV QA remain. No eligible reserve; 55 AI Tuber credits observed. Direct YouTube owner authorization expired/revoked/missing, API only offers publication by known ID. No verified booking or publication; not a confirmed provider upload failure.",
+      "action": "Restore access to the persisted v2 MP4; verify and replace final dry-tap sequence, preserve audio/voice, complete full perceptual QA and duplicate-safe provider read-back. Confirm actual cost before further paid generation. Reconnect YouTube owner access if required for complete queue clearance. Independent Monday aviation source preflight recorded; no approved export. Do not publish unchecked, buy credits, send Telegram or duplicate any existing video.",
       "channel": "What If in 40 Seconds",
       "state": "open",
       "severity": "blocker",
       "category": "quality_gate_blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-27T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-28T16:40:00+01:00",
+      "lastCheckedAt": "2026-11-28T18:36:11+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
-      "notificationPolicy": "NO TELEGRAM"
+      "notificationPolicy": "NO TELEGRAM",
+      "latestPostflight": {
+        "date": "2026-11-28T18:36:11+01:00",
+        "bookingDeadlineMissed": true,
+        "metricoolRows": 0,
+        "directBooking": "UNVERIFIED",
+        "reserveCount": 0,
+        "balance": 55,
+        "repair": "SOURCE_PREFLIGHT_ONLY; exact v2 inaccessible",
+        "newCreditsPurchased": 0
+      }
     }
   ]
 }
