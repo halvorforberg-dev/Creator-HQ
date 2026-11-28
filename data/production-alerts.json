@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T18:35:46+01:00",
+  "updatedAt": "2026-11-28T08:34:00+01:00",
   "purpose": "Track confirmed creator-production blockers. Telegram notifications are disabled by user request 2026-11-18; the GitHub Telegram workflow is validation-only.",
   "policy": {
     "notifyIf": "A production/publication/dependency has actually stopped or is blocked; proven by recent provider data, authenticated live check or direct provider confirmation, with explicit next action.",
@@ -597,17 +597,20 @@
         "videoId": "74b3bc0d-1e52-42f2-86a8-5c94e623023d",
         "exportId": "a7374259-3498-44e7-a03c-2c35e3e1d097",
         "mediaId": "de2844f7-c918-4bbc-8bfc-f7f31db57c1c",
-        "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83"
+        "analysisId": "9e68ca25-4b1a-4d8e-bb6a-238587e50a83",
+        "latestEvidence": "Authenticated AI Tuber clip status completed, matching original SHA, sandbox frame inspection and FFmpeg full decode, confirmed private draft media ID 3d64c17d-c33b-476e-b060-5097ffa32430, live Metricool 7751348 empty Nov27–Dec6",
+        "control": "data/production-control.json#whatIfAgentCheck20261128",
+        "draftSha256": "ce52bbe065c540f0db135ddb2bd526ad07c4f6cc089c233f5167bea992462850"
       },
-      "summary": "Original 160.683s completed export remains full AV QA FAILED, no booking. Corrective 5s 1080p Manhattan skyline blackout clip submitted, provider processing, d76b7063-d0fa-4919-8caf-13c0547575d1. Actual balance 125 to 55 (70 credits, catalog suggested 35). No new purchases. Remaining factory stop, community/turtle and family/dry tap scenes need repair; no final QA pass.",
-      "action": "Inspect completed targeted clip; reconcile quote discrepancy and use existing/licensed footage or verified zero-credit edits for remaining beats before any further spending. Preserve original. Final AV pass and confirmed duplicate-free provider booking by Nov28 18:00 if feasible. Do not claim recovery from raw clip alone.",
+      "summary": "Original blackout master remains QA FAILED. Previously paid 5s Manhattan clip completed and actual frames show a cascading loss of light. A private 160.683s partial repair draft has been rendered and stored: actual blackout opening and licensed volunteer footage replacing the unrelated turtle. Full decode PASS, unchanged audio stream hash, 1080p; no complete AV pass or booking. Factory stop, same-family dry tap/payoff and opening motion/captions still need work. Current AITuber balance 55; earlier 70-credit cost mismatch unresolved. Metricool Nov27–Dec6 queue empty.",
+      "action": "Use the persisted partial draft, not the failed original or a duplicate upload. Source actual stopping machinery and water-failure/recovery shots, resolve remaining opening pacing and full AV, verify exact final master before any scheduling. No further paid generation until cost established; no purchases. Keep existing bookings intact.",
       "channel": "What If in 40 Seconds",
       "state": "open",
       "severity": "blocker",
       "category": "quality_gate_blocker",
       "confirmed": true,
       "confirmedAt": "2026-11-27T16:35:00+01:00",
-      "lastCheckedAt": "2026-11-27T18:35:46+01:00",
+      "lastCheckedAt": "2026-11-28T08:34:00+01:00",
       "notificationRevision": 1,
       "ownerActionRequired": false,
       "notificationPolicy": "NO TELEGRAM"
