@@ -9455,7 +9455,7 @@
     "noChanges": "No reuploads, removal, or rescheduling of existing posted/confirmed booked videos without separate user instruction. No ads, new credits, Little Wild or Telegram."
   },
   "bizarrePastWorkflowCheckLatest": {
-    "checkedAt": "2026-11-28T08:27:00+01:00",
+    "checkedAt": "2026-11-28T08:28:00+01:00",
     "timezone": "Europe/Oslo",
     "source": "Authenticated Metricool brand settings/queue and TikTok analytics; vidIQ owned-channel, balance, jobs and owned-video readback; Higgsfield balance and 50-item live generation feed.",
     "connections": {
@@ -9545,8 +9545,8 @@
     "vidiq": {
       "access": "CONNECTED",
       "authenticatedAs": "halvorforberg@gmail.com",
-      "totalCredits": 1742,
-      "renewableCredits": 1740,
+      "totalCredits": 1737,
+      "renewableCredits": 1735,
       "addOnCredits": 2,
       "renewalAt": "2026-12-21T20:09:10Z",
       "activeJobs": 0,
